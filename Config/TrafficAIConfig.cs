@@ -26,6 +26,15 @@ namespace REALIS.Config
         /// <summary>Maximum bypass distance for natural lane changes.</summary>
         public const float RealisticBypassDistance = 6.0f;
 
+        /// <summary>Radius used for capsule raycasts during obstacle checks.</summary>
+        public const float ScanCapsuleRadius = 2.5f;
+
+        /// <summary>Minimum separation from other vehicles when selecting a bypass.</summary>
+        public const float VehicleSeparation = 8.0f;
+
+        /// <summary>Frame count after which a bypass is considered stuck.</summary>
+        public const int BypassStuckFrames = 100;
+
         /// <summary>Update interval in frames.</summary>
         public const int UpdateInterval = 50;
 
