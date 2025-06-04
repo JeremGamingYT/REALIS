@@ -66,11 +66,27 @@ namespace REALIS.TrafficAI
                     .Take(MaxSimultaneousProcessing)
                     .ToList();
 
+                var emergencyVehicles = new List<Vehicle>();
+                try
+                {
+                    if (IsEmergencyActive(playerVehicle))
+                        emergencyVehicles.Add(playerVehicle);
+
+                    emergencyVehicles.AddRange(
+                        nearby.Where(v => v != playerVehicle &&
+                                          v.Model.IsEmergencyVehicle &&
+                                          v.IsSirenActive));
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error($"Emergency vehicle scan error: {ex.Message}");
+                }
+
                 foreach (var veh in relevantVehicles)
                 {
                     if (_processedThisTick >= MaxSimultaneousProcessing) break;
-                    
-                    ProcessVehicle(veh, playerVehicle);
+
+                    ProcessVehicle(veh, playerVehicle, emergencyVehicles);
                     _processedThisTick++;
                 }
 
@@ -113,7 +129,7 @@ namespace REALIS.TrafficAI
             return true;
         }
 
-        private void ProcessVehicle(Vehicle veh, Vehicle playerVehicle)
+        private void ProcessVehicle(Vehicle veh, Vehicle playerVehicle, List<Vehicle> emergencyVehicles)
         {
             try
             {
@@ -130,7 +146,7 @@ namespace REALIS.TrafficAI
 
                 info.LastSeen = DateTime.Now;
 
-                UpdateVehicleIntelligently(info, playerVehicle);
+                UpdateVehicleIntelligently(info, playerVehicle, emergencyVehicles);
             }
             catch (Exception ex)
             {
@@ -146,12 +162,29 @@ namespace REALIS.TrafficAI
             }
         }
 
-        private void UpdateVehicleIntelligently(BlockedVehicleInfo info, Vehicle playerVehicle)
+        private void UpdateVehicleIntelligently(BlockedVehicleInfo info, Vehicle playerVehicle, List<Vehicle> emergencyVehicles)
         {
             Vehicle veh = info.Vehicle;
             Ped driver = info.Driver;
 
             if (veh == null || !veh.Exists() || driver == null || !driver.Exists()) return;
+
+            if (emergencyVehicles.Count > 0)
+            {
+                try
+                {
+                    if (HandleEmergencyYield(veh, driver, emergencyVehicles))
+                    {
+                        _lastActionTime[veh.Handle] = DateTime.Now;
+                        ResetVehicleState(info);
+                        return;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error($"Emergency yield error: {ex.Message}");
+                }
+            }
 
             // Respect du cooldown
             if (_lastActionTime.TryGetValue(veh.Handle, out var lastAction))
@@ -432,6 +465,65 @@ namespace REALIS.TrafficAI
             info.HasReversed = false;
             info.LastReverseTime = DateTime.MinValue;
             // Les tentatives de contournement ne sont pas réinitialisées pour éviter les boucles
+        }
+
+        private bool IsEmergencyActive(Vehicle veh)
+        {
+            try
+            {
+                return veh != null && veh.Exists() && veh.Model.IsEmergencyVehicle && veh.IsSirenActive;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private bool HandleEmergencyYield(Vehicle veh, Ped driver, List<Vehicle> emergencies)
+        {
+            foreach (var emer in emergencies)
+            {
+                if (emer == null || !emer.Exists() || emer == veh) continue;
+
+                try
+                {
+                    Vector3 toVeh = veh.Position - emer.Position;
+                    float distance = toVeh.Length();
+                    Vector3 emerForward = emer.ForwardVector;
+                    float dot = Vector3.Dot(emerForward, toVeh);
+
+                    if (dot > 0 && distance < 30f)
+                    {
+                        Vector3 target = veh.Position + veh.RightVector * 5f;
+                        Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD,
+                            driver.Handle,
+                            veh.Handle,
+                            target.X, target.Y, target.Z,
+                            10f,
+                            0,
+                            2f);
+                        return true;
+                    }
+                    else if (dot < 0 && distance < 20f && emer == Game.Player.Character.CurrentVehicle)
+                    {
+                        Vector3 target = veh.Position + veh.RightVector * 5f + veh.ForwardVector * 10f;
+                        Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD,
+                            driver.Handle,
+                            veh.Handle,
+                            target.X, target.Y, target.Z,
+                            15f,
+                            (int)VehicleDrivingFlags.SwerveAroundAllVehicles,
+                            4f);
+                        return true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error($"Emergency yield task error: {ex.Message}");
+                }
+            }
+
+            return false;
         }
 
         private void CleanupInvalidEntries()
