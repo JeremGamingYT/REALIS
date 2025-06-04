@@ -16,5 +16,11 @@ namespace REALIS.Config
 
         /// <summary>Update interval in frames.</summary>
         public const int UpdateInterval = 50;
+
+        /// <summary>Duration in frames to keep bypass state for a vehicle.</summary>
+        public const int BypassDuration = 150;
+
+        /// <summary>Show debug subtitles when actions occur.</summary>
+        public const bool ShowDebug = true;
     }
 }
