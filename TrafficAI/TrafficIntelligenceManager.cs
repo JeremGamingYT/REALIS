@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using REALIS.Common;
 using REALIS.Core;
+using REALIS.Config;
 
 namespace REALIS.TrafficAI
 {
@@ -187,7 +188,7 @@ namespace REALIS.TrafficAI
             // Contournement adaptatif
             if (ShouldAttemptBypass(info, blockageInfo))
             {
-                if (PerformIntelligentBypass(driver, veh, blockageInfo))
+                if (PerformRealisticBypass(info, playerVehicle, blockageInfo))
                 {
                     info.BypassAttempts++;
                     info.BlockedTime = 0f;
@@ -243,7 +244,7 @@ namespace REALIS.TrafficAI
             Vector3 start = veh.Position + Vector3.WorldUp;
             Vector3 end = start + direction * distance;
             
-            var ray = World.Raycast(start, end, IntersectFlags.Vehicles | IntersectFlags.Map, veh);
+            var ray = World.Raycast(start, end, IntersectFlags.Vehicles | IntersectFlags.Peds | IntersectFlags.Map, veh);
             return ray.DidHit;
         }
 
@@ -359,10 +360,71 @@ namespace REALIS.TrafficAI
             }
         }
 
+        /// <summary>
+        /// Contournement plus réaliste en deux étapes :
+        /// recul si possible, puis tentative de dépassement côté gauche ou droit.
+        /// </summary>
+        private bool PerformRealisticBypass(BlockedVehicleInfo info, Vehicle playerVehicle, BlockageAnalysis analysis)
+        {
+            var veh = info.Vehicle;
+            var driver = info.Driver;
+
+            if (veh == null || driver == null) return false;
+
+            try
+            {
+                if (!info.HasReversed)
+                {
+                    if (analysis.CanReverse)
+                    {
+                        Vector3 target = veh.Position - veh.ForwardVector * TrafficAIConfig.BackupDistance;
+                        Function.Call(Hash.CLEAR_PED_TASKS, driver.Handle);
+                        Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD,
+                            driver.Handle,
+                            veh.Handle,
+                            target.X,
+                            target.Y,
+                            target.Z,
+                            6f,
+                            0,
+                            2f);
+                        info.HasReversed = true;
+                        return true;
+                    }
+                    return false;
+                }
+
+                // Après le recul, réévalue et tente un dépassement
+                var newAnalysis = AnalyzeBlockage(veh, playerVehicle);
+                if (newAnalysis.CanGoLeft)
+                {
+                    newAnalysis.PreferredDirection = BypassDirection.Left;
+                    info.HasReversed = false;
+                    return PerformIntelligentBypass(driver, veh, newAnalysis);
+                }
+                else if (newAnalysis.CanGoRight)
+                {
+                    newAnalysis.PreferredDirection = BypassDirection.Right;
+                    info.HasReversed = false;
+                    return PerformIntelligentBypass(driver, veh, newAnalysis);
+                }
+
+                info.HasReversed = false;
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"PerformRealisticBypass error: {ex.Message}");
+                info.HasReversed = false;
+                return false;
+            }
+        }
+
         private void ResetVehicleState(BlockedVehicleInfo info)
         {
             info.BlockedTime = 0f;
             info.Honked = false;
+            info.HasReversed = false;
             // Les tentatives de contournement ne sont pas réinitialisées pour éviter les boucles
         }
 
