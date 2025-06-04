@@ -54,7 +54,8 @@ namespace REALIS.TrafficAI
                 if (player?.CurrentVehicle == null || !player.Exists()) return;
 
                 Vehicle playerVehicle = player.CurrentVehicle;
-                if (playerVehicle.Speed < 0.5f) return; // Le joueur ne bouge pas
+                if (playerVehicle.Speed < 0.5f && !IsEmergencyActive(playerVehicle))
+                    return; // Le joueur ne bouge pas et aucune sirène active
 
                 var nearby = VehicleQueryService.GetNearbyVehicles(player.Position, CheckRadius);
                 if (nearby == null || nearby.Length == 0) return;
