@@ -5,6 +5,7 @@ using GTA.Native;
 using REALIS.Config;
 using REALIS.Events;
 using GTA.UI;
+using System.Collections.Generic;
 
 namespace REALIS.Core
 {
@@ -14,11 +15,20 @@ namespace REALIS.Core
     public class TrafficAI : Script
     {
         private int _tickCount;
+        private readonly Dictionary<Ped, BypassState> _states = new();
+
+        private class BypassState
+        {
+            public bool GoLeft;
+            public int FramesLeft;
+        }
 
         public TrafficAI()
         {
             Tick += OnTick;
             Aborted += OnAborted;
+            Notification.Show("TrafficAI loaded");
+            Logger.Info("TrafficAI initialized");
         }
 
         private void OnTick(object sender, EventArgs e)
@@ -33,6 +43,7 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Screen.ShowSubtitle($"TrafficAI error: {ex.Message}");
+                Logger.Error(ex.ToString());
             }
         }
 
@@ -42,6 +53,8 @@ namespace REALIS.Core
             if (player == null || !player.Exists()) return;
             Vehicle playerVeh = player.CurrentVehicle;
             if (playerVeh == null || !playerVeh.Exists()) return;
+
+            CleanStates();
 
             Ped[] nearbyPeds = World.GetNearbyPeds(player, TrafficAIConfig.DetectionRadius);
             foreach (var ped in nearbyPeds)
@@ -60,21 +73,49 @@ namespace REALIS.Core
 
                 if (dot > TrafficAIConfig.ForwardThreshold)
                 {
-                    Vector3 sideOffset = npcVeh.RightVector * TrafficAIConfig.BypassOffset;
-                    Vector3 target = npcVeh.Position + sideOffset;
+                    if (!_states.TryGetValue(ped, out var state))
+                    {
+                        bool goLeft = Vector3.Cross(npcVeh.ForwardVector, toPlayer).Z > 0f;
+                        state = new BypassState { GoLeft = goLeft, FramesLeft = TrafficAIConfig.BypassDuration };
+                        _states[ped] = state;
+                        Logger.Info($"Bypass start for ped {ped.Handle} side {(goLeft ? "left" : "right")}");
+                        if (TrafficAIConfig.ShowDebug)
+                            Screen.ShowSubtitle($"Bypass {(goLeft ? "left" : "right")}");
+                    }
+                    else
+                    {
+                        state.FramesLeft = TrafficAIConfig.BypassDuration;
+                    }
 
-                    Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE, ped.Handle,
-                        npcVeh.Handle, target.X, target.Y, target.Z, 20f,
-                        (int)DrivingStyle.AvoidTrafficExtremely, 5f);
+                    Vector3 side = state.GoLeft ? -npcVeh.RightVector : npcVeh.RightVector;
+                    Vector3 target = npcVeh.Position + side * TrafficAIConfig.BypassOffset;
+
+                    Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE,
+                        ped.Handle, npcVeh.Handle, target.X, target.Y, target.Z,
+                        20f, (int)DrivingStyle.AvoidTrafficExtremely, 5f);
 
                     TrafficEvents.OnVehicleBypass();
                 }
             }
         }
 
+        private void CleanStates()
+        {
+            var toRemove = new List<Ped>();
+            foreach (var kvp in _states)
+            {
+                var ped = kvp.Key;
+                var st = kvp.Value;
+                if (ped == null || !ped.Exists() || --st.FramesLeft <= 0)
+                    toRemove.Add(ped);
+            }
+            foreach (var ped in toRemove)
+                _states.Remove(ped);
+        }
+
         private void OnAborted(object sender, EventArgs e)
         {
-            // No persistent entities, but method kept for compliance and future use
+            Logger.Info("TrafficAI aborted");
         }
     }
 }
