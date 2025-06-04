@@ -15,10 +15,10 @@ namespace REALIS.Config
         public const float MinimumSpeed = 2.0f;
 
         /// <summary>Distance de contournement (gauche/droite)</summary>
-        public const float BypassDistance = 6.0f;
+        public const float BypassDistance = 8.0f;
 
         /// <summary>Distance vers l'avant pour le point de contournement</summary>
-        public const float ForwardOffset = 10.0f;
+        public const float ForwardOffset = 14.0f;
 
         /// <summary>Distance de recul si impossible de contourner</summary>
         public const float BackupDistance = 8.0f;
