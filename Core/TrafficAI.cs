@@ -25,6 +25,7 @@ namespace REALIS.Core
             public Vector3 TargetPosition;
             public bool TaskActive;
             public float BypassAngle; // Angle de contournement choisi
+            public int StuckCounter;
         }
 
         // Angles réalistes pour la détection d'obstacles (en radians)
@@ -90,17 +91,18 @@ namespace REALIS.Core
                     if (!_states.TryGetValue(ped, out var state))
                     {
                         // Système réaliste de détection d'obstacles et de choix de direction
-                        var avoidanceResult = CalculateRealisticAvoidanceDirection(npcVeh, playerVeh);
+                        var avoidanceResult = CalculateRealisticAvoidanceDirection(npcVeh, playerVeh, ped);
                         
                         if (avoidanceResult.HasValue)
                         {
-                            state = new BypassState 
-                            { 
+                            state = new BypassState
+                            {
                                 TargetDirection = avoidanceResult.Value.Direction,
                                 FramesLeft = TrafficAIConfig.BypassDuration,
                                 TargetPosition = avoidanceResult.Value.Position,
                                 TaskActive = false,
-                                BypassAngle = avoidanceResult.Value.Angle
+                                BypassAngle = avoidanceResult.Value.Angle,
+                                StuckCounter = 0
                             };
                             _states[ped] = state;
                             
@@ -118,6 +120,7 @@ namespace REALIS.Core
                     else
                     {
                         state.FramesLeft = TrafficAIConfig.BypassDuration;
+                        state.StuckCounter = 0;
                     }
 
                     if (_states.ContainsKey(ped))
@@ -130,7 +133,7 @@ namespace REALIS.Core
             }
         }
 
-        private (Vector3 Direction, Vector3 Position, float Angle)? CalculateRealisticAvoidanceDirection(Vehicle npcVeh, Vehicle playerVeh)
+        private (Vector3 Direction, Vector3 Position, float Angle)? CalculateRealisticAvoidanceDirection(Vehicle npcVeh, Vehicle playerVeh, Ped currentPed)
         {
             Vector3 vehiclePos = npcVeh.Position;
             Vector3 vehicleForward = npcVeh.ForwardVector;
@@ -143,12 +146,14 @@ namespace REALIS.Core
                 // Calculer la direction de raycast
                 Vector3 rayDirection = RotateVector(vehicleForward, angle);
                 Vector3 rayEndPoint = vehiclePos + rayDirection * TrafficAIConfig.RealisticScanDistance;
-                
-                // Raycast simplifié et ciblé
+
+                // Raycast élargi pour mieux détecter les obstacles
                 float minDistance = float.MaxValue;
-                
-                // Détecter véhicules et obstacles principaux
-                RaycastResult raycast = World.Raycast(vehiclePos, rayEndPoint, 
+
+                RaycastResult raycast = World.RaycastCapsule(
+                    vehiclePos,
+                    rayEndPoint,
+                    TrafficAIConfig.ScanCapsuleRadius,
                     IntersectFlags.Vehicles | IntersectFlags.Map | IntersectFlags.Objects);
                 
                 if (raycast.DidHit)
@@ -168,6 +173,13 @@ namespace REALIS.Core
                 .Where(kvp => kvp.Value > TrafficAIConfig.RealisticMinClearance)
                 .OrderBy(kvp => Math.Abs(kvp.Key)) // PRIORITÉ aux petits angles
                 .ThenByDescending(kvp => kvp.Value) // Puis par distance libre
+                .ToList();
+
+            // Éviter que plusieurs véhicules choisissent la même direction juste à côté
+            candidateDirections = candidateDirections
+                .Where(cd => !_states.Any(s => s.Key != currentPed && s.Value.TaskActive &&
+                                              Math.Sign(s.Value.BypassAngle) == Math.Sign(cd.Key) &&
+                                              s.Key.Position.DistanceTo(npcVeh.Position) < TrafficAIConfig.VehicleSeparation))
                 .ToList();
             
             if (!candidateDirections.Any())
@@ -248,13 +260,29 @@ namespace REALIS.Core
             {
                 // Vérifier la progression de la manœuvre
                 float distanceToTarget = vehicle.Position.DistanceTo(state.TargetPosition);
-                
-                if (distanceToTarget < 4f || vehicle.Speed < 1f)
+
+                if (distanceToTarget < 4f)
                 {
                     // Reprendre la conduite normale
                     ResumeNormalDriving(ped, vehicle);
                     state.FramesLeft = 0; // Marquer pour suppression
                     Logger.Info($"Natural bypass completed for ped {ped.Handle}");
+                    return;
+                }
+
+                if (vehicle.Speed < 0.5f)
+                {
+                    state.StuckCounter++;
+                    if (state.StuckCounter > TrafficAIConfig.BypassStuckFrames)
+                    {
+                        ResumeNormalDriving(ped, vehicle);
+                        state.FramesLeft = 0;
+                        Logger.Info($"Bypass aborted for ped {ped.Handle} (stuck)");
+                    }
+                }
+                else
+                {
+                    state.StuckCounter = 0;
                 }
             }
         }
