@@ -20,23 +20,12 @@ namespace REALIS.Core
 
         private class BypassState
         {
-            public Vector3 TargetDirection;
-            public int FramesLeft;
             public Vector3 TargetPosition;
+            public int FramesLeft;
             public bool TaskActive;
-            public float BypassAngle; // Angle de contournement choisi
+            public int Side; // -1 = gauche, 1 = droite
             public int StuckCounter;
         }
-
-        // Angles réalistes pour la détection d'obstacles (en radians)
-        // De -45° à +45° avec priorité aux petits angles
-        private readonly float[] _raycastAngles = { 
-            0f,           // Tout droit (0°)
-            -0.175f, 0.175f,  // ±10°
-            -0.35f, 0.35f,    // ±20°
-            -0.52f, 0.52f,    // ±30°
-            -0.785f, 0.785f   // ±45° (maximum réaliste)
-        };
 
         public TrafficAI()
         {
@@ -90,30 +79,28 @@ namespace REALIS.Core
                 {
                     if (!_states.TryGetValue(ped, out var state))
                     {
-                        // Système réaliste de détection d'obstacles et de choix de direction
-                        var avoidanceResult = CalculateRealisticAvoidanceDirection(npcVeh, playerVeh, ped);
-                        
-                        if (avoidanceResult.HasValue)
+                        // Choisir le côté le plus sûr pour dépasser
+                        var bypass = FindBypassTarget(npcVeh, playerVeh, ped);
+
+                        if (bypass.HasValue)
                         {
                             state = new BypassState
                             {
-                                TargetDirection = avoidanceResult.Value.Direction,
                                 FramesLeft = TrafficAIConfig.BypassDuration,
-                                TargetPosition = avoidanceResult.Value.Position,
+                                TargetPosition = bypass.Value.Position,
                                 TaskActive = false,
-                                BypassAngle = avoidanceResult.Value.Angle,
+                                Side = bypass.Value.Side,
                                 StuckCounter = 0
                             };
                             _states[ped] = state;
-                            
-                            float angleDegrees = avoidanceResult.Value.Angle * 57.2958f; // Rad to degrees
-                            Logger.Info($"Realistic bypass for ped {ped.Handle} at angle {angleDegrees:F1}°");
+
+                            Logger.Info($"Bypass prepared for ped {ped.Handle} on side {state.Side}");
                             if (TrafficAIConfig.ShowDebug)
-                                Screen.ShowSubtitle($"Natural bypass {angleDegrees:F0}°", 2000);
+                                Screen.ShowSubtitle($"Bypass {state.Side}", 2000);
                         }
                         else
                         {
-                            // Si aucune manœuvre possible, ralentir et suivre à distance
+                            // Aucun chemin sûr, suivre le joueur de loin
                             InitiateSlowFollow(ped, npcVeh, playerVeh);
                         }
                     }
@@ -133,70 +120,54 @@ namespace REALIS.Core
             }
         }
 
-        private (Vector3 Direction, Vector3 Position, float Angle)? CalculateRealisticAvoidanceDirection(Vehicle npcVeh, Vehicle playerVeh, Ped currentPed)
+        private (Vector3 Position, int Side)? FindBypassTarget(Vehicle npcVeh, Vehicle playerVeh, Ped currentPed)
         {
-            Vector3 vehiclePos = npcVeh.Position;
-            Vector3 vehicleForward = npcVeh.ForwardVector;
-            
-            // Détection progressive des obstacles avec priorité aux petits angles
-            var obstacleMap = new Dictionary<float, float>(); // Angle -> Distance minimale
-            
-            foreach (float angle in _raycastAngles)
+            var vehiclePos = npcVeh.Position;
+
+            Vector3 leftTarget = vehiclePos - npcVeh.RightVector * TrafficAIConfig.BypassOffset +
+                                 npcVeh.ForwardVector * TrafficAIConfig.BypassForwardOffset;
+            Vector3 rightTarget = vehiclePos + npcVeh.RightVector * TrafficAIConfig.BypassOffset +
+                                  npcVeh.ForwardVector * TrafficAIConfig.BypassForwardOffset;
+
+            bool leftClear = IsPathClear(npcVeh, leftTarget);
+            bool rightClear = IsPathClear(npcVeh, rightTarget);
+
+            int preferredSide = Vector3.Dot(playerVeh.Position - vehiclePos, npcVeh.RightVector) > 0 ? -1 : 1;
+
+            var sides = new List<(int side, Vector3 pos, bool clear)>
             {
-                // Calculer la direction de raycast
-                Vector3 rayDirection = RotateVector(vehicleForward, angle);
-                Vector3 rayEndPoint = vehiclePos + rayDirection * TrafficAIConfig.RealisticScanDistance;
+                (-1, leftTarget, leftClear),
+                (1, rightTarget, rightClear)
+            };
 
-                // Raycast élargi pour mieux détecter les obstacles
-                float minDistance = float.MaxValue;
-
-                RaycastResult raycast = World.RaycastCapsule(
-                    vehiclePos,
-                    rayEndPoint,
-                    TrafficAIConfig.ScanCapsuleRadius,
-                    IntersectFlags.Vehicles | IntersectFlags.Map | IntersectFlags.Objects);
-                
-                if (raycast.DidHit)
-                {
-                    minDistance = Vector3.Distance(vehiclePos, raycast.HitPosition);
-                }
-                else
-                {
-                    minDistance = TrafficAIConfig.RealisticScanDistance;
-                }
-                
-                obstacleMap[angle] = minDistance;
-            }
-            
-            // Priorité aux angles les plus petits et aux directions les plus libres
-            var candidateDirections = obstacleMap
-                .Where(kvp => kvp.Value > TrafficAIConfig.RealisticMinClearance)
-                .OrderBy(kvp => Math.Abs(kvp.Key)) // PRIORITÉ aux petits angles
-                .ThenByDescending(kvp => kvp.Value) // Puis par distance libre
-                .ToList();
-
-            // Éviter que plusieurs véhicules choisissent la même direction juste à côté
-            candidateDirections = candidateDirections
-                .Where(cd => !_states.Any(s => s.Key != currentPed && s.Value.TaskActive &&
-                                              Math.Sign(s.Value.BypassAngle) == Math.Sign(cd.Key) &&
-                                              s.Key.Position.DistanceTo(npcVeh.Position) < TrafficAIConfig.VehicleSeparation))
-                .ToList();
-            
-            if (!candidateDirections.Any())
+            foreach (var s in sides.OrderByDescending(x => x.side == preferredSide))
             {
-                // Aucune direction libre - retourner null pour déclencher le slow follow
-                return null;
+                if (!s.clear) continue;
+                if (IsSideTaken(currentPed, npcVeh, s.side)) continue;
+                return (s.pos, s.side);
             }
-            
-            var bestDirection = candidateDirections.First();
-            float bestAngle = bestDirection.Key;
-            Vector3 avoidanceDirection = RotateVector(vehicleForward, bestAngle);
-            
-            // Position cible plus conservative et réaliste
-            float targetDistance = Math.Min(bestDirection.Value * 0.6f, TrafficAIConfig.RealisticBypassDistance);
-            Vector3 targetPosition = vehiclePos + avoidanceDirection * targetDistance;
-            
-            return (avoidanceDirection, targetPosition, bestAngle);
+
+            return null;
+        }
+
+        private bool IsPathClear(Vehicle veh, Vector3 target)
+        {
+            #pragma warning disable CS0618
+            RaycastResult ray = World.RaycastCapsule(
+                veh.Position + veh.UpVector,
+                target + veh.UpVector,
+                TrafficAIConfig.ScanCapsuleRadius,
+                IntersectFlags.Vehicles | IntersectFlags.Map | IntersectFlags.Objects,
+                veh);
+            #pragma warning restore CS0618
+
+            return !ray.DidHit;
+        }
+
+        private bool IsSideTaken(Ped currentPed, Vehicle npcVeh, int side)
+        {
+            return _states.Any(s => s.Key != currentPed && s.Value.TaskActive && s.Value.Side == side &&
+                                    s.Key.Position.DistanceTo(npcVeh.Position) < TrafficAIConfig.VehicleSeparation);
         }
 
         private void InitiateSlowFollow(Ped ped, Vehicle npcVeh, Vehicle playerVeh)
@@ -222,17 +193,6 @@ namespace REALIS.Core
                 6f); // Large rayon d'acceptation
         }
 
-        private Vector3 RotateVector(Vector3 vector, float angleRadians)
-        {
-            float cos = (float)Math.Cos(angleRadians);
-            float sin = (float)Math.Sin(angleRadians);
-            
-            return new Vector3(
-                vector.X * cos - vector.Y * sin,
-                vector.X * sin + vector.Y * cos,
-                vector.Z
-            );
-        }
 
         private void ExecuteBypassManeuver(Ped ped, Vehicle vehicle, BypassState state)
         {
