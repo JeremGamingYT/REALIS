@@ -486,6 +486,10 @@ namespace REALIS.TrafficAI
             {
                 if (emer == null || !emer.Exists() || emer == veh) continue;
 
+                // Ignore player's emergency vehicle if it's not moving
+                if (emer == Game.Player.Character.CurrentVehicle && emer.Speed < 1f)
+                    continue;
+
                 try
                 {
                     Vector3 toVeh = veh.Position - emer.Position;

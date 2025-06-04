@@ -85,14 +85,16 @@ namespace REALIS.TrafficAI
         {
             var player = Game.Player.Character;
             if (player?.CurrentVehicle == null || !player.Exists()) return false;
-            
+
             var playerVehicle = player.CurrentVehicle;
-            if (playerVehicle.Speed < 0.3f) return false;
-            
+            bool emergencyActive = playerVehicle.Model.IsEmergencyVehicle && playerVehicle.IsSirenActive;
+
+            if (playerVehicle.Speed < 0.3f && !emergencyActive) return false;
+
             if ((DateTime.Now - _lastFullScan).TotalSeconds < PROCESSING_INTERVAL) return false;
-            
-            if (playerVehicle.Speed < 2f) return false;
-            
+
+            if (playerVehicle.Speed < 2f && !emergencyActive) return false;
+
             return true;
         }
 
