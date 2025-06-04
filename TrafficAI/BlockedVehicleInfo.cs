@@ -13,6 +13,7 @@ namespace REALIS.TrafficAI
         public float BlockedTime { get; set; }
         public bool Honked { get; set; }
         public int BypassAttempts { get; set; }
+        public bool HasReversed { get; set; }
         public DateTime LastSeen { get; set; }
 
         public BlockedVehicleInfo(Ped driver, Vehicle vehicle)
@@ -22,6 +23,7 @@ namespace REALIS.TrafficAI
             BlockedTime = 0f;
             Honked = false;
             BypassAttempts = 0;
+            HasReversed = false;
             LastSeen = DateTime.Now;
         }
     }
