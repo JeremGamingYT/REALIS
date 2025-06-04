@@ -346,13 +346,13 @@ namespace REALIS.TrafficAI
             Vector3 basePos = veh.Position;
             Vector3 forward = veh.ForwardVector;
             Vector3 right = veh.RightVector;
-            
+
             switch (analysis.PreferredDirection)
             {
                 case BypassDirection.Left:
-                    return basePos - right * 6f + forward * 12f;
+                    return basePos - right * TrafficAIConfig.BypassDistance + forward * TrafficAIConfig.ForwardOffset;
                 case BypassDirection.Right:
-                    return basePos + right * 6f + forward * 12f;
+                    return basePos + right * TrafficAIConfig.BypassDistance + forward * TrafficAIConfig.ForwardOffset;
                 case BypassDirection.Reverse:
                     return basePos - forward * 10f;
                 default:
@@ -389,10 +389,15 @@ namespace REALIS.TrafficAI
                             0,
                             2f);
                         info.HasReversed = true;
+                        info.LastReverseTime = DateTime.Now;
                         return true;
                     }
                     return false;
                 }
+
+                // Attendre la fin du recul
+                if ((DateTime.Now - info.LastReverseTime).TotalSeconds < 1.5f)
+                    return false;
 
                 // Après le recul, réévalue et tente un dépassement
                 var newAnalysis = AnalyzeBlockage(veh, playerVehicle);
@@ -425,6 +430,7 @@ namespace REALIS.TrafficAI
             info.BlockedTime = 0f;
             info.Honked = false;
             info.HasReversed = false;
+            info.LastReverseTime = DateTime.MinValue;
             // Les tentatives de contournement ne sont pas réinitialisées pour éviter les boucles
         }
 
