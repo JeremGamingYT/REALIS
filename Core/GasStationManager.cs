@@ -20,8 +20,10 @@ namespace REALIS.Core
             public bool Accessible { get; }
             public Blip? Blip { get; set; }
             public Ped? Customer { get; set; }
+            public Vehicle? CustomerVehicle { get; set; }
             public bool LastOpenState { get; set; }
             public DateTime LastNotificationTime { get; set; }
+            public DateTime LastAccessDeniedTime { get; set; }
 
             public GasStation(Vector3 pos, TimeSpan open, TimeSpan close, bool accessible)
             {
@@ -31,6 +33,7 @@ namespace REALIS.Core
                 Accessible = accessible;
                 LastOpenState = false;
                 LastNotificationTime = DateTime.MinValue;
+                LastAccessDeniedTime = DateTime.MinValue;
             }
 
             public bool IsOpen()
@@ -46,6 +49,7 @@ namespace REALIS.Core
 
         private readonly List<GasStation> _stations = new();
         private readonly List<Ped> _spawnedPeds = new();
+        private readonly List<Vehicle> _spawnedVehicles = new();
         private int _tickCounter = 0;
         private const int UPDATE_INTERVAL = 100;
 
@@ -121,9 +125,13 @@ namespace REALIS.Core
                         }
 
                         if (open)
+                        {
                             SpawnCustomer(station);
+                        }
                         else
-                            RemoveCustomer(station);
+                        {
+                            HandleClosedStation(station, dist);
+                        }
                     }
                     else
                     {
@@ -144,18 +152,42 @@ namespace REALIS.Core
             try
             {
                 if (station.Customer != null && station.Customer.Exists()) return;
+                if (station.CustomerVehicle != null && station.CustomerVehicle.Exists()) return;
 
-                Model model = new Model(PedHash.ShopMaskSMY);
-                if (!model.IsLoaded) model.Request(500);
-                if (!model.IsLoaded) return;
+                Model pedModel = new Model(PedHash.ShopMaskSMY);
+                Model vehModel = new Model(VehicleHash.Panto);
 
-                var ped = World.CreatePed(model, station.Position + new Vector3(1f, 1f, 0f));
-                if (ped == null || !ped.Exists()) return;
+                if (!pedModel.IsLoaded) pedModel.Request(500);
+                if (!vehModel.IsLoaded) vehModel.Request(500);
+                if (!pedModel.IsLoaded || !vehModel.IsLoaded) return;
 
-                ped.Task.StartScenarioInPlace("WORLD_HUMAN_STAND_IMPATIENT", 0, true);
+                Vector3 spawnPos = station.Position + new Vector3(15f, 15f, 0f);
+                var vehicle = World.CreateVehicle(vehModel, spawnPos, 0f);
+                if (vehicle == null || !vehicle.Exists()) return;
+
+                var ped = vehicle.CreatePedOnSeat(VehicleSeat.Driver, pedModel);
+                if (ped == null || !ped.Exists())
+                {
+                    vehicle.Delete();
+                    return;
+                }
+
+                TaskSequence seq = new TaskSequence();
+                seq.AddTask.DriveTo(vehicle, station.Position, 5f, 10f, DrivingStyle.Normal);
+                seq.AddTask.LeaveVehicle(vehicle, LeaveVehicleFlags.None);
+                seq.AddTask.GoStraightTo(station.Position);
+                seq.AddTask.StartScenarioInPlace("WORLD_HUMAN_STAND_IMPATIENT", 0, true);
+                seq.Close();
+                ped.Task.PerformSequence(seq);
+                seq.Dispose();
+
                 station.Customer = ped;
+                station.CustomerVehicle = vehicle;
                 _spawnedPeds.Add(ped);
-                model.MarkAsNoLongerNeeded();
+                _spawnedVehicles.Add(vehicle);
+
+                pedModel.MarkAsNoLongerNeeded();
+                vehModel.MarkAsNoLongerNeeded();
             }
             catch (Exception ex)
             {
@@ -165,12 +197,14 @@ namespace REALIS.Core
 
         private void RemoveCustomer(GasStation station)
         {
-            if (station.Customer == null) return;
+            if (station.Customer == null && station.CustomerVehicle == null) return;
 
             try
             {
-                if (station.Customer.Exists())
+                if (station.Customer != null && station.Customer.Exists())
                     station.Customer.Delete();
+                if (station.CustomerVehicle != null && station.CustomerVehicle.Exists())
+                    station.CustomerVehicle.Delete();
             }
             catch (Exception ex)
             {
@@ -178,8 +212,60 @@ namespace REALIS.Core
             }
             finally
             {
-                _spawnedPeds.Remove(station.Customer);
-                station.Customer = null;
+                if (station.Customer != null)
+                {
+                    _spawnedPeds.Remove(station.Customer);
+                    station.Customer = null;
+                }
+                if (station.CustomerVehicle != null)
+                {
+                    _spawnedVehicles.Remove(station.CustomerVehicle);
+                    station.CustomerVehicle = null;
+                }
+            }
+        }
+
+        private void HandleClosedStation(GasStation station, float distance)
+        {
+            try
+            {
+                RemoveCustomer(station);
+
+                if ((DateTime.Now - station.LastAccessDeniedTime).TotalSeconds < 5)
+                    return;
+
+                if (distance < 3f)
+                {
+                    Notification.PostTicker("Magasin fermé", true);
+                    station.LastAccessDeniedTime = DateTime.Now;
+                    Vector3 backPos = Game.Player.Character.Position - Game.Player.Character.ForwardVector * 1.5f;
+                    Game.Player.Character.Position = backPos;
+                }
+
+                ClearStore(station);
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Closed station handling error: {ex.Message}");
+            }
+        }
+
+        private void ClearStore(GasStation station)
+        {
+            try
+            {
+                var peds = World.GetNearbyPeds(station.Position, 5f);
+                foreach (var ped in peds)
+                {
+                    if (ped == null || !ped.Exists()) continue;
+                    if (ped == Game.Player.Character) continue;
+                    if (_spawnedPeds.Contains(ped)) continue;
+                    ped.Delete();
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Clear store error: {ex.Message}");
             }
         }
 
@@ -195,6 +281,7 @@ namespace REALIS.Core
                 }
 
                 _spawnedPeds.Clear();
+                _spawnedVehicles.Clear();
             }
             catch (Exception ex)
             {
