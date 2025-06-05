@@ -110,8 +110,8 @@ namespace REALIS.NPC
                 if (medicModel.IsLoaded)
                 {
                     var medic = World.CreatePed(medicModel, pos);
-                    medic.Task.GoTo(scene.Body);
-                    medic.Task.StartScenario("CODE_HUMAN_MEDIC_KNEEL", -1);
+                    medic.Task.FollowNavMeshTo(scene.Body.Position);
+                    medic.Task.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", 0, true);
                     scene.Medic = medic;
                 }
 
@@ -122,7 +122,7 @@ namespace REALIS.NPC
                     if (copModel.IsLoaded)
                     {
                         var cop = World.CreatePed(copModel, pos + new Vector3(1f, -1f, 0f));
-                        cop.Task.GoTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
+                        cop.Task.FollowNavMeshTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
                         scene.Cop = cop;
                     }
                 }
