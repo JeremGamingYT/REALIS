@@ -15,6 +15,7 @@ namespace REALIS.Core
         private class GasStation
         {
             public Vector3 Position { get; }
+            public Vector3 Entrance { get; }
             public TimeSpan OpenTime { get; }
             public TimeSpan CloseTime { get; }
             public bool Accessible { get; }
@@ -24,16 +25,24 @@ namespace REALIS.Core
             public bool LastOpenState { get; set; }
             public DateTime LastNotificationTime { get; set; }
             public DateTime LastAccessDeniedTime { get; set; }
+            public bool PlayerWasInside { get; set; }
+            public bool ForceClosed { get; set; }
+            public Vector3 ExitDirection { get; }
 
-            public GasStation(Vector3 pos, TimeSpan open, TimeSpan close, bool accessible)
+            public GasStation(Vector3 pos, Vector3 entrance, TimeSpan open, TimeSpan close, bool accessible)
             {
                 Position = pos;
+                Entrance = entrance;
                 OpenTime = open;
                 CloseTime = close;
                 Accessible = accessible;
                 LastOpenState = false;
                 LastNotificationTime = DateTime.MinValue;
                 LastAccessDeniedTime = DateTime.MinValue;
+                ForceClosed = false;
+                Vector3 dir = entrance - pos;
+                dir.Normalize();
+                ExitDirection = dir;
             }
 
             public bool IsOpen()
@@ -66,20 +75,75 @@ namespace REALIS.Core
         private void InitializeStations()
         {
             // Stations-service accessibles où le joueur peut entrer
-            _stations.Add(new GasStation(new Vector3(-70.2148f, -1761.792f, 29.534f), TimeSpan.Zero, new TimeSpan(23, 59, 59), true)); // Grove Street 24/7
-            _stations.Add(new GasStation(new Vector3(265.648f, -1261.309f, 29.292f), TimeSpan.Zero, new TimeSpan(23, 59, 59), true)); // Strawberry 24/7
-            _stations.Add(new GasStation(new Vector3(819.653f, -1028.846f, 26.403f), new TimeSpan(6,0,0), new TimeSpan(23,0,0), true));
-            _stations.Add(new GasStation(new Vector3(1208.951f, -1402.567f,35.224f), new TimeSpan(6,0,0), new TimeSpan(23,0,0), true));
-            _stations.Add(new GasStation(new Vector3(-1437.622f, -276.747f, 46.207f), new TimeSpan(7,0,0), new TimeSpan(21,0,0), true));
-            _stations.Add(new GasStation(new Vector3(1181.381f, -330.847f, 69.316f), new TimeSpan(7,0,0), new TimeSpan(21,0,0), true));
-            _stations.Add(new GasStation(new Vector3(620.843f, 269.100f, 103.089f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), false)); // pas d'accès magasin
-            _stations.Add(new GasStation(new Vector3(2581.321f, 362.039f, 108.468f), TimeSpan.Zero, new TimeSpan(23, 59, 59), false)); // station uniquement
-            _stations.Add(new GasStation(new Vector3(176.631f, -1562.025f, 29.263f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), true));
-            _stations.Add(new GasStation(new Vector3(-319.292f, -1471.715f, 30.549f), TimeSpan.Zero, new TimeSpan(23, 59, 59), false)); // pas d'accès magasin
-            _stations.Add(new GasStation(new Vector3(620.843f, 269.100f, 103.089f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), true));
-            _stations.Add(new GasStation(new Vector3(2581.321f, 362.039f, 108.468f), TimeSpan.Zero, new TimeSpan(23, 59, 59), true));
-            _stations.Add(new GasStation(new Vector3(176.631f, -1562.025f, 29.263f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), true));
-            _stations.Add(new GasStation(new Vector3(-319.292f, -1471.715f, 30.549f), TimeSpan.Zero, new TimeSpan(23, 59, 59), true));
+            _stations.Add(new GasStation(
+                new Vector3(-70.2148f, -1761.792f, 29.534f),
+                new Vector3(-47.0f, -1757.5f, 29.534f),
+                TimeSpan.Zero,
+                new TimeSpan(23, 59, 59),
+                true)); // Grove Street 24/7
+
+            _stations.Add(new GasStation(
+                new Vector3(265.648f, -1261.309f, 29.292f),
+                new Vector3(263.0f, -1259.4f, 29.292f),
+                TimeSpan.Zero,
+                new TimeSpan(23, 59, 59),
+                true)); // Strawberry 24/7
+
+            _stations.Add(new GasStation(
+                new Vector3(819.653f, -1028.846f, 26.403f),
+                new Vector3(815.3f, -1025.0f, 26.403f),
+                new TimeSpan(6,0,0),
+                new TimeSpan(23,0,0),
+                true));
+
+            _stations.Add(new GasStation(
+                new Vector3(1208.951f, -1402.567f,35.224f),
+                new Vector3(1210.8f, -1400.6f,35.224f),
+                new TimeSpan(6,0,0),
+                new TimeSpan(23,0,0),
+                true));
+
+            _stations.Add(new GasStation(
+                new Vector3(-1437.622f, -276.747f, 46.207f),
+                new Vector3(-1432.5f, -276.7f, 46.207f),
+                new TimeSpan(7,0,0),
+                new TimeSpan(21,0,0),
+                true));
+
+            _stations.Add(new GasStation(
+                new Vector3(1181.381f, -330.847f, 69.316f),
+                new Vector3(1179.0f, -327.0f, 69.316f),
+                new TimeSpan(7,0,0),
+                new TimeSpan(21,0,0),
+                true));
+
+            _stations.Add(new GasStation(
+                new Vector3(620.843f, 269.100f, 103.089f),
+                new Vector3(622.5f, 270.5f, 103.089f),
+                new TimeSpan(6,0,0),
+                new TimeSpan(22,0,0),
+                false)); // pas d'accès magasin
+
+            _stations.Add(new GasStation(
+                new Vector3(2581.321f, 362.039f, 108.468f),
+                new Vector3(2578.2f, 361.0f, 108.468f),
+                TimeSpan.Zero,
+                new TimeSpan(23, 59, 59),
+                false)); // station uniquement
+
+            _stations.Add(new GasStation(
+                new Vector3(176.631f, -1562.025f, 29.263f),
+                new Vector3(179.6f, -1561.7f, 29.263f),
+                new TimeSpan(6,0,0),
+                new TimeSpan(22,0,0),
+                true));
+
+            _stations.Add(new GasStation(
+                new Vector3(-319.292f, -1471.715f, 30.549f),
+                new Vector3(-319.2f, -1470.2f, 30.549f),
+                TimeSpan.Zero,
+                new TimeSpan(23, 59, 59),
+                false)); // pas d'accès magasin
         }
 
         private void CreateBlips()
@@ -92,6 +156,32 @@ namespace REALIS.Core
                 blip.Sprite = BlipSprite.JerryCan;
                 blip.Scale = 0.9f; // plus visible sur la carte
                 station.Blip = blip;
+            }
+        }
+
+
+        private void CheckClerkStatus(GasStation station)
+        {
+            try
+            {
+                var peds = World.GetNearbyPeds(station.Entrance, 5f);
+                bool found = false;
+                foreach (var ped in peds)
+                {
+                    if (ped == null || !ped.Exists() || !ped.IsAlive) continue;
+                    var model = ped.Model;
+                    if (model == new Model(PedHash.ShopKeep01) || model == new Model(PedHash.ShopMaskSMY))
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+                station.ForceClosed = !found;
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Clerk status error: {ex.Message}");
+                station.ForceClosed = false;
             }
         }
 
@@ -108,27 +198,28 @@ namespace REALIS.Core
                 {
                     if (!station.Accessible || station.Blip == null) continue;
 
-                    bool open = station.IsOpen();
+                    CheckClerkStatus(station);
+
+                    bool open = station.IsOpen() && !station.ForceClosed;
                     station.Blip.Color = open ? BlipColor.Green : BlipColor.Red;
                     station.Blip.Name = open ? "Station-service (ouverte)" : "Station-service (fermée)";
 
-                    float dist = Game.Player.Character.Position.DistanceTo(station.Position);
+                    float dist = Game.Player.Character.Position.DistanceTo(station.Entrance);
 
-                    if (dist < 25f)
+                    bool inside = dist < 25f;
+
+                    if (inside && (!station.PlayerWasInside || open != station.LastOpenState))
                     {
-                        if (open != station.LastOpenState &&
-                            (DateTime.Now - station.LastNotificationTime).TotalSeconds > 5)
+                        if ((DateTime.Now - station.LastNotificationTime).TotalSeconds > 1)
                         {
-                            Notification.PostTicker(open ? "Station-service ouverte" : "Station-service fermée", true);
-                            station.LastOpenState = open;
+                            Notification.PostTicker(open ? "~g~Station-service ouverte" : "~r~Station-service fermée", true);
                             station.LastNotificationTime = DateTime.Now;
                         }
+                    }
 
-                        if (open)
-                        {
-                            SpawnCustomer(station);
-                        }
-                        else
+                    if (inside)
+                    {
+                        if (!open)
                         {
                             HandleClosedStation(station, dist);
                         }
@@ -137,6 +228,9 @@ namespace REALIS.Core
                     {
                         RemoveCustomer(station);
                     }
+
+                    station.PlayerWasInside = inside;
+                    station.LastOpenState = open;
 
                 }
 
@@ -234,12 +328,14 @@ namespace REALIS.Core
                 if ((DateTime.Now - station.LastAccessDeniedTime).TotalSeconds < 5)
                     return;
 
-                if (distance < 3f)
+                if (distance < 5f)
                 {
-                    Notification.PostTicker("Magasin fermé", true);
-                    station.LastAccessDeniedTime = DateTime.Now;
-                    Vector3 backPos = Game.Player.Character.Position - Game.Player.Character.ForwardVector * 1.5f;
-                    Game.Player.Character.Position = backPos;
+                    if ((DateTime.Now - station.LastAccessDeniedTime).TotalSeconds > 1)
+                    {
+                        Notification.PostTicker("~r~Magasin fermé", true);
+                        station.LastAccessDeniedTime = DateTime.Now;
+                    }
+                    ForcePlayerUTurn(station);
                 }
 
                 ClearStore(station);
@@ -266,6 +362,40 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Clear store error: {ex.Message}");
+            }
+        }
+
+        private void ForcePlayerUTurn(GasStation station)
+        {
+            try
+            {
+                var player = Game.Player.Character;
+                Vector3 targetPos = station.Entrance + station.ExitDirection * 5f;
+                float heading = (float)(Math.Atan2(station.ExitDirection.Y, station.ExitDirection.X) * 180.0 / Math.PI);
+
+                if (player.IsInVehicle())
+                {
+                    Vehicle veh = player.CurrentVehicle;
+                    TaskSequence seq = new TaskSequence();
+                    seq.AddTask.AchieveHeading(heading);
+                    seq.AddTask.DriveTo(veh, targetPos, 5f, VehicleDrivingFlags.StopForVehicles, 10f);
+                    seq.Close();
+                    player.Task.PerformSequence(seq);
+                    seq.Dispose();
+                }
+                else
+                {
+                    TaskSequence seq = new TaskSequence();
+                    seq.AddTask.AchieveHeading(heading);
+                    seq.AddTask.GoStraightTo(targetPos);
+                    seq.Close();
+                    player.Task.PerformSequence(seq);
+                    seq.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"U-Turn error: {ex.Message}");
             }
         }
 
