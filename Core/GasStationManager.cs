@@ -228,7 +228,6 @@ namespace REALIS.Core
                     float dist = Game.Player.Character.Position.DistanceTo(station.Entrance);
 
                     bool inside = dist < 25f;
-                    bool inside = dist < 25f;
 
                     if (inside && (!station.PlayerWasInside || open != station.LastOpenState))
                     {
