@@ -118,7 +118,8 @@ namespace REALIS.NPC
         {
             try
             {
-                Vector3 spawnPos = World.GetNextPositionOnStreet(scene.Body.Position.Around(60f));
+                // Spawn the ambulance farther away so it has to actually drive to the scene
+                Vector3 spawnPos = World.GetNextPositionOnStreet(scene.Body.Position.Around(200f));
 
                 var ambModel = new Model(VehicleHash.Ambulance);
                 ambModel.Request(500);
@@ -133,15 +134,17 @@ namespace REALIS.NPC
                 var pass = ambulance.CreatePedOnSeat(VehicleSeat.Passenger, pedModel);
                 if (driver == null || pass == null) { ambulance.Delete(); return; }
 
-                Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD,
-                    driver.Handle,
-                    ambulance.Handle,
-                    scene.Body.Position.X,
-                    scene.Body.Position.Y,
-                    scene.Body.Position.Z,
-                    25f,
-                    0,
-                    5f);
+                // Drive to the victim location using a task sequence
+                TaskSequence driveSeq = new TaskSequence();
+                driveSeq.AddTask.DriveTo(ambulance, scene.Body.Position, 5f,
+                    VehicleDrivingFlags.StopForVehicles | VehicleDrivingFlags.StopAtTrafficLights,
+                    25f);
+                driveSeq.Close();
+                driver.Task.PerformSequence(driveSeq);
+                driveSeq.Dispose();
+
+                driver.BlockPermanentEvents = true;
+                pass.BlockPermanentEvents = true;
 
                 scene.Ambulance = ambulance;
                 scene.Medic1 = driver;
@@ -172,16 +175,24 @@ namespace REALIS.NPC
                 {
                     if (scene.Medic1 != null && scene.Medic1.Exists())
                     {
-                        Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic1.Handle, scene.Ambulance.Handle, 0);
-                        scene.Medic1.Task.FollowNavMeshTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
-                        scene.Medic1.Task.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", -1);
+                        TaskSequence seq1 = new TaskSequence();
+                        seq1.AddTask.LeaveVehicle(scene.Ambulance, LeaveVehicleFlags.LeaveDoorOpen);
+                        seq1.AddTask.GoStraightTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
+                        seq1.AddTask.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", 0, true);
+                        seq1.Close();
+                        scene.Medic1.Task.PerformSequence(seq1);
+                        seq1.Dispose();
                     }
-                    
+
                     if (scene.Medic2 != null && scene.Medic2.Exists())
                     {
-                        Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic2.Handle, scene.Ambulance.Handle, 0);
-                        scene.Medic2.Task.FollowNavMeshTo(scene.Body.Position + new Vector3(-0.5f, 0f, 0f));
-                        scene.Medic2.Task.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", -1);
+                        TaskSequence seq2 = new TaskSequence();
+                        seq2.AddTask.LeaveVehicle(scene.Ambulance, LeaveVehicleFlags.LeaveDoorOpen);
+                        seq2.AddTask.GoStraightTo(scene.Body.Position + new Vector3(-0.5f, 0f, 0f));
+                        seq2.AddTask.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", 0, true);
+                        seq2.Close();
+                        scene.Medic2.Task.PerformSequence(seq2);
+                        seq2.Dispose();
                     }
 
                     SpawnOnlookers(scene);
