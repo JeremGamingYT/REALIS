@@ -102,6 +102,8 @@ namespace REALIS.Core
                 if (_tickCounter % UPDATE_INTERVAL != 0) return;
 
                 bool showText = false;
+                float nearestDist = float.MaxValue;
+                bool nearestOpen = false;
 
                 foreach (var station in _stations)
                 {
@@ -129,16 +131,19 @@ namespace REALIS.Core
                     {
                         RemoveCustomer(station);
                     }
+
+                    if (dist < nearestDist)
+                    {
+                        nearestDist = dist;
+                        nearestOpen = open;
+                    }
                 }
 
-                if (!showText)
+                if (!showText && nearestDist < 20f)
                 {
                     _statusText.Caption = string.Empty;
-                    if (dist < 20f)
-                    {
-                        string status = open ? "~g~Ouverte" : "~r~Fermée";
-                        Screen.ShowSubtitle($"Station-service : {status}", 1000);
-                    }
+                    string status = nearestOpen ? "~g~Ouverte" : "~r~Fermée";
+                    Screen.ShowSubtitle($"Station-service : {status}", 1000);
                 }
             }
             catch (Exception ex)
@@ -160,7 +165,7 @@ namespace REALIS.Core
                 var ped = World.CreatePed(model, station.Position + new Vector3(1f, 1f, 0f));
                 if (ped == null || !ped.Exists()) return;
 
-                ped.Task.StartScenario("WORLD_HUMAN_STAND_IMPATIENT", 0);
+                ped.Task.StartScenarioInPlace("WORLD_HUMAN_STAND_IMPATIENT", 0, true);
                 station.Customer = ped;
                 _spawnedPeds.Add(ped);
                 model.MarkAsNoLongerNeeded();
@@ -203,7 +208,6 @@ namespace REALIS.Core
                 }
 
                 _spawnedPeds.Clear();
-                }
             }
             catch (Exception ex)
             {
