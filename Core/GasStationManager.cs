@@ -28,7 +28,6 @@ namespace REALIS.Core
             public DateTime LastAccessDeniedTime { get; set; }
             public bool PlayerWasInside { get; set; }
             public bool ForceClosed { get; set; }
-
             public GasStation(Vector3 pos, Vector3 entrance, TimeSpan open, TimeSpan close, bool accessible)
             {
                 Position = pos;
@@ -228,6 +227,7 @@ namespace REALIS.Core
 
                     float dist = Game.Player.Character.Position.DistanceTo(station.Entrance);
 
+                    bool inside = dist < 25f;
                     bool inside = dist < 25f;
 
                     if (inside && (!station.PlayerWasInside || open != station.LastOpenState))
