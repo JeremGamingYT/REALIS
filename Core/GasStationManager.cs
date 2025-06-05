@@ -75,6 +75,10 @@ namespace REALIS.Core
             _stations.Add(new GasStation(new Vector3(2581.321f, 362.039f, 108.468f), TimeSpan.Zero, new TimeSpan(23, 59, 59), false)); // station uniquement
             _stations.Add(new GasStation(new Vector3(176.631f, -1562.025f, 29.263f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), true));
             _stations.Add(new GasStation(new Vector3(-319.292f, -1471.715f, 30.549f), TimeSpan.Zero, new TimeSpan(23, 59, 59), false)); // pas d'accès magasin
+            _stations.Add(new GasStation(new Vector3(620.843f, 269.100f, 103.089f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), true));
+            _stations.Add(new GasStation(new Vector3(2581.321f, 362.039f, 108.468f), TimeSpan.Zero, new TimeSpan(23, 59, 59), true));
+            _stations.Add(new GasStation(new Vector3(176.631f, -1562.025f, 29.263f), new TimeSpan(6,0,0), new TimeSpan(22,0,0), true));
+            _stations.Add(new GasStation(new Vector3(-319.292f, -1471.715f, 30.549f), TimeSpan.Zero, new TimeSpan(23, 59, 59), true));
         }
 
         private void CreateBlips()
@@ -130,6 +134,11 @@ namespace REALIS.Core
                 if (!showText)
                 {
                     _statusText.Caption = string.Empty;
+                    if (dist < 20f)
+                    {
+                        string status = open ? "~g~Ouverte" : "~r~Fermée";
+                        Screen.ShowSubtitle($"Station-service : {status}", 1000);
+                    }
                 }
             }
             catch (Exception ex)
@@ -194,6 +203,7 @@ namespace REALIS.Core
                 }
 
                 _spawnedPeds.Clear();
+                }
             }
             catch (Exception ex)
             {
