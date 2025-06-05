@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using GTA;
 using GTA.Math;
 using GTA.UI;
@@ -194,14 +195,26 @@ namespace REALIS.Core
 
         private void CheckClerkStatus(GasStation station)
         {
-            if (station.Clerk == null || !station.Clerk.Exists())
+            Ped? clerk = station.Clerk;
+
+            if (clerk == null || !clerk.Exists())
             {
+                Ped[] nearby = World.GetNearbyPeds(station.Entrance, 5f);
+                clerk = nearby.FirstOrDefault(p => p != Game.Player.Character && p.Exists() && p.IsAlive);
+
+                if (clerk != null)
+                {
+                    station.Clerk = clerk;
+                    station.ForceClosed = false;
+                    return;
+                }
+
                 station.ForceClosed = true;
                 return;
             }
 
-            float dist = station.Clerk.Position.DistanceTo(station.Entrance);
-            if (!station.Clerk.IsAlive || dist > 10f)
+            float dist = clerk.Position.DistanceTo(station.Entrance);
+            if (!clerk.IsAlive || dist > 10f)
             {
                 station.ForceClosed = true;
             }

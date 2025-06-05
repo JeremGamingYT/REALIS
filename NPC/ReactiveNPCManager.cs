@@ -55,7 +55,9 @@ namespace REALIS.NPC
                     (DateTime.Now - last).TotalSeconds < REACTION_COOLDOWN)
                     continue;
 
-                bool playerThreat = (player.IsShooting || Function.Call<bool>(Hash.IS_PED_ARMED, player.Handle, 7)) &&
+                bool aiming = Function.Call<bool>(Hash.IS_PLAYER_FREE_AIMING, Game.Player.Handle);
+                bool weaponDrawn = player.Weapons.Current.Hash != WeaponHash.Unarmed;
+                bool playerThreat = (player.IsShooting || (weaponDrawn && aiming)) &&
                                      Function.Call<bool>(Hash.HAS_ENTITY_CLEAR_LOS_TO_ENTITY, ped.Handle, player.Handle, 17);
 
                 bool seesFire = World.GetNearbyPeds(ped.Position, 8f).Any(p => p != ped && p.Exists() && p.IsOnFire);
