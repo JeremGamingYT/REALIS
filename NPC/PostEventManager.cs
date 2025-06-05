@@ -13,14 +13,24 @@ namespace REALIS.NPC
     /// </summary>
     public class PostEventManager : Script
     {
+        private enum SceneStage
+        {
+            WaitingForAmbulance,
+            AmbulanceDriving,
+            MedicsWorking
+        }
+
         private class SceneInfo
         {
             public Ped Body { get; }
             public DateTime Created { get; } = DateTime.Now;
-            public Ped? Medic { get; set; }
-            public Ped? Cop { get; set; }
+            public Vehicle? Ambulance { get; set; }
+            public Ped? Medic1 { get; set; }
+            public Ped? Medic2 { get; set; }
             public Prop? Cover { get; set; }
             public List<Ped> Onlookers { get; } = new();
+            public DateTime StageTime { get; set; } = DateTime.Now;
+            public SceneStage Stage { get; set; } = SceneStage.WaitingForAmbulance;
 
             public SceneInfo(Ped body)
             {
@@ -82,67 +92,141 @@ namespace REALIS.NPC
                     continue;
                 }
 
-                if (scene.Medic == null)
+                switch (scene.Stage)
                 {
-                    SpawnResponders(scene);
+                    case SceneStage.WaitingForAmbulance:
+                        DispatchAmbulance(scene);
+                        break;
+
+                    case SceneStage.AmbulanceDriving:
+                        CheckAmbulanceArrival(scene);
+                        break;
+
+                    case SceneStage.MedicsWorking:
+                        HandleActiveScene(scene);
+                        break;
                 }
 
-                if (scene.Cover == null && (DateTime.Now - scene.Created).TotalSeconds > 10)
-                {
-                    TryCoverBody(scene);
-                }
-
-                if ((DateTime.Now - scene.Created).TotalSeconds > 60)
+                if ((DateTime.Now - scene.Created).TotalSeconds > 90)
                 {
                     CleanupScene(scene);
                 }
             }
         }
 
-        private void SpawnResponders(SceneInfo scene)
+        private void DispatchAmbulance(SceneInfo scene)
         {
             try
             {
-                Vector3 pos = scene.Body.Position + new Vector3(1f, 1f, 0f);
+                Vector3 spawnPos = World.GetNextPositionOnStreet(scene.Body.Position.Around(60f));
 
-                var medicModel = new Model(PedHash.Paramedic01SMM);
-                medicModel.Request(500);
-                if (medicModel.IsLoaded)
+                var ambModel = new Model(VehicleHash.Ambulance);
+                ambModel.Request(500);
+                var pedModel = new Model(PedHash.Paramedic01SMM);
+                pedModel.Request(500);
+                if (!ambModel.IsLoaded || !pedModel.IsLoaded) return;
+
+                var ambulance = World.CreateVehicle(ambModel, spawnPos);
+                if (ambulance == null || !ambulance.Exists()) return;
+
+                var driver = ambulance.CreatePedOnSeat(VehicleSeat.Driver, pedModel);
+                var pass = ambulance.CreatePedOnSeat(VehicleSeat.Passenger, pedModel);
+                if (driver == null || pass == null) { ambulance.Delete(); return; }
+
+                Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD,
+                    driver.Handle,
+                    ambulance.Handle,
+                    scene.Body.Position.X,
+                    scene.Body.Position.Y,
+                    scene.Body.Position.Z,
+                    25f,
+                    0,
+                    5f);
+
+                scene.Ambulance = ambulance;
+                scene.Medic1 = driver;
+                scene.Medic2 = pass;
+                scene.Stage = SceneStage.AmbulanceDriving;
+                scene.StageTime = DateTime.Now;
+
+                ambModel.MarkAsNoLongerNeeded();
+                pedModel.MarkAsNoLongerNeeded();
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Dispatch ambulance error: {ex.Message}");
+            }
+        }
+
+        private void CheckAmbulanceArrival(SceneInfo scene)
+        {
+            try
+            {
+                if (scene.Ambulance == null || !scene.Ambulance.Exists())
                 {
-                    var medic = World.CreatePed(medicModel, pos);
-                    medic.Task.GoTo(scene.Body);
-                    medic.Task.StartScenario("CODE_HUMAN_MEDIC_KNEEL", -1);
-                    scene.Medic = medic;
+                    scene.Stage = SceneStage.WaitingForAmbulance;
+                    return;
                 }
 
-                if (_rand.NextDouble() < 0.5)
+                if (scene.Ambulance.Position.DistanceTo(scene.Body.Position) < 7f)
                 {
-                    var copModel = new Model(PedHash.Cop01SMY);
-                    copModel.Request(500);
-                    if (copModel.IsLoaded)
-                    {
-                        var cop = World.CreatePed(copModel, pos + new Vector3(1f, -1f, 0f));
-                        cop.Task.GoTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
-                        scene.Cop = cop;
-                    }
-                }
+                    Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic1.Handle, scene.Ambulance.Handle, 0);
+                    Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic2.Handle, scene.Ambulance.Handle, 0);
 
-                for (int i = 0; i < 2; i++)
-                {
-                    Vector3 off = pos + new Vector3(_rand.Next(-3, 4), _rand.Next(-3, 4), 0f);
-                    var mdl = new Model(PedHash.Tramp01AMM);
-                    mdl.Request(500);
-                    if (mdl.IsLoaded)
-                    {
-                        var by = World.CreatePed(mdl, off);
-                        Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, by.Handle, "WORLD_HUMAN_STAND_MOBILE", 0, true);
-                        scene.Onlookers.Add(by);
-                    }
+                    scene.Medic1.Task.GoTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
+                    scene.Medic1.Task.StartScenario("CODE_HUMAN_MEDIC_KNEEL", -1);
+                    scene.Medic2.Task.GoTo(scene.Body.Position + new Vector3(-0.5f, 0f, 0f));
+                    scene.Medic2.Task.StartScenario("CODE_HUMAN_MEDIC_KNEEL", -1);
+
+                    SpawnOnlookers(scene);
+
+                    scene.Stage = SceneStage.MedicsWorking;
+                    scene.StageTime = DateTime.Now;
                 }
             }
             catch (Exception ex)
             {
-                Logger.Error($"SpawnResponder error: {ex.Message}");
+                Logger.Error($"Ambulance arrival error: {ex.Message}");
+            }
+        }
+
+        private void HandleActiveScene(SceneInfo scene)
+        {
+            try
+            {
+                if (scene.Cover == null && (DateTime.Now - scene.StageTime).TotalSeconds > 15)
+                {
+                    TryCoverBody(scene);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Active scene error: {ex.Message}");
+            }
+        }
+
+        private void SpawnOnlookers(SceneInfo scene)
+        {
+            try
+            {
+                var peds = World.GetNearbyPeds(scene.Body.Position, 15f);
+                int added = 0;
+                foreach (var ped in peds)
+                {
+                    if (added >= 3) break;
+                    if (ped == null || !ped.Exists() || ped == scene.Medic1 || ped == scene.Medic2 || ped == scene.Body) continue;
+                    if (scene.Onlookers.Contains(ped)) continue;
+
+                    ped.Task.GoTo(scene.Body.Position.Around(2f));
+                    string scenario = _rand.NextDouble() < 0.5 ? "WORLD_HUMAN_STAND_MOBILE" : "WORLD_HUMAN_MOBILE_FILM_SHOCKING";
+                    Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, ped.Handle, scenario, 0, true);
+                    scene.Onlookers.Add(ped);
+                    added++;
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Spawn onlookers error: {ex.Message}");
             }
         }
 
@@ -166,8 +250,9 @@ namespace REALIS.NPC
         {
             try
             {
-                scene.Medic?.Delete();
-                scene.Cop?.Delete();
+                scene.Medic1?.Delete();
+                scene.Medic2?.Delete();
+                scene.Ambulance?.Delete();
                 scene.Cover?.Delete();
                 foreach (var by in scene.Onlookers)
                 {
