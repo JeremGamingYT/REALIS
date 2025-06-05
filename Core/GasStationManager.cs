@@ -173,7 +173,7 @@ namespace REALIS.Core
                 }
 
                 TaskSequence seq = new TaskSequence();
-                seq.AddTask.DriveTo(vehicle, station.Position, 5f, 10f, DrivingStyle.Normal);
+                seq.AddTask.DriveTo(vehicle, station.Position, 5f, VehicleDrivingFlags.StopForVehicles | VehicleDrivingFlags.StopAtTrafficLights, 10f);
                 seq.AddTask.LeaveVehicle(vehicle, LeaveVehicleFlags.None);
                 seq.AddTask.GoStraightTo(station.Position);
                 seq.AddTask.StartScenarioInPlace("WORLD_HUMAN_STAND_IMPATIENT", 0, true);
