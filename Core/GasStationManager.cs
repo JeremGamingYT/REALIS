@@ -21,6 +21,7 @@ namespace REALIS.Core
             public bool Accessible { get; }
             public Blip? Blip { get; set; }
             public Ped? Customer { get; set; }
+            public Ped? Clerk { get; set; }
             public Vehicle? CustomerVehicle { get; set; }
             public bool LastOpenState { get; set; }
             public DateTime LastNotificationTime { get; set; }
@@ -70,6 +71,7 @@ namespace REALIS.Core
 
             InitializeStations();
             CreateBlips();
+            SpawnClerks();
         }
 
         private void InitializeStations()
@@ -159,7 +161,6 @@ namespace REALIS.Core
             }
         }
 
-
         private void CheckClerkStatus(GasStation station)
         {
             try
@@ -181,6 +182,52 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Clerk status error: {ex.Message}");
+        private void SpawnClerks()
+        {
+            foreach (var station in _stations)
+            {
+                if (!station.Accessible) continue;
+
+                try
+                {
+                    Model pedModel = new Model(PedHash.ShopMaskSMY);
+                    if (!pedModel.IsLoaded) pedModel.Request(500);
+                    if (!pedModel.IsLoaded) continue;
+
+                    var ped = World.CreatePed(pedModel, station.Entrance);
+                    if (ped == null || !ped.Exists())
+                        continue;
+
+                    ped.Task.StartScenarioInPlace("WORLD_HUMAN_STAND_IMPATIENT", 0, true);
+                    ped.BlockPermanentEvents = true;
+
+                    station.Clerk = ped;
+                    _spawnedPeds.Add(ped);
+
+                    pedModel.MarkAsNoLongerNeeded();
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error($"Clerk spawn error: {ex.Message}");
+                }
+            }
+        }
+
+        private void CheckClerkStatus(GasStation station)
+        {
+            if (station.Clerk == null || !station.Clerk.Exists())
+            {
+                station.ForceClosed = true;
+                return;
+            }
+
+            float dist = station.Clerk.Position.DistanceTo(station.Entrance);
+            if (!station.Clerk.IsAlive || dist > 10f)
+            {
+                station.ForceClosed = true;
+            }
+            else
+            {
                 station.ForceClosed = false;
             }
         }
@@ -336,6 +383,7 @@ namespace REALIS.Core
                         station.LastAccessDeniedTime = DateTime.Now;
                     }
                     ForcePlayerUTurn(station);
+                    ForcePlayerUTurn();
                 }
 
                 ClearStore(station);
@@ -366,12 +414,15 @@ namespace REALIS.Core
         }
 
         private void ForcePlayerUTurn(GasStation station)
+        private void ForcePlayerUTurn()
         {
             try
             {
                 var player = Game.Player.Character;
                 Vector3 targetPos = station.Entrance + station.ExitDirection * 5f;
                 float heading = (float)(Math.Atan2(station.ExitDirection.Y, station.ExitDirection.X) * 180.0 / Math.PI);
+                Vector3 targetPos = player.Position - player.ForwardVector * 7f;
+                float heading = (player.Heading + 180f) % 360f;
 
                 if (player.IsInVehicle())
                 {
@@ -408,6 +459,9 @@ namespace REALIS.Core
                     if (!station.Accessible) continue;
                     station.Blip?.Delete();
                     RemoveCustomer(station);
+                    if (station.Clerk != null && station.Clerk.Exists())
+                        station.Clerk.Delete();
+                    station.Clerk = null;
                 }
 
                 _spawnedPeds.Clear();
