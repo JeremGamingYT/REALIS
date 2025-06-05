@@ -175,24 +175,18 @@ namespace REALIS.NPC
                 {
                     if (scene.Medic1 != null && scene.Medic1.Exists())
                     {
-                        TaskSequence seq1 = new TaskSequence();
-                        seq1.AddTask.LeaveVehicle(scene.Ambulance, LeaveVehicleFlags.LeaveDoorOpen);
-                        seq1.AddTask.GoStraightTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
-                        seq1.AddTask.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", 0, true);
-                        seq1.Close();
-                        scene.Medic1.Task.PerformSequence(seq1);
-                        seq1.Dispose();
+                        scene.Medic1.BlockPermanentEvents = true;
+                        scene.Medic1.Task.LeaveVehicle(LeaveVehicleFlags.LeaveDoorOpen);
+                        Function.Call(Hash.TASK_GO_STRAIGHT_TO_COORD, scene.Medic1.Handle, 
+                            scene.Body.Position.X + 0.5f, scene.Body.Position.Y, scene.Body.Position.Z, 1.0f, -1, 0.0f, 0.0f);
                     }
 
                     if (scene.Medic2 != null && scene.Medic2.Exists())
                     {
-                        TaskSequence seq2 = new TaskSequence();
-                        seq2.AddTask.LeaveVehicle(scene.Ambulance, LeaveVehicleFlags.LeaveDoorOpen);
-                        seq2.AddTask.GoStraightTo(scene.Body.Position + new Vector3(-0.5f, 0f, 0f));
-                        seq2.AddTask.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", 0, true);
-                        seq2.Close();
-                        scene.Medic2.Task.PerformSequence(seq2);
-                        seq2.Dispose();
+                        scene.Medic2.BlockPermanentEvents = true;
+                        scene.Medic2.Task.LeaveVehicle(LeaveVehicleFlags.LeaveDoorOpen);
+                        Function.Call(Hash.TASK_GO_STRAIGHT_TO_COORD, scene.Medic2.Handle, 
+                            scene.Body.Position.X - 0.5f, scene.Body.Position.Y, scene.Body.Position.Z, 1.0f, -1, 0.0f, 0.0f);
                     }
 
                     SpawnOnlookers(scene);
@@ -211,6 +205,51 @@ namespace REALIS.NPC
         {
             try
             {
+                // Check if medics should start their scenarios
+                if ((DateTime.Now - scene.StageTime).TotalSeconds > 3)
+                {
+                    if (scene.Medic1 != null && scene.Medic1.Exists() && 
+                        scene.Medic1.Position.DistanceTo(scene.Body.Position) < 2f &&
+                        !scene.Medic1.IsInVehicle())
+                    {
+                        Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, scene.Medic1.Handle, "CODE_HUMAN_MEDIC_KNEEL", 0, true);
+                    }
+                    
+                    if (scene.Medic2 != null && scene.Medic2.Exists() && 
+                        scene.Medic2.Position.DistanceTo(scene.Body.Position) < 2f &&
+                        !scene.Medic2.IsInVehicle())
+                    {
+                        Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, scene.Medic2.Handle, "CODE_HUMAN_MEDIC_KNEEL", 0, true);
+                    }
+                }
+
+                // Handle onlookers behavior
+                var onlookersToRemove = new List<Ped>();
+                foreach (var onlooker in scene.Onlookers)
+                {
+                    if (onlooker == null || !onlooker.Exists())
+                    {
+                        if (onlooker != null) onlookersToRemove.Add(onlooker);
+                        continue;
+                    }
+
+                    // If onlooker is close enough and not doing anything specific, make them watch/film
+                    if (onlooker.Position.DistanceTo(scene.Body.Position) < 5f && 
+                        !onlooker.IsInVehicle() && 
+                        onlooker.TaskSequenceProgress == -1)
+                    {
+                        string scenario = _rand.NextDouble() < 0.6 ? "WORLD_HUMAN_MOBILE_FILM_SHOCKING" : "WORLD_HUMAN_STAND_MOBILE";
+                        Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, onlooker.Handle, scenario, 0, true);
+                        Function.Call(Hash.TASK_LOOK_AT_ENTITY, onlooker.Handle, scene.Body.Handle, -1, 0, 2);
+                    }
+                }
+
+                // Remove invalid onlookers
+                foreach (var onlooker in onlookersToRemove)
+                {
+                    scene.Onlookers.Remove(onlooker);
+                }
+
                 if (scene.Cover == null && (DateTime.Now - scene.StageTime).TotalSeconds > 15)
                 {
                     TryCoverBody(scene);
@@ -230,13 +269,19 @@ namespace REALIS.NPC
                 int added = 0;
                 foreach (var ped in peds)
                 {
-                    if (added >= 3) break;
+                    if (added >= 5) break;
                     if (ped == null || !ped.Exists() || ped == scene.Medic1 || ped == scene.Medic2 || ped == scene.Body) continue;
                     if (scene.Onlookers.Contains(ped)) continue;
+                    if (ped.IsPlayer) continue;
 
-                    ped.Task.FollowNavMeshTo(scene.Body.Position.Around(2f));
-                    string scenario = _rand.NextDouble() < 0.5 ? "WORLD_HUMAN_STAND_MOBILE" : "WORLD_HUMAN_MOBILE_FILM_SHOCKING";
-                    Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, ped.Handle, scenario, 0, true);
+                    // Block their reactions to the player so they stay focused on the scene
+                    ped.BlockPermanentEvents = true;
+                    
+                    // Make them walk towards the scene
+                    Vector3 lookPos = scene.Body.Position.Around(3f + (float)_rand.NextDouble() * 2f);
+                    Function.Call(Hash.TASK_GO_STRAIGHT_TO_COORD, ped.Handle, 
+                        lookPos.X, lookPos.Y, lookPos.Z, 1.0f, -1, 0.0f, 0.0f);
+                    
                     scene.Onlookers.Add(ped);
                     added++;
                 }

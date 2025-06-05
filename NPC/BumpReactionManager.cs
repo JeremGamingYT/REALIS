@@ -35,7 +35,7 @@ namespace REALIS.NPC
 
                 foreach (var ped in peds)
                 {
-                    if (ped == null || !ped.Exists() || ped == player) continue;
+                    if (ped == null || !ped.Exists() || ped == player || ped.IsDead || ped.Health <= 0) continue;
 
                     if (ped.IsTouching(player))
                     {
