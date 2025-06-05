@@ -24,6 +24,7 @@ namespace REALIS.Core
             public bool LastOpenState { get; set; }
             public DateTime LastNotificationTime { get; set; }
             public DateTime LastAccessDeniedTime { get; set; }
+            public bool PlayerWasInside { get; set; }
 
             public GasStation(Vector3 pos, TimeSpan open, TimeSpan close, bool accessible)
             {
@@ -114,21 +115,20 @@ namespace REALIS.Core
 
                     float dist = Game.Player.Character.Position.DistanceTo(station.Position);
 
-                    if (dist < 25f)
+                    bool inside = dist < 25f;
+
+                    if (inside && (!station.PlayerWasInside || open != station.LastOpenState))
                     {
-                        if (open != station.LastOpenState &&
-                            (DateTime.Now - station.LastNotificationTime).TotalSeconds > 5)
+                        if ((DateTime.Now - station.LastNotificationTime).TotalSeconds > 1)
                         {
-                            Notification.PostTicker(open ? "Station-service ouverte" : "Station-service fermée", true);
-                            station.LastOpenState = open;
+                            Notification.PostTicker(open ? "~g~Station-service ouverte" : "~r~Station-service fermée", true);
                             station.LastNotificationTime = DateTime.Now;
                         }
+                    }
 
-                        if (open)
-                        {
-                            SpawnCustomer(station);
-                        }
-                        else
+                    if (inside)
+                    {
+                        if (!open)
                         {
                             HandleClosedStation(station, dist);
                         }
@@ -137,6 +137,9 @@ namespace REALIS.Core
                     {
                         RemoveCustomer(station);
                     }
+
+                    station.PlayerWasInside = inside;
+                    station.LastOpenState = open;
 
                 }
 
@@ -236,10 +239,12 @@ namespace REALIS.Core
 
                 if (distance < 3f)
                 {
-                    Notification.PostTicker("Magasin fermé", true);
-                    station.LastAccessDeniedTime = DateTime.Now;
-                    Vector3 backPos = Game.Player.Character.Position - Game.Player.Character.ForwardVector * 1.5f;
-                    Game.Player.Character.Position = backPos;
+                    if ((DateTime.Now - station.LastAccessDeniedTime).TotalSeconds > 1)
+                    {
+                        Notification.PostTicker("~r~Magasin fermé", true);
+                        station.LastAccessDeniedTime = DateTime.Now;
+                    }
+                    ForcePlayerUTurn();
                 }
 
                 ClearStore(station);
@@ -266,6 +271,40 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Clear store error: {ex.Message}");
+            }
+        }
+
+        private void ForcePlayerUTurn()
+        {
+            try
+            {
+                var player = Game.Player.Character;
+                Vector3 targetPos = player.Position - player.ForwardVector * 7f;
+                float heading = (player.Heading + 180f) % 360f;
+
+                if (player.IsInVehicle())
+                {
+                    Vehicle veh = player.CurrentVehicle;
+                    TaskSequence seq = new TaskSequence();
+                    seq.AddTask.AchieveHeading(heading);
+                    seq.AddTask.DriveTo(veh, targetPos, 5f, VehicleDrivingFlags.StopForVehicles, 10f);
+                    seq.Close();
+                    player.Task.PerformSequence(seq);
+                    seq.Dispose();
+                }
+                else
+                {
+                    TaskSequence seq = new TaskSequence();
+                    seq.AddTask.AchieveHeading(heading);
+                    seq.AddTask.GoStraightTo(targetPos);
+                    seq.Close();
+                    player.Task.PerformSequence(seq);
+                    seq.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"U-Turn error: {ex.Message}");
             }
         }
 
