@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using GTA;
 using GTA.Math;
 using GTA.UI;
@@ -21,6 +20,8 @@ namespace REALIS.Core
             public bool Accessible { get; }
             public Blip? Blip { get; set; }
             public Ped? Customer { get; set; }
+            public bool LastOpenState { get; set; }
+            public DateTime LastNotificationTime { get; set; }
 
             public GasStation(Vector3 pos, TimeSpan open, TimeSpan close, bool accessible)
             {
@@ -28,6 +29,8 @@ namespace REALIS.Core
                 OpenTime = open;
                 CloseTime = close;
                 Accessible = accessible;
+                LastOpenState = false;
+                LastNotificationTime = DateTime.MinValue;
             }
 
             public bool IsOpen()
@@ -43,7 +46,6 @@ namespace REALIS.Core
 
         private readonly List<GasStation> _stations = new();
         private readonly List<Ped> _spawnedPeds = new();
-        private readonly TextElement _statusText;
         private int _tickCounter = 0;
         private const int UPDATE_INTERVAL = 100;
 
@@ -52,11 +54,6 @@ namespace REALIS.Core
             Tick += OnTick;
             Aborted += OnAborted;
 
-            _statusText = new TextElement(string.Empty, new System.Drawing.PointF(50f, Screen.Height - 120f), 0.45f)
-            {
-                Shadow = true,
-                Outline = true
-            };
 
             InitializeStations();
             CreateBlips();
@@ -101,9 +98,7 @@ namespace REALIS.Core
                 _tickCounter++;
                 if (_tickCounter % UPDATE_INTERVAL != 0) return;
 
-                bool showText = false;
-                float nearestDist = float.MaxValue;
-                bool nearestOpen = false;
+                
 
                 foreach (var station in _stations)
                 {
@@ -117,10 +112,13 @@ namespace REALIS.Core
 
                     if (dist < 25f)
                     {
-                        showText = true;
-                        _statusText.Caption = open ? "Station-service : Ouverte" : "Station-service : Fermée";
-                        _statusText.Color = open ? System.Drawing.Color.Green : System.Drawing.Color.Red;
-                        _statusText.Draw();
+                        if (open != station.LastOpenState &&
+                            (DateTime.Now - station.LastNotificationTime).TotalSeconds > 5)
+                        {
+                            Notification.PostTicker(open ? "Station-service ouverte" : "Station-service fermée", true);
+                            station.LastOpenState = open;
+                            station.LastNotificationTime = DateTime.Now;
+                        }
 
                         if (open)
                             SpawnCustomer(station);
@@ -132,19 +130,8 @@ namespace REALIS.Core
                         RemoveCustomer(station);
                     }
 
-                    if (dist < nearestDist)
-                    {
-                        nearestDist = dist;
-                        nearestOpen = open;
-                    }
                 }
 
-                if (!showText && nearestDist < 20f)
-                {
-                    _statusText.Caption = string.Empty;
-                    string status = nearestOpen ? "~g~Ouverte" : "~r~Fermée";
-                    Screen.ShowSubtitle($"Station-service : {status}", 1000);
-                }
             }
             catch (Exception ex)
             {
