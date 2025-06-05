@@ -81,7 +81,8 @@ namespace REALIS.Common
         TrafficBlock,
         VehicleStuck,
         PlayerBlockingTraffic,
-        TrafficJam
+        TrafficJam,
+        AmbientInteraction
     }
 
     /// <summary>
@@ -111,6 +112,32 @@ namespace REALIS.Common
             BlockedDuration = duration;
             Position = position;
         }
+    }
+
+    /// <summary>
+    /// Événement pour les interactions d'ambiance des PNJ.
+    /// </summary>
+    public class AmbientInteractionEvent : GameEvent
+    {
+        public Ped Actor { get; }
+        public AmbientInteractionType Interaction { get; }
+
+        public AmbientInteractionEvent(Ped actor, AmbientInteractionType interaction, Vector3 position)
+        {
+            EventType = REALISEventType.AmbientInteraction;
+            Actor = actor;
+            Interaction = interaction;
+            Position = position;
+        }
+    }
+
+    /// <summary>
+    /// Types d'interactions d'ambiance pour les PNJ.
+    /// </summary>
+    public enum AmbientInteractionType
+    {
+        IdleScenario,
+        Greeting
     }
 
     /// <summary>
