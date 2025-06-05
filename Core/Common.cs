@@ -137,7 +137,13 @@ namespace REALIS.Common
     public enum AmbientInteractionType
     {
         IdleScenario,
-        Greeting
+        Greeting,
+        Flee,
+        TakeCover,
+        Cower,
+        CallPolice,
+        CallAmbulance,
+        CallFireDept
     }
 
     /// <summary>
