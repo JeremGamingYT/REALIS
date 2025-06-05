@@ -170,13 +170,19 @@ namespace REALIS.NPC
 
                 if (scene.Ambulance.Position.DistanceTo(scene.Body.Position) < 7f)
                 {
-                    Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic1.Handle, scene.Ambulance.Handle, 0);
-                    Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic2.Handle, scene.Ambulance.Handle, 0);
-
-                    scene.Medic1.Task.GoTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
-                    scene.Medic1.Task.StartScenario("CODE_HUMAN_MEDIC_KNEEL", -1);
-                    scene.Medic2.Task.GoTo(scene.Body.Position + new Vector3(-0.5f, 0f, 0f));
-                    scene.Medic2.Task.StartScenario("CODE_HUMAN_MEDIC_KNEEL", -1);
+                    if (scene.Medic1 != null && scene.Medic1.Exists())
+                    {
+                        Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic1.Handle, scene.Ambulance.Handle, 0);
+                        scene.Medic1.Task.FollowNavMeshTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
+                        scene.Medic1.Task.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", -1);
+                    }
+                    
+                    if (scene.Medic2 != null && scene.Medic2.Exists())
+                    {
+                        Function.Call(Hash.TASK_LEAVE_VEHICLE, scene.Medic2.Handle, scene.Ambulance.Handle, 0);
+                        scene.Medic2.Task.FollowNavMeshTo(scene.Body.Position + new Vector3(-0.5f, 0f, 0f));
+                        scene.Medic2.Task.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", -1);
+                    }
 
                     SpawnOnlookers(scene);
 
@@ -217,7 +223,7 @@ namespace REALIS.NPC
                     if (ped == null || !ped.Exists() || ped == scene.Medic1 || ped == scene.Medic2 || ped == scene.Body) continue;
                     if (scene.Onlookers.Contains(ped)) continue;
 
-                    ped.Task.GoTo(scene.Body.Position.Around(2f));
+                    ped.Task.FollowNavMeshTo(scene.Body.Position.Around(2f));
                     string scenario = _rand.NextDouble() < 0.5 ? "WORLD_HUMAN_STAND_MOBILE" : "WORLD_HUMAN_MOBILE_FILM_SHOCKING";
                     Function.Call(Hash.TASK_START_SCENARIO_IN_PLACE, ped.Handle, scenario, 0, true);
                     scene.Onlookers.Add(ped);
