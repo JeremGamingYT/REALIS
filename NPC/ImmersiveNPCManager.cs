@@ -99,7 +99,7 @@ namespace REALIS.NPC
                 "WORLD_HUMAN_SMOKING",
                 "WORLD_HUMAN_STAND_MOBILE",
                 "WORLD_HUMAN_AA_SMOKE",
-                "WORLD_HUMAN_DRINKING"
+                "WORLD_HUMAN_STAND_IMPATIENT"
             };
             return scenarios[new Random().Next(scenarios.Length)];
         }
