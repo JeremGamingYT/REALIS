@@ -28,6 +28,8 @@ namespace REALIS.Core
             public DateTime LastAccessDeniedTime { get; set; }
             public bool PlayerWasInside { get; set; }
             public bool ForceClosed { get; set; }
+            public Vector3 ExitDirection { get; }
+
             public GasStation(Vector3 pos, Vector3 entrance, TimeSpan open, TimeSpan close, bool accessible)
             {
                 Position = pos;
@@ -39,6 +41,9 @@ namespace REALIS.Core
                 LastNotificationTime = DateTime.MinValue;
                 LastAccessDeniedTime = DateTime.MinValue;
                 ForceClosed = false;
+                Vector3 dir = entrance - pos;
+                dir.Normalize();
+                ExitDirection = dir;
             }
 
             public bool IsOpen()
@@ -156,6 +161,27 @@ namespace REALIS.Core
             }
         }
 
+        private void CheckClerkStatus(GasStation station)
+        {
+            try
+            {
+                var peds = World.GetNearbyPeds(station.Entrance, 5f);
+                bool found = false;
+                foreach (var ped in peds)
+                {
+                    if (ped == null || !ped.Exists() || !ped.IsAlive) continue;
+                    var model = ped.Model;
+                    if (model == new Model(PedHash.ShopKeep01) || model == new Model(PedHash.ShopMaskSMY))
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+                station.ForceClosed = !found;
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Clerk status error: {ex.Message}");
         private void SpawnClerks()
         {
             foreach (var station in _stations)
@@ -356,6 +382,7 @@ namespace REALIS.Core
                         Notification.PostTicker("~r~Magasin fermé", true);
                         station.LastAccessDeniedTime = DateTime.Now;
                     }
+                    ForcePlayerUTurn(station);
                     ForcePlayerUTurn();
                 }
 
@@ -386,11 +413,14 @@ namespace REALIS.Core
             }
         }
 
+        private void ForcePlayerUTurn(GasStation station)
         private void ForcePlayerUTurn()
         {
             try
             {
                 var player = Game.Player.Character;
+                Vector3 targetPos = station.Entrance + station.ExitDirection * 5f;
+                float heading = (float)(Math.Atan2(station.ExitDirection.Y, station.ExitDirection.X) * 180.0 / Math.PI);
                 Vector3 targetPos = player.Position - player.ForwardVector * 7f;
                 float heading = (player.Heading + 180f) % 360f;
 
