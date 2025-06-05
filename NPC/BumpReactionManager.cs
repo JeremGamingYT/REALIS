@@ -54,7 +54,7 @@ namespace REALIS.NPC
                             }
                             else
                             {
-                                ped.Task.Combat(player);
+                                ped.Task.FightAgainst(player);
                             }
                             _bumpTimes[ped.Handle] = DateTime.Now.AddSeconds(5);
                         }

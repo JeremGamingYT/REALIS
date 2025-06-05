@@ -166,10 +166,6 @@ namespace REALIS.NPC
                 {
                     scene.Stage = SceneStage.WaitingForAmbulance;
                     return;
-                    var medic = World.CreatePed(medicModel, pos);
-                    medic.Task.FollowNavMeshTo(scene.Body.Position);
-                    medic.Task.StartScenarioInPlace("CODE_HUMAN_MEDIC_KNEEL", 0, true);
-                    scene.Medic = medic;
                 }
 
                 if (scene.Ambulance.Position.DistanceTo(scene.Body.Position) < 7f)
@@ -201,14 +197,6 @@ namespace REALIS.NPC
                 if (scene.Cover == null && (DateTime.Now - scene.StageTime).TotalSeconds > 15)
                 {
                     TryCoverBody(scene);
-                    var copModel = new Model(PedHash.Cop01SMY);
-                    copModel.Request(500);
-                    if (copModel.IsLoaded)
-                    {
-                        var cop = World.CreatePed(copModel, pos + new Vector3(1f, -1f, 0f));
-                        cop.Task.FollowNavMeshTo(scene.Body.Position + new Vector3(0.5f, 0f, 0f));
-                        scene.Cop = cop;
-                    }
                 }
             }
             catch (Exception ex)
