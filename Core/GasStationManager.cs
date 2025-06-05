@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using GTA;
 using GTA.Math;
 using GTA.UI;
@@ -22,14 +21,11 @@ namespace REALIS.Core
             public bool Accessible { get; }
             public Blip? Blip { get; set; }
             public Ped? Customer { get; set; }
-            public Ped? Clerk { get; set; }
             public Vehicle? CustomerVehicle { get; set; }
             public bool LastOpenState { get; set; }
             public DateTime LastNotificationTime { get; set; }
             public DateTime LastAccessDeniedTime { get; set; }
             public bool PlayerWasInside { get; set; }
-            public bool ForceClosed { get; set; }
-            public Vector3 ExitDirection { get; }
 
             public GasStation(Vector3 pos, Vector3 entrance, TimeSpan open, TimeSpan close, bool accessible)
             {
@@ -41,10 +37,6 @@ namespace REALIS.Core
                 LastOpenState = false;
                 LastNotificationTime = DateTime.MinValue;
                 LastAccessDeniedTime = DateTime.MinValue;
-                ForceClosed = false;
-                Vector3 dir = entrance - pos;
-                dir.Normalize();
-                ExitDirection = dir;
             }
 
             public bool IsOpen()
@@ -72,7 +64,6 @@ namespace REALIS.Core
 
             InitializeStations();
             CreateBlips();
-            SpawnClerks();
         }
 
         private void InitializeStations()
@@ -162,67 +153,6 @@ namespace REALIS.Core
             }
         }
 
-        private void SpawnClerks()
-        {
-            foreach (var station in _stations)
-            {
-                if (!station.Accessible) continue;
-
-                try
-                {
-                    Model pedModel = new Model(PedHash.ShopMaskSMY);
-                    if (!pedModel.IsLoaded) pedModel.Request(500);
-                    if (!pedModel.IsLoaded) continue;
-
-                    var ped = World.CreatePed(pedModel, station.Entrance);
-                    if (ped == null || !ped.Exists())
-                        continue;
-
-                    ped.Task.StartScenarioInPlace("WORLD_HUMAN_STAND_IMPATIENT", 0, true);
-                    ped.BlockPermanentEvents = true;
-
-                    station.Clerk = ped;
-                    _spawnedPeds.Add(ped);
-
-                    pedModel.MarkAsNoLongerNeeded();
-                }
-                catch (Exception ex)
-                {
-                    Logger.Error($"Clerk spawn error: {ex.Message}");
-                }
-            }
-        }
-
-        private void CheckClerkStatus(GasStation station)
-        {
-            Ped? clerk = station.Clerk;
-
-            if (clerk == null || !clerk.Exists())
-            {
-                Ped[] nearby = World.GetNearbyPeds(station.Entrance, 5f);
-                clerk = nearby.FirstOrDefault(p => p != Game.Player.Character && p.Exists() && p.IsAlive);
-
-                if (clerk != null)
-                {
-                    station.Clerk = clerk;
-                    station.ForceClosed = false;
-                    return;
-                }
-
-                station.ForceClosed = true;
-                return;
-            }
-
-            float dist = clerk.Position.DistanceTo(station.Entrance);
-            if (!clerk.IsAlive || dist > 10f)
-            {
-                station.ForceClosed = true;
-            }
-            else
-            {
-                station.ForceClosed = false;
-            }
-        }
 
         private void OnTick(object sender, EventArgs e)
         {
@@ -237,9 +167,7 @@ namespace REALIS.Core
                 {
                     if (!station.Accessible || station.Blip == null) continue;
 
-                    CheckClerkStatus(station);
-
-                    bool open = station.IsOpen() && !station.ForceClosed;
+                    bool open = station.IsOpen();
                     station.Blip.Color = open ? BlipColor.Green : BlipColor.Red;
                     station.Blip.Name = open ? "Station-service (ouverte)" : "Station-service (fermée)";
 
@@ -374,7 +302,6 @@ namespace REALIS.Core
                         Notification.PostTicker("~r~Magasin fermé", true);
                         station.LastAccessDeniedTime = DateTime.Now;
                     }
-                    ForcePlayerUTurn();
                 }
 
                 ClearStore(station);
@@ -404,39 +331,6 @@ namespace REALIS.Core
             }
         }
 
-        private void ForcePlayerUTurn()
-        {
-            try
-            {
-                var player = Game.Player.Character;
-                Vector3 targetPos = player.Position - player.ForwardVector * 7f;
-                float heading = (player.Heading + 180f) % 360f;
-
-                if (player.IsInVehicle())
-                {
-                    Vehicle veh = player.CurrentVehicle;
-                    TaskSequence seq = new TaskSequence();
-                    seq.AddTask.AchieveHeading(heading);
-                    seq.AddTask.DriveTo(veh, targetPos, 5f, VehicleDrivingFlags.StopForVehicles, 10f);
-                    seq.Close();
-                    player.Task.PerformSequence(seq);
-                    seq.Dispose();
-                }
-                else
-                {
-                    TaskSequence seq = new TaskSequence();
-                    seq.AddTask.AchieveHeading(heading);
-                    seq.AddTask.GoStraightTo(targetPos);
-                    seq.Close();
-                    player.Task.PerformSequence(seq);
-                    seq.Dispose();
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"U-Turn error: {ex.Message}");
-            }
-        }
 
         private void OnAborted(object sender, EventArgs e)
         {
@@ -447,9 +341,6 @@ namespace REALIS.Core
                     if (!station.Accessible) continue;
                     station.Blip?.Delete();
                     RemoveCustomer(station);
-                    if (station.Clerk != null && station.Clerk.Exists())
-                        station.Clerk.Delete();
-                    station.Clerk = null;
                 }
 
                 _spawnedPeds.Clear();
