@@ -17,6 +17,7 @@ namespace REALIS.Core
         private Ped? _arrestingOfficer;
         private Vehicle? _policeVehicle;
         private int _tickCounter;
+        private int _stationaryMs;
         private bool _isEscorting;
         private bool _isTransporting;
         private readonly List<Ped> _spawnedPeds = new();
@@ -52,7 +53,8 @@ namespace REALIS.Core
                 }
                 else
                 {
-                    ResetState();
+                    if (!_isEscorting && !_isTransporting)
+                        ResetState();
                 }
 
                 if (_isEscorting)
@@ -94,13 +96,20 @@ namespace REALIS.Core
 
             if (closest == null) return;
 
-            if (closest.Position.DistanceTo(player.Position) > PoliceConfig.ARREST_RANGE)
+            if (player.Velocity.Length() < PoliceConfig.StationarySpeed)
+                _stationaryMs += PoliceConfig.UpdateInterval;
+            else
+                _stationaryMs = 0;
+
+            if (closest.Position.DistanceTo(player.Position) > PoliceConfig.ARREST_RANGE ||
+                _stationaryMs < PoliceConfig.ArrestDelayMs)
             {
                 closest.Task.RunTo(player.Position);
                 PoliceEvents.OnPlayerChaseStarted(closest);
             }
             else
             {
+                _stationaryMs = 0;
                 StartArrest(closest, player);
             }
         }
@@ -119,6 +128,7 @@ namespace REALIS.Core
             PoliceEvents.OnPlayerArrested(officer);
             _isEscorting = true;
             Game.Player.SetControlState(false);
+            Game.Player.Wanted.SetPoliceIgnorePlayer(true);
             Notification.PostTicker(PoliceConfig.ARREST_WARNING, true);
         }
 
@@ -136,18 +146,23 @@ namespace REALIS.Core
                 Game.DisableControlThisFrame(Control.Jump);
             }
 
-            if (!Function.Call<bool>(Hash.IS_PED_RUNNING_ARREST_TASK, _arrestingOfficer))
+            // attendre que le joueur soit menotté avant de poursuivre l'escorte
+            if (!Function.Call<bool>(Hash.IS_PED_RUNNING_ARREST_TASK, _arrestingOfficer) &&
+                Function.Call<bool>(Hash.IS_PED_CUFFED, player))
             {
                 if (_policeVehicle == null || !_policeVehicle.Exists())
                 {
-                    _policeVehicle = GetOrCreatePoliceVehicle(_arrestingOfficer.Position);
+                    _policeVehicle = GetOrCreatePoliceVehicle(player.Position);
                     if (_policeVehicle != null) _spawnedVehicles.Add(_policeVehicle);
                 }
 
                 if (_policeVehicle != null)
                 {
                     player.Task.EnterVehicle(_policeVehicle, VehicleSeat.RightRear);
+                    _arrestingOfficer.Task.ClearAll();
                     _arrestingOfficer.Task.EnterVehicle(_policeVehicle, VehicleSeat.Driver);
+                    Game.Player.Wanted.SetWantedLevel(0, false);
+                    Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
                     _isEscorting = false;
                     _isTransporting = true;
                     PoliceEvents.OnPlayerEscorted(_arrestingOfficer, _policeVehicle);
@@ -200,12 +215,24 @@ namespace REALIS.Core
 
         private Vehicle GetOrCreatePoliceVehicle(Vector3 around)
         {
-            var vehicles = World.GetNearbyVehicles(around, 20f);
+            var vehicles = World.GetNearbyVehicles(around, 40f);
+            Vehicle? closest = null;
+            float dist = float.MaxValue;
             foreach (var veh in vehicles)
             {
                 if (veh == null || !veh.Exists()) continue;
-                if (IsPoliceVehicle(veh)) return veh;
+                if (!IsPoliceVehicle(veh)) continue;
+                float d = veh.Position.DistanceTo(around);
+                if (d < dist)
+                {
+                    dist = d;
+                    closest = veh;
+                }
             }
+
+            if (closest != null) return closest;
+
+            if (!PoliceConfig.AutoCreatePoliceVehicles) return null!;
 
             Model model = new Model(PoliceConfig.POLICE_VEHICLE_MODELS[0]);
             if (!model.IsLoaded) model.Request(500);
@@ -240,6 +267,7 @@ namespace REALIS.Core
             try
             {
                 Game.Player.SetControlState(true);
+                Game.Player.Wanted.SetPoliceIgnorePlayer(false);
                 if (_arrestingOfficer != null && _spawnedPeds.Contains(_arrestingOfficer))
                 {
                     if (_arrestingOfficer.Exists())
@@ -264,6 +292,7 @@ namespace REALIS.Core
                 _policeVehicle = null;
                 _isEscorting = false;
                 _isTransporting = false;
+                _stationaryMs = 0;
             }
         }
 
