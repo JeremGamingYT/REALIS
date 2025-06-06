@@ -3,7 +3,7 @@
 ## Meilleures pratiques pour ScriptHookVDotNet V3
 
 ### Documentation et ressources
-- Consultez toujours la documentation officielle: [ScriptHookVDotNet V3 Documentation](https://nitanmarcel.github.io/scripthookvdotnet/scripting_v3/)
+- Consultez toujours la documentation officielle: [ScriptHookVDotNet V3 Documentation](https://shvdn-doc.vercel.app/api/GTA.html) ou : [ScriptHookVDotNet V3 New Doc](https://shvdn-doc.vercel.app/api/)
 - Référez-vous aux exemples de scripts existants pour comprendre les modèles de conception recommandés
 - Utilisez uniquement les versions compatibles : l'ASI et les DLL doivent provenir de la même version SHVDN
 

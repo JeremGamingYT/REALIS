@@ -1,2 +1,0 @@
-
-Lorsque le joueur démarre le mod pour la première fois, on devrait lui afficher un menu qui lui permet 
