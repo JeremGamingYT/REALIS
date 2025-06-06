@@ -17,6 +17,7 @@ namespace REALIS.Core
         private Ped? _arrestingOfficer;
         private Vehicle? _policeVehicle;
         private int _tickCounter;
+        private int _stationaryMs;
         private bool _isEscorting;
         private bool _isTransporting;
         private readonly List<Ped> _spawnedPeds = new();
@@ -95,13 +96,20 @@ namespace REALIS.Core
 
             if (closest == null) return;
 
-            if (closest.Position.DistanceTo(player.Position) > PoliceConfig.ARREST_RANGE)
+            if (player.Velocity.Length() < PoliceConfig.StationarySpeed)
+                _stationaryMs += PoliceConfig.UpdateInterval;
+            else
+                _stationaryMs = 0;
+
+            if (closest.Position.DistanceTo(player.Position) > PoliceConfig.ARREST_RANGE ||
+                _stationaryMs < PoliceConfig.ArrestDelayMs)
             {
                 closest.Task.RunTo(player.Position);
                 PoliceEvents.OnPlayerChaseStarted(closest);
             }
             else
             {
+                _stationaryMs = 0;
                 StartArrest(closest, player);
             }
         }
@@ -143,7 +151,7 @@ namespace REALIS.Core
             {
                 if (_policeVehicle == null || !_policeVehicle.Exists())
                 {
-                    _policeVehicle = GetOrCreatePoliceVehicle(_arrestingOfficer.Position);
+                    _policeVehicle = GetOrCreatePoliceVehicle(player.Position);
                     if (_policeVehicle != null) _spawnedVehicles.Add(_policeVehicle);
                 }
 
@@ -208,14 +216,26 @@ namespace REALIS.Core
         private Vehicle GetOrCreatePoliceVehicle(Vector3 around)
         {
             var vehicles = World.GetNearbyVehicles(around, PoliceConfig.POLICE_DETECTION_RANGE);
+            var vehicles = World.GetNearbyVehicles(around, 40f);
+            Vehicle? closest = null;
+            float dist = float.MaxValue;
             foreach (var veh in vehicles)
             {
                 if (veh == null || !veh.Exists()) continue;
-                if (IsPoliceVehicle(veh)) return veh;
+                if (!IsPoliceVehicle(veh)) continue;
+                float d = veh.Position.DistanceTo(around);
+                if (d < dist)
+                {
+                    dist = d;
+                    closest = veh;
+                }
             }
 
             if (!PoliceConfig.AutoCreatePoliceVehicles)
                 return null!;
+            if (closest != null) return closest;
+
+            if (!PoliceConfig.AutoCreatePoliceVehicles) return null!;
 
             Model model = new Model(PoliceConfig.POLICE_VEHICLE_MODELS[0]);
             DateTime startTime = DateTime.Now;
@@ -281,6 +301,7 @@ namespace REALIS.Core
                 _policeVehicle = null;
                 _isEscorting = false;
                 _isTransporting = false;
+                _stationaryMs = 0;
             }
         }
 
