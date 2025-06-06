@@ -119,7 +119,6 @@ namespace REALIS.Core
             Function.Call(Hash.TASK_ARREST_PED, officer.Handle, player.Handle);
             PoliceEvents.OnPlayerArrested(officer);
             _isEscorting = true;
-            Game.Player.SetControlState(false);
             Game.Player.Wanted.SetPoliceIgnorePlayer(true);
             Notification.PostTicker(PoliceConfig.ARREST_WARNING, true);
         }
@@ -150,6 +149,7 @@ namespace REALIS.Core
 
                 if (_policeVehicle != null)
                 {
+                    Game.Player.SetControlState(false);
                     player.Task.EnterVehicle(_policeVehicle, VehicleSeat.RightRear);
                     _arrestingOfficer.Task.ClearAll();
                     _arrestingOfficer.Task.EnterVehicle(_policeVehicle, VehicleSeat.Driver);
@@ -207,15 +207,24 @@ namespace REALIS.Core
 
         private Vehicle GetOrCreatePoliceVehicle(Vector3 around)
         {
-            var vehicles = World.GetNearbyVehicles(around, 20f);
+            var vehicles = World.GetNearbyVehicles(around, PoliceConfig.POLICE_DETECTION_RANGE);
             foreach (var veh in vehicles)
             {
                 if (veh == null || !veh.Exists()) continue;
                 if (IsPoliceVehicle(veh)) return veh;
             }
 
+            if (!PoliceConfig.AutoCreatePoliceVehicles)
+                return null!;
+
             Model model = new Model(PoliceConfig.POLICE_VEHICLE_MODELS[0]);
-            if (!model.IsLoaded) model.Request(500);
+            DateTime startTime = DateTime.Now;
+            while (!model.IsLoaded && (DateTime.Now - startTime).TotalMilliseconds < 2000)
+            {
+                model.Request();
+                Script.Yield();
+            }
+
             if (!model.IsLoaded) return null!;
             var v = World.CreateVehicle(model, around.Around(5f));
             model.MarkAsNoLongerNeeded();
