@@ -125,6 +125,8 @@ namespace REALIS.Core
             _arrestingOfficer = officer;
             _arrestingOfficer.Task.ClearAll();
             Function.Call(Hash.TASK_ARREST_PED, officer.Handle, player.Handle);
+            Game.Player.Wanted.SetWantedLevel(0, false);
+            Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
             PoliceEvents.OnPlayerArrested(officer);
             _isEscorting = true;
             Game.Player.Wanted.SetPoliceIgnorePlayer(true);
