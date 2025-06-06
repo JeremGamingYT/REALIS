@@ -45,7 +45,7 @@ namespace REALIS.Core
                 Ped player = Game.Player.Character;
                 if (!player.Exists()) return;
 
-                if (Game.Player.WantedLevel == 1)
+                if (Game.Player.Wanted.WantedLevel == 1)
                 {
                     if (!_isEscorting && !_isTransporting)
                         HandleChase(player);
@@ -87,7 +87,7 @@ namespace REALIS.Core
                 {
                     PoliceEvents.OnPlayerAimingAtOfficer(ped);
                     ped.Task.ShootAt(player);
-                    Notification.Show(PoliceConfig.COMBAT_WARNING);
+                    Notification.PostTicker(PoliceConfig.COMBAT_WARNING, true);
                     return;
                 }
             }
@@ -118,8 +118,8 @@ namespace REALIS.Core
             Function.Call(Hash.TASK_ARREST_PED, officer.Handle, player.Handle);
             PoliceEvents.OnPlayerArrested(officer);
             _isEscorting = true;
-            Game.Player.CanControlCharacter = false;
-            Notification.Show(PoliceConfig.ARREST_WARNING);
+            Game.Player.SetControlState(false);
+            Notification.PostTicker(PoliceConfig.ARREST_WARNING, true);
         }
 
         private void UpdateEscort(Ped player)
@@ -151,7 +151,7 @@ namespace REALIS.Core
                     _isEscorting = false;
                     _isTransporting = true;
                     PoliceEvents.OnPlayerEscorted(_arrestingOfficer, _policeVehicle);
-                    Notification.Show(PoliceConfig.HANDCUFF_MESSAGE);
+                    Notification.PostTicker(PoliceConfig.HANDCUFF_MESSAGE, true);
                 }
             }
         }
@@ -167,15 +167,17 @@ namespace REALIS.Core
             if (!_arrestingOfficer.IsInVehicle(_policeVehicle)) return;
 
             Vector3 destination = GetNearestStation(_policeVehicle.Position);
-            _arrestingOfficer.Task.DriveTo(_policeVehicle, destination, 5f, PoliceConfig.TransportSpeed, DrivingStyle.Rushed);
+            _arrestingOfficer.Task.DriveTo(_policeVehicle, destination, 5f,
+                VehicleDrivingFlags.DrivingModeAvoidVehicles, PoliceConfig.TransportSpeed);
 
             if (_policeVehicle.Position.DistanceTo(destination) < 6f)
             {
                 player.Task.LeaveVehicle(_policeVehicle, LeaveVehicleFlags.None);
-                Game.Player.CanControlCharacter = true;
-                Game.Player.WantedLevel = 0;
+                Game.Player.SetControlState(true);
+                Game.Player.Wanted.SetWantedLevel(0, false);
+                Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
                 PoliceEvents.OnPlayerTransported(_policeVehicle);
-                Notification.Show(PoliceConfig.RELEASE_MESSAGE);
+                Notification.PostTicker(PoliceConfig.RELEASE_MESSAGE, true);
                 ResetState();
             }
         }
@@ -217,7 +219,7 @@ namespace REALIS.Core
         {
             foreach (var name in PoliceConfig.POLICE_VEHICLE_MODELS)
             {
-                if (veh.Model.Hash == (int)Game.GenerateHash(name))
+                if (veh.Model.Hash == Function.Call<int>(Hash.GET_HASH_KEY, name))
                     return true;
             }
             return false;
@@ -227,7 +229,7 @@ namespace REALIS.Core
         {
             foreach (var name in PoliceConfig.POLICE_PED_MODELS)
             {
-                if (ped.Model.Hash == (int)Game.GenerateHash(name))
+                if (ped.Model.Hash == Function.Call<int>(Hash.GET_HASH_KEY, name))
                     return true;
             }
             return false;
@@ -237,7 +239,7 @@ namespace REALIS.Core
         {
             try
             {
-                Game.Player.CanControlCharacter = true;
+                Game.Player.SetControlState(true);
                 if (_arrestingOfficer != null && _spawnedPeds.Contains(_arrestingOfficer))
                 {
                     if (_arrestingOfficer.Exists())
