@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.TargetLossResponse
+  commentId: T:GTA.TargetLossResponse
+  id: TargetLossResponse
+  parent: GTA
+  children:
+  - GTA.TargetLossResponse.ExitTask
+  - GTA.TargetLossResponse.NeverLoseTarget
+  - GTA.TargetLossResponse.SearchForTarget
+  langs:
+  - csharp
+  - vb
+  name: TargetLossResponse
+  nameWithType: TargetLossResponse
+  fullName: GTA.TargetLossResponse
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum TargetLossResponse
+    content.vb: Public Enum TargetLossResponse
+- uid: GTA.TargetLossResponse.ExitTask
+  commentId: F:GTA.TargetLossResponse.ExitTask
+  id: ExitTask
+  parent: GTA.TargetLossResponse
+  langs:
+  - csharp
+  - vb
+  name: ExitTask
+  nameWithType: TargetLossResponse.ExitTask
+  fullName: GTA.TargetLossResponse.ExitTask
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExitTask = 0
+    return:
+      type: GTA.TargetLossResponse
+- uid: GTA.TargetLossResponse.NeverLoseTarget
+  commentId: F:GTA.TargetLossResponse.NeverLoseTarget
+  id: NeverLoseTarget
+  parent: GTA.TargetLossResponse
+  langs:
+  - csharp
+  - vb
+  name: NeverLoseTarget
+  nameWithType: TargetLossResponse.NeverLoseTarget
+  fullName: GTA.TargetLossResponse.NeverLoseTarget
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NeverLoseTarget = 1
+    return:
+      type: GTA.TargetLossResponse
+- uid: GTA.TargetLossResponse.SearchForTarget
+  commentId: F:GTA.TargetLossResponse.SearchForTarget
+  id: SearchForTarget
+  parent: GTA.TargetLossResponse
+  langs:
+  - csharp
+  - vb
+  name: SearchForTarget
+  nameWithType: TargetLossResponse.SearchForTarget
+  fullName: GTA.TargetLossResponse.SearchForTarget
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SearchForTarget = 2
+    return:
+      type: GTA.TargetLossResponse
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.TargetLossResponse
+  commentId: T:GTA.TargetLossResponse
+  parent: GTA
+  isExternal: true
+  href: GTA.TargetLossResponse.html
+  name: TargetLossResponse
+  nameWithType: TargetLossResponse
+  fullName: GTA.TargetLossResponse

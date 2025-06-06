@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.WeaponScriptResourceFlags
+  commentId: T:GTA.WeaponScriptResourceFlags
+  id: WeaponScriptResourceFlags
+  parent: GTA
+  children:
+  - GTA.WeaponScriptResourceFlags.RequestAllAnims
+  - GTA.WeaponScriptResourceFlags.RequestAllMovementVariationAnims
+  - GTA.WeaponScriptResourceFlags.RequestBaseAnims
+  - GTA.WeaponScriptResourceFlags.RequestCoverAnims
+  - GTA.WeaponScriptResourceFlags.RequestMeleeAnims
+  - GTA.WeaponScriptResourceFlags.RequestMotionAnims
+  - GTA.WeaponScriptResourceFlags.RequestStealthAnims
+  langs:
+  - csharp
+  - vb
+  name: WeaponScriptResourceFlags
+  nameWithType: WeaponScriptResourceFlags
+  fullName: GTA.WeaponScriptResourceFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum WeaponScriptResourceFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum WeaponScriptResourceFlags As UInteger
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.WeaponScriptResourceFlags.RequestBaseAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestBaseAnims
+  id: RequestBaseAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestBaseAnims
+  nameWithType: WeaponScriptResourceFlags.RequestBaseAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestBaseAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestBaseAnims = 1
+    return:
+      type: GTA.WeaponScriptResourceFlags
+- uid: GTA.WeaponScriptResourceFlags.RequestCoverAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestCoverAnims
+  id: RequestCoverAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestCoverAnims
+  nameWithType: WeaponScriptResourceFlags.RequestCoverAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestCoverAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestCoverAnims = 2
+    return:
+      type: GTA.WeaponScriptResourceFlags
+- uid: GTA.WeaponScriptResourceFlags.RequestMeleeAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestMeleeAnims
+  id: RequestMeleeAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestMeleeAnims
+  nameWithType: WeaponScriptResourceFlags.RequestMeleeAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestMeleeAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestMeleeAnims = 4
+    return:
+      type: GTA.WeaponScriptResourceFlags
+- uid: GTA.WeaponScriptResourceFlags.RequestMotionAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestMotionAnims
+  id: RequestMotionAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestMotionAnims
+  nameWithType: WeaponScriptResourceFlags.RequestMotionAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestMotionAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestMotionAnims = 8
+    return:
+      type: GTA.WeaponScriptResourceFlags
+- uid: GTA.WeaponScriptResourceFlags.RequestStealthAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestStealthAnims
+  id: RequestStealthAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestStealthAnims
+  nameWithType: WeaponScriptResourceFlags.RequestStealthAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestStealthAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestStealthAnims = 16
+    return:
+      type: GTA.WeaponScriptResourceFlags
+- uid: GTA.WeaponScriptResourceFlags.RequestAllMovementVariationAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestAllMovementVariationAnims
+  id: RequestAllMovementVariationAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestAllMovementVariationAnims
+  nameWithType: WeaponScriptResourceFlags.RequestAllMovementVariationAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestAllMovementVariationAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestAllMovementVariationAnims = 32
+    return:
+      type: GTA.WeaponScriptResourceFlags
+- uid: GTA.WeaponScriptResourceFlags.RequestAllAnims
+  commentId: F:GTA.WeaponScriptResourceFlags.RequestAllAnims
+  id: RequestAllAnims
+  parent: GTA.WeaponScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: RequestAllAnims
+  nameWithType: WeaponScriptResourceFlags.RequestAllAnims
+  fullName: GTA.WeaponScriptResourceFlags.RequestAllAnims
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RequestAllAnims = RequestBaseAnims | RequestCoverAnims | RequestMeleeAnims | RequestMotionAnims | RequestStealthAnims
+    return:
+      type: GTA.WeaponScriptResourceFlags
+    content.vb: RequestAllAnims = RequestBaseAnims Or RequestCoverAnims Or RequestMeleeAnims Or RequestMotionAnims Or RequestStealthAnims
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.WeaponScriptResourceFlags
+  commentId: T:GTA.WeaponScriptResourceFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponScriptResourceFlags.html
+  name: WeaponScriptResourceFlags
+  nameWithType: WeaponScriptResourceFlags
+  fullName: GTA.WeaponScriptResourceFlags

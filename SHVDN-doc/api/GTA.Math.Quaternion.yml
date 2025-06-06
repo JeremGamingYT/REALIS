@@ -1,0 +1,2565 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Math.Quaternion
+  commentId: T:GTA.Math.Quaternion
+  id: Quaternion
+  parent: GTA.Math
+  children:
+  - GTA.Math.Quaternion.#ctor(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  - GTA.Math.Quaternion.Add(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Angle
+  - GTA.Math.Quaternion.AngleBetween(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Axis
+  - GTA.Math.Quaternion.Conjugate
+  - GTA.Math.Quaternion.Conjugate(GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.DirectionVectors(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.Divide(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Dot(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Equals(GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Equals(System.Object)
+  - GTA.Math.Quaternion.Euler(GTA.Math.Vector3)
+  - GTA.Math.Quaternion.Euler(GTA.Math.Vector3,GTA.EulerRotationOrder)
+  - GTA.Math.Quaternion.Euler(System.Single,System.Single,System.Single)
+  - GTA.Math.Quaternion.Euler(System.Single,System.Single,System.Single,GTA.EulerRotationOrder)
+  - GTA.Math.Quaternion.FromToRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.GetDirectionVectors(GTA.Math.Quaternion,GTA.Math.Vector3@,GTA.Math.Vector3@,GTA.Math.Vector3@)
+  - GTA.Math.Quaternion.GetHashCode
+  - GTA.Math.Quaternion.Identity
+  - GTA.Math.Quaternion.Invert
+  - GTA.Math.Quaternion.Invert(GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Length
+  - GTA.Math.Quaternion.LengthSquared
+  - GTA.Math.Quaternion.Lerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  - GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3)
+  - GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,System.Single)
+  - GTA.Math.Quaternion.Negate(GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.Normalize
+  - GTA.Math.Quaternion.Normalize(GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.One
+  - GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  - GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3)
+  - GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Quaternion.RotationMatrix(GTA.Math.Matrix)
+  - GTA.Math.Quaternion.RotationYawPitchRoll(System.Single,System.Single,System.Single)
+  - GTA.Math.Quaternion.Slerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  - GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  - GTA.Math.Quaternion.Subtract(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.ToEuler(GTA.EulerRotationOrder)
+  - GTA.Math.Quaternion.ToString
+  - GTA.Math.Quaternion.ToString(System.String)
+  - GTA.Math.Quaternion.ToString(System.String,System.IFormatProvider)
+  - GTA.Math.Quaternion.W
+  - GTA.Math.Quaternion.X
+  - GTA.Math.Quaternion.Y
+  - GTA.Math.Quaternion.Z
+  - GTA.Math.Quaternion.Zero
+  - GTA.Math.Quaternion.op_Addition(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_Division(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_Equality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_Inequality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Vector3)
+  - GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,System.Single)
+  - GTA.Math.Quaternion.op_Multiply(System.Single,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_Subtraction(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  - GTA.Math.Quaternion.op_UnaryNegation(GTA.Math.Quaternion)
+  langs:
+  - csharp
+  - vb
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: GTA.Math.Quaternion
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: 'public struct Quaternion : IEquatable<Quaternion>, IFormattable'
+    content.vb: Public Structure Quaternion Implements IEquatable(Of Quaternion), IFormattable
+  implements:
+  - System.IEquatable{GTA.Math.Quaternion}
+  - System.IFormattable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Math.Quaternion.X
+  commentId: F:GTA.Math.Quaternion.X
+  id: X
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Quaternion.X
+  fullName: GTA.Math.Quaternion.X
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float X
+    return:
+      type: System.Single
+    content.vb: Public X As Single
+- uid: GTA.Math.Quaternion.Y
+  commentId: F:GTA.Math.Quaternion.Y
+  id: Y
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Quaternion.Y
+  fullName: GTA.Math.Quaternion.Y
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float Y
+    return:
+      type: System.Single
+    content.vb: Public Y As Single
+- uid: GTA.Math.Quaternion.Z
+  commentId: F:GTA.Math.Quaternion.Z
+  id: Z
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Quaternion.Z
+  fullName: GTA.Math.Quaternion.Z
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float Z
+    return:
+      type: System.Single
+    content.vb: Public Z As Single
+- uid: GTA.Math.Quaternion.W
+  commentId: F:GTA.Math.Quaternion.W
+  id: W
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: Quaternion.W
+  fullName: GTA.Math.Quaternion.W
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float W
+    return:
+      type: System.Single
+    content.vb: Public W As Single
+- uid: GTA.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:GTA.Math.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single,System.Single)'
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Quaternion(float, float, float, float)
+  nameWithType: Quaternion.Quaternion(float, float, float, float)
+  fullName: GTA.Math.Quaternion.Quaternion(float, float, float, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Quaternion(float x, float y, float z, float w)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    - id: w
+      type: System.Single
+    content.vb: Public Sub New(x As Single, y As Single, z As Single, w As Single)
+  overload: GTA.Math.Quaternion.#ctor*
+  nameWithType.vb: Quaternion.New(Single, Single, Single, Single)
+  fullName.vb: GTA.Math.Quaternion.New(Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single)
+- uid: GTA.Math.Quaternion.#ctor(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Quaternion.#ctor(GTA.Math.Vector3,System.Single)
+  id: '#ctor(GTA.Math.Vector3,System.Single)'
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Quaternion(Vector3, float)
+  nameWithType: Quaternion.Quaternion(Vector3, float)
+  fullName: GTA.Math.Quaternion.Quaternion(GTA.Math.Vector3, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Quaternion(Vector3 axis, float angle)
+    parameters:
+    - id: axis
+      type: GTA.Math.Vector3
+    - id: angle
+      type: System.Single
+    content.vb: Public Sub New(axis As Vector3, angle As Single)
+  overload: GTA.Math.Quaternion.#ctor*
+  nameWithType.vb: Quaternion.New(Vector3, Single)
+  fullName.vb: GTA.Math.Quaternion.New(GTA.Math.Vector3, Single)
+  name.vb: New(Vector3, Single)
+- uid: GTA.Math.Quaternion.Length
+  commentId: M:GTA.Math.Quaternion.Length
+  id: Length
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Length()
+  nameWithType: Quaternion.Length()
+  fullName: GTA.Math.Quaternion.Length()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float Length()
+    return:
+      type: System.Single
+    content.vb: Public Function Length() As Single
+  overload: GTA.Math.Quaternion.Length*
+- uid: GTA.Math.Quaternion.LengthSquared
+  commentId: M:GTA.Math.Quaternion.LengthSquared
+  id: LengthSquared
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: LengthSquared()
+  nameWithType: Quaternion.LengthSquared()
+  fullName: GTA.Math.Quaternion.LengthSquared()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float LengthSquared()
+    return:
+      type: System.Single
+    content.vb: Public Function LengthSquared() As Single
+  overload: GTA.Math.Quaternion.LengthSquared*
+- uid: GTA.Math.Quaternion.Normalize
+  commentId: M:GTA.Math.Quaternion.Normalize
+  id: Normalize
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Normalize()
+  nameWithType: Quaternion.Normalize()
+  fullName: GTA.Math.Quaternion.Normalize()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public void Normalize()
+    content.vb: Public Sub Normalize()
+  overload: GTA.Math.Quaternion.Normalize*
+- uid: GTA.Math.Quaternion.Conjugate
+  commentId: M:GTA.Math.Quaternion.Conjugate
+  id: Conjugate
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Conjugate()
+  nameWithType: Quaternion.Conjugate()
+  fullName: GTA.Math.Quaternion.Conjugate()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public void Conjugate()
+    content.vb: Public Sub Conjugate()
+  overload: GTA.Math.Quaternion.Conjugate*
+- uid: GTA.Math.Quaternion.Invert
+  commentId: M:GTA.Math.Quaternion.Invert
+  id: Invert
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Invert()
+  nameWithType: Quaternion.Invert()
+  fullName: GTA.Math.Quaternion.Invert()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public void Invert()
+    content.vb: Public Sub Invert()
+  overload: GTA.Math.Quaternion.Invert*
+- uid: GTA.Math.Quaternion.Negate(GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Negate(GTA.Math.Quaternion)
+  id: Negate(GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Negate(Quaternion)
+  nameWithType: Quaternion.Negate(Quaternion)
+  fullName: GTA.Math.Quaternion.Negate(GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Negate(Quaternion quaternion)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Negate(quaternion As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Negate*
+- uid: GTA.Math.Quaternion.Add(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Add(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: Add(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Add(Quaternion, Quaternion)
+  nameWithType: Quaternion.Add(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.Add(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Add(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Add(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Add*
+- uid: GTA.Math.Quaternion.Subtract(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Subtract(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: Subtract(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Subtract(Quaternion, Quaternion)
+  nameWithType: Quaternion.Subtract(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.Subtract(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Subtract(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Subtract(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Subtract*
+- uid: GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Quaternion, Quaternion)
+  nameWithType: Quaternion.Multiply(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Multiply(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Multiply(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Multiply*
+- uid: GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,System.Single)
+  commentId: M:GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion,System.Single)
+  id: Multiply(GTA.Math.Quaternion,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Quaternion, float)
+  nameWithType: Quaternion.Multiply(Quaternion, float)
+  fullName: GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Multiply(Quaternion quaternion, float scale)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    - id: scale
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Multiply(quaternion As Quaternion, scale As Single) As Quaternion
+  overload: GTA.Math.Quaternion.Multiply*
+  nameWithType.vb: Quaternion.Multiply(Quaternion, Single)
+  fullName.vb: GTA.Math.Quaternion.Multiply(GTA.Math.Quaternion, Single)
+  name.vb: Multiply(Quaternion, Single)
+- uid: GTA.Math.Quaternion.Divide(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Divide(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: Divide(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Divide(Quaternion, Quaternion)
+  nameWithType: Quaternion.Divide(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.Divide(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Divide(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Divide(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Divide*
+- uid: GTA.Math.Quaternion.Normalize(GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Normalize(GTA.Math.Quaternion)
+  id: Normalize(GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Normalize(Quaternion)
+  nameWithType: Quaternion.Normalize(Quaternion)
+  fullName: GTA.Math.Quaternion.Normalize(GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Normalize(Quaternion quaternion)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Normalize(quaternion As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Normalize*
+- uid: GTA.Math.Quaternion.Conjugate(GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Conjugate(GTA.Math.Quaternion)
+  id: Conjugate(GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Conjugate(Quaternion)
+  nameWithType: Quaternion.Conjugate(Quaternion)
+  fullName: GTA.Math.Quaternion.Conjugate(GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Conjugate(Quaternion value)
+    parameters:
+    - id: value
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Conjugate(value As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Conjugate*
+- uid: GTA.Math.Quaternion.Invert(GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Invert(GTA.Math.Quaternion)
+  id: Invert(GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Invert(Quaternion)
+  nameWithType: Quaternion.Invert(Quaternion)
+  fullName: GTA.Math.Quaternion.Invert(GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Invert(Quaternion quaternion)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Invert(quaternion As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.Invert*
+- uid: GTA.Math.Quaternion.Dot(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Dot(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: Dot(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Dot(Quaternion, Quaternion)
+  nameWithType: Quaternion.Dot(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.Dot(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float Dot(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Dot(left As Quaternion, right As Quaternion) As Single
+  overload: GTA.Math.Quaternion.Dot*
+- uid: GTA.Math.Quaternion.Lerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  commentId: M:GTA.Math.Quaternion.Lerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  id: Lerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Quaternion, Quaternion, float)
+  nameWithType: Quaternion.Lerp(Quaternion, Quaternion, float)
+  fullName: GTA.Math.Quaternion.Lerp(GTA.Math.Quaternion, GTA.Math.Quaternion, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Lerp(Quaternion start, Quaternion end, float amount)
+    parameters:
+    - id: start
+      type: GTA.Math.Quaternion
+    - id: end
+      type: GTA.Math.Quaternion
+    - id: amount
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Lerp(start As Quaternion, [end] As Quaternion, amount As Single) As Quaternion
+  overload: GTA.Math.Quaternion.Lerp*
+  nameWithType.vb: Quaternion.Lerp(Quaternion, Quaternion, Single)
+  fullName.vb: GTA.Math.Quaternion.Lerp(GTA.Math.Quaternion, GTA.Math.Quaternion, Single)
+  name.vb: Lerp(Quaternion, Quaternion, Single)
+- uid: GTA.Math.Quaternion.Slerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  commentId: M:GTA.Math.Quaternion.Slerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  id: Slerp(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Slerp(Quaternion, Quaternion, float)
+  nameWithType: Quaternion.Slerp(Quaternion, Quaternion, float)
+  fullName: GTA.Math.Quaternion.Slerp(GTA.Math.Quaternion, GTA.Math.Quaternion, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Slerp(Quaternion start, Quaternion end, float amount)
+    parameters:
+    - id: start
+      type: GTA.Math.Quaternion
+    - id: end
+      type: GTA.Math.Quaternion
+    - id: amount
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Slerp(start As Quaternion, [end] As Quaternion, amount As Single) As Quaternion
+  overload: GTA.Math.Quaternion.Slerp*
+  nameWithType.vb: Quaternion.Slerp(Quaternion, Quaternion, Single)
+  fullName.vb: GTA.Math.Quaternion.Slerp(GTA.Math.Quaternion, GTA.Math.Quaternion, Single)
+  name.vb: Slerp(Quaternion, Quaternion, Single)
+- uid: GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  commentId: M:GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  id: SlerpUnclamped(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: SlerpUnclamped(Quaternion, Quaternion, float)
+  nameWithType: Quaternion.SlerpUnclamped(Quaternion, Quaternion, float)
+  fullName: GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion, GTA.Math.Quaternion, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion SlerpUnclamped(Quaternion a, Quaternion b, float t)
+    parameters:
+    - id: a
+      type: GTA.Math.Quaternion
+    - id: b
+      type: GTA.Math.Quaternion
+    - id: t
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function SlerpUnclamped(a As Quaternion, b As Quaternion, t As Single) As Quaternion
+  overload: GTA.Math.Quaternion.SlerpUnclamped*
+  nameWithType.vb: Quaternion.SlerpUnclamped(Quaternion, Quaternion, Single)
+  fullName.vb: GTA.Math.Quaternion.SlerpUnclamped(GTA.Math.Quaternion, GTA.Math.Quaternion, Single)
+  name.vb: SlerpUnclamped(Quaternion, Quaternion, Single)
+- uid: GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3)
+  id: LookRotation(GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: LookRotation(Vector3)
+  nameWithType: Quaternion.LookRotation(Vector3)
+  fullName: GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion LookRotation(Vector3 forward)
+    parameters:
+    - id: forward
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function LookRotation(forward As Vector3) As Quaternion
+  overload: GTA.Math.Quaternion.LookRotation*
+- uid: GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: LookRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: LookRotation(Vector3, Vector3)
+  nameWithType: Quaternion.LookRotation(Vector3, Vector3)
+  fullName: GTA.Math.Quaternion.LookRotation(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion LookRotation(Vector3 forward, Vector3 up)
+    parameters:
+    - id: forward
+      type: GTA.Math.Vector3
+    - id: up
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function LookRotation(forward As Vector3, up As Vector3) As Quaternion
+  overload: GTA.Math.Quaternion.LookRotation*
+- uid: GTA.Math.Quaternion.FromToRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.FromToRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: FromToRotation(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: FromToRotation(Vector3, Vector3)
+  nameWithType: Quaternion.FromToRotation(Vector3, Vector3)
+  fullName: GTA.Math.Quaternion.FromToRotation(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion FromToRotation(Vector3 fromDirection, Vector3 toDirection)
+    parameters:
+    - id: fromDirection
+      type: GTA.Math.Vector3
+    - id: toDirection
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function FromToRotation(fromDirection As Vector3, toDirection As Vector3) As Quaternion
+  overload: GTA.Math.Quaternion.FromToRotation*
+- uid: GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  commentId: M:GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  id: RotateTowards(GTA.Math.Quaternion,GTA.Math.Quaternion,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotateTowards(Quaternion, Quaternion, float)
+  nameWithType: Quaternion.RotateTowards(Quaternion, Quaternion, float)
+  fullName: GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion, GTA.Math.Quaternion, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion RotateTowards(Quaternion from, Quaternion to, float maxDegreesDelta)
+    parameters:
+    - id: from
+      type: GTA.Math.Quaternion
+    - id: to
+      type: GTA.Math.Quaternion
+    - id: maxDegreesDelta
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function RotateTowards(from As Quaternion, [to] As Quaternion, maxDegreesDelta As Single) As Quaternion
+  overload: GTA.Math.Quaternion.RotateTowards*
+  nameWithType.vb: Quaternion.RotateTowards(Quaternion, Quaternion, Single)
+  fullName.vb: GTA.Math.Quaternion.RotateTowards(GTA.Math.Quaternion, GTA.Math.Quaternion, Single)
+  name.vb: RotateTowards(Quaternion, Quaternion, Single)
+- uid: GTA.Math.Quaternion.AngleBetween(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.AngleBetween(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: AngleBetween(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: AngleBetween(Quaternion, Quaternion)
+  nameWithType: Quaternion.AngleBetween(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.AngleBetween(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float AngleBetween(Quaternion a, Quaternion b)
+    parameters:
+    - id: a
+      type: GTA.Math.Quaternion
+    - id: b
+      type: GTA.Math.Quaternion
+    return:
+      type: System.Single
+    content.vb: Public Shared Function AngleBetween(a As Quaternion, b As Quaternion) As Single
+  overload: GTA.Math.Quaternion.AngleBetween*
+- uid: GTA.Math.Quaternion.Euler(System.Single,System.Single,System.Single)
+  commentId: M:GTA.Math.Quaternion.Euler(System.Single,System.Single,System.Single)
+  id: Euler(System.Single,System.Single,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Euler(float, float, float)
+  nameWithType: Quaternion.Euler(float, float, float)
+  fullName: GTA.Math.Quaternion.Euler(float, float, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Euler(float zaxis, float xaxis, float yaxis)
+    parameters:
+    - id: zaxis
+      type: System.Single
+    - id: xaxis
+      type: System.Single
+    - id: yaxis
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Euler(zaxis As Single, xaxis As Single, yaxis As Single) As Quaternion
+  overload: GTA.Math.Quaternion.Euler*
+  nameWithType.vb: Quaternion.Euler(Single, Single, Single)
+  fullName.vb: GTA.Math.Quaternion.Euler(Single, Single, Single)
+  name.vb: Euler(Single, Single, Single)
+- uid: GTA.Math.Quaternion.Euler(System.Single,System.Single,System.Single,GTA.EulerRotationOrder)
+  commentId: M:GTA.Math.Quaternion.Euler(System.Single,System.Single,System.Single,GTA.EulerRotationOrder)
+  id: Euler(System.Single,System.Single,System.Single,GTA.EulerRotationOrder)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Euler(float, float, float, EulerRotationOrder)
+  nameWithType: Quaternion.Euler(float, float, float, EulerRotationOrder)
+  fullName: GTA.Math.Quaternion.Euler(float, float, float, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Euler(float z, float x, float y, EulerRotationOrder rotationOrder)
+    parameters:
+    - id: z
+      type: System.Single
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: rotationOrder
+      type: GTA.EulerRotationOrder
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Euler(z As Single, x As Single, y As Single, rotationOrder As EulerRotationOrder) As Quaternion
+  overload: GTA.Math.Quaternion.Euler*
+  nameWithType.vb: Quaternion.Euler(Single, Single, Single, EulerRotationOrder)
+  fullName.vb: GTA.Math.Quaternion.Euler(Single, Single, Single, GTA.EulerRotationOrder)
+  name.vb: Euler(Single, Single, Single, EulerRotationOrder)
+- uid: GTA.Math.Quaternion.Euler(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.Euler(GTA.Math.Vector3)
+  id: Euler(GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Euler(Vector3)
+  nameWithType: Quaternion.Euler(Vector3)
+  fullName: GTA.Math.Quaternion.Euler(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Euler(Vector3 euler)
+    parameters:
+    - id: euler
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Euler(euler As Vector3) As Quaternion
+  overload: GTA.Math.Quaternion.Euler*
+- uid: GTA.Math.Quaternion.Euler(GTA.Math.Vector3,GTA.EulerRotationOrder)
+  commentId: M:GTA.Math.Quaternion.Euler(GTA.Math.Vector3,GTA.EulerRotationOrder)
+  id: Euler(GTA.Math.Vector3,GTA.EulerRotationOrder)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Euler(Vector3, EulerRotationOrder)
+  nameWithType: Quaternion.Euler(Vector3, EulerRotationOrder)
+  fullName: GTA.Math.Quaternion.Euler(GTA.Math.Vector3, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Euler(Vector3 euler, EulerRotationOrder rotationOrder)
+    parameters:
+    - id: euler
+      type: GTA.Math.Vector3
+    - id: rotationOrder
+      type: GTA.EulerRotationOrder
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function Euler(euler As Vector3, rotationOrder As EulerRotationOrder) As Quaternion
+  overload: GTA.Math.Quaternion.Euler*
+- uid: GTA.Math.Quaternion.ToEuler(GTA.EulerRotationOrder)
+  commentId: M:GTA.Math.Quaternion.ToEuler(GTA.EulerRotationOrder)
+  id: ToEuler(GTA.EulerRotationOrder)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToEuler(EulerRotationOrder)
+  nameWithType: Quaternion.ToEuler(EulerRotationOrder)
+  fullName: GTA.Math.Quaternion.ToEuler(GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 ToEuler(EulerRotationOrder rotationOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: rotationOrder
+      type: GTA.EulerRotationOrder
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function ToEuler(rotationOrder As EulerRotationOrder = EulerRotationOrder.YXZ) As Vector3
+  overload: GTA.Math.Quaternion.ToEuler*
+- uid: GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3,System.Single)
+  id: RotationAxis(GTA.Math.Vector3,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotationAxis(Vector3, float)
+  nameWithType: Quaternion.RotationAxis(Vector3, float)
+  fullName: GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion RotationAxis(Vector3 axis, float angle)
+    parameters:
+    - id: axis
+      type: GTA.Math.Vector3
+    - id: angle
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function RotationAxis(axis As Vector3, angle As Single) As Quaternion
+  overload: GTA.Math.Quaternion.RotationAxis*
+  nameWithType.vb: Quaternion.RotationAxis(Vector3, Single)
+  fullName.vb: GTA.Math.Quaternion.RotationAxis(GTA.Math.Vector3, Single)
+  name.vb: RotationAxis(Vector3, Single)
+- uid: GTA.Math.Quaternion.RotationMatrix(GTA.Math.Matrix)
+  commentId: M:GTA.Math.Quaternion.RotationMatrix(GTA.Math.Matrix)
+  id: RotationMatrix(GTA.Math.Matrix)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotationMatrix(Matrix)
+  nameWithType: Quaternion.RotationMatrix(Matrix)
+  fullName: GTA.Math.Quaternion.RotationMatrix(GTA.Math.Matrix)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion RotationMatrix(Matrix matrix)
+    parameters:
+    - id: matrix
+      type: GTA.Math.Matrix
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function RotationMatrix(matrix As Matrix) As Quaternion
+  overload: GTA.Math.Quaternion.RotationMatrix*
+- uid: GTA.Math.Quaternion.RotationYawPitchRoll(System.Single,System.Single,System.Single)
+  commentId: M:GTA.Math.Quaternion.RotationYawPitchRoll(System.Single,System.Single,System.Single)
+  id: RotationYawPitchRoll(System.Single,System.Single,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotationYawPitchRoll(float, float, float)
+  nameWithType: Quaternion.RotationYawPitchRoll(float, float, float)
+  fullName: GTA.Math.Quaternion.RotationYawPitchRoll(float, float, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion RotationYawPitchRoll(float yaw, float pitch, float roll)
+    parameters:
+    - id: yaw
+      type: System.Single
+    - id: pitch
+      type: System.Single
+    - id: roll
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function RotationYawPitchRoll(yaw As Single, pitch As Single, roll As Single) As Quaternion
+  overload: GTA.Math.Quaternion.RotationYawPitchRoll*
+  nameWithType.vb: Quaternion.RotationYawPitchRoll(Single, Single, Single)
+  fullName.vb: GTA.Math.Quaternion.RotationYawPitchRoll(Single, Single, Single)
+  name.vb: RotationYawPitchRoll(Single, Single, Single)
+- uid: GTA.Math.Quaternion.DirectionVectors(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.DirectionVectors(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  id: DirectionVectors(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: DirectionVectors(Vector3, Vector3, Vector3)
+  nameWithType: Quaternion.DirectionVectors(Vector3, Vector3, Vector3)
+  fullName: GTA.Math.Quaternion.DirectionVectors(GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion DirectionVectors(Vector3 rightVector, Vector3 forwardVector, Vector3 upVector)
+    parameters:
+    - id: rightVector
+      type: GTA.Math.Vector3
+    - id: forwardVector
+      type: GTA.Math.Vector3
+    - id: upVector
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Function DirectionVectors(rightVector As Vector3, forwardVector As Vector3, upVector As Vector3) As Quaternion
+  overload: GTA.Math.Quaternion.DirectionVectors*
+- uid: GTA.Math.Quaternion.GetDirectionVectors(GTA.Math.Quaternion,GTA.Math.Vector3@,GTA.Math.Vector3@,GTA.Math.Vector3@)
+  commentId: M:GTA.Math.Quaternion.GetDirectionVectors(GTA.Math.Quaternion,GTA.Math.Vector3@,GTA.Math.Vector3@,GTA.Math.Vector3@)
+  id: GetDirectionVectors(GTA.Math.Quaternion,GTA.Math.Vector3@,GTA.Math.Vector3@,GTA.Math.Vector3@)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: GetDirectionVectors(Quaternion, out Vector3, out Vector3, out Vector3)
+  nameWithType: Quaternion.GetDirectionVectors(Quaternion, out Vector3, out Vector3, out Vector3)
+  fullName: GTA.Math.Quaternion.GetDirectionVectors(GTA.Math.Quaternion, out GTA.Math.Vector3, out GTA.Math.Vector3, out GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static void GetDirectionVectors(Quaternion quaternion, out Vector3 rightVector, out Vector3 forwardVector, out Vector3 upVector)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    - id: rightVector
+      type: GTA.Math.Vector3
+    - id: forwardVector
+      type: GTA.Math.Vector3
+    - id: upVector
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Sub GetDirectionVectors(quaternion As Quaternion, rightVector As Vector3, forwardVector As Vector3, upVector As Vector3)
+  overload: GTA.Math.Quaternion.GetDirectionVectors*
+  nameWithType.vb: Quaternion.GetDirectionVectors(Quaternion, Vector3, Vector3, Vector3)
+  fullName.vb: GTA.Math.Quaternion.GetDirectionVectors(GTA.Math.Quaternion, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: GetDirectionVectors(Quaternion, Vector3, Vector3, Vector3)
+- uid: GTA.Math.Quaternion.op_UnaryNegation(GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_UnaryNegation(GTA.Math.Quaternion)
+  id: op_UnaryNegation(GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator -(Quaternion)
+  nameWithType: Quaternion.operator -(Quaternion)
+  fullName: GTA.Math.Quaternion.operator -(GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator -(Quaternion quaternion)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator -(quaternion As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.op_UnaryNegation*
+  nameWithType.vb: Quaternion.-(Quaternion)
+  fullName.vb: GTA.Math.Quaternion.-(GTA.Math.Quaternion)
+  name.vb: -(Quaternion)
+- uid: GTA.Math.Quaternion.op_Addition(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Addition(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: op_Addition(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator +(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator +(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.operator +(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator +(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator +(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.op_Addition*
+  nameWithType.vb: Quaternion.+(Quaternion, Quaternion)
+  fullName.vb: GTA.Math.Quaternion.+(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  name.vb: +(Quaternion, Quaternion)
+- uid: GTA.Math.Quaternion.op_Subtraction(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Subtraction(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: op_Subtraction(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator -(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator -(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.operator -(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator -(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator -(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.op_Subtraction*
+  nameWithType.vb: Quaternion.-(Quaternion, Quaternion)
+  fullName.vb: GTA.Math.Quaternion.-(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  name.vb: -(Quaternion, Quaternion)
+- uid: GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: op_Multiply(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator *(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.operator *(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator *(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator *(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Quaternion)
+  fullName.vb: GTA.Math.Quaternion.*(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  name.vb: '*(Quaternion, Quaternion)'
+- uid: GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,System.Single)
+  commentId: M:GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,System.Single)
+  id: op_Multiply(GTA.Math.Quaternion,System.Single)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, float)
+  nameWithType: Quaternion.operator *(Quaternion, float)
+  fullName: GTA.Math.Quaternion.operator *(GTA.Math.Quaternion, float)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator *(Quaternion quaternion, float scale)
+    parameters:
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    - id: scale
+      type: System.Single
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator *(quaternion As Quaternion, scale As Single) As Quaternion
+  overload: GTA.Math.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Single)
+  fullName.vb: GTA.Math.Quaternion.*(GTA.Math.Quaternion, Single)
+  name.vb: '*(Quaternion, Single)'
+- uid: GTA.Math.Quaternion.op_Multiply(System.Single,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Multiply(System.Single,GTA.Math.Quaternion)
+  id: op_Multiply(System.Single,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, Quaternion)
+  nameWithType: Quaternion.operator *(float, Quaternion)
+  fullName: GTA.Math.Quaternion.operator *(float, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator *(float scale, Quaternion quaternion)
+    parameters:
+    - id: scale
+      type: System.Single
+    - id: quaternion
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator *(scale As Single, quaternion As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Single, Quaternion)
+  fullName.vb: GTA.Math.Quaternion.*(Single, GTA.Math.Quaternion)
+  name.vb: '*(Single, Quaternion)'
+- uid: GTA.Math.Quaternion.op_Division(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Division(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: op_Division(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator /(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator /(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.operator /(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion operator /(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared Operator /(left As Quaternion, right As Quaternion) As Quaternion
+  overload: GTA.Math.Quaternion.op_Division*
+  nameWithType.vb: Quaternion./(Quaternion, Quaternion)
+  fullName.vb: GTA.Math.Quaternion./(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  name.vb: /(Quaternion, Quaternion)
+- uid: GTA.Math.Quaternion.op_Equality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Equality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: op_Equality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator ==(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.operator ==(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool operator ==(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Quaternion, right As Quaternion) As Boolean
+  overload: GTA.Math.Quaternion.op_Equality*
+  nameWithType.vb: Quaternion.=(Quaternion, Quaternion)
+  fullName.vb: GTA.Math.Quaternion.=(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  name.vb: =(Quaternion, Quaternion)
+- uid: GTA.Math.Quaternion.op_Inequality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.op_Inequality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  id: op_Inequality(GTA.Math.Quaternion,GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Quaternion, Quaternion)
+  nameWithType: Quaternion.operator !=(Quaternion, Quaternion)
+  fullName: GTA.Math.Quaternion.operator !=(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool operator !=(Quaternion left, Quaternion right)
+    parameters:
+    - id: left
+      type: GTA.Math.Quaternion
+    - id: right
+      type: GTA.Math.Quaternion
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Quaternion, right As Quaternion) As Boolean
+  overload: GTA.Math.Quaternion.op_Inequality*
+  nameWithType.vb: Quaternion.<>(Quaternion, Quaternion)
+  fullName.vb: GTA.Math.Quaternion.<>(GTA.Math.Quaternion, GTA.Math.Quaternion)
+  name.vb: <>(Quaternion, Quaternion)
+- uid: GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.op_Multiply(GTA.Math.Quaternion,GTA.Math.Vector3)
+  id: op_Multiply(GTA.Math.Quaternion,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: operator *(Quaternion, Vector3)
+  nameWithType: Quaternion.operator *(Quaternion, Vector3)
+  fullName: GTA.Math.Quaternion.operator *(GTA.Math.Quaternion, GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator *(Quaternion rotation, Vector3 point)
+    parameters:
+    - id: rotation
+      type: GTA.Math.Quaternion
+    - id: point
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator *(rotation As Quaternion, point As Vector3) As Vector3
+  overload: GTA.Math.Quaternion.op_Multiply*
+  nameWithType.vb: Quaternion.*(Quaternion, Vector3)
+  fullName.vb: GTA.Math.Quaternion.*(GTA.Math.Quaternion, GTA.Math.Vector3)
+  name.vb: '*(Quaternion, Vector3)'
+- uid: GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3)
+  id: RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotateTransform(Quaternion, Vector3)
+  nameWithType: Quaternion.RotateTransform(Quaternion, Vector3)
+  fullName: GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RotateTransform(Quaternion rotation, Vector3 point)
+    parameters:
+    - id: rotation
+      type: GTA.Math.Quaternion
+    - id: point
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function RotateTransform(rotation As Quaternion, point As Vector3) As Vector3
+  overload: GTA.Math.Quaternion.RotateTransform*
+- uid: GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3,GTA.Math.Vector3)
+  id: RotateTransform(GTA.Math.Quaternion,GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotateTransform(Quaternion, Vector3, Vector3)
+  nameWithType: Quaternion.RotateTransform(Quaternion, Vector3, Vector3)
+  fullName: GTA.Math.Quaternion.RotateTransform(GTA.Math.Quaternion, GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RotateTransform(Quaternion rotation, Vector3 point, Vector3 center)
+    parameters:
+    - id: rotation
+      type: GTA.Math.Quaternion
+    - id: point
+      type: GTA.Math.Vector3
+    - id: center
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function RotateTransform(rotation As Quaternion, point As Vector3, center As Vector3) As Vector3
+  overload: GTA.Math.Quaternion.RotateTransform*
+- uid: GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3)
+  id: RotateTransform(GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotateTransform(Vector3)
+  nameWithType: Quaternion.RotateTransform(Vector3)
+  fullName: GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 RotateTransform(Vector3 point)
+    parameters:
+    - id: point
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function RotateTransform(point As Vector3) As Vector3
+  overload: GTA.Math.Quaternion.RotateTransform*
+- uid: GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: RotateTransform(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: RotateTransform(Vector3, Vector3)
+  nameWithType: Quaternion.RotateTransform(Vector3, Vector3)
+  fullName: GTA.Math.Quaternion.RotateTransform(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 RotateTransform(Vector3 point, Vector3 center)
+    parameters:
+    - id: point
+      type: GTA.Math.Vector3
+    - id: center
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function RotateTransform(point As Vector3, center As Vector3) As Vector3
+  overload: GTA.Math.Quaternion.RotateTransform*
+- uid: GTA.Math.Quaternion.ToString
+  commentId: M:GTA.Math.Quaternion.ToString
+  id: ToString
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Quaternion.ToString()
+  fullName: GTA.Math.Quaternion.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.Math.Quaternion.ToString*
+- uid: GTA.Math.Quaternion.ToString(System.String)
+  commentId: M:GTA.Math.Quaternion.ToString(System.String)
+  id: ToString(System.String)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: Quaternion.ToString(string)
+  fullName: GTA.Math.Quaternion.ToString(string)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly string ToString(string format)
+    parameters:
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String) As String
+  overload: GTA.Math.Quaternion.ToString*
+  nameWithType.vb: Quaternion.ToString(String)
+  fullName.vb: GTA.Math.Quaternion.ToString(String)
+  name.vb: ToString(String)
+- uid: GTA.Math.Quaternion.ToString(System.String,System.IFormatProvider)
+  commentId: M:GTA.Math.Quaternion.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: ToString(string, IFormatProvider)
+  nameWithType: Quaternion.ToString(string, IFormatProvider)
+  fullName: GTA.Math.Quaternion.ToString(string, System.IFormatProvider)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public readonly string ToString(string format, IFormatProvider provider)
+    parameters:
+    - id: format
+      type: System.String
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String, provider As IFormatProvider) As String
+  overload: GTA.Math.Quaternion.ToString*
+  implements:
+  - System.IFormattable.ToString(System.String,System.IFormatProvider)
+  nameWithType.vb: Quaternion.ToString(String, IFormatProvider)
+  fullName.vb: GTA.Math.Quaternion.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+- uid: GTA.Math.Quaternion.GetHashCode
+  commentId: M:GTA.Math.Quaternion.GetHashCode
+  id: GetHashCode
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Quaternion.GetHashCode()
+  fullName: GTA.Math.Quaternion.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.Math.Quaternion.GetHashCode*
+- uid: GTA.Math.Quaternion.Equals(System.Object)
+  commentId: M:GTA.Math.Quaternion.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Quaternion.Equals(object)
+  fullName: GTA.Math.Quaternion.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.Math.Quaternion.Equals*
+  nameWithType.vb: Quaternion.Equals(Object)
+  fullName.vb: GTA.Math.Quaternion.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.Math.Quaternion.Equals(GTA.Math.Quaternion)
+  commentId: M:GTA.Math.Quaternion.Equals(GTA.Math.Quaternion)
+  id: Equals(GTA.Math.Quaternion)
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Equals(Quaternion)
+  nameWithType: Quaternion.Equals(Quaternion)
+  fullName: GTA.Math.Quaternion.Equals(GTA.Math.Quaternion)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public readonly bool Equals(Quaternion other)
+    parameters:
+    - id: other
+      type: GTA.Math.Quaternion
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Quaternion) As Boolean
+  overload: GTA.Math.Quaternion.Equals*
+  implements:
+  - System.IEquatable{GTA.Math.Quaternion}.Equals(GTA.Math.Quaternion)
+- uid: GTA.Math.Quaternion.Zero
+  commentId: P:GTA.Math.Quaternion.Zero
+  id: Zero
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: Quaternion.Zero
+  fullName: GTA.Math.Quaternion.Zero
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Zero { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared ReadOnly Property Zero As Quaternion
+  overload: GTA.Math.Quaternion.Zero*
+- uid: GTA.Math.Quaternion.One
+  commentId: P:GTA.Math.Quaternion.One
+  id: One
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: Quaternion.One
+  fullName: GTA.Math.Quaternion.One
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion One { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared ReadOnly Property One As Quaternion
+  overload: GTA.Math.Quaternion.One*
+- uid: GTA.Math.Quaternion.Identity
+  commentId: P:GTA.Math.Quaternion.Identity
+  id: Identity
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: Quaternion.Identity
+  fullName: GTA.Math.Quaternion.Identity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Quaternion Identity { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Quaternion
+    content.vb: Public Shared ReadOnly Property Identity As Quaternion
+  overload: GTA.Math.Quaternion.Identity*
+- uid: GTA.Math.Quaternion.Axis
+  commentId: P:GTA.Math.Quaternion.Axis
+  id: Axis
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Axis
+  nameWithType: Quaternion.Axis
+  fullName: GTA.Math.Quaternion.Axis
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 Axis { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public ReadOnly Property Axis As Vector3
+  overload: GTA.Math.Quaternion.Axis*
+- uid: GTA.Math.Quaternion.Angle
+  commentId: P:GTA.Math.Quaternion.Angle
+  id: Angle
+  parent: GTA.Math.Quaternion
+  langs:
+  - csharp
+  - vb
+  name: Angle
+  nameWithType: Quaternion.Angle
+  fullName: GTA.Math.Quaternion.Angle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float Angle { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Angle As Single
+  overload: GTA.Math.Quaternion.Angle*
+references:
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: System.IEquatable{GTA.Math.Quaternion}
+  commentId: T:System.IEquatable{GTA.Math.Quaternion}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Quaternion>
+  nameWithType: IEquatable<Quaternion>
+  fullName: System.IEquatable<GTA.Math.Quaternion>
+  nameWithType.vb: IEquatable(Of Quaternion)
+  fullName.vb: System.IEquatable(Of GTA.Math.Quaternion)
+  name.vb: IEquatable(Of Quaternion)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.Math.Quaternion
+    name: Quaternion
+    isExternal: true
+    href: GTA.Math.Quaternion.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.Math.Quaternion
+    name: Quaternion
+    isExternal: true
+    href: GTA.Math.Quaternion.html
+  - name: )
+- uid: System.IFormattable
+  commentId: T:System.IFormattable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable
+  name: IFormattable
+  nameWithType: IFormattable
+  fullName: System.IFormattable
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.Math.Quaternion.#ctor*
+  commentId: Overload:GTA.Math.Quaternion.#ctor
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion__ctor_System_Single_System_Single_System_Single_System_Single_
+  name: Quaternion
+  nameWithType: Quaternion.Quaternion
+  fullName: GTA.Math.Quaternion.Quaternion
+  nameWithType.vb: Quaternion.New
+  fullName.vb: GTA.Math.Quaternion.New
+  name.vb: New
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math.Quaternion.Length*
+  commentId: Overload:GTA.Math.Quaternion.Length
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Length
+  name: Length
+  nameWithType: Quaternion.Length
+  fullName: GTA.Math.Quaternion.Length
+- uid: GTA.Math.Quaternion.LengthSquared*
+  commentId: Overload:GTA.Math.Quaternion.LengthSquared
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_LengthSquared
+  name: LengthSquared
+  nameWithType: Quaternion.LengthSquared
+  fullName: GTA.Math.Quaternion.LengthSquared
+- uid: GTA.Math.Quaternion.Normalize*
+  commentId: Overload:GTA.Math.Quaternion.Normalize
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Normalize
+  name: Normalize
+  nameWithType: Quaternion.Normalize
+  fullName: GTA.Math.Quaternion.Normalize
+- uid: GTA.Math.Quaternion.Conjugate*
+  commentId: Overload:GTA.Math.Quaternion.Conjugate
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Conjugate
+  name: Conjugate
+  nameWithType: Quaternion.Conjugate
+  fullName: GTA.Math.Quaternion.Conjugate
+- uid: GTA.Math.Quaternion.Invert*
+  commentId: Overload:GTA.Math.Quaternion.Invert
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Invert
+  name: Invert
+  nameWithType: Quaternion.Invert
+  fullName: GTA.Math.Quaternion.Invert
+- uid: GTA.Math.Quaternion.Negate*
+  commentId: Overload:GTA.Math.Quaternion.Negate
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Negate_GTA_Math_Quaternion_
+  name: Negate
+  nameWithType: Quaternion.Negate
+  fullName: GTA.Math.Quaternion.Negate
+- uid: GTA.Math.Quaternion
+  commentId: T:GTA.Math.Quaternion
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: GTA.Math.Quaternion
+- uid: GTA.Math.Quaternion.Add*
+  commentId: Overload:GTA.Math.Quaternion.Add
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Add_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: Add
+  nameWithType: Quaternion.Add
+  fullName: GTA.Math.Quaternion.Add
+- uid: GTA.Math.Quaternion.Subtract*
+  commentId: Overload:GTA.Math.Quaternion.Subtract
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Subtract_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: Subtract
+  nameWithType: Quaternion.Subtract
+  fullName: GTA.Math.Quaternion.Subtract
+- uid: GTA.Math.Quaternion.Multiply*
+  commentId: Overload:GTA.Math.Quaternion.Multiply
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Multiply_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: Multiply
+  nameWithType: Quaternion.Multiply
+  fullName: GTA.Math.Quaternion.Multiply
+- uid: GTA.Math.Quaternion.Divide*
+  commentId: Overload:GTA.Math.Quaternion.Divide
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Divide_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: Divide
+  nameWithType: Quaternion.Divide
+  fullName: GTA.Math.Quaternion.Divide
+- uid: GTA.Math.Quaternion.Dot*
+  commentId: Overload:GTA.Math.Quaternion.Dot
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Dot_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: Dot
+  nameWithType: Quaternion.Dot
+  fullName: GTA.Math.Quaternion.Dot
+- uid: GTA.Math.Quaternion.Lerp*
+  commentId: Overload:GTA.Math.Quaternion.Lerp
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Lerp_GTA_Math_Quaternion_GTA_Math_Quaternion_System_Single_
+  name: Lerp
+  nameWithType: Quaternion.Lerp
+  fullName: GTA.Math.Quaternion.Lerp
+- uid: GTA.Math.Quaternion.Slerp*
+  commentId: Overload:GTA.Math.Quaternion.Slerp
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Slerp_GTA_Math_Quaternion_GTA_Math_Quaternion_System_Single_
+  name: Slerp
+  nameWithType: Quaternion.Slerp
+  fullName: GTA.Math.Quaternion.Slerp
+- uid: GTA.Math.Quaternion.SlerpUnclamped*
+  commentId: Overload:GTA.Math.Quaternion.SlerpUnclamped
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_SlerpUnclamped_GTA_Math_Quaternion_GTA_Math_Quaternion_System_Single_
+  name: SlerpUnclamped
+  nameWithType: Quaternion.SlerpUnclamped
+  fullName: GTA.Math.Quaternion.SlerpUnclamped
+- uid: GTA.Math.Quaternion.LookRotation*
+  commentId: Overload:GTA.Math.Quaternion.LookRotation
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_LookRotation_GTA_Math_Vector3_
+  name: LookRotation
+  nameWithType: Quaternion.LookRotation
+  fullName: GTA.Math.Quaternion.LookRotation
+- uid: GTA.Math.Quaternion.FromToRotation*
+  commentId: Overload:GTA.Math.Quaternion.FromToRotation
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_FromToRotation_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: FromToRotation
+  nameWithType: Quaternion.FromToRotation
+  fullName: GTA.Math.Quaternion.FromToRotation
+- uid: GTA.Math.Quaternion.RotateTowards*
+  commentId: Overload:GTA.Math.Quaternion.RotateTowards
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_RotateTowards_GTA_Math_Quaternion_GTA_Math_Quaternion_System_Single_
+  name: RotateTowards
+  nameWithType: Quaternion.RotateTowards
+  fullName: GTA.Math.Quaternion.RotateTowards
+- uid: GTA.Math.Quaternion.AngleBetween*
+  commentId: Overload:GTA.Math.Quaternion.AngleBetween
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_AngleBetween_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: AngleBetween
+  nameWithType: Quaternion.AngleBetween
+  fullName: GTA.Math.Quaternion.AngleBetween
+- uid: GTA.Math.Quaternion.Euler*
+  commentId: Overload:GTA.Math.Quaternion.Euler
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Euler_System_Single_System_Single_System_Single_
+  name: Euler
+  nameWithType: Quaternion.Euler
+  fullName: GTA.Math.Quaternion.Euler
+- uid: GTA.EulerRotationOrder
+  commentId: T:GTA.EulerRotationOrder
+  parent: GTA
+  isExternal: true
+  href: GTA.EulerRotationOrder.html
+  name: EulerRotationOrder
+  nameWithType: EulerRotationOrder
+  fullName: GTA.EulerRotationOrder
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Math.Quaternion.ToEuler*
+  commentId: Overload:GTA.Math.Quaternion.ToEuler
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_ToEuler_GTA_EulerRotationOrder_
+  name: ToEuler
+  nameWithType: Quaternion.ToEuler
+  fullName: GTA.Math.Quaternion.ToEuler
+- uid: GTA.Math.Quaternion.RotationAxis*
+  commentId: Overload:GTA.Math.Quaternion.RotationAxis
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_RotationAxis_GTA_Math_Vector3_System_Single_
+  name: RotationAxis
+  nameWithType: Quaternion.RotationAxis
+  fullName: GTA.Math.Quaternion.RotationAxis
+- uid: GTA.Math.Quaternion.RotationMatrix*
+  commentId: Overload:GTA.Math.Quaternion.RotationMatrix
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_RotationMatrix_GTA_Math_Matrix_
+  name: RotationMatrix
+  nameWithType: Quaternion.RotationMatrix
+  fullName: GTA.Math.Quaternion.RotationMatrix
+- uid: GTA.Math.Matrix
+  commentId: T:GTA.Math.Matrix
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: GTA.Math.Matrix
+- uid: GTA.Math.Quaternion.RotationYawPitchRoll*
+  commentId: Overload:GTA.Math.Quaternion.RotationYawPitchRoll
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_RotationYawPitchRoll_System_Single_System_Single_System_Single_
+  name: RotationYawPitchRoll
+  nameWithType: Quaternion.RotationYawPitchRoll
+  fullName: GTA.Math.Quaternion.RotationYawPitchRoll
+- uid: GTA.Math.Quaternion.DirectionVectors*
+  commentId: Overload:GTA.Math.Quaternion.DirectionVectors
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_DirectionVectors_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: DirectionVectors
+  nameWithType: Quaternion.DirectionVectors
+  fullName: GTA.Math.Quaternion.DirectionVectors
+- uid: GTA.Math.Quaternion.GetDirectionVectors*
+  commentId: Overload:GTA.Math.Quaternion.GetDirectionVectors
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_GetDirectionVectors_GTA_Math_Quaternion_GTA_Math_Vector3__GTA_Math_Vector3__GTA_Math_Vector3__
+  name: GetDirectionVectors
+  nameWithType: Quaternion.GetDirectionVectors
+  fullName: GTA.Math.Quaternion.GetDirectionVectors
+- uid: GTA.Math.Quaternion.op_UnaryNegation*
+  commentId: Overload:GTA.Math.Quaternion.op_UnaryNegation
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_UnaryNegation_GTA_Math_Quaternion_
+  name: operator -
+  nameWithType: Quaternion.operator -
+  fullName: GTA.Math.Quaternion.operator -
+  nameWithType.vb: Quaternion.-
+  fullName.vb: GTA.Math.Quaternion.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_UnaryNegation*
+    name: '-'
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_UnaryNegation_GTA_Math_Quaternion_
+- uid: GTA.Math.Quaternion.op_Addition*
+  commentId: Overload:GTA.Math.Quaternion.op_Addition
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Addition_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: operator +
+  nameWithType: Quaternion.operator +
+  fullName: GTA.Math.Quaternion.operator +
+  nameWithType.vb: Quaternion.+
+  fullName.vb: GTA.Math.Quaternion.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_Addition*
+    name: +
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Addition_GTA_Math_Quaternion_GTA_Math_Quaternion_
+- uid: GTA.Math.Quaternion.op_Subtraction*
+  commentId: Overload:GTA.Math.Quaternion.op_Subtraction
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Subtraction_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: operator -
+  nameWithType: Quaternion.operator -
+  fullName: GTA.Math.Quaternion.operator -
+  nameWithType.vb: Quaternion.-
+  fullName.vb: GTA.Math.Quaternion.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_Subtraction*
+    name: '-'
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Subtraction_GTA_Math_Quaternion_GTA_Math_Quaternion_
+- uid: GTA.Math.Quaternion.op_Multiply*
+  commentId: Overload:GTA.Math.Quaternion.op_Multiply
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Multiply_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: operator *
+  nameWithType: Quaternion.operator *
+  fullName: GTA.Math.Quaternion.operator *
+  nameWithType.vb: Quaternion.*
+  fullName.vb: GTA.Math.Quaternion.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_Multiply*
+    name: '*'
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Multiply_GTA_Math_Quaternion_GTA_Math_Quaternion_
+- uid: GTA.Math.Quaternion.op_Division*
+  commentId: Overload:GTA.Math.Quaternion.op_Division
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Division_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: operator /
+  nameWithType: Quaternion.operator /
+  fullName: GTA.Math.Quaternion.operator /
+  nameWithType.vb: Quaternion./
+  fullName.vb: GTA.Math.Quaternion./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_Division*
+    name: /
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Division_GTA_Math_Quaternion_GTA_Math_Quaternion_
+- uid: GTA.Math.Quaternion.op_Equality*
+  commentId: Overload:GTA.Math.Quaternion.op_Equality
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Equality_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: operator ==
+  nameWithType: Quaternion.operator ==
+  fullName: GTA.Math.Quaternion.operator ==
+  nameWithType.vb: Quaternion.=
+  fullName.vb: GTA.Math.Quaternion.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Equality_GTA_Math_Quaternion_GTA_Math_Quaternion_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Math.Quaternion.op_Inequality*
+  commentId: Overload:GTA.Math.Quaternion.op_Inequality
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Inequality_GTA_Math_Quaternion_GTA_Math_Quaternion_
+  name: operator !=
+  nameWithType: Quaternion.operator !=
+  fullName: GTA.Math.Quaternion.operator !=
+  nameWithType.vb: Quaternion.<>
+  fullName.vb: GTA.Math.Quaternion.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Quaternion.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_op_Inequality_GTA_Math_Quaternion_GTA_Math_Quaternion_
+- uid: GTA.Math.Quaternion.RotateTransform*
+  commentId: Overload:GTA.Math.Quaternion.RotateTransform
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_RotateTransform_GTA_Math_Quaternion_GTA_Math_Vector3_
+  name: RotateTransform
+  nameWithType: Quaternion.RotateTransform
+  fullName: GTA.Math.Quaternion.RotateTransform
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.Math.Quaternion.ToString*
+  commentId: Overload:GTA.Math.Quaternion.ToString
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_ToString
+  name: ToString
+  nameWithType: Quaternion.ToString
+  fullName: GTA.Math.Quaternion.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+  commentId: M:System.IFormattable.ToString(System.String,System.IFormatProvider)
+  parent: System.IFormattable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  name: ToString(string, IFormatProvider)
+  nameWithType: IFormattable.ToString(string, IFormatProvider)
+  fullName: System.IFormattable.ToString(string, System.IFormatProvider)
+  nameWithType.vb: IFormattable.ToString(String, IFormatProvider)
+  fullName.vb: System.IFormattable.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+  spec.csharp:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+  spec.vb:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.Math.Quaternion.GetHashCode*
+  commentId: Overload:GTA.Math.Quaternion.GetHashCode
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_GetHashCode
+  name: GetHashCode
+  nameWithType: Quaternion.GetHashCode
+  fullName: GTA.Math.Quaternion.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.Math.Quaternion.Equals*
+  commentId: Overload:GTA.Math.Quaternion.Equals
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Equals_System_Object_
+  name: Equals
+  nameWithType: Quaternion.Equals
+  fullName: GTA.Math.Quaternion.Equals
+- uid: System.IEquatable{GTA.Math.Quaternion}.Equals(GTA.Math.Quaternion)
+  commentId: M:System.IEquatable{GTA.Math.Quaternion}.Equals(GTA.Math.Quaternion)
+  parent: System.IEquatable{GTA.Math.Quaternion}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Quaternion)
+  nameWithType: IEquatable<Quaternion>.Equals(Quaternion)
+  fullName: System.IEquatable<GTA.Math.Quaternion>.Equals(GTA.Math.Quaternion)
+  nameWithType.vb: IEquatable(Of Quaternion).Equals(Quaternion)
+  fullName.vb: System.IEquatable(Of GTA.Math.Quaternion).Equals(GTA.Math.Quaternion)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.Math.Quaternion}.Equals(GTA.Math.Quaternion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Math.Quaternion
+    name: Quaternion
+    isExternal: true
+    href: GTA.Math.Quaternion.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.Math.Quaternion}.Equals(GTA.Math.Quaternion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Math.Quaternion
+    name: Quaternion
+    isExternal: true
+    href: GTA.Math.Quaternion.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: GTA.Math.Quaternion.Zero*
+  commentId: Overload:GTA.Math.Quaternion.Zero
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Zero
+  name: Zero
+  nameWithType: Quaternion.Zero
+  fullName: GTA.Math.Quaternion.Zero
+- uid: GTA.Math.Quaternion.One*
+  commentId: Overload:GTA.Math.Quaternion.One
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_One
+  name: One
+  nameWithType: Quaternion.One
+  fullName: GTA.Math.Quaternion.One
+- uid: GTA.Math.Quaternion.Identity*
+  commentId: Overload:GTA.Math.Quaternion.Identity
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Identity
+  name: Identity
+  nameWithType: Quaternion.Identity
+  fullName: GTA.Math.Quaternion.Identity
+- uid: GTA.Math.Quaternion.Axis*
+  commentId: Overload:GTA.Math.Quaternion.Axis
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Axis
+  name: Axis
+  nameWithType: Quaternion.Axis
+  fullName: GTA.Math.Quaternion.Axis
+- uid: GTA.Math.Quaternion.Angle*
+  commentId: Overload:GTA.Math.Quaternion.Angle
+  isExternal: true
+  href: GTA.Math.Quaternion.html#GTA_Math_Quaternion_Angle
+  name: Angle
+  nameWithType: Quaternion.Angle
+  fullName: GTA.Math.Quaternion.Angle

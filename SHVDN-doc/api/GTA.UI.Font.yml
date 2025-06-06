@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.Font
+  commentId: T:GTA.UI.Font
+  id: Font
+  parent: GTA.UI
+  children:
+  - GTA.UI.Font.ChaletComprimeCologne
+  - GTA.UI.Font.ChaletComprimeCologneNotGamerName
+  - GTA.UI.Font.ChaletLondon
+  - GTA.UI.Font.FixedWidthNumbersStyle
+  - GTA.UI.Font.HouseScript
+  - GTA.UI.Font.Leaderboard
+  - GTA.UI.Font.Pricedown
+  - GTA.UI.Font.RockstarTag
+  - GTA.UI.Font.Taxi
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: Font
+  fullName: GTA.UI.Font
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public enum Font
+    content.vb: Public Enum Font
+- uid: GTA.UI.Font.ChaletLondon
+  commentId: F:GTA.UI.Font.ChaletLondon
+  id: ChaletLondon
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: ChaletLondon
+  nameWithType: Font.ChaletLondon
+  fullName: GTA.UI.Font.ChaletLondon
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ChaletLondon = 0
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.HouseScript
+  commentId: F:GTA.UI.Font.HouseScript
+  id: HouseScript
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: HouseScript
+  nameWithType: Font.HouseScript
+  fullName: GTA.UI.Font.HouseScript
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HouseScript = 1
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.RockstarTag
+  commentId: F:GTA.UI.Font.RockstarTag
+  id: RockstarTag
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: RockstarTag
+  nameWithType: Font.RockstarTag
+  fullName: GTA.UI.Font.RockstarTag
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RockstarTag = 2
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.Leaderboard
+  commentId: F:GTA.UI.Font.Leaderboard
+  id: Leaderboard
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: Leaderboard
+  nameWithType: Font.Leaderboard
+  fullName: GTA.UI.Font.Leaderboard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Leaderboard = 3
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.ChaletComprimeCologne
+  commentId: F:GTA.UI.Font.ChaletComprimeCologne
+  id: ChaletComprimeCologne
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: ChaletComprimeCologne
+  nameWithType: Font.ChaletComprimeCologne
+  fullName: GTA.UI.Font.ChaletComprimeCologne
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ChaletComprimeCologne = 4
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.FixedWidthNumbersStyle
+  commentId: F:GTA.UI.Font.FixedWidthNumbersStyle
+  id: FixedWidthNumbersStyle
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: FixedWidthNumbersStyle
+  nameWithType: Font.FixedWidthNumbersStyle
+  fullName: GTA.UI.Font.FixedWidthNumbersStyle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FixedWidthNumbersStyle = 5
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.ChaletComprimeCologneNotGamerName
+  commentId: F:GTA.UI.Font.ChaletComprimeCologneNotGamerName
+  id: ChaletComprimeCologneNotGamerName
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: ChaletComprimeCologneNotGamerName
+  nameWithType: Font.ChaletComprimeCologneNotGamerName
+  fullName: GTA.UI.Font.ChaletComprimeCologneNotGamerName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ChaletComprimeCologneNotGamerName = 6
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.Pricedown
+  commentId: F:GTA.UI.Font.Pricedown
+  id: Pricedown
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: Pricedown
+  nameWithType: Font.Pricedown
+  fullName: GTA.UI.Font.Pricedown
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Pricedown = 7
+    return:
+      type: GTA.UI.Font
+- uid: GTA.UI.Font.Taxi
+  commentId: F:GTA.UI.Font.Taxi
+  id: Taxi
+  parent: GTA.UI.Font
+  langs:
+  - csharp
+  - vb
+  name: Taxi
+  nameWithType: Font.Taxi
+  fullName: GTA.UI.Font.Taxi
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Taxi = 8
+    return:
+      type: GTA.UI.Font
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: GTA.UI.Font
+  commentId: T:GTA.UI.Font
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: GTA.UI.Font

@@ -1,0 +1,4331 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.HudColor
+  commentId: T:GTA.UI.HudColor
+  id: HudColor
+  parent: GTA.UI
+  children:
+  - GTA.UI.HudColor.Adversary
+  - GTA.UI.HudColor.Black
+  - GTA.UI.HudColor.Blue
+  - GTA.UI.HudColor.BlueDark
+  - GTA.UI.HudColor.BlueLight
+  - GTA.UI.HudColor.BriefTitle
+  - GTA.UI.HudColor.Bronze
+  - GTA.UI.HudColor.CS
+  - GTA.UI.HudColor.CSDark
+  - GTA.UI.HudColor.Chop
+  - GTA.UI.HudColor.ControllerChop
+  - GTA.UI.HudColor.ControllerFranklin
+  - GTA.UI.HudColor.ControllerMichael
+  - GTA.UI.HudColor.ControllerTrevor
+  - GTA.UI.HudColor.Damage
+  - GTA.UI.HudColor.Darts
+  - GTA.UI.HudColor.DegenBlue
+  - GTA.UI.HudColor.DegenCyan
+  - GTA.UI.HudColor.DegenGreen
+  - GTA.UI.HudColor.DegenMagenta
+  - GTA.UI.HudColor.DegenRed
+  - GTA.UI.HudColor.DegenYellow
+  - GTA.UI.HudColor.EndScreenBG
+  - GTA.UI.HudColor.Enemy
+  - GTA.UI.HudColor.FacebookBlue
+  - GTA.UI.HudColor.FlightSchool
+  - GTA.UI.HudColor.Franklin
+  - GTA.UI.HudColor.FranklinDark
+  - GTA.UI.HudColor.Freemode
+  - GTA.UI.HudColor.FreemodeDark
+  - GTA.UI.HudColor.Friendly
+  - GTA.UI.HudColor.G1
+  - GTA.UI.HudColor.G10
+  - GTA.UI.HudColor.G11
+  - GTA.UI.HudColor.G12
+  - GTA.UI.HudColor.G13
+  - GTA.UI.HudColor.G14
+  - GTA.UI.HudColor.G15
+  - GTA.UI.HudColor.G2
+  - GTA.UI.HudColor.G3
+  - GTA.UI.HudColor.G4
+  - GTA.UI.HudColor.G5
+  - GTA.UI.HudColor.G6
+  - GTA.UI.HudColor.G7
+  - GTA.UI.HudColor.G8
+  - GTA.UI.HudColor.G9
+  - GTA.UI.HudColor.Gang1
+  - GTA.UI.HudColor.Gang2
+  - GTA.UI.HudColor.Gang3
+  - GTA.UI.HudColor.Gang4
+  - GTA.UI.HudColor.Gold
+  - GTA.UI.HudColor.Golf
+  - GTA.UI.HudColor.GolfP1
+  - GTA.UI.HudColor.GolfP2
+  - GTA.UI.HudColor.GolfP3
+  - GTA.UI.HudColor.GolfP4
+  - GTA.UI.HudColor.Gray
+  - GTA.UI.HudColor.GrayDark
+  - GTA.UI.HudColor.GrayLight
+  - GTA.UI.HudColor.Green
+  - GTA.UI.HudColor.GreenDark
+  - GTA.UI.HudColor.GreenLight
+  - GTA.UI.HudColor.H
+  - GTA.UI.HudColor.HBBlue
+  - GTA.UI.HudColor.HBYellow
+  - GTA.UI.HudColor.HDark
+  - GTA.UI.HudColor.HShard
+  - GTA.UI.HudColor.HeistBackground
+  - GTA.UI.HudColor.InactiveMission
+  - GTA.UI.HudColor.IngameBG
+  - GTA.UI.HudColor.Invalid
+  - GTA.UI.HudColor.Location
+  - GTA.UI.HudColor.LowFlow
+  - GTA.UI.HudColor.LowFlowDark
+  - GTA.UI.HudColor.MenuBlue
+  - GTA.UI.HudColor.MenuBlueExtraDark
+  - GTA.UI.HudColor.MenuDimmed
+  - GTA.UI.HudColor.MenuExtraDimmed
+  - GTA.UI.HudColor.MenuGray
+  - GTA.UI.HudColor.MenuGrayDark
+  - GTA.UI.HudColor.MenuGrayLight
+  - GTA.UI.HudColor.MenuGreen
+  - GTA.UI.HudColor.MenuHighlight
+  - GTA.UI.HudColor.MenuStandard
+  - GTA.UI.HudColor.MenuYellow
+  - GTA.UI.HudColor.MenuYellowDark
+  - GTA.UI.HudColor.Michael
+  - GTA.UI.HudColor.MichaelDark
+  - GTA.UI.HudColor.MidGrayMP
+  - GTA.UI.HudColor.NetPlayer1
+  - GTA.UI.HudColor.NetPlayer10
+  - GTA.UI.HudColor.NetPlayer10Dark
+  - GTA.UI.HudColor.NetPlayer11
+  - GTA.UI.HudColor.NetPlayer11Dark
+  - GTA.UI.HudColor.NetPlayer12
+  - GTA.UI.HudColor.NetPlayer12Dark
+  - GTA.UI.HudColor.NetPlayer13
+  - GTA.UI.HudColor.NetPlayer13Dark
+  - GTA.UI.HudColor.NetPlayer14
+  - GTA.UI.HudColor.NetPlayer14Dark
+  - GTA.UI.HudColor.NetPlayer15
+  - GTA.UI.HudColor.NetPlayer15Dark
+  - GTA.UI.HudColor.NetPlayer16
+  - GTA.UI.HudColor.NetPlayer16Dark
+  - GTA.UI.HudColor.NetPlayer17
+  - GTA.UI.HudColor.NetPlayer17Dark
+  - GTA.UI.HudColor.NetPlayer18
+  - GTA.UI.HudColor.NetPlayer18Dark
+  - GTA.UI.HudColor.NetPlayer19
+  - GTA.UI.HudColor.NetPlayer19Dark
+  - GTA.UI.HudColor.NetPlayer1Dark
+  - GTA.UI.HudColor.NetPlayer2
+  - GTA.UI.HudColor.NetPlayer20
+  - GTA.UI.HudColor.NetPlayer20Dark
+  - GTA.UI.HudColor.NetPlayer21
+  - GTA.UI.HudColor.NetPlayer21Dark
+  - GTA.UI.HudColor.NetPlayer22
+  - GTA.UI.HudColor.NetPlayer22Dark
+  - GTA.UI.HudColor.NetPlayer23
+  - GTA.UI.HudColor.NetPlayer23Dark
+  - GTA.UI.HudColor.NetPlayer24
+  - GTA.UI.HudColor.NetPlayer24Dark
+  - GTA.UI.HudColor.NetPlayer25
+  - GTA.UI.HudColor.NetPlayer25Dark
+  - GTA.UI.HudColor.NetPlayer26
+  - GTA.UI.HudColor.NetPlayer26Dark
+  - GTA.UI.HudColor.NetPlayer27
+  - GTA.UI.HudColor.NetPlayer27Dark
+  - GTA.UI.HudColor.NetPlayer28
+  - GTA.UI.HudColor.NetPlayer28Dark
+  - GTA.UI.HudColor.NetPlayer29
+  - GTA.UI.HudColor.NetPlayer29Dark
+  - GTA.UI.HudColor.NetPlayer2Dark
+  - GTA.UI.HudColor.NetPlayer3
+  - GTA.UI.HudColor.NetPlayer30
+  - GTA.UI.HudColor.NetPlayer30Dark
+  - GTA.UI.HudColor.NetPlayer31
+  - GTA.UI.HudColor.NetPlayer31Dark
+  - GTA.UI.HudColor.NetPlayer32
+  - GTA.UI.HudColor.NetPlayer32Dark
+  - GTA.UI.HudColor.NetPlayer3Dark
+  - GTA.UI.HudColor.NetPlayer4
+  - GTA.UI.HudColor.NetPlayer4Dark
+  - GTA.UI.HudColor.NetPlayer5
+  - GTA.UI.HudColor.NetPlayer5Dark
+  - GTA.UI.HudColor.NetPlayer6
+  - GTA.UI.HudColor.NetPlayer6Dark
+  - GTA.UI.HudColor.NetPlayer7
+  - GTA.UI.HudColor.NetPlayer7Dark
+  - GTA.UI.HudColor.NetPlayer8
+  - GTA.UI.HudColor.NetPlayer8Dark
+  - GTA.UI.HudColor.NetPlayer9
+  - GTA.UI.HudColor.NetPlayer9Dark
+  - GTA.UI.HudColor.NorthBlue
+  - GTA.UI.HudColor.NorthBlueOfficial
+  - GTA.UI.HudColor.ObjectiveRoute
+  - GTA.UI.HudColor.Orange
+  - GTA.UI.HudColor.OrangeDark
+  - GTA.UI.HudColor.OrangeLight
+  - GTA.UI.HudColor.PMMitemHighlight
+  - GTA.UI.HudColor.PMWeaponsLocked
+  - GTA.UI.HudColor.PMWeaponsPurchasable
+  - GTA.UI.HudColor.PanelLight
+  - GTA.UI.HudColor.PauseBG
+  - GTA.UI.HudColor.PauseDeselect
+  - GTA.UI.HudColor.PauseMapTint
+  - GTA.UI.HudColor.PauseMapTintHalf
+  - GTA.UI.HudColor.PauseSingleplayer
+  - GTA.UI.HudColor.Pickup
+  - GTA.UI.HudColor.Pink
+  - GTA.UI.HudColor.PinkLight
+  - GTA.UI.HudColor.PlatformBlue
+  - GTA.UI.HudColor.PlatformGray
+  - GTA.UI.HudColor.PlatformGreen
+  - GTA.UI.HudColor.Platinum
+  - GTA.UI.HudColor.PureWhite
+  - GTA.UI.HudColor.Purple
+  - GTA.UI.HudColor.PurpleDark
+  - GTA.UI.HudColor.PurpleLight
+  - GTA.UI.HudColor.RadarArmor
+  - GTA.UI.HudColor.RadarDamage
+  - GTA.UI.HudColor.RadarHealth
+  - GTA.UI.HudColor.Red
+  - GTA.UI.HudColor.RedDark
+  - GTA.UI.HudColor.RedLight
+  - GTA.UI.HudColor.SameCrew
+  - GTA.UI.HudColor.ScriptVariable
+  - GTA.UI.HudColor.ScriptVariable2
+  - GTA.UI.HudColor.ShootingRange
+  - GTA.UI.HudColor.Silver
+  - GTA.UI.HudColor.SimpleBlipDefault
+  - GTA.UI.HudColor.SocialClub
+  - GTA.UI.HudColor.SpecialRaceSeries
+  - GTA.UI.HudColor.SpecialRaceSeriesDark
+  - GTA.UI.HudColor.Stunt1
+  - GTA.UI.HudColor.Stunt2
+  - GTA.UI.HudColor.T
+  - GTA.UI.HudColor.TDark
+  - GTA.UI.HudColor.TechGreen
+  - GTA.UI.HudColor.TechGreenDark
+  - GTA.UI.HudColor.TechGreenVeryDark
+  - GTA.UI.HudColor.TechRed
+  - GTA.UI.HudColor.Tennis
+  - GTA.UI.HudColor.Trevor
+  - GTA.UI.HudColor.TrevorDark
+  - GTA.UI.HudColor.VideoEditorAmbient
+  - GTA.UI.HudColor.VideoEditorAmbientDark
+  - GTA.UI.HudColor.VideoEditorAmbientFadeout
+  - GTA.UI.HudColor.VideoEditorAmbientLight
+  - GTA.UI.HudColor.VideoEditorAmbientMid
+  - GTA.UI.HudColor.VideoEditorAudio
+  - GTA.UI.HudColor.VideoEditorAudioFadeout
+  - GTA.UI.HudColor.VideoEditorScore
+  - GTA.UI.HudColor.VideoEditorScoreFadeout
+  - GTA.UI.HudColor.VideoEditorText
+  - GTA.UI.HudColor.VideoEditorTextFadeout
+  - GTA.UI.HudColor.VideoEditorVideo
+  - GTA.UI.HudColor.Waypoint
+  - GTA.UI.HudColor.WaypointDark
+  - GTA.UI.HudColor.WaypointLight
+  - GTA.UI.HudColor.White
+  - GTA.UI.HudColor.Yellow
+  - GTA.UI.HudColor.YellowDark
+  - GTA.UI.HudColor.YellowLight
+  - GTA.UI.HudColor.Yoga
+  langs:
+  - csharp
+  - vb
+  name: HudColor
+  nameWithType: HudColor
+  fullName: GTA.UI.HudColor
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public enum HudColor
+    content.vb: Public Enum HudColor
+- uid: GTA.UI.HudColor.Invalid
+  commentId: F:GTA.UI.HudColor.Invalid
+  id: Invalid
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: HudColor.Invalid
+  fullName: GTA.UI.HudColor.Invalid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Invalid = -1
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PureWhite
+  commentId: F:GTA.UI.HudColor.PureWhite
+  id: PureWhite
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PureWhite
+  nameWithType: HudColor.PureWhite
+  fullName: GTA.UI.HudColor.PureWhite
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PureWhite = 0
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.White
+  commentId: F:GTA.UI.HudColor.White
+  id: White
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: White
+  nameWithType: HudColor.White
+  fullName: GTA.UI.HudColor.White
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: White = 1
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Black
+  commentId: F:GTA.UI.HudColor.Black
+  id: Black
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: HudColor.Black
+  fullName: GTA.UI.HudColor.Black
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Black = 2
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Gray
+  commentId: F:GTA.UI.HudColor.Gray
+  id: Gray
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Gray
+  nameWithType: HudColor.Gray
+  fullName: GTA.UI.HudColor.Gray
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gray = 3
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GrayLight
+  commentId: F:GTA.UI.HudColor.GrayLight
+  id: GrayLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GrayLight
+  nameWithType: HudColor.GrayLight
+  fullName: GTA.UI.HudColor.GrayLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GrayLight = 4
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GrayDark
+  commentId: F:GTA.UI.HudColor.GrayDark
+  id: GrayDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GrayDark
+  nameWithType: HudColor.GrayDark
+  fullName: GTA.UI.HudColor.GrayDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GrayDark = 5
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Red
+  commentId: F:GTA.UI.HudColor.Red
+  id: Red
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: HudColor.Red
+  fullName: GTA.UI.HudColor.Red
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Red = 6
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.RedLight
+  commentId: F:GTA.UI.HudColor.RedLight
+  id: RedLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: RedLight
+  nameWithType: HudColor.RedLight
+  fullName: GTA.UI.HudColor.RedLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RedLight = 7
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.RedDark
+  commentId: F:GTA.UI.HudColor.RedDark
+  id: RedDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: RedDark
+  nameWithType: HudColor.RedDark
+  fullName: GTA.UI.HudColor.RedDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RedDark = 8
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Blue
+  commentId: F:GTA.UI.HudColor.Blue
+  id: Blue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: HudColor.Blue
+  fullName: GTA.UI.HudColor.Blue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Blue = 9
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.BlueLight
+  commentId: F:GTA.UI.HudColor.BlueLight
+  id: BlueLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: BlueLight
+  nameWithType: HudColor.BlueLight
+  fullName: GTA.UI.HudColor.BlueLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BlueLight = 10
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.BlueDark
+  commentId: F:GTA.UI.HudColor.BlueDark
+  id: BlueDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: BlueDark
+  nameWithType: HudColor.BlueDark
+  fullName: GTA.UI.HudColor.BlueDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BlueDark = 11
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Yellow
+  commentId: F:GTA.UI.HudColor.Yellow
+  id: Yellow
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: HudColor.Yellow
+  fullName: GTA.UI.HudColor.Yellow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Yellow = 12
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.YellowLight
+  commentId: F:GTA.UI.HudColor.YellowLight
+  id: YellowLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: YellowLight
+  nameWithType: HudColor.YellowLight
+  fullName: GTA.UI.HudColor.YellowLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: YellowLight = 13
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.YellowDark
+  commentId: F:GTA.UI.HudColor.YellowDark
+  id: YellowDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: YellowDark
+  nameWithType: HudColor.YellowDark
+  fullName: GTA.UI.HudColor.YellowDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: YellowDark = 14
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Orange
+  commentId: F:GTA.UI.HudColor.Orange
+  id: Orange
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: HudColor.Orange
+  fullName: GTA.UI.HudColor.Orange
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Orange = 15
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.OrangeLight
+  commentId: F:GTA.UI.HudColor.OrangeLight
+  id: OrangeLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: OrangeLight
+  nameWithType: HudColor.OrangeLight
+  fullName: GTA.UI.HudColor.OrangeLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: OrangeLight = 16
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.OrangeDark
+  commentId: F:GTA.UI.HudColor.OrangeDark
+  id: OrangeDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: OrangeDark
+  nameWithType: HudColor.OrangeDark
+  fullName: GTA.UI.HudColor.OrangeDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: OrangeDark = 17
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Green
+  commentId: F:GTA.UI.HudColor.Green
+  id: Green
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: HudColor.Green
+  fullName: GTA.UI.HudColor.Green
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Green = 18
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GreenLight
+  commentId: F:GTA.UI.HudColor.GreenLight
+  id: GreenLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GreenLight
+  nameWithType: HudColor.GreenLight
+  fullName: GTA.UI.HudColor.GreenLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GreenLight = 19
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GreenDark
+  commentId: F:GTA.UI.HudColor.GreenDark
+  id: GreenDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GreenDark
+  nameWithType: HudColor.GreenDark
+  fullName: GTA.UI.HudColor.GreenDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GreenDark = 20
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Purple
+  commentId: F:GTA.UI.HudColor.Purple
+  id: Purple
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: HudColor.Purple
+  fullName: GTA.UI.HudColor.Purple
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Purple = 21
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PurpleLight
+  commentId: F:GTA.UI.HudColor.PurpleLight
+  id: PurpleLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PurpleLight
+  nameWithType: HudColor.PurpleLight
+  fullName: GTA.UI.HudColor.PurpleLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PurpleLight = 22
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PurpleDark
+  commentId: F:GTA.UI.HudColor.PurpleDark
+  id: PurpleDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PurpleDark
+  nameWithType: HudColor.PurpleDark
+  fullName: GTA.UI.HudColor.PurpleDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PurpleDark = 23
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Pink
+  commentId: F:GTA.UI.HudColor.Pink
+  id: Pink
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: HudColor.Pink
+  fullName: GTA.UI.HudColor.Pink
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Pink = 24
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.RadarHealth
+  commentId: F:GTA.UI.HudColor.RadarHealth
+  id: RadarHealth
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: RadarHealth
+  nameWithType: HudColor.RadarHealth
+  fullName: GTA.UI.HudColor.RadarHealth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RadarHealth = 25
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.RadarArmor
+  commentId: F:GTA.UI.HudColor.RadarArmor
+  id: RadarArmor
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: RadarArmor
+  nameWithType: HudColor.RadarArmor
+  fullName: GTA.UI.HudColor.RadarArmor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RadarArmor = 26
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.RadarDamage
+  commentId: F:GTA.UI.HudColor.RadarDamage
+  id: RadarDamage
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: RadarDamage
+  nameWithType: HudColor.RadarDamage
+  fullName: GTA.UI.HudColor.RadarDamage
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RadarDamage = 27
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer1
+  commentId: F:GTA.UI.HudColor.NetPlayer1
+  id: NetPlayer1
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer1
+  nameWithType: HudColor.NetPlayer1
+  fullName: GTA.UI.HudColor.NetPlayer1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer1 = 28
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer2
+  commentId: F:GTA.UI.HudColor.NetPlayer2
+  id: NetPlayer2
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer2
+  nameWithType: HudColor.NetPlayer2
+  fullName: GTA.UI.HudColor.NetPlayer2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer2 = 29
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer3
+  commentId: F:GTA.UI.HudColor.NetPlayer3
+  id: NetPlayer3
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer3
+  nameWithType: HudColor.NetPlayer3
+  fullName: GTA.UI.HudColor.NetPlayer3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer3 = 30
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer4
+  commentId: F:GTA.UI.HudColor.NetPlayer4
+  id: NetPlayer4
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer4
+  nameWithType: HudColor.NetPlayer4
+  fullName: GTA.UI.HudColor.NetPlayer4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer4 = 31
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer5
+  commentId: F:GTA.UI.HudColor.NetPlayer5
+  id: NetPlayer5
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer5
+  nameWithType: HudColor.NetPlayer5
+  fullName: GTA.UI.HudColor.NetPlayer5
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer5 = 32
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer6
+  commentId: F:GTA.UI.HudColor.NetPlayer6
+  id: NetPlayer6
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer6
+  nameWithType: HudColor.NetPlayer6
+  fullName: GTA.UI.HudColor.NetPlayer6
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer6 = 33
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer7
+  commentId: F:GTA.UI.HudColor.NetPlayer7
+  id: NetPlayer7
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer7
+  nameWithType: HudColor.NetPlayer7
+  fullName: GTA.UI.HudColor.NetPlayer7
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer7 = 34
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer8
+  commentId: F:GTA.UI.HudColor.NetPlayer8
+  id: NetPlayer8
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer8
+  nameWithType: HudColor.NetPlayer8
+  fullName: GTA.UI.HudColor.NetPlayer8
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer8 = 35
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer9
+  commentId: F:GTA.UI.HudColor.NetPlayer9
+  id: NetPlayer9
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer9
+  nameWithType: HudColor.NetPlayer9
+  fullName: GTA.UI.HudColor.NetPlayer9
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer9 = 36
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer10
+  commentId: F:GTA.UI.HudColor.NetPlayer10
+  id: NetPlayer10
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer10
+  nameWithType: HudColor.NetPlayer10
+  fullName: GTA.UI.HudColor.NetPlayer10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer10 = 37
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer11
+  commentId: F:GTA.UI.HudColor.NetPlayer11
+  id: NetPlayer11
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer11
+  nameWithType: HudColor.NetPlayer11
+  fullName: GTA.UI.HudColor.NetPlayer11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer11 = 38
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer12
+  commentId: F:GTA.UI.HudColor.NetPlayer12
+  id: NetPlayer12
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer12
+  nameWithType: HudColor.NetPlayer12
+  fullName: GTA.UI.HudColor.NetPlayer12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer12 = 39
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer13
+  commentId: F:GTA.UI.HudColor.NetPlayer13
+  id: NetPlayer13
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer13
+  nameWithType: HudColor.NetPlayer13
+  fullName: GTA.UI.HudColor.NetPlayer13
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer13 = 40
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer14
+  commentId: F:GTA.UI.HudColor.NetPlayer14
+  id: NetPlayer14
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer14
+  nameWithType: HudColor.NetPlayer14
+  fullName: GTA.UI.HudColor.NetPlayer14
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer14 = 41
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer15
+  commentId: F:GTA.UI.HudColor.NetPlayer15
+  id: NetPlayer15
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer15
+  nameWithType: HudColor.NetPlayer15
+  fullName: GTA.UI.HudColor.NetPlayer15
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer15 = 42
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer16
+  commentId: F:GTA.UI.HudColor.NetPlayer16
+  id: NetPlayer16
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer16
+  nameWithType: HudColor.NetPlayer16
+  fullName: GTA.UI.HudColor.NetPlayer16
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer16 = 43
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer17
+  commentId: F:GTA.UI.HudColor.NetPlayer17
+  id: NetPlayer17
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer17
+  nameWithType: HudColor.NetPlayer17
+  fullName: GTA.UI.HudColor.NetPlayer17
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer17 = 44
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer18
+  commentId: F:GTA.UI.HudColor.NetPlayer18
+  id: NetPlayer18
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer18
+  nameWithType: HudColor.NetPlayer18
+  fullName: GTA.UI.HudColor.NetPlayer18
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer18 = 45
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer19
+  commentId: F:GTA.UI.HudColor.NetPlayer19
+  id: NetPlayer19
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer19
+  nameWithType: HudColor.NetPlayer19
+  fullName: GTA.UI.HudColor.NetPlayer19
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer19 = 46
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer20
+  commentId: F:GTA.UI.HudColor.NetPlayer20
+  id: NetPlayer20
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer20
+  nameWithType: HudColor.NetPlayer20
+  fullName: GTA.UI.HudColor.NetPlayer20
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer20 = 47
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer21
+  commentId: F:GTA.UI.HudColor.NetPlayer21
+  id: NetPlayer21
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer21
+  nameWithType: HudColor.NetPlayer21
+  fullName: GTA.UI.HudColor.NetPlayer21
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer21 = 48
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer22
+  commentId: F:GTA.UI.HudColor.NetPlayer22
+  id: NetPlayer22
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer22
+  nameWithType: HudColor.NetPlayer22
+  fullName: GTA.UI.HudColor.NetPlayer22
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer22 = 49
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer23
+  commentId: F:GTA.UI.HudColor.NetPlayer23
+  id: NetPlayer23
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer23
+  nameWithType: HudColor.NetPlayer23
+  fullName: GTA.UI.HudColor.NetPlayer23
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer23 = 50
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer24
+  commentId: F:GTA.UI.HudColor.NetPlayer24
+  id: NetPlayer24
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer24
+  nameWithType: HudColor.NetPlayer24
+  fullName: GTA.UI.HudColor.NetPlayer24
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer24 = 51
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer25
+  commentId: F:GTA.UI.HudColor.NetPlayer25
+  id: NetPlayer25
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer25
+  nameWithType: HudColor.NetPlayer25
+  fullName: GTA.UI.HudColor.NetPlayer25
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer25 = 52
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer26
+  commentId: F:GTA.UI.HudColor.NetPlayer26
+  id: NetPlayer26
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer26
+  nameWithType: HudColor.NetPlayer26
+  fullName: GTA.UI.HudColor.NetPlayer26
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer26 = 53
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer27
+  commentId: F:GTA.UI.HudColor.NetPlayer27
+  id: NetPlayer27
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer27
+  nameWithType: HudColor.NetPlayer27
+  fullName: GTA.UI.HudColor.NetPlayer27
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer27 = 54
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer28
+  commentId: F:GTA.UI.HudColor.NetPlayer28
+  id: NetPlayer28
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer28
+  nameWithType: HudColor.NetPlayer28
+  fullName: GTA.UI.HudColor.NetPlayer28
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer28 = 55
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer29
+  commentId: F:GTA.UI.HudColor.NetPlayer29
+  id: NetPlayer29
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer29
+  nameWithType: HudColor.NetPlayer29
+  fullName: GTA.UI.HudColor.NetPlayer29
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer29 = 56
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer30
+  commentId: F:GTA.UI.HudColor.NetPlayer30
+  id: NetPlayer30
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer30
+  nameWithType: HudColor.NetPlayer30
+  fullName: GTA.UI.HudColor.NetPlayer30
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer30 = 57
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer31
+  commentId: F:GTA.UI.HudColor.NetPlayer31
+  id: NetPlayer31
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer31
+  nameWithType: HudColor.NetPlayer31
+  fullName: GTA.UI.HudColor.NetPlayer31
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer31 = 58
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer32
+  commentId: F:GTA.UI.HudColor.NetPlayer32
+  id: NetPlayer32
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer32
+  nameWithType: HudColor.NetPlayer32
+  fullName: GTA.UI.HudColor.NetPlayer32
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer32 = 59
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.SimpleBlipDefault
+  commentId: F:GTA.UI.HudColor.SimpleBlipDefault
+  id: SimpleBlipDefault
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: SimpleBlipDefault
+  nameWithType: HudColor.SimpleBlipDefault
+  fullName: GTA.UI.HudColor.SimpleBlipDefault
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SimpleBlipDefault = 60
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuBlue
+  commentId: F:GTA.UI.HudColor.MenuBlue
+  id: MenuBlue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuBlue
+  nameWithType: HudColor.MenuBlue
+  fullName: GTA.UI.HudColor.MenuBlue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuBlue = 61
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuGrayLight
+  commentId: F:GTA.UI.HudColor.MenuGrayLight
+  id: MenuGrayLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuGrayLight
+  nameWithType: HudColor.MenuGrayLight
+  fullName: GTA.UI.HudColor.MenuGrayLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuGrayLight = 62
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuBlueExtraDark
+  commentId: F:GTA.UI.HudColor.MenuBlueExtraDark
+  id: MenuBlueExtraDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuBlueExtraDark
+  nameWithType: HudColor.MenuBlueExtraDark
+  fullName: GTA.UI.HudColor.MenuBlueExtraDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuBlueExtraDark = 63
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuYellow
+  commentId: F:GTA.UI.HudColor.MenuYellow
+  id: MenuYellow
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuYellow
+  nameWithType: HudColor.MenuYellow
+  fullName: GTA.UI.HudColor.MenuYellow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuYellow = 64
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuYellowDark
+  commentId: F:GTA.UI.HudColor.MenuYellowDark
+  id: MenuYellowDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuYellowDark
+  nameWithType: HudColor.MenuYellowDark
+  fullName: GTA.UI.HudColor.MenuYellowDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuYellowDark = 65
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuGreen
+  commentId: F:GTA.UI.HudColor.MenuGreen
+  id: MenuGreen
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuGreen
+  nameWithType: HudColor.MenuGreen
+  fullName: GTA.UI.HudColor.MenuGreen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuGreen = 66
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuGray
+  commentId: F:GTA.UI.HudColor.MenuGray
+  id: MenuGray
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuGray
+  nameWithType: HudColor.MenuGray
+  fullName: GTA.UI.HudColor.MenuGray
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuGray = 67
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuGrayDark
+  commentId: F:GTA.UI.HudColor.MenuGrayDark
+  id: MenuGrayDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuGrayDark
+  nameWithType: HudColor.MenuGrayDark
+  fullName: GTA.UI.HudColor.MenuGrayDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuGrayDark = 68
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuHighlight
+  commentId: F:GTA.UI.HudColor.MenuHighlight
+  id: MenuHighlight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuHighlight
+  nameWithType: HudColor.MenuHighlight
+  fullName: GTA.UI.HudColor.MenuHighlight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuHighlight = 69
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuStandard
+  commentId: F:GTA.UI.HudColor.MenuStandard
+  id: MenuStandard
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuStandard
+  nameWithType: HudColor.MenuStandard
+  fullName: GTA.UI.HudColor.MenuStandard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuStandard = 70
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuDimmed
+  commentId: F:GTA.UI.HudColor.MenuDimmed
+  id: MenuDimmed
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuDimmed
+  nameWithType: HudColor.MenuDimmed
+  fullName: GTA.UI.HudColor.MenuDimmed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuDimmed = 71
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MenuExtraDimmed
+  commentId: F:GTA.UI.HudColor.MenuExtraDimmed
+  id: MenuExtraDimmed
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MenuExtraDimmed
+  nameWithType: HudColor.MenuExtraDimmed
+  fullName: GTA.UI.HudColor.MenuExtraDimmed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MenuExtraDimmed = 72
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.BriefTitle
+  commentId: F:GTA.UI.HudColor.BriefTitle
+  id: BriefTitle
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: BriefTitle
+  nameWithType: HudColor.BriefTitle
+  fullName: GTA.UI.HudColor.BriefTitle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BriefTitle = 73
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MidGrayMP
+  commentId: F:GTA.UI.HudColor.MidGrayMP
+  id: MidGrayMP
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MidGrayMP
+  nameWithType: HudColor.MidGrayMP
+  fullName: GTA.UI.HudColor.MidGrayMP
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MidGrayMP = 74
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer1Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer1Dark
+  id: NetPlayer1Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer1Dark
+  nameWithType: HudColor.NetPlayer1Dark
+  fullName: GTA.UI.HudColor.NetPlayer1Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer1Dark = 75
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer2Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer2Dark
+  id: NetPlayer2Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer2Dark
+  nameWithType: HudColor.NetPlayer2Dark
+  fullName: GTA.UI.HudColor.NetPlayer2Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer2Dark = 76
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer3Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer3Dark
+  id: NetPlayer3Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer3Dark
+  nameWithType: HudColor.NetPlayer3Dark
+  fullName: GTA.UI.HudColor.NetPlayer3Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer3Dark = 77
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer4Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer4Dark
+  id: NetPlayer4Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer4Dark
+  nameWithType: HudColor.NetPlayer4Dark
+  fullName: GTA.UI.HudColor.NetPlayer4Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer4Dark = 78
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer5Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer5Dark
+  id: NetPlayer5Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer5Dark
+  nameWithType: HudColor.NetPlayer5Dark
+  fullName: GTA.UI.HudColor.NetPlayer5Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer5Dark = 79
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer6Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer6Dark
+  id: NetPlayer6Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer6Dark
+  nameWithType: HudColor.NetPlayer6Dark
+  fullName: GTA.UI.HudColor.NetPlayer6Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer6Dark = 80
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer7Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer7Dark
+  id: NetPlayer7Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer7Dark
+  nameWithType: HudColor.NetPlayer7Dark
+  fullName: GTA.UI.HudColor.NetPlayer7Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer7Dark = 81
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer8Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer8Dark
+  id: NetPlayer8Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer8Dark
+  nameWithType: HudColor.NetPlayer8Dark
+  fullName: GTA.UI.HudColor.NetPlayer8Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer8Dark = 82
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer9Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer9Dark
+  id: NetPlayer9Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer9Dark
+  nameWithType: HudColor.NetPlayer9Dark
+  fullName: GTA.UI.HudColor.NetPlayer9Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer9Dark = 83
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer10Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer10Dark
+  id: NetPlayer10Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer10Dark
+  nameWithType: HudColor.NetPlayer10Dark
+  fullName: GTA.UI.HudColor.NetPlayer10Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer10Dark = 84
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer11Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer11Dark
+  id: NetPlayer11Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer11Dark
+  nameWithType: HudColor.NetPlayer11Dark
+  fullName: GTA.UI.HudColor.NetPlayer11Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer11Dark = 85
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer12Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer12Dark
+  id: NetPlayer12Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer12Dark
+  nameWithType: HudColor.NetPlayer12Dark
+  fullName: GTA.UI.HudColor.NetPlayer12Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer12Dark = 86
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer13Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer13Dark
+  id: NetPlayer13Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer13Dark
+  nameWithType: HudColor.NetPlayer13Dark
+  fullName: GTA.UI.HudColor.NetPlayer13Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer13Dark = 87
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer14Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer14Dark
+  id: NetPlayer14Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer14Dark
+  nameWithType: HudColor.NetPlayer14Dark
+  fullName: GTA.UI.HudColor.NetPlayer14Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer14Dark = 88
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer15Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer15Dark
+  id: NetPlayer15Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer15Dark
+  nameWithType: HudColor.NetPlayer15Dark
+  fullName: GTA.UI.HudColor.NetPlayer15Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer15Dark = 89
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer16Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer16Dark
+  id: NetPlayer16Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer16Dark
+  nameWithType: HudColor.NetPlayer16Dark
+  fullName: GTA.UI.HudColor.NetPlayer16Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer16Dark = 90
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer17Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer17Dark
+  id: NetPlayer17Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer17Dark
+  nameWithType: HudColor.NetPlayer17Dark
+  fullName: GTA.UI.HudColor.NetPlayer17Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer17Dark = 91
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer18Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer18Dark
+  id: NetPlayer18Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer18Dark
+  nameWithType: HudColor.NetPlayer18Dark
+  fullName: GTA.UI.HudColor.NetPlayer18Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer18Dark = 92
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer19Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer19Dark
+  id: NetPlayer19Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer19Dark
+  nameWithType: HudColor.NetPlayer19Dark
+  fullName: GTA.UI.HudColor.NetPlayer19Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer19Dark = 93
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer20Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer20Dark
+  id: NetPlayer20Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer20Dark
+  nameWithType: HudColor.NetPlayer20Dark
+  fullName: GTA.UI.HudColor.NetPlayer20Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer20Dark = 94
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer21Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer21Dark
+  id: NetPlayer21Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer21Dark
+  nameWithType: HudColor.NetPlayer21Dark
+  fullName: GTA.UI.HudColor.NetPlayer21Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer21Dark = 95
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer22Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer22Dark
+  id: NetPlayer22Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer22Dark
+  nameWithType: HudColor.NetPlayer22Dark
+  fullName: GTA.UI.HudColor.NetPlayer22Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer22Dark = 96
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer23Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer23Dark
+  id: NetPlayer23Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer23Dark
+  nameWithType: HudColor.NetPlayer23Dark
+  fullName: GTA.UI.HudColor.NetPlayer23Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer23Dark = 97
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer24Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer24Dark
+  id: NetPlayer24Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer24Dark
+  nameWithType: HudColor.NetPlayer24Dark
+  fullName: GTA.UI.HudColor.NetPlayer24Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer24Dark = 98
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer25Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer25Dark
+  id: NetPlayer25Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer25Dark
+  nameWithType: HudColor.NetPlayer25Dark
+  fullName: GTA.UI.HudColor.NetPlayer25Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer25Dark = 99
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer26Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer26Dark
+  id: NetPlayer26Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer26Dark
+  nameWithType: HudColor.NetPlayer26Dark
+  fullName: GTA.UI.HudColor.NetPlayer26Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer26Dark = 100
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer27Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer27Dark
+  id: NetPlayer27Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer27Dark
+  nameWithType: HudColor.NetPlayer27Dark
+  fullName: GTA.UI.HudColor.NetPlayer27Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer27Dark = 101
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer28Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer28Dark
+  id: NetPlayer28Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer28Dark
+  nameWithType: HudColor.NetPlayer28Dark
+  fullName: GTA.UI.HudColor.NetPlayer28Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer28Dark = 102
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer29Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer29Dark
+  id: NetPlayer29Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer29Dark
+  nameWithType: HudColor.NetPlayer29Dark
+  fullName: GTA.UI.HudColor.NetPlayer29Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer29Dark = 103
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer30Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer30Dark
+  id: NetPlayer30Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer30Dark
+  nameWithType: HudColor.NetPlayer30Dark
+  fullName: GTA.UI.HudColor.NetPlayer30Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer30Dark = 104
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer31Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer31Dark
+  id: NetPlayer31Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer31Dark
+  nameWithType: HudColor.NetPlayer31Dark
+  fullName: GTA.UI.HudColor.NetPlayer31Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer31Dark = 105
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NetPlayer32Dark
+  commentId: F:GTA.UI.HudColor.NetPlayer32Dark
+  id: NetPlayer32Dark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer32Dark
+  nameWithType: HudColor.NetPlayer32Dark
+  fullName: GTA.UI.HudColor.NetPlayer32Dark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NetPlayer32Dark = 106
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Bronze
+  commentId: F:GTA.UI.HudColor.Bronze
+  id: Bronze
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Bronze
+  nameWithType: HudColor.Bronze
+  fullName: GTA.UI.HudColor.Bronze
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Bronze = 107
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Silver
+  commentId: F:GTA.UI.HudColor.Silver
+  id: Silver
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Silver
+  nameWithType: HudColor.Silver
+  fullName: GTA.UI.HudColor.Silver
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Silver = 108
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Gold
+  commentId: F:GTA.UI.HudColor.Gold
+  id: Gold
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Gold
+  nameWithType: HudColor.Gold
+  fullName: GTA.UI.HudColor.Gold
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gold = 109
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Platinum
+  commentId: F:GTA.UI.HudColor.Platinum
+  id: Platinum
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Platinum
+  nameWithType: HudColor.Platinum
+  fullName: GTA.UI.HudColor.Platinum
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Platinum = 110
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Gang1
+  commentId: F:GTA.UI.HudColor.Gang1
+  id: Gang1
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Gang1
+  nameWithType: HudColor.Gang1
+  fullName: GTA.UI.HudColor.Gang1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gang1 = 111
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Gang2
+  commentId: F:GTA.UI.HudColor.Gang2
+  id: Gang2
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Gang2
+  nameWithType: HudColor.Gang2
+  fullName: GTA.UI.HudColor.Gang2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gang2 = 112
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Gang3
+  commentId: F:GTA.UI.HudColor.Gang3
+  id: Gang3
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Gang3
+  nameWithType: HudColor.Gang3
+  fullName: GTA.UI.HudColor.Gang3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gang3 = 113
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Gang4
+  commentId: F:GTA.UI.HudColor.Gang4
+  id: Gang4
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Gang4
+  nameWithType: HudColor.Gang4
+  fullName: GTA.UI.HudColor.Gang4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gang4 = 114
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.SameCrew
+  commentId: F:GTA.UI.HudColor.SameCrew
+  id: SameCrew
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: SameCrew
+  nameWithType: HudColor.SameCrew
+  fullName: GTA.UI.HudColor.SameCrew
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SameCrew = 115
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Freemode
+  commentId: F:GTA.UI.HudColor.Freemode
+  id: Freemode
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Freemode
+  nameWithType: HudColor.Freemode
+  fullName: GTA.UI.HudColor.Freemode
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Freemode = 116
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PauseBG
+  commentId: F:GTA.UI.HudColor.PauseBG
+  id: PauseBG
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PauseBG
+  nameWithType: HudColor.PauseBG
+  fullName: GTA.UI.HudColor.PauseBG
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PauseBG = 117
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Friendly
+  commentId: F:GTA.UI.HudColor.Friendly
+  id: Friendly
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Friendly
+  nameWithType: HudColor.Friendly
+  fullName: GTA.UI.HudColor.Friendly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Friendly = 118
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Enemy
+  commentId: F:GTA.UI.HudColor.Enemy
+  id: Enemy
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Enemy
+  nameWithType: HudColor.Enemy
+  fullName: GTA.UI.HudColor.Enemy
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Enemy = 119
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Location
+  commentId: F:GTA.UI.HudColor.Location
+  id: Location
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: HudColor.Location
+  fullName: GTA.UI.HudColor.Location
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Location = 120
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Pickup
+  commentId: F:GTA.UI.HudColor.Pickup
+  id: Pickup
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Pickup
+  nameWithType: HudColor.Pickup
+  fullName: GTA.UI.HudColor.Pickup
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Pickup = 121
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PauseSingleplayer
+  commentId: F:GTA.UI.HudColor.PauseSingleplayer
+  id: PauseSingleplayer
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PauseSingleplayer
+  nameWithType: HudColor.PauseSingleplayer
+  fullName: GTA.UI.HudColor.PauseSingleplayer
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PauseSingleplayer = 122
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.FreemodeDark
+  commentId: F:GTA.UI.HudColor.FreemodeDark
+  id: FreemodeDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: FreemodeDark
+  nameWithType: HudColor.FreemodeDark
+  fullName: GTA.UI.HudColor.FreemodeDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FreemodeDark = 123
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.InactiveMission
+  commentId: F:GTA.UI.HudColor.InactiveMission
+  id: InactiveMission
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: InactiveMission
+  nameWithType: HudColor.InactiveMission
+  fullName: GTA.UI.HudColor.InactiveMission
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: InactiveMission = 124
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Damage
+  commentId: F:GTA.UI.HudColor.Damage
+  id: Damage
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Damage
+  nameWithType: HudColor.Damage
+  fullName: GTA.UI.HudColor.Damage
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Damage = 125
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PinkLight
+  commentId: F:GTA.UI.HudColor.PinkLight
+  id: PinkLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PinkLight
+  nameWithType: HudColor.PinkLight
+  fullName: GTA.UI.HudColor.PinkLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PinkLight = 126
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PMMitemHighlight
+  commentId: F:GTA.UI.HudColor.PMMitemHighlight
+  id: PMMitemHighlight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PMMitemHighlight
+  nameWithType: HudColor.PMMitemHighlight
+  fullName: GTA.UI.HudColor.PMMitemHighlight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PMMitemHighlight = 127
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ScriptVariable
+  commentId: F:GTA.UI.HudColor.ScriptVariable
+  id: ScriptVariable
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ScriptVariable
+  nameWithType: HudColor.ScriptVariable
+  fullName: GTA.UI.HudColor.ScriptVariable
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ScriptVariable = 128
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Yoga
+  commentId: F:GTA.UI.HudColor.Yoga
+  id: Yoga
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Yoga
+  nameWithType: HudColor.Yoga
+  fullName: GTA.UI.HudColor.Yoga
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Yoga = 129
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Tennis
+  commentId: F:GTA.UI.HudColor.Tennis
+  id: Tennis
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Tennis
+  nameWithType: HudColor.Tennis
+  fullName: GTA.UI.HudColor.Tennis
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Tennis = 130
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Golf
+  commentId: F:GTA.UI.HudColor.Golf
+  id: Golf
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Golf
+  nameWithType: HudColor.Golf
+  fullName: GTA.UI.HudColor.Golf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Golf = 131
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ShootingRange
+  commentId: F:GTA.UI.HudColor.ShootingRange
+  id: ShootingRange
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ShootingRange
+  nameWithType: HudColor.ShootingRange
+  fullName: GTA.UI.HudColor.ShootingRange
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ShootingRange = 132
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.FlightSchool
+  commentId: F:GTA.UI.HudColor.FlightSchool
+  id: FlightSchool
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: FlightSchool
+  nameWithType: HudColor.FlightSchool
+  fullName: GTA.UI.HudColor.FlightSchool
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FlightSchool = 133
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NorthBlue
+  commentId: F:GTA.UI.HudColor.NorthBlue
+  id: NorthBlue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NorthBlue
+  nameWithType: HudColor.NorthBlue
+  fullName: GTA.UI.HudColor.NorthBlue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NorthBlue = 134
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.SocialClub
+  commentId: F:GTA.UI.HudColor.SocialClub
+  id: SocialClub
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: SocialClub
+  nameWithType: HudColor.SocialClub
+  fullName: GTA.UI.HudColor.SocialClub
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SocialClub = 135
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PlatformBlue
+  commentId: F:GTA.UI.HudColor.PlatformBlue
+  id: PlatformBlue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PlatformBlue
+  nameWithType: HudColor.PlatformBlue
+  fullName: GTA.UI.HudColor.PlatformBlue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PlatformBlue = 136
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PlatformGreen
+  commentId: F:GTA.UI.HudColor.PlatformGreen
+  id: PlatformGreen
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PlatformGreen
+  nameWithType: HudColor.PlatformGreen
+  fullName: GTA.UI.HudColor.PlatformGreen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PlatformGreen = 137
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PlatformGray
+  commentId: F:GTA.UI.HudColor.PlatformGray
+  id: PlatformGray
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PlatformGray
+  nameWithType: HudColor.PlatformGray
+  fullName: GTA.UI.HudColor.PlatformGray
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PlatformGray = 138
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.FacebookBlue
+  commentId: F:GTA.UI.HudColor.FacebookBlue
+  id: FacebookBlue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: FacebookBlue
+  nameWithType: HudColor.FacebookBlue
+  fullName: GTA.UI.HudColor.FacebookBlue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FacebookBlue = 139
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.IngameBG
+  commentId: F:GTA.UI.HudColor.IngameBG
+  id: IngameBG
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: IngameBG
+  nameWithType: HudColor.IngameBG
+  fullName: GTA.UI.HudColor.IngameBG
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: IngameBG = 140
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Darts
+  commentId: F:GTA.UI.HudColor.Darts
+  id: Darts
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Darts
+  nameWithType: HudColor.Darts
+  fullName: GTA.UI.HudColor.Darts
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Darts = 141
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Waypoint
+  commentId: F:GTA.UI.HudColor.Waypoint
+  id: Waypoint
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Waypoint
+  nameWithType: HudColor.Waypoint
+  fullName: GTA.UI.HudColor.Waypoint
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Waypoint = 142
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Michael
+  commentId: F:GTA.UI.HudColor.Michael
+  id: Michael
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Michael
+  nameWithType: HudColor.Michael
+  fullName: GTA.UI.HudColor.Michael
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Michael = 143
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Franklin
+  commentId: F:GTA.UI.HudColor.Franklin
+  id: Franklin
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Franklin
+  nameWithType: HudColor.Franklin
+  fullName: GTA.UI.HudColor.Franklin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Franklin = 144
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Trevor
+  commentId: F:GTA.UI.HudColor.Trevor
+  id: Trevor
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Trevor
+  nameWithType: HudColor.Trevor
+  fullName: GTA.UI.HudColor.Trevor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Trevor = 145
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GolfP1
+  commentId: F:GTA.UI.HudColor.GolfP1
+  id: GolfP1
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GolfP1
+  nameWithType: HudColor.GolfP1
+  fullName: GTA.UI.HudColor.GolfP1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GolfP1 = 146
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GolfP2
+  commentId: F:GTA.UI.HudColor.GolfP2
+  id: GolfP2
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GolfP2
+  nameWithType: HudColor.GolfP2
+  fullName: GTA.UI.HudColor.GolfP2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GolfP2 = 147
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GolfP3
+  commentId: F:GTA.UI.HudColor.GolfP3
+  id: GolfP3
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GolfP3
+  nameWithType: HudColor.GolfP3
+  fullName: GTA.UI.HudColor.GolfP3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GolfP3 = 148
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.GolfP4
+  commentId: F:GTA.UI.HudColor.GolfP4
+  id: GolfP4
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: GolfP4
+  nameWithType: HudColor.GolfP4
+  fullName: GTA.UI.HudColor.GolfP4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GolfP4 = 149
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.WaypointLight
+  commentId: F:GTA.UI.HudColor.WaypointLight
+  id: WaypointLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: WaypointLight
+  nameWithType: HudColor.WaypointLight
+  fullName: GTA.UI.HudColor.WaypointLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: WaypointLight = 150
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.WaypointDark
+  commentId: F:GTA.UI.HudColor.WaypointDark
+  id: WaypointDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: WaypointDark
+  nameWithType: HudColor.WaypointDark
+  fullName: GTA.UI.HudColor.WaypointDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: WaypointDark = 151
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PanelLight
+  commentId: F:GTA.UI.HudColor.PanelLight
+  id: PanelLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PanelLight
+  nameWithType: HudColor.PanelLight
+  fullName: GTA.UI.HudColor.PanelLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PanelLight = 152
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.MichaelDark
+  commentId: F:GTA.UI.HudColor.MichaelDark
+  id: MichaelDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: MichaelDark
+  nameWithType: HudColor.MichaelDark
+  fullName: GTA.UI.HudColor.MichaelDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MichaelDark = 153
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.FranklinDark
+  commentId: F:GTA.UI.HudColor.FranklinDark
+  id: FranklinDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: FranklinDark
+  nameWithType: HudColor.FranklinDark
+  fullName: GTA.UI.HudColor.FranklinDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FranklinDark = 154
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.TrevorDark
+  commentId: F:GTA.UI.HudColor.TrevorDark
+  id: TrevorDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: TrevorDark
+  nameWithType: HudColor.TrevorDark
+  fullName: GTA.UI.HudColor.TrevorDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TrevorDark = 155
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ObjectiveRoute
+  commentId: F:GTA.UI.HudColor.ObjectiveRoute
+  id: ObjectiveRoute
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ObjectiveRoute
+  nameWithType: HudColor.ObjectiveRoute
+  fullName: GTA.UI.HudColor.ObjectiveRoute
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ObjectiveRoute = 156
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PauseMapTint
+  commentId: F:GTA.UI.HudColor.PauseMapTint
+  id: PauseMapTint
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PauseMapTint
+  nameWithType: HudColor.PauseMapTint
+  fullName: GTA.UI.HudColor.PauseMapTint
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PauseMapTint = 157
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PauseDeselect
+  commentId: F:GTA.UI.HudColor.PauseDeselect
+  id: PauseDeselect
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PauseDeselect
+  nameWithType: HudColor.PauseDeselect
+  fullName: GTA.UI.HudColor.PauseDeselect
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PauseDeselect = 158
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PMWeaponsPurchasable
+  commentId: F:GTA.UI.HudColor.PMWeaponsPurchasable
+  id: PMWeaponsPurchasable
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PMWeaponsPurchasable
+  nameWithType: HudColor.PMWeaponsPurchasable
+  fullName: GTA.UI.HudColor.PMWeaponsPurchasable
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PMWeaponsPurchasable = 159
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PMWeaponsLocked
+  commentId: F:GTA.UI.HudColor.PMWeaponsLocked
+  id: PMWeaponsLocked
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PMWeaponsLocked
+  nameWithType: HudColor.PMWeaponsLocked
+  fullName: GTA.UI.HudColor.PMWeaponsLocked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PMWeaponsLocked = 160
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.EndScreenBG
+  commentId: F:GTA.UI.HudColor.EndScreenBG
+  id: EndScreenBG
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: EndScreenBG
+  nameWithType: HudColor.EndScreenBG
+  fullName: GTA.UI.HudColor.EndScreenBG
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: EndScreenBG = 161
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Chop
+  commentId: F:GTA.UI.HudColor.Chop
+  id: Chop
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Chop
+  nameWithType: HudColor.Chop
+  fullName: GTA.UI.HudColor.Chop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Chop = 162
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.PauseMapTintHalf
+  commentId: F:GTA.UI.HudColor.PauseMapTintHalf
+  id: PauseMapTintHalf
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: PauseMapTintHalf
+  nameWithType: HudColor.PauseMapTintHalf
+  fullName: GTA.UI.HudColor.PauseMapTintHalf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PauseMapTintHalf = 163
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.NorthBlueOfficial
+  commentId: F:GTA.UI.HudColor.NorthBlueOfficial
+  id: NorthBlueOfficial
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: NorthBlueOfficial
+  nameWithType: HudColor.NorthBlueOfficial
+  fullName: GTA.UI.HudColor.NorthBlueOfficial
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NorthBlueOfficial = 164
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ScriptVariable2
+  commentId: F:GTA.UI.HudColor.ScriptVariable2
+  id: ScriptVariable2
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ScriptVariable2
+  nameWithType: HudColor.ScriptVariable2
+  fullName: GTA.UI.HudColor.ScriptVariable2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ScriptVariable2 = 165
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.H
+  commentId: F:GTA.UI.HudColor.H
+  id: H
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: HudColor.H
+  fullName: GTA.UI.HudColor.H
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: H = 166
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.HDark
+  commentId: F:GTA.UI.HudColor.HDark
+  id: HDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: HDark
+  nameWithType: HudColor.HDark
+  fullName: GTA.UI.HudColor.HDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HDark = 167
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.T
+  commentId: F:GTA.UI.HudColor.T
+  id: T
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: T
+  nameWithType: HudColor.T
+  fullName: GTA.UI.HudColor.T
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: T = 168
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.TDark
+  commentId: F:GTA.UI.HudColor.TDark
+  id: TDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: TDark
+  nameWithType: HudColor.TDark
+  fullName: GTA.UI.HudColor.TDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TDark = 169
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.HShard
+  commentId: F:GTA.UI.HudColor.HShard
+  id: HShard
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: HShard
+  nameWithType: HudColor.HShard
+  fullName: GTA.UI.HudColor.HShard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HShard = 170
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ControllerMichael
+  commentId: F:GTA.UI.HudColor.ControllerMichael
+  id: ControllerMichael
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ControllerMichael
+  nameWithType: HudColor.ControllerMichael
+  fullName: GTA.UI.HudColor.ControllerMichael
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ControllerMichael = 171
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ControllerFranklin
+  commentId: F:GTA.UI.HudColor.ControllerFranklin
+  id: ControllerFranklin
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ControllerFranklin
+  nameWithType: HudColor.ControllerFranklin
+  fullName: GTA.UI.HudColor.ControllerFranklin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ControllerFranklin = 172
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ControllerTrevor
+  commentId: F:GTA.UI.HudColor.ControllerTrevor
+  id: ControllerTrevor
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ControllerTrevor
+  nameWithType: HudColor.ControllerTrevor
+  fullName: GTA.UI.HudColor.ControllerTrevor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ControllerTrevor = 173
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.ControllerChop
+  commentId: F:GTA.UI.HudColor.ControllerChop
+  id: ControllerChop
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: ControllerChop
+  nameWithType: HudColor.ControllerChop
+  fullName: GTA.UI.HudColor.ControllerChop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ControllerChop = 174
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorVideo
+  commentId: F:GTA.UI.HudColor.VideoEditorVideo
+  id: VideoEditorVideo
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorVideo
+  nameWithType: HudColor.VideoEditorVideo
+  fullName: GTA.UI.HudColor.VideoEditorVideo
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorVideo = 175
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAudio
+  commentId: F:GTA.UI.HudColor.VideoEditorAudio
+  id: VideoEditorAudio
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAudio
+  nameWithType: HudColor.VideoEditorAudio
+  fullName: GTA.UI.HudColor.VideoEditorAudio
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAudio = 176
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorText
+  commentId: F:GTA.UI.HudColor.VideoEditorText
+  id: VideoEditorText
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorText
+  nameWithType: HudColor.VideoEditorText
+  fullName: GTA.UI.HudColor.VideoEditorText
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorText = 177
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.HBBlue
+  commentId: F:GTA.UI.HudColor.HBBlue
+  id: HBBlue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: HBBlue
+  nameWithType: HudColor.HBBlue
+  fullName: GTA.UI.HudColor.HBBlue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HBBlue = 178
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.HBYellow
+  commentId: F:GTA.UI.HudColor.HBYellow
+  id: HBYellow
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: HBYellow
+  nameWithType: HudColor.HBYellow
+  fullName: GTA.UI.HudColor.HBYellow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HBYellow = 179
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorScore
+  commentId: F:GTA.UI.HudColor.VideoEditorScore
+  id: VideoEditorScore
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorScore
+  nameWithType: HudColor.VideoEditorScore
+  fullName: GTA.UI.HudColor.VideoEditorScore
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorScore = 180
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAudioFadeout
+  commentId: F:GTA.UI.HudColor.VideoEditorAudioFadeout
+  id: VideoEditorAudioFadeout
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAudioFadeout
+  nameWithType: HudColor.VideoEditorAudioFadeout
+  fullName: GTA.UI.HudColor.VideoEditorAudioFadeout
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAudioFadeout = 181
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorTextFadeout
+  commentId: F:GTA.UI.HudColor.VideoEditorTextFadeout
+  id: VideoEditorTextFadeout
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorTextFadeout
+  nameWithType: HudColor.VideoEditorTextFadeout
+  fullName: GTA.UI.HudColor.VideoEditorTextFadeout
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorTextFadeout = 182
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorScoreFadeout
+  commentId: F:GTA.UI.HudColor.VideoEditorScoreFadeout
+  id: VideoEditorScoreFadeout
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorScoreFadeout
+  nameWithType: HudColor.VideoEditorScoreFadeout
+  fullName: GTA.UI.HudColor.VideoEditorScoreFadeout
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorScoreFadeout = 183
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.HeistBackground
+  commentId: F:GTA.UI.HudColor.HeistBackground
+  id: HeistBackground
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: HeistBackground
+  nameWithType: HudColor.HeistBackground
+  fullName: GTA.UI.HudColor.HeistBackground
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HeistBackground = 184
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAmbient
+  commentId: F:GTA.UI.HudColor.VideoEditorAmbient
+  id: VideoEditorAmbient
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAmbient
+  nameWithType: HudColor.VideoEditorAmbient
+  fullName: GTA.UI.HudColor.VideoEditorAmbient
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAmbient = 185
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAmbientFadeout
+  commentId: F:GTA.UI.HudColor.VideoEditorAmbientFadeout
+  id: VideoEditorAmbientFadeout
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAmbientFadeout
+  nameWithType: HudColor.VideoEditorAmbientFadeout
+  fullName: GTA.UI.HudColor.VideoEditorAmbientFadeout
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAmbientFadeout = 186
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAmbientDark
+  commentId: F:GTA.UI.HudColor.VideoEditorAmbientDark
+  id: VideoEditorAmbientDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAmbientDark
+  nameWithType: HudColor.VideoEditorAmbientDark
+  fullName: GTA.UI.HudColor.VideoEditorAmbientDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAmbientDark = 187
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAmbientLight
+  commentId: F:GTA.UI.HudColor.VideoEditorAmbientLight
+  id: VideoEditorAmbientLight
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAmbientLight
+  nameWithType: HudColor.VideoEditorAmbientLight
+  fullName: GTA.UI.HudColor.VideoEditorAmbientLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAmbientLight = 188
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.VideoEditorAmbientMid
+  commentId: F:GTA.UI.HudColor.VideoEditorAmbientMid
+  id: VideoEditorAmbientMid
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: VideoEditorAmbientMid
+  nameWithType: HudColor.VideoEditorAmbientMid
+  fullName: GTA.UI.HudColor.VideoEditorAmbientMid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: VideoEditorAmbientMid = 189
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.LowFlow
+  commentId: F:GTA.UI.HudColor.LowFlow
+  id: LowFlow
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: LowFlow
+  nameWithType: HudColor.LowFlow
+  fullName: GTA.UI.HudColor.LowFlow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LowFlow = 190
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.LowFlowDark
+  commentId: F:GTA.UI.HudColor.LowFlowDark
+  id: LowFlowDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: LowFlowDark
+  nameWithType: HudColor.LowFlowDark
+  fullName: GTA.UI.HudColor.LowFlowDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LowFlowDark = 191
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G1
+  commentId: F:GTA.UI.HudColor.G1
+  id: G1
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G1
+  nameWithType: HudColor.G1
+  fullName: GTA.UI.HudColor.G1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G1 = 192
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G2
+  commentId: F:GTA.UI.HudColor.G2
+  id: G2
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G2
+  nameWithType: HudColor.G2
+  fullName: GTA.UI.HudColor.G2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G2 = 193
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G3
+  commentId: F:GTA.UI.HudColor.G3
+  id: G3
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G3
+  nameWithType: HudColor.G3
+  fullName: GTA.UI.HudColor.G3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G3 = 194
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G4
+  commentId: F:GTA.UI.HudColor.G4
+  id: G4
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G4
+  nameWithType: HudColor.G4
+  fullName: GTA.UI.HudColor.G4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G4 = 195
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G5
+  commentId: F:GTA.UI.HudColor.G5
+  id: G5
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G5
+  nameWithType: HudColor.G5
+  fullName: GTA.UI.HudColor.G5
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G5 = 196
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G6
+  commentId: F:GTA.UI.HudColor.G6
+  id: G6
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G6
+  nameWithType: HudColor.G6
+  fullName: GTA.UI.HudColor.G6
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G6 = 197
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G7
+  commentId: F:GTA.UI.HudColor.G7
+  id: G7
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G7
+  nameWithType: HudColor.G7
+  fullName: GTA.UI.HudColor.G7
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G7 = 198
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G8
+  commentId: F:GTA.UI.HudColor.G8
+  id: G8
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G8
+  nameWithType: HudColor.G8
+  fullName: GTA.UI.HudColor.G8
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G8 = 199
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G9
+  commentId: F:GTA.UI.HudColor.G9
+  id: G9
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G9
+  nameWithType: HudColor.G9
+  fullName: GTA.UI.HudColor.G9
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G9 = 200
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G10
+  commentId: F:GTA.UI.HudColor.G10
+  id: G10
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G10
+  nameWithType: HudColor.G10
+  fullName: GTA.UI.HudColor.G10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G10 = 201
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G11
+  commentId: F:GTA.UI.HudColor.G11
+  id: G11
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G11
+  nameWithType: HudColor.G11
+  fullName: GTA.UI.HudColor.G11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G11 = 202
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G12
+  commentId: F:GTA.UI.HudColor.G12
+  id: G12
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G12
+  nameWithType: HudColor.G12
+  fullName: GTA.UI.HudColor.G12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G12 = 203
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G13
+  commentId: F:GTA.UI.HudColor.G13
+  id: G13
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G13
+  nameWithType: HudColor.G13
+  fullName: GTA.UI.HudColor.G13
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G13 = 204
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G14
+  commentId: F:GTA.UI.HudColor.G14
+  id: G14
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G14
+  nameWithType: HudColor.G14
+  fullName: GTA.UI.HudColor.G14
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G14 = 205
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.G15
+  commentId: F:GTA.UI.HudColor.G15
+  id: G15
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: G15
+  nameWithType: HudColor.G15
+  fullName: GTA.UI.HudColor.G15
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: G15 = 206
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Adversary
+  commentId: F:GTA.UI.HudColor.Adversary
+  id: Adversary
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Adversary
+  nameWithType: HudColor.Adversary
+  fullName: GTA.UI.HudColor.Adversary
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Adversary = 207
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.DegenRed
+  commentId: F:GTA.UI.HudColor.DegenRed
+  id: DegenRed
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: DegenRed
+  nameWithType: HudColor.DegenRed
+  fullName: GTA.UI.HudColor.DegenRed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DegenRed = 208
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.DegenYellow
+  commentId: F:GTA.UI.HudColor.DegenYellow
+  id: DegenYellow
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: DegenYellow
+  nameWithType: HudColor.DegenYellow
+  fullName: GTA.UI.HudColor.DegenYellow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DegenYellow = 209
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.DegenGreen
+  commentId: F:GTA.UI.HudColor.DegenGreen
+  id: DegenGreen
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: DegenGreen
+  nameWithType: HudColor.DegenGreen
+  fullName: GTA.UI.HudColor.DegenGreen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DegenGreen = 210
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.DegenCyan
+  commentId: F:GTA.UI.HudColor.DegenCyan
+  id: DegenCyan
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: DegenCyan
+  nameWithType: HudColor.DegenCyan
+  fullName: GTA.UI.HudColor.DegenCyan
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DegenCyan = 211
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.DegenBlue
+  commentId: F:GTA.UI.HudColor.DegenBlue
+  id: DegenBlue
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: DegenBlue
+  nameWithType: HudColor.DegenBlue
+  fullName: GTA.UI.HudColor.DegenBlue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DegenBlue = 212
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.DegenMagenta
+  commentId: F:GTA.UI.HudColor.DegenMagenta
+  id: DegenMagenta
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: DegenMagenta
+  nameWithType: HudColor.DegenMagenta
+  fullName: GTA.UI.HudColor.DegenMagenta
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DegenMagenta = 213
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Stunt1
+  commentId: F:GTA.UI.HudColor.Stunt1
+  id: Stunt1
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Stunt1
+  nameWithType: HudColor.Stunt1
+  fullName: GTA.UI.HudColor.Stunt1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Stunt1 = 214
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.Stunt2
+  commentId: F:GTA.UI.HudColor.Stunt2
+  id: Stunt2
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: Stunt2
+  nameWithType: HudColor.Stunt2
+  fullName: GTA.UI.HudColor.Stunt2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Stunt2 = 215
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.SpecialRaceSeries
+  commentId: F:GTA.UI.HudColor.SpecialRaceSeries
+  id: SpecialRaceSeries
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: SpecialRaceSeries
+  nameWithType: HudColor.SpecialRaceSeries
+  fullName: GTA.UI.HudColor.SpecialRaceSeries
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SpecialRaceSeries = 216
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.SpecialRaceSeriesDark
+  commentId: F:GTA.UI.HudColor.SpecialRaceSeriesDark
+  id: SpecialRaceSeriesDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: SpecialRaceSeriesDark
+  nameWithType: HudColor.SpecialRaceSeriesDark
+  fullName: GTA.UI.HudColor.SpecialRaceSeriesDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SpecialRaceSeriesDark = 217
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.CS
+  commentId: F:GTA.UI.HudColor.CS
+  id: CS
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: CS
+  nameWithType: HudColor.CS
+  fullName: GTA.UI.HudColor.CS
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: CS = 218
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.CSDark
+  commentId: F:GTA.UI.HudColor.CSDark
+  id: CSDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: CSDark
+  nameWithType: HudColor.CSDark
+  fullName: GTA.UI.HudColor.CSDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: CSDark = 219
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.TechGreen
+  commentId: F:GTA.UI.HudColor.TechGreen
+  id: TechGreen
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: TechGreen
+  nameWithType: HudColor.TechGreen
+  fullName: GTA.UI.HudColor.TechGreen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TechGreen = 220
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.TechGreenDark
+  commentId: F:GTA.UI.HudColor.TechGreenDark
+  id: TechGreenDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: TechGreenDark
+  nameWithType: HudColor.TechGreenDark
+  fullName: GTA.UI.HudColor.TechGreenDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TechGreenDark = 221
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.TechRed
+  commentId: F:GTA.UI.HudColor.TechRed
+  id: TechRed
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: TechRed
+  nameWithType: HudColor.TechRed
+  fullName: GTA.UI.HudColor.TechRed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TechRed = 222
+    return:
+      type: GTA.UI.HudColor
+- uid: GTA.UI.HudColor.TechGreenVeryDark
+  commentId: F:GTA.UI.HudColor.TechGreenVeryDark
+  id: TechGreenVeryDark
+  parent: GTA.UI.HudColor
+  langs:
+  - csharp
+  - vb
+  name: TechGreenVeryDark
+  nameWithType: HudColor.TechGreenVeryDark
+  fullName: GTA.UI.HudColor.TechGreenVeryDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TechGreenVeryDark = 223
+    return:
+      type: GTA.UI.HudColor
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: GTA.UI.HudColor
+  commentId: T:GTA.UI.HudColor
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.HudColor.html
+  name: HudColor
+  nameWithType: HudColor
+  fullName: GTA.UI.HudColor

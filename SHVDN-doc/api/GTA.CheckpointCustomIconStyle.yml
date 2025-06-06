@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CheckpointCustomIconStyle
+  commentId: T:GTA.CheckpointCustomIconStyle
+  id: CheckpointCustomIconStyle
+  parent: GTA
+  children:
+  - GTA.CheckpointCustomIconStyle.BeastIcon
+  - GTA.CheckpointCustomIconStyle.CycleArrow
+  - GTA.CheckpointCustomIconStyle.Dollar
+  - GTA.CheckpointCustomIconStyle.DoubleArrow
+  - GTA.CheckpointCustomIconStyle.Number
+  - GTA.CheckpointCustomIconStyle.QuintupleLines
+  - GTA.CheckpointCustomIconStyle.Ring
+  - GTA.CheckpointCustomIconStyle.Ring2
+  - GTA.CheckpointCustomIconStyle.RingPointer
+  - GTA.CheckpointCustomIconStyle.SegmentedRing
+  - GTA.CheckpointCustomIconStyle.SingleArrow
+  - GTA.CheckpointCustomIconStyle.Sphere
+  - GTA.CheckpointCustomIconStyle.TripleArrow
+  langs:
+  - csharp
+  - vb
+  name: CheckpointCustomIconStyle
+  nameWithType: CheckpointCustomIconStyle
+  fullName: GTA.CheckpointCustomIconStyle
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CheckpointCustomIconStyle
+    content.vb: Public Enum CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.Number
+  commentId: F:GTA.CheckpointCustomIconStyle.Number
+  id: Number
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: CheckpointCustomIconStyle.Number
+  fullName: GTA.CheckpointCustomIconStyle.Number
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Number = 0
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.SingleArrow
+  commentId: F:GTA.CheckpointCustomIconStyle.SingleArrow
+  id: SingleArrow
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: SingleArrow
+  nameWithType: CheckpointCustomIconStyle.SingleArrow
+  fullName: GTA.CheckpointCustomIconStyle.SingleArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SingleArrow = 1
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.DoubleArrow
+  commentId: F:GTA.CheckpointCustomIconStyle.DoubleArrow
+  id: DoubleArrow
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: DoubleArrow
+  nameWithType: CheckpointCustomIconStyle.DoubleArrow
+  fullName: GTA.CheckpointCustomIconStyle.DoubleArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DoubleArrow = 2
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.TripleArrow
+  commentId: F:GTA.CheckpointCustomIconStyle.TripleArrow
+  id: TripleArrow
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: TripleArrow
+  nameWithType: CheckpointCustomIconStyle.TripleArrow
+  fullName: GTA.CheckpointCustomIconStyle.TripleArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TripleArrow = 3
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.Ring
+  commentId: F:GTA.CheckpointCustomIconStyle.Ring
+  id: Ring
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: Ring
+  nameWithType: CheckpointCustomIconStyle.Ring
+  fullName: GTA.CheckpointCustomIconStyle.Ring
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ring = 4
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.CycleArrow
+  commentId: F:GTA.CheckpointCustomIconStyle.CycleArrow
+  id: CycleArrow
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: CycleArrow
+  nameWithType: CheckpointCustomIconStyle.CycleArrow
+  fullName: GTA.CheckpointCustomIconStyle.CycleArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CycleArrow = 5
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.Ring2
+  commentId: F:GTA.CheckpointCustomIconStyle.Ring2
+  id: Ring2
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: Ring2
+  nameWithType: CheckpointCustomIconStyle.Ring2
+  fullName: GTA.CheckpointCustomIconStyle.Ring2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ring2 = 6
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.RingPointer
+  commentId: F:GTA.CheckpointCustomIconStyle.RingPointer
+  id: RingPointer
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: RingPointer
+  nameWithType: CheckpointCustomIconStyle.RingPointer
+  fullName: GTA.CheckpointCustomIconStyle.RingPointer
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RingPointer = 7
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.SegmentedRing
+  commentId: F:GTA.CheckpointCustomIconStyle.SegmentedRing
+  id: SegmentedRing
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: SegmentedRing
+  nameWithType: CheckpointCustomIconStyle.SegmentedRing
+  fullName: GTA.CheckpointCustomIconStyle.SegmentedRing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SegmentedRing = 8
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.Sphere
+  commentId: F:GTA.CheckpointCustomIconStyle.Sphere
+  id: Sphere
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: Sphere
+  nameWithType: CheckpointCustomIconStyle.Sphere
+  fullName: GTA.CheckpointCustomIconStyle.Sphere
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Sphere = 9
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.Dollar
+  commentId: F:GTA.CheckpointCustomIconStyle.Dollar
+  id: Dollar
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: Dollar
+  nameWithType: CheckpointCustomIconStyle.Dollar
+  fullName: GTA.CheckpointCustomIconStyle.Dollar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Dollar = 10
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.QuintupleLines
+  commentId: F:GTA.CheckpointCustomIconStyle.QuintupleLines
+  id: QuintupleLines
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: QuintupleLines
+  nameWithType: CheckpointCustomIconStyle.QuintupleLines
+  fullName: GTA.CheckpointCustomIconStyle.QuintupleLines
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuintupleLines = 11
+    return:
+      type: GTA.CheckpointCustomIconStyle
+- uid: GTA.CheckpointCustomIconStyle.BeastIcon
+  commentId: F:GTA.CheckpointCustomIconStyle.BeastIcon
+  id: BeastIcon
+  parent: GTA.CheckpointCustomIconStyle
+  langs:
+  - csharp
+  - vb
+  name: BeastIcon
+  nameWithType: CheckpointCustomIconStyle.BeastIcon
+  fullName: GTA.CheckpointCustomIconStyle.BeastIcon
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BeastIcon = 12
+    return:
+      type: GTA.CheckpointCustomIconStyle
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CheckpointCustomIconStyle
+  commentId: T:GTA.CheckpointCustomIconStyle
+  parent: GTA
+  isExternal: true
+  href: GTA.CheckpointCustomIconStyle.html
+  name: CheckpointCustomIconStyle
+  nameWithType: CheckpointCustomIconStyle
+  fullName: GTA.CheckpointCustomIconStyle

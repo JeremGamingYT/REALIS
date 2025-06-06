@@ -1,0 +1,1632 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.BlipColor
+  commentId: T:GTA.BlipColor
+  id: BlipColor
+  parent: GTA
+  children:
+  - GTA.BlipColor.Blue
+  - GTA.BlipColor.Blue2
+  - GTA.BlipColor.Blue3
+  - GTA.BlipColor.Blue4
+  - GTA.BlipColor.Blue5
+  - GTA.BlipColor.Blue6
+  - GTA.BlipColor.Blue7
+  - GTA.BlipColor.BlueDark
+  - GTA.BlipColor.BlueDark2
+  - GTA.BlipColor.BlueLight
+  - GTA.BlipColor.Franklin
+  - GTA.BlipColor.Freemode
+  - GTA.BlipColor.Gang
+  - GTA.BlipColor.Gang2
+  - GTA.BlipColor.Gang3
+  - GTA.BlipColor.GolfPlayer1
+  - GTA.BlipColor.GolfPlayer2
+  - GTA.BlipColor.GolfPlayer3
+  - GTA.BlipColor.GolfPlayer4
+  - GTA.BlipColor.Green
+  - GTA.BlipColor.Green2
+  - GTA.BlipColor.GreenDark
+  - GTA.BlipColor.Grey
+  - GTA.BlipColor.GreyDark
+  - GTA.BlipColor.GreyLight
+  - GTA.BlipColor.InactiveMission
+  - GTA.BlipColor.MenuYellow
+  - GTA.BlipColor.Michael
+  - GTA.BlipColor.NetPlayer1
+  - GTA.BlipColor.NetPlayer10
+  - GTA.BlipColor.NetPlayer11
+  - GTA.BlipColor.NetPlayer12
+  - GTA.BlipColor.NetPlayer13
+  - GTA.BlipColor.NetPlayer14
+  - GTA.BlipColor.NetPlayer15
+  - GTA.BlipColor.NetPlayer16
+  - GTA.BlipColor.NetPlayer17
+  - GTA.BlipColor.NetPlayer18
+  - GTA.BlipColor.NetPlayer19
+  - GTA.BlipColor.NetPlayer2
+  - GTA.BlipColor.NetPlayer20
+  - GTA.BlipColor.NetPlayer21
+  - GTA.BlipColor.NetPlayer22
+  - GTA.BlipColor.NetPlayer23
+  - GTA.BlipColor.NetPlayer24
+  - GTA.BlipColor.NetPlayer25
+  - GTA.BlipColor.NetPlayer26
+  - GTA.BlipColor.NetPlayer27
+  - GTA.BlipColor.NetPlayer28
+  - GTA.BlipColor.NetPlayer29
+  - GTA.BlipColor.NetPlayer3
+  - GTA.BlipColor.NetPlayer30
+  - GTA.BlipColor.NetPlayer31
+  - GTA.BlipColor.NetPlayer32
+  - GTA.BlipColor.NetPlayer4
+  - GTA.BlipColor.NetPlayer5
+  - GTA.BlipColor.NetPlayer6
+  - GTA.BlipColor.NetPlayer7
+  - GTA.BlipColor.NetPlayer8
+  - GTA.BlipColor.NetPlayer9
+  - GTA.BlipColor.Orange
+  - GTA.BlipColor.Pink
+  - GTA.BlipColor.Purple
+  - GTA.BlipColor.PurpleDark
+  - GTA.BlipColor.Red
+  - GTA.BlipColor.Red2
+  - GTA.BlipColor.Red3
+  - GTA.BlipColor.Red4
+  - GTA.BlipColor.RedDark
+  - GTA.BlipColor.RedDark2
+  - GTA.BlipColor.RedLight
+  - GTA.BlipColor.SimpleBlipDefault
+  - GTA.BlipColor.Trevor
+  - GTA.BlipColor.Waypoint
+  - GTA.BlipColor.White
+  - GTA.BlipColor.White2
+  - GTA.BlipColor.WhiteNotPure
+  - GTA.BlipColor.Yellow
+  - GTA.BlipColor.Yellow2
+  - GTA.BlipColor.Yellow3
+  - GTA.BlipColor.Yellow4
+  - GTA.BlipColor.Yellow5
+  - GTA.BlipColor.Yellow6
+  - GTA.BlipColor.YellowDark
+  langs:
+  - csharp
+  - vb
+  name: BlipColor
+  nameWithType: BlipColor
+  fullName: GTA.BlipColor
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum BlipColor
+    content.vb: Public Enum BlipColor
+- uid: GTA.BlipColor.White
+  commentId: F:GTA.BlipColor.White
+  id: White
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: White
+  nameWithType: BlipColor.White
+  fullName: GTA.BlipColor.White
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: White = 0
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Red
+  commentId: F:GTA.BlipColor.Red
+  id: Red
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: BlipColor.Red
+  fullName: GTA.BlipColor.Red
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Red = 1
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Green
+  commentId: F:GTA.BlipColor.Green
+  id: Green
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: BlipColor.Green
+  fullName: GTA.BlipColor.Green
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Green = 2
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue
+  commentId: F:GTA.BlipColor.Blue
+  id: Blue
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: BlipColor.Blue
+  fullName: GTA.BlipColor.Blue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue = 3
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Yellow
+  commentId: F:GTA.BlipColor.Yellow
+  id: Yellow
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: BlipColor.Yellow
+  fullName: GTA.BlipColor.Yellow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Yellow = 66
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.WhiteNotPure
+  commentId: F:GTA.BlipColor.WhiteNotPure
+  id: WhiteNotPure
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: WhiteNotPure
+  nameWithType: BlipColor.WhiteNotPure
+  fullName: GTA.BlipColor.WhiteNotPure
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WhiteNotPure = 4
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Yellow2
+  commentId: F:GTA.BlipColor.Yellow2
+  id: Yellow2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow2
+  nameWithType: BlipColor.Yellow2
+  fullName: GTA.BlipColor.Yellow2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Yellow2 = 5
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer1
+  commentId: F:GTA.BlipColor.NetPlayer1
+  id: NetPlayer1
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer1
+  nameWithType: BlipColor.NetPlayer1
+  fullName: GTA.BlipColor.NetPlayer1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer1 = 6
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer2
+  commentId: F:GTA.BlipColor.NetPlayer2
+  id: NetPlayer2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer2
+  nameWithType: BlipColor.NetPlayer2
+  fullName: GTA.BlipColor.NetPlayer2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer2 = 7
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer3
+  commentId: F:GTA.BlipColor.NetPlayer3
+  id: NetPlayer3
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer3
+  nameWithType: BlipColor.NetPlayer3
+  fullName: GTA.BlipColor.NetPlayer3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer3 = 8
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer4
+  commentId: F:GTA.BlipColor.NetPlayer4
+  id: NetPlayer4
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer4
+  nameWithType: BlipColor.NetPlayer4
+  fullName: GTA.BlipColor.NetPlayer4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer4 = 9
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer5
+  commentId: F:GTA.BlipColor.NetPlayer5
+  id: NetPlayer5
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer5
+  nameWithType: BlipColor.NetPlayer5
+  fullName: GTA.BlipColor.NetPlayer5
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer5 = 10
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer6
+  commentId: F:GTA.BlipColor.NetPlayer6
+  id: NetPlayer6
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer6
+  nameWithType: BlipColor.NetPlayer6
+  fullName: GTA.BlipColor.NetPlayer6
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer6 = 11
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer7
+  commentId: F:GTA.BlipColor.NetPlayer7
+  id: NetPlayer7
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer7
+  nameWithType: BlipColor.NetPlayer7
+  fullName: GTA.BlipColor.NetPlayer7
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer7 = 12
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer8
+  commentId: F:GTA.BlipColor.NetPlayer8
+  id: NetPlayer8
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer8
+  nameWithType: BlipColor.NetPlayer8
+  fullName: GTA.BlipColor.NetPlayer8
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer8 = 13
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer9
+  commentId: F:GTA.BlipColor.NetPlayer9
+  id: NetPlayer9
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer9
+  nameWithType: BlipColor.NetPlayer9
+  fullName: GTA.BlipColor.NetPlayer9
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer9 = 14
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer10
+  commentId: F:GTA.BlipColor.NetPlayer10
+  id: NetPlayer10
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer10
+  nameWithType: BlipColor.NetPlayer10
+  fullName: GTA.BlipColor.NetPlayer10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer10 = 15
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer11
+  commentId: F:GTA.BlipColor.NetPlayer11
+  id: NetPlayer11
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer11
+  nameWithType: BlipColor.NetPlayer11
+  fullName: GTA.BlipColor.NetPlayer11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer11 = 16
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer12
+  commentId: F:GTA.BlipColor.NetPlayer12
+  id: NetPlayer12
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer12
+  nameWithType: BlipColor.NetPlayer12
+  fullName: GTA.BlipColor.NetPlayer12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer12 = 17
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer13
+  commentId: F:GTA.BlipColor.NetPlayer13
+  id: NetPlayer13
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer13
+  nameWithType: BlipColor.NetPlayer13
+  fullName: GTA.BlipColor.NetPlayer13
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer13 = 18
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer14
+  commentId: F:GTA.BlipColor.NetPlayer14
+  id: NetPlayer14
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer14
+  nameWithType: BlipColor.NetPlayer14
+  fullName: GTA.BlipColor.NetPlayer14
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer14 = 19
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer15
+  commentId: F:GTA.BlipColor.NetPlayer15
+  id: NetPlayer15
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer15
+  nameWithType: BlipColor.NetPlayer15
+  fullName: GTA.BlipColor.NetPlayer15
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer15 = 20
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer16
+  commentId: F:GTA.BlipColor.NetPlayer16
+  id: NetPlayer16
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer16
+  nameWithType: BlipColor.NetPlayer16
+  fullName: GTA.BlipColor.NetPlayer16
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer16 = 21
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer17
+  commentId: F:GTA.BlipColor.NetPlayer17
+  id: NetPlayer17
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer17
+  nameWithType: BlipColor.NetPlayer17
+  fullName: GTA.BlipColor.NetPlayer17
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer17 = 22
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer18
+  commentId: F:GTA.BlipColor.NetPlayer18
+  id: NetPlayer18
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer18
+  nameWithType: BlipColor.NetPlayer18
+  fullName: GTA.BlipColor.NetPlayer18
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer18 = 23
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer19
+  commentId: F:GTA.BlipColor.NetPlayer19
+  id: NetPlayer19
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer19
+  nameWithType: BlipColor.NetPlayer19
+  fullName: GTA.BlipColor.NetPlayer19
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer19 = 24
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer20
+  commentId: F:GTA.BlipColor.NetPlayer20
+  id: NetPlayer20
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer20
+  nameWithType: BlipColor.NetPlayer20
+  fullName: GTA.BlipColor.NetPlayer20
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer20 = 25
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer21
+  commentId: F:GTA.BlipColor.NetPlayer21
+  id: NetPlayer21
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer21
+  nameWithType: BlipColor.NetPlayer21
+  fullName: GTA.BlipColor.NetPlayer21
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer21 = 26
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer22
+  commentId: F:GTA.BlipColor.NetPlayer22
+  id: NetPlayer22
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer22
+  nameWithType: BlipColor.NetPlayer22
+  fullName: GTA.BlipColor.NetPlayer22
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer22 = 27
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer23
+  commentId: F:GTA.BlipColor.NetPlayer23
+  id: NetPlayer23
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer23
+  nameWithType: BlipColor.NetPlayer23
+  fullName: GTA.BlipColor.NetPlayer23
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer23 = 28
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer24
+  commentId: F:GTA.BlipColor.NetPlayer24
+  id: NetPlayer24
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer24
+  nameWithType: BlipColor.NetPlayer24
+  fullName: GTA.BlipColor.NetPlayer24
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer24 = 29
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer25
+  commentId: F:GTA.BlipColor.NetPlayer25
+  id: NetPlayer25
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer25
+  nameWithType: BlipColor.NetPlayer25
+  fullName: GTA.BlipColor.NetPlayer25
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer25 = 30
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer26
+  commentId: F:GTA.BlipColor.NetPlayer26
+  id: NetPlayer26
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer26
+  nameWithType: BlipColor.NetPlayer26
+  fullName: GTA.BlipColor.NetPlayer26
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer26 = 31
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer27
+  commentId: F:GTA.BlipColor.NetPlayer27
+  id: NetPlayer27
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer27
+  nameWithType: BlipColor.NetPlayer27
+  fullName: GTA.BlipColor.NetPlayer27
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer27 = 32
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer28
+  commentId: F:GTA.BlipColor.NetPlayer28
+  id: NetPlayer28
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer28
+  nameWithType: BlipColor.NetPlayer28
+  fullName: GTA.BlipColor.NetPlayer28
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer28 = 33
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer29
+  commentId: F:GTA.BlipColor.NetPlayer29
+  id: NetPlayer29
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer29
+  nameWithType: BlipColor.NetPlayer29
+  fullName: GTA.BlipColor.NetPlayer29
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer29 = 34
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer30
+  commentId: F:GTA.BlipColor.NetPlayer30
+  id: NetPlayer30
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer30
+  nameWithType: BlipColor.NetPlayer30
+  fullName: GTA.BlipColor.NetPlayer30
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer30 = 35
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer31
+  commentId: F:GTA.BlipColor.NetPlayer31
+  id: NetPlayer31
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer31
+  nameWithType: BlipColor.NetPlayer31
+  fullName: GTA.BlipColor.NetPlayer31
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer31 = 36
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.NetPlayer32
+  commentId: F:GTA.BlipColor.NetPlayer32
+  id: NetPlayer32
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: NetPlayer32
+  nameWithType: BlipColor.NetPlayer32
+  fullName: GTA.BlipColor.NetPlayer32
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NetPlayer32 = 37
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Freemode
+  commentId: F:GTA.BlipColor.Freemode
+  id: Freemode
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Freemode
+  nameWithType: BlipColor.Freemode
+  fullName: GTA.BlipColor.Freemode
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Freemode = 38
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.InactiveMission
+  commentId: F:GTA.BlipColor.InactiveMission
+  id: InactiveMission
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: InactiveMission
+  nameWithType: BlipColor.InactiveMission
+  fullName: GTA.BlipColor.InactiveMission
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InactiveMission = 39
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GreyDark
+  commentId: F:GTA.BlipColor.GreyDark
+  id: GreyDark
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GreyDark
+  nameWithType: BlipColor.GreyDark
+  fullName: GTA.BlipColor.GreyDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GreyDark = 40
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.RedLight
+  commentId: F:GTA.BlipColor.RedLight
+  id: RedLight
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: RedLight
+  nameWithType: BlipColor.RedLight
+  fullName: GTA.BlipColor.RedLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RedLight = 41
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Michael
+  commentId: F:GTA.BlipColor.Michael
+  id: Michael
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Michael
+  nameWithType: BlipColor.Michael
+  fullName: GTA.BlipColor.Michael
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Michael = 42
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Franklin
+  commentId: F:GTA.BlipColor.Franklin
+  id: Franklin
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Franklin
+  nameWithType: BlipColor.Franklin
+  fullName: GTA.BlipColor.Franklin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Franklin = 43
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Trevor
+  commentId: F:GTA.BlipColor.Trevor
+  id: Trevor
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Trevor
+  nameWithType: BlipColor.Trevor
+  fullName: GTA.BlipColor.Trevor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Trevor = 44
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GolfPlayer1
+  commentId: F:GTA.BlipColor.GolfPlayer1
+  id: GolfPlayer1
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GolfPlayer1
+  nameWithType: BlipColor.GolfPlayer1
+  fullName: GTA.BlipColor.GolfPlayer1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GolfPlayer1 = 45
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GolfPlayer2
+  commentId: F:GTA.BlipColor.GolfPlayer2
+  id: GolfPlayer2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GolfPlayer2
+  nameWithType: BlipColor.GolfPlayer2
+  fullName: GTA.BlipColor.GolfPlayer2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GolfPlayer2 = 46
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GolfPlayer3
+  commentId: F:GTA.BlipColor.GolfPlayer3
+  id: GolfPlayer3
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GolfPlayer3
+  nameWithType: BlipColor.GolfPlayer3
+  fullName: GTA.BlipColor.GolfPlayer3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GolfPlayer3 = 47
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GolfPlayer4
+  commentId: F:GTA.BlipColor.GolfPlayer4
+  id: GolfPlayer4
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GolfPlayer4
+  nameWithType: BlipColor.GolfPlayer4
+  fullName: GTA.BlipColor.GolfPlayer4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GolfPlayer4 = 48
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Red2
+  commentId: F:GTA.BlipColor.Red2
+  id: Red2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Red2
+  nameWithType: BlipColor.Red2
+  fullName: GTA.BlipColor.Red2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Red2 = 49
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Purple
+  commentId: F:GTA.BlipColor.Purple
+  id: Purple
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: BlipColor.Purple
+  fullName: GTA.BlipColor.Purple
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Purple = 50
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Orange
+  commentId: F:GTA.BlipColor.Orange
+  id: Orange
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: BlipColor.Orange
+  fullName: GTA.BlipColor.Orange
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Orange = 51
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GreenDark
+  commentId: F:GTA.BlipColor.GreenDark
+  id: GreenDark
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GreenDark
+  nameWithType: BlipColor.GreenDark
+  fullName: GTA.BlipColor.GreenDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GreenDark = 52
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.BlueLight
+  commentId: F:GTA.BlipColor.BlueLight
+  id: BlueLight
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: BlueLight
+  nameWithType: BlipColor.BlueLight
+  fullName: GTA.BlipColor.BlueLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlueLight = 53
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.BlueDark
+  commentId: F:GTA.BlipColor.BlueDark
+  id: BlueDark
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: BlueDark
+  nameWithType: BlipColor.BlueDark
+  fullName: GTA.BlipColor.BlueDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlueDark = 54
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Grey
+  commentId: F:GTA.BlipColor.Grey
+  id: Grey
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Grey
+  nameWithType: BlipColor.Grey
+  fullName: GTA.BlipColor.Grey
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Grey = 55
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.YellowDark
+  commentId: F:GTA.BlipColor.YellowDark
+  id: YellowDark
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: YellowDark
+  nameWithType: BlipColor.YellowDark
+  fullName: GTA.BlipColor.YellowDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: YellowDark = 56
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue2
+  commentId: F:GTA.BlipColor.Blue2
+  id: Blue2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue2
+  nameWithType: BlipColor.Blue2
+  fullName: GTA.BlipColor.Blue2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue2 = 57
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.PurpleDark
+  commentId: F:GTA.BlipColor.PurpleDark
+  id: PurpleDark
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: PurpleDark
+  nameWithType: BlipColor.PurpleDark
+  fullName: GTA.BlipColor.PurpleDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PurpleDark = 58
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Red3
+  commentId: F:GTA.BlipColor.Red3
+  id: Red3
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Red3
+  nameWithType: BlipColor.Red3
+  fullName: GTA.BlipColor.Red3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Red3 = 59
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Yellow3
+  commentId: F:GTA.BlipColor.Yellow3
+  id: Yellow3
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow3
+  nameWithType: BlipColor.Yellow3
+  fullName: GTA.BlipColor.Yellow3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Yellow3 = 60
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Pink
+  commentId: F:GTA.BlipColor.Pink
+  id: Pink
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: BlipColor.Pink
+  fullName: GTA.BlipColor.Pink
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Pink = 61
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.GreyLight
+  commentId: F:GTA.BlipColor.GreyLight
+  id: GreyLight
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: GreyLight
+  nameWithType: BlipColor.GreyLight
+  fullName: GTA.BlipColor.GreyLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GreyLight = 62
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Gang
+  commentId: F:GTA.BlipColor.Gang
+  id: Gang
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Gang
+  nameWithType: BlipColor.Gang
+  fullName: GTA.BlipColor.Gang
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Gang = 63
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Gang2
+  commentId: F:GTA.BlipColor.Gang2
+  id: Gang2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Gang2
+  nameWithType: BlipColor.Gang2
+  fullName: GTA.BlipColor.Gang2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Gang2 = 64
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Gang3
+  commentId: F:GTA.BlipColor.Gang3
+  id: Gang3
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Gang3
+  nameWithType: BlipColor.Gang3
+  fullName: GTA.BlipColor.Gang3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Gang3 = 65
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue3
+  commentId: F:GTA.BlipColor.Blue3
+  id: Blue3
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue3
+  nameWithType: BlipColor.Blue3
+  fullName: GTA.BlipColor.Blue3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue3 = 67
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue4
+  commentId: F:GTA.BlipColor.Blue4
+  id: Blue4
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue4
+  nameWithType: BlipColor.Blue4
+  fullName: GTA.BlipColor.Blue4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue4 = 68
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Green2
+  commentId: F:GTA.BlipColor.Green2
+  id: Green2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Green2
+  nameWithType: BlipColor.Green2
+  fullName: GTA.BlipColor.Green2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Green2 = 69
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Yellow4
+  commentId: F:GTA.BlipColor.Yellow4
+  id: Yellow4
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow4
+  nameWithType: BlipColor.Yellow4
+  fullName: GTA.BlipColor.Yellow4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Yellow4 = 70
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Yellow5
+  commentId: F:GTA.BlipColor.Yellow5
+  id: Yellow5
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow5
+  nameWithType: BlipColor.Yellow5
+  fullName: GTA.BlipColor.Yellow5
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Yellow5 = 71
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.White2
+  commentId: F:GTA.BlipColor.White2
+  id: White2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: White2
+  nameWithType: BlipColor.White2
+  fullName: GTA.BlipColor.White2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: White2 = 72
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Yellow6
+  commentId: F:GTA.BlipColor.Yellow6
+  id: Yellow6
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Yellow6
+  nameWithType: BlipColor.Yellow6
+  fullName: GTA.BlipColor.Yellow6
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Yellow6 = 73
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue5
+  commentId: F:GTA.BlipColor.Blue5
+  id: Blue5
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue5
+  nameWithType: BlipColor.Blue5
+  fullName: GTA.BlipColor.Blue5
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue5 = 74
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Red4
+  commentId: F:GTA.BlipColor.Red4
+  id: Red4
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Red4
+  nameWithType: BlipColor.Red4
+  fullName: GTA.BlipColor.Red4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Red4 = 75
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.RedDark
+  commentId: F:GTA.BlipColor.RedDark
+  id: RedDark
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: RedDark
+  nameWithType: BlipColor.RedDark
+  fullName: GTA.BlipColor.RedDark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RedDark = 76
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue6
+  commentId: F:GTA.BlipColor.Blue6
+  id: Blue6
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue6
+  nameWithType: BlipColor.Blue6
+  fullName: GTA.BlipColor.Blue6
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue6 = 77
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.BlueDark2
+  commentId: F:GTA.BlipColor.BlueDark2
+  id: BlueDark2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: BlueDark2
+  nameWithType: BlipColor.BlueDark2
+  fullName: GTA.BlipColor.BlueDark2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlueDark2 = 78
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.RedDark2
+  commentId: F:GTA.BlipColor.RedDark2
+  id: RedDark2
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: RedDark2
+  nameWithType: BlipColor.RedDark2
+  fullName: GTA.BlipColor.RedDark2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RedDark2 = 79
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.MenuYellow
+  commentId: F:GTA.BlipColor.MenuYellow
+  id: MenuYellow
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: MenuYellow
+  nameWithType: BlipColor.MenuYellow
+  fullName: GTA.BlipColor.MenuYellow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MenuYellow = 80
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.SimpleBlipDefault
+  commentId: F:GTA.BlipColor.SimpleBlipDefault
+  id: SimpleBlipDefault
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: SimpleBlipDefault
+  nameWithType: BlipColor.SimpleBlipDefault
+  fullName: GTA.BlipColor.SimpleBlipDefault
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SimpleBlipDefault = 81
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Waypoint
+  commentId: F:GTA.BlipColor.Waypoint
+  id: Waypoint
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Waypoint
+  nameWithType: BlipColor.Waypoint
+  fullName: GTA.BlipColor.Waypoint
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Waypoint = 82
+    return:
+      type: GTA.BlipColor
+- uid: GTA.BlipColor.Blue7
+  commentId: F:GTA.BlipColor.Blue7
+  id: Blue7
+  parent: GTA.BlipColor
+  langs:
+  - csharp
+  - vb
+  name: Blue7
+  nameWithType: BlipColor.Blue7
+  fullName: GTA.BlipColor.Blue7
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue7 = 83
+    return:
+      type: GTA.BlipColor
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.BlipColor
+  commentId: T:GTA.BlipColor
+  parent: GTA
+  isExternal: true
+  href: GTA.BlipColor.html
+  name: BlipColor
+  nameWithType: BlipColor
+  fullName: GTA.BlipColor

@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleWheelBoneId
+  commentId: T:GTA.VehicleWheelBoneId
+  id: VehicleWheelBoneId
+  parent: GTA
+  children:
+  - GTA.VehicleWheelBoneId.Invalid
+  - GTA.VehicleWheelBoneId.WheelLeftFront
+  - GTA.VehicleWheelBoneId.WheelLeftMiddle1
+  - GTA.VehicleWheelBoneId.WheelLeftMiddle2
+  - GTA.VehicleWheelBoneId.WheelLeftMiddle3
+  - GTA.VehicleWheelBoneId.WheelLeftRear
+  - GTA.VehicleWheelBoneId.WheelRightFront
+  - GTA.VehicleWheelBoneId.WheelRightMiddle1
+  - GTA.VehicleWheelBoneId.WheelRightMiddle2
+  - GTA.VehicleWheelBoneId.WheelRightMiddle3
+  - GTA.VehicleWheelBoneId.WheelRightRear
+  langs:
+  - csharp
+  - vb
+  name: VehicleWheelBoneId
+  nameWithType: VehicleWheelBoneId
+  fullName: GTA.VehicleWheelBoneId
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleWheelBoneId
+    content.vb: Public Enum VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.Invalid
+  commentId: F:GTA.VehicleWheelBoneId.Invalid
+  id: Invalid
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: VehicleWheelBoneId.Invalid
+  fullName: GTA.VehicleWheelBoneId.Invalid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Invalid = -1
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelLeftFront
+  commentId: F:GTA.VehicleWheelBoneId.WheelLeftFront
+  id: WheelLeftFront
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelLeftFront
+  nameWithType: VehicleWheelBoneId.WheelLeftFront
+  fullName: GTA.VehicleWheelBoneId.WheelLeftFront
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelLeftFront = 11
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelRightFront
+  commentId: F:GTA.VehicleWheelBoneId.WheelRightFront
+  id: WheelRightFront
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelRightFront
+  nameWithType: VehicleWheelBoneId.WheelRightFront
+  fullName: GTA.VehicleWheelBoneId.WheelRightFront
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelRightFront = 12
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelLeftRear
+  commentId: F:GTA.VehicleWheelBoneId.WheelLeftRear
+  id: WheelLeftRear
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelLeftRear
+  nameWithType: VehicleWheelBoneId.WheelLeftRear
+  fullName: GTA.VehicleWheelBoneId.WheelLeftRear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelLeftRear = 13
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelRightRear
+  commentId: F:GTA.VehicleWheelBoneId.WheelRightRear
+  id: WheelRightRear
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelRightRear
+  nameWithType: VehicleWheelBoneId.WheelRightRear
+  fullName: GTA.VehicleWheelBoneId.WheelRightRear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelRightRear = 14
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelLeftMiddle1
+  commentId: F:GTA.VehicleWheelBoneId.WheelLeftMiddle1
+  id: WheelLeftMiddle1
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelLeftMiddle1
+  nameWithType: VehicleWheelBoneId.WheelLeftMiddle1
+  fullName: GTA.VehicleWheelBoneId.WheelLeftMiddle1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelLeftMiddle1 = 15
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelRightMiddle1
+  commentId: F:GTA.VehicleWheelBoneId.WheelRightMiddle1
+  id: WheelRightMiddle1
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelRightMiddle1
+  nameWithType: VehicleWheelBoneId.WheelRightMiddle1
+  fullName: GTA.VehicleWheelBoneId.WheelRightMiddle1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelRightMiddle1 = 16
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelLeftMiddle2
+  commentId: F:GTA.VehicleWheelBoneId.WheelLeftMiddle2
+  id: WheelLeftMiddle2
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelLeftMiddle2
+  nameWithType: VehicleWheelBoneId.WheelLeftMiddle2
+  fullName: GTA.VehicleWheelBoneId.WheelLeftMiddle2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelLeftMiddle2 = 17
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelRightMiddle2
+  commentId: F:GTA.VehicleWheelBoneId.WheelRightMiddle2
+  id: WheelRightMiddle2
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelRightMiddle2
+  nameWithType: VehicleWheelBoneId.WheelRightMiddle2
+  fullName: GTA.VehicleWheelBoneId.WheelRightMiddle2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelRightMiddle2 = 18
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelLeftMiddle3
+  commentId: F:GTA.VehicleWheelBoneId.WheelLeftMiddle3
+  id: WheelLeftMiddle3
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelLeftMiddle3
+  nameWithType: VehicleWheelBoneId.WheelLeftMiddle3
+  fullName: GTA.VehicleWheelBoneId.WheelLeftMiddle3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelLeftMiddle3 = 19
+    return:
+      type: GTA.VehicleWheelBoneId
+- uid: GTA.VehicleWheelBoneId.WheelRightMiddle3
+  commentId: F:GTA.VehicleWheelBoneId.WheelRightMiddle3
+  id: WheelRightMiddle3
+  parent: GTA.VehicleWheelBoneId
+  langs:
+  - csharp
+  - vb
+  name: WheelRightMiddle3
+  nameWithType: VehicleWheelBoneId.WheelRightMiddle3
+  fullName: GTA.VehicleWheelBoneId.WheelRightMiddle3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WheelRightMiddle3 = 20
+    return:
+      type: GTA.VehicleWheelBoneId
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleWheelBoneId
+  commentId: T:GTA.VehicleWheelBoneId
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleWheelBoneId.html
+  name: VehicleWheelBoneId
+  nameWithType: VehicleWheelBoneId
+  fullName: GTA.VehicleWheelBoneId

@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.IWorldDrawableElement
+  commentId: T:GTA.UI.IWorldDrawableElement
+  id: IWorldDrawableElement
+  parent: GTA.UI
+  children:
+  - GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  - GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  - GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  - GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  langs:
+  - csharp
+  - vb
+  name: IWorldDrawableElement
+  nameWithType: IWorldDrawableElement
+  fullName: GTA.UI.IWorldDrawableElement
+  type: Interface
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: 'public interface IWorldDrawableElement : IElement'
+    content.vb: Public Interface IWorldDrawableElement Inherits IElement
+  inheritedMembers:
+  - GTA.UI.IElement.Draw
+  - GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  - GTA.UI.IElement.ScaledDraw
+  - GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  - GTA.UI.IElement.Enabled
+  - GTA.UI.IElement.Color
+  - GTA.UI.IElement.Position
+  - GTA.UI.IElement.Centered
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  id: WorldDraw(GTA.Math.Vector3)
+  parent: GTA.UI.IWorldDrawableElement
+  langs:
+  - csharp
+  - vb
+  name: WorldDraw(Vector3)
+  nameWithType: IWorldDrawableElement.WorldDraw(Vector3)
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: void WorldDraw(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Sub WorldDraw(position As Vector3)
+  overload: GTA.UI.IWorldDrawableElement.WorldDraw*
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  id: WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.IWorldDrawableElement
+  langs:
+  - csharp
+  - vb
+  name: WorldDraw(Vector3, SizeF)
+  nameWithType: IWorldDrawableElement.WorldDraw(Vector3, SizeF)
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: void WorldDraw(Vector3 position, SizeF offset)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Sub WorldDraw(position As Vector3, offset As SizeF)
+  overload: GTA.UI.IWorldDrawableElement.WorldDraw*
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  id: WorldScaledDraw(GTA.Math.Vector3)
+  parent: GTA.UI.IWorldDrawableElement
+  langs:
+  - csharp
+  - vb
+  name: WorldScaledDraw(Vector3)
+  nameWithType: IWorldDrawableElement.WorldScaledDraw(Vector3)
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: void WorldScaledDraw(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Sub WorldScaledDraw(position As Vector3)
+  overload: GTA.UI.IWorldDrawableElement.WorldScaledDraw*
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  id: WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.IWorldDrawableElement
+  langs:
+  - csharp
+  - vb
+  name: WorldScaledDraw(Vector3, SizeF)
+  nameWithType: IWorldDrawableElement.WorldScaledDraw(Vector3, SizeF)
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: void WorldScaledDraw(Vector3 position, SizeF offset)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Sub WorldScaledDraw(position As Vector3, offset As SizeF)
+  overload: GTA.UI.IWorldDrawableElement.WorldScaledDraw*
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: GTA.UI.IElement.Draw
+  commentId: M:GTA.UI.IElement.Draw
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  name: Draw()
+  nameWithType: IElement.Draw()
+  fullName: GTA.UI.IElement.Draw()
+  spec.csharp:
+  - uid: GTA.UI.IElement.Draw
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.Draw
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  - name: (
+  - name: )
+- uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  name: Draw(SizeF)
+  nameWithType: IElement.Draw(SizeF)
+  fullName: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.IElement.ScaledDraw
+  commentId: M:GTA.UI.IElement.ScaledDraw
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  name: ScaledDraw()
+  nameWithType: IElement.ScaledDraw()
+  fullName: GTA.UI.IElement.ScaledDraw()
+  spec.csharp:
+  - uid: GTA.UI.IElement.ScaledDraw
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.ScaledDraw
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  - name: (
+  - name: )
+- uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  name: ScaledDraw(SizeF)
+  nameWithType: IElement.ScaledDraw(SizeF)
+  fullName: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.IElement.Enabled
+  commentId: P:GTA.UI.IElement.Enabled
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Enabled
+  name: Enabled
+  nameWithType: IElement.Enabled
+  fullName: GTA.UI.IElement.Enabled
+- uid: GTA.UI.IElement.Color
+  commentId: P:GTA.UI.IElement.Color
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Color
+  name: Color
+  nameWithType: IElement.Color
+  fullName: GTA.UI.IElement.Color
+- uid: GTA.UI.IElement.Position
+  commentId: P:GTA.UI.IElement.Position
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Position
+  name: Position
+  nameWithType: IElement.Position
+  fullName: GTA.UI.IElement.Position
+- uid: GTA.UI.IElement.Centered
+  commentId: P:GTA.UI.IElement.Centered
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Centered
+  name: Centered
+  nameWithType: IElement.Centered
+  fullName: GTA.UI.IElement.Centered
+- uid: GTA.UI.IElement
+  commentId: T:GTA.UI.IElement
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.IElement.html
+  name: IElement
+  nameWithType: IElement
+  fullName: GTA.UI.IElement
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw*
+  commentId: Overload:GTA.UI.IWorldDrawableElement.WorldDraw
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  name: WorldDraw
+  nameWithType: IWorldDrawableElement.WorldDraw
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw*
+  commentId: Overload:GTA.UI.IWorldDrawableElement.WorldScaledDraw
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  name: WorldScaledDraw
+  nameWithType: IWorldDrawableElement.WorldScaledDraw
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw

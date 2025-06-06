@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CamViewMode
+  commentId: T:GTA.CamViewMode
+  id: CamViewMode
+  parent: GTA
+  children:
+  - GTA.CamViewMode.Cinematic
+  - GTA.CamViewMode.FirstPerson
+  - GTA.CamViewMode.ThirdPersonFar
+  - GTA.CamViewMode.ThirdPersonMedium
+  - GTA.CamViewMode.ThirdPersonNear
+  langs:
+  - csharp
+  - vb
+  name: CamViewMode
+  nameWithType: CamViewMode
+  fullName: GTA.CamViewMode
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CamViewMode
+    content.vb: Public Enum CamViewMode
+- uid: GTA.CamViewMode.ThirdPersonNear
+  commentId: F:GTA.CamViewMode.ThirdPersonNear
+  id: ThirdPersonNear
+  parent: GTA.CamViewMode
+  langs:
+  - csharp
+  - vb
+  name: ThirdPersonNear
+  nameWithType: CamViewMode.ThirdPersonNear
+  fullName: GTA.CamViewMode.ThirdPersonNear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThirdPersonNear = 0
+    return:
+      type: GTA.CamViewMode
+- uid: GTA.CamViewMode.ThirdPersonMedium
+  commentId: F:GTA.CamViewMode.ThirdPersonMedium
+  id: ThirdPersonMedium
+  parent: GTA.CamViewMode
+  langs:
+  - csharp
+  - vb
+  name: ThirdPersonMedium
+  nameWithType: CamViewMode.ThirdPersonMedium
+  fullName: GTA.CamViewMode.ThirdPersonMedium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThirdPersonMedium = 1
+    return:
+      type: GTA.CamViewMode
+- uid: GTA.CamViewMode.ThirdPersonFar
+  commentId: F:GTA.CamViewMode.ThirdPersonFar
+  id: ThirdPersonFar
+  parent: GTA.CamViewMode
+  langs:
+  - csharp
+  - vb
+  name: ThirdPersonFar
+  nameWithType: CamViewMode.ThirdPersonFar
+  fullName: GTA.CamViewMode.ThirdPersonFar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThirdPersonFar = 2
+    return:
+      type: GTA.CamViewMode
+- uid: GTA.CamViewMode.Cinematic
+  commentId: F:GTA.CamViewMode.Cinematic
+  id: Cinematic
+  parent: GTA.CamViewMode
+  langs:
+  - csharp
+  - vb
+  name: Cinematic
+  nameWithType: CamViewMode.Cinematic
+  fullName: GTA.CamViewMode.Cinematic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Cinematic = 3
+    return:
+      type: GTA.CamViewMode
+- uid: GTA.CamViewMode.FirstPerson
+  commentId: F:GTA.CamViewMode.FirstPerson
+  id: FirstPerson
+  parent: GTA.CamViewMode
+  langs:
+  - csharp
+  - vb
+  name: FirstPerson
+  nameWithType: CamViewMode.FirstPerson
+  fullName: GTA.CamViewMode.FirstPerson
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FirstPerson = 4
+    return:
+      type: GTA.CamViewMode
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CamViewMode
+  commentId: T:GTA.CamViewMode
+  parent: GTA
+  isExternal: true
+  href: GTA.CamViewMode.html
+  name: CamViewMode
+  nameWithType: CamViewMode
+  fullName: GTA.CamViewMode

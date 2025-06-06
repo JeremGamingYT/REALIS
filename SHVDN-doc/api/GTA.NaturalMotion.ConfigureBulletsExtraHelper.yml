@@ -1,0 +1,2332 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  commentId: T:GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  id: ConfigureBulletsExtraHelper
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.#ctor(GTA.Ped)
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  - GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode
+  langs:
+  - csharp
+  - vb
+  name: ConfigureBulletsExtraHelper
+  nameWithType: ConfigureBulletsExtraHelper
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: 'public sealed class ConfigureBulletsExtraHelper : CustomHelper'
+    content.vb: Public NotInheritable Class ConfigureBulletsExtraHelper Inherits CustomHelper
+  inheritance:
+  - System.Object
+  - GTA.NaturalMotion.CustomHelper
+  inheritedMembers:
+  - GTA.NaturalMotion.CustomHelper.Start
+  - GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  - GTA.NaturalMotion.CustomHelper.Update
+  - GTA.NaturalMotion.CustomHelper.Stop
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  - GTA.NaturalMotion.CustomHelper.ResetArguments
+  - GTA.NaturalMotion.CustomHelper.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.#ctor(GTA.Ped)
+  commentId: M:GTA.NaturalMotion.ConfigureBulletsExtraHelper.#ctor(GTA.Ped)
+  id: '#ctor(GTA.Ped)'
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ConfigureBulletsExtraHelper(Ped)
+  nameWithType: ConfigureBulletsExtraHelper.ConfigureBulletsExtraHelper(Ped)
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ConfigureBulletsExtraHelper(GTA.Ped)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public ConfigureBulletsExtraHelper(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    content.vb: Public Sub New(ped As Ped)
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.#ctor*
+  nameWithType.vb: ConfigureBulletsExtraHelper.New(Ped)
+  fullName.vb: GTA.NaturalMotion.ConfigureBulletsExtraHelper.New(GTA.Ped)
+  name.vb: New(Ped)
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  id: ImpulseSpreadOverParts
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseSpreadOverParts
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool ImpulseSpreadOverParts { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property ImpulseSpreadOverParts As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod
+  id: ImpulsePeriod
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulsePeriod
+  nameWithType: ConfigureBulletsExtraHelper.ImpulsePeriod
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulsePeriod { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulsePeriod As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  id: ImpulseTorqueScale
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseTorqueScale
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseTorqueScale { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseTorqueScale As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix
+  id: LoosenessFix
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: LoosenessFix
+  nameWithType: ConfigureBulletsExtraHelper.LoosenessFix
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool LoosenessFix { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property LoosenessFix As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay
+  id: ImpulseDelay
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseDelay
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseDelay
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseDelay { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseDelay As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode
+  id: TorqueMode
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueMode
+  nameWithType: ConfigureBulletsExtraHelper.TorqueMode
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public TorqueMode TorqueMode { set; }
+    parameters: []
+    return:
+      type: GTA.NaturalMotion.TorqueMode
+    content.vb: Public WriteOnly Property TorqueMode As TorqueMode
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode
+  id: TorqueSpinMode
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueSpinMode
+  nameWithType: ConfigureBulletsExtraHelper.TorqueSpinMode
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public TorqueSpinMode TorqueSpinMode { set; }
+    parameters: []
+    return:
+      type: GTA.NaturalMotion.TorqueSpinMode
+    content.vb: Public WriteOnly Property TorqueSpinMode As TorqueSpinMode
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode
+  id: TorqueFilterMode
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueFilterMode
+  nameWithType: ConfigureBulletsExtraHelper.TorqueFilterMode
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public TorqueFilterMode TorqueFilterMode { set; }
+    parameters: []
+    return:
+      type: GTA.NaturalMotion.TorqueFilterMode
+    content.vb: Public WriteOnly Property TorqueFilterMode As TorqueFilterMode
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  id: TorqueAlwaysSpine3
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueAlwaysSpine3
+  nameWithType: ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool TorqueAlwaysSpine3 { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property TorqueAlwaysSpine3 As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay
+  id: TorqueDelay
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueDelay
+  nameWithType: ConfigureBulletsExtraHelper.TorqueDelay
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueDelay { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueDelay As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod
+  id: TorquePeriod
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorquePeriod
+  nameWithType: ConfigureBulletsExtraHelper.TorquePeriod
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorquePeriod { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorquePeriod As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain
+  id: TorqueGain
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueGain
+  nameWithType: ConfigureBulletsExtraHelper.TorqueGain
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueGain { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueGain As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff
+  id: TorqueCutoff
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueCutoff
+  nameWithType: ConfigureBulletsExtraHelper.TorqueCutoff
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueCutoff { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueCutoff As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  id: TorqueReductionPerTick
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueReductionPerTick
+  nameWithType: ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueReductionPerTick { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueReductionPerTick As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain
+  id: LiftGain
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: LiftGain
+  nameWithType: ConfigureBulletsExtraHelper.LiftGain
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float LiftGain { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property LiftGain As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay
+  id: CounterImpulseDelay
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: CounterImpulseDelay
+  nameWithType: ConfigureBulletsExtraHelper.CounterImpulseDelay
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float CounterImpulseDelay { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property CounterImpulseDelay As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag
+  id: CounterImpulseMag
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: CounterImpulseMag
+  nameWithType: ConfigureBulletsExtraHelper.CounterImpulseMag
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float CounterImpulseMag { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property CounterImpulseMag As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached
+  id: CounterAfterMagReached
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: CounterAfterMagReached
+  nameWithType: ConfigureBulletsExtraHelper.CounterAfterMagReached
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool CounterAfterMagReached { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property CounterAfterMagReached As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse
+  id: DoCounterImpulse
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: DoCounterImpulse
+  nameWithType: ConfigureBulletsExtraHelper.DoCounterImpulse
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool DoCounterImpulse { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property DoCounterImpulse As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  id: CounterImpulse2Hips
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: CounterImpulse2Hips
+  nameWithType: ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float CounterImpulse2Hips { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property CounterImpulse2Hips As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  id: ImpulseNoBalMult
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseNoBalMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseNoBalMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseNoBalMult As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  id: ImpulseBalStabStart
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseBalStabStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseBalStabStart { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseBalStabStart As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  id: ImpulseBalStabEnd
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseBalStabEnd
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseBalStabEnd { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseBalStabEnd As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  id: ImpulseBalStabMult
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseBalStabMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseBalStabMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseBalStabMult As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  id: ImpulseSpineAngStart
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseSpineAngStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseSpineAngStart { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseSpineAngStart As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  id: ImpulseSpineAngEnd
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseSpineAngEnd
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseSpineAngEnd { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseSpineAngEnd As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  id: ImpulseSpineAngMult
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseSpineAngMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseSpineAngMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseSpineAngMult As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart
+  id: ImpulseVelStart
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseVelStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseVelStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseVelStart { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseVelStart As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd
+  id: ImpulseVelEnd
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseVelEnd
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseVelEnd
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseVelEnd { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseVelEnd As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult
+  id: ImpulseVelMult
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseVelMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseVelMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseVelMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseVelMult As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult
+  id: ImpulseAirMult
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseAirMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseAirMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseAirMult As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  id: ImpulseAirMultStart
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseAirMultStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseAirMultStart { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseAirMultStart As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax
+  id: ImpulseAirMax
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseAirMax
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirMax
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseAirMax { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseAirMax As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  id: ImpulseAirApplyAbove
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseAirApplyAbove
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseAirApplyAbove { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseAirApplyAbove As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn
+  id: ImpulseAirOn
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseAirOn
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirOn
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool ImpulseAirOn { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property ImpulseAirOn As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  id: ImpulseOneLegMult
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseOneLegMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseOneLegMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseOneLegMult As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  id: ImpulseOneLegMultStart
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseOneLegMultStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseOneLegMultStart { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseOneLegMultStart As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  id: ImpulseOneLegMax
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseOneLegMax
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseOneLegMax { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseOneLegMax As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  id: ImpulseOneLegApplyAbove
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseOneLegApplyAbove
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ImpulseOneLegApplyAbove { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ImpulseOneLegApplyAbove As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  id: ImpulseOneLegOn
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: ImpulseOneLegOn
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool ImpulseOneLegOn { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property ImpulseOneLegOn As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio
+  id: RbRatio
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbRatio
+  nameWithType: ConfigureBulletsExtraHelper.RbRatio
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbRatio { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbRatio As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare
+  id: RbLowerShare
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbLowerShare
+  nameWithType: ConfigureBulletsExtraHelper.RbLowerShare
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbLowerShare { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbLowerShare As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment
+  id: RbMoment
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMoment
+  nameWithType: ConfigureBulletsExtraHelper.RbMoment
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMoment { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMoment As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  id: RbMaxTwistMomentArm
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMaxTwistMomentArm
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMaxTwistMomentArm { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMaxTwistMomentArm As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  id: RbMaxBroomMomentArm
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMaxBroomMomentArm
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMaxBroomMomentArm { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMaxBroomMomentArm As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne
+  id: RbRatioAirborne
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbRatioAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbRatioAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbRatioAirborne { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbRatioAirborne As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne
+  id: RbMomentAirborne
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMomentAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbMomentAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMomentAirborne { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMomentAirborne As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  id: RbMaxTwistMomentArmAirborne
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMaxTwistMomentArmAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMaxTwistMomentArmAirborne { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMaxTwistMomentArmAirborne As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  id: RbMaxBroomMomentArmAirborne
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMaxBroomMomentArmAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMaxBroomMomentArmAirborne { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMaxBroomMomentArmAirborne As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg
+  id: RbRatioOneLeg
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbRatioOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbRatioOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbRatioOneLeg { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbRatioOneLeg As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg
+  id: RbMomentOneLeg
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMomentOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbMomentOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMomentOneLeg { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMomentOneLeg As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  id: RbMaxTwistMomentArmOneLeg
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMaxTwistMomentArmOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMaxTwistMomentArmOneLeg { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMaxTwistMomentArmOneLeg As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  id: RbMaxBroomMomentArmOneLeg
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbMaxBroomMomentArmOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float RbMaxBroomMomentArmOneLeg { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property RbMaxBroomMomentArmOneLeg As Single
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis
+  id: RbTwistAxis
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbTwistAxis
+  nameWithType: ConfigureBulletsExtraHelper.RbTwistAxis
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public RbTwistAxis RbTwistAxis { set; }
+    parameters: []
+    return:
+      type: GTA.NaturalMotion.RbTwistAxis
+    content.vb: Public WriteOnly Property RbTwistAxis As RbTwistAxis
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis*
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot
+  commentId: P:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot
+  id: RbPivot
+  parent: GTA.NaturalMotion.ConfigureBulletsExtraHelper
+  langs:
+  - csharp
+  - vb
+  name: RbPivot
+  nameWithType: ConfigureBulletsExtraHelper.RbPivot
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool RbPivot { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property RbPivot As Boolean
+  overload: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot*
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.NaturalMotion.CustomHelper
+  commentId: T:GTA.NaturalMotion.CustomHelper
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html
+  name: CustomHelper
+  nameWithType: CustomHelper
+  fullName: GTA.NaturalMotion.CustomHelper
+- uid: GTA.NaturalMotion.CustomHelper.Start
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  name: Start()
+  nameWithType: CustomHelper.Start()
+  fullName: GTA.NaturalMotion.CustomHelper.Start()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  name: Start(int)
+  nameWithType: CustomHelper.Start(int)
+  fullName: GTA.NaturalMotion.CustomHelper.Start(int)
+  nameWithType.vb: CustomHelper.Start(Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.Start(Integer)
+  name.vb: Start(Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Update
+  commentId: M:GTA.NaturalMotion.CustomHelper.Update
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  name: Update()
+  nameWithType: CustomHelper.Update()
+  fullName: GTA.NaturalMotion.CustomHelper.Update()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Stop
+  commentId: M:GTA.NaturalMotion.CustomHelper.Stop
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  name: Stop()
+  nameWithType: CustomHelper.Stop()
+  fullName: GTA.NaturalMotion.CustomHelper.Stop()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  name: SetArgument(string, bool)
+  nameWithType: CustomHelper.SetArgument(string, bool)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, bool)
+  nameWithType.vb: CustomHelper.SetArgument(String, Boolean)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Boolean)
+  name.vb: SetArgument(String, Boolean)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  name: SetArgument(string, int)
+  nameWithType: CustomHelper.SetArgument(string, int)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, int)
+  nameWithType.vb: CustomHelper.SetArgument(String, Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Integer)
+  name.vb: SetArgument(String, Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  name: SetArgument(string, float)
+  nameWithType: CustomHelper.SetArgument(string, float)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, float)
+  nameWithType.vb: CustomHelper.SetArgument(String, Single)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Single)
+  name.vb: SetArgument(String, Single)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  name: SetArgument(string, string)
+  nameWithType: CustomHelper.SetArgument(string, string)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, string)
+  nameWithType.vb: CustomHelper.SetArgument(String, String)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, String)
+  name.vb: SetArgument(String, String)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  name: SetArgument(string, Vector3)
+  nameWithType: CustomHelper.SetArgument(string, Vector3)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, GTA.Math.Vector3)
+  nameWithType.vb: CustomHelper.SetArgument(String, Vector3)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, GTA.Math.Vector3)
+  name.vb: SetArgument(String, Vector3)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+  commentId: M:GTA.NaturalMotion.CustomHelper.ResetArguments
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  name: ResetArguments()
+  nameWithType: CustomHelper.ResetArguments()
+  fullName: GTA.NaturalMotion.CustomHelper.ResetArguments()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ToString
+  commentId: M:GTA.NaturalMotion.CustomHelper.ToString
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  name: ToString()
+  nameWithType: CustomHelper.ToString()
+  fullName: GTA.NaturalMotion.CustomHelper.ToString()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.#ctor*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.#ctor
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper__ctor_GTA_Ped_
+  name: ConfigureBulletsExtraHelper
+  nameWithType: ConfigureBulletsExtraHelper.ConfigureBulletsExtraHelper
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ConfigureBulletsExtraHelper
+  nameWithType.vb: ConfigureBulletsExtraHelper.New
+  fullName.vb: GTA.NaturalMotion.ConfigureBulletsExtraHelper.New
+  name.vb: New
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseSpreadOverParts
+  name: ImpulseSpreadOverParts
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpreadOverParts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulsePeriod
+  name: ImpulsePeriod
+  nameWithType: ConfigureBulletsExtraHelper.ImpulsePeriod
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulsePeriod
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseTorqueScale
+  name: ImpulseTorqueScale
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseTorqueScale
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseTorqueScale
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_LoosenessFix
+  name: LoosenessFix
+  nameWithType: ConfigureBulletsExtraHelper.LoosenessFix
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LoosenessFix
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseDelay
+  name: ImpulseDelay
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseDelay
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseDelay
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueMode
+  name: TorqueMode
+  nameWithType: ConfigureBulletsExtraHelper.TorqueMode
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueMode
+- uid: GTA.NaturalMotion.TorqueMode
+  commentId: T:GTA.NaturalMotion.TorqueMode
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.TorqueMode.html
+  name: TorqueMode
+  nameWithType: TorqueMode
+  fullName: GTA.NaturalMotion.TorqueMode
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueSpinMode
+  name: TorqueSpinMode
+  nameWithType: ConfigureBulletsExtraHelper.TorqueSpinMode
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueSpinMode
+- uid: GTA.NaturalMotion.TorqueSpinMode
+  commentId: T:GTA.NaturalMotion.TorqueSpinMode
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.TorqueSpinMode.html
+  name: TorqueSpinMode
+  nameWithType: TorqueSpinMode
+  fullName: GTA.NaturalMotion.TorqueSpinMode
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueFilterMode
+  name: TorqueFilterMode
+  nameWithType: ConfigureBulletsExtraHelper.TorqueFilterMode
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueFilterMode
+- uid: GTA.NaturalMotion.TorqueFilterMode
+  commentId: T:GTA.NaturalMotion.TorqueFilterMode
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.TorqueFilterMode.html
+  name: TorqueFilterMode
+  nameWithType: TorqueFilterMode
+  fullName: GTA.NaturalMotion.TorqueFilterMode
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueAlwaysSpine3
+  name: TorqueAlwaysSpine3
+  nameWithType: ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueAlwaysSpine3
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueDelay
+  name: TorqueDelay
+  nameWithType: ConfigureBulletsExtraHelper.TorqueDelay
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueDelay
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorquePeriod
+  name: TorquePeriod
+  nameWithType: ConfigureBulletsExtraHelper.TorquePeriod
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorquePeriod
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueGain
+  name: TorqueGain
+  nameWithType: ConfigureBulletsExtraHelper.TorqueGain
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueGain
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueCutoff
+  name: TorqueCutoff
+  nameWithType: ConfigureBulletsExtraHelper.TorqueCutoff
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueCutoff
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_TorqueReductionPerTick
+  name: TorqueReductionPerTick
+  nameWithType: ConfigureBulletsExtraHelper.TorqueReductionPerTick
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.TorqueReductionPerTick
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_LiftGain
+  name: LiftGain
+  nameWithType: ConfigureBulletsExtraHelper.LiftGain
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.LiftGain
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_CounterImpulseDelay
+  name: CounterImpulseDelay
+  nameWithType: ConfigureBulletsExtraHelper.CounterImpulseDelay
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseDelay
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_CounterImpulseMag
+  name: CounterImpulseMag
+  nameWithType: ConfigureBulletsExtraHelper.CounterImpulseMag
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulseMag
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_CounterAfterMagReached
+  name: CounterAfterMagReached
+  nameWithType: ConfigureBulletsExtraHelper.CounterAfterMagReached
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterAfterMagReached
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_DoCounterImpulse
+  name: DoCounterImpulse
+  nameWithType: ConfigureBulletsExtraHelper.DoCounterImpulse
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.DoCounterImpulse
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_CounterImpulse2Hips
+  name: CounterImpulse2Hips
+  nameWithType: ConfigureBulletsExtraHelper.CounterImpulse2Hips
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.CounterImpulse2Hips
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseNoBalMult
+  name: ImpulseNoBalMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseNoBalMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseNoBalMult
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseBalStabStart
+  name: ImpulseBalStabStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseBalStabStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabStart
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseBalStabEnd
+  name: ImpulseBalStabEnd
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabEnd
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseBalStabMult
+  name: ImpulseBalStabMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseBalStabMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseBalStabMult
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseSpineAngStart
+  name: ImpulseSpineAngStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngStart
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseSpineAngEnd
+  name: ImpulseSpineAngEnd
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngEnd
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseSpineAngMult
+  name: ImpulseSpineAngMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseSpineAngMult
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseVelStart
+  name: ImpulseVelStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseVelStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelStart
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseVelEnd
+  name: ImpulseVelEnd
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseVelEnd
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelEnd
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseVelMult
+  name: ImpulseVelMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseVelMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseVelMult
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseAirMult
+  name: ImpulseAirMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMult
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseAirMultStart
+  name: ImpulseAirMultStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirMultStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMultStart
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseAirMax
+  name: ImpulseAirMax
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirMax
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirMax
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseAirApplyAbove
+  name: ImpulseAirApplyAbove
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirApplyAbove
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseAirOn
+  name: ImpulseAirOn
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseAirOn
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseAirOn
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseOneLegMult
+  name: ImpulseOneLegMult
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegMult
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMult
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseOneLegMultStart
+  name: ImpulseOneLegMultStart
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMultStart
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseOneLegMax
+  name: ImpulseOneLegMax
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegMax
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegMax
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseOneLegApplyAbove
+  name: ImpulseOneLegApplyAbove
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegApplyAbove
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_ImpulseOneLegOn
+  name: ImpulseOneLegOn
+  nameWithType: ConfigureBulletsExtraHelper.ImpulseOneLegOn
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.ImpulseOneLegOn
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbRatio
+  name: RbRatio
+  nameWithType: ConfigureBulletsExtraHelper.RbRatio
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatio
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbLowerShare
+  name: RbLowerShare
+  nameWithType: ConfigureBulletsExtraHelper.RbLowerShare
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbLowerShare
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMoment
+  name: RbMoment
+  nameWithType: ConfigureBulletsExtraHelper.RbMoment
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMoment
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMaxTwistMomentArm
+  name: RbMaxTwistMomentArm
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArm
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMaxBroomMomentArm
+  name: RbMaxBroomMomentArm
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArm
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbRatioAirborne
+  name: RbRatioAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbRatioAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioAirborne
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMomentAirborne
+  name: RbMomentAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbMomentAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentAirborne
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMaxTwistMomentArmAirborne
+  name: RbMaxTwistMomentArmAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmAirborne
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMaxBroomMomentArmAirborne
+  name: RbMaxBroomMomentArmAirborne
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmAirborne
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbRatioOneLeg
+  name: RbRatioOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbRatioOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbRatioOneLeg
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMomentOneLeg
+  name: RbMomentOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbMomentOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMomentOneLeg
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMaxTwistMomentArmOneLeg
+  name: RbMaxTwistMomentArmOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxTwistMomentArmOneLeg
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbMaxBroomMomentArmOneLeg
+  name: RbMaxBroomMomentArmOneLeg
+  nameWithType: ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbMaxBroomMomentArmOneLeg
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbTwistAxis
+  name: RbTwistAxis
+  nameWithType: ConfigureBulletsExtraHelper.RbTwistAxis
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbTwistAxis
+- uid: GTA.NaturalMotion.RbTwistAxis
+  commentId: T:GTA.NaturalMotion.RbTwistAxis
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.RbTwistAxis.html
+  name: RbTwistAxis
+  nameWithType: RbTwistAxis
+  fullName: GTA.NaturalMotion.RbTwistAxis
+- uid: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot*
+  commentId: Overload:GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot
+  isExternal: true
+  href: GTA.NaturalMotion.ConfigureBulletsExtraHelper.html#GTA_NaturalMotion_ConfigureBulletsExtraHelper_RbPivot
+  name: RbPivot
+  nameWithType: ConfigureBulletsExtraHelper.RbPivot
+  fullName: GTA.NaturalMotion.ConfigureBulletsExtraHelper.RbPivot

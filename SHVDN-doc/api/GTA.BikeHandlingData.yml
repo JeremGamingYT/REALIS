@@ -1,0 +1,954 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.BikeHandlingData
+  commentId: T:GTA.BikeHandlingData
+  id: BikeHandlingData
+  parent: GTA
+  children:
+  - GTA.BikeHandlingData.BikeOnStandLeanAngle
+  - GTA.BikeHandlingData.BrakingStabilityMultiplier
+  - GTA.BikeHandlingData.DesLeanReturnFraction
+  - GTA.BikeHandlingData.Equals(System.Object)
+  - GTA.BikeHandlingData.FrontBalanceMultiplier
+  - GTA.BikeHandlingData.FullAnimAngle
+  - GTA.BikeHandlingData.GetHashCode
+  - GTA.BikeHandlingData.InAirSteerMultiplier
+  - GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier
+  - GTA.BikeHandlingData.LeanBackwardForceMultiplier
+  - GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  - GTA.BikeHandlingData.LeanForwardForceMultiplier
+  - GTA.BikeHandlingData.MaxBankAngle
+  - GTA.BikeHandlingData.RearBalanceMultiplier
+  - GTA.BikeHandlingData.StickLeanMultiplier
+  - GTA.BikeHandlingData.StoppieBalancePoint
+  - GTA.BikeHandlingData.WheelieBalancePoint
+  - GTA.BikeHandlingData.WheelieSteerMultiplier
+  - GTA.BikeHandlingData.op_Equality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  - GTA.BikeHandlingData.op_Inequality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  langs:
+  - csharp
+  - vb
+  name: BikeHandlingData
+  nameWithType: BikeHandlingData
+  fullName: GTA.BikeHandlingData
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class BikeHandlingData : BaseSubHandlingData'
+    content.vb: Public NotInheritable Class BikeHandlingData Inherits BaseSubHandlingData
+  inheritance:
+  - System.Object
+  - GTA.BaseSubHandlingData
+  inheritedMembers:
+  - GTA.BaseSubHandlingData.MemoryAddress
+  - GTA.BaseSubHandlingData.Parent
+  - GTA.BaseSubHandlingData.HandlingType
+  - GTA.BaseSubHandlingData.IsValid
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.BikeHandlingData.Equals(System.Object)
+  commentId: M:GTA.BikeHandlingData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: BikeHandlingData.Equals(object)
+  fullName: GTA.BikeHandlingData.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: GTA.BaseSubHandlingData.Equals(System.Object)
+  overload: GTA.BikeHandlingData.Equals*
+  nameWithType.vb: BikeHandlingData.Equals(Object)
+  fullName.vb: GTA.BikeHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.BikeHandlingData.op_Equality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  commentId: M:GTA.BikeHandlingData.op_Equality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  id: op_Equality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator ==(BikeHandlingData, BikeHandlingData)
+  nameWithType: BikeHandlingData.operator ==(BikeHandlingData, BikeHandlingData)
+  fullName: GTA.BikeHandlingData.operator ==(GTA.BikeHandlingData, GTA.BikeHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(BikeHandlingData left, BikeHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.BikeHandlingData
+    - id: right
+      type: GTA.BikeHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As BikeHandlingData, right As BikeHandlingData) As Boolean
+  overload: GTA.BikeHandlingData.op_Equality*
+  nameWithType.vb: BikeHandlingData.=(BikeHandlingData, BikeHandlingData)
+  fullName.vb: GTA.BikeHandlingData.=(GTA.BikeHandlingData, GTA.BikeHandlingData)
+  name.vb: =(BikeHandlingData, BikeHandlingData)
+- uid: GTA.BikeHandlingData.op_Inequality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  commentId: M:GTA.BikeHandlingData.op_Inequality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  id: op_Inequality(GTA.BikeHandlingData,GTA.BikeHandlingData)
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator !=(BikeHandlingData, BikeHandlingData)
+  nameWithType: BikeHandlingData.operator !=(BikeHandlingData, BikeHandlingData)
+  fullName: GTA.BikeHandlingData.operator !=(GTA.BikeHandlingData, GTA.BikeHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(BikeHandlingData left, BikeHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.BikeHandlingData
+    - id: right
+      type: GTA.BikeHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As BikeHandlingData, right As BikeHandlingData) As Boolean
+  overload: GTA.BikeHandlingData.op_Inequality*
+  nameWithType.vb: BikeHandlingData.<>(BikeHandlingData, BikeHandlingData)
+  fullName.vb: GTA.BikeHandlingData.<>(GTA.BikeHandlingData, GTA.BikeHandlingData)
+  name.vb: <>(BikeHandlingData, BikeHandlingData)
+- uid: GTA.BikeHandlingData.GetHashCode
+  commentId: M:GTA.BikeHandlingData.GetHashCode
+  id: GetHashCode
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: BikeHandlingData.GetHashCode()
+  fullName: GTA.BikeHandlingData.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: GTA.BaseSubHandlingData.GetHashCode
+  overload: GTA.BikeHandlingData.GetHashCode*
+- uid: GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  commentId: P:GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  id: LeanForwardCenterOfMassMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: LeanForwardCenterOfMassMultiplier
+  nameWithType: BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  fullName: GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float LeanForwardCenterOfMassMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LeanForwardCenterOfMassMultiplier As Single
+  overload: GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier*
+- uid: GTA.BikeHandlingData.LeanForwardForceMultiplier
+  commentId: P:GTA.BikeHandlingData.LeanForwardForceMultiplier
+  id: LeanForwardForceMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: LeanForwardForceMultiplier
+  nameWithType: BikeHandlingData.LeanForwardForceMultiplier
+  fullName: GTA.BikeHandlingData.LeanForwardForceMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float LeanForwardForceMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LeanForwardForceMultiplier As Single
+  overload: GTA.BikeHandlingData.LeanForwardForceMultiplier*
+- uid: GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier
+  commentId: P:GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier
+  id: LeanBackCenterOfMassMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: LeanBackCenterOfMassMultiplier
+  nameWithType: BikeHandlingData.LeanBackCenterOfMassMultiplier
+  fullName: GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float LeanBackCenterOfMassMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LeanBackCenterOfMassMultiplier As Single
+  overload: GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier*
+- uid: GTA.BikeHandlingData.LeanBackwardForceMultiplier
+  commentId: P:GTA.BikeHandlingData.LeanBackwardForceMultiplier
+  id: LeanBackwardForceMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: LeanBackwardForceMultiplier
+  nameWithType: BikeHandlingData.LeanBackwardForceMultiplier
+  fullName: GTA.BikeHandlingData.LeanBackwardForceMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float LeanBackwardForceMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LeanBackwardForceMultiplier As Single
+  overload: GTA.BikeHandlingData.LeanBackwardForceMultiplier*
+- uid: GTA.BikeHandlingData.MaxBankAngle
+  commentId: P:GTA.BikeHandlingData.MaxBankAngle
+  id: MaxBankAngle
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: MaxBankAngle
+  nameWithType: BikeHandlingData.MaxBankAngle
+  fullName: GTA.BikeHandlingData.MaxBankAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float MaxBankAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MaxBankAngle As Single
+  overload: GTA.BikeHandlingData.MaxBankAngle*
+- uid: GTA.BikeHandlingData.FullAnimAngle
+  commentId: P:GTA.BikeHandlingData.FullAnimAngle
+  id: FullAnimAngle
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: FullAnimAngle
+  nameWithType: BikeHandlingData.FullAnimAngle
+  fullName: GTA.BikeHandlingData.FullAnimAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FullAnimAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FullAnimAngle As Single
+  overload: GTA.BikeHandlingData.FullAnimAngle*
+- uid: GTA.BikeHandlingData.DesLeanReturnFraction
+  commentId: P:GTA.BikeHandlingData.DesLeanReturnFraction
+  id: DesLeanReturnFraction
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: DesLeanReturnFraction
+  nameWithType: BikeHandlingData.DesLeanReturnFraction
+  fullName: GTA.BikeHandlingData.DesLeanReturnFraction
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float DesLeanReturnFraction { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DesLeanReturnFraction As Single
+  overload: GTA.BikeHandlingData.DesLeanReturnFraction*
+- uid: GTA.BikeHandlingData.StickLeanMultiplier
+  commentId: P:GTA.BikeHandlingData.StickLeanMultiplier
+  id: StickLeanMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: StickLeanMultiplier
+  nameWithType: BikeHandlingData.StickLeanMultiplier
+  fullName: GTA.BikeHandlingData.StickLeanMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float StickLeanMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property StickLeanMultiplier As Single
+  overload: GTA.BikeHandlingData.StickLeanMultiplier*
+- uid: GTA.BikeHandlingData.BrakingStabilityMultiplier
+  commentId: P:GTA.BikeHandlingData.BrakingStabilityMultiplier
+  id: BrakingStabilityMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: BrakingStabilityMultiplier
+  nameWithType: BikeHandlingData.BrakingStabilityMultiplier
+  fullName: GTA.BikeHandlingData.BrakingStabilityMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float BrakingStabilityMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BrakingStabilityMultiplier As Single
+  overload: GTA.BikeHandlingData.BrakingStabilityMultiplier*
+- uid: GTA.BikeHandlingData.InAirSteerMultiplier
+  commentId: P:GTA.BikeHandlingData.InAirSteerMultiplier
+  id: InAirSteerMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: InAirSteerMultiplier
+  nameWithType: BikeHandlingData.InAirSteerMultiplier
+  fullName: GTA.BikeHandlingData.InAirSteerMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float InAirSteerMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property InAirSteerMultiplier As Single
+  overload: GTA.BikeHandlingData.InAirSteerMultiplier*
+- uid: GTA.BikeHandlingData.WheelieBalancePoint
+  commentId: P:GTA.BikeHandlingData.WheelieBalancePoint
+  id: WheelieBalancePoint
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: WheelieBalancePoint
+  nameWithType: BikeHandlingData.WheelieBalancePoint
+  fullName: GTA.BikeHandlingData.WheelieBalancePoint
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float WheelieBalancePoint { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property WheelieBalancePoint As Single
+  overload: GTA.BikeHandlingData.WheelieBalancePoint*
+- uid: GTA.BikeHandlingData.StoppieBalancePoint
+  commentId: P:GTA.BikeHandlingData.StoppieBalancePoint
+  id: StoppieBalancePoint
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: StoppieBalancePoint
+  nameWithType: BikeHandlingData.StoppieBalancePoint
+  fullName: GTA.BikeHandlingData.StoppieBalancePoint
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float StoppieBalancePoint { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property StoppieBalancePoint As Single
+  overload: GTA.BikeHandlingData.StoppieBalancePoint*
+- uid: GTA.BikeHandlingData.WheelieSteerMultiplier
+  commentId: P:GTA.BikeHandlingData.WheelieSteerMultiplier
+  id: WheelieSteerMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: WheelieSteerMultiplier
+  nameWithType: BikeHandlingData.WheelieSteerMultiplier
+  fullName: GTA.BikeHandlingData.WheelieSteerMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float WheelieSteerMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property WheelieSteerMultiplier As Single
+  overload: GTA.BikeHandlingData.WheelieSteerMultiplier*
+- uid: GTA.BikeHandlingData.RearBalanceMultiplier
+  commentId: P:GTA.BikeHandlingData.RearBalanceMultiplier
+  id: RearBalanceMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: RearBalanceMultiplier
+  nameWithType: BikeHandlingData.RearBalanceMultiplier
+  fullName: GTA.BikeHandlingData.RearBalanceMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float RearBalanceMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RearBalanceMultiplier As Single
+  overload: GTA.BikeHandlingData.RearBalanceMultiplier*
+- uid: GTA.BikeHandlingData.FrontBalanceMultiplier
+  commentId: P:GTA.BikeHandlingData.FrontBalanceMultiplier
+  id: FrontBalanceMultiplier
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: FrontBalanceMultiplier
+  nameWithType: BikeHandlingData.FrontBalanceMultiplier
+  fullName: GTA.BikeHandlingData.FrontBalanceMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FrontBalanceMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FrontBalanceMultiplier As Single
+  overload: GTA.BikeHandlingData.FrontBalanceMultiplier*
+- uid: GTA.BikeHandlingData.BikeOnStandLeanAngle
+  commentId: P:GTA.BikeHandlingData.BikeOnStandLeanAngle
+  id: BikeOnStandLeanAngle
+  parent: GTA.BikeHandlingData
+  langs:
+  - csharp
+  - vb
+  name: BikeOnStandLeanAngle
+  nameWithType: BikeHandlingData.BikeOnStandLeanAngle
+  fullName: GTA.BikeHandlingData.BikeOnStandLeanAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float BikeOnStandLeanAngle { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BikeOnStandLeanAngle As Single
+  overload: GTA.BikeHandlingData.BikeOnStandLeanAngle*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.BaseSubHandlingData
+  commentId: T:GTA.BaseSubHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html
+  name: BaseSubHandlingData
+  nameWithType: BaseSubHandlingData
+  fullName: GTA.BaseSubHandlingData
+- uid: GTA.BaseSubHandlingData.MemoryAddress
+  commentId: P:GTA.BaseSubHandlingData.MemoryAddress
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_MemoryAddress
+  name: MemoryAddress
+  nameWithType: BaseSubHandlingData.MemoryAddress
+  fullName: GTA.BaseSubHandlingData.MemoryAddress
+- uid: GTA.BaseSubHandlingData.Parent
+  commentId: P:GTA.BaseSubHandlingData.Parent
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Parent
+  name: Parent
+  nameWithType: BaseSubHandlingData.Parent
+  fullName: GTA.BaseSubHandlingData.Parent
+- uid: GTA.BaseSubHandlingData.HandlingType
+  commentId: P:GTA.BaseSubHandlingData.HandlingType
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_HandlingType
+  name: HandlingType
+  nameWithType: BaseSubHandlingData.HandlingType
+  fullName: GTA.BaseSubHandlingData.HandlingType
+- uid: GTA.BaseSubHandlingData.IsValid
+  commentId: P:GTA.BaseSubHandlingData.IsValid
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_IsValid
+  name: IsValid
+  nameWithType: BaseSubHandlingData.IsValid
+  fullName: GTA.BaseSubHandlingData.IsValid
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.BaseSubHandlingData.Equals(System.Object)
+  commentId: M:GTA.BaseSubHandlingData.Equals(System.Object)
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: BaseSubHandlingData.Equals(object)
+  fullName: GTA.BaseSubHandlingData.Equals(object)
+  nameWithType.vb: BaseSubHandlingData.Equals(Object)
+  fullName.vb: GTA.BaseSubHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: GTA.BaseSubHandlingData.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: GTA.BaseSubHandlingData.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.BikeHandlingData.Equals*
+  commentId: Overload:GTA.BikeHandlingData.Equals
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_Equals_System_Object_
+  name: Equals
+  nameWithType: BikeHandlingData.Equals
+  fullName: GTA.BikeHandlingData.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.BikeHandlingData.op_Equality*
+  commentId: Overload:GTA.BikeHandlingData.op_Equality
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_op_Equality_GTA_BikeHandlingData_GTA_BikeHandlingData_
+  name: operator ==
+  nameWithType: BikeHandlingData.operator ==
+  fullName: GTA.BikeHandlingData.operator ==
+  nameWithType.vb: BikeHandlingData.=
+  fullName.vb: GTA.BikeHandlingData.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.BikeHandlingData.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_op_Equality_GTA_BikeHandlingData_GTA_BikeHandlingData_
+- uid: GTA.BikeHandlingData
+  commentId: T:GTA.BikeHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BikeHandlingData.html
+  name: BikeHandlingData
+  nameWithType: BikeHandlingData
+  fullName: GTA.BikeHandlingData
+- uid: GTA.BikeHandlingData.op_Inequality*
+  commentId: Overload:GTA.BikeHandlingData.op_Inequality
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_op_Inequality_GTA_BikeHandlingData_GTA_BikeHandlingData_
+  name: operator !=
+  nameWithType: BikeHandlingData.operator !=
+  fullName: GTA.BikeHandlingData.operator !=
+  nameWithType.vb: BikeHandlingData.<>
+  fullName.vb: GTA.BikeHandlingData.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.BikeHandlingData.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_op_Inequality_GTA_BikeHandlingData_GTA_BikeHandlingData_
+- uid: GTA.BaseSubHandlingData.GetHashCode
+  commentId: M:GTA.BaseSubHandlingData.GetHashCode
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  name: GetHashCode()
+  nameWithType: BaseSubHandlingData.GetHashCode()
+  fullName: GTA.BaseSubHandlingData.GetHashCode()
+  spec.csharp:
+  - uid: GTA.BaseSubHandlingData.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.BaseSubHandlingData.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  - name: (
+  - name: )
+- uid: GTA.BikeHandlingData.GetHashCode*
+  commentId: Overload:GTA.BikeHandlingData.GetHashCode
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_GetHashCode
+  name: GetHashCode
+  nameWithType: BikeHandlingData.GetHashCode
+  fullName: GTA.BikeHandlingData.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_LeanForwardCenterOfMassMultiplier
+  name: LeanForwardCenterOfMassMultiplier
+  nameWithType: BikeHandlingData.LeanForwardCenterOfMassMultiplier
+  fullName: GTA.BikeHandlingData.LeanForwardCenterOfMassMultiplier
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.BikeHandlingData.LeanForwardForceMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.LeanForwardForceMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_LeanForwardForceMultiplier
+  name: LeanForwardForceMultiplier
+  nameWithType: BikeHandlingData.LeanForwardForceMultiplier
+  fullName: GTA.BikeHandlingData.LeanForwardForceMultiplier
+- uid: GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_LeanBackCenterOfMassMultiplier
+  name: LeanBackCenterOfMassMultiplier
+  nameWithType: BikeHandlingData.LeanBackCenterOfMassMultiplier
+  fullName: GTA.BikeHandlingData.LeanBackCenterOfMassMultiplier
+- uid: GTA.BikeHandlingData.LeanBackwardForceMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.LeanBackwardForceMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_LeanBackwardForceMultiplier
+  name: LeanBackwardForceMultiplier
+  nameWithType: BikeHandlingData.LeanBackwardForceMultiplier
+  fullName: GTA.BikeHandlingData.LeanBackwardForceMultiplier
+- uid: GTA.BikeHandlingData.MaxBankAngle*
+  commentId: Overload:GTA.BikeHandlingData.MaxBankAngle
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_MaxBankAngle
+  name: MaxBankAngle
+  nameWithType: BikeHandlingData.MaxBankAngle
+  fullName: GTA.BikeHandlingData.MaxBankAngle
+- uid: GTA.BikeHandlingData.FullAnimAngle*
+  commentId: Overload:GTA.BikeHandlingData.FullAnimAngle
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_FullAnimAngle
+  name: FullAnimAngle
+  nameWithType: BikeHandlingData.FullAnimAngle
+  fullName: GTA.BikeHandlingData.FullAnimAngle
+- uid: GTA.BikeHandlingData.DesLeanReturnFraction*
+  commentId: Overload:GTA.BikeHandlingData.DesLeanReturnFraction
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_DesLeanReturnFraction
+  name: DesLeanReturnFraction
+  nameWithType: BikeHandlingData.DesLeanReturnFraction
+  fullName: GTA.BikeHandlingData.DesLeanReturnFraction
+- uid: GTA.BikeHandlingData.StickLeanMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.StickLeanMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_StickLeanMultiplier
+  name: StickLeanMultiplier
+  nameWithType: BikeHandlingData.StickLeanMultiplier
+  fullName: GTA.BikeHandlingData.StickLeanMultiplier
+- uid: GTA.BikeHandlingData.BrakingStabilityMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.BrakingStabilityMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_BrakingStabilityMultiplier
+  name: BrakingStabilityMultiplier
+  nameWithType: BikeHandlingData.BrakingStabilityMultiplier
+  fullName: GTA.BikeHandlingData.BrakingStabilityMultiplier
+- uid: GTA.BikeHandlingData.InAirSteerMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.InAirSteerMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_InAirSteerMultiplier
+  name: InAirSteerMultiplier
+  nameWithType: BikeHandlingData.InAirSteerMultiplier
+  fullName: GTA.BikeHandlingData.InAirSteerMultiplier
+- uid: GTA.BikeHandlingData.WheelieBalancePoint*
+  commentId: Overload:GTA.BikeHandlingData.WheelieBalancePoint
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_WheelieBalancePoint
+  name: WheelieBalancePoint
+  nameWithType: BikeHandlingData.WheelieBalancePoint
+  fullName: GTA.BikeHandlingData.WheelieBalancePoint
+- uid: GTA.BikeHandlingData.StoppieBalancePoint*
+  commentId: Overload:GTA.BikeHandlingData.StoppieBalancePoint
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_StoppieBalancePoint
+  name: StoppieBalancePoint
+  nameWithType: BikeHandlingData.StoppieBalancePoint
+  fullName: GTA.BikeHandlingData.StoppieBalancePoint
+- uid: GTA.BikeHandlingData.WheelieSteerMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.WheelieSteerMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_WheelieSteerMultiplier
+  name: WheelieSteerMultiplier
+  nameWithType: BikeHandlingData.WheelieSteerMultiplier
+  fullName: GTA.BikeHandlingData.WheelieSteerMultiplier
+- uid: GTA.BikeHandlingData.RearBalanceMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.RearBalanceMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_RearBalanceMultiplier
+  name: RearBalanceMultiplier
+  nameWithType: BikeHandlingData.RearBalanceMultiplier
+  fullName: GTA.BikeHandlingData.RearBalanceMultiplier
+- uid: GTA.BikeHandlingData.FrontBalanceMultiplier*
+  commentId: Overload:GTA.BikeHandlingData.FrontBalanceMultiplier
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_FrontBalanceMultiplier
+  name: FrontBalanceMultiplier
+  nameWithType: BikeHandlingData.FrontBalanceMultiplier
+  fullName: GTA.BikeHandlingData.FrontBalanceMultiplier
+- uid: GTA.BikeHandlingData.BikeOnStandLeanAngle*
+  commentId: Overload:GTA.BikeHandlingData.BikeOnStandLeanAngle
+  isExternal: true
+  href: GTA.BikeHandlingData.html#GTA_BikeHandlingData_BikeOnStandLeanAngle
+  name: BikeOnStandLeanAngle
+  nameWithType: BikeHandlingData.BikeOnStandLeanAngle
+  fullName: GTA.BikeHandlingData.BikeOnStandLeanAngle

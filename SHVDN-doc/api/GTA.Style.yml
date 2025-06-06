@@ -1,0 +1,933 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Style
+  commentId: T:GTA.Style
+  id: Style
+  parent: GTA
+  children:
+  - GTA.Style.ClearProps
+  - GTA.Style.GetAllComponents
+  - GTA.Style.GetAllProps
+  - GTA.Style.GetAllVariations
+  - GTA.Style.GetEnumerator
+  - GTA.Style.HasLoadedPreloadPropData
+  - GTA.Style.HasLoadedPreloadVariationData
+  - GTA.Style.Item(GTA.PedComponentType)
+  - GTA.Style.Item(GTA.PedPropAnchorPoint)
+  - GTA.Style.PreloadPropData(GTA.PedPropAnchorPoint,System.Int32,System.Int32)
+  - GTA.Style.PreloadVariationData(GTA.PedComponentType,System.Int32,System.Int32)
+  - GTA.Style.RandomizeOutfit
+  - GTA.Style.RandomizeProps
+  - GTA.Style.ReleasePreloadPropData
+  - GTA.Style.ReleasePreloadVariationData
+  - GTA.Style.SetDefaultClothes
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: Style
+  fullName: GTA.Style
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class Style
+    content.vb: Public NotInheritable Class Style
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.Style.GetAllProps
+  commentId: M:GTA.Style.GetAllProps
+  id: GetAllProps
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: GetAllProps()
+  nameWithType: Style.GetAllProps()
+  fullName: GTA.Style.GetAllProps()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedProp[] GetAllProps()
+    return:
+      type: GTA.PedProp[]
+    content.vb: Public Function GetAllProps() As PedProp()
+  overload: GTA.Style.GetAllProps*
+- uid: GTA.Style.GetAllComponents
+  commentId: M:GTA.Style.GetAllComponents
+  id: GetAllComponents
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: GetAllComponents()
+  nameWithType: Style.GetAllComponents()
+  fullName: GTA.Style.GetAllComponents()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedComponent[] GetAllComponents()
+    return:
+      type: GTA.PedComponent[]
+    content.vb: Public Function GetAllComponents() As PedComponent()
+  overload: GTA.Style.GetAllComponents*
+- uid: GTA.Style.GetAllVariations
+  commentId: M:GTA.Style.GetAllVariations
+  id: GetAllVariations
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: GetAllVariations()
+  nameWithType: Style.GetAllVariations()
+  fullName: GTA.Style.GetAllVariations()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IPedVariation[] GetAllVariations()
+    return:
+      type: GTA.IPedVariation[]
+    content.vb: Public Function GetAllVariations() As IPedVariation()
+  overload: GTA.Style.GetAllVariations*
+- uid: GTA.Style.PreloadVariationData(GTA.PedComponentType,System.Int32,System.Int32)
+  commentId: M:GTA.Style.PreloadVariationData(GTA.PedComponentType,System.Int32,System.Int32)
+  id: PreloadVariationData(GTA.PedComponentType,System.Int32,System.Int32)
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: PreloadVariationData(PedComponentType, int, int)
+  nameWithType: Style.PreloadVariationData(PedComponentType, int, int)
+  fullName: GTA.Style.PreloadVariationData(GTA.PedComponentType, int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PreloadVariationData(PedComponentType componentType, int drawableId, int textureId)
+    parameters:
+    - id: componentType
+      type: GTA.PedComponentType
+    - id: drawableId
+      type: System.Int32
+    - id: textureId
+      type: System.Int32
+    content.vb: Public Sub PreloadVariationData(componentType As PedComponentType, drawableId As Integer, textureId As Integer)
+  overload: GTA.Style.PreloadVariationData*
+  nameWithType.vb: Style.PreloadVariationData(PedComponentType, Integer, Integer)
+  fullName.vb: GTA.Style.PreloadVariationData(GTA.PedComponentType, Integer, Integer)
+  name.vb: PreloadVariationData(PedComponentType, Integer, Integer)
+- uid: GTA.Style.HasLoadedPreloadVariationData
+  commentId: M:GTA.Style.HasLoadedPreloadVariationData
+  id: HasLoadedPreloadVariationData
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: HasLoadedPreloadVariationData()
+  nameWithType: Style.HasLoadedPreloadVariationData()
+  fullName: GTA.Style.HasLoadedPreloadVariationData()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool HasLoadedPreloadVariationData()
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasLoadedPreloadVariationData() As Boolean
+  overload: GTA.Style.HasLoadedPreloadVariationData*
+- uid: GTA.Style.ReleasePreloadVariationData
+  commentId: M:GTA.Style.ReleasePreloadVariationData
+  id: ReleasePreloadVariationData
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: ReleasePreloadVariationData()
+  nameWithType: Style.ReleasePreloadVariationData()
+  fullName: GTA.Style.ReleasePreloadVariationData()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void ReleasePreloadVariationData()
+    content.vb: Public Sub ReleasePreloadVariationData()
+  overload: GTA.Style.ReleasePreloadVariationData*
+- uid: GTA.Style.PreloadPropData(GTA.PedPropAnchorPoint,System.Int32,System.Int32)
+  commentId: M:GTA.Style.PreloadPropData(GTA.PedPropAnchorPoint,System.Int32,System.Int32)
+  id: PreloadPropData(GTA.PedPropAnchorPoint,System.Int32,System.Int32)
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: PreloadPropData(PedPropAnchorPoint, int, int)
+  nameWithType: Style.PreloadPropData(PedPropAnchorPoint, int, int)
+  fullName: GTA.Style.PreloadPropData(GTA.PedPropAnchorPoint, int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PreloadPropData(PedPropAnchorPoint anchor, int propId, int textureId)
+    parameters:
+    - id: anchor
+      type: GTA.PedPropAnchorPoint
+    - id: propId
+      type: System.Int32
+    - id: textureId
+      type: System.Int32
+    content.vb: Public Sub PreloadPropData(anchor As PedPropAnchorPoint, propId As Integer, textureId As Integer)
+  overload: GTA.Style.PreloadPropData*
+  nameWithType.vb: Style.PreloadPropData(PedPropAnchorPoint, Integer, Integer)
+  fullName.vb: GTA.Style.PreloadPropData(GTA.PedPropAnchorPoint, Integer, Integer)
+  name.vb: PreloadPropData(PedPropAnchorPoint, Integer, Integer)
+- uid: GTA.Style.HasLoadedPreloadPropData
+  commentId: M:GTA.Style.HasLoadedPreloadPropData
+  id: HasLoadedPreloadPropData
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: HasLoadedPreloadPropData()
+  nameWithType: Style.HasLoadedPreloadPropData()
+  fullName: GTA.Style.HasLoadedPreloadPropData()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool HasLoadedPreloadPropData()
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasLoadedPreloadPropData() As Boolean
+  overload: GTA.Style.HasLoadedPreloadPropData*
+- uid: GTA.Style.ReleasePreloadPropData
+  commentId: M:GTA.Style.ReleasePreloadPropData
+  id: ReleasePreloadPropData
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: ReleasePreloadPropData()
+  nameWithType: Style.ReleasePreloadPropData()
+  fullName: GTA.Style.ReleasePreloadPropData()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void ReleasePreloadPropData()
+    content.vb: Public Sub ReleasePreloadPropData()
+  overload: GTA.Style.ReleasePreloadPropData*
+- uid: GTA.Style.GetEnumerator
+  commentId: M:GTA.Style.GetEnumerator
+  id: GetEnumerator
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: Style.GetEnumerator()
+  fullName: GTA.Style.GetEnumerator()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IEnumerator<IPedVariation> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{GTA.IPedVariation}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of IPedVariation)
+  overload: GTA.Style.GetEnumerator*
+- uid: GTA.Style.ClearProps
+  commentId: M:GTA.Style.ClearProps
+  id: ClearProps
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: ClearProps()
+  nameWithType: Style.ClearProps()
+  fullName: GTA.Style.ClearProps()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void ClearProps()
+    content.vb: Public Sub ClearProps()
+  overload: GTA.Style.ClearProps*
+- uid: GTA.Style.RandomizeProps
+  commentId: M:GTA.Style.RandomizeProps
+  id: RandomizeProps
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: RandomizeProps()
+  nameWithType: Style.RandomizeProps()
+  fullName: GTA.Style.RandomizeProps()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void RandomizeProps()
+    content.vb: Public Sub RandomizeProps()
+  overload: GTA.Style.RandomizeProps*
+- uid: GTA.Style.RandomizeOutfit
+  commentId: M:GTA.Style.RandomizeOutfit
+  id: RandomizeOutfit
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: RandomizeOutfit()
+  nameWithType: Style.RandomizeOutfit()
+  fullName: GTA.Style.RandomizeOutfit()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void RandomizeOutfit()
+    content.vb: Public Sub RandomizeOutfit()
+  overload: GTA.Style.RandomizeOutfit*
+- uid: GTA.Style.SetDefaultClothes
+  commentId: M:GTA.Style.SetDefaultClothes
+  id: SetDefaultClothes
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultClothes()
+  nameWithType: Style.SetDefaultClothes()
+  fullName: GTA.Style.SetDefaultClothes()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void SetDefaultClothes()
+    content.vb: Public Sub SetDefaultClothes()
+  overload: GTA.Style.SetDefaultClothes*
+- uid: GTA.Style.Item(GTA.PedPropAnchorPoint)
+  commentId: P:GTA.Style.Item(GTA.PedPropAnchorPoint)
+  id: Item(GTA.PedPropAnchorPoint)
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: this[PedPropAnchorPoint]
+  nameWithType: Style.this[PedPropAnchorPoint]
+  fullName: GTA.Style.this[GTA.PedPropAnchorPoint]
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedProp this[PedPropAnchorPoint anchorPoint] { get; }
+    parameters:
+    - id: anchorPoint
+      type: GTA.PedPropAnchorPoint
+    return:
+      type: GTA.PedProp
+    content.vb: Public ReadOnly Default Property this[](anchorPoint As PedPropAnchorPoint) As PedProp
+  overload: GTA.Style.Item*
+  nameWithType.vb: Style.this[](PedPropAnchorPoint)
+  fullName.vb: GTA.Style.this[](GTA.PedPropAnchorPoint)
+  name.vb: this[](PedPropAnchorPoint)
+- uid: GTA.Style.Item(GTA.PedComponentType)
+  commentId: P:GTA.Style.Item(GTA.PedComponentType)
+  id: Item(GTA.PedComponentType)
+  parent: GTA.Style
+  langs:
+  - csharp
+  - vb
+  name: this[PedComponentType]
+  nameWithType: Style.this[PedComponentType]
+  fullName: GTA.Style.this[GTA.PedComponentType]
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedComponent this[PedComponentType componentId] { get; }
+    parameters:
+    - id: componentId
+      type: GTA.PedComponentType
+    return:
+      type: GTA.PedComponent
+    content.vb: Public ReadOnly Default Property this[](componentId As PedComponentType) As PedComponent
+  overload: GTA.Style.Item*
+  nameWithType.vb: Style.this[](PedComponentType)
+  fullName.vb: GTA.Style.this[](GTA.PedComponentType)
+  name.vb: this[](PedComponentType)
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Style.GetAllProps*
+  commentId: Overload:GTA.Style.GetAllProps
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_GetAllProps
+  name: GetAllProps
+  nameWithType: Style.GetAllProps
+  fullName: GTA.Style.GetAllProps
+- uid: GTA.PedProp[]
+  isExternal: true
+  href: GTA.PedProp.html
+  name: PedProp[]
+  nameWithType: PedProp[]
+  fullName: GTA.PedProp[]
+  nameWithType.vb: PedProp()
+  fullName.vb: GTA.PedProp()
+  name.vb: PedProp()
+  spec.csharp:
+  - uid: GTA.PedProp
+    name: PedProp
+    isExternal: true
+    href: GTA.PedProp.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.PedProp
+    name: PedProp
+    isExternal: true
+    href: GTA.PedProp.html
+  - name: (
+  - name: )
+- uid: GTA.Style.GetAllComponents*
+  commentId: Overload:GTA.Style.GetAllComponents
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_GetAllComponents
+  name: GetAllComponents
+  nameWithType: Style.GetAllComponents
+  fullName: GTA.Style.GetAllComponents
+- uid: GTA.PedComponent[]
+  isExternal: true
+  href: GTA.PedComponent.html
+  name: PedComponent[]
+  nameWithType: PedComponent[]
+  fullName: GTA.PedComponent[]
+  nameWithType.vb: PedComponent()
+  fullName.vb: GTA.PedComponent()
+  name.vb: PedComponent()
+  spec.csharp:
+  - uid: GTA.PedComponent
+    name: PedComponent
+    isExternal: true
+    href: GTA.PedComponent.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.PedComponent
+    name: PedComponent
+    isExternal: true
+    href: GTA.PedComponent.html
+  - name: (
+  - name: )
+- uid: GTA.Style.GetAllVariations*
+  commentId: Overload:GTA.Style.GetAllVariations
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_GetAllVariations
+  name: GetAllVariations
+  nameWithType: Style.GetAllVariations
+  fullName: GTA.Style.GetAllVariations
+- uid: GTA.IPedVariation[]
+  isExternal: true
+  href: GTA.IPedVariation.html
+  name: IPedVariation[]
+  nameWithType: IPedVariation[]
+  fullName: GTA.IPedVariation[]
+  nameWithType.vb: IPedVariation()
+  fullName.vb: GTA.IPedVariation()
+  name.vb: IPedVariation()
+  spec.csharp:
+  - uid: GTA.IPedVariation
+    name: IPedVariation
+    isExternal: true
+    href: GTA.IPedVariation.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.IPedVariation
+    name: IPedVariation
+    isExternal: true
+    href: GTA.IPedVariation.html
+  - name: (
+  - name: )
+- uid: GTA.Style.PreloadVariationData*
+  commentId: Overload:GTA.Style.PreloadVariationData
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_PreloadVariationData_GTA_PedComponentType_System_Int32_System_Int32_
+  name: PreloadVariationData
+  nameWithType: Style.PreloadVariationData
+  fullName: GTA.Style.PreloadVariationData
+- uid: GTA.PedComponentType
+  commentId: T:GTA.PedComponentType
+  parent: GTA
+  isExternal: true
+  href: GTA.PedComponentType.html
+  name: PedComponentType
+  nameWithType: PedComponentType
+  fullName: GTA.PedComponentType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.Style.HasLoadedPreloadVariationData*
+  commentId: Overload:GTA.Style.HasLoadedPreloadVariationData
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_HasLoadedPreloadVariationData
+  name: HasLoadedPreloadVariationData
+  nameWithType: Style.HasLoadedPreloadVariationData
+  fullName: GTA.Style.HasLoadedPreloadVariationData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Style.ReleasePreloadVariationData*
+  commentId: Overload:GTA.Style.ReleasePreloadVariationData
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_ReleasePreloadVariationData
+  name: ReleasePreloadVariationData
+  nameWithType: Style.ReleasePreloadVariationData
+  fullName: GTA.Style.ReleasePreloadVariationData
+- uid: GTA.Style.PreloadPropData*
+  commentId: Overload:GTA.Style.PreloadPropData
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_PreloadPropData_GTA_PedPropAnchorPoint_System_Int32_System_Int32_
+  name: PreloadPropData
+  nameWithType: Style.PreloadPropData
+  fullName: GTA.Style.PreloadPropData
+- uid: GTA.PedPropAnchorPoint
+  commentId: T:GTA.PedPropAnchorPoint
+  parent: GTA
+  isExternal: true
+  href: GTA.PedPropAnchorPoint.html
+  name: PedPropAnchorPoint
+  nameWithType: PedPropAnchorPoint
+  fullName: GTA.PedPropAnchorPoint
+- uid: GTA.Style.HasLoadedPreloadPropData*
+  commentId: Overload:GTA.Style.HasLoadedPreloadPropData
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_HasLoadedPreloadPropData
+  name: HasLoadedPreloadPropData
+  nameWithType: Style.HasLoadedPreloadPropData
+  fullName: GTA.Style.HasLoadedPreloadPropData
+- uid: GTA.Style.ReleasePreloadPropData*
+  commentId: Overload:GTA.Style.ReleasePreloadPropData
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_ReleasePreloadPropData
+  name: ReleasePreloadPropData
+  nameWithType: Style.ReleasePreloadPropData
+  fullName: GTA.Style.ReleasePreloadPropData
+- uid: GTA.Style.GetEnumerator*
+  commentId: Overload:GTA.Style.GetEnumerator
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_GetEnumerator
+  name: GetEnumerator
+  nameWithType: Style.GetEnumerator
+  fullName: GTA.Style.GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{GTA.IPedVariation}
+  commentId: T:System.Collections.Generic.IEnumerator{GTA.IPedVariation}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<IPedVariation>
+  nameWithType: IEnumerator<IPedVariation>
+  fullName: System.Collections.Generic.IEnumerator<GTA.IPedVariation>
+  nameWithType.vb: IEnumerator(Of IPedVariation)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of GTA.IPedVariation)
+  name.vb: IEnumerator(Of IPedVariation)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: GTA.IPedVariation
+    name: IPedVariation
+    isExternal: true
+    href: GTA.IPedVariation.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.IPedVariation
+    name: IPedVariation
+    isExternal: true
+    href: GTA.IPedVariation.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: GTA.Style.ClearProps*
+  commentId: Overload:GTA.Style.ClearProps
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_ClearProps
+  name: ClearProps
+  nameWithType: Style.ClearProps
+  fullName: GTA.Style.ClearProps
+- uid: GTA.Style.RandomizeProps*
+  commentId: Overload:GTA.Style.RandomizeProps
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_RandomizeProps
+  name: RandomizeProps
+  nameWithType: Style.RandomizeProps
+  fullName: GTA.Style.RandomizeProps
+- uid: GTA.Style.RandomizeOutfit*
+  commentId: Overload:GTA.Style.RandomizeOutfit
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_RandomizeOutfit
+  name: RandomizeOutfit
+  nameWithType: Style.RandomizeOutfit
+  fullName: GTA.Style.RandomizeOutfit
+- uid: GTA.Style.SetDefaultClothes*
+  commentId: Overload:GTA.Style.SetDefaultClothes
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_SetDefaultClothes
+  name: SetDefaultClothes
+  nameWithType: Style.SetDefaultClothes
+  fullName: GTA.Style.SetDefaultClothes
+- uid: GTA.Style.Item*
+  commentId: Overload:GTA.Style.Item
+  isExternal: true
+  href: GTA.Style.html#GTA_Style_Item_GTA_PedPropAnchorPoint_
+  name: this
+  nameWithType: Style.this
+  fullName: GTA.Style.this
+  nameWithType.vb: Style.this[]
+  fullName.vb: GTA.Style.this[]
+  name.vb: this[]
+- uid: GTA.PedProp
+  commentId: T:GTA.PedProp
+  parent: GTA
+  isExternal: true
+  href: GTA.PedProp.html
+  name: PedProp
+  nameWithType: PedProp
+  fullName: GTA.PedProp
+- uid: GTA.PedComponent
+  commentId: T:GTA.PedComponent
+  parent: GTA
+  isExternal: true
+  href: GTA.PedComponent.html
+  name: PedComponent
+  nameWithType: PedComponent
+  fullName: GTA.PedComponent

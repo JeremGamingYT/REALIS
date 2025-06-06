@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ParachuteTint
+  commentId: T:GTA.ParachuteTint
+  id: ParachuteTint
+  parent: GTA
+  children:
+  - GTA.ParachuteTint.AirFocce
+  - GTA.ParachuteTint.Airbone
+  - GTA.ParachuteTint.Black
+  - GTA.ParachuteTint.Blue
+  - GTA.ParachuteTint.Desert
+  - GTA.ParachuteTint.HighAltitude
+  - GTA.ParachuteTint.Hornet
+  - GTA.ParachuteTint.None
+  - GTA.ParachuteTint.Patriot
+  - GTA.ParachuteTint.Rainbow
+  - GTA.ParachuteTint.Red
+  - GTA.ParachuteTint.SeasideStripes
+  - GTA.ParachuteTint.Shadow
+  - GTA.ParachuteTint.Sunrise
+  - GTA.ParachuteTint.WidowMaker
+  langs:
+  - csharp
+  - vb
+  name: ParachuteTint
+  nameWithType: ParachuteTint
+  fullName: GTA.ParachuteTint
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum ParachuteTint
+    content.vb: Public Enum ParachuteTint
+- uid: GTA.ParachuteTint.None
+  commentId: F:GTA.ParachuteTint.None
+  id: None
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ParachuteTint.None
+  fullName: GTA.ParachuteTint.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = -1
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Rainbow
+  commentId: F:GTA.ParachuteTint.Rainbow
+  id: Rainbow
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Rainbow
+  nameWithType: ParachuteTint.Rainbow
+  fullName: GTA.ParachuteTint.Rainbow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Rainbow = 0
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Red
+  commentId: F:GTA.ParachuteTint.Red
+  id: Red
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: ParachuteTint.Red
+  fullName: GTA.ParachuteTint.Red
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Red = 1
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.SeasideStripes
+  commentId: F:GTA.ParachuteTint.SeasideStripes
+  id: SeasideStripes
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: SeasideStripes
+  nameWithType: ParachuteTint.SeasideStripes
+  fullName: GTA.ParachuteTint.SeasideStripes
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SeasideStripes = 2
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.WidowMaker
+  commentId: F:GTA.ParachuteTint.WidowMaker
+  id: WidowMaker
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: WidowMaker
+  nameWithType: ParachuteTint.WidowMaker
+  fullName: GTA.ParachuteTint.WidowMaker
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WidowMaker = 3
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Patriot
+  commentId: F:GTA.ParachuteTint.Patriot
+  id: Patriot
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Patriot
+  nameWithType: ParachuteTint.Patriot
+  fullName: GTA.ParachuteTint.Patriot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Patriot = 4
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Blue
+  commentId: F:GTA.ParachuteTint.Blue
+  id: Blue
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: ParachuteTint.Blue
+  fullName: GTA.ParachuteTint.Blue
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blue = 5
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Black
+  commentId: F:GTA.ParachuteTint.Black
+  id: Black
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: ParachuteTint.Black
+  fullName: GTA.ParachuteTint.Black
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Black = 6
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Hornet
+  commentId: F:GTA.ParachuteTint.Hornet
+  id: Hornet
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Hornet
+  nameWithType: ParachuteTint.Hornet
+  fullName: GTA.ParachuteTint.Hornet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hornet = 7
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.AirFocce
+  commentId: F:GTA.ParachuteTint.AirFocce
+  id: AirFocce
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: AirFocce
+  nameWithType: ParachuteTint.AirFocce
+  fullName: GTA.ParachuteTint.AirFocce
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AirFocce = 8
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Desert
+  commentId: F:GTA.ParachuteTint.Desert
+  id: Desert
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Desert
+  nameWithType: ParachuteTint.Desert
+  fullName: GTA.ParachuteTint.Desert
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Desert = 9
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Shadow
+  commentId: F:GTA.ParachuteTint.Shadow
+  id: Shadow
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Shadow
+  nameWithType: ParachuteTint.Shadow
+  fullName: GTA.ParachuteTint.Shadow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Shadow = 10
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.HighAltitude
+  commentId: F:GTA.ParachuteTint.HighAltitude
+  id: HighAltitude
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: HighAltitude
+  nameWithType: ParachuteTint.HighAltitude
+  fullName: GTA.ParachuteTint.HighAltitude
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HighAltitude = 11
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Airbone
+  commentId: F:GTA.ParachuteTint.Airbone
+  id: Airbone
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Airbone
+  nameWithType: ParachuteTint.Airbone
+  fullName: GTA.ParachuteTint.Airbone
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Airbone = 12
+    return:
+      type: GTA.ParachuteTint
+- uid: GTA.ParachuteTint.Sunrise
+  commentId: F:GTA.ParachuteTint.Sunrise
+  id: Sunrise
+  parent: GTA.ParachuteTint
+  langs:
+  - csharp
+  - vb
+  name: Sunrise
+  nameWithType: ParachuteTint.Sunrise
+  fullName: GTA.ParachuteTint.Sunrise
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Sunrise = 13
+    return:
+      type: GTA.ParachuteTint
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ParachuteTint
+  commentId: T:GTA.ParachuteTint
+  parent: GTA
+  isExternal: true
+  href: GTA.ParachuteTint.html
+  name: ParachuteTint
+  nameWithType: ParachuteTint
+  fullName: GTA.ParachuteTint

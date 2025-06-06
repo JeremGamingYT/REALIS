@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PedPropAnchorPoint
+  commentId: T:GTA.PedPropAnchorPoint
+  id: PedPropAnchorPoint
+  parent: GTA
+  children:
+  - GTA.PedPropAnchorPoint.Ears
+  - GTA.PedPropAnchorPoint.Eyes
+  - GTA.PedPropAnchorPoint.Head
+  - GTA.PedPropAnchorPoint.Hip
+  - GTA.PedPropAnchorPoint.LeftHand
+  - GTA.PedPropAnchorPoint.LeftWrist
+  - GTA.PedPropAnchorPoint.Mouth
+  - GTA.PedPropAnchorPoint.RightHand
+  - GTA.PedPropAnchorPoint.RightWrist
+  langs:
+  - csharp
+  - vb
+  name: PedPropAnchorPoint
+  nameWithType: PedPropAnchorPoint
+  fullName: GTA.PedPropAnchorPoint
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum PedPropAnchorPoint
+    content.vb: Public Enum PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.Head
+  commentId: F:GTA.PedPropAnchorPoint.Head
+  id: Head
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: Head
+  nameWithType: PedPropAnchorPoint.Head
+  fullName: GTA.PedPropAnchorPoint.Head
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Head = 0
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.Eyes
+  commentId: F:GTA.PedPropAnchorPoint.Eyes
+  id: Eyes
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: Eyes
+  nameWithType: PedPropAnchorPoint.Eyes
+  fullName: GTA.PedPropAnchorPoint.Eyes
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Eyes = 1
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.Ears
+  commentId: F:GTA.PedPropAnchorPoint.Ears
+  id: Ears
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: Ears
+  nameWithType: PedPropAnchorPoint.Ears
+  fullName: GTA.PedPropAnchorPoint.Ears
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ears = 2
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.Mouth
+  commentId: F:GTA.PedPropAnchorPoint.Mouth
+  id: Mouth
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: Mouth
+  nameWithType: PedPropAnchorPoint.Mouth
+  fullName: GTA.PedPropAnchorPoint.Mouth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Mouth = 3
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.LeftHand
+  commentId: F:GTA.PedPropAnchorPoint.LeftHand
+  id: LeftHand
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: LeftHand
+  nameWithType: PedPropAnchorPoint.LeftHand
+  fullName: GTA.PedPropAnchorPoint.LeftHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LeftHand = 4
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.RightHand
+  commentId: F:GTA.PedPropAnchorPoint.RightHand
+  id: RightHand
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: RightHand
+  nameWithType: PedPropAnchorPoint.RightHand
+  fullName: GTA.PedPropAnchorPoint.RightHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RightHand = 5
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.LeftWrist
+  commentId: F:GTA.PedPropAnchorPoint.LeftWrist
+  id: LeftWrist
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: LeftWrist
+  nameWithType: PedPropAnchorPoint.LeftWrist
+  fullName: GTA.PedPropAnchorPoint.LeftWrist
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LeftWrist = 6
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.RightWrist
+  commentId: F:GTA.PedPropAnchorPoint.RightWrist
+  id: RightWrist
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: RightWrist
+  nameWithType: PedPropAnchorPoint.RightWrist
+  fullName: GTA.PedPropAnchorPoint.RightWrist
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RightWrist = 7
+    return:
+      type: GTA.PedPropAnchorPoint
+- uid: GTA.PedPropAnchorPoint.Hip
+  commentId: F:GTA.PedPropAnchorPoint.Hip
+  id: Hip
+  parent: GTA.PedPropAnchorPoint
+  langs:
+  - csharp
+  - vb
+  name: Hip
+  nameWithType: PedPropAnchorPoint.Hip
+  fullName: GTA.PedPropAnchorPoint.Hip
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hip = 8
+    return:
+      type: GTA.PedPropAnchorPoint
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.PedPropAnchorPoint
+  commentId: T:GTA.PedPropAnchorPoint
+  parent: GTA
+  isExternal: true
+  href: GTA.PedPropAnchorPoint.html
+  name: PedPropAnchorPoint
+  nameWithType: PedPropAnchorPoint
+  fullName: GTA.PedPropAnchorPoint

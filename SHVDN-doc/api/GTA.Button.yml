@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Button
+  commentId: T:GTA.Button
+  id: Button
+  parent: GTA
+  children:
+  - GTA.Button.PadA
+  - GTA.Button.PadB
+  - GTA.Button.PadDown
+  - GTA.Button.PadLB
+  - GTA.Button.PadLT
+  - GTA.Button.PadLeft
+  - GTA.Button.PadRB
+  - GTA.Button.PadRT
+  - GTA.Button.PadRight
+  - GTA.Button.PadUp
+  - GTA.Button.PadX
+  - GTA.Button.PadY
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: Button
+  fullName: GTA.Button
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum Button
+    content.vb: Public Enum Button
+- uid: GTA.Button.PadUp
+  commentId: F:GTA.Button.PadUp
+  id: PadUp
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadUp
+  nameWithType: Button.PadUp
+  fullName: GTA.Button.PadUp
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadUp = 117
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadDown
+  commentId: F:GTA.Button.PadDown
+  id: PadDown
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadDown
+  nameWithType: Button.PadDown
+  fullName: GTA.Button.PadDown
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadDown = 100
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadLeft
+  commentId: F:GTA.Button.PadLeft
+  id: PadLeft
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadLeft
+  nameWithType: Button.PadLeft
+  fullName: GTA.Button.PadLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadLeft = 108
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadRight
+  commentId: F:GTA.Button.PadRight
+  id: PadRight
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadRight
+  nameWithType: Button.PadRight
+  fullName: GTA.Button.PadRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadRight = 114
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadA
+  commentId: F:GTA.Button.PadA
+  id: PadA
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadA
+  nameWithType: Button.PadA
+  fullName: GTA.Button.PadA
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadA = 97
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadB
+  commentId: F:GTA.Button.PadB
+  id: PadB
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadB
+  nameWithType: Button.PadB
+  fullName: GTA.Button.PadB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadB = 98
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadX
+  commentId: F:GTA.Button.PadX
+  id: PadX
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadX
+  nameWithType: Button.PadX
+  fullName: GTA.Button.PadX
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadX = 120
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadY
+  commentId: F:GTA.Button.PadY
+  id: PadY
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadY
+  nameWithType: Button.PadY
+  fullName: GTA.Button.PadY
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadY = 121
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadLB
+  commentId: F:GTA.Button.PadLB
+  id: PadLB
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadLB
+  nameWithType: Button.PadLB
+  fullName: GTA.Button.PadLB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadLB = 49
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadLT
+  commentId: F:GTA.Button.PadLT
+  id: PadLT
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadLT
+  nameWithType: Button.PadLT
+  fullName: GTA.Button.PadLT
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadLT = 50
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadRB
+  commentId: F:GTA.Button.PadRB
+  id: PadRB
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadRB
+  nameWithType: Button.PadRB
+  fullName: GTA.Button.PadRB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadRB = 51
+    return:
+      type: GTA.Button
+- uid: GTA.Button.PadRT
+  commentId: F:GTA.Button.PadRT
+  id: PadRT
+  parent: GTA.Button
+  langs:
+  - csharp
+  - vb
+  name: PadRT
+  nameWithType: Button.PadRT
+  fullName: GTA.Button.PadRT
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PadRT = 52
+    return:
+      type: GTA.Button
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Button
+  commentId: T:GTA.Button
+  parent: GTA
+  isExternal: true
+  href: GTA.Button.html
+  name: Button
+  nameWithType: Button
+  fullName: GTA.Button

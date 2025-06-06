@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.GetSafePositionFlags
+  commentId: T:GTA.GetSafePositionFlags
+  id: GetSafePositionFlags
+  parent: GTA
+  children:
+  - GTA.GetSafePositionFlags.Default
+  - GTA.GetSafePositionFlags.NotInterior
+  - GTA.GetSafePositionFlags.NotIsolated
+  - GTA.GetSafePositionFlags.NotWater
+  - GTA.GetSafePositionFlags.OnlyNetworkSpawn
+  - GTA.GetSafePositionFlags.OnlyPavement
+  - GTA.GetSafePositionFlags.UseFloodFill
+  langs:
+  - csharp
+  - vb
+  name: GetSafePositionFlags
+  nameWithType: GetSafePositionFlags
+  fullName: GTA.GetSafePositionFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum GetSafePositionFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum GetSafePositionFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.GetSafePositionFlags.Default
+  commentId: F:GTA.GetSafePositionFlags.Default
+  id: Default
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: GetSafePositionFlags.Default
+  fullName: GTA.GetSafePositionFlags.Default
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Default = 0
+    return:
+      type: GTA.GetSafePositionFlags
+- uid: GTA.GetSafePositionFlags.OnlyPavement
+  commentId: F:GTA.GetSafePositionFlags.OnlyPavement
+  id: OnlyPavement
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: OnlyPavement
+  nameWithType: GetSafePositionFlags.OnlyPavement
+  fullName: GTA.GetSafePositionFlags.OnlyPavement
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OnlyPavement = 1
+    return:
+      type: GTA.GetSafePositionFlags
+- uid: GTA.GetSafePositionFlags.NotIsolated
+  commentId: F:GTA.GetSafePositionFlags.NotIsolated
+  id: NotIsolated
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: NotIsolated
+  nameWithType: GetSafePositionFlags.NotIsolated
+  fullName: GTA.GetSafePositionFlags.NotIsolated
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NotIsolated = 2
+    return:
+      type: GTA.GetSafePositionFlags
+- uid: GTA.GetSafePositionFlags.NotInterior
+  commentId: F:GTA.GetSafePositionFlags.NotInterior
+  id: NotInterior
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: NotInterior
+  nameWithType: GetSafePositionFlags.NotInterior
+  fullName: GTA.GetSafePositionFlags.NotInterior
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NotInterior = 4
+    return:
+      type: GTA.GetSafePositionFlags
+- uid: GTA.GetSafePositionFlags.NotWater
+  commentId: F:GTA.GetSafePositionFlags.NotWater
+  id: NotWater
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: NotWater
+  nameWithType: GetSafePositionFlags.NotWater
+  fullName: GTA.GetSafePositionFlags.NotWater
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NotWater = 8
+    return:
+      type: GTA.GetSafePositionFlags
+- uid: GTA.GetSafePositionFlags.OnlyNetworkSpawn
+  commentId: F:GTA.GetSafePositionFlags.OnlyNetworkSpawn
+  id: OnlyNetworkSpawn
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: OnlyNetworkSpawn
+  nameWithType: GetSafePositionFlags.OnlyNetworkSpawn
+  fullName: GTA.GetSafePositionFlags.OnlyNetworkSpawn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OnlyNetworkSpawn = 16
+    return:
+      type: GTA.GetSafePositionFlags
+- uid: GTA.GetSafePositionFlags.UseFloodFill
+  commentId: F:GTA.GetSafePositionFlags.UseFloodFill
+  id: UseFloodFill
+  parent: GTA.GetSafePositionFlags
+  langs:
+  - csharp
+  - vb
+  name: UseFloodFill
+  nameWithType: GetSafePositionFlags.UseFloodFill
+  fullName: GTA.GetSafePositionFlags.UseFloodFill
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseFloodFill = 32
+    return:
+      type: GTA.GetSafePositionFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.GetSafePositionFlags
+  commentId: T:GTA.GetSafePositionFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.GetSafePositionFlags.html
+  name: GetSafePositionFlags
+  nameWithType: GetSafePositionFlags
+  fullName: GTA.GetSafePositionFlags

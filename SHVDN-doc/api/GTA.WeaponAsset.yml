@@ -1,0 +1,1338 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.WeaponAsset
+  commentId: T:GTA.WeaponAsset
+  id: WeaponAsset
+  parent: GTA
+  children:
+  - GTA.WeaponAsset.#ctor(GTA.WeaponHash)
+  - GTA.WeaponAsset.#ctor(System.Int32)
+  - GTA.WeaponAsset.#ctor(System.UInt32)
+  - GTA.WeaponAsset.DisplayName
+  - GTA.WeaponAsset.Equals(GTA.WeaponAsset)
+  - GTA.WeaponAsset.Equals(System.Object)
+  - GTA.WeaponAsset.GetHashCode
+  - GTA.WeaponAsset.Hash
+  - GTA.WeaponAsset.HumanName
+  - GTA.WeaponAsset.IsLoaded
+  - GTA.WeaponAsset.IsValid
+  - GTA.WeaponAsset.IsValidAsWeaponHash
+  - GTA.WeaponAsset.MarkAsNoLongerNeeded
+  - GTA.WeaponAsset.NativeValue
+  - GTA.WeaponAsset.Request
+  - GTA.WeaponAsset.Request(GTA.WeaponScriptResourceFlags,GTA.ExtraWeaponComponentScriptResourceFlags)
+  - GTA.WeaponAsset.Request(System.Int32)
+  - GTA.WeaponAsset.SlotHash
+  - GTA.WeaponAsset.ToString
+  - GTA.WeaponAsset.op_Equality(GTA.WeaponAsset,GTA.WeaponAsset)
+  - GTA.WeaponAsset.op_Implicit(GTA.WeaponAsset)~GTA.Native.InputArgument
+  - GTA.WeaponAsset.op_Implicit(GTA.WeaponHash)~GTA.WeaponAsset
+  - GTA.WeaponAsset.op_Implicit(System.Int32)~GTA.WeaponAsset
+  - GTA.WeaponAsset.op_Implicit(System.UInt32)~GTA.WeaponAsset
+  - GTA.WeaponAsset.op_Inequality(GTA.WeaponAsset,GTA.WeaponAsset)
+  langs:
+  - csharp
+  - vb
+  name: WeaponAsset
+  nameWithType: WeaponAsset
+  fullName: GTA.WeaponAsset
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public struct WeaponAsset : IEquatable<WeaponAsset>, INativeValue, IScriptStreamingResource'
+    content.vb: Public Structure WeaponAsset Implements IEquatable(Of WeaponAsset), INativeValue, IScriptStreamingResource
+  implements:
+  - System.IEquatable{GTA.WeaponAsset}
+  - GTA.Native.INativeValue
+  - GTA.IScriptStreamingResource
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.WeaponAsset.#ctor(System.Int32)
+  commentId: M:GTA.WeaponAsset.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: WeaponAsset(int)
+  nameWithType: WeaponAsset.WeaponAsset(int)
+  fullName: GTA.WeaponAsset.WeaponAsset(int)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponAsset(int hash)
+    parameters:
+    - id: hash
+      type: System.Int32
+    content.vb: Public Sub New(hash As Integer)
+  overload: GTA.WeaponAsset.#ctor*
+  nameWithType.vb: WeaponAsset.New(Integer)
+  fullName.vb: GTA.WeaponAsset.New(Integer)
+  name.vb: New(Integer)
+- uid: GTA.WeaponAsset.#ctor(System.UInt32)
+  commentId: M:GTA.WeaponAsset.#ctor(System.UInt32)
+  id: '#ctor(System.UInt32)'
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: WeaponAsset(uint)
+  nameWithType: WeaponAsset.WeaponAsset(uint)
+  fullName: GTA.WeaponAsset.WeaponAsset(uint)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponAsset(uint hash)
+    parameters:
+    - id: hash
+      type: System.UInt32
+    content.vb: Public Sub New(hash As UInteger)
+  overload: GTA.WeaponAsset.#ctor*
+  nameWithType.vb: WeaponAsset.New(UInteger)
+  fullName.vb: GTA.WeaponAsset.New(UInteger)
+  name.vb: New(UInteger)
+- uid: GTA.WeaponAsset.#ctor(GTA.WeaponHash)
+  commentId: M:GTA.WeaponAsset.#ctor(GTA.WeaponHash)
+  id: '#ctor(GTA.WeaponHash)'
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: WeaponAsset(WeaponHash)
+  nameWithType: WeaponAsset.WeaponAsset(WeaponHash)
+  fullName: GTA.WeaponAsset.WeaponAsset(GTA.WeaponHash)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponAsset(WeaponHash hash)
+    parameters:
+    - id: hash
+      type: GTA.WeaponHash
+    content.vb: Public Sub New(hash As WeaponHash)
+  overload: GTA.WeaponAsset.#ctor*
+  nameWithType.vb: WeaponAsset.New(WeaponHash)
+  fullName.vb: GTA.WeaponAsset.New(GTA.WeaponHash)
+  name.vb: New(WeaponHash)
+- uid: GTA.WeaponAsset.Request
+  commentId: M:GTA.WeaponAsset.Request
+  id: Request
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: Request()
+  nameWithType: WeaponAsset.Request()
+  fullName: GTA.WeaponAsset.Request()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void Request()
+    content.vb: Public Sub Request()
+  overload: GTA.WeaponAsset.Request*
+  implements:
+  - GTA.IScriptStreamingResource.Request
+- uid: GTA.WeaponAsset.Request(System.Int32)
+  commentId: M:GTA.WeaponAsset.Request(System.Int32)
+  id: Request(System.Int32)
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: Request(int)
+  nameWithType: WeaponAsset.Request(int)
+  fullName: GTA.WeaponAsset.Request(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool Request(int timeout)
+    parameters:
+    - id: timeout
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function Request(timeout As Integer) As Boolean
+  overload: GTA.WeaponAsset.Request*
+  nameWithType.vb: WeaponAsset.Request(Integer)
+  fullName.vb: GTA.WeaponAsset.Request(Integer)
+  name.vb: Request(Integer)
+- uid: GTA.WeaponAsset.Request(GTA.WeaponScriptResourceFlags,GTA.ExtraWeaponComponentScriptResourceFlags)
+  commentId: M:GTA.WeaponAsset.Request(GTA.WeaponScriptResourceFlags,GTA.ExtraWeaponComponentScriptResourceFlags)
+  id: Request(GTA.WeaponScriptResourceFlags,GTA.ExtraWeaponComponentScriptResourceFlags)
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: Request(WeaponScriptResourceFlags, ExtraWeaponComponentScriptResourceFlags)
+  nameWithType: WeaponAsset.Request(WeaponScriptResourceFlags, ExtraWeaponComponentScriptResourceFlags)
+  fullName: GTA.WeaponAsset.Request(GTA.WeaponScriptResourceFlags, GTA.ExtraWeaponComponentScriptResourceFlags)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Request(WeaponScriptResourceFlags weaponResourceFlags, ExtraWeaponComponentScriptResourceFlags extraWeaponComponentResourceFlags = ExtraWeaponComponentScriptResourceFlags.None)
+    parameters:
+    - id: weaponResourceFlags
+      type: GTA.WeaponScriptResourceFlags
+    - id: extraWeaponComponentResourceFlags
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+    content.vb: Public Sub Request(weaponResourceFlags As WeaponScriptResourceFlags, extraWeaponComponentResourceFlags As ExtraWeaponComponentScriptResourceFlags = ExtraWeaponComponentScriptResourceFlags.None)
+  overload: GTA.WeaponAsset.Request*
+- uid: GTA.WeaponAsset.MarkAsNoLongerNeeded
+  commentId: M:GTA.WeaponAsset.MarkAsNoLongerNeeded
+  id: MarkAsNoLongerNeeded
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: MarkAsNoLongerNeeded()
+  nameWithType: WeaponAsset.MarkAsNoLongerNeeded()
+  fullName: GTA.WeaponAsset.MarkAsNoLongerNeeded()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void MarkAsNoLongerNeeded()
+    content.vb: Public Sub MarkAsNoLongerNeeded()
+  overload: GTA.WeaponAsset.MarkAsNoLongerNeeded*
+  implements:
+  - GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+- uid: GTA.WeaponAsset.Equals(GTA.WeaponAsset)
+  commentId: M:GTA.WeaponAsset.Equals(GTA.WeaponAsset)
+  id: Equals(GTA.WeaponAsset)
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: Equals(WeaponAsset)
+  nameWithType: WeaponAsset.Equals(WeaponAsset)
+  fullName: GTA.WeaponAsset.Equals(GTA.WeaponAsset)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool Equals(WeaponAsset weaponAsset)
+    parameters:
+    - id: weaponAsset
+      type: GTA.WeaponAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(weaponAsset As WeaponAsset) As Boolean
+  overload: GTA.WeaponAsset.Equals*
+  implements:
+  - System.IEquatable{GTA.WeaponAsset}.Equals(GTA.WeaponAsset)
+- uid: GTA.WeaponAsset.Equals(System.Object)
+  commentId: M:GTA.WeaponAsset.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: WeaponAsset.Equals(object)
+  fullName: GTA.WeaponAsset.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.WeaponAsset.Equals*
+  nameWithType.vb: WeaponAsset.Equals(Object)
+  fullName.vb: GTA.WeaponAsset.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.WeaponAsset.op_Equality(GTA.WeaponAsset,GTA.WeaponAsset)
+  commentId: M:GTA.WeaponAsset.op_Equality(GTA.WeaponAsset,GTA.WeaponAsset)
+  id: op_Equality(GTA.WeaponAsset,GTA.WeaponAsset)
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: operator ==(WeaponAsset, WeaponAsset)
+  nameWithType: WeaponAsset.operator ==(WeaponAsset, WeaponAsset)
+  fullName: GTA.WeaponAsset.operator ==(GTA.WeaponAsset, GTA.WeaponAsset)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(WeaponAsset left, WeaponAsset right)
+    parameters:
+    - id: left
+      type: GTA.WeaponAsset
+    - id: right
+      type: GTA.WeaponAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As WeaponAsset, right As WeaponAsset) As Boolean
+  overload: GTA.WeaponAsset.op_Equality*
+  nameWithType.vb: WeaponAsset.=(WeaponAsset, WeaponAsset)
+  fullName.vb: GTA.WeaponAsset.=(GTA.WeaponAsset, GTA.WeaponAsset)
+  name.vb: =(WeaponAsset, WeaponAsset)
+- uid: GTA.WeaponAsset.op_Inequality(GTA.WeaponAsset,GTA.WeaponAsset)
+  commentId: M:GTA.WeaponAsset.op_Inequality(GTA.WeaponAsset,GTA.WeaponAsset)
+  id: op_Inequality(GTA.WeaponAsset,GTA.WeaponAsset)
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: operator !=(WeaponAsset, WeaponAsset)
+  nameWithType: WeaponAsset.operator !=(WeaponAsset, WeaponAsset)
+  fullName: GTA.WeaponAsset.operator !=(GTA.WeaponAsset, GTA.WeaponAsset)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(WeaponAsset left, WeaponAsset right)
+    parameters:
+    - id: left
+      type: GTA.WeaponAsset
+    - id: right
+      type: GTA.WeaponAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As WeaponAsset, right As WeaponAsset) As Boolean
+  overload: GTA.WeaponAsset.op_Inequality*
+  nameWithType.vb: WeaponAsset.<>(WeaponAsset, WeaponAsset)
+  fullName.vb: GTA.WeaponAsset.<>(GTA.WeaponAsset, GTA.WeaponAsset)
+  name.vb: <>(WeaponAsset, WeaponAsset)
+- uid: GTA.WeaponAsset.op_Implicit(System.Int32)~GTA.WeaponAsset
+  commentId: M:GTA.WeaponAsset.op_Implicit(System.Int32)~GTA.WeaponAsset
+  id: op_Implicit(System.Int32)~GTA.WeaponAsset
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator WeaponAsset(int)
+  nameWithType: WeaponAsset.implicit operator WeaponAsset(int)
+  fullName: GTA.WeaponAsset.implicit operator GTA.WeaponAsset(int)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator WeaponAsset(int hash)
+    parameters:
+    - id: hash
+      type: System.Int32
+    return:
+      type: GTA.WeaponAsset
+    content.vb: Public Shared Widening Operator CType(hash As Integer) As WeaponAsset
+  overload: GTA.WeaponAsset.op_Implicit*
+  nameWithType.vb: WeaponAsset.CType(Integer)
+  fullName.vb: GTA.WeaponAsset.CType(Integer)
+  name.vb: CType(Integer)
+- uid: GTA.WeaponAsset.op_Implicit(System.UInt32)~GTA.WeaponAsset
+  commentId: M:GTA.WeaponAsset.op_Implicit(System.UInt32)~GTA.WeaponAsset
+  id: op_Implicit(System.UInt32)~GTA.WeaponAsset
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator WeaponAsset(uint)
+  nameWithType: WeaponAsset.implicit operator WeaponAsset(uint)
+  fullName: GTA.WeaponAsset.implicit operator GTA.WeaponAsset(uint)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator WeaponAsset(uint hash)
+    parameters:
+    - id: hash
+      type: System.UInt32
+    return:
+      type: GTA.WeaponAsset
+    content.vb: Public Shared Widening Operator CType(hash As UInteger) As WeaponAsset
+  overload: GTA.WeaponAsset.op_Implicit*
+  nameWithType.vb: WeaponAsset.CType(UInteger)
+  fullName.vb: GTA.WeaponAsset.CType(UInteger)
+  name.vb: CType(UInteger)
+- uid: GTA.WeaponAsset.op_Implicit(GTA.WeaponHash)~GTA.WeaponAsset
+  commentId: M:GTA.WeaponAsset.op_Implicit(GTA.WeaponHash)~GTA.WeaponAsset
+  id: op_Implicit(GTA.WeaponHash)~GTA.WeaponAsset
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator WeaponAsset(WeaponHash)
+  nameWithType: WeaponAsset.implicit operator WeaponAsset(WeaponHash)
+  fullName: GTA.WeaponAsset.implicit operator GTA.WeaponAsset(GTA.WeaponHash)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator WeaponAsset(WeaponHash hash)
+    parameters:
+    - id: hash
+      type: GTA.WeaponHash
+    return:
+      type: GTA.WeaponAsset
+    content.vb: Public Shared Widening Operator CType(hash As WeaponHash) As WeaponAsset
+  overload: GTA.WeaponAsset.op_Implicit*
+  nameWithType.vb: WeaponAsset.CType(WeaponHash)
+  fullName.vb: GTA.WeaponAsset.CType(GTA.WeaponHash)
+  name.vb: CType(WeaponHash)
+- uid: GTA.WeaponAsset.op_Implicit(GTA.WeaponAsset)~GTA.Native.InputArgument
+  commentId: M:GTA.WeaponAsset.op_Implicit(GTA.WeaponAsset)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.WeaponAsset)~GTA.Native.InputArgument
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(WeaponAsset)
+  nameWithType: WeaponAsset.implicit operator InputArgument(WeaponAsset)
+  fullName: GTA.WeaponAsset.implicit operator GTA.Native.InputArgument(GTA.WeaponAsset)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(WeaponAsset value)
+    parameters:
+    - id: value
+      type: GTA.WeaponAsset
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As WeaponAsset) As InputArgument
+  overload: GTA.WeaponAsset.op_Implicit*
+  nameWithType.vb: WeaponAsset.CType(WeaponAsset)
+  fullName.vb: GTA.WeaponAsset.CType(GTA.WeaponAsset)
+  name.vb: CType(WeaponAsset)
+- uid: GTA.WeaponAsset.GetHashCode
+  commentId: M:GTA.WeaponAsset.GetHashCode
+  id: GetHashCode
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WeaponAsset.GetHashCode()
+  fullName: GTA.WeaponAsset.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.WeaponAsset.GetHashCode*
+- uid: GTA.WeaponAsset.ToString
+  commentId: M:GTA.WeaponAsset.ToString
+  id: ToString
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WeaponAsset.ToString()
+  fullName: GTA.WeaponAsset.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.WeaponAsset.ToString*
+- uid: GTA.WeaponAsset.Hash
+  commentId: P:GTA.WeaponAsset.Hash
+  id: Hash
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: WeaponAsset.Hash
+  fullName: GTA.WeaponAsset.Hash
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public readonly int Hash { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Hash As Integer
+  overload: GTA.WeaponAsset.Hash*
+- uid: GTA.WeaponAsset.SlotHash
+  commentId: P:GTA.WeaponAsset.SlotHash
+  id: SlotHash
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: SlotHash
+  nameWithType: WeaponAsset.SlotHash
+  fullName: GTA.WeaponAsset.SlotHash
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int SlotHash { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SlotHash As Integer
+  overload: GTA.WeaponAsset.SlotHash*
+- uid: GTA.WeaponAsset.NativeValue
+  commentId: P:GTA.WeaponAsset.NativeValue
+  id: NativeValue
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: NativeValue
+  nameWithType: WeaponAsset.NativeValue
+  fullName: GTA.WeaponAsset.NativeValue
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public ulong NativeValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property NativeValue As ULong
+  overload: GTA.WeaponAsset.NativeValue*
+  implements:
+  - GTA.Native.INativeValue.NativeValue
+- uid: GTA.WeaponAsset.IsValid
+  commentId: P:GTA.WeaponAsset.IsValid
+  id: IsValid
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: WeaponAsset.IsValid
+  fullName: GTA.WeaponAsset.IsValid
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: GTA.WeaponAsset.IsValid*
+- uid: GTA.WeaponAsset.IsValidAsWeaponHash
+  commentId: P:GTA.WeaponAsset.IsValidAsWeaponHash
+  id: IsValidAsWeaponHash
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: IsValidAsWeaponHash
+  nameWithType: WeaponAsset.IsValidAsWeaponHash
+  fullName: GTA.WeaponAsset.IsValidAsWeaponHash
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsValidAsWeaponHash { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValidAsWeaponHash As Boolean
+  overload: GTA.WeaponAsset.IsValidAsWeaponHash*
+- uid: GTA.WeaponAsset.IsLoaded
+  commentId: P:GTA.WeaponAsset.IsLoaded
+  id: IsLoaded
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: WeaponAsset.IsLoaded
+  fullName: GTA.WeaponAsset.IsLoaded
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoaded As Boolean
+  overload: GTA.WeaponAsset.IsLoaded*
+  implements:
+  - GTA.IScriptStreamingResource.IsLoaded
+- uid: GTA.WeaponAsset.DisplayName
+  commentId: P:GTA.WeaponAsset.DisplayName
+  id: DisplayName
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: WeaponAsset.DisplayName
+  fullName: GTA.WeaponAsset.DisplayName
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string DisplayName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayName As String
+  overload: GTA.WeaponAsset.DisplayName*
+- uid: GTA.WeaponAsset.HumanName
+  commentId: P:GTA.WeaponAsset.HumanName
+  id: HumanName
+  parent: GTA.WeaponAsset
+  langs:
+  - csharp
+  - vb
+  name: HumanName
+  nameWithType: WeaponAsset.HumanName
+  fullName: GTA.WeaponAsset.HumanName
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string HumanName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property HumanName As String
+  overload: GTA.WeaponAsset.HumanName*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.IEquatable{GTA.WeaponAsset}
+  commentId: T:System.IEquatable{GTA.WeaponAsset}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<WeaponAsset>
+  nameWithType: IEquatable<WeaponAsset>
+  fullName: System.IEquatable<GTA.WeaponAsset>
+  nameWithType.vb: IEquatable(Of WeaponAsset)
+  fullName.vb: System.IEquatable(Of GTA.WeaponAsset)
+  name.vb: IEquatable(Of WeaponAsset)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.WeaponAsset
+    name: WeaponAsset
+    isExternal: true
+    href: GTA.WeaponAsset.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.WeaponAsset
+    name: WeaponAsset
+    isExternal: true
+    href: GTA.WeaponAsset.html
+  - name: )
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: GTA.IScriptStreamingResource
+  commentId: T:GTA.IScriptStreamingResource
+  parent: GTA
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html
+  name: IScriptStreamingResource
+  nameWithType: IScriptStreamingResource
+  fullName: GTA.IScriptStreamingResource
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.WeaponAsset.#ctor*
+  commentId: Overload:GTA.WeaponAsset.#ctor
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset__ctor_System_Int32_
+  name: WeaponAsset
+  nameWithType: WeaponAsset.WeaponAsset
+  fullName: GTA.WeaponAsset.WeaponAsset
+  nameWithType.vb: WeaponAsset.New
+  fullName.vb: GTA.WeaponAsset.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: GTA.WeaponHash
+  commentId: T:GTA.WeaponHash
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponHash.html
+  name: WeaponHash
+  nameWithType: WeaponHash
+  fullName: GTA.WeaponHash
+- uid: GTA.WeaponAsset.Request*
+  commentId: Overload:GTA.WeaponAsset.Request
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_Request
+  name: Request
+  nameWithType: WeaponAsset.Request
+  fullName: GTA.WeaponAsset.Request
+- uid: GTA.IScriptStreamingResource.Request
+  commentId: M:GTA.IScriptStreamingResource.Request
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  name: Request()
+  nameWithType: IScriptStreamingResource.Request()
+  fullName: GTA.IScriptStreamingResource.Request()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.WeaponScriptResourceFlags
+  commentId: T:GTA.WeaponScriptResourceFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponScriptResourceFlags.html
+  name: WeaponScriptResourceFlags
+  nameWithType: WeaponScriptResourceFlags
+  fullName: GTA.WeaponScriptResourceFlags
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags
+  commentId: T:GTA.ExtraWeaponComponentScriptResourceFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.ExtraWeaponComponentScriptResourceFlags.html
+  name: ExtraWeaponComponentScriptResourceFlags
+  nameWithType: ExtraWeaponComponentScriptResourceFlags
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags
+- uid: GTA.WeaponAsset.MarkAsNoLongerNeeded*
+  commentId: Overload:GTA.WeaponAsset.MarkAsNoLongerNeeded
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded
+  nameWithType: WeaponAsset.MarkAsNoLongerNeeded
+  fullName: GTA.WeaponAsset.MarkAsNoLongerNeeded
+- uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  commentId: M:GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded()
+  nameWithType: IScriptStreamingResource.MarkAsNoLongerNeeded()
+  fullName: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+- uid: GTA.WeaponAsset.Equals*
+  commentId: Overload:GTA.WeaponAsset.Equals
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_Equals_GTA_WeaponAsset_
+  name: Equals
+  nameWithType: WeaponAsset.Equals
+  fullName: GTA.WeaponAsset.Equals
+- uid: System.IEquatable{GTA.WeaponAsset}.Equals(GTA.WeaponAsset)
+  commentId: M:System.IEquatable{GTA.WeaponAsset}.Equals(GTA.WeaponAsset)
+  parent: System.IEquatable{GTA.WeaponAsset}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(WeaponAsset)
+  nameWithType: IEquatable<WeaponAsset>.Equals(WeaponAsset)
+  fullName: System.IEquatable<GTA.WeaponAsset>.Equals(GTA.WeaponAsset)
+  nameWithType.vb: IEquatable(Of WeaponAsset).Equals(WeaponAsset)
+  fullName.vb: System.IEquatable(Of GTA.WeaponAsset).Equals(GTA.WeaponAsset)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.WeaponAsset}.Equals(GTA.WeaponAsset)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.WeaponAsset
+    name: WeaponAsset
+    isExternal: true
+    href: GTA.WeaponAsset.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.WeaponAsset}.Equals(GTA.WeaponAsset)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.WeaponAsset
+    name: WeaponAsset
+    isExternal: true
+    href: GTA.WeaponAsset.html
+  - name: )
+- uid: GTA.WeaponAsset
+  commentId: T:GTA.WeaponAsset
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponAsset.html
+  name: WeaponAsset
+  nameWithType: WeaponAsset
+  fullName: GTA.WeaponAsset
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: GTA.WeaponAsset.op_Equality*
+  commentId: Overload:GTA.WeaponAsset.op_Equality
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_op_Equality_GTA_WeaponAsset_GTA_WeaponAsset_
+  name: operator ==
+  nameWithType: WeaponAsset.operator ==
+  fullName: GTA.WeaponAsset.operator ==
+  nameWithType.vb: WeaponAsset.=
+  fullName.vb: GTA.WeaponAsset.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.WeaponAsset.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.WeaponAsset.html#GTA_WeaponAsset_op_Equality_GTA_WeaponAsset_GTA_WeaponAsset_
+- uid: GTA.WeaponAsset.op_Inequality*
+  commentId: Overload:GTA.WeaponAsset.op_Inequality
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_op_Inequality_GTA_WeaponAsset_GTA_WeaponAsset_
+  name: operator !=
+  nameWithType: WeaponAsset.operator !=
+  fullName: GTA.WeaponAsset.operator !=
+  nameWithType.vb: WeaponAsset.<>
+  fullName.vb: GTA.WeaponAsset.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.WeaponAsset.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.WeaponAsset.html#GTA_WeaponAsset_op_Inequality_GTA_WeaponAsset_GTA_WeaponAsset_
+- uid: GTA.WeaponAsset.op_Implicit*
+  commentId: Overload:GTA.WeaponAsset.op_Implicit
+  name: implicit operator
+  nameWithType: WeaponAsset.implicit operator
+  fullName: GTA.WeaponAsset.implicit operator
+  nameWithType.vb: WeaponAsset.CType
+  fullName.vb: GTA.WeaponAsset.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.WeaponAsset.GetHashCode*
+  commentId: Overload:GTA.WeaponAsset.GetHashCode
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_GetHashCode
+  name: GetHashCode
+  nameWithType: WeaponAsset.GetHashCode
+  fullName: GTA.WeaponAsset.GetHashCode
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.WeaponAsset.ToString*
+  commentId: Overload:GTA.WeaponAsset.ToString
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_ToString
+  name: ToString
+  nameWithType: WeaponAsset.ToString
+  fullName: GTA.WeaponAsset.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.WeaponAsset.Hash*
+  commentId: Overload:GTA.WeaponAsset.Hash
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_Hash
+  name: Hash
+  nameWithType: WeaponAsset.Hash
+  fullName: GTA.WeaponAsset.Hash
+- uid: GTA.WeaponAsset.SlotHash*
+  commentId: Overload:GTA.WeaponAsset.SlotHash
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_SlotHash
+  name: SlotHash
+  nameWithType: WeaponAsset.SlotHash
+  fullName: GTA.WeaponAsset.SlotHash
+- uid: GTA.WeaponAsset.NativeValue*
+  commentId: Overload:GTA.WeaponAsset.NativeValue
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_NativeValue
+  name: NativeValue
+  nameWithType: WeaponAsset.NativeValue
+  fullName: GTA.WeaponAsset.NativeValue
+- uid: GTA.Native.INativeValue.NativeValue
+  commentId: P:GTA.Native.INativeValue.NativeValue
+  parent: GTA.Native.INativeValue
+  isExternal: true
+  href: GTA.Native.INativeValue.html#GTA_Native_INativeValue_NativeValue
+  name: NativeValue
+  nameWithType: INativeValue.NativeValue
+  fullName: GTA.Native.INativeValue.NativeValue
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: GTA.WeaponAsset.IsValid*
+  commentId: Overload:GTA.WeaponAsset.IsValid
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_IsValid
+  name: IsValid
+  nameWithType: WeaponAsset.IsValid
+  fullName: GTA.WeaponAsset.IsValid
+- uid: GTA.WeaponAsset.IsValidAsWeaponHash*
+  commentId: Overload:GTA.WeaponAsset.IsValidAsWeaponHash
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_IsValidAsWeaponHash
+  name: IsValidAsWeaponHash
+  nameWithType: WeaponAsset.IsValidAsWeaponHash
+  fullName: GTA.WeaponAsset.IsValidAsWeaponHash
+- uid: GTA.WeaponAsset.IsLoaded*
+  commentId: Overload:GTA.WeaponAsset.IsLoaded
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_IsLoaded
+  name: IsLoaded
+  nameWithType: WeaponAsset.IsLoaded
+  fullName: GTA.WeaponAsset.IsLoaded
+- uid: GTA.IScriptStreamingResource.IsLoaded
+  commentId: P:GTA.IScriptStreamingResource.IsLoaded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_IsLoaded
+  name: IsLoaded
+  nameWithType: IScriptStreamingResource.IsLoaded
+  fullName: GTA.IScriptStreamingResource.IsLoaded
+- uid: GTA.WeaponAsset.DisplayName*
+  commentId: Overload:GTA.WeaponAsset.DisplayName
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_DisplayName
+  name: DisplayName
+  nameWithType: WeaponAsset.DisplayName
+  fullName: GTA.WeaponAsset.DisplayName
+- uid: GTA.WeaponAsset.HumanName*
+  commentId: Overload:GTA.WeaponAsset.HumanName
+  isExternal: true
+  href: GTA.WeaponAsset.html#GTA_WeaponAsset_HumanName
+  name: HumanName
+  nameWithType: WeaponAsset.HumanName
+  fullName: GTA.WeaponAsset.HumanName

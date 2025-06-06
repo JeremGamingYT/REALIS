@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleWeaponHandlingData
+  commentId: T:GTA.VehicleWeaponHandlingData
+  id: VehicleWeaponHandlingData
+  parent: GTA
+  children:
+  - GTA.VehicleWeaponHandlingData.Equals(System.Object)
+  - GTA.VehicleWeaponHandlingData.GetHashCode
+  - GTA.VehicleWeaponHandlingData.TurretPitchMax
+  - GTA.VehicleWeaponHandlingData.TurretPitchMin
+  - GTA.VehicleWeaponHandlingData.TurretSpeed
+  - GTA.VehicleWeaponHandlingData.WeaponHash
+  - GTA.VehicleWeaponHandlingData.WeaponSeats
+  - GTA.VehicleWeaponHandlingData.WeaponVehicleModType
+  - GTA.VehicleWeaponHandlingData.op_Equality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  - GTA.VehicleWeaponHandlingData.op_Inequality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  langs:
+  - csharp
+  - vb
+  name: VehicleWeaponHandlingData
+  nameWithType: VehicleWeaponHandlingData
+  fullName: GTA.VehicleWeaponHandlingData
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class VehicleWeaponHandlingData : BaseSubHandlingData'
+    content.vb: Public NotInheritable Class VehicleWeaponHandlingData Inherits BaseSubHandlingData
+  inheritance:
+  - System.Object
+  - GTA.BaseSubHandlingData
+  inheritedMembers:
+  - GTA.BaseSubHandlingData.MemoryAddress
+  - GTA.BaseSubHandlingData.Parent
+  - GTA.BaseSubHandlingData.HandlingType
+  - GTA.BaseSubHandlingData.IsValid
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.VehicleWeaponHandlingData.Equals(System.Object)
+  commentId: M:GTA.VehicleWeaponHandlingData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: VehicleWeaponHandlingData.Equals(object)
+  fullName: GTA.VehicleWeaponHandlingData.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: GTA.BaseSubHandlingData.Equals(System.Object)
+  overload: GTA.VehicleWeaponHandlingData.Equals*
+  nameWithType.vb: VehicleWeaponHandlingData.Equals(Object)
+  fullName.vb: GTA.VehicleWeaponHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.VehicleWeaponHandlingData.op_Equality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  commentId: M:GTA.VehicleWeaponHandlingData.op_Equality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  id: op_Equality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator ==(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+  nameWithType: VehicleWeaponHandlingData.operator ==(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+  fullName: GTA.VehicleWeaponHandlingData.operator ==(GTA.VehicleWeaponHandlingData, GTA.VehicleWeaponHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(VehicleWeaponHandlingData left, VehicleWeaponHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.VehicleWeaponHandlingData
+    - id: right
+      type: GTA.VehicleWeaponHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As VehicleWeaponHandlingData, right As VehicleWeaponHandlingData) As Boolean
+  overload: GTA.VehicleWeaponHandlingData.op_Equality*
+  nameWithType.vb: VehicleWeaponHandlingData.=(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+  fullName.vb: GTA.VehicleWeaponHandlingData.=(GTA.VehicleWeaponHandlingData, GTA.VehicleWeaponHandlingData)
+  name.vb: =(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+- uid: GTA.VehicleWeaponHandlingData.op_Inequality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  commentId: M:GTA.VehicleWeaponHandlingData.op_Inequality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  id: op_Inequality(GTA.VehicleWeaponHandlingData,GTA.VehicleWeaponHandlingData)
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator !=(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+  nameWithType: VehicleWeaponHandlingData.operator !=(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+  fullName: GTA.VehicleWeaponHandlingData.operator !=(GTA.VehicleWeaponHandlingData, GTA.VehicleWeaponHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(VehicleWeaponHandlingData left, VehicleWeaponHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.VehicleWeaponHandlingData
+    - id: right
+      type: GTA.VehicleWeaponHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As VehicleWeaponHandlingData, right As VehicleWeaponHandlingData) As Boolean
+  overload: GTA.VehicleWeaponHandlingData.op_Inequality*
+  nameWithType.vb: VehicleWeaponHandlingData.<>(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+  fullName.vb: GTA.VehicleWeaponHandlingData.<>(GTA.VehicleWeaponHandlingData, GTA.VehicleWeaponHandlingData)
+  name.vb: <>(VehicleWeaponHandlingData, VehicleWeaponHandlingData)
+- uid: GTA.VehicleWeaponHandlingData.GetHashCode
+  commentId: M:GTA.VehicleWeaponHandlingData.GetHashCode
+  id: GetHashCode
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: VehicleWeaponHandlingData.GetHashCode()
+  fullName: GTA.VehicleWeaponHandlingData.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: GTA.BaseSubHandlingData.GetHashCode
+  overload: GTA.VehicleWeaponHandlingData.GetHashCode*
+- uid: GTA.VehicleWeaponHandlingData.WeaponHash
+  commentId: P:GTA.VehicleWeaponHandlingData.WeaponHash
+  id: WeaponHash
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: WeaponHash
+  nameWithType: VehicleWeaponHandlingData.WeaponHash
+  fullName: GTA.VehicleWeaponHandlingData.WeaponHash
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleWeaponHash[] WeaponHash { get; set; }
+    parameters: []
+    return:
+      type: GTA.VehicleWeaponHash[]
+    content.vb: Public Property WeaponHash As VehicleWeaponHash()
+  overload: GTA.VehicleWeaponHandlingData.WeaponHash*
+- uid: GTA.VehicleWeaponHandlingData.WeaponSeats
+  commentId: P:GTA.VehicleWeaponHandlingData.WeaponSeats
+  id: WeaponSeats
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: WeaponSeats
+  nameWithType: VehicleWeaponHandlingData.WeaponSeats
+  fullName: GTA.VehicleWeaponHandlingData.WeaponSeats
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleSeat[] WeaponSeats { get; set; }
+    parameters: []
+    return:
+      type: GTA.VehicleSeat[]
+    content.vb: Public Property WeaponSeats As VehicleSeat()
+  overload: GTA.VehicleWeaponHandlingData.WeaponSeats*
+- uid: GTA.VehicleWeaponHandlingData.WeaponVehicleModType
+  commentId: P:GTA.VehicleWeaponHandlingData.WeaponVehicleModType
+  id: WeaponVehicleModType
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: WeaponVehicleModType
+  nameWithType: VehicleWeaponHandlingData.WeaponVehicleModType
+  fullName: GTA.VehicleWeaponHandlingData.WeaponVehicleModType
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleModType[] WeaponVehicleModType { get; set; }
+    parameters: []
+    return:
+      type: GTA.VehicleModType[]
+    content.vb: Public Property WeaponVehicleModType As VehicleModType()
+  overload: GTA.VehicleWeaponHandlingData.WeaponVehicleModType*
+- uid: GTA.VehicleWeaponHandlingData.TurretSpeed
+  commentId: P:GTA.VehicleWeaponHandlingData.TurretSpeed
+  id: TurretSpeed
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: TurretSpeed
+  nameWithType: VehicleWeaponHandlingData.TurretSpeed
+  fullName: GTA.VehicleWeaponHandlingData.TurretSpeed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float[] TurretSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: Public Property TurretSpeed As Single()
+  overload: GTA.VehicleWeaponHandlingData.TurretSpeed*
+- uid: GTA.VehicleWeaponHandlingData.TurretPitchMin
+  commentId: P:GTA.VehicleWeaponHandlingData.TurretPitchMin
+  id: TurretPitchMin
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: TurretPitchMin
+  nameWithType: VehicleWeaponHandlingData.TurretPitchMin
+  fullName: GTA.VehicleWeaponHandlingData.TurretPitchMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float[] TurretPitchMin { get; set; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: Public Property TurretPitchMin As Single()
+  overload: GTA.VehicleWeaponHandlingData.TurretPitchMin*
+- uid: GTA.VehicleWeaponHandlingData.TurretPitchMax
+  commentId: P:GTA.VehicleWeaponHandlingData.TurretPitchMax
+  id: TurretPitchMax
+  parent: GTA.VehicleWeaponHandlingData
+  langs:
+  - csharp
+  - vb
+  name: TurretPitchMax
+  nameWithType: VehicleWeaponHandlingData.TurretPitchMax
+  fullName: GTA.VehicleWeaponHandlingData.TurretPitchMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float[] TurretPitchMax { get; set; }
+    parameters: []
+    return:
+      type: System.Single[]
+    content.vb: Public Property TurretPitchMax As Single()
+  overload: GTA.VehicleWeaponHandlingData.TurretPitchMax*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.BaseSubHandlingData
+  commentId: T:GTA.BaseSubHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html
+  name: BaseSubHandlingData
+  nameWithType: BaseSubHandlingData
+  fullName: GTA.BaseSubHandlingData
+- uid: GTA.BaseSubHandlingData.MemoryAddress
+  commentId: P:GTA.BaseSubHandlingData.MemoryAddress
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_MemoryAddress
+  name: MemoryAddress
+  nameWithType: BaseSubHandlingData.MemoryAddress
+  fullName: GTA.BaseSubHandlingData.MemoryAddress
+- uid: GTA.BaseSubHandlingData.Parent
+  commentId: P:GTA.BaseSubHandlingData.Parent
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Parent
+  name: Parent
+  nameWithType: BaseSubHandlingData.Parent
+  fullName: GTA.BaseSubHandlingData.Parent
+- uid: GTA.BaseSubHandlingData.HandlingType
+  commentId: P:GTA.BaseSubHandlingData.HandlingType
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_HandlingType
+  name: HandlingType
+  nameWithType: BaseSubHandlingData.HandlingType
+  fullName: GTA.BaseSubHandlingData.HandlingType
+- uid: GTA.BaseSubHandlingData.IsValid
+  commentId: P:GTA.BaseSubHandlingData.IsValid
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_IsValid
+  name: IsValid
+  nameWithType: BaseSubHandlingData.IsValid
+  fullName: GTA.BaseSubHandlingData.IsValid
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.BaseSubHandlingData.Equals(System.Object)
+  commentId: M:GTA.BaseSubHandlingData.Equals(System.Object)
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: BaseSubHandlingData.Equals(object)
+  fullName: GTA.BaseSubHandlingData.Equals(object)
+  nameWithType.vb: BaseSubHandlingData.Equals(Object)
+  fullName.vb: GTA.BaseSubHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: GTA.BaseSubHandlingData.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: GTA.BaseSubHandlingData.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.VehicleWeaponHandlingData.Equals*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.Equals
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_Equals_System_Object_
+  name: Equals
+  nameWithType: VehicleWeaponHandlingData.Equals
+  fullName: GTA.VehicleWeaponHandlingData.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.VehicleWeaponHandlingData.op_Equality*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.op_Equality
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_op_Equality_GTA_VehicleWeaponHandlingData_GTA_VehicleWeaponHandlingData_
+  name: operator ==
+  nameWithType: VehicleWeaponHandlingData.operator ==
+  fullName: GTA.VehicleWeaponHandlingData.operator ==
+  nameWithType.vb: VehicleWeaponHandlingData.=
+  fullName.vb: GTA.VehicleWeaponHandlingData.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.VehicleWeaponHandlingData.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_op_Equality_GTA_VehicleWeaponHandlingData_GTA_VehicleWeaponHandlingData_
+- uid: GTA.VehicleWeaponHandlingData
+  commentId: T:GTA.VehicleWeaponHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html
+  name: VehicleWeaponHandlingData
+  nameWithType: VehicleWeaponHandlingData
+  fullName: GTA.VehicleWeaponHandlingData
+- uid: GTA.VehicleWeaponHandlingData.op_Inequality*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.op_Inequality
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_op_Inequality_GTA_VehicleWeaponHandlingData_GTA_VehicleWeaponHandlingData_
+  name: operator !=
+  nameWithType: VehicleWeaponHandlingData.operator !=
+  fullName: GTA.VehicleWeaponHandlingData.operator !=
+  nameWithType.vb: VehicleWeaponHandlingData.<>
+  fullName.vb: GTA.VehicleWeaponHandlingData.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.VehicleWeaponHandlingData.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_op_Inequality_GTA_VehicleWeaponHandlingData_GTA_VehicleWeaponHandlingData_
+- uid: GTA.BaseSubHandlingData.GetHashCode
+  commentId: M:GTA.BaseSubHandlingData.GetHashCode
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  name: GetHashCode()
+  nameWithType: BaseSubHandlingData.GetHashCode()
+  fullName: GTA.BaseSubHandlingData.GetHashCode()
+  spec.csharp:
+  - uid: GTA.BaseSubHandlingData.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.BaseSubHandlingData.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  - name: (
+  - name: )
+- uid: GTA.VehicleWeaponHandlingData.GetHashCode*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.GetHashCode
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_GetHashCode
+  name: GetHashCode
+  nameWithType: VehicleWeaponHandlingData.GetHashCode
+  fullName: GTA.VehicleWeaponHandlingData.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.VehicleWeaponHandlingData.WeaponHash*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.WeaponHash
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_WeaponHash
+  name: WeaponHash
+  nameWithType: VehicleWeaponHandlingData.WeaponHash
+  fullName: GTA.VehicleWeaponHandlingData.WeaponHash
+- uid: GTA.VehicleWeaponHash[]
+  isExternal: true
+  href: GTA.VehicleWeaponHash.html
+  name: VehicleWeaponHash[]
+  nameWithType: VehicleWeaponHash[]
+  fullName: GTA.VehicleWeaponHash[]
+  nameWithType.vb: VehicleWeaponHash()
+  fullName.vb: GTA.VehicleWeaponHash()
+  name.vb: VehicleWeaponHash()
+  spec.csharp:
+  - uid: GTA.VehicleWeaponHash
+    name: VehicleWeaponHash
+    isExternal: true
+    href: GTA.VehicleWeaponHash.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.VehicleWeaponHash
+    name: VehicleWeaponHash
+    isExternal: true
+    href: GTA.VehicleWeaponHash.html
+  - name: (
+  - name: )
+- uid: GTA.VehicleWeaponHandlingData.WeaponSeats*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.WeaponSeats
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_WeaponSeats
+  name: WeaponSeats
+  nameWithType: VehicleWeaponHandlingData.WeaponSeats
+  fullName: GTA.VehicleWeaponHandlingData.WeaponSeats
+- uid: GTA.VehicleSeat[]
+  isExternal: true
+  href: GTA.VehicleSeat.html
+  name: VehicleSeat[]
+  nameWithType: VehicleSeat[]
+  fullName: GTA.VehicleSeat[]
+  nameWithType.vb: VehicleSeat()
+  fullName.vb: GTA.VehicleSeat()
+  name.vb: VehicleSeat()
+  spec.csharp:
+  - uid: GTA.VehicleSeat
+    name: VehicleSeat
+    isExternal: true
+    href: GTA.VehicleSeat.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.VehicleSeat
+    name: VehicleSeat
+    isExternal: true
+    href: GTA.VehicleSeat.html
+  - name: (
+  - name: )
+- uid: GTA.VehicleWeaponHandlingData.WeaponVehicleModType*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.WeaponVehicleModType
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_WeaponVehicleModType
+  name: WeaponVehicleModType
+  nameWithType: VehicleWeaponHandlingData.WeaponVehicleModType
+  fullName: GTA.VehicleWeaponHandlingData.WeaponVehicleModType
+- uid: GTA.VehicleModType[]
+  isExternal: true
+  href: GTA.VehicleModType.html
+  name: VehicleModType[]
+  nameWithType: VehicleModType[]
+  fullName: GTA.VehicleModType[]
+  nameWithType.vb: VehicleModType()
+  fullName.vb: GTA.VehicleModType()
+  name.vb: VehicleModType()
+  spec.csharp:
+  - uid: GTA.VehicleModType
+    name: VehicleModType
+    isExternal: true
+    href: GTA.VehicleModType.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.VehicleModType
+    name: VehicleModType
+    isExternal: true
+    href: GTA.VehicleModType.html
+  - name: (
+  - name: )
+- uid: GTA.VehicleWeaponHandlingData.TurretSpeed*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.TurretSpeed
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_TurretSpeed
+  name: TurretSpeed
+  nameWithType: VehicleWeaponHandlingData.TurretSpeed
+  fullName: GTA.VehicleWeaponHandlingData.TurretSpeed
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: GTA.VehicleWeaponHandlingData.TurretPitchMin*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.TurretPitchMin
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_TurretPitchMin
+  name: TurretPitchMin
+  nameWithType: VehicleWeaponHandlingData.TurretPitchMin
+  fullName: GTA.VehicleWeaponHandlingData.TurretPitchMin
+- uid: GTA.VehicleWeaponHandlingData.TurretPitchMax*
+  commentId: Overload:GTA.VehicleWeaponHandlingData.TurretPitchMax
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html#GTA_VehicleWeaponHandlingData_TurretPitchMax
+  name: TurretPitchMax
+  nameWithType: VehicleWeaponHandlingData.TurretPitchMax
+  fullName: GTA.VehicleWeaponHandlingData.TurretPitchMax

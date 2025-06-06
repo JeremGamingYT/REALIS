@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.HeliMissionFlags
+  commentId: T:GTA.HeliMissionFlags
+  id: HeliMissionFlags
+  parent: GTA
+  children:
+  - GTA.HeliMissionFlags.AttainRequestedOrientation
+  - GTA.HeliMissionFlags.CircleOppositeDirection
+  - GTA.HeliMissionFlags.DisableAllHeightMapAvoidance
+  - GTA.HeliMissionFlags.DontClampProbesToDestination
+  - GTA.HeliMissionFlags.DontDoAvoidance
+  - GTA.HeliMissionFlags.DontModifyOrientation
+  - GTA.HeliMissionFlags.DontModifyPitch
+  - GTA.HeliMissionFlags.DontModifyRoll
+  - GTA.HeliMissionFlags.DontModifyThrottle
+  - GTA.HeliMissionFlags.EnableTimeslicingWhenPossible
+  - GTA.HeliMissionFlags.ForceHeightMapAvoidance
+  - GTA.HeliMissionFlags.HeightMapOnlyAvoidance
+  - GTA.HeliMissionFlags.IgnoreHiddenEntitiesDuringLand
+  - GTA.HeliMissionFlags.LandOnArrival
+  - GTA.HeliMissionFlags.MaintainHeightAboveTerrain
+  - GTA.HeliMissionFlags.None
+  - GTA.HeliMissionFlags.StartEngineImmediately
+  langs:
+  - csharp
+  - vb
+  name: HeliMissionFlags
+  nameWithType: HeliMissionFlags
+  fullName: GTA.HeliMissionFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum HeliMissionFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum HeliMissionFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.HeliMissionFlags.AttainRequestedOrientation
+  commentId: F:GTA.HeliMissionFlags.AttainRequestedOrientation
+  id: AttainRequestedOrientation
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: AttainRequestedOrientation
+  nameWithType: HeliMissionFlags.AttainRequestedOrientation
+  fullName: GTA.HeliMissionFlags.AttainRequestedOrientation
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AttainRequestedOrientation = 1
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DontModifyOrientation
+  commentId: F:GTA.HeliMissionFlags.DontModifyOrientation
+  id: DontModifyOrientation
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DontModifyOrientation
+  nameWithType: HeliMissionFlags.DontModifyOrientation
+  fullName: GTA.HeliMissionFlags.DontModifyOrientation
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontModifyOrientation = 2
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DontModifyPitch
+  commentId: F:GTA.HeliMissionFlags.DontModifyPitch
+  id: DontModifyPitch
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DontModifyPitch
+  nameWithType: HeliMissionFlags.DontModifyPitch
+  fullName: GTA.HeliMissionFlags.DontModifyPitch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontModifyPitch = 4
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DontModifyThrottle
+  commentId: F:GTA.HeliMissionFlags.DontModifyThrottle
+  id: DontModifyThrottle
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DontModifyThrottle
+  nameWithType: HeliMissionFlags.DontModifyThrottle
+  fullName: GTA.HeliMissionFlags.DontModifyThrottle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontModifyThrottle = 8
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DontModifyRoll
+  commentId: F:GTA.HeliMissionFlags.DontModifyRoll
+  id: DontModifyRoll
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DontModifyRoll
+  nameWithType: HeliMissionFlags.DontModifyRoll
+  fullName: GTA.HeliMissionFlags.DontModifyRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontModifyRoll = 16
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.LandOnArrival
+  commentId: F:GTA.HeliMissionFlags.LandOnArrival
+  id: LandOnArrival
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: LandOnArrival
+  nameWithType: HeliMissionFlags.LandOnArrival
+  fullName: GTA.HeliMissionFlags.LandOnArrival
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LandOnArrival = 32
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DontDoAvoidance
+  commentId: F:GTA.HeliMissionFlags.DontDoAvoidance
+  id: DontDoAvoidance
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DontDoAvoidance
+  nameWithType: HeliMissionFlags.DontDoAvoidance
+  fullName: GTA.HeliMissionFlags.DontDoAvoidance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontDoAvoidance = 64
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.StartEngineImmediately
+  commentId: F:GTA.HeliMissionFlags.StartEngineImmediately
+  id: StartEngineImmediately
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: StartEngineImmediately
+  nameWithType: HeliMissionFlags.StartEngineImmediately
+  fullName: GTA.HeliMissionFlags.StartEngineImmediately
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StartEngineImmediately = 128
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.ForceHeightMapAvoidance
+  commentId: F:GTA.HeliMissionFlags.ForceHeightMapAvoidance
+  id: ForceHeightMapAvoidance
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceHeightMapAvoidance
+  nameWithType: HeliMissionFlags.ForceHeightMapAvoidance
+  fullName: GTA.HeliMissionFlags.ForceHeightMapAvoidance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceHeightMapAvoidance = 256
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DontClampProbesToDestination
+  commentId: F:GTA.HeliMissionFlags.DontClampProbesToDestination
+  id: DontClampProbesToDestination
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DontClampProbesToDestination
+  nameWithType: HeliMissionFlags.DontClampProbesToDestination
+  fullName: GTA.HeliMissionFlags.DontClampProbesToDestination
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontClampProbesToDestination = 512
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.EnableTimeslicingWhenPossible
+  commentId: F:GTA.HeliMissionFlags.EnableTimeslicingWhenPossible
+  id: EnableTimeslicingWhenPossible
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: EnableTimeslicingWhenPossible
+  nameWithType: HeliMissionFlags.EnableTimeslicingWhenPossible
+  fullName: GTA.HeliMissionFlags.EnableTimeslicingWhenPossible
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnableTimeslicingWhenPossible = 1024
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.CircleOppositeDirection
+  commentId: F:GTA.HeliMissionFlags.CircleOppositeDirection
+  id: CircleOppositeDirection
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: CircleOppositeDirection
+  nameWithType: HeliMissionFlags.CircleOppositeDirection
+  fullName: GTA.HeliMissionFlags.CircleOppositeDirection
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CircleOppositeDirection = 2048
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.MaintainHeightAboveTerrain
+  commentId: F:GTA.HeliMissionFlags.MaintainHeightAboveTerrain
+  id: MaintainHeightAboveTerrain
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: MaintainHeightAboveTerrain
+  nameWithType: HeliMissionFlags.MaintainHeightAboveTerrain
+  fullName: GTA.HeliMissionFlags.MaintainHeightAboveTerrain
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MaintainHeightAboveTerrain = 4096
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.IgnoreHiddenEntitiesDuringLand
+  commentId: F:GTA.HeliMissionFlags.IgnoreHiddenEntitiesDuringLand
+  id: IgnoreHiddenEntitiesDuringLand
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: IgnoreHiddenEntitiesDuringLand
+  nameWithType: HeliMissionFlags.IgnoreHiddenEntitiesDuringLand
+  fullName: GTA.HeliMissionFlags.IgnoreHiddenEntitiesDuringLand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IgnoreHiddenEntitiesDuringLand = 8192
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.DisableAllHeightMapAvoidance
+  commentId: F:GTA.HeliMissionFlags.DisableAllHeightMapAvoidance
+  id: DisableAllHeightMapAvoidance
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableAllHeightMapAvoidance
+  nameWithType: HeliMissionFlags.DisableAllHeightMapAvoidance
+  fullName: GTA.HeliMissionFlags.DisableAllHeightMapAvoidance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableAllHeightMapAvoidance = 16384
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.None
+  commentId: F:GTA.HeliMissionFlags.None
+  id: None
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: HeliMissionFlags.None
+  fullName: GTA.HeliMissionFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.HeliMissionFlags
+- uid: GTA.HeliMissionFlags.HeightMapOnlyAvoidance
+  commentId: F:GTA.HeliMissionFlags.HeightMapOnlyAvoidance
+  id: HeightMapOnlyAvoidance
+  parent: GTA.HeliMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: HeightMapOnlyAvoidance
+  nameWithType: HeliMissionFlags.HeightMapOnlyAvoidance
+  fullName: GTA.HeliMissionFlags.HeightMapOnlyAvoidance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HeightMapOnlyAvoidance = DontDoAvoidance | ForceHeightMapAvoidance
+    return:
+      type: GTA.HeliMissionFlags
+    content.vb: HeightMapOnlyAvoidance = DontDoAvoidance Or ForceHeightMapAvoidance
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.HeliMissionFlags
+  commentId: T:GTA.HeliMissionFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.HeliMissionFlags.html
+  name: HeliMissionFlags
+  nameWithType: HeliMissionFlags
+  fullName: GTA.HeliMissionFlags

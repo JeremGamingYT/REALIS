@@ -1,0 +1,6857 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Bone
+  commentId: T:GTA.Bone
+  id: Bone
+  parent: GTA
+  children:
+  - GTA.Bone.BagBody
+  - GTA.Bone.BagBoneLeft
+  - GTA.Bone.BagBoneRight
+  - GTA.Bone.BagPivot
+  - GTA.Bone.BagPivotRoot
+  - GTA.Bone.BagRoot
+  - GTA.Bone.EOLeftFoot
+  - GTA.Bone.EOLeftToe
+  - GTA.Bone.EORightFoot
+  - GTA.Bone.EORightToe
+  - GTA.Bone.FBBrowCentre000
+  - GTA.Bone.FBBrowCentre001
+  - GTA.Bone.FBJaw000
+  - GTA.Bone.FBJaw001
+  - GTA.Bone.FBLeftBrowOut000
+  - GTA.Bone.FBLeftBrowOut001
+  - GTA.Bone.FBLeftCheekBone000
+  - GTA.Bone.FBLeftCheekBone001
+  - GTA.Bone.FBLeftEar000
+  - GTA.Bone.FBLeftEye000
+  - GTA.Bone.FBLeftEye001
+  - GTA.Bone.FBLeftLidUpper000
+  - GTA.Bone.FBLeftLidUpper001
+  - GTA.Bone.FBLeftLipBot000
+  - GTA.Bone.FBLeftLipBot001
+  - GTA.Bone.FBLeftLipCorner000
+  - GTA.Bone.FBLeftLipCorner001
+  - GTA.Bone.FBLeftLipTop000
+  - GTA.Bone.FBLeftLipTop001
+  - GTA.Bone.FBLowerLip000
+  - GTA.Bone.FBLowerLip001
+  - GTA.Bone.FBLowerLipRoot000
+  - GTA.Bone.FBLowerLipRoot001
+  - GTA.Bone.FBRightBrowOut000
+  - GTA.Bone.FBRightBrowOut001
+  - GTA.Bone.FBRightCheekBone000
+  - GTA.Bone.FBRightCheekBone001
+  - GTA.Bone.FBRightEar000
+  - GTA.Bone.FBRightEye000
+  - GTA.Bone.FBRightEye001
+  - GTA.Bone.FBRightLidUpper000
+  - GTA.Bone.FBRightLidUpper001
+  - GTA.Bone.FBRightLipBot000
+  - GTA.Bone.FBRightLipBot001
+  - GTA.Bone.FBRightLipCorner000
+  - GTA.Bone.FBRightLipCorner001
+  - GTA.Bone.FBRightLipTop000
+  - GTA.Bone.FBRightLipTop001
+  - GTA.Bone.FBTongue000
+  - GTA.Bone.FBTongue001
+  - GTA.Bone.FBTongueA000
+  - GTA.Bone.FBTongueB000
+  - GTA.Bone.FBTongueC000
+  - GTA.Bone.FBUpperLip000
+  - GTA.Bone.FBUpperLip001
+  - GTA.Bone.FBUpperLipRoot000
+  - GTA.Bone.FBUpperLipRoot001
+  - GTA.Bone.FXLight
+  - GTA.Bone.FXLightScale
+  - GTA.Bone.FXLightSwitch
+  - GTA.Bone.FacialChin
+  - GTA.Bone.FacialChinSkinBottom
+  - GTA.Bone.FacialChinSkinMid
+  - GTA.Bone.FacialChinSkinTop
+  - GTA.Bone.FacialForehead
+  - GTA.Bone.FacialForeheadUpper
+  - GTA.Bone.FacialJaw
+  - GTA.Bone.FacialLeftCheekInner
+  - GTA.Bone.FacialLeftCheekLower
+  - GTA.Bone.FacialLeftCheekLowerBulge1
+  - GTA.Bone.FacialLeftCheekLowerBulge2
+  - GTA.Bone.FacialLeftCheekOuter
+  - GTA.Bone.FacialLeftCheekOuterSkin
+  - GTA.Bone.FacialLeftChinSide
+  - GTA.Bone.FacialLeftChinSkinBottom
+  - GTA.Bone.FacialLeftChinSkinMid
+  - GTA.Bone.FacialLeftChinSkinTop
+  - GTA.Bone.FacialLeftEar
+  - GTA.Bone.FacialLeftEarLower
+  - GTA.Bone.FacialLeftEyeball
+  - GTA.Bone.FacialLeftEyelashLowerInner
+  - GTA.Bone.FacialLeftEyelashLowerOuter
+  - GTA.Bone.FacialLeftEyelashUpperInner
+  - GTA.Bone.FacialLeftEyelashUpperOuter
+  - GTA.Bone.FacialLeftEyelidLower
+  - GTA.Bone.FacialLeftEyelidLowerInnerAnalog
+  - GTA.Bone.FacialLeftEyelidLowerInnerSDK
+  - GTA.Bone.FacialLeftEyelidLowerOuterAnalog
+  - GTA.Bone.FacialLeftEyelidLowerOuterSDK
+  - GTA.Bone.FacialLeftEyelidUpper
+  - GTA.Bone.FacialLeftEyelidUpperInnerAnalog
+  - GTA.Bone.FacialLeftEyelidUpperInnerSDK
+  - GTA.Bone.FacialLeftEyelidUpperOuterAnalog
+  - GTA.Bone.FacialLeftEyelidUpperOuterSDK
+  - GTA.Bone.FacialLeftEyesackLower
+  - GTA.Bone.FacialLeftEyesackUpperInnerBulge
+  - GTA.Bone.FacialLeftEyesackUpperInnerFurrow
+  - GTA.Bone.FacialLeftEyesackUpperOuterBulge
+  - GTA.Bone.FacialLeftEyesackUpperOuterFurrow
+  - GTA.Bone.FacialLeftForeheadInner
+  - GTA.Bone.FacialLeftForeheadInnerBulge
+  - GTA.Bone.FacialLeftForeheadOuter
+  - GTA.Bone.FacialLeftForeheadUpperInner
+  - GTA.Bone.FacialLeftForeheadUpperOuter
+  - GTA.Bone.FacialLeftJawRecess
+  - GTA.Bone.FacialLeftLipCornerAnalog
+  - GTA.Bone.FacialLeftLipCornerSDK
+  - GTA.Bone.FacialLeftLipCornerThicknessLower
+  - GTA.Bone.FacialLeftLipCornerThicknessUpper
+  - GTA.Bone.FacialLeftLipLowerAnalog
+  - GTA.Bone.FacialLeftLipLowerSDK
+  - GTA.Bone.FacialLeftLipLowerThicknessH
+  - GTA.Bone.FacialLeftLipLowerThicknessV
+  - GTA.Bone.FacialLeftLipUpperAnalog
+  - GTA.Bone.FacialLeftLipUpperSDK
+  - GTA.Bone.FacialLeftLipUpperThicknessH
+  - GTA.Bone.FacialLeftLipUpperThicknessV
+  - GTA.Bone.FacialLeftNasolabialBulge
+  - GTA.Bone.FacialLeftNasolabialFurrow
+  - GTA.Bone.FacialLeftNoseLowerThickness
+  - GTA.Bone.FacialLeftNoseUpper
+  - GTA.Bone.FacialLeftNostril
+  - GTA.Bone.FacialLeftNostrilThickness
+  - GTA.Bone.FacialLeftTongueA
+  - GTA.Bone.FacialLeftTongueB
+  - GTA.Bone.FacialLeftTongueC
+  - GTA.Bone.FacialLeftTongueD
+  - GTA.Bone.FacialLeftTongueE
+  - GTA.Bone.FacialLeftUnderChin
+  - GTA.Bone.FacialLeftmasseter
+  - GTA.Bone.FacialLefttemple
+  - GTA.Bone.FacialLipLowerAnalog
+  - GTA.Bone.FacialLipLowerSDK
+  - GTA.Bone.FacialLipLowerThicknessH
+  - GTA.Bone.FacialLipLowerThicknessV
+  - GTA.Bone.FacialLipUpperAnalog
+  - GTA.Bone.FacialLipUpperSDK
+  - GTA.Bone.FacialLipUpperThicknessH
+  - GTA.Bone.FacialLipUpperThicknessV
+  - GTA.Bone.FacialNose
+  - GTA.Bone.FacialNoseBridge
+  - GTA.Bone.FacialNoseLower
+  - GTA.Bone.FacialNoseTip
+  - GTA.Bone.FacialNoseUpper
+  - GTA.Bone.FacialRightCheekInner
+  - GTA.Bone.FacialRightCheekLower
+  - GTA.Bone.FacialRightCheekLowerBulge1
+  - GTA.Bone.FacialRightCheekLowerBulge2
+  - GTA.Bone.FacialRightCheekOuter
+  - GTA.Bone.FacialRightCheekOuterSkin
+  - GTA.Bone.FacialRightChinSide
+  - GTA.Bone.FacialRightChinSkinBottom
+  - GTA.Bone.FacialRightChinSkinMid
+  - GTA.Bone.FacialRightChinSkinTop
+  - GTA.Bone.FacialRightEar
+  - GTA.Bone.FacialRightEarLower
+  - GTA.Bone.FacialRightEyeball
+  - GTA.Bone.FacialRightEyelashLowerInner
+  - GTA.Bone.FacialRightEyelashLowerOuter
+  - GTA.Bone.FacialRightEyelashUpperInner
+  - GTA.Bone.FacialRightEyelashUpperOuter
+  - GTA.Bone.FacialRightEyelidLower
+  - GTA.Bone.FacialRightEyelidLowerInnerAnalog
+  - GTA.Bone.FacialRightEyelidLowerInnerSDK
+  - GTA.Bone.FacialRightEyelidLowerOuterAnalog
+  - GTA.Bone.FacialRightEyelidLowerOuterSDK
+  - GTA.Bone.FacialRightEyelidUpper
+  - GTA.Bone.FacialRightEyelidUpperInnerAnalog
+  - GTA.Bone.FacialRightEyelidUpperInnerSDK
+  - GTA.Bone.FacialRightEyelidUpperOuterAnalog
+  - GTA.Bone.FacialRightEyelidUpperOuterSDK
+  - GTA.Bone.FacialRightEyesackLower
+  - GTA.Bone.FacialRightEyesackUpperInnerBulge
+  - GTA.Bone.FacialRightEyesackUpperInnerFurrow
+  - GTA.Bone.FacialRightEyesackUpperOuterBulge
+  - GTA.Bone.FacialRightEyesackUpperOuterFurrow
+  - GTA.Bone.FacialRightForeheadInner
+  - GTA.Bone.FacialRightForeheadInnerBulge
+  - GTA.Bone.FacialRightForeheadOuter
+  - GTA.Bone.FacialRightForeheadUpperInner
+  - GTA.Bone.FacialRightForeheadUpperOuter
+  - GTA.Bone.FacialRightJawRecess
+  - GTA.Bone.FacialRightLipCornerAnalog
+  - GTA.Bone.FacialRightLipCornerSDK
+  - GTA.Bone.FacialRightLipCornerThicknessLower
+  - GTA.Bone.FacialRightLipCornerThicknessUpper
+  - GTA.Bone.FacialRightLipLowerAnalog
+  - GTA.Bone.FacialRightLipLowerSDK
+  - GTA.Bone.FacialRightLipLowerThicknessH
+  - GTA.Bone.FacialRightLipLowerThicknessV
+  - GTA.Bone.FacialRightLipUpperAnalog
+  - GTA.Bone.FacialRightLipUpperSDK
+  - GTA.Bone.FacialRightLipUpperThicknessH
+  - GTA.Bone.FacialRightLipUpperThicknessV
+  - GTA.Bone.FacialRightNasolabialBulge
+  - GTA.Bone.FacialRightNasolabialFurrow
+  - GTA.Bone.FacialRightNoseLowerThickness
+  - GTA.Bone.FacialRightNoseUpper
+  - GTA.Bone.FacialRightNostril
+  - GTA.Bone.FacialRightNostrilThickness
+  - GTA.Bone.FacialRightTemple
+  - GTA.Bone.FacialRightTongueA
+  - GTA.Bone.FacialRightTongueB
+  - GTA.Bone.FacialRightTongueC
+  - GTA.Bone.FacialRightTongueD
+  - GTA.Bone.FacialRightTongueE
+  - GTA.Bone.FacialRightUnderChin
+  - GTA.Bone.FacialRightmasseter
+  - GTA.Bone.FacialRoot
+  - GTA.Bone.FacialSkull
+  - GTA.Bone.FacialTongueA
+  - GTA.Bone.FacialTongueB
+  - GTA.Bone.FacialTongueC
+  - GTA.Bone.FacialTongueD
+  - GTA.Bone.FacialTongueE
+  - GTA.Bone.FacialUnderChin
+  - GTA.Bone.IKHead
+  - GTA.Bone.IKLeftFoot
+  - GTA.Bone.IKLeftHand
+  - GTA.Bone.IKRightFoot
+  - GTA.Bone.IKRightHand
+  - GTA.Bone.IKRoot
+  - GTA.Bone.Invalid
+  - GTA.Bone.MHBlushSlider
+  - GTA.Bone.MHHairCrown
+  - GTA.Bone.MHHairScale
+  - GTA.Bone.MHLeftCalfBack
+  - GTA.Bone.MHLeftConcertinaA
+  - GTA.Bone.MHLeftConcertinaB
+  - GTA.Bone.MHLeftElbow
+  - GTA.Bone.MHLeftFinger00
+  - GTA.Bone.MHLeftFinger10
+  - GTA.Bone.MHLeftFingerBulge00
+  - GTA.Bone.MHLeftFingerTop00
+  - GTA.Bone.MHLeftHandSide
+  - GTA.Bone.MHLeftKnee
+  - GTA.Bone.MHLeftShoulderBlade
+  - GTA.Bone.MHLeftShoulderBladeRoot
+  - GTA.Bone.MHLeftSleeve
+  - GTA.Bone.MHLeftThighBack
+  - GTA.Bone.MHMulletRoot
+  - GTA.Bone.MHMulletScaler
+  - GTA.Bone.MHRightCalfBack
+  - GTA.Bone.MHRightConcertinaA
+  - GTA.Bone.MHRightConcertinaB
+  - GTA.Bone.MHRightElbow
+  - GTA.Bone.MHRightFinger00
+  - GTA.Bone.MHRightFinger10
+  - GTA.Bone.MHRightFingerBulge00
+  - GTA.Bone.MHRightFingerTop00
+  - GTA.Bone.MHRightHandSide
+  - GTA.Bone.MHRightKnee
+  - GTA.Bone.MHRightShoulderBlade
+  - GTA.Bone.MHRightShoulderBladeRoot
+  - GTA.Bone.MHRightSleeve
+  - GTA.Bone.MHRightThighBack
+  - GTA.Bone.MHWatch
+  - GTA.Bone.PHLeftFoot
+  - GTA.Bone.PHLeftHand
+  - GTA.Bone.PHRightFoot
+  - GTA.Bone.PHRightHand
+  - GTA.Bone.RBLeftArmRoll
+  - GTA.Bone.RBLeftForeArmRoll
+  - GTA.Bone.RBLeftThighRoll
+  - GTA.Bone.RBNeck1
+  - GTA.Bone.RBRightArmRoll
+  - GTA.Bone.RBRightForeArmRoll
+  - GTA.Bone.RBRightThighRoll
+  - GTA.Bone.SMCockNBalls
+  - GTA.Bone.SMCockNBallsRoot
+  - GTA.Bone.SMLeftBackSkirtRoll
+  - GTA.Bone.SMLeftFrontSkirtRoll
+  - GTA.Bone.SMLeftPouches
+  - GTA.Bone.SMLeftPouchesRoot
+  - GTA.Bone.SMLeftSkirt
+  - GTA.Bone.SMLifeSaverBack
+  - GTA.Bone.SMLifeSaverFront
+  - GTA.Bone.SMMBackSkirtRoll
+  - GTA.Bone.SMMFrontSkirtRoll
+  - GTA.Bone.SMRightBackSkirtRoll
+  - GTA.Bone.SMRightFrontSkirtRoll
+  - GTA.Bone.SMRightPouches
+  - GTA.Bone.SMRightPouchesRoot
+  - GTA.Bone.SMRightSkirt
+  - GTA.Bone.SMSuitBackFlapper
+  - GTA.Bone.SMTorch
+  - GTA.Bone.SPRCopRadio
+  - GTA.Bone.SPRGonads
+  - GTA.Bone.SPRGonadsRoot
+  - GTA.Bone.SPRLeftBreast
+  - GTA.Bone.SPRLeftEar
+  - GTA.Bone.SPRRightBreast
+  - GTA.Bone.SPRRightEar
+  - GTA.Bone.SkelHead
+  - GTA.Bone.SkelLeftCalf
+  - GTA.Bone.SkelLeftClavicle
+  - GTA.Bone.SkelLeftFinger00
+  - GTA.Bone.SkelLeftFinger01
+  - GTA.Bone.SkelLeftFinger02
+  - GTA.Bone.SkelLeftFinger10
+  - GTA.Bone.SkelLeftFinger11
+  - GTA.Bone.SkelLeftFinger12
+  - GTA.Bone.SkelLeftFinger20
+  - GTA.Bone.SkelLeftFinger21
+  - GTA.Bone.SkelLeftFinger22
+  - GTA.Bone.SkelLeftFinger30
+  - GTA.Bone.SkelLeftFinger31
+  - GTA.Bone.SkelLeftFinger32
+  - GTA.Bone.SkelLeftFinger40
+  - GTA.Bone.SkelLeftFinger41
+  - GTA.Bone.SkelLeftFinger42
+  - GTA.Bone.SkelLeftFoot
+  - GTA.Bone.SkelLeftForearm
+  - GTA.Bone.SkelLeftHand
+  - GTA.Bone.SkelLeftThigh
+  - GTA.Bone.SkelLeftToe0
+  - GTA.Bone.SkelLeftToe1
+  - GTA.Bone.SkelLeftUpperArm
+  - GTA.Bone.SkelNeck1
+  - GTA.Bone.SkelNeck2
+  - GTA.Bone.SkelPelvis
+  - GTA.Bone.SkelPelvis1
+  - GTA.Bone.SkelPelvisRoot
+  - GTA.Bone.SkelRightCalf
+  - GTA.Bone.SkelRightClavicle
+  - GTA.Bone.SkelRightFinger00
+  - GTA.Bone.SkelRightFinger01
+  - GTA.Bone.SkelRightFinger02
+  - GTA.Bone.SkelRightFinger10
+  - GTA.Bone.SkelRightFinger11
+  - GTA.Bone.SkelRightFinger12
+  - GTA.Bone.SkelRightFinger20
+  - GTA.Bone.SkelRightFinger21
+  - GTA.Bone.SkelRightFinger22
+  - GTA.Bone.SkelRightFinger30
+  - GTA.Bone.SkelRightFinger31
+  - GTA.Bone.SkelRightFinger32
+  - GTA.Bone.SkelRightFinger40
+  - GTA.Bone.SkelRightFinger41
+  - GTA.Bone.SkelRightFinger42
+  - GTA.Bone.SkelRightFoot
+  - GTA.Bone.SkelRightForearm
+  - GTA.Bone.SkelRightHand
+  - GTA.Bone.SkelRightThigh
+  - GTA.Bone.SkelRightToe0
+  - GTA.Bone.SkelRightToe1
+  - GTA.Bone.SkelRightUpperArm
+  - GTA.Bone.SkelRoot
+  - GTA.Bone.SkelSADDLE
+  - GTA.Bone.SkelSpine0
+  - GTA.Bone.SkelSpine1
+  - GTA.Bone.SkelSpine2
+  - GTA.Bone.SkelSpine3
+  - GTA.Bone.SkelSpineRoot
+  - GTA.Bone.SkelTail01
+  - GTA.Bone.SkelTail02
+  - GTA.Bone.SkelTail03
+  - GTA.Bone.SkelTail04
+  - GTA.Bone.SkelTail05
+  langs:
+  - csharp
+  - vb
+  name: Bone
+  nameWithType: Bone
+  fullName: GTA.Bone
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum Bone
+    content.vb: Public Enum Bone
+- uid: GTA.Bone.Invalid
+  commentId: F:GTA.Bone.Invalid
+  id: Invalid
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: Bone.Invalid
+  fullName: GTA.Bone.Invalid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Invalid = -1
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRoot
+  commentId: F:GTA.Bone.SkelRoot
+  id: SkelRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRoot
+  nameWithType: Bone.SkelRoot
+  fullName: GTA.Bone.SkelRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRoot = 0
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelPelvis
+  commentId: F:GTA.Bone.SkelPelvis
+  id: SkelPelvis
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelPelvis
+  nameWithType: Bone.SkelPelvis
+  fullName: GTA.Bone.SkelPelvis
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelPelvis = 11816
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftThigh
+  commentId: F:GTA.Bone.SkelLeftThigh
+  id: SkelLeftThigh
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftThigh
+  nameWithType: Bone.SkelLeftThigh
+  fullName: GTA.Bone.SkelLeftThigh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftThigh = 58271
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftCalf
+  commentId: F:GTA.Bone.SkelLeftCalf
+  id: SkelLeftCalf
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftCalf
+  nameWithType: Bone.SkelLeftCalf
+  fullName: GTA.Bone.SkelLeftCalf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftCalf = 63931
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFoot
+  commentId: F:GTA.Bone.SkelLeftFoot
+  id: SkelLeftFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFoot
+  nameWithType: Bone.SkelLeftFoot
+  fullName: GTA.Bone.SkelLeftFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFoot = 14201
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftToe0
+  commentId: F:GTA.Bone.SkelLeftToe0
+  id: SkelLeftToe0
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftToe0
+  nameWithType: Bone.SkelLeftToe0
+  fullName: GTA.Bone.SkelLeftToe0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftToe0 = 2108
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.EOLeftFoot
+  commentId: F:GTA.Bone.EOLeftFoot
+  id: EOLeftFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: EOLeftFoot
+  nameWithType: Bone.EOLeftFoot
+  fullName: GTA.Bone.EOLeftFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EOLeftFoot = 33989
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.EOLeftToe
+  commentId: F:GTA.Bone.EOLeftToe
+  id: EOLeftToe
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: EOLeftToe
+  nameWithType: Bone.EOLeftToe
+  fullName: GTA.Bone.EOLeftToe
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EOLeftToe = 26813
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.IKLeftFoot
+  commentId: F:GTA.Bone.IKLeftFoot
+  id: IKLeftFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: IKLeftFoot
+  nameWithType: Bone.IKLeftFoot
+  fullName: GTA.Bone.IKLeftFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IKLeftFoot = 65245
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.PHLeftFoot
+  commentId: F:GTA.Bone.PHLeftFoot
+  id: PHLeftFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: PHLeftFoot
+  nameWithType: Bone.PHLeftFoot
+  fullName: GTA.Bone.PHLeftFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PHLeftFoot = 57717
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftKnee
+  commentId: F:GTA.Bone.MHLeftKnee
+  id: MHLeftKnee
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftKnee
+  nameWithType: Bone.MHLeftKnee
+  fullName: GTA.Bone.MHLeftKnee
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftKnee = 46078
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightThigh
+  commentId: F:GTA.Bone.SkelRightThigh
+  id: SkelRightThigh
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightThigh
+  nameWithType: Bone.SkelRightThigh
+  fullName: GTA.Bone.SkelRightThigh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightThigh = 51826
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightCalf
+  commentId: F:GTA.Bone.SkelRightCalf
+  id: SkelRightCalf
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightCalf
+  nameWithType: Bone.SkelRightCalf
+  fullName: GTA.Bone.SkelRightCalf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightCalf = 36864
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFoot
+  commentId: F:GTA.Bone.SkelRightFoot
+  id: SkelRightFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFoot
+  nameWithType: Bone.SkelRightFoot
+  fullName: GTA.Bone.SkelRightFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFoot = 52301
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightToe0
+  commentId: F:GTA.Bone.SkelRightToe0
+  id: SkelRightToe0
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightToe0
+  nameWithType: Bone.SkelRightToe0
+  fullName: GTA.Bone.SkelRightToe0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightToe0 = 20781
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.EORightFoot
+  commentId: F:GTA.Bone.EORightFoot
+  id: EORightFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: EORightFoot
+  nameWithType: Bone.EORightFoot
+  fullName: GTA.Bone.EORightFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EORightFoot = 4246
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.EORightToe
+  commentId: F:GTA.Bone.EORightToe
+  id: EORightToe
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: EORightToe
+  nameWithType: Bone.EORightToe
+  fullName: GTA.Bone.EORightToe
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EORightToe = 29027
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.IKRightFoot
+  commentId: F:GTA.Bone.IKRightFoot
+  id: IKRightFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: IKRightFoot
+  nameWithType: Bone.IKRightFoot
+  fullName: GTA.Bone.IKRightFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IKRightFoot = 35502
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.PHRightFoot
+  commentId: F:GTA.Bone.PHRightFoot
+  id: PHRightFoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: PHRightFoot
+  nameWithType: Bone.PHRightFoot
+  fullName: GTA.Bone.PHRightFoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PHRightFoot = 24806
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightKnee
+  commentId: F:GTA.Bone.MHRightKnee
+  id: MHRightKnee
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightKnee
+  nameWithType: Bone.MHRightKnee
+  fullName: GTA.Bone.MHRightKnee
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightKnee = 16335
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBLeftThighRoll
+  commentId: F:GTA.Bone.RBLeftThighRoll
+  id: RBLeftThighRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBLeftThighRoll
+  nameWithType: Bone.RBLeftThighRoll
+  fullName: GTA.Bone.RBLeftThighRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBLeftThighRoll = 23639
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBRightThighRoll
+  commentId: F:GTA.Bone.RBRightThighRoll
+  id: RBRightThighRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBRightThighRoll
+  nameWithType: Bone.RBRightThighRoll
+  fullName: GTA.Bone.RBRightThighRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBRightThighRoll = 6442
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelSpineRoot
+  commentId: F:GTA.Bone.SkelSpineRoot
+  id: SkelSpineRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelSpineRoot
+  nameWithType: Bone.SkelSpineRoot
+  fullName: GTA.Bone.SkelSpineRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelSpineRoot = 57597
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelSpine0
+  commentId: F:GTA.Bone.SkelSpine0
+  id: SkelSpine0
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelSpine0
+  nameWithType: Bone.SkelSpine0
+  fullName: GTA.Bone.SkelSpine0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelSpine0 = 23553
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelSpine1
+  commentId: F:GTA.Bone.SkelSpine1
+  id: SkelSpine1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelSpine1
+  nameWithType: Bone.SkelSpine1
+  fullName: GTA.Bone.SkelSpine1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelSpine1 = 24816
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelSpine2
+  commentId: F:GTA.Bone.SkelSpine2
+  id: SkelSpine2
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelSpine2
+  nameWithType: Bone.SkelSpine2
+  fullName: GTA.Bone.SkelSpine2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelSpine2 = 24817
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelSpine3
+  commentId: F:GTA.Bone.SkelSpine3
+  id: SkelSpine3
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelSpine3
+  nameWithType: Bone.SkelSpine3
+  fullName: GTA.Bone.SkelSpine3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelSpine3 = 24818
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftClavicle
+  commentId: F:GTA.Bone.SkelLeftClavicle
+  id: SkelLeftClavicle
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftClavicle
+  nameWithType: Bone.SkelLeftClavicle
+  fullName: GTA.Bone.SkelLeftClavicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftClavicle = 64729
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftUpperArm
+  commentId: F:GTA.Bone.SkelLeftUpperArm
+  id: SkelLeftUpperArm
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftUpperArm
+  nameWithType: Bone.SkelLeftUpperArm
+  fullName: GTA.Bone.SkelLeftUpperArm
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftUpperArm = 45509
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftForearm
+  commentId: F:GTA.Bone.SkelLeftForearm
+  id: SkelLeftForearm
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftForearm
+  nameWithType: Bone.SkelLeftForearm
+  fullName: GTA.Bone.SkelLeftForearm
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftForearm = 61163
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftHand
+  commentId: F:GTA.Bone.SkelLeftHand
+  id: SkelLeftHand
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftHand
+  nameWithType: Bone.SkelLeftHand
+  fullName: GTA.Bone.SkelLeftHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftHand = 18905
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger00
+  commentId: F:GTA.Bone.SkelLeftFinger00
+  id: SkelLeftFinger00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger00
+  nameWithType: Bone.SkelLeftFinger00
+  fullName: GTA.Bone.SkelLeftFinger00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger00 = 26610
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger01
+  commentId: F:GTA.Bone.SkelLeftFinger01
+  id: SkelLeftFinger01
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger01
+  nameWithType: Bone.SkelLeftFinger01
+  fullName: GTA.Bone.SkelLeftFinger01
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger01 = 4089
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger02
+  commentId: F:GTA.Bone.SkelLeftFinger02
+  id: SkelLeftFinger02
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger02
+  nameWithType: Bone.SkelLeftFinger02
+  fullName: GTA.Bone.SkelLeftFinger02
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger02 = 4090
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger10
+  commentId: F:GTA.Bone.SkelLeftFinger10
+  id: SkelLeftFinger10
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger10
+  nameWithType: Bone.SkelLeftFinger10
+  fullName: GTA.Bone.SkelLeftFinger10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger10 = 26611
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger11
+  commentId: F:GTA.Bone.SkelLeftFinger11
+  id: SkelLeftFinger11
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger11
+  nameWithType: Bone.SkelLeftFinger11
+  fullName: GTA.Bone.SkelLeftFinger11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger11 = 4169
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger12
+  commentId: F:GTA.Bone.SkelLeftFinger12
+  id: SkelLeftFinger12
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger12
+  nameWithType: Bone.SkelLeftFinger12
+  fullName: GTA.Bone.SkelLeftFinger12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger12 = 4170
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger20
+  commentId: F:GTA.Bone.SkelLeftFinger20
+  id: SkelLeftFinger20
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger20
+  nameWithType: Bone.SkelLeftFinger20
+  fullName: GTA.Bone.SkelLeftFinger20
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger20 = 26612
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger21
+  commentId: F:GTA.Bone.SkelLeftFinger21
+  id: SkelLeftFinger21
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger21
+  nameWithType: Bone.SkelLeftFinger21
+  fullName: GTA.Bone.SkelLeftFinger21
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger21 = 4185
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger22
+  commentId: F:GTA.Bone.SkelLeftFinger22
+  id: SkelLeftFinger22
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger22
+  nameWithType: Bone.SkelLeftFinger22
+  fullName: GTA.Bone.SkelLeftFinger22
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger22 = 4186
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger30
+  commentId: F:GTA.Bone.SkelLeftFinger30
+  id: SkelLeftFinger30
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger30
+  nameWithType: Bone.SkelLeftFinger30
+  fullName: GTA.Bone.SkelLeftFinger30
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger30 = 26613
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger31
+  commentId: F:GTA.Bone.SkelLeftFinger31
+  id: SkelLeftFinger31
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger31
+  nameWithType: Bone.SkelLeftFinger31
+  fullName: GTA.Bone.SkelLeftFinger31
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger31 = 4137
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger32
+  commentId: F:GTA.Bone.SkelLeftFinger32
+  id: SkelLeftFinger32
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger32
+  nameWithType: Bone.SkelLeftFinger32
+  fullName: GTA.Bone.SkelLeftFinger32
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger32 = 4138
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger40
+  commentId: F:GTA.Bone.SkelLeftFinger40
+  id: SkelLeftFinger40
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger40
+  nameWithType: Bone.SkelLeftFinger40
+  fullName: GTA.Bone.SkelLeftFinger40
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger40 = 26614
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger41
+  commentId: F:GTA.Bone.SkelLeftFinger41
+  id: SkelLeftFinger41
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger41
+  nameWithType: Bone.SkelLeftFinger41
+  fullName: GTA.Bone.SkelLeftFinger41
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger41 = 4153
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftFinger42
+  commentId: F:GTA.Bone.SkelLeftFinger42
+  id: SkelLeftFinger42
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftFinger42
+  nameWithType: Bone.SkelLeftFinger42
+  fullName: GTA.Bone.SkelLeftFinger42
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftFinger42 = 4154
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.PHLeftHand
+  commentId: F:GTA.Bone.PHLeftHand
+  id: PHLeftHand
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: PHLeftHand
+  nameWithType: Bone.PHLeftHand
+  fullName: GTA.Bone.PHLeftHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PHLeftHand = 60309
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.IKLeftHand
+  commentId: F:GTA.Bone.IKLeftHand
+  id: IKLeftHand
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: IKLeftHand
+  nameWithType: Bone.IKLeftHand
+  fullName: GTA.Bone.IKLeftHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IKLeftHand = 36029
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBLeftForeArmRoll
+  commentId: F:GTA.Bone.RBLeftForeArmRoll
+  id: RBLeftForeArmRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBLeftForeArmRoll
+  nameWithType: Bone.RBLeftForeArmRoll
+  fullName: GTA.Bone.RBLeftForeArmRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBLeftForeArmRoll = 61007
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBLeftArmRoll
+  commentId: F:GTA.Bone.RBLeftArmRoll
+  id: RBLeftArmRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBLeftArmRoll
+  nameWithType: Bone.RBLeftArmRoll
+  fullName: GTA.Bone.RBLeftArmRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBLeftArmRoll = 5232
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftElbow
+  commentId: F:GTA.Bone.MHLeftElbow
+  id: MHLeftElbow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftElbow
+  nameWithType: Bone.MHLeftElbow
+  fullName: GTA.Bone.MHLeftElbow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftElbow = 22711
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightClavicle
+  commentId: F:GTA.Bone.SkelRightClavicle
+  id: SkelRightClavicle
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightClavicle
+  nameWithType: Bone.SkelRightClavicle
+  fullName: GTA.Bone.SkelRightClavicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightClavicle = 10706
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightUpperArm
+  commentId: F:GTA.Bone.SkelRightUpperArm
+  id: SkelRightUpperArm
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightUpperArm
+  nameWithType: Bone.SkelRightUpperArm
+  fullName: GTA.Bone.SkelRightUpperArm
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightUpperArm = 40269
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightForearm
+  commentId: F:GTA.Bone.SkelRightForearm
+  id: SkelRightForearm
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightForearm
+  nameWithType: Bone.SkelRightForearm
+  fullName: GTA.Bone.SkelRightForearm
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightForearm = 28252
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightHand
+  commentId: F:GTA.Bone.SkelRightHand
+  id: SkelRightHand
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightHand
+  nameWithType: Bone.SkelRightHand
+  fullName: GTA.Bone.SkelRightHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightHand = 57005
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger00
+  commentId: F:GTA.Bone.SkelRightFinger00
+  id: SkelRightFinger00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger00
+  nameWithType: Bone.SkelRightFinger00
+  fullName: GTA.Bone.SkelRightFinger00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger00 = 58866
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger01
+  commentId: F:GTA.Bone.SkelRightFinger01
+  id: SkelRightFinger01
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger01
+  nameWithType: Bone.SkelRightFinger01
+  fullName: GTA.Bone.SkelRightFinger01
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger01 = 64016
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger02
+  commentId: F:GTA.Bone.SkelRightFinger02
+  id: SkelRightFinger02
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger02
+  nameWithType: Bone.SkelRightFinger02
+  fullName: GTA.Bone.SkelRightFinger02
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger02 = 64017
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger10
+  commentId: F:GTA.Bone.SkelRightFinger10
+  id: SkelRightFinger10
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger10
+  nameWithType: Bone.SkelRightFinger10
+  fullName: GTA.Bone.SkelRightFinger10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger10 = 58867
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger11
+  commentId: F:GTA.Bone.SkelRightFinger11
+  id: SkelRightFinger11
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger11
+  nameWithType: Bone.SkelRightFinger11
+  fullName: GTA.Bone.SkelRightFinger11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger11 = 64096
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger12
+  commentId: F:GTA.Bone.SkelRightFinger12
+  id: SkelRightFinger12
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger12
+  nameWithType: Bone.SkelRightFinger12
+  fullName: GTA.Bone.SkelRightFinger12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger12 = 64097
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger20
+  commentId: F:GTA.Bone.SkelRightFinger20
+  id: SkelRightFinger20
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger20
+  nameWithType: Bone.SkelRightFinger20
+  fullName: GTA.Bone.SkelRightFinger20
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger20 = 58868
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger21
+  commentId: F:GTA.Bone.SkelRightFinger21
+  id: SkelRightFinger21
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger21
+  nameWithType: Bone.SkelRightFinger21
+  fullName: GTA.Bone.SkelRightFinger21
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger21 = 64112
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger22
+  commentId: F:GTA.Bone.SkelRightFinger22
+  id: SkelRightFinger22
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger22
+  nameWithType: Bone.SkelRightFinger22
+  fullName: GTA.Bone.SkelRightFinger22
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger22 = 64113
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger30
+  commentId: F:GTA.Bone.SkelRightFinger30
+  id: SkelRightFinger30
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger30
+  nameWithType: Bone.SkelRightFinger30
+  fullName: GTA.Bone.SkelRightFinger30
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger30 = 58869
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger31
+  commentId: F:GTA.Bone.SkelRightFinger31
+  id: SkelRightFinger31
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger31
+  nameWithType: Bone.SkelRightFinger31
+  fullName: GTA.Bone.SkelRightFinger31
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger31 = 64064
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger32
+  commentId: F:GTA.Bone.SkelRightFinger32
+  id: SkelRightFinger32
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger32
+  nameWithType: Bone.SkelRightFinger32
+  fullName: GTA.Bone.SkelRightFinger32
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger32 = 64065
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger40
+  commentId: F:GTA.Bone.SkelRightFinger40
+  id: SkelRightFinger40
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger40
+  nameWithType: Bone.SkelRightFinger40
+  fullName: GTA.Bone.SkelRightFinger40
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger40 = 58870
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger41
+  commentId: F:GTA.Bone.SkelRightFinger41
+  id: SkelRightFinger41
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger41
+  nameWithType: Bone.SkelRightFinger41
+  fullName: GTA.Bone.SkelRightFinger41
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger41 = 64080
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightFinger42
+  commentId: F:GTA.Bone.SkelRightFinger42
+  id: SkelRightFinger42
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightFinger42
+  nameWithType: Bone.SkelRightFinger42
+  fullName: GTA.Bone.SkelRightFinger42
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightFinger42 = 64081
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.PHRightHand
+  commentId: F:GTA.Bone.PHRightHand
+  id: PHRightHand
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: PHRightHand
+  nameWithType: Bone.PHRightHand
+  fullName: GTA.Bone.PHRightHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PHRightHand = 28422
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.IKRightHand
+  commentId: F:GTA.Bone.IKRightHand
+  id: IKRightHand
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: IKRightHand
+  nameWithType: Bone.IKRightHand
+  fullName: GTA.Bone.IKRightHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IKRightHand = 6286
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBRightForeArmRoll
+  commentId: F:GTA.Bone.RBRightForeArmRoll
+  id: RBRightForeArmRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBRightForeArmRoll
+  nameWithType: Bone.RBRightForeArmRoll
+  fullName: GTA.Bone.RBRightForeArmRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBRightForeArmRoll = 43810
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBRightArmRoll
+  commentId: F:GTA.Bone.RBRightArmRoll
+  id: RBRightArmRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBRightArmRoll
+  nameWithType: Bone.RBRightArmRoll
+  fullName: GTA.Bone.RBRightArmRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBRightArmRoll = 37119
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightElbow
+  commentId: F:GTA.Bone.MHRightElbow
+  id: MHRightElbow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightElbow
+  nameWithType: Bone.MHRightElbow
+  fullName: GTA.Bone.MHRightElbow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightElbow = 2992
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelNeck1
+  commentId: F:GTA.Bone.SkelNeck1
+  id: SkelNeck1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelNeck1
+  nameWithType: Bone.SkelNeck1
+  fullName: GTA.Bone.SkelNeck1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelNeck1 = 39317
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelHead
+  commentId: F:GTA.Bone.SkelHead
+  id: SkelHead
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelHead
+  nameWithType: Bone.SkelHead
+  fullName: GTA.Bone.SkelHead
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelHead = 31086
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.IKHead
+  commentId: F:GTA.Bone.IKHead
+  id: IKHead
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: IKHead
+  nameWithType: Bone.IKHead
+  fullName: GTA.Bone.IKHead
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IKHead = 12844
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRoot
+  commentId: F:GTA.Bone.FacialRoot
+  id: FacialRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRoot
+  nameWithType: Bone.FacialRoot
+  fullName: GTA.Bone.FacialRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRoot = 65068
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftBrowOut000
+  commentId: F:GTA.Bone.FBLeftBrowOut000
+  id: FBLeftBrowOut000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftBrowOut000
+  nameWithType: Bone.FBLeftBrowOut000
+  fullName: GTA.Bone.FBLeftBrowOut000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftBrowOut000 = 58331
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLidUpper000
+  commentId: F:GTA.Bone.FBLeftLidUpper000
+  id: FBLeftLidUpper000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLidUpper000
+  nameWithType: Bone.FBLeftLidUpper000
+  fullName: GTA.Bone.FBLeftLidUpper000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLidUpper000 = 45750
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftEye000
+  commentId: F:GTA.Bone.FBLeftEye000
+  id: FBLeftEye000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftEye000
+  nameWithType: Bone.FBLeftEye000
+  fullName: GTA.Bone.FBLeftEye000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftEye000 = 25260
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftCheekBone000
+  commentId: F:GTA.Bone.FBLeftCheekBone000
+  id: FBLeftCheekBone000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftCheekBone000
+  nameWithType: Bone.FBLeftCheekBone000
+  fullName: GTA.Bone.FBLeftCheekBone000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftCheekBone000 = 21550
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLipCorner000
+  commentId: F:GTA.Bone.FBLeftLipCorner000
+  id: FBLeftLipCorner000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLipCorner000
+  nameWithType: Bone.FBLeftLipCorner000
+  fullName: GTA.Bone.FBLeftLipCorner000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLipCorner000 = 29868
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLidUpper000
+  commentId: F:GTA.Bone.FBRightLidUpper000
+  id: FBRightLidUpper000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLidUpper000
+  nameWithType: Bone.FBRightLidUpper000
+  fullName: GTA.Bone.FBRightLidUpper000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLidUpper000 = 43536
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightEye000
+  commentId: F:GTA.Bone.FBRightEye000
+  id: FBRightEye000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightEye000
+  nameWithType: Bone.FBRightEye000
+  fullName: GTA.Bone.FBRightEye000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightEye000 = 27474
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightCheekBone000
+  commentId: F:GTA.Bone.FBRightCheekBone000
+  id: FBRightCheekBone000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightCheekBone000
+  nameWithType: Bone.FBRightCheekBone000
+  fullName: GTA.Bone.FBRightCheekBone000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightCheekBone000 = 19336
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightBrowOut000
+  commentId: F:GTA.Bone.FBRightBrowOut000
+  id: FBRightBrowOut000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightBrowOut000
+  nameWithType: Bone.FBRightBrowOut000
+  fullName: GTA.Bone.FBRightBrowOut000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightBrowOut000 = 1356
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLipCorner000
+  commentId: F:GTA.Bone.FBRightLipCorner000
+  id: FBRightLipCorner000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLipCorner000
+  nameWithType: Bone.FBRightLipCorner000
+  fullName: GTA.Bone.FBRightLipCorner000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLipCorner000 = 11174
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBBrowCentre000
+  commentId: F:GTA.Bone.FBBrowCentre000
+  id: FBBrowCentre000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBBrowCentre000
+  nameWithType: Bone.FBBrowCentre000
+  fullName: GTA.Bone.FBBrowCentre000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBBrowCentre000 = 37193
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBUpperLipRoot000
+  commentId: F:GTA.Bone.FBUpperLipRoot000
+  id: FBUpperLipRoot000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBUpperLipRoot000
+  nameWithType: Bone.FBUpperLipRoot000
+  fullName: GTA.Bone.FBUpperLipRoot000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBUpperLipRoot000 = 20178
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBUpperLip000
+  commentId: F:GTA.Bone.FBUpperLip000
+  id: FBUpperLip000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBUpperLip000
+  nameWithType: Bone.FBUpperLip000
+  fullName: GTA.Bone.FBUpperLip000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBUpperLip000 = 61839
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLipTop000
+  commentId: F:GTA.Bone.FBLeftLipTop000
+  id: FBLeftLipTop000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLipTop000
+  nameWithType: Bone.FBLeftLipTop000
+  fullName: GTA.Bone.FBLeftLipTop000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLipTop000 = 20279
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLipTop000
+  commentId: F:GTA.Bone.FBRightLipTop000
+  id: FBRightLipTop000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLipTop000
+  nameWithType: Bone.FBRightLipTop000
+  fullName: GTA.Bone.FBRightLipTop000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLipTop000 = 17719
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBJaw000
+  commentId: F:GTA.Bone.FBJaw000
+  id: FBJaw000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBJaw000
+  nameWithType: Bone.FBJaw000
+  fullName: GTA.Bone.FBJaw000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBJaw000 = 46240
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLowerLipRoot000
+  commentId: F:GTA.Bone.FBLowerLipRoot000
+  id: FBLowerLipRoot000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLowerLipRoot000
+  nameWithType: Bone.FBLowerLipRoot000
+  fullName: GTA.Bone.FBLowerLipRoot000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLowerLipRoot000 = 17188
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLowerLip000
+  commentId: F:GTA.Bone.FBLowerLip000
+  id: FBLowerLip000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLowerLip000
+  nameWithType: Bone.FBLowerLip000
+  fullName: GTA.Bone.FBLowerLip000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLowerLip000 = 20623
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLipBot000
+  commentId: F:GTA.Bone.FBLeftLipBot000
+  id: FBLeftLipBot000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLipBot000
+  nameWithType: Bone.FBLeftLipBot000
+  fullName: GTA.Bone.FBLeftLipBot000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLipBot000 = 47419
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLipBot000
+  commentId: F:GTA.Bone.FBRightLipBot000
+  id: FBRightLipBot000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLipBot000
+  nameWithType: Bone.FBRightLipBot000
+  fullName: GTA.Bone.FBRightLipBot000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLipBot000 = 49979
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBTongue000
+  commentId: F:GTA.Bone.FBTongue000
+  id: FBTongue000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBTongue000
+  nameWithType: Bone.FBTongue000
+  fullName: GTA.Bone.FBTongue000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBTongue000 = 47495
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.RBNeck1
+  commentId: F:GTA.Bone.RBNeck1
+  id: RBNeck1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: RBNeck1
+  nameWithType: Bone.RBNeck1
+  fullName: GTA.Bone.RBNeck1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RBNeck1 = 35731
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRLeftBreast
+  commentId: F:GTA.Bone.SPRLeftBreast
+  id: SPRLeftBreast
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRLeftBreast
+  nameWithType: Bone.SPRLeftBreast
+  fullName: GTA.Bone.SPRLeftBreast
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRLeftBreast = 64654
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRRightBreast
+  commentId: F:GTA.Bone.SPRRightBreast
+  id: SPRRightBreast
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRRightBreast
+  nameWithType: Bone.SPRRightBreast
+  fullName: GTA.Bone.SPRRightBreast
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRRightBreast = 34911
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.IKRoot
+  commentId: F:GTA.Bone.IKRoot
+  id: IKRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: IKRoot
+  nameWithType: Bone.IKRoot
+  fullName: GTA.Bone.IKRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IKRoot = 56604
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelNeck2
+  commentId: F:GTA.Bone.SkelNeck2
+  id: SkelNeck2
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelNeck2
+  nameWithType: Bone.SkelNeck2
+  fullName: GTA.Bone.SkelNeck2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelNeck2 = 24532
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelPelvis1
+  commentId: F:GTA.Bone.SkelPelvis1
+  id: SkelPelvis1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelPelvis1
+  nameWithType: Bone.SkelPelvis1
+  fullName: GTA.Bone.SkelPelvis1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelPelvis1 = 53251
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelPelvisRoot
+  commentId: F:GTA.Bone.SkelPelvisRoot
+  id: SkelPelvisRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelPelvisRoot
+  nameWithType: Bone.SkelPelvisRoot
+  fullName: GTA.Bone.SkelPelvisRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelPelvisRoot = 17916
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelSADDLE
+  commentId: F:GTA.Bone.SkelSADDLE
+  id: SkelSADDLE
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelSADDLE
+  nameWithType: Bone.SkelSADDLE
+  fullName: GTA.Bone.SkelSADDLE
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelSADDLE = 38180
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftCalfBack
+  commentId: F:GTA.Bone.MHLeftCalfBack
+  id: MHLeftCalfBack
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftCalfBack
+  nameWithType: Bone.MHLeftCalfBack
+  fullName: GTA.Bone.MHLeftCalfBack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftCalfBack = 4115
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftThighBack
+  commentId: F:GTA.Bone.MHLeftThighBack
+  id: MHLeftThighBack
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftThighBack
+  nameWithType: Bone.MHLeftThighBack
+  fullName: GTA.Bone.MHLeftThighBack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftThighBack = 24589
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLeftSkirt
+  commentId: F:GTA.Bone.SMLeftSkirt
+  id: SMLeftSkirt
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLeftSkirt
+  nameWithType: Bone.SMLeftSkirt
+  fullName: GTA.Bone.SMLeftSkirt
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLeftSkirt = 50201
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightCalfBack
+  commentId: F:GTA.Bone.MHRightCalfBack
+  id: MHRightCalfBack
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightCalfBack
+  nameWithType: Bone.MHRightCalfBack
+  fullName: GTA.Bone.MHRightCalfBack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightCalfBack = 45075
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightThighBack
+  commentId: F:GTA.Bone.MHRightThighBack
+  id: MHRightThighBack
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightThighBack
+  nameWithType: Bone.MHRightThighBack
+  fullName: GTA.Bone.MHRightThighBack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightThighBack = 20899
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMRightSkirt
+  commentId: F:GTA.Bone.SMRightSkirt
+  id: SMRightSkirt
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMRightSkirt
+  nameWithType: Bone.SMRightSkirt
+  fullName: GTA.Bone.SMRightSkirt
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMRightSkirt = 30482
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMMBackSkirtRoll
+  commentId: F:GTA.Bone.SMMBackSkirtRoll
+  id: SMMBackSkirtRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMMBackSkirtRoll
+  nameWithType: Bone.SMMBackSkirtRoll
+  fullName: GTA.Bone.SMMBackSkirtRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMMBackSkirtRoll = 3515
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLeftBackSkirtRoll
+  commentId: F:GTA.Bone.SMLeftBackSkirtRoll
+  id: SMLeftBackSkirtRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLeftBackSkirtRoll
+  nameWithType: Bone.SMLeftBackSkirtRoll
+  fullName: GTA.Bone.SMLeftBackSkirtRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLeftBackSkirtRoll = 16562
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMRightBackSkirtRoll
+  commentId: F:GTA.Bone.SMRightBackSkirtRoll
+  id: SMRightBackSkirtRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMRightBackSkirtRoll
+  nameWithType: Bone.SMRightBackSkirtRoll
+  fullName: GTA.Bone.SMRightBackSkirtRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMRightBackSkirtRoll = 49473
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMMFrontSkirtRoll
+  commentId: F:GTA.Bone.SMMFrontSkirtRoll
+  id: SMMFrontSkirtRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMMFrontSkirtRoll
+  nameWithType: Bone.SMMFrontSkirtRoll
+  fullName: GTA.Bone.SMMFrontSkirtRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMMFrontSkirtRoll = 52667
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLeftFrontSkirtRoll
+  commentId: F:GTA.Bone.SMLeftFrontSkirtRoll
+  id: SMLeftFrontSkirtRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLeftFrontSkirtRoll
+  nameWithType: Bone.SMLeftFrontSkirtRoll
+  fullName: GTA.Bone.SMLeftFrontSkirtRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLeftFrontSkirtRoll = 39785
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMRightFrontSkirtRoll
+  commentId: F:GTA.Bone.SMRightFrontSkirtRoll
+  id: SMRightFrontSkirtRoll
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMRightFrontSkirtRoll
+  nameWithType: Bone.SMRightFrontSkirtRoll
+  fullName: GTA.Bone.SMRightFrontSkirtRoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMRightFrontSkirtRoll = 34545
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMCockNBallsRoot
+  commentId: F:GTA.Bone.SMCockNBallsRoot
+  id: SMCockNBallsRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMCockNBallsRoot
+  nameWithType: Bone.SMCockNBallsRoot
+  fullName: GTA.Bone.SMCockNBallsRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMCockNBallsRoot = 50813
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMCockNBalls
+  commentId: F:GTA.Bone.SMCockNBalls
+  id: SMCockNBalls
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMCockNBalls
+  nameWithType: Bone.SMCockNBalls
+  fullName: GTA.Bone.SMCockNBalls
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMCockNBalls = 40244
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftFinger00
+  commentId: F:GTA.Bone.MHLeftFinger00
+  id: MHLeftFinger00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftFinger00
+  nameWithType: Bone.MHLeftFinger00
+  fullName: GTA.Bone.MHLeftFinger00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftFinger00 = 35939
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftFingerBulge00
+  commentId: F:GTA.Bone.MHLeftFingerBulge00
+  id: MHLeftFingerBulge00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftFingerBulge00
+  nameWithType: Bone.MHLeftFingerBulge00
+  fullName: GTA.Bone.MHLeftFingerBulge00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftFingerBulge00 = 24504
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftFinger10
+  commentId: F:GTA.Bone.MHLeftFinger10
+  id: MHLeftFinger10
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftFinger10
+  nameWithType: Bone.MHLeftFinger10
+  fullName: GTA.Bone.MHLeftFinger10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftFinger10 = 35923
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftFingerTop00
+  commentId: F:GTA.Bone.MHLeftFingerTop00
+  id: MHLeftFingerTop00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftFingerTop00
+  nameWithType: Bone.MHLeftFingerTop00
+  fullName: GTA.Bone.MHLeftFingerTop00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftFingerTop00 = 41540
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftHandSide
+  commentId: F:GTA.Bone.MHLeftHandSide
+  id: MHLeftHandSide
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftHandSide
+  nameWithType: Bone.MHLeftHandSide
+  fullName: GTA.Bone.MHLeftHandSide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftHandSide = 51082
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHWatch
+  commentId: F:GTA.Bone.MHWatch
+  id: MHWatch
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHWatch
+  nameWithType: Bone.MHWatch
+  fullName: GTA.Bone.MHWatch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHWatch = 10040
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftSleeve
+  commentId: F:GTA.Bone.MHLeftSleeve
+  id: MHLeftSleeve
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftSleeve
+  nameWithType: Bone.MHLeftSleeve
+  fullName: GTA.Bone.MHLeftSleeve
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftSleeve = 37692
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightFinger00
+  commentId: F:GTA.Bone.MHRightFinger00
+  id: MHRightFinger00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightFinger00
+  nameWithType: Bone.MHRightFinger00
+  fullName: GTA.Bone.MHRightFinger00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightFinger00 = 11363
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightFingerBulge00
+  commentId: F:GTA.Bone.MHRightFingerBulge00
+  id: MHRightFingerBulge00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightFingerBulge00
+  nameWithType: Bone.MHRightFingerBulge00
+  fullName: GTA.Bone.MHRightFingerBulge00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightFingerBulge00 = 27064
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightFinger10
+  commentId: F:GTA.Bone.MHRightFinger10
+  id: MHRightFinger10
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightFinger10
+  nameWithType: Bone.MHRightFinger10
+  fullName: GTA.Bone.MHRightFinger10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightFinger10 = 11347
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightFingerTop00
+  commentId: F:GTA.Bone.MHRightFingerTop00
+  id: MHRightFingerTop00
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightFingerTop00
+  nameWithType: Bone.MHRightFingerTop00
+  fullName: GTA.Bone.MHRightFingerTop00
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightFingerTop00 = 61259
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightHandSide
+  commentId: F:GTA.Bone.MHRightHandSide
+  id: MHRightHandSide
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightHandSide
+  nameWithType: Bone.MHRightHandSide
+  fullName: GTA.Bone.MHRightHandSide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightHandSide = 26875
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightSleeve
+  commentId: F:GTA.Bone.MHRightSleeve
+  id: MHRightSleeve
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightSleeve
+  nameWithType: Bone.MHRightSleeve
+  fullName: GTA.Bone.MHRightSleeve
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightSleeve = 37596
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialJaw
+  commentId: F:GTA.Bone.FacialJaw
+  id: FacialJaw
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialJaw
+  nameWithType: Bone.FacialJaw
+  fullName: GTA.Bone.FacialJaw
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialJaw = 2849
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialUnderChin
+  commentId: F:GTA.Bone.FacialUnderChin
+  id: FacialUnderChin
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialUnderChin
+  nameWithType: Bone.FacialUnderChin
+  fullName: GTA.Bone.FacialUnderChin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialUnderChin = 35477
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftUnderChin
+  commentId: F:GTA.Bone.FacialLeftUnderChin
+  id: FacialLeftUnderChin
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftUnderChin
+  nameWithType: Bone.FacialLeftUnderChin
+  fullName: GTA.Bone.FacialLeftUnderChin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftUnderChin = 9038
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialChin
+  commentId: F:GTA.Bone.FacialChin
+  id: FacialChin
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialChin
+  nameWithType: Bone.FacialChin
+  fullName: GTA.Bone.FacialChin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialChin = 46456
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialChinSkinBottom
+  commentId: F:GTA.Bone.FacialChinSkinBottom
+  id: FacialChinSkinBottom
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialChinSkinBottom
+  nameWithType: Bone.FacialChinSkinBottom
+  fullName: GTA.Bone.FacialChinSkinBottom
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialChinSkinBottom = 39100
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftChinSkinBottom
+  commentId: F:GTA.Bone.FacialLeftChinSkinBottom
+  id: FacialLeftChinSkinBottom
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftChinSkinBottom
+  nameWithType: Bone.FacialLeftChinSkinBottom
+  fullName: GTA.Bone.FacialLeftChinSkinBottom
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftChinSkinBottom = 16015
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightChinSkinBottom
+  commentId: F:GTA.Bone.FacialRightChinSkinBottom
+  id: FacialRightChinSkinBottom
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightChinSkinBottom
+  nameWithType: Bone.FacialRightChinSkinBottom
+  fullName: GTA.Bone.FacialRightChinSkinBottom
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightChinSkinBottom = 40591
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialTongueA
+  commentId: F:GTA.Bone.FacialTongueA
+  id: FacialTongueA
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialTongueA
+  nameWithType: Bone.FacialTongueA
+  fullName: GTA.Bone.FacialTongueA
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialTongueA = 19068
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialTongueB
+  commentId: F:GTA.Bone.FacialTongueB
+  id: FacialTongueB
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialTongueB
+  nameWithType: Bone.FacialTongueB
+  fullName: GTA.Bone.FacialTongueB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialTongueB = 19069
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialTongueC
+  commentId: F:GTA.Bone.FacialTongueC
+  id: FacialTongueC
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialTongueC
+  nameWithType: Bone.FacialTongueC
+  fullName: GTA.Bone.FacialTongueC
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialTongueC = 19070
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialTongueD
+  commentId: F:GTA.Bone.FacialTongueD
+  id: FacialTongueD
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialTongueD
+  nameWithType: Bone.FacialTongueD
+  fullName: GTA.Bone.FacialTongueD
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialTongueD = 19071
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialTongueE
+  commentId: F:GTA.Bone.FacialTongueE
+  id: FacialTongueE
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialTongueE
+  nameWithType: Bone.FacialTongueE
+  fullName: GTA.Bone.FacialTongueE
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialTongueE = 19072
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftTongueE
+  commentId: F:GTA.Bone.FacialLeftTongueE
+  id: FacialLeftTongueE
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftTongueE
+  nameWithType: Bone.FacialLeftTongueE
+  fullName: GTA.Bone.FacialLeftTongueE
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftTongueE = 13810
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightTongueE
+  commentId: F:GTA.Bone.FacialRightTongueE
+  id: FacialRightTongueE
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightTongueE
+  nameWithType: Bone.FacialRightTongueE
+  fullName: GTA.Bone.FacialRightTongueE
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightTongueE = 12274
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftTongueD
+  commentId: F:GTA.Bone.FacialLeftTongueD
+  id: FacialLeftTongueD
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftTongueD
+  nameWithType: Bone.FacialLeftTongueD
+  fullName: GTA.Bone.FacialLeftTongueD
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftTongueD = 13809
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightTongueD
+  commentId: F:GTA.Bone.FacialRightTongueD
+  id: FacialRightTongueD
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightTongueD
+  nameWithType: Bone.FacialRightTongueD
+  fullName: GTA.Bone.FacialRightTongueD
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightTongueD = 12273
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftTongueC
+  commentId: F:GTA.Bone.FacialLeftTongueC
+  id: FacialLeftTongueC
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftTongueC
+  nameWithType: Bone.FacialLeftTongueC
+  fullName: GTA.Bone.FacialLeftTongueC
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftTongueC = 13808
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightTongueC
+  commentId: F:GTA.Bone.FacialRightTongueC
+  id: FacialRightTongueC
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightTongueC
+  nameWithType: Bone.FacialRightTongueC
+  fullName: GTA.Bone.FacialRightTongueC
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightTongueC = 12272
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftTongueB
+  commentId: F:GTA.Bone.FacialLeftTongueB
+  id: FacialLeftTongueB
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftTongueB
+  nameWithType: Bone.FacialLeftTongueB
+  fullName: GTA.Bone.FacialLeftTongueB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftTongueB = 13807
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightTongueB
+  commentId: F:GTA.Bone.FacialRightTongueB
+  id: FacialRightTongueB
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightTongueB
+  nameWithType: Bone.FacialRightTongueB
+  fullName: GTA.Bone.FacialRightTongueB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightTongueB = 12271
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftTongueA
+  commentId: F:GTA.Bone.FacialLeftTongueA
+  id: FacialLeftTongueA
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftTongueA
+  nameWithType: Bone.FacialLeftTongueA
+  fullName: GTA.Bone.FacialLeftTongueA
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftTongueA = 13806
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightTongueA
+  commentId: F:GTA.Bone.FacialRightTongueA
+  id: FacialRightTongueA
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightTongueA
+  nameWithType: Bone.FacialRightTongueA
+  fullName: GTA.Bone.FacialRightTongueA
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightTongueA = 12270
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialChinSkinTop
+  commentId: F:GTA.Bone.FacialChinSkinTop
+  id: FacialChinSkinTop
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialChinSkinTop
+  nameWithType: Bone.FacialChinSkinTop
+  fullName: GTA.Bone.FacialChinSkinTop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialChinSkinTop = 29222
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftChinSkinTop
+  commentId: F:GTA.Bone.FacialLeftChinSkinTop
+  id: FacialLeftChinSkinTop
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftChinSkinTop
+  nameWithType: Bone.FacialLeftChinSkinTop
+  fullName: GTA.Bone.FacialLeftChinSkinTop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftChinSkinTop = 16051
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialChinSkinMid
+  commentId: F:GTA.Bone.FacialChinSkinMid
+  id: FacialChinSkinMid
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialChinSkinMid
+  nameWithType: Bone.FacialChinSkinMid
+  fullName: GTA.Bone.FacialChinSkinMid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialChinSkinMid = 35226
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftChinSkinMid
+  commentId: F:GTA.Bone.FacialLeftChinSkinMid
+  id: FacialLeftChinSkinMid
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftChinSkinMid
+  nameWithType: Bone.FacialLeftChinSkinMid
+  fullName: GTA.Bone.FacialLeftChinSkinMid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftChinSkinMid = 17447
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftChinSide
+  commentId: F:GTA.Bone.FacialLeftChinSide
+  id: FacialLeftChinSide
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftChinSide
+  nameWithType: Bone.FacialLeftChinSide
+  fullName: GTA.Bone.FacialLeftChinSide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftChinSide = 19038
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightChinSkinMid
+  commentId: F:GTA.Bone.FacialRightChinSkinMid
+  id: FacialRightChinSkinMid
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightChinSkinMid
+  nameWithType: Bone.FacialRightChinSkinMid
+  fullName: GTA.Bone.FacialRightChinSkinMid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightChinSkinMid = 62895
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightChinSkinTop
+  commentId: F:GTA.Bone.FacialRightChinSkinTop
+  id: FacialRightChinSkinTop
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightChinSkinTop
+  nameWithType: Bone.FacialRightChinSkinTop
+  fullName: GTA.Bone.FacialRightChinSkinTop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightChinSkinTop = 61499
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightChinSide
+  commentId: F:GTA.Bone.FacialRightChinSide
+  id: FacialRightChinSide
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightChinSide
+  nameWithType: Bone.FacialRightChinSide
+  fullName: GTA.Bone.FacialRightChinSide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightChinSide = 43614
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightUnderChin
+  commentId: F:GTA.Bone.FacialRightUnderChin
+  id: FacialRightUnderChin
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightUnderChin
+  nameWithType: Bone.FacialRightUnderChin
+  fullName: GTA.Bone.FacialRightUnderChin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightUnderChin = 11252
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipLowerSDK
+  commentId: F:GTA.Bone.FacialLeftLipLowerSDK
+  id: FacialLeftLipLowerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipLowerSDK
+  nameWithType: Bone.FacialLeftLipLowerSDK
+  fullName: GTA.Bone.FacialLeftLipLowerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipLowerSDK = 47585
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipLowerAnalog
+  commentId: F:GTA.Bone.FacialLeftLipLowerAnalog
+  id: FacialLeftLipLowerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipLowerAnalog
+  nameWithType: Bone.FacialLeftLipLowerAnalog
+  fullName: GTA.Bone.FacialLeftLipLowerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipLowerAnalog = 9290
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipLowerThicknessV
+  commentId: F:GTA.Bone.FacialLeftLipLowerThicknessV
+  id: FacialLeftLipLowerThicknessV
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipLowerThicknessV
+  nameWithType: Bone.FacialLeftLipLowerThicknessV
+  fullName: GTA.Bone.FacialLeftLipLowerThicknessV
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipLowerThicknessV = 51017
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipLowerThicknessH
+  commentId: F:GTA.Bone.FacialLeftLipLowerThicknessH
+  id: FacialLeftLipLowerThicknessH
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipLowerThicknessH
+  nameWithType: Bone.FacialLeftLipLowerThicknessH
+  fullName: GTA.Bone.FacialLeftLipLowerThicknessH
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipLowerThicknessH = 50811
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipLowerSDK
+  commentId: F:GTA.Bone.FacialLipLowerSDK
+  id: FacialLipLowerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipLowerSDK
+  nameWithType: Bone.FacialLipLowerSDK
+  fullName: GTA.Bone.FacialLipLowerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipLowerSDK = 29317
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipLowerAnalog
+  commentId: F:GTA.Bone.FacialLipLowerAnalog
+  id: FacialLipLowerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipLowerAnalog
+  nameWithType: Bone.FacialLipLowerAnalog
+  fullName: GTA.Bone.FacialLipLowerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipLowerAnalog = 55675
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipLowerThicknessV
+  commentId: F:GTA.Bone.FacialLipLowerThicknessV
+  id: FacialLipLowerThicknessV
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipLowerThicknessV
+  nameWithType: Bone.FacialLipLowerThicknessV
+  fullName: GTA.Bone.FacialLipLowerThicknessV
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipLowerThicknessV = 50619
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipLowerThicknessH
+  commentId: F:GTA.Bone.FacialLipLowerThicknessH
+  id: FacialLipLowerThicknessH
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipLowerThicknessH
+  nameWithType: Bone.FacialLipLowerThicknessH
+  fullName: GTA.Bone.FacialLipLowerThicknessH
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipLowerThicknessH = 50669
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipLowerSDK
+  commentId: F:GTA.Bone.FacialRightLipLowerSDK
+  id: FacialRightLipLowerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipLowerSDK
+  nameWithType: Bone.FacialRightLipLowerSDK
+  fullName: GTA.Bone.FacialRightLipLowerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipLowerSDK = 41012
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipLowerAnalog
+  commentId: F:GTA.Bone.FacialRightLipLowerAnalog
+  id: FacialRightLipLowerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipLowerAnalog
+  nameWithType: Bone.FacialRightLipLowerAnalog
+  fullName: GTA.Bone.FacialRightLipLowerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipLowerAnalog = 49881
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipLowerThicknessV
+  commentId: F:GTA.Bone.FacialRightLipLowerThicknessV
+  id: FacialRightLipLowerThicknessV
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipLowerThicknessV
+  nameWithType: Bone.FacialRightLipLowerThicknessV
+  fullName: GTA.Bone.FacialRightLipLowerThicknessV
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipLowerThicknessV = 50921
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipLowerThicknessH
+  commentId: F:GTA.Bone.FacialRightLipLowerThicknessH
+  id: FacialRightLipLowerThicknessH
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipLowerThicknessH
+  nameWithType: Bone.FacialRightLipLowerThicknessH
+  fullName: GTA.Bone.FacialRightLipLowerThicknessH
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipLowerThicknessH = 50907
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialNose
+  commentId: F:GTA.Bone.FacialNose
+  id: FacialNose
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialNose
+  nameWithType: Bone.FacialNose
+  fullName: GTA.Bone.FacialNose
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialNose = 8433
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftNostril
+  commentId: F:GTA.Bone.FacialLeftNostril
+  id: FacialLeftNostril
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftNostril
+  nameWithType: Bone.FacialLeftNostril
+  fullName: GTA.Bone.FacialLeftNostril
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftNostril = 29474
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftNostrilThickness
+  commentId: F:GTA.Bone.FacialLeftNostrilThickness
+  id: FacialLeftNostrilThickness
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftNostrilThickness
+  nameWithType: Bone.FacialLeftNostrilThickness
+  fullName: GTA.Bone.FacialLeftNostrilThickness
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftNostrilThickness = 49503
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialNoseLower
+  commentId: F:GTA.Bone.FacialNoseLower
+  id: FacialNoseLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialNoseLower
+  nameWithType: Bone.FacialNoseLower
+  fullName: GTA.Bone.FacialNoseLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialNoseLower = 57434
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftNoseLowerThickness
+  commentId: F:GTA.Bone.FacialLeftNoseLowerThickness
+  id: FacialLeftNoseLowerThickness
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftNoseLowerThickness
+  nameWithType: Bone.FacialLeftNoseLowerThickness
+  fullName: GTA.Bone.FacialLeftNoseLowerThickness
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftNoseLowerThickness = 31189
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightNoseLowerThickness
+  commentId: F:GTA.Bone.FacialRightNoseLowerThickness
+  id: FacialRightNoseLowerThickness
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightNoseLowerThickness
+  nameWithType: Bone.FacialRightNoseLowerThickness
+  fullName: GTA.Bone.FacialRightNoseLowerThickness
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightNoseLowerThickness = 31093
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialNoseTip
+  commentId: F:GTA.Bone.FacialNoseTip
+  id: FacialNoseTip
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialNoseTip
+  nameWithType: Bone.FacialNoseTip
+  fullName: GTA.Bone.FacialNoseTip
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialNoseTip = 27232
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightNostril
+  commentId: F:GTA.Bone.FacialRightNostril
+  id: FacialRightNostril
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightNostril
+  nameWithType: Bone.FacialRightNostril
+  fullName: GTA.Bone.FacialRightNostril
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightNostril = 31010
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightNostrilThickness
+  commentId: F:GTA.Bone.FacialRightNostrilThickness
+  id: FacialRightNostrilThickness
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightNostrilThickness
+  nameWithType: Bone.FacialRightNostrilThickness
+  fullName: GTA.Bone.FacialRightNostrilThickness
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightNostrilThickness = 14079
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialNoseUpper
+  commentId: F:GTA.Bone.FacialNoseUpper
+  id: FacialNoseUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialNoseUpper
+  nameWithType: Bone.FacialNoseUpper
+  fullName: GTA.Bone.FacialNoseUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialNoseUpper = 41039
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftNoseUpper
+  commentId: F:GTA.Bone.FacialLeftNoseUpper
+  id: FacialLeftNoseUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftNoseUpper
+  nameWithType: Bone.FacialLeftNoseUpper
+  fullName: GTA.Bone.FacialLeftNoseUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftNoseUpper = 8120
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialNoseBridge
+  commentId: F:GTA.Bone.FacialNoseBridge
+  id: FacialNoseBridge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialNoseBridge
+  nameWithType: Bone.FacialNoseBridge
+  fullName: GTA.Bone.FacialNoseBridge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialNoseBridge = 39843
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftNasolabialFurrow
+  commentId: F:GTA.Bone.FacialLeftNasolabialFurrow
+  id: FacialLeftNasolabialFurrow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftNasolabialFurrow
+  nameWithType: Bone.FacialLeftNasolabialFurrow
+  fullName: GTA.Bone.FacialLeftNasolabialFurrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftNasolabialFurrow = 23242
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftNasolabialBulge
+  commentId: F:GTA.Bone.FacialLeftNasolabialBulge
+  id: FacialLeftNasolabialBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftNasolabialBulge
+  nameWithType: Bone.FacialLeftNasolabialBulge
+  fullName: GTA.Bone.FacialLeftNasolabialBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftNasolabialBulge = 52600
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftCheekLower
+  commentId: F:GTA.Bone.FacialLeftCheekLower
+  id: FacialLeftCheekLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftCheekLower
+  nameWithType: Bone.FacialLeftCheekLower
+  fullName: GTA.Bone.FacialLeftCheekLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftCheekLower = 26887
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftCheekLowerBulge1
+  commentId: F:GTA.Bone.FacialLeftCheekLowerBulge1
+  id: FacialLeftCheekLowerBulge1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftCheekLowerBulge1
+  nameWithType: Bone.FacialLeftCheekLowerBulge1
+  fullName: GTA.Bone.FacialLeftCheekLowerBulge1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftCheekLowerBulge1 = 58363
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftCheekLowerBulge2
+  commentId: F:GTA.Bone.FacialLeftCheekLowerBulge2
+  id: FacialLeftCheekLowerBulge2
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftCheekLowerBulge2
+  nameWithType: Bone.FacialLeftCheekLowerBulge2
+  fullName: GTA.Bone.FacialLeftCheekLowerBulge2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftCheekLowerBulge2 = 58364
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftCheekInner
+  commentId: F:GTA.Bone.FacialLeftCheekInner
+  id: FacialLeftCheekInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftCheekInner
+  nameWithType: Bone.FacialLeftCheekInner
+  fullName: GTA.Bone.FacialLeftCheekInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftCheekInner = 59307
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftCheekOuter
+  commentId: F:GTA.Bone.FacialLeftCheekOuter
+  id: FacialLeftCheekOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftCheekOuter
+  nameWithType: Bone.FacialLeftCheekOuter
+  fullName: GTA.Bone.FacialLeftCheekOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftCheekOuter = 33121
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyesackLower
+  commentId: F:GTA.Bone.FacialLeftEyesackLower
+  id: FacialLeftEyesackLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyesackLower
+  nameWithType: Bone.FacialLeftEyesackLower
+  fullName: GTA.Bone.FacialLeftEyesackLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyesackLower = 30491
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyeball
+  commentId: F:GTA.Bone.FacialLeftEyeball
+  id: FacialLeftEyeball
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyeball
+  nameWithType: Bone.FacialLeftEyeball
+  fullName: GTA.Bone.FacialLeftEyeball
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyeball = 5956
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidLower
+  commentId: F:GTA.Bone.FacialLeftEyelidLower
+  id: FacialLeftEyelidLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidLower
+  nameWithType: Bone.FacialLeftEyelidLower
+  fullName: GTA.Bone.FacialLeftEyelidLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidLower = 39308
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidLowerOuterSDK
+  commentId: F:GTA.Bone.FacialLeftEyelidLowerOuterSDK
+  id: FacialLeftEyelidLowerOuterSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidLowerOuterSDK
+  nameWithType: Bone.FacialLeftEyelidLowerOuterSDK
+  fullName: GTA.Bone.FacialLeftEyelidLowerOuterSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidLowerOuterSDK = 65100
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidLowerOuterAnalog
+  commentId: F:GTA.Bone.FacialLeftEyelidLowerOuterAnalog
+  id: FacialLeftEyelidLowerOuterAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidLowerOuterAnalog
+  nameWithType: Bone.FacialLeftEyelidLowerOuterAnalog
+  fullName: GTA.Bone.FacialLeftEyelidLowerOuterAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidLowerOuterAnalog = 47530
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelashLowerOuter
+  commentId: F:GTA.Bone.FacialLeftEyelashLowerOuter
+  id: FacialLeftEyelashLowerOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelashLowerOuter
+  nameWithType: Bone.FacialLeftEyelashLowerOuter
+  fullName: GTA.Bone.FacialLeftEyelashLowerOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelashLowerOuter = 55286
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidLowerInnerSDK
+  commentId: F:GTA.Bone.FacialLeftEyelidLowerInnerSDK
+  id: FacialLeftEyelidLowerInnerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidLowerInnerSDK
+  nameWithType: Bone.FacialLeftEyelidLowerInnerSDK
+  fullName: GTA.Bone.FacialLeftEyelidLowerInnerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidLowerInnerSDK = 61777
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidLowerInnerAnalog
+  commentId: F:GTA.Bone.FacialLeftEyelidLowerInnerAnalog
+  id: FacialLeftEyelidLowerInnerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidLowerInnerAnalog
+  nameWithType: Bone.FacialLeftEyelidLowerInnerAnalog
+  fullName: GTA.Bone.FacialLeftEyelidLowerInnerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidLowerInnerAnalog = 33346
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelashLowerInner
+  commentId: F:GTA.Bone.FacialLeftEyelashLowerInner
+  id: FacialLeftEyelashLowerInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelashLowerInner
+  nameWithType: Bone.FacialLeftEyelashLowerInner
+  fullName: GTA.Bone.FacialLeftEyelashLowerInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelashLowerInner = 19663
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidUpper
+  commentId: F:GTA.Bone.FacialLeftEyelidUpper
+  id: FacialLeftEyelidUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidUpper
+  nameWithType: Bone.FacialLeftEyelidUpper
+  fullName: GTA.Bone.FacialLeftEyelidUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidUpper = 38849
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidUpperOuterSDK
+  commentId: F:GTA.Bone.FacialLeftEyelidUpperOuterSDK
+  id: FacialLeftEyelidUpperOuterSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidUpperOuterSDK
+  nameWithType: Bone.FacialLeftEyelidUpperOuterSDK
+  fullName: GTA.Bone.FacialLeftEyelidUpperOuterSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidUpperOuterSDK = 44821
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidUpperOuterAnalog
+  commentId: F:GTA.Bone.FacialLeftEyelidUpperOuterAnalog
+  id: FacialLeftEyelidUpperOuterAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidUpperOuterAnalog
+  nameWithType: Bone.FacialLeftEyelidUpperOuterAnalog
+  fullName: GTA.Bone.FacialLeftEyelidUpperOuterAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidUpperOuterAnalog = 26618
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelashUpperOuter
+  commentId: F:GTA.Bone.FacialLeftEyelashUpperOuter
+  id: FacialLeftEyelashUpperOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelashUpperOuter
+  nameWithType: Bone.FacialLeftEyelashUpperOuter
+  fullName: GTA.Bone.FacialLeftEyelashUpperOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelashUpperOuter = 10167
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidUpperInnerSDK
+  commentId: F:GTA.Bone.FacialLeftEyelidUpperInnerSDK
+  id: FacialLeftEyelidUpperInnerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidUpperInnerSDK
+  nameWithType: Bone.FacialLeftEyelidUpperInnerSDK
+  fullName: GTA.Bone.FacialLeftEyelidUpperInnerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidUpperInnerSDK = 54081
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelidUpperInnerAnalog
+  commentId: F:GTA.Bone.FacialLeftEyelidUpperInnerAnalog
+  id: FacialLeftEyelidUpperInnerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelidUpperInnerAnalog
+  nameWithType: Bone.FacialLeftEyelidUpperInnerAnalog
+  fullName: GTA.Bone.FacialLeftEyelidUpperInnerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelidUpperInnerAnalog = 61586
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyelashUpperInner
+  commentId: F:GTA.Bone.FacialLeftEyelashUpperInner
+  id: FacialLeftEyelashUpperInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyelashUpperInner
+  nameWithType: Bone.FacialLeftEyelashUpperInner
+  fullName: GTA.Bone.FacialLeftEyelashUpperInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyelashUpperInner = 39711
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyesackUpperOuterBulge
+  commentId: F:GTA.Bone.FacialLeftEyesackUpperOuterBulge
+  id: FacialLeftEyesackUpperOuterBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyesackUpperOuterBulge
+  nameWithType: Bone.FacialLeftEyesackUpperOuterBulge
+  fullName: GTA.Bone.FacialLeftEyesackUpperOuterBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyesackUpperOuterBulge = 42329
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyesackUpperInnerBulge
+  commentId: F:GTA.Bone.FacialLeftEyesackUpperInnerBulge
+  id: FacialLeftEyesackUpperInnerBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyesackUpperInnerBulge
+  nameWithType: Bone.FacialLeftEyesackUpperInnerBulge
+  fullName: GTA.Bone.FacialLeftEyesackUpperInnerBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyesackUpperInnerBulge = 12074
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyesackUpperOuterFurrow
+  commentId: F:GTA.Bone.FacialLeftEyesackUpperOuterFurrow
+  id: FacialLeftEyesackUpperOuterFurrow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyesackUpperOuterFurrow
+  nameWithType: Bone.FacialLeftEyesackUpperOuterFurrow
+  fullName: GTA.Bone.FacialLeftEyesackUpperOuterFurrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyesackUpperOuterFurrow = 50583
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEyesackUpperInnerFurrow
+  commentId: F:GTA.Bone.FacialLeftEyesackUpperInnerFurrow
+  id: FacialLeftEyesackUpperInnerFurrow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEyesackUpperInnerFurrow
+  nameWithType: Bone.FacialLeftEyesackUpperInnerFurrow
+  fullName: GTA.Bone.FacialLeftEyesackUpperInnerFurrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEyesackUpperInnerFurrow = 21159
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialForehead
+  commentId: F:GTA.Bone.FacialForehead
+  id: FacialForehead
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialForehead
+  nameWithType: Bone.FacialForehead
+  fullName: GTA.Bone.FacialForehead
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialForehead = 37400
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftForeheadInner
+  commentId: F:GTA.Bone.FacialLeftForeheadInner
+  id: FacialLeftForeheadInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftForeheadInner
+  nameWithType: Bone.FacialLeftForeheadInner
+  fullName: GTA.Bone.FacialLeftForeheadInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftForeheadInner = 2115
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftForeheadInnerBulge
+  commentId: F:GTA.Bone.FacialLeftForeheadInnerBulge
+  id: FacialLeftForeheadInnerBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftForeheadInnerBulge
+  nameWithType: Bone.FacialLeftForeheadInnerBulge
+  fullName: GTA.Bone.FacialLeftForeheadInnerBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftForeheadInnerBulge = 30332
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftForeheadOuter
+  commentId: F:GTA.Bone.FacialLeftForeheadOuter
+  id: FacialLeftForeheadOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftForeheadOuter
+  nameWithType: Bone.FacialLeftForeheadOuter
+  fullName: GTA.Bone.FacialLeftForeheadOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftForeheadOuter = 36299
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialSkull
+  commentId: F:GTA.Bone.FacialSkull
+  id: FacialSkull
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialSkull
+  nameWithType: Bone.FacialSkull
+  fullName: GTA.Bone.FacialSkull
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialSkull = 16929
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialForeheadUpper
+  commentId: F:GTA.Bone.FacialForeheadUpper
+  id: FacialForeheadUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialForeheadUpper
+  nameWithType: Bone.FacialForeheadUpper
+  fullName: GTA.Bone.FacialForeheadUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialForeheadUpper = 63446
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftForeheadUpperInner
+  commentId: F:GTA.Bone.FacialLeftForeheadUpperInner
+  id: FacialLeftForeheadUpperInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftForeheadUpperInner
+  nameWithType: Bone.FacialLeftForeheadUpperInner
+  fullName: GTA.Bone.FacialLeftForeheadUpperInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftForeheadUpperInner = 53011
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftForeheadUpperOuter
+  commentId: F:GTA.Bone.FacialLeftForeheadUpperOuter
+  id: FacialLeftForeheadUpperOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftForeheadUpperOuter
+  nameWithType: Bone.FacialLeftForeheadUpperOuter
+  fullName: GTA.Bone.FacialLeftForeheadUpperOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftForeheadUpperOuter = 20635
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightForeheadUpperInner
+  commentId: F:GTA.Bone.FacialRightForeheadUpperInner
+  id: FacialRightForeheadUpperInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightForeheadUpperInner
+  nameWithType: Bone.FacialRightForeheadUpperInner
+  fullName: GTA.Bone.FacialRightForeheadUpperInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightForeheadUpperInner = 52979
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightForeheadUpperOuter
+  commentId: F:GTA.Bone.FacialRightForeheadUpperOuter
+  id: FacialRightForeheadUpperOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightForeheadUpperOuter
+  nameWithType: Bone.FacialRightForeheadUpperOuter
+  fullName: GTA.Bone.FacialRightForeheadUpperOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightForeheadUpperOuter = 20603
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLefttemple
+  commentId: F:GTA.Bone.FacialLefttemple
+  id: FacialLefttemple
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLefttemple
+  nameWithType: Bone.FacialLefttemple
+  fullName: GTA.Bone.FacialLefttemple
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLefttemple = 44921
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEar
+  commentId: F:GTA.Bone.FacialLeftEar
+  id: FacialLeftEar
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEar
+  nameWithType: Bone.FacialLeftEar
+  fullName: GTA.Bone.FacialLeftEar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEar = 6621
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftEarLower
+  commentId: F:GTA.Bone.FacialLeftEarLower
+  id: FacialLeftEarLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftEarLower
+  nameWithType: Bone.FacialLeftEarLower
+  fullName: GTA.Bone.FacialLeftEarLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftEarLower = 24625
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftmasseter
+  commentId: F:GTA.Bone.FacialLeftmasseter
+  id: FacialLeftmasseter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftmasseter
+  nameWithType: Bone.FacialLeftmasseter
+  fullName: GTA.Bone.FacialLeftmasseter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftmasseter = 10256
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftJawRecess
+  commentId: F:GTA.Bone.FacialLeftJawRecess
+  id: FacialLeftJawRecess
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftJawRecess
+  nameWithType: Bone.FacialLeftJawRecess
+  fullName: GTA.Bone.FacialLeftJawRecess
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftJawRecess = 40058
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftCheekOuterSkin
+  commentId: F:GTA.Bone.FacialLeftCheekOuterSkin
+  id: FacialLeftCheekOuterSkin
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftCheekOuterSkin
+  nameWithType: Bone.FacialLeftCheekOuterSkin
+  fullName: GTA.Bone.FacialLeftCheekOuterSkin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftCheekOuterSkin = 5285
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightCheekLower
+  commentId: F:GTA.Bone.FacialRightCheekLower
+  id: FacialRightCheekLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightCheekLower
+  nameWithType: Bone.FacialRightCheekLower
+  fullName: GTA.Bone.FacialRightCheekLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightCheekLower = 62311
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightCheekLowerBulge1
+  commentId: F:GTA.Bone.FacialRightCheekLowerBulge1
+  id: FacialRightCheekLowerBulge1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightCheekLowerBulge1
+  nameWithType: Bone.FacialRightCheekLowerBulge1
+  fullName: GTA.Bone.FacialRightCheekLowerBulge1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightCheekLowerBulge1 = 22939
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightCheekLowerBulge2
+  commentId: F:GTA.Bone.FacialRightCheekLowerBulge2
+  id: FacialRightCheekLowerBulge2
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightCheekLowerBulge2
+  nameWithType: Bone.FacialRightCheekLowerBulge2
+  fullName: GTA.Bone.FacialRightCheekLowerBulge2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightCheekLowerBulge2 = 22940
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightmasseter
+  commentId: F:GTA.Bone.FacialRightmasseter
+  id: FacialRightmasseter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightmasseter
+  nameWithType: Bone.FacialRightmasseter
+  fullName: GTA.Bone.FacialRightmasseter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightmasseter = 2064
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightJawRecess
+  commentId: F:GTA.Bone.FacialRightJawRecess
+  id: FacialRightJawRecess
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightJawRecess
+  nameWithType: Bone.FacialRightJawRecess
+  fullName: GTA.Bone.FacialRightJawRecess
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightJawRecess = 37844
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEar
+  commentId: F:GTA.Bone.FacialRightEar
+  id: FacialRightEar
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEar
+  nameWithType: Bone.FacialRightEar
+  fullName: GTA.Bone.FacialRightEar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEar = 4407
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEarLower
+  commentId: F:GTA.Bone.FacialRightEarLower
+  id: FacialRightEarLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEarLower
+  nameWithType: Bone.FacialRightEarLower
+  fullName: GTA.Bone.FacialRightEarLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEarLower = 32817
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyesackLower
+  commentId: F:GTA.Bone.FacialRightEyesackLower
+  id: FacialRightEyesackLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyesackLower
+  nameWithType: Bone.FacialRightEyesackLower
+  fullName: GTA.Bone.FacialRightEyesackLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyesackLower = 30587
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightNasolabialBulge
+  commentId: F:GTA.Bone.FacialRightNasolabialBulge
+  id: FacialRightNasolabialBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightNasolabialBulge
+  nameWithType: Bone.FacialRightNasolabialBulge
+  fullName: GTA.Bone.FacialRightNasolabialBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightNasolabialBulge = 54814
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightCheekOuter
+  commentId: F:GTA.Bone.FacialRightCheekOuter
+  id: FacialRightCheekOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightCheekOuter
+  nameWithType: Bone.FacialRightCheekOuter
+  fullName: GTA.Bone.FacialRightCheekOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightCheekOuter = 3378
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightCheekInner
+  commentId: F:GTA.Bone.FacialRightCheekInner
+  id: FacialRightCheekInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightCheekInner
+  nameWithType: Bone.FacialRightCheekInner
+  fullName: GTA.Bone.FacialRightCheekInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightCheekInner = 29564
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightNoseUpper
+  commentId: F:GTA.Bone.FacialRightNoseUpper
+  id: FacialRightNoseUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightNoseUpper
+  nameWithType: Bone.FacialRightNoseUpper
+  fullName: GTA.Bone.FacialRightNoseUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightNoseUpper = 7382
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightForeheadInner
+  commentId: F:GTA.Bone.FacialRightForeheadInner
+  id: FacialRightForeheadInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightForeheadInner
+  nameWithType: Bone.FacialRightForeheadInner
+  fullName: GTA.Bone.FacialRightForeheadInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightForeheadInner = 3651
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightForeheadInnerBulge
+  commentId: F:GTA.Bone.FacialRightForeheadInnerBulge
+  id: FacialRightForeheadInnerBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightForeheadInnerBulge
+  nameWithType: Bone.FacialRightForeheadInnerBulge
+  fullName: GTA.Bone.FacialRightForeheadInnerBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightForeheadInnerBulge = 30364
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightForeheadOuter
+  commentId: F:GTA.Bone.FacialRightForeheadOuter
+  id: FacialRightForeheadOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightForeheadOuter
+  nameWithType: Bone.FacialRightForeheadOuter
+  fullName: GTA.Bone.FacialRightForeheadOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightForeheadOuter = 36811
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightCheekOuterSkin
+  commentId: F:GTA.Bone.FacialRightCheekOuterSkin
+  id: FacialRightCheekOuterSkin
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightCheekOuterSkin
+  nameWithType: Bone.FacialRightCheekOuterSkin
+  fullName: GTA.Bone.FacialRightCheekOuterSkin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightCheekOuterSkin = 45876
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyesackUpperInnerFurrow
+  commentId: F:GTA.Bone.FacialRightEyesackUpperInnerFurrow
+  id: FacialRightEyesackUpperInnerFurrow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyesackUpperInnerFurrow
+  nameWithType: Bone.FacialRightEyesackUpperInnerFurrow
+  fullName: GTA.Bone.FacialRightEyesackUpperInnerFurrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyesackUpperInnerFurrow = 40878
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyesackUpperOuterFurrow
+  commentId: F:GTA.Bone.FacialRightEyesackUpperOuterFurrow
+  id: FacialRightEyesackUpperOuterFurrow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyesackUpperOuterFurrow
+  nameWithType: Bone.FacialRightEyesackUpperOuterFurrow
+  fullName: GTA.Bone.FacialRightEyesackUpperOuterFurrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyesackUpperOuterFurrow = 5135
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyesackUpperInnerBulge
+  commentId: F:GTA.Bone.FacialRightEyesackUpperInnerBulge
+  id: FacialRightEyesackUpperInnerBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyesackUpperInnerBulge
+  nameWithType: Bone.FacialRightEyesackUpperInnerBulge
+  fullName: GTA.Bone.FacialRightEyesackUpperInnerBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyesackUpperInnerBulge = 41817
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyesackUpperOuterBulge
+  commentId: F:GTA.Bone.FacialRightEyesackUpperOuterBulge
+  id: FacialRightEyesackUpperOuterBulge
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyesackUpperOuterBulge
+  nameWithType: Bone.FacialRightEyesackUpperOuterBulge
+  fullName: GTA.Bone.FacialRightEyesackUpperOuterBulge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyesackUpperOuterBulge = 6905
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightNasolabialFurrow
+  commentId: F:GTA.Bone.FacialRightNasolabialFurrow
+  id: FacialRightNasolabialFurrow
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightNasolabialFurrow
+  nameWithType: Bone.FacialRightNasolabialFurrow
+  fullName: GTA.Bone.FacialRightNasolabialFurrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightNasolabialFurrow = 11434
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightTemple
+  commentId: F:GTA.Bone.FacialRightTemple
+  id: FacialRightTemple
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightTemple
+  nameWithType: Bone.FacialRightTemple
+  fullName: GTA.Bone.FacialRightTemple
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightTemple = 44825
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyeball
+  commentId: F:GTA.Bone.FacialRightEyeball
+  id: FacialRightEyeball
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyeball
+  nameWithType: Bone.FacialRightEyeball
+  fullName: GTA.Bone.FacialRightEyeball
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyeball = 6468
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidUpper
+  commentId: F:GTA.Bone.FacialRightEyelidUpper
+  id: FacialRightEyelidUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidUpper
+  nameWithType: Bone.FacialRightEyelidUpper
+  fullName: GTA.Bone.FacialRightEyelidUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidUpper = 32276
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidUpperOuterSDK
+  commentId: F:GTA.Bone.FacialRightEyelidUpperOuterSDK
+  id: FacialRightEyelidUpperOuterSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidUpperOuterSDK
+  nameWithType: Bone.FacialRightEyelidUpperOuterSDK
+  fullName: GTA.Bone.FacialRightEyelidUpperOuterSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidUpperOuterSDK = 45333
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidUpperOuterAnalog
+  commentId: F:GTA.Bone.FacialRightEyelidUpperOuterAnalog
+  id: FacialRightEyelidUpperOuterAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidUpperOuterAnalog
+  nameWithType: Bone.FacialRightEyelidUpperOuterAnalog
+  fullName: GTA.Bone.FacialRightEyelidUpperOuterAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidUpperOuterAnalog = 62042
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelashUpperOuter
+  commentId: F:GTA.Bone.FacialRightEyelashUpperOuter
+  id: FacialRightEyelashUpperOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelashUpperOuter
+  nameWithType: Bone.FacialRightEyelashUpperOuter
+  fullName: GTA.Bone.FacialRightEyelashUpperOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelashUpperOuter = 3594
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidUpperInnerSDK
+  commentId: F:GTA.Bone.FacialRightEyelidUpperInnerSDK
+  id: FacialRightEyelidUpperInnerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidUpperInnerSDK
+  nameWithType: Bone.FacialRightEyelidUpperInnerSDK
+  fullName: GTA.Bone.FacialRightEyelidUpperInnerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidUpperInnerSDK = 54593
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidUpperInnerAnalog
+  commentId: F:GTA.Bone.FacialRightEyelidUpperInnerAnalog
+  id: FacialRightEyelidUpperInnerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidUpperInnerAnalog
+  nameWithType: Bone.FacialRightEyelidUpperInnerAnalog
+  fullName: GTA.Bone.FacialRightEyelidUpperInnerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidUpperInnerAnalog = 31843
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelashUpperInner
+  commentId: F:GTA.Bone.FacialRightEyelashUpperInner
+  id: FacialRightEyelashUpperInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelashUpperInner
+  nameWithType: Bone.FacialRightEyelashUpperInner
+  fullName: GTA.Bone.FacialRightEyelashUpperInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelashUpperInner = 33138
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidLower
+  commentId: F:GTA.Bone.FacialRightEyelidLower
+  id: FacialRightEyelidLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidLower
+  nameWithType: Bone.FacialRightEyelidLower
+  fullName: GTA.Bone.FacialRightEyelidLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidLower = 32735
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidLowerOuterSDK
+  commentId: F:GTA.Bone.FacialRightEyelidLowerOuterSDK
+  id: FacialRightEyelidLowerOuterSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidLowerOuterSDK
+  nameWithType: Bone.FacialRightEyelidLowerOuterSDK
+  fullName: GTA.Bone.FacialRightEyelidLowerOuterSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidLowerOuterSDK = 445
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidLowerOuterAnalog
+  commentId: F:GTA.Bone.FacialRightEyelidLowerOuterAnalog
+  id: FacialRightEyelidLowerOuterAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidLowerOuterAnalog
+  nameWithType: Bone.FacialRightEyelidLowerOuterAnalog
+  fullName: GTA.Bone.FacialRightEyelidLowerOuterAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidLowerOuterAnalog = 17787
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelashLowerOuter
+  commentId: F:GTA.Bone.FacialRightEyelashLowerOuter
+  id: FacialRightEyelashLowerOuter
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelashLowerOuter
+  nameWithType: Bone.FacialRightEyelashLowerOuter
+  fullName: GTA.Bone.FacialRightEyelashLowerOuter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelashLowerOuter = 48713
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidLowerInnerSDK
+  commentId: F:GTA.Bone.FacialRightEyelidLowerInnerSDK
+  id: FacialRightEyelidLowerInnerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidLowerInnerSDK
+  nameWithType: Bone.FacialRightEyelidLowerInnerSDK
+  fullName: GTA.Bone.FacialRightEyelidLowerInnerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidLowerInnerSDK = 62289
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelidLowerInnerAnalog
+  commentId: F:GTA.Bone.FacialRightEyelidLowerInnerAnalog
+  id: FacialRightEyelidLowerInnerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelidLowerInnerAnalog
+  nameWithType: Bone.FacialRightEyelidLowerInnerAnalog
+  fullName: GTA.Bone.FacialRightEyelidLowerInnerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelidLowerInnerAnalog = 3603
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightEyelashLowerInner
+  commentId: F:GTA.Bone.FacialRightEyelashLowerInner
+  id: FacialRightEyelashLowerInner
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightEyelashLowerInner
+  nameWithType: Bone.FacialRightEyelashLowerInner
+  fullName: GTA.Bone.FacialRightEyelashLowerInner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightEyelashLowerInner = 13090
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipUpperSDK
+  commentId: F:GTA.Bone.FacialLeftLipUpperSDK
+  id: FacialLeftLipUpperSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipUpperSDK
+  nameWithType: Bone.FacialLeftLipUpperSDK
+  fullName: GTA.Bone.FacialLeftLipUpperSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipUpperSDK = 36656
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipUpperAnalog
+  commentId: F:GTA.Bone.FacialLeftLipUpperAnalog
+  id: FacialLeftLipUpperAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipUpperAnalog
+  nameWithType: Bone.FacialLeftLipUpperAnalog
+  fullName: GTA.Bone.FacialLeftLipUpperAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipUpperAnalog = 45519
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipUpperThicknessH
+  commentId: F:GTA.Bone.FacialLeftLipUpperThicknessH
+  id: FacialLeftLipUpperThicknessH
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipUpperThicknessH
+  nameWithType: Bone.FacialLeftLipUpperThicknessH
+  fullName: GTA.Bone.FacialLeftLipUpperThicknessH
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipUpperThicknessH = 14286
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipUpperThicknessV
+  commentId: F:GTA.Bone.FacialLeftLipUpperThicknessV
+  id: FacialLeftLipUpperThicknessV
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipUpperThicknessV
+  nameWithType: Bone.FacialLeftLipUpperThicknessV
+  fullName: GTA.Bone.FacialLeftLipUpperThicknessV
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipUpperThicknessV = 14524
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipUpperSDK
+  commentId: F:GTA.Bone.FacialLipUpperSDK
+  id: FacialLipUpperSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipUpperSDK
+  nameWithType: Bone.FacialLipUpperSDK
+  fullName: GTA.Bone.FacialLipUpperSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipUpperSDK = 6004
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipUpperAnalog
+  commentId: F:GTA.Bone.FacialLipUpperAnalog
+  id: FacialLipUpperAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipUpperAnalog
+  nameWithType: Bone.FacialLipUpperAnalog
+  fullName: GTA.Bone.FacialLipUpperAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipUpperAnalog = 57444
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipUpperThicknessH
+  commentId: F:GTA.Bone.FacialLipUpperThicknessH
+  id: FacialLipUpperThicknessH
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipUpperThicknessH
+  nameWithType: Bone.FacialLipUpperThicknessH
+  fullName: GTA.Bone.FacialLipUpperThicknessH
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipUpperThicknessH = 31123
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLipUpperThicknessV
+  commentId: F:GTA.Bone.FacialLipUpperThicknessV
+  id: FacialLipUpperThicknessV
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLipUpperThicknessV
+  nameWithType: Bone.FacialLipUpperThicknessV
+  fullName: GTA.Bone.FacialLipUpperThicknessV
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLipUpperThicknessV = 31105
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipCornerSDK
+  commentId: F:GTA.Bone.FacialLeftLipCornerSDK
+  id: FacialLeftLipCornerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipCornerSDK
+  nameWithType: Bone.FacialLeftLipCornerSDK
+  fullName: GTA.Bone.FacialLeftLipCornerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipCornerSDK = 2844
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipCornerAnalog
+  commentId: F:GTA.Bone.FacialLeftLipCornerAnalog
+  id: FacialLeftLipCornerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipCornerAnalog
+  nameWithType: Bone.FacialLeftLipCornerAnalog
+  fullName: GTA.Bone.FacialLeftLipCornerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipCornerAnalog = 58728
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipCornerThicknessUpper
+  commentId: F:GTA.Bone.FacialLeftLipCornerThicknessUpper
+  id: FacialLeftLipCornerThicknessUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipCornerThicknessUpper
+  nameWithType: Bone.FacialLeftLipCornerThicknessUpper
+  fullName: GTA.Bone.FacialLeftLipCornerThicknessUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipCornerThicknessUpper = 1980
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialLeftLipCornerThicknessLower
+  commentId: F:GTA.Bone.FacialLeftLipCornerThicknessLower
+  id: FacialLeftLipCornerThicknessLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialLeftLipCornerThicknessLower
+  nameWithType: Bone.FacialLeftLipCornerThicknessLower
+  fullName: GTA.Bone.FacialLeftLipCornerThicknessLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialLeftLipCornerThicknessLower = 56642
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipUpperSDK
+  commentId: F:GTA.Bone.FacialRightLipUpperSDK
+  id: FacialRightLipUpperSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipUpperSDK
+  nameWithType: Bone.FacialRightLipUpperSDK
+  fullName: GTA.Bone.FacialRightLipUpperSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipUpperSDK = 30083
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipUpperAnalog
+  commentId: F:GTA.Bone.FacialRightLipUpperAnalog
+  id: FacialRightLipUpperAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipUpperAnalog
+  nameWithType: Bone.FacialRightLipUpperAnalog
+  fullName: GTA.Bone.FacialRightLipUpperAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipUpperAnalog = 20943
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipUpperThicknessH
+  commentId: F:GTA.Bone.FacialRightLipUpperThicknessH
+  id: FacialRightLipUpperThicknessH
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipUpperThicknessH
+  nameWithType: Bone.FacialRightLipUpperThicknessH
+  fullName: GTA.Bone.FacialRightLipUpperThicknessH
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipUpperThicknessH = 14382
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipUpperThicknessV
+  commentId: F:GTA.Bone.FacialRightLipUpperThicknessV
+  id: FacialRightLipUpperThicknessV
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipUpperThicknessV
+  nameWithType: Bone.FacialRightLipUpperThicknessV
+  fullName: GTA.Bone.FacialRightLipUpperThicknessV
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipUpperThicknessV = 14428
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipCornerSDK
+  commentId: F:GTA.Bone.FacialRightLipCornerSDK
+  id: FacialRightLipCornerSDK
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipCornerSDK
+  nameWithType: Bone.FacialRightLipCornerSDK
+  fullName: GTA.Bone.FacialRightLipCornerSDK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipCornerSDK = 2876
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipCornerAnalog
+  commentId: F:GTA.Bone.FacialRightLipCornerAnalog
+  id: FacialRightLipCornerAnalog
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipCornerAnalog
+  nameWithType: Bone.FacialRightLipCornerAnalog
+  fullName: GTA.Bone.FacialRightLipCornerAnalog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipCornerAnalog = 60942
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipCornerThicknessUpper
+  commentId: F:GTA.Bone.FacialRightLipCornerThicknessUpper
+  id: FacialRightLipCornerThicknessUpper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipCornerThicknessUpper
+  nameWithType: Bone.FacialRightLipCornerThicknessUpper
+  fullName: GTA.Bone.FacialRightLipCornerThicknessUpper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipCornerThicknessUpper = 21699
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FacialRightLipCornerThicknessLower
+  commentId: F:GTA.Bone.FacialRightLipCornerThicknessLower
+  id: FacialRightLipCornerThicknessLower
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FacialRightLipCornerThicknessLower
+  nameWithType: Bone.FacialRightLipCornerThicknessLower
+  fullName: GTA.Bone.FacialRightLipCornerThicknessLower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FacialRightLipCornerThicknessLower = 11194
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHMulletRoot
+  commentId: F:GTA.Bone.MHMulletRoot
+  id: MHMulletRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHMulletRoot
+  nameWithType: Bone.MHMulletRoot
+  fullName: GTA.Bone.MHMulletRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHMulletRoot = 15987
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHMulletScaler
+  commentId: F:GTA.Bone.MHMulletScaler
+  id: MHMulletScaler
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHMulletScaler
+  nameWithType: Bone.MHMulletScaler
+  fullName: GTA.Bone.MHMulletScaler
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHMulletScaler = 41410
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHHairScale
+  commentId: F:GTA.Bone.MHHairScale
+  id: MHHairScale
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHHairScale
+  nameWithType: Bone.MHHairScale
+  fullName: GTA.Bone.MHHairScale
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHHairScale = 50788
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHHairCrown
+  commentId: F:GTA.Bone.MHHairCrown
+  id: MHHairCrown
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHHairCrown
+  nameWithType: Bone.MHHairCrown
+  fullName: GTA.Bone.MHHairCrown
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHHairCrown = 5749
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMTorch
+  commentId: F:GTA.Bone.SMTorch
+  id: SMTorch
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMTorch
+  nameWithType: Bone.SMTorch
+  fullName: GTA.Bone.SMTorch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMTorch = 2262
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FXLight
+  commentId: F:GTA.Bone.FXLight
+  id: FXLight
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FXLight
+  nameWithType: Bone.FXLight
+  fullName: GTA.Bone.FXLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FXLight = 35161
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FXLightScale
+  commentId: F:GTA.Bone.FXLightScale
+  id: FXLightScale
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FXLightScale
+  nameWithType: Bone.FXLightScale
+  fullName: GTA.Bone.FXLightScale
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FXLightScale = 20536
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FXLightSwitch
+  commentId: F:GTA.Bone.FXLightSwitch
+  id: FXLightSwitch
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FXLightSwitch
+  nameWithType: Bone.FXLightSwitch
+  fullName: GTA.Bone.FXLightSwitch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FXLightSwitch = 57742
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.BagRoot
+  commentId: F:GTA.Bone.BagRoot
+  id: BagRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: BagRoot
+  nameWithType: Bone.BagRoot
+  fullName: GTA.Bone.BagRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BagRoot = 44297
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.BagPivotRoot
+  commentId: F:GTA.Bone.BagPivotRoot
+  id: BagPivotRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: BagPivotRoot
+  nameWithType: Bone.BagPivotRoot
+  fullName: GTA.Bone.BagPivotRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BagPivotRoot = 47158
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.BagPivot
+  commentId: F:GTA.Bone.BagPivot
+  id: BagPivot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: BagPivot
+  nameWithType: Bone.BagPivot
+  fullName: GTA.Bone.BagPivot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BagPivot = 19729
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.BagBody
+  commentId: F:GTA.Bone.BagBody
+  id: BagBody
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: BagBody
+  nameWithType: Bone.BagBody
+  fullName: GTA.Bone.BagBody
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BagBody = 43885
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.BagBoneRight
+  commentId: F:GTA.Bone.BagBoneRight
+  id: BagBoneRight
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: BagBoneRight
+  nameWithType: Bone.BagBoneRight
+  fullName: GTA.Bone.BagBoneRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BagBoneRight = 2359
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.BagBoneLeft
+  commentId: F:GTA.Bone.BagBoneLeft
+  id: BagBoneLeft
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: BagBoneLeft
+  nameWithType: Bone.BagBoneLeft
+  fullName: GTA.Bone.BagBoneLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BagBoneLeft = 2449
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLifeSaverFront
+  commentId: F:GTA.Bone.SMLifeSaverFront
+  id: SMLifeSaverFront
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLifeSaverFront
+  nameWithType: Bone.SMLifeSaverFront
+  fullName: GTA.Bone.SMLifeSaverFront
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLifeSaverFront = 37920
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMRightPouchesRoot
+  commentId: F:GTA.Bone.SMRightPouchesRoot
+  id: SMRightPouchesRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMRightPouchesRoot
+  nameWithType: Bone.SMRightPouchesRoot
+  fullName: GTA.Bone.SMRightPouchesRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMRightPouchesRoot = 10594
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMRightPouches
+  commentId: F:GTA.Bone.SMRightPouches
+  id: SMRightPouches
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMRightPouches
+  nameWithType: Bone.SMRightPouches
+  fullName: GTA.Bone.SMRightPouches
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMRightPouches = 16705
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLeftPouchesRoot
+  commentId: F:GTA.Bone.SMLeftPouchesRoot
+  id: SMLeftPouchesRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLeftPouchesRoot
+  nameWithType: Bone.SMLeftPouchesRoot
+  fullName: GTA.Bone.SMLeftPouchesRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLeftPouchesRoot = 10754
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLeftPouches
+  commentId: F:GTA.Bone.SMLeftPouches
+  id: SMLeftPouches
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLeftPouches
+  nameWithType: Bone.SMLeftPouches
+  fullName: GTA.Bone.SMLeftPouches
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLeftPouches = 19265
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMSuitBackFlapper
+  commentId: F:GTA.Bone.SMSuitBackFlapper
+  id: SMSuitBackFlapper
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMSuitBackFlapper
+  nameWithType: Bone.SMSuitBackFlapper
+  fullName: GTA.Bone.SMSuitBackFlapper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMSuitBackFlapper = 55853
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRCopRadio
+  commentId: F:GTA.Bone.SPRCopRadio
+  id: SPRCopRadio
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRCopRadio
+  nameWithType: Bone.SPRCopRadio
+  fullName: GTA.Bone.SPRCopRadio
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRCopRadio = 33349
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SMLifeSaverBack
+  commentId: F:GTA.Bone.SMLifeSaverBack
+  id: SMLifeSaverBack
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SMLifeSaverBack
+  nameWithType: Bone.SMLifeSaverBack
+  fullName: GTA.Bone.SMLifeSaverBack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SMLifeSaverBack = 8487
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHBlushSlider
+  commentId: F:GTA.Bone.MHBlushSlider
+  id: MHBlushSlider
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHBlushSlider
+  nameWithType: Bone.MHBlushSlider
+  fullName: GTA.Bone.MHBlushSlider
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHBlushSlider = 41166
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelTail01
+  commentId: F:GTA.Bone.SkelTail01
+  id: SkelTail01
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelTail01
+  nameWithType: Bone.SkelTail01
+  fullName: GTA.Bone.SkelTail01
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelTail01 = 839
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelTail02
+  commentId: F:GTA.Bone.SkelTail02
+  id: SkelTail02
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelTail02
+  nameWithType: Bone.SkelTail02
+  fullName: GTA.Bone.SkelTail02
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelTail02 = 840
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftConcertinaB
+  commentId: F:GTA.Bone.MHLeftConcertinaB
+  id: MHLeftConcertinaB
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftConcertinaB
+  nameWithType: Bone.MHLeftConcertinaB
+  fullName: GTA.Bone.MHLeftConcertinaB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftConcertinaB = 51592
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftConcertinaA
+  commentId: F:GTA.Bone.MHLeftConcertinaA
+  id: MHLeftConcertinaA
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftConcertinaA
+  nameWithType: Bone.MHLeftConcertinaA
+  fullName: GTA.Bone.MHLeftConcertinaA
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftConcertinaA = 51591
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightConcertinaB
+  commentId: F:GTA.Bone.MHRightConcertinaB
+  id: MHRightConcertinaB
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightConcertinaB
+  nameWithType: Bone.MHRightConcertinaB
+  fullName: GTA.Bone.MHRightConcertinaB
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightConcertinaB = 51432
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightConcertinaA
+  commentId: F:GTA.Bone.MHRightConcertinaA
+  id: MHRightConcertinaA
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightConcertinaA
+  nameWithType: Bone.MHRightConcertinaA
+  fullName: GTA.Bone.MHRightConcertinaA
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightConcertinaA = 51431
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftShoulderBladeRoot
+  commentId: F:GTA.Bone.MHLeftShoulderBladeRoot
+  id: MHLeftShoulderBladeRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftShoulderBladeRoot
+  nameWithType: Bone.MHLeftShoulderBladeRoot
+  fullName: GTA.Bone.MHLeftShoulderBladeRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftShoulderBladeRoot = 34577
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHLeftShoulderBlade
+  commentId: F:GTA.Bone.MHLeftShoulderBlade
+  id: MHLeftShoulderBlade
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHLeftShoulderBlade
+  nameWithType: Bone.MHLeftShoulderBlade
+  fullName: GTA.Bone.MHLeftShoulderBlade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHLeftShoulderBlade = 20143
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightShoulderBladeRoot
+  commentId: F:GTA.Bone.MHRightShoulderBladeRoot
+  id: MHRightShoulderBladeRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightShoulderBladeRoot
+  nameWithType: Bone.MHRightShoulderBladeRoot
+  fullName: GTA.Bone.MHRightShoulderBladeRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightShoulderBladeRoot = 14858
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.MHRightShoulderBlade
+  commentId: F:GTA.Bone.MHRightShoulderBlade
+  id: MHRightShoulderBlade
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: MHRightShoulderBlade
+  nameWithType: Bone.MHRightShoulderBlade
+  fullName: GTA.Bone.MHRightShoulderBlade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MHRightShoulderBlade = 21679
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightEar000
+  commentId: F:GTA.Bone.FBRightEar000
+  id: FBRightEar000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightEar000
+  nameWithType: Bone.FBRightEar000
+  fullName: GTA.Bone.FBRightEar000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightEar000 = 27871
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRRightEar
+  commentId: F:GTA.Bone.SPRRightEar
+  id: SPRRightEar
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRRightEar
+  nameWithType: Bone.SPRRightEar
+  fullName: GTA.Bone.SPRRightEar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRRightEar = 25526
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftEar000
+  commentId: F:GTA.Bone.FBLeftEar000
+  id: FBLeftEar000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftEar000
+  nameWithType: Bone.FBLeftEar000
+  fullName: GTA.Bone.FBLeftEar000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftEar000 = 25657
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRLeftEar
+  commentId: F:GTA.Bone.SPRLeftEar
+  id: SPRLeftEar
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRLeftEar
+  nameWithType: Bone.SPRLeftEar
+  fullName: GTA.Bone.SPRLeftEar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRLeftEar = 23312
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBTongueA000
+  commentId: F:GTA.Bone.FBTongueA000
+  id: FBTongueA000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBTongueA000
+  nameWithType: Bone.FBTongueA000
+  fullName: GTA.Bone.FBTongueA000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBTongueA000 = 16902
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBTongueB000
+  commentId: F:GTA.Bone.FBTongueB000
+  id: FBTongueB000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBTongueB000
+  nameWithType: Bone.FBTongueB000
+  fullName: GTA.Bone.FBTongueB000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBTongueB000 = 16903
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBTongueC000
+  commentId: F:GTA.Bone.FBTongueC000
+  id: FBTongueC000
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBTongueC000
+  nameWithType: Bone.FBTongueC000
+  fullName: GTA.Bone.FBTongueC000
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBTongueC000 = 16904
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelLeftToe1
+  commentId: F:GTA.Bone.SkelLeftToe1
+  id: SkelLeftToe1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelLeftToe1
+  nameWithType: Bone.SkelLeftToe1
+  fullName: GTA.Bone.SkelLeftToe1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelLeftToe1 = 7531
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelRightToe1
+  commentId: F:GTA.Bone.SkelRightToe1
+  id: SkelRightToe1
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelRightToe1
+  nameWithType: Bone.SkelRightToe1
+  fullName: GTA.Bone.SkelRightToe1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelRightToe1 = 45631
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelTail03
+  commentId: F:GTA.Bone.SkelTail03
+  id: SkelTail03
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelTail03
+  nameWithType: Bone.SkelTail03
+  fullName: GTA.Bone.SkelTail03
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelTail03 = 841
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelTail04
+  commentId: F:GTA.Bone.SkelTail04
+  id: SkelTail04
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelTail04
+  nameWithType: Bone.SkelTail04
+  fullName: GTA.Bone.SkelTail04
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelTail04 = 842
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SkelTail05
+  commentId: F:GTA.Bone.SkelTail05
+  id: SkelTail05
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SkelTail05
+  nameWithType: Bone.SkelTail05
+  fullName: GTA.Bone.SkelTail05
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkelTail05 = 843
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRGonadsRoot
+  commentId: F:GTA.Bone.SPRGonadsRoot
+  id: SPRGonadsRoot
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRGonadsRoot
+  nameWithType: Bone.SPRGonadsRoot
+  fullName: GTA.Bone.SPRGonadsRoot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRGonadsRoot = 49118
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.SPRGonads
+  commentId: F:GTA.Bone.SPRGonads
+  id: SPRGonads
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: SPRGonads
+  nameWithType: Bone.SPRGonads
+  fullName: GTA.Bone.SPRGonads
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SPRGonads = 7168
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftBrowOut001
+  commentId: F:GTA.Bone.FBLeftBrowOut001
+  id: FBLeftBrowOut001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftBrowOut001
+  nameWithType: Bone.FBLeftBrowOut001
+  fullName: GTA.Bone.FBLeftBrowOut001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftBrowOut001 = 58331
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLidUpper001
+  commentId: F:GTA.Bone.FBLeftLidUpper001
+  id: FBLeftLidUpper001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLidUpper001
+  nameWithType: Bone.FBLeftLidUpper001
+  fullName: GTA.Bone.FBLeftLidUpper001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLidUpper001 = 45750
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftEye001
+  commentId: F:GTA.Bone.FBLeftEye001
+  id: FBLeftEye001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftEye001
+  nameWithType: Bone.FBLeftEye001
+  fullName: GTA.Bone.FBLeftEye001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftEye001 = 25260
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftCheekBone001
+  commentId: F:GTA.Bone.FBLeftCheekBone001
+  id: FBLeftCheekBone001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftCheekBone001
+  nameWithType: Bone.FBLeftCheekBone001
+  fullName: GTA.Bone.FBLeftCheekBone001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftCheekBone001 = 21550
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLipCorner001
+  commentId: F:GTA.Bone.FBLeftLipCorner001
+  id: FBLeftLipCorner001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLipCorner001
+  nameWithType: Bone.FBLeftLipCorner001
+  fullName: GTA.Bone.FBLeftLipCorner001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLipCorner001 = 29868
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLidUpper001
+  commentId: F:GTA.Bone.FBRightLidUpper001
+  id: FBRightLidUpper001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLidUpper001
+  nameWithType: Bone.FBRightLidUpper001
+  fullName: GTA.Bone.FBRightLidUpper001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLidUpper001 = 43536
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightEye001
+  commentId: F:GTA.Bone.FBRightEye001
+  id: FBRightEye001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightEye001
+  nameWithType: Bone.FBRightEye001
+  fullName: GTA.Bone.FBRightEye001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightEye001 = 27474
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightCheekBone001
+  commentId: F:GTA.Bone.FBRightCheekBone001
+  id: FBRightCheekBone001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightCheekBone001
+  nameWithType: Bone.FBRightCheekBone001
+  fullName: GTA.Bone.FBRightCheekBone001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightCheekBone001 = 19336
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightBrowOut001
+  commentId: F:GTA.Bone.FBRightBrowOut001
+  id: FBRightBrowOut001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightBrowOut001
+  nameWithType: Bone.FBRightBrowOut001
+  fullName: GTA.Bone.FBRightBrowOut001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightBrowOut001 = 1356
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLipCorner001
+  commentId: F:GTA.Bone.FBRightLipCorner001
+  id: FBRightLipCorner001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLipCorner001
+  nameWithType: Bone.FBRightLipCorner001
+  fullName: GTA.Bone.FBRightLipCorner001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLipCorner001 = 11174
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBBrowCentre001
+  commentId: F:GTA.Bone.FBBrowCentre001
+  id: FBBrowCentre001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBBrowCentre001
+  nameWithType: Bone.FBBrowCentre001
+  fullName: GTA.Bone.FBBrowCentre001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBBrowCentre001 = 37193
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBUpperLipRoot001
+  commentId: F:GTA.Bone.FBUpperLipRoot001
+  id: FBUpperLipRoot001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBUpperLipRoot001
+  nameWithType: Bone.FBUpperLipRoot001
+  fullName: GTA.Bone.FBUpperLipRoot001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBUpperLipRoot001 = 20178
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBUpperLip001
+  commentId: F:GTA.Bone.FBUpperLip001
+  id: FBUpperLip001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBUpperLip001
+  nameWithType: Bone.FBUpperLip001
+  fullName: GTA.Bone.FBUpperLip001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBUpperLip001 = 61839
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLipTop001
+  commentId: F:GTA.Bone.FBLeftLipTop001
+  id: FBLeftLipTop001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLipTop001
+  nameWithType: Bone.FBLeftLipTop001
+  fullName: GTA.Bone.FBLeftLipTop001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLipTop001 = 20279
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLipTop001
+  commentId: F:GTA.Bone.FBRightLipTop001
+  id: FBRightLipTop001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLipTop001
+  nameWithType: Bone.FBRightLipTop001
+  fullName: GTA.Bone.FBRightLipTop001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLipTop001 = 17719
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBJaw001
+  commentId: F:GTA.Bone.FBJaw001
+  id: FBJaw001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBJaw001
+  nameWithType: Bone.FBJaw001
+  fullName: GTA.Bone.FBJaw001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBJaw001 = 46240
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLowerLipRoot001
+  commentId: F:GTA.Bone.FBLowerLipRoot001
+  id: FBLowerLipRoot001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLowerLipRoot001
+  nameWithType: Bone.FBLowerLipRoot001
+  fullName: GTA.Bone.FBLowerLipRoot001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLowerLipRoot001 = 17188
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLowerLip001
+  commentId: F:GTA.Bone.FBLowerLip001
+  id: FBLowerLip001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLowerLip001
+  nameWithType: Bone.FBLowerLip001
+  fullName: GTA.Bone.FBLowerLip001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLowerLip001 = 20623
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBLeftLipBot001
+  commentId: F:GTA.Bone.FBLeftLipBot001
+  id: FBLeftLipBot001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBLeftLipBot001
+  nameWithType: Bone.FBLeftLipBot001
+  fullName: GTA.Bone.FBLeftLipBot001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBLeftLipBot001 = 47419
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBRightLipBot001
+  commentId: F:GTA.Bone.FBRightLipBot001
+  id: FBRightLipBot001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBRightLipBot001
+  nameWithType: Bone.FBRightLipBot001
+  fullName: GTA.Bone.FBRightLipBot001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBRightLipBot001 = 49979
+    return:
+      type: GTA.Bone
+- uid: GTA.Bone.FBTongue001
+  commentId: F:GTA.Bone.FBTongue001
+  id: FBTongue001
+  parent: GTA.Bone
+  langs:
+  - csharp
+  - vb
+  name: FBTongue001
+  nameWithType: Bone.FBTongue001
+  fullName: GTA.Bone.FBTongue001
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FBTongue001 = 47495
+    return:
+      type: GTA.Bone
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Bone
+  commentId: T:GTA.Bone
+  parent: GTA
+  isExternal: true
+  href: GTA.Bone.html
+  name: Bone
+  nameWithType: Bone
+  fullName: GTA.Bone

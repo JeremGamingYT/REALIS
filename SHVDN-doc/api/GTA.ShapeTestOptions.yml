@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ShapeTestOptions
+  commentId: T:GTA.ShapeTestOptions
+  id: ShapeTestOptions
+  parent: GTA
+  children:
+  - GTA.ShapeTestOptions.Default
+  - GTA.ShapeTestOptions.IgnoreGlass
+  - GTA.ShapeTestOptions.IgnoreNoCollision
+  - GTA.ShapeTestOptions.IgnoreSeeThrough
+  langs:
+  - csharp
+  - vb
+  name: ShapeTestOptions
+  nameWithType: ShapeTestOptions
+  fullName: GTA.ShapeTestOptions
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ShapeTestOptions
+    content.vb: >-
+      <Flags>
+
+      Public Enum ShapeTestOptions
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.ShapeTestOptions.IgnoreGlass
+  commentId: F:GTA.ShapeTestOptions.IgnoreGlass
+  id: IgnoreGlass
+  parent: GTA.ShapeTestOptions
+  langs:
+  - csharp
+  - vb
+  name: IgnoreGlass
+  nameWithType: ShapeTestOptions.IgnoreGlass
+  fullName: GTA.ShapeTestOptions.IgnoreGlass
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IgnoreGlass = 1
+    return:
+      type: GTA.ShapeTestOptions
+- uid: GTA.ShapeTestOptions.IgnoreSeeThrough
+  commentId: F:GTA.ShapeTestOptions.IgnoreSeeThrough
+  id: IgnoreSeeThrough
+  parent: GTA.ShapeTestOptions
+  langs:
+  - csharp
+  - vb
+  name: IgnoreSeeThrough
+  nameWithType: ShapeTestOptions.IgnoreSeeThrough
+  fullName: GTA.ShapeTestOptions.IgnoreSeeThrough
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IgnoreSeeThrough = 2
+    return:
+      type: GTA.ShapeTestOptions
+- uid: GTA.ShapeTestOptions.IgnoreNoCollision
+  commentId: F:GTA.ShapeTestOptions.IgnoreNoCollision
+  id: IgnoreNoCollision
+  parent: GTA.ShapeTestOptions
+  langs:
+  - csharp
+  - vb
+  name: IgnoreNoCollision
+  nameWithType: ShapeTestOptions.IgnoreNoCollision
+  fullName: GTA.ShapeTestOptions.IgnoreNoCollision
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IgnoreNoCollision = 4
+    return:
+      type: GTA.ShapeTestOptions
+- uid: GTA.ShapeTestOptions.Default
+  commentId: F:GTA.ShapeTestOptions.Default
+  id: Default
+  parent: GTA.ShapeTestOptions
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: ShapeTestOptions.Default
+  fullName: GTA.ShapeTestOptions.Default
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Default = IgnoreGlass | IgnoreSeeThrough | IgnoreNoCollision
+    return:
+      type: GTA.ShapeTestOptions
+    content.vb: Default = IgnoreGlass Or IgnoreSeeThrough Or IgnoreNoCollision
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ShapeTestOptions
+  commentId: T:GTA.ShapeTestOptions
+  parent: GTA
+  isExternal: true
+  href: GTA.ShapeTestOptions.html
+  name: ShapeTestOptions
+  nameWithType: ShapeTestOptions
+  fullName: GTA.ShapeTestOptions

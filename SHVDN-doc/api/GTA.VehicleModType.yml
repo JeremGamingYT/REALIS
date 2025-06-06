@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleModType
+  commentId: T:GTA.VehicleModType
+  id: VehicleModType
+  parent: GTA
+  children:
+  - GTA.VehicleModType.Aerials
+  - GTA.VehicleModType.AirFilter
+  - GTA.VehicleModType.ArchCover
+  - GTA.VehicleModType.Armor
+  - GTA.VehicleModType.Brakes
+  - GTA.VehicleModType.ColumnShifterLevers
+  - GTA.VehicleModType.Dashboard
+  - GTA.VehicleModType.DialDesign
+  - GTA.VehicleModType.DoorSpeakers
+  - GTA.VehicleModType.Engine
+  - GTA.VehicleModType.EngineBlock
+  - GTA.VehicleModType.Exhaust
+  - GTA.VehicleModType.Fender
+  - GTA.VehicleModType.Frame
+  - GTA.VehicleModType.FrontBumper
+  - GTA.VehicleModType.FrontWheel
+  - GTA.VehicleModType.Grille
+  - GTA.VehicleModType.Hood
+  - GTA.VehicleModType.Horns
+  - GTA.VehicleModType.Hydraulics
+  - GTA.VehicleModType.Livery
+  - GTA.VehicleModType.None
+  - GTA.VehicleModType.Ornaments
+  - GTA.VehicleModType.Plaques
+  - GTA.VehicleModType.PlateHolder
+  - GTA.VehicleModType.RearBumper
+  - GTA.VehicleModType.RearWheel
+  - GTA.VehicleModType.RightFender
+  - GTA.VehicleModType.Roof
+  - GTA.VehicleModType.Seats
+  - GTA.VehicleModType.SideSkirt
+  - GTA.VehicleModType.Speakers
+  - GTA.VehicleModType.Spoilers
+  - GTA.VehicleModType.SteeringWheels
+  - GTA.VehicleModType.Struts
+  - GTA.VehicleModType.Suspension
+  - GTA.VehicleModType.Tank
+  - GTA.VehicleModType.Transmission
+  - GTA.VehicleModType.Trim
+  - GTA.VehicleModType.TrimDesign
+  - GTA.VehicleModType.Trunk
+  - GTA.VehicleModType.VanityPlates
+  - GTA.VehicleModType.Windows
+  langs:
+  - csharp
+  - vb
+  name: VehicleModType
+  nameWithType: VehicleModType
+  fullName: GTA.VehicleModType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleModType
+    content.vb: Public Enum VehicleModType
+- uid: GTA.VehicleModType.None
+  commentId: F:GTA.VehicleModType.None
+  id: None
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VehicleModType.None
+  fullName: GTA.VehicleModType.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = -1
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Spoilers
+  commentId: F:GTA.VehicleModType.Spoilers
+  id: Spoilers
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Spoilers
+  nameWithType: VehicleModType.Spoilers
+  fullName: GTA.VehicleModType.Spoilers
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spoilers = 0
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.FrontBumper
+  commentId: F:GTA.VehicleModType.FrontBumper
+  id: FrontBumper
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: FrontBumper
+  nameWithType: VehicleModType.FrontBumper
+  fullName: GTA.VehicleModType.FrontBumper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontBumper = 1
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.RearBumper
+  commentId: F:GTA.VehicleModType.RearBumper
+  id: RearBumper
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: RearBumper
+  nameWithType: VehicleModType.RearBumper
+  fullName: GTA.VehicleModType.RearBumper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RearBumper = 2
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.SideSkirt
+  commentId: F:GTA.VehicleModType.SideSkirt
+  id: SideSkirt
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: SideSkirt
+  nameWithType: VehicleModType.SideSkirt
+  fullName: GTA.VehicleModType.SideSkirt
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SideSkirt = 3
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Exhaust
+  commentId: F:GTA.VehicleModType.Exhaust
+  id: Exhaust
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Exhaust
+  nameWithType: VehicleModType.Exhaust
+  fullName: GTA.VehicleModType.Exhaust
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Exhaust = 4
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Frame
+  commentId: F:GTA.VehicleModType.Frame
+  id: Frame
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Frame
+  nameWithType: VehicleModType.Frame
+  fullName: GTA.VehicleModType.Frame
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Frame = 5
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Grille
+  commentId: F:GTA.VehicleModType.Grille
+  id: Grille
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Grille
+  nameWithType: VehicleModType.Grille
+  fullName: GTA.VehicleModType.Grille
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Grille = 6
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Hood
+  commentId: F:GTA.VehicleModType.Hood
+  id: Hood
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Hood
+  nameWithType: VehicleModType.Hood
+  fullName: GTA.VehicleModType.Hood
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hood = 7
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Fender
+  commentId: F:GTA.VehicleModType.Fender
+  id: Fender
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Fender
+  nameWithType: VehicleModType.Fender
+  fullName: GTA.VehicleModType.Fender
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Fender = 8
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.RightFender
+  commentId: F:GTA.VehicleModType.RightFender
+  id: RightFender
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: RightFender
+  nameWithType: VehicleModType.RightFender
+  fullName: GTA.VehicleModType.RightFender
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RightFender = 9
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Roof
+  commentId: F:GTA.VehicleModType.Roof
+  id: Roof
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Roof
+  nameWithType: VehicleModType.Roof
+  fullName: GTA.VehicleModType.Roof
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Roof = 10
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Engine
+  commentId: F:GTA.VehicleModType.Engine
+  id: Engine
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Engine
+  nameWithType: VehicleModType.Engine
+  fullName: GTA.VehicleModType.Engine
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Engine = 11
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Brakes
+  commentId: F:GTA.VehicleModType.Brakes
+  id: Brakes
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Brakes
+  nameWithType: VehicleModType.Brakes
+  fullName: GTA.VehicleModType.Brakes
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Brakes = 12
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Transmission
+  commentId: F:GTA.VehicleModType.Transmission
+  id: Transmission
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Transmission
+  nameWithType: VehicleModType.Transmission
+  fullName: GTA.VehicleModType.Transmission
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Transmission = 13
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Horns
+  commentId: F:GTA.VehicleModType.Horns
+  id: Horns
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Horns
+  nameWithType: VehicleModType.Horns
+  fullName: GTA.VehicleModType.Horns
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Horns = 14
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Suspension
+  commentId: F:GTA.VehicleModType.Suspension
+  id: Suspension
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Suspension
+  nameWithType: VehicleModType.Suspension
+  fullName: GTA.VehicleModType.Suspension
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Suspension = 15
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Armor
+  commentId: F:GTA.VehicleModType.Armor
+  id: Armor
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Armor
+  nameWithType: VehicleModType.Armor
+  fullName: GTA.VehicleModType.Armor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Armor = 16
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.FrontWheel
+  commentId: F:GTA.VehicleModType.FrontWheel
+  id: FrontWheel
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: FrontWheel
+  nameWithType: VehicleModType.FrontWheel
+  fullName: GTA.VehicleModType.FrontWheel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontWheel = 23
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.RearWheel
+  commentId: F:GTA.VehicleModType.RearWheel
+  id: RearWheel
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: RearWheel
+  nameWithType: VehicleModType.RearWheel
+  fullName: GTA.VehicleModType.RearWheel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RearWheel = 24
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.PlateHolder
+  commentId: F:GTA.VehicleModType.PlateHolder
+  id: PlateHolder
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: PlateHolder
+  nameWithType: VehicleModType.PlateHolder
+  fullName: GTA.VehicleModType.PlateHolder
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlateHolder = 25
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.VanityPlates
+  commentId: F:GTA.VehicleModType.VanityPlates
+  id: VanityPlates
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: VanityPlates
+  nameWithType: VehicleModType.VanityPlates
+  fullName: GTA.VehicleModType.VanityPlates
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VanityPlates = 26
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.TrimDesign
+  commentId: F:GTA.VehicleModType.TrimDesign
+  id: TrimDesign
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: TrimDesign
+  nameWithType: VehicleModType.TrimDesign
+  fullName: GTA.VehicleModType.TrimDesign
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TrimDesign = 27
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Ornaments
+  commentId: F:GTA.VehicleModType.Ornaments
+  id: Ornaments
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Ornaments
+  nameWithType: VehicleModType.Ornaments
+  fullName: GTA.VehicleModType.Ornaments
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ornaments = 28
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Dashboard
+  commentId: F:GTA.VehicleModType.Dashboard
+  id: Dashboard
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Dashboard
+  nameWithType: VehicleModType.Dashboard
+  fullName: GTA.VehicleModType.Dashboard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Dashboard = 29
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.DialDesign
+  commentId: F:GTA.VehicleModType.DialDesign
+  id: DialDesign
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: DialDesign
+  nameWithType: VehicleModType.DialDesign
+  fullName: GTA.VehicleModType.DialDesign
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DialDesign = 30
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.DoorSpeakers
+  commentId: F:GTA.VehicleModType.DoorSpeakers
+  id: DoorSpeakers
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: DoorSpeakers
+  nameWithType: VehicleModType.DoorSpeakers
+  fullName: GTA.VehicleModType.DoorSpeakers
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DoorSpeakers = 31
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Seats
+  commentId: F:GTA.VehicleModType.Seats
+  id: Seats
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Seats
+  nameWithType: VehicleModType.Seats
+  fullName: GTA.VehicleModType.Seats
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Seats = 32
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.SteeringWheels
+  commentId: F:GTA.VehicleModType.SteeringWheels
+  id: SteeringWheels
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: SteeringWheels
+  nameWithType: VehicleModType.SteeringWheels
+  fullName: GTA.VehicleModType.SteeringWheels
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SteeringWheels = 33
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.ColumnShifterLevers
+  commentId: F:GTA.VehicleModType.ColumnShifterLevers
+  id: ColumnShifterLevers
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: ColumnShifterLevers
+  nameWithType: VehicleModType.ColumnShifterLevers
+  fullName: GTA.VehicleModType.ColumnShifterLevers
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ColumnShifterLevers = 34
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Plaques
+  commentId: F:GTA.VehicleModType.Plaques
+  id: Plaques
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Plaques
+  nameWithType: VehicleModType.Plaques
+  fullName: GTA.VehicleModType.Plaques
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Plaques = 35
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Speakers
+  commentId: F:GTA.VehicleModType.Speakers
+  id: Speakers
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Speakers
+  nameWithType: VehicleModType.Speakers
+  fullName: GTA.VehicleModType.Speakers
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Speakers = 36
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Trunk
+  commentId: F:GTA.VehicleModType.Trunk
+  id: Trunk
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Trunk
+  nameWithType: VehicleModType.Trunk
+  fullName: GTA.VehicleModType.Trunk
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Trunk = 37
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Hydraulics
+  commentId: F:GTA.VehicleModType.Hydraulics
+  id: Hydraulics
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Hydraulics
+  nameWithType: VehicleModType.Hydraulics
+  fullName: GTA.VehicleModType.Hydraulics
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hydraulics = 38
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.EngineBlock
+  commentId: F:GTA.VehicleModType.EngineBlock
+  id: EngineBlock
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: EngineBlock
+  nameWithType: VehicleModType.EngineBlock
+  fullName: GTA.VehicleModType.EngineBlock
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EngineBlock = 39
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.AirFilter
+  commentId: F:GTA.VehicleModType.AirFilter
+  id: AirFilter
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: AirFilter
+  nameWithType: VehicleModType.AirFilter
+  fullName: GTA.VehicleModType.AirFilter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AirFilter = 40
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Struts
+  commentId: F:GTA.VehicleModType.Struts
+  id: Struts
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Struts
+  nameWithType: VehicleModType.Struts
+  fullName: GTA.VehicleModType.Struts
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Struts = 41
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.ArchCover
+  commentId: F:GTA.VehicleModType.ArchCover
+  id: ArchCover
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: ArchCover
+  nameWithType: VehicleModType.ArchCover
+  fullName: GTA.VehicleModType.ArchCover
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ArchCover = 42
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Aerials
+  commentId: F:GTA.VehicleModType.Aerials
+  id: Aerials
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Aerials
+  nameWithType: VehicleModType.Aerials
+  fullName: GTA.VehicleModType.Aerials
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Aerials = 43
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Trim
+  commentId: F:GTA.VehicleModType.Trim
+  id: Trim
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Trim
+  nameWithType: VehicleModType.Trim
+  fullName: GTA.VehicleModType.Trim
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Trim = 44
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Tank
+  commentId: F:GTA.VehicleModType.Tank
+  id: Tank
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Tank
+  nameWithType: VehicleModType.Tank
+  fullName: GTA.VehicleModType.Tank
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Tank = 45
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Windows
+  commentId: F:GTA.VehicleModType.Windows
+  id: Windows
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Windows
+  nameWithType: VehicleModType.Windows
+  fullName: GTA.VehicleModType.Windows
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Windows = 46
+    return:
+      type: GTA.VehicleModType
+- uid: GTA.VehicleModType.Livery
+  commentId: F:GTA.VehicleModType.Livery
+  id: Livery
+  parent: GTA.VehicleModType
+  langs:
+  - csharp
+  - vb
+  name: Livery
+  nameWithType: VehicleModType.Livery
+  fullName: GTA.VehicleModType.Livery
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Livery = 48
+    return:
+      type: GTA.VehicleModType
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleModType
+  commentId: T:GTA.VehicleModType
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleModType.html
+  name: VehicleModType
+  nameWithType: VehicleModType
+  fullName: GTA.VehicleModType

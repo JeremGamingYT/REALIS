@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PlayerTargetingMode
+  commentId: T:GTA.PlayerTargetingMode
+  id: PlayerTargetingMode
+  parent: GTA
+  children:
+  - GTA.PlayerTargetingMode.AssistedAimFull
+  - GTA.PlayerTargetingMode.AssistedAimPartial
+  - GTA.PlayerTargetingMode.FreeAim
+  - GTA.PlayerTargetingMode.FreeAimAssisted
+  langs:
+  - csharp
+  - vb
+  name: PlayerTargetingMode
+  nameWithType: PlayerTargetingMode
+  fullName: GTA.PlayerTargetingMode
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum PlayerTargetingMode
+    content.vb: Public Enum PlayerTargetingMode
+- uid: GTA.PlayerTargetingMode.AssistedAimFull
+  commentId: F:GTA.PlayerTargetingMode.AssistedAimFull
+  id: AssistedAimFull
+  parent: GTA.PlayerTargetingMode
+  langs:
+  - csharp
+  - vb
+  name: AssistedAimFull
+  nameWithType: PlayerTargetingMode.AssistedAimFull
+  fullName: GTA.PlayerTargetingMode.AssistedAimFull
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AssistedAimFull = 0
+    return:
+      type: GTA.PlayerTargetingMode
+- uid: GTA.PlayerTargetingMode.AssistedAimPartial
+  commentId: F:GTA.PlayerTargetingMode.AssistedAimPartial
+  id: AssistedAimPartial
+  parent: GTA.PlayerTargetingMode
+  langs:
+  - csharp
+  - vb
+  name: AssistedAimPartial
+  nameWithType: PlayerTargetingMode.AssistedAimPartial
+  fullName: GTA.PlayerTargetingMode.AssistedAimPartial
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AssistedAimPartial = 1
+    return:
+      type: GTA.PlayerTargetingMode
+- uid: GTA.PlayerTargetingMode.FreeAimAssisted
+  commentId: F:GTA.PlayerTargetingMode.FreeAimAssisted
+  id: FreeAimAssisted
+  parent: GTA.PlayerTargetingMode
+  langs:
+  - csharp
+  - vb
+  name: FreeAimAssisted
+  nameWithType: PlayerTargetingMode.FreeAimAssisted
+  fullName: GTA.PlayerTargetingMode.FreeAimAssisted
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FreeAimAssisted = 2
+    return:
+      type: GTA.PlayerTargetingMode
+- uid: GTA.PlayerTargetingMode.FreeAim
+  commentId: F:GTA.PlayerTargetingMode.FreeAim
+  id: FreeAim
+  parent: GTA.PlayerTargetingMode
+  langs:
+  - csharp
+  - vb
+  name: FreeAim
+  nameWithType: PlayerTargetingMode.FreeAim
+  fullName: GTA.PlayerTargetingMode.FreeAim
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FreeAim = 3
+    return:
+      type: GTA.PlayerTargetingMode
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.PlayerTargetingMode
+  commentId: T:GTA.PlayerTargetingMode
+  parent: GTA
+  isExternal: true
+  href: GTA.PlayerTargetingMode.html
+  name: PlayerTargetingMode
+  nameWithType: PlayerTargetingMode
+  fullName: GTA.PlayerTargetingMode

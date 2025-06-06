@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  id: GTA.Math
+  children:
+  - GTA.Math.Matrix
+  - GTA.Math.Plane
+  - GTA.Math.Quaternion
+  - GTA.Math.Vector2
+  - GTA.Math.Vector3
+  - GTA.Math.Vector4
+  langs:
+  - csharp
+  - vb
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  type: Namespace
+  assemblies:
+  - ScriptHookVDotNet3
+references:
+- uid: GTA.Math.Matrix
+  commentId: T:GTA.Math.Matrix
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: GTA.Math.Matrix
+- uid: GTA.Math.Plane
+  commentId: T:GTA.Math.Plane
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Plane.html
+  name: Plane
+  nameWithType: Plane
+  fullName: GTA.Math.Plane
+- uid: GTA.Math.Quaternion
+  commentId: T:GTA.Math.Quaternion
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: GTA.Math.Quaternion
+- uid: GTA.Math.Vector2
+  commentId: T:GTA.Math.Vector2
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: GTA.Math.Vector2
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math.Vector4
+  commentId: T:GTA.Math.Vector4
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: GTA.Math.Vector4
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html

@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ScriptedVehicleLightSetting
+  commentId: T:GTA.ScriptedVehicleLightSetting
+  id: ScriptedVehicleLightSetting
+  parent: GTA
+  children:
+  - GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOff
+  - GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOn
+  - GTA.ScriptedVehicleLightSetting.NoVehicleLightOverride
+  - GTA.ScriptedVehicleLightSetting.SetVehicleLightsOff
+  - GTA.ScriptedVehicleLightSetting.SetVehicleLightsOn
+  langs:
+  - csharp
+  - vb
+  name: ScriptedVehicleLightSetting
+  nameWithType: ScriptedVehicleLightSetting
+  fullName: GTA.ScriptedVehicleLightSetting
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum ScriptedVehicleLightSetting
+    content.vb: Public Enum ScriptedVehicleLightSetting
+- uid: GTA.ScriptedVehicleLightSetting.NoVehicleLightOverride
+  commentId: F:GTA.ScriptedVehicleLightSetting.NoVehicleLightOverride
+  id: NoVehicleLightOverride
+  parent: GTA.ScriptedVehicleLightSetting
+  langs:
+  - csharp
+  - vb
+  name: NoVehicleLightOverride
+  nameWithType: ScriptedVehicleLightSetting.NoVehicleLightOverride
+  fullName: GTA.ScriptedVehicleLightSetting.NoVehicleLightOverride
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NoVehicleLightOverride = 0
+    return:
+      type: GTA.ScriptedVehicleLightSetting
+- uid: GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOff
+  commentId: F:GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOff
+  id: ForceVehicleLightsOff
+  parent: GTA.ScriptedVehicleLightSetting
+  langs:
+  - csharp
+  - vb
+  name: ForceVehicleLightsOff
+  nameWithType: ScriptedVehicleLightSetting.ForceVehicleLightsOff
+  fullName: GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOff
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceVehicleLightsOff = 1
+    return:
+      type: GTA.ScriptedVehicleLightSetting
+- uid: GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOn
+  commentId: F:GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOn
+  id: ForceVehicleLightsOn
+  parent: GTA.ScriptedVehicleLightSetting
+  langs:
+  - csharp
+  - vb
+  name: ForceVehicleLightsOn
+  nameWithType: ScriptedVehicleLightSetting.ForceVehicleLightsOn
+  fullName: GTA.ScriptedVehicleLightSetting.ForceVehicleLightsOn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceVehicleLightsOn = 2
+    return:
+      type: GTA.ScriptedVehicleLightSetting
+- uid: GTA.ScriptedVehicleLightSetting.SetVehicleLightsOn
+  commentId: F:GTA.ScriptedVehicleLightSetting.SetVehicleLightsOn
+  id: SetVehicleLightsOn
+  parent: GTA.ScriptedVehicleLightSetting
+  langs:
+  - csharp
+  - vb
+  name: SetVehicleLightsOn
+  nameWithType: ScriptedVehicleLightSetting.SetVehicleLightsOn
+  fullName: GTA.ScriptedVehicleLightSetting.SetVehicleLightsOn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SetVehicleLightsOn = 3
+    return:
+      type: GTA.ScriptedVehicleLightSetting
+- uid: GTA.ScriptedVehicleLightSetting.SetVehicleLightsOff
+  commentId: F:GTA.ScriptedVehicleLightSetting.SetVehicleLightsOff
+  id: SetVehicleLightsOff
+  parent: GTA.ScriptedVehicleLightSetting
+  langs:
+  - csharp
+  - vb
+  name: SetVehicleLightsOff
+  nameWithType: ScriptedVehicleLightSetting.SetVehicleLightsOff
+  fullName: GTA.ScriptedVehicleLightSetting.SetVehicleLightsOff
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SetVehicleLightsOff = 4
+    return:
+      type: GTA.ScriptedVehicleLightSetting
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ScriptedVehicleLightSetting
+  commentId: T:GTA.ScriptedVehicleLightSetting
+  parent: GTA
+  isExternal: true
+  href: GTA.ScriptedVehicleLightSetting.html
+  name: ScriptedVehicleLightSetting
+  nameWithType: ScriptedVehicleLightSetting
+  fullName: GTA.ScriptedVehicleLightSetting

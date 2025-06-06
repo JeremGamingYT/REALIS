@@ -1,0 +1,967 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CrimeType
+  commentId: T:GTA.CrimeType
+  id: CrimeType
+  parent: GTA
+  children:
+  - GTA.CrimeType.BlockPoliceCar
+  - GTA.CrimeType.CarSetOnFire
+  - GTA.CrimeType.CauseExplosion
+  - GTA.CrimeType.ChainExplosion
+  - GTA.CrimeType.CivilianNeedsAssistance
+  - GTA.CrimeType.CopSetOnFire
+  - GTA.CrimeType.DamageToProperty
+  - GTA.CrimeType.DestroyHeli
+  - GTA.CrimeType.DestroyPlane
+  - GTA.CrimeType.DestroyVehicle
+  - GTA.CrimeType.Disturbance
+  - GTA.CrimeType.DriveAgainstTraffic
+  - GTA.CrimeType.FirearmDischarge
+  - GTA.CrimeType.Hassle
+  - GTA.CrimeType.HitCop
+  - GTA.CrimeType.HitPed
+  - GTA.CrimeType.JackDeadPed
+  - GTA.CrimeType.KillCop
+  - GTA.CrimeType.KillPed
+  - GTA.CrimeType.Molotov
+  - GTA.CrimeType.None
+  - GTA.CrimeType.PedSetOnFire
+  - GTA.CrimeType.PossessionGun
+  - GTA.CrimeType.RecklessDriving
+  - GTA.CrimeType.ResistArrest
+  - GTA.CrimeType.RidingBikeWithoutHelmet
+  - GTA.CrimeType.RunOverCop
+  - GTA.CrimeType.RunOverPed
+  - GTA.CrimeType.RunRedLight
+  - GTA.CrimeType.ShootAtCop
+  - GTA.CrimeType.ShootCop
+  - GTA.CrimeType.ShootNonLethalCop
+  - GTA.CrimeType.ShootNonLethalPed
+  - GTA.CrimeType.ShootPed
+  - GTA.CrimeType.ShootPedSuppressed
+  - GTA.CrimeType.ShootVehicle
+  - GTA.CrimeType.Speeding
+  - GTA.CrimeType.StabCop
+  - GTA.CrimeType.StabPed
+  - GTA.CrimeType.StandOnPoliceCar
+  - GTA.CrimeType.StealCar
+  - GTA.CrimeType.StealVehicle
+  - GTA.CrimeType.StealthKillCop
+  - GTA.CrimeType.StealthKillPed
+  - GTA.CrimeType.Suicide
+  - GTA.CrimeType.TargetCop
+  - GTA.CrimeType.TerroristActivity
+  - GTA.CrimeType.ThrowGrenade
+  - GTA.CrimeType.VehicleExplosion
+  langs:
+  - csharp
+  - vb
+  name: CrimeType
+  nameWithType: CrimeType
+  fullName: GTA.CrimeType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CrimeType
+    content.vb: Public Enum CrimeType
+- uid: GTA.CrimeType.None
+  commentId: F:GTA.CrimeType.None
+  id: None
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CrimeType.None
+  fullName: GTA.CrimeType.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.PossessionGun
+  commentId: F:GTA.CrimeType.PossessionGun
+  id: PossessionGun
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: PossessionGun
+  nameWithType: CrimeType.PossessionGun
+  fullName: GTA.CrimeType.PossessionGun
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PossessionGun = 1
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.RunRedLight
+  commentId: F:GTA.CrimeType.RunRedLight
+  id: RunRedLight
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: RunRedLight
+  nameWithType: CrimeType.RunRedLight
+  fullName: GTA.CrimeType.RunRedLight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RunRedLight = 2
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.RecklessDriving
+  commentId: F:GTA.CrimeType.RecklessDriving
+  id: RecklessDriving
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: RecklessDriving
+  nameWithType: CrimeType.RecklessDriving
+  fullName: GTA.CrimeType.RecklessDriving
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RecklessDriving = 3
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.Speeding
+  commentId: F:GTA.CrimeType.Speeding
+  id: Speeding
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: Speeding
+  nameWithType: CrimeType.Speeding
+  fullName: GTA.CrimeType.Speeding
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Speeding = 4
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.DriveAgainstTraffic
+  commentId: F:GTA.CrimeType.DriveAgainstTraffic
+  id: DriveAgainstTraffic
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: DriveAgainstTraffic
+  nameWithType: CrimeType.DriveAgainstTraffic
+  fullName: GTA.CrimeType.DriveAgainstTraffic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DriveAgainstTraffic = 5
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.RidingBikeWithoutHelmet
+  commentId: F:GTA.CrimeType.RidingBikeWithoutHelmet
+  id: RidingBikeWithoutHelmet
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: RidingBikeWithoutHelmet
+  nameWithType: CrimeType.RidingBikeWithoutHelmet
+  fullName: GTA.CrimeType.RidingBikeWithoutHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RidingBikeWithoutHelmet = 6
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StealVehicle
+  commentId: F:GTA.CrimeType.StealVehicle
+  id: StealVehicle
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StealVehicle
+  nameWithType: CrimeType.StealVehicle
+  fullName: GTA.CrimeType.StealVehicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealVehicle = 7
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StealCar
+  commentId: F:GTA.CrimeType.StealCar
+  id: StealCar
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StealCar
+  nameWithType: CrimeType.StealCar
+  fullName: GTA.CrimeType.StealCar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealCar = 8
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.BlockPoliceCar
+  commentId: F:GTA.CrimeType.BlockPoliceCar
+  id: BlockPoliceCar
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: BlockPoliceCar
+  nameWithType: CrimeType.BlockPoliceCar
+  fullName: GTA.CrimeType.BlockPoliceCar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlockPoliceCar = 9
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StandOnPoliceCar
+  commentId: F:GTA.CrimeType.StandOnPoliceCar
+  id: StandOnPoliceCar
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StandOnPoliceCar
+  nameWithType: CrimeType.StandOnPoliceCar
+  fullName: GTA.CrimeType.StandOnPoliceCar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StandOnPoliceCar = 10
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.HitPed
+  commentId: F:GTA.CrimeType.HitPed
+  id: HitPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: HitPed
+  nameWithType: CrimeType.HitPed
+  fullName: GTA.CrimeType.HitPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HitPed = 11
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.HitCop
+  commentId: F:GTA.CrimeType.HitCop
+  id: HitCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: HitCop
+  nameWithType: CrimeType.HitCop
+  fullName: GTA.CrimeType.HitCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HitCop = 12
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootPed
+  commentId: F:GTA.CrimeType.ShootPed
+  id: ShootPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootPed
+  nameWithType: CrimeType.ShootPed
+  fullName: GTA.CrimeType.ShootPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootPed = 13
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootCop
+  commentId: F:GTA.CrimeType.ShootCop
+  id: ShootCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootCop
+  nameWithType: CrimeType.ShootCop
+  fullName: GTA.CrimeType.ShootCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootCop = 14
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.RunOverPed
+  commentId: F:GTA.CrimeType.RunOverPed
+  id: RunOverPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: RunOverPed
+  nameWithType: CrimeType.RunOverPed
+  fullName: GTA.CrimeType.RunOverPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RunOverPed = 15
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.RunOverCop
+  commentId: F:GTA.CrimeType.RunOverCop
+  id: RunOverCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: RunOverCop
+  nameWithType: CrimeType.RunOverCop
+  fullName: GTA.CrimeType.RunOverCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RunOverCop = 16
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.DestroyHeli
+  commentId: F:GTA.CrimeType.DestroyHeli
+  id: DestroyHeli
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: DestroyHeli
+  nameWithType: CrimeType.DestroyHeli
+  fullName: GTA.CrimeType.DestroyHeli
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DestroyHeli = 17
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.PedSetOnFire
+  commentId: F:GTA.CrimeType.PedSetOnFire
+  id: PedSetOnFire
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: PedSetOnFire
+  nameWithType: CrimeType.PedSetOnFire
+  fullName: GTA.CrimeType.PedSetOnFire
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PedSetOnFire = 18
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.CopSetOnFire
+  commentId: F:GTA.CrimeType.CopSetOnFire
+  id: CopSetOnFire
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: CopSetOnFire
+  nameWithType: CrimeType.CopSetOnFire
+  fullName: GTA.CrimeType.CopSetOnFire
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CopSetOnFire = 19
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.CarSetOnFire
+  commentId: F:GTA.CrimeType.CarSetOnFire
+  id: CarSetOnFire
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: CarSetOnFire
+  nameWithType: CrimeType.CarSetOnFire
+  fullName: GTA.CrimeType.CarSetOnFire
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarSetOnFire = 20
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.DestroyPlane
+  commentId: F:GTA.CrimeType.DestroyPlane
+  id: DestroyPlane
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: DestroyPlane
+  nameWithType: CrimeType.DestroyPlane
+  fullName: GTA.CrimeType.DestroyPlane
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DestroyPlane = 21
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.CauseExplosion
+  commentId: F:GTA.CrimeType.CauseExplosion
+  id: CauseExplosion
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: CauseExplosion
+  nameWithType: CrimeType.CauseExplosion
+  fullName: GTA.CrimeType.CauseExplosion
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CauseExplosion = 22
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StabPed
+  commentId: F:GTA.CrimeType.StabPed
+  id: StabPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StabPed
+  nameWithType: CrimeType.StabPed
+  fullName: GTA.CrimeType.StabPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StabPed = 23
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StabCop
+  commentId: F:GTA.CrimeType.StabCop
+  id: StabCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StabCop
+  nameWithType: CrimeType.StabCop
+  fullName: GTA.CrimeType.StabCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StabCop = 24
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.DestroyVehicle
+  commentId: F:GTA.CrimeType.DestroyVehicle
+  id: DestroyVehicle
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: DestroyVehicle
+  nameWithType: CrimeType.DestroyVehicle
+  fullName: GTA.CrimeType.DestroyVehicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DestroyVehicle = 25
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.DamageToProperty
+  commentId: F:GTA.CrimeType.DamageToProperty
+  id: DamageToProperty
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: DamageToProperty
+  nameWithType: CrimeType.DamageToProperty
+  fullName: GTA.CrimeType.DamageToProperty
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DamageToProperty = 26
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.TargetCop
+  commentId: F:GTA.CrimeType.TargetCop
+  id: TargetCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: TargetCop
+  nameWithType: CrimeType.TargetCop
+  fullName: GTA.CrimeType.TargetCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TargetCop = 27
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.FirearmDischarge
+  commentId: F:GTA.CrimeType.FirearmDischarge
+  id: FirearmDischarge
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: FirearmDischarge
+  nameWithType: CrimeType.FirearmDischarge
+  fullName: GTA.CrimeType.FirearmDischarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FirearmDischarge = 28
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ResistArrest
+  commentId: F:GTA.CrimeType.ResistArrest
+  id: ResistArrest
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ResistArrest
+  nameWithType: CrimeType.ResistArrest
+  fullName: GTA.CrimeType.ResistArrest
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ResistArrest = 29
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.Molotov
+  commentId: F:GTA.CrimeType.Molotov
+  id: Molotov
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: Molotov
+  nameWithType: CrimeType.Molotov
+  fullName: GTA.CrimeType.Molotov
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Molotov = 30
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootNonLethalPed
+  commentId: F:GTA.CrimeType.ShootNonLethalPed
+  id: ShootNonLethalPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootNonLethalPed
+  nameWithType: CrimeType.ShootNonLethalPed
+  fullName: GTA.CrimeType.ShootNonLethalPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootNonLethalPed = 31
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootNonLethalCop
+  commentId: F:GTA.CrimeType.ShootNonLethalCop
+  id: ShootNonLethalCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootNonLethalCop
+  nameWithType: CrimeType.ShootNonLethalCop
+  fullName: GTA.CrimeType.ShootNonLethalCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootNonLethalCop = 32
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.KillCop
+  commentId: F:GTA.CrimeType.KillCop
+  id: KillCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: KillCop
+  nameWithType: CrimeType.KillCop
+  fullName: GTA.CrimeType.KillCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: KillCop = 33
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootAtCop
+  commentId: F:GTA.CrimeType.ShootAtCop
+  id: ShootAtCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootAtCop
+  nameWithType: CrimeType.ShootAtCop
+  fullName: GTA.CrimeType.ShootAtCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootAtCop = 34
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootVehicle
+  commentId: F:GTA.CrimeType.ShootVehicle
+  id: ShootVehicle
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootVehicle
+  nameWithType: CrimeType.ShootVehicle
+  fullName: GTA.CrimeType.ShootVehicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootVehicle = 35
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.TerroristActivity
+  commentId: F:GTA.CrimeType.TerroristActivity
+  id: TerroristActivity
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: TerroristActivity
+  nameWithType: CrimeType.TerroristActivity
+  fullName: GTA.CrimeType.TerroristActivity
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TerroristActivity = 36
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.Hassle
+  commentId: F:GTA.CrimeType.Hassle
+  id: Hassle
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: Hassle
+  nameWithType: CrimeType.Hassle
+  fullName: GTA.CrimeType.Hassle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hassle = 37
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ThrowGrenade
+  commentId: F:GTA.CrimeType.ThrowGrenade
+  id: ThrowGrenade
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ThrowGrenade
+  nameWithType: CrimeType.ThrowGrenade
+  fullName: GTA.CrimeType.ThrowGrenade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThrowGrenade = 38
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.VehicleExplosion
+  commentId: F:GTA.CrimeType.VehicleExplosion
+  id: VehicleExplosion
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: VehicleExplosion
+  nameWithType: CrimeType.VehicleExplosion
+  fullName: GTA.CrimeType.VehicleExplosion
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VehicleExplosion = 39
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.KillPed
+  commentId: F:GTA.CrimeType.KillPed
+  id: KillPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: KillPed
+  nameWithType: CrimeType.KillPed
+  fullName: GTA.CrimeType.KillPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: KillPed = 40
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StealthKillCop
+  commentId: F:GTA.CrimeType.StealthKillCop
+  id: StealthKillCop
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StealthKillCop
+  nameWithType: CrimeType.StealthKillCop
+  fullName: GTA.CrimeType.StealthKillCop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealthKillCop = 41
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.Suicide
+  commentId: F:GTA.CrimeType.Suicide
+  id: Suicide
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: Suicide
+  nameWithType: CrimeType.Suicide
+  fullName: GTA.CrimeType.Suicide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Suicide = 42
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.Disturbance
+  commentId: F:GTA.CrimeType.Disturbance
+  id: Disturbance
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: Disturbance
+  nameWithType: CrimeType.Disturbance
+  fullName: GTA.CrimeType.Disturbance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Disturbance = 43
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.CivilianNeedsAssistance
+  commentId: F:GTA.CrimeType.CivilianNeedsAssistance
+  id: CivilianNeedsAssistance
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: CivilianNeedsAssistance
+  nameWithType: CrimeType.CivilianNeedsAssistance
+  fullName: GTA.CrimeType.CivilianNeedsAssistance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CivilianNeedsAssistance = 44
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.StealthKillPed
+  commentId: F:GTA.CrimeType.StealthKillPed
+  id: StealthKillPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: StealthKillPed
+  nameWithType: CrimeType.StealthKillPed
+  fullName: GTA.CrimeType.StealthKillPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealthKillPed = 45
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ShootPedSuppressed
+  commentId: F:GTA.CrimeType.ShootPedSuppressed
+  id: ShootPedSuppressed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ShootPedSuppressed
+  nameWithType: CrimeType.ShootPedSuppressed
+  fullName: GTA.CrimeType.ShootPedSuppressed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShootPedSuppressed = 46
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.JackDeadPed
+  commentId: F:GTA.CrimeType.JackDeadPed
+  id: JackDeadPed
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: JackDeadPed
+  nameWithType: CrimeType.JackDeadPed
+  fullName: GTA.CrimeType.JackDeadPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: JackDeadPed = 47
+    return:
+      type: GTA.CrimeType
+- uid: GTA.CrimeType.ChainExplosion
+  commentId: F:GTA.CrimeType.ChainExplosion
+  id: ChainExplosion
+  parent: GTA.CrimeType
+  langs:
+  - csharp
+  - vb
+  name: ChainExplosion
+  nameWithType: CrimeType.ChainExplosion
+  fullName: GTA.CrimeType.ChainExplosion
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ChainExplosion = 48
+    return:
+      type: GTA.CrimeType
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CrimeType
+  commentId: T:GTA.CrimeType
+  parent: GTA
+  isExternal: true
+  href: GTA.CrimeType.html
+  name: CrimeType
+  nameWithType: CrimeType
+  fullName: GTA.CrimeType

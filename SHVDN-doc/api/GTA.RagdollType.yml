@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.RagdollType
+  commentId: T:GTA.RagdollType
+  id: RagdollType
+  parent: GTA
+  children:
+  - GTA.RagdollType.Balance
+  - GTA.RagdollType.NarrowLegs
+  - GTA.RagdollType.Normal
+  - GTA.RagdollType.Relax
+  - GTA.RagdollType.ScriptControl
+  - GTA.RagdollType.StiffLegs
+  - GTA.RagdollType.WideLegs
+  langs:
+  - csharp
+  - vb
+  name: RagdollType
+  nameWithType: RagdollType
+  fullName: GTA.RagdollType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum RagdollType
+    content.vb: Public Enum RagdollType
+- uid: GTA.RagdollType.Relax
+  commentId: F:GTA.RagdollType.Relax
+  id: Relax
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: Relax
+  nameWithType: RagdollType.Relax
+  fullName: GTA.RagdollType.Relax
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Relax = 0
+    return:
+      type: GTA.RagdollType
+- uid: GTA.RagdollType.ScriptControl
+  commentId: F:GTA.RagdollType.ScriptControl
+  id: ScriptControl
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: ScriptControl
+  nameWithType: RagdollType.ScriptControl
+  fullName: GTA.RagdollType.ScriptControl
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ScriptControl = 1
+    return:
+      type: GTA.RagdollType
+- uid: GTA.RagdollType.Balance
+  commentId: F:GTA.RagdollType.Balance
+  id: Balance
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: Balance
+  nameWithType: RagdollType.Balance
+  fullName: GTA.RagdollType.Balance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Balance = 2
+    return:
+      type: GTA.RagdollType
+- uid: GTA.RagdollType.Normal
+  commentId: F:GTA.RagdollType.Normal
+  id: Normal
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: RagdollType.Normal
+  fullName: GTA.RagdollType.Normal
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete]
+
+      Normal = 0
+    return:
+      type: GTA.RagdollType
+    content.vb: >-
+      <Obsolete>
+
+      Normal = 0
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: GTA.RagdollType.StiffLegs
+  commentId: F:GTA.RagdollType.StiffLegs
+  id: StiffLegs
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: StiffLegs
+  nameWithType: RagdollType.StiffLegs
+  fullName: GTA.RagdollType.StiffLegs
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete]
+
+      StiffLegs = 1
+    return:
+      type: GTA.RagdollType
+    content.vb: >-
+      <Obsolete>
+
+      StiffLegs = 1
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: GTA.RagdollType.NarrowLegs
+  commentId: F:GTA.RagdollType.NarrowLegs
+  id: NarrowLegs
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: NarrowLegs
+  nameWithType: RagdollType.NarrowLegs
+  fullName: GTA.RagdollType.NarrowLegs
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete]
+
+      NarrowLegs = 2
+    return:
+      type: GTA.RagdollType
+    content.vb: >-
+      <Obsolete>
+
+      NarrowLegs = 2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: GTA.RagdollType.WideLegs
+  commentId: F:GTA.RagdollType.WideLegs
+  id: WideLegs
+  parent: GTA.RagdollType
+  langs:
+  - csharp
+  - vb
+  name: WideLegs
+  nameWithType: RagdollType.WideLegs
+  fullName: GTA.RagdollType.WideLegs
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete]
+
+      WideLegs = 3
+    return:
+      type: GTA.RagdollType
+    content.vb: >-
+      <Obsolete>
+
+      WideLegs = 3
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.RagdollType
+  commentId: T:GTA.RagdollType
+  parent: GTA
+  isExternal: true
+  href: GTA.RagdollType.html
+  name: RagdollType
+  nameWithType: RagdollType
+  fullName: GTA.RagdollType

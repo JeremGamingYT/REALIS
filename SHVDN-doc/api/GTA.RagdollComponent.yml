@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.RagdollComponent
+  commentId: T:GTA.RagdollComponent
+  id: RagdollComponent
+  parent: GTA
+  children:
+  - GTA.RagdollComponent.Buttocks
+  - GTA.RagdollComponent.ClavicleLeft
+  - GTA.RagdollComponent.ClavicleRight
+  - GTA.RagdollComponent.FootLeft
+  - GTA.RagdollComponent.FootRight
+  - GTA.RagdollComponent.HandLeft
+  - GTA.RagdollComponent.HandRight
+  - GTA.RagdollComponent.Head
+  - GTA.RagdollComponent.LowerArmLeft
+  - GTA.RagdollComponent.LowerArmRight
+  - GTA.RagdollComponent.Neck
+  - GTA.RagdollComponent.ShinLeft
+  - GTA.RagdollComponent.ShinRight
+  - GTA.RagdollComponent.Spine0
+  - GTA.RagdollComponent.Spine1
+  - GTA.RagdollComponent.Spine2
+  - GTA.RagdollComponent.Spine3
+  - GTA.RagdollComponent.ThighLeft
+  - GTA.RagdollComponent.ThighRight
+  - GTA.RagdollComponent.UpperArmLeft
+  - GTA.RagdollComponent.UpperArmRight
+  langs:
+  - csharp
+  - vb
+  name: RagdollComponent
+  nameWithType: RagdollComponent
+  fullName: GTA.RagdollComponent
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum RagdollComponent
+    content.vb: Public Enum RagdollComponent
+- uid: GTA.RagdollComponent.Buttocks
+  commentId: F:GTA.RagdollComponent.Buttocks
+  id: Buttocks
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Buttocks
+  nameWithType: RagdollComponent.Buttocks
+  fullName: GTA.RagdollComponent.Buttocks
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Buttocks = 0
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.ThighLeft
+  commentId: F:GTA.RagdollComponent.ThighLeft
+  id: ThighLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: ThighLeft
+  nameWithType: RagdollComponent.ThighLeft
+  fullName: GTA.RagdollComponent.ThighLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThighLeft = 1
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.ShinLeft
+  commentId: F:GTA.RagdollComponent.ShinLeft
+  id: ShinLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: ShinLeft
+  nameWithType: RagdollComponent.ShinLeft
+  fullName: GTA.RagdollComponent.ShinLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShinLeft = 2
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.FootLeft
+  commentId: F:GTA.RagdollComponent.FootLeft
+  id: FootLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: FootLeft
+  nameWithType: RagdollComponent.FootLeft
+  fullName: GTA.RagdollComponent.FootLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FootLeft = 3
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.ThighRight
+  commentId: F:GTA.RagdollComponent.ThighRight
+  id: ThighRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: ThighRight
+  nameWithType: RagdollComponent.ThighRight
+  fullName: GTA.RagdollComponent.ThighRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThighRight = 4
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.ShinRight
+  commentId: F:GTA.RagdollComponent.ShinRight
+  id: ShinRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: ShinRight
+  nameWithType: RagdollComponent.ShinRight
+  fullName: GTA.RagdollComponent.ShinRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShinRight = 5
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.FootRight
+  commentId: F:GTA.RagdollComponent.FootRight
+  id: FootRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: FootRight
+  nameWithType: RagdollComponent.FootRight
+  fullName: GTA.RagdollComponent.FootRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FootRight = 6
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.Spine0
+  commentId: F:GTA.RagdollComponent.Spine0
+  id: Spine0
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Spine0
+  nameWithType: RagdollComponent.Spine0
+  fullName: GTA.RagdollComponent.Spine0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine0 = 7
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.Spine1
+  commentId: F:GTA.RagdollComponent.Spine1
+  id: Spine1
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Spine1
+  nameWithType: RagdollComponent.Spine1
+  fullName: GTA.RagdollComponent.Spine1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine1 = 8
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.Spine2
+  commentId: F:GTA.RagdollComponent.Spine2
+  id: Spine2
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Spine2
+  nameWithType: RagdollComponent.Spine2
+  fullName: GTA.RagdollComponent.Spine2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine2 = 9
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.Spine3
+  commentId: F:GTA.RagdollComponent.Spine3
+  id: Spine3
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Spine3
+  nameWithType: RagdollComponent.Spine3
+  fullName: GTA.RagdollComponent.Spine3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine3 = 10
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.ClavicleLeft
+  commentId: F:GTA.RagdollComponent.ClavicleLeft
+  id: ClavicleLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: ClavicleLeft
+  nameWithType: RagdollComponent.ClavicleLeft
+  fullName: GTA.RagdollComponent.ClavicleLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ClavicleLeft = 11
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.UpperArmLeft
+  commentId: F:GTA.RagdollComponent.UpperArmLeft
+  id: UpperArmLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: UpperArmLeft
+  nameWithType: RagdollComponent.UpperArmLeft
+  fullName: GTA.RagdollComponent.UpperArmLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UpperArmLeft = 12
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.LowerArmLeft
+  commentId: F:GTA.RagdollComponent.LowerArmLeft
+  id: LowerArmLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: LowerArmLeft
+  nameWithType: RagdollComponent.LowerArmLeft
+  fullName: GTA.RagdollComponent.LowerArmLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LowerArmLeft = 13
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.HandLeft
+  commentId: F:GTA.RagdollComponent.HandLeft
+  id: HandLeft
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: HandLeft
+  nameWithType: RagdollComponent.HandLeft
+  fullName: GTA.RagdollComponent.HandLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HandLeft = 14
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.ClavicleRight
+  commentId: F:GTA.RagdollComponent.ClavicleRight
+  id: ClavicleRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: ClavicleRight
+  nameWithType: RagdollComponent.ClavicleRight
+  fullName: GTA.RagdollComponent.ClavicleRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ClavicleRight = 15
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.UpperArmRight
+  commentId: F:GTA.RagdollComponent.UpperArmRight
+  id: UpperArmRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: UpperArmRight
+  nameWithType: RagdollComponent.UpperArmRight
+  fullName: GTA.RagdollComponent.UpperArmRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UpperArmRight = 16
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.LowerArmRight
+  commentId: F:GTA.RagdollComponent.LowerArmRight
+  id: LowerArmRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: LowerArmRight
+  nameWithType: RagdollComponent.LowerArmRight
+  fullName: GTA.RagdollComponent.LowerArmRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LowerArmRight = 17
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.HandRight
+  commentId: F:GTA.RagdollComponent.HandRight
+  id: HandRight
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: HandRight
+  nameWithType: RagdollComponent.HandRight
+  fullName: GTA.RagdollComponent.HandRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HandRight = 18
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.Neck
+  commentId: F:GTA.RagdollComponent.Neck
+  id: Neck
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Neck
+  nameWithType: RagdollComponent.Neck
+  fullName: GTA.RagdollComponent.Neck
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Neck = 19
+    return:
+      type: GTA.RagdollComponent
+- uid: GTA.RagdollComponent.Head
+  commentId: F:GTA.RagdollComponent.Head
+  id: Head
+  parent: GTA.RagdollComponent
+  langs:
+  - csharp
+  - vb
+  name: Head
+  nameWithType: RagdollComponent.Head
+  fullName: GTA.RagdollComponent.Head
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Head = 20
+    return:
+      type: GTA.RagdollComponent
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.RagdollComponent
+  commentId: T:GTA.RagdollComponent
+  parent: GTA
+  isExternal: true
+  href: GTA.RagdollComponent.html
+  name: RagdollComponent
+  nameWithType: RagdollComponent
+  fullName: GTA.RagdollComponent

@@ -1,0 +1,643 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CheckpointCustomIcon
+  commentId: T:GTA.CheckpointCustomIcon
+  id: CheckpointCustomIcon
+  parent: GTA
+  children:
+  - GTA.CheckpointCustomIcon.#ctor(GTA.CheckpointCustomIconStyle,System.Byte)
+  - GTA.CheckpointCustomIcon.GetHashCode
+  - GTA.CheckpointCustomIcon.NativeValue
+  - GTA.CheckpointCustomIcon.Number
+  - GTA.CheckpointCustomIcon.Style
+  - GTA.CheckpointCustomIcon.ToString
+  - GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~GTA.Native.InputArgument
+  - GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~System.Byte
+  - GTA.CheckpointCustomIcon.op_Implicit(System.Byte)~GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: CheckpointCustomIcon
+  nameWithType: CheckpointCustomIcon
+  fullName: GTA.CheckpointCustomIcon
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public struct CheckpointCustomIcon : INativeValue'
+    content.vb: Public Structure CheckpointCustomIcon Implements INativeValue
+  implements:
+  - GTA.Native.INativeValue
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.CheckpointCustomIcon.#ctor(GTA.CheckpointCustomIconStyle,System.Byte)
+  commentId: M:GTA.CheckpointCustomIcon.#ctor(GTA.CheckpointCustomIconStyle,System.Byte)
+  id: '#ctor(GTA.CheckpointCustomIconStyle,System.Byte)'
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: CheckpointCustomIcon(CheckpointCustomIconStyle, byte)
+  nameWithType: CheckpointCustomIcon.CheckpointCustomIcon(CheckpointCustomIconStyle, byte)
+  fullName: GTA.CheckpointCustomIcon.CheckpointCustomIcon(GTA.CheckpointCustomIconStyle, byte)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public CheckpointCustomIcon(CheckpointCustomIconStyle iconStyle, byte iconNumber)
+    parameters:
+    - id: iconStyle
+      type: GTA.CheckpointCustomIconStyle
+    - id: iconNumber
+      type: System.Byte
+    content.vb: Public Sub New(iconStyle As CheckpointCustomIconStyle, iconNumber As Byte)
+  overload: GTA.CheckpointCustomIcon.#ctor*
+  nameWithType.vb: CheckpointCustomIcon.New(CheckpointCustomIconStyle, Byte)
+  fullName.vb: GTA.CheckpointCustomIcon.New(GTA.CheckpointCustomIconStyle, Byte)
+  name.vb: New(CheckpointCustomIconStyle, Byte)
+- uid: GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~System.Byte
+  commentId: M:GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~System.Byte
+  id: op_Implicit(GTA.CheckpointCustomIcon)~System.Byte
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: implicit operator byte(CheckpointCustomIcon)
+  nameWithType: CheckpointCustomIcon.implicit operator byte(CheckpointCustomIcon)
+  fullName: GTA.CheckpointCustomIcon.implicit operator byte(GTA.CheckpointCustomIcon)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator byte(CheckpointCustomIcon icon)
+    parameters:
+    - id: icon
+      type: GTA.CheckpointCustomIcon
+    return:
+      type: System.Byte
+    content.vb: Public Shared Widening Operator CType(icon As CheckpointCustomIcon) As Byte
+  overload: GTA.CheckpointCustomIcon.op_Implicit*
+  nameWithType.vb: CheckpointCustomIcon.CType(CheckpointCustomIcon)
+  fullName.vb: GTA.CheckpointCustomIcon.CType(GTA.CheckpointCustomIcon)
+  name.vb: CType(CheckpointCustomIcon)
+- uid: GTA.CheckpointCustomIcon.op_Implicit(System.Byte)~GTA.CheckpointCustomIcon
+  commentId: M:GTA.CheckpointCustomIcon.op_Implicit(System.Byte)~GTA.CheckpointCustomIcon
+  id: op_Implicit(System.Byte)~GTA.CheckpointCustomIcon
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: implicit operator CheckpointCustomIcon(byte)
+  nameWithType: CheckpointCustomIcon.implicit operator CheckpointCustomIcon(byte)
+  fullName: GTA.CheckpointCustomIcon.implicit operator GTA.CheckpointCustomIcon(byte)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator CheckpointCustomIcon(byte value)
+    parameters:
+    - id: value
+      type: System.Byte
+    return:
+      type: GTA.CheckpointCustomIcon
+    content.vb: Public Shared Widening Operator CType(value As Byte) As CheckpointCustomIcon
+  overload: GTA.CheckpointCustomIcon.op_Implicit*
+  nameWithType.vb: CheckpointCustomIcon.CType(Byte)
+  fullName.vb: GTA.CheckpointCustomIcon.CType(Byte)
+  name.vb: CType(Byte)
+- uid: GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~GTA.Native.InputArgument
+  commentId: M:GTA.CheckpointCustomIcon.op_Implicit(GTA.CheckpointCustomIcon)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.CheckpointCustomIcon)~GTA.Native.InputArgument
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(CheckpointCustomIcon)
+  nameWithType: CheckpointCustomIcon.implicit operator InputArgument(CheckpointCustomIcon)
+  fullName: GTA.CheckpointCustomIcon.implicit operator GTA.Native.InputArgument(GTA.CheckpointCustomIcon)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(CheckpointCustomIcon value)
+    parameters:
+    - id: value
+      type: GTA.CheckpointCustomIcon
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As CheckpointCustomIcon) As InputArgument
+  overload: GTA.CheckpointCustomIcon.op_Implicit*
+  nameWithType.vb: CheckpointCustomIcon.CType(CheckpointCustomIcon)
+  fullName.vb: GTA.CheckpointCustomIcon.CType(GTA.CheckpointCustomIcon)
+  name.vb: CType(CheckpointCustomIcon)
+- uid: GTA.CheckpointCustomIcon.GetHashCode
+  commentId: M:GTA.CheckpointCustomIcon.GetHashCode
+  id: GetHashCode
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CheckpointCustomIcon.GetHashCode()
+  fullName: GTA.CheckpointCustomIcon.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.CheckpointCustomIcon.GetHashCode*
+- uid: GTA.CheckpointCustomIcon.ToString
+  commentId: M:GTA.CheckpointCustomIcon.ToString
+  id: ToString
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CheckpointCustomIcon.ToString()
+  fullName: GTA.CheckpointCustomIcon.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.CheckpointCustomIcon.ToString*
+- uid: GTA.CheckpointCustomIcon.NativeValue
+  commentId: P:GTA.CheckpointCustomIcon.NativeValue
+  id: NativeValue
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: NativeValue
+  nameWithType: CheckpointCustomIcon.NativeValue
+  fullName: GTA.CheckpointCustomIcon.NativeValue
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public ulong NativeValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property NativeValue As ULong
+  overload: GTA.CheckpointCustomIcon.NativeValue*
+  implements:
+  - GTA.Native.INativeValue.NativeValue
+- uid: GTA.CheckpointCustomIcon.Number
+  commentId: P:GTA.CheckpointCustomIcon.Number
+  id: Number
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: CheckpointCustomIcon.Number
+  fullName: GTA.CheckpointCustomIcon.Number
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public byte Number { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property Number As Byte
+  overload: GTA.CheckpointCustomIcon.Number*
+- uid: GTA.CheckpointCustomIcon.Style
+  commentId: P:GTA.CheckpointCustomIcon.Style
+  id: Style
+  parent: GTA.CheckpointCustomIcon
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: CheckpointCustomIcon.Style
+  fullName: GTA.CheckpointCustomIcon.Style
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public CheckpointCustomIconStyle Style { get; set; }
+    parameters: []
+    return:
+      type: GTA.CheckpointCustomIconStyle
+    content.vb: Public Property Style As CheckpointCustomIconStyle
+  overload: GTA.CheckpointCustomIcon.Style*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.CheckpointCustomIcon.#ctor*
+  commentId: Overload:GTA.CheckpointCustomIcon.#ctor
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html#GTA_CheckpointCustomIcon__ctor_GTA_CheckpointCustomIconStyle_System_Byte_
+  name: CheckpointCustomIcon
+  nameWithType: CheckpointCustomIcon.CheckpointCustomIcon
+  fullName: GTA.CheckpointCustomIcon.CheckpointCustomIcon
+  nameWithType.vb: CheckpointCustomIcon.New
+  fullName.vb: GTA.CheckpointCustomIcon.New
+  name.vb: New
+- uid: GTA.CheckpointCustomIconStyle
+  commentId: T:GTA.CheckpointCustomIconStyle
+  parent: GTA
+  isExternal: true
+  href: GTA.CheckpointCustomIconStyle.html
+  name: CheckpointCustomIconStyle
+  nameWithType: CheckpointCustomIconStyle
+  fullName: GTA.CheckpointCustomIconStyle
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: GTA.CheckpointCustomIcon.op_Implicit*
+  commentId: Overload:GTA.CheckpointCustomIcon.op_Implicit
+  name: implicit operator
+  nameWithType: CheckpointCustomIcon.implicit operator
+  fullName: GTA.CheckpointCustomIcon.implicit operator
+  nameWithType.vb: CheckpointCustomIcon.CType
+  fullName.vb: GTA.CheckpointCustomIcon.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.CheckpointCustomIcon
+  commentId: T:GTA.CheckpointCustomIcon
+  parent: GTA
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html
+  name: CheckpointCustomIcon
+  nameWithType: CheckpointCustomIcon
+  fullName: GTA.CheckpointCustomIcon
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.CheckpointCustomIcon.GetHashCode*
+  commentId: Overload:GTA.CheckpointCustomIcon.GetHashCode
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html#GTA_CheckpointCustomIcon_GetHashCode
+  name: GetHashCode
+  nameWithType: CheckpointCustomIcon.GetHashCode
+  fullName: GTA.CheckpointCustomIcon.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.CheckpointCustomIcon.ToString*
+  commentId: Overload:GTA.CheckpointCustomIcon.ToString
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html#GTA_CheckpointCustomIcon_ToString
+  name: ToString
+  nameWithType: CheckpointCustomIcon.ToString
+  fullName: GTA.CheckpointCustomIcon.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.CheckpointCustomIcon.NativeValue*
+  commentId: Overload:GTA.CheckpointCustomIcon.NativeValue
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html#GTA_CheckpointCustomIcon_NativeValue
+  name: NativeValue
+  nameWithType: CheckpointCustomIcon.NativeValue
+  fullName: GTA.CheckpointCustomIcon.NativeValue
+- uid: GTA.Native.INativeValue.NativeValue
+  commentId: P:GTA.Native.INativeValue.NativeValue
+  parent: GTA.Native.INativeValue
+  isExternal: true
+  href: GTA.Native.INativeValue.html#GTA_Native_INativeValue_NativeValue
+  name: NativeValue
+  nameWithType: INativeValue.NativeValue
+  fullName: GTA.Native.INativeValue.NativeValue
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: GTA.CheckpointCustomIcon.Number*
+  commentId: Overload:GTA.CheckpointCustomIcon.Number
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html#GTA_CheckpointCustomIcon_Number
+  name: Number
+  nameWithType: CheckpointCustomIcon.Number
+  fullName: GTA.CheckpointCustomIcon.Number
+- uid: GTA.CheckpointCustomIcon.Style*
+  commentId: Overload:GTA.CheckpointCustomIcon.Style
+  isExternal: true
+  href: GTA.CheckpointCustomIcon.html#GTA_CheckpointCustomIcon_Style
+  name: Style
+  nameWithType: CheckpointCustomIcon.Style
+  fullName: GTA.CheckpointCustomIcon.Style

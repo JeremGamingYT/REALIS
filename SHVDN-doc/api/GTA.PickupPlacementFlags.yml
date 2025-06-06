@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PickupPlacementFlags
+  commentId: T:GTA.PickupPlacementFlags
+  id: PickupPlacementFlags
+  parent: GTA
+  children:
+  - GTA.PickupPlacementFlags.AutoEquip
+  - GTA.PickupPlacementFlags.BlippedComplex
+  - GTA.PickupPlacementFlags.BlippedSimple
+  - GTA.PickupPlacementFlags.CollectableInVehicle
+  - GTA.PickupPlacementFlags.DisableWeaponHdModel
+  - GTA.PickupPlacementFlags.FaceToPlayer
+  - GTA.PickupPlacementFlags.Fixed
+  - GTA.PickupPlacementFlags.ForceDeferredModel
+  - GTA.PickupPlacementFlags.GlowInTeam
+  - GTA.PickupPlacementFlags.HideInPhotos
+  - GTA.PickupPlacementFlags.LocalOnly
+  - GTA.PickupPlacementFlags.Map
+  - GTA.PickupPlacementFlags.None
+  - GTA.PickupPlacementFlags.OnObject
+  - GTA.PickupPlacementFlags.OrientToGround
+  - GTA.PickupPlacementFlags.PlayerGift
+  - GTA.PickupPlacementFlags.Regenerates
+  - GTA.PickupPlacementFlags.Rotate
+  - GTA.PickupPlacementFlags.SnapToGround
+  - GTA.PickupPlacementFlags.Upright
+  langs:
+  - csharp
+  - vb
+  name: PickupPlacementFlags
+  nameWithType: PickupPlacementFlags
+  fullName: GTA.PickupPlacementFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum PickupPlacementFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum PickupPlacementFlags As UInteger
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.PickupPlacementFlags.None
+  commentId: F:GTA.PickupPlacementFlags.None
+  id: None
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PickupPlacementFlags.None
+  fullName: GTA.PickupPlacementFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.Map
+  commentId: F:GTA.PickupPlacementFlags.Map
+  id: Map
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: Map
+  nameWithType: PickupPlacementFlags.Map
+  fullName: GTA.PickupPlacementFlags.Map
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Map = 1
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.Fixed
+  commentId: F:GTA.PickupPlacementFlags.Fixed
+  id: Fixed
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: Fixed
+  nameWithType: PickupPlacementFlags.Fixed
+  fullName: GTA.PickupPlacementFlags.Fixed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Fixed = 2
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.Regenerates
+  commentId: F:GTA.PickupPlacementFlags.Regenerates
+  id: Regenerates
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: Regenerates
+  nameWithType: PickupPlacementFlags.Regenerates
+  fullName: GTA.PickupPlacementFlags.Regenerates
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Regenerates = 4
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.SnapToGround
+  commentId: F:GTA.PickupPlacementFlags.SnapToGround
+  id: SnapToGround
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: SnapToGround
+  nameWithType: PickupPlacementFlags.SnapToGround
+  fullName: GTA.PickupPlacementFlags.SnapToGround
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SnapToGround = 8
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.OrientToGround
+  commentId: F:GTA.PickupPlacementFlags.OrientToGround
+  id: OrientToGround
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: OrientToGround
+  nameWithType: PickupPlacementFlags.OrientToGround
+  fullName: GTA.PickupPlacementFlags.OrientToGround
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OrientToGround = 16
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.LocalOnly
+  commentId: F:GTA.PickupPlacementFlags.LocalOnly
+  id: LocalOnly
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: LocalOnly
+  nameWithType: PickupPlacementFlags.LocalOnly
+  fullName: GTA.PickupPlacementFlags.LocalOnly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LocalOnly = 32
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.BlippedSimple
+  commentId: F:GTA.PickupPlacementFlags.BlippedSimple
+  id: BlippedSimple
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: BlippedSimple
+  nameWithType: PickupPlacementFlags.BlippedSimple
+  fullName: GTA.PickupPlacementFlags.BlippedSimple
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlippedSimple = 64
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.BlippedComplex
+  commentId: F:GTA.PickupPlacementFlags.BlippedComplex
+  id: BlippedComplex
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: BlippedComplex
+  nameWithType: PickupPlacementFlags.BlippedComplex
+  fullName: GTA.PickupPlacementFlags.BlippedComplex
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlippedComplex = 128
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.Upright
+  commentId: F:GTA.PickupPlacementFlags.Upright
+  id: Upright
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: Upright
+  nameWithType: PickupPlacementFlags.Upright
+  fullName: GTA.PickupPlacementFlags.Upright
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Upright = 256
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.Rotate
+  commentId: F:GTA.PickupPlacementFlags.Rotate
+  id: Rotate
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: Rotate
+  nameWithType: PickupPlacementFlags.Rotate
+  fullName: GTA.PickupPlacementFlags.Rotate
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Rotate = 512
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.FaceToPlayer
+  commentId: F:GTA.PickupPlacementFlags.FaceToPlayer
+  id: FaceToPlayer
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: FaceToPlayer
+  nameWithType: PickupPlacementFlags.FaceToPlayer
+  fullName: GTA.PickupPlacementFlags.FaceToPlayer
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FaceToPlayer = 1024
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.HideInPhotos
+  commentId: F:GTA.PickupPlacementFlags.HideInPhotos
+  id: HideInPhotos
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: HideInPhotos
+  nameWithType: PickupPlacementFlags.HideInPhotos
+  fullName: GTA.PickupPlacementFlags.HideInPhotos
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HideInPhotos = 2048
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.PlayerGift
+  commentId: F:GTA.PickupPlacementFlags.PlayerGift
+  id: PlayerGift
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: PlayerGift
+  nameWithType: PickupPlacementFlags.PlayerGift
+  fullName: GTA.PickupPlacementFlags.PlayerGift
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayerGift = 4096
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.OnObject
+  commentId: F:GTA.PickupPlacementFlags.OnObject
+  id: OnObject
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: OnObject
+  nameWithType: PickupPlacementFlags.OnObject
+  fullName: GTA.PickupPlacementFlags.OnObject
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OnObject = 8192
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.GlowInTeam
+  commentId: F:GTA.PickupPlacementFlags.GlowInTeam
+  id: GlowInTeam
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: GlowInTeam
+  nameWithType: PickupPlacementFlags.GlowInTeam
+  fullName: GTA.PickupPlacementFlags.GlowInTeam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GlowInTeam = 16384
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.AutoEquip
+  commentId: F:GTA.PickupPlacementFlags.AutoEquip
+  id: AutoEquip
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: AutoEquip
+  nameWithType: PickupPlacementFlags.AutoEquip
+  fullName: GTA.PickupPlacementFlags.AutoEquip
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AutoEquip = 32768
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.CollectableInVehicle
+  commentId: F:GTA.PickupPlacementFlags.CollectableInVehicle
+  id: CollectableInVehicle
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: CollectableInVehicle
+  nameWithType: PickupPlacementFlags.CollectableInVehicle
+  fullName: GTA.PickupPlacementFlags.CollectableInVehicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CollectableInVehicle = 65536
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.DisableWeaponHdModel
+  commentId: F:GTA.PickupPlacementFlags.DisableWeaponHdModel
+  id: DisableWeaponHdModel
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableWeaponHdModel
+  nameWithType: PickupPlacementFlags.DisableWeaponHdModel
+  fullName: GTA.PickupPlacementFlags.DisableWeaponHdModel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableWeaponHdModel = 131072
+    return:
+      type: GTA.PickupPlacementFlags
+- uid: GTA.PickupPlacementFlags.ForceDeferredModel
+  commentId: F:GTA.PickupPlacementFlags.ForceDeferredModel
+  id: ForceDeferredModel
+  parent: GTA.PickupPlacementFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceDeferredModel
+  nameWithType: PickupPlacementFlags.ForceDeferredModel
+  fullName: GTA.PickupPlacementFlags.ForceDeferredModel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceDeferredModel = 262144
+    return:
+      type: GTA.PickupPlacementFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.PickupPlacementFlags
+  commentId: T:GTA.PickupPlacementFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.PickupPlacementFlags.html
+  name: PickupPlacementFlags
+  nameWithType: PickupPlacementFlags
+  fullName: GTA.PickupPlacementFlags

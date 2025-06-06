@@ -1,0 +1,2125 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.BraceForImpactHelper
+  commentId: T:GTA.NaturalMotion.BraceForImpactHelper
+  id: BraceForImpactHelper
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.BraceForImpactHelper.#ctor(GTA.Ped)
+  - GTA.NaturalMotion.BraceForImpactHelper.BbArms
+  - GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness
+  - GTA.NaturalMotion.BraceForImpactHelper.BraceDistance
+  - GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact
+  - GTA.NaturalMotion.BraceForImpactHelper.DampSpin
+  - GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh
+  - GTA.NaturalMotion.BraceForImpactHelper.DampUpVel
+  - GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh
+  - GTA.NaturalMotion.BraceForImpactHelper.DampVel
+  - GTA.NaturalMotion.BraceForImpactHelper.GrabDistance
+  - GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo
+  - GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer
+  - GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle
+  - GTA.NaturalMotion.BraceForImpactHelper.GrabStrength
+  - GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin
+  - GTA.NaturalMotion.BraceForImpactHelper.GsEndMin
+  - GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1
+  - GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2
+  - GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1
+  - GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2
+  - GTA.NaturalMotion.BraceForImpactHelper.GsHelp
+  - GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot
+  - GTA.NaturalMotion.BraceForImpactHelper.GsSideMax
+  - GTA.NaturalMotion.BraceForImpactHelper.GsSideMin
+  - GTA.NaturalMotion.BraceForImpactHelper.GsUpness
+  - GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax
+  - GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin
+  - GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex
+  - GTA.NaturalMotion.BraceForImpactHelper.LegStiffness
+  - GTA.NaturalMotion.BraceForImpactHelper.Look
+  - GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity
+  - GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime
+  - GTA.NaturalMotion.BraceForImpactHelper.MoveAway
+  - GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount
+  - GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean
+  - GTA.NaturalMotion.BraceForImpactHelper.MoveSideways
+  - GTA.NaturalMotion.BraceForImpactHelper.NewBrace
+  - GTA.NaturalMotion.BraceForImpactHelper.Pos
+  - GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime
+  - GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity
+  - GTA.NaturalMotion.BraceForImpactHelper.RollType
+  - GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet
+  - GTA.NaturalMotion.BraceForImpactHelper.SnapFloor
+  - GTA.NaturalMotion.BraceForImpactHelper.SnapImpact
+  - GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts
+  - GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime
+  - GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace
+  langs:
+  - csharp
+  - vb
+  name: BraceForImpactHelper
+  nameWithType: BraceForImpactHelper
+  fullName: GTA.NaturalMotion.BraceForImpactHelper
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: 'public sealed class BraceForImpactHelper : CustomHelper'
+    content.vb: Public NotInheritable Class BraceForImpactHelper Inherits CustomHelper
+  inheritance:
+  - System.Object
+  - GTA.NaturalMotion.CustomHelper
+  inheritedMembers:
+  - GTA.NaturalMotion.CustomHelper.Start
+  - GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  - GTA.NaturalMotion.CustomHelper.Update
+  - GTA.NaturalMotion.CustomHelper.Stop
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  - GTA.NaturalMotion.CustomHelper.ResetArguments
+  - GTA.NaturalMotion.CustomHelper.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.NaturalMotion.BraceForImpactHelper.#ctor(GTA.Ped)
+  commentId: M:GTA.NaturalMotion.BraceForImpactHelper.#ctor(GTA.Ped)
+  id: '#ctor(GTA.Ped)'
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: BraceForImpactHelper(Ped)
+  nameWithType: BraceForImpactHelper.BraceForImpactHelper(Ped)
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BraceForImpactHelper(GTA.Ped)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public BraceForImpactHelper(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    content.vb: Public Sub New(ped As Ped)
+  overload: GTA.NaturalMotion.BraceForImpactHelper.#ctor*
+  nameWithType.vb: BraceForImpactHelper.New(Ped)
+  fullName.vb: GTA.NaturalMotion.BraceForImpactHelper.New(GTA.Ped)
+  name.vb: New(Ped)
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BraceDistance
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.BraceDistance
+  id: BraceDistance
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: BraceDistance
+  nameWithType: BraceForImpactHelper.BraceDistance
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BraceDistance
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float BraceDistance { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property BraceDistance As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.BraceDistance*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime
+  id: TargetPredictionTime
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: TargetPredictionTime
+  nameWithType: BraceForImpactHelper.TargetPredictionTime
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TargetPredictionTime { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TargetPredictionTime As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime
+  id: ReachAbsorbtionTime
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: ReachAbsorbtionTime
+  nameWithType: BraceForImpactHelper.ReachAbsorbtionTime
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ReachAbsorbtionTime { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ReachAbsorbtionTime As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex
+  id: InstanceIndex
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: InstanceIndex
+  nameWithType: BraceForImpactHelper.InstanceIndex
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int InstanceIndex { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property InstanceIndex As Integer
+  overload: GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness
+  id: BodyStiffness
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: BodyStiffness
+  nameWithType: BraceForImpactHelper.BodyStiffness
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float BodyStiffness { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property BodyStiffness As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo
+  id: GrabDontLetGo
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabDontLetGo
+  nameWithType: BraceForImpactHelper.GrabDontLetGo
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool GrabDontLetGo { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property GrabDontLetGo As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabStrength
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GrabStrength
+  id: GrabStrength
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabStrength
+  nameWithType: BraceForImpactHelper.GrabStrength
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabStrength
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabStrength { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabStrength As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GrabStrength*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabDistance
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GrabDistance
+  id: GrabDistance
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabDistance
+  nameWithType: BraceForImpactHelper.GrabDistance
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabDistance
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabDistance { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabDistance As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GrabDistance*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle
+  id: GrabReachAngle
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabReachAngle
+  nameWithType: BraceForImpactHelper.GrabReachAngle
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabReachAngle { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabReachAngle As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer
+  id: GrabHoldTimer
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabHoldTimer
+  nameWithType: BraceForImpactHelper.GrabHoldTimer
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabHoldTimer { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabHoldTimer As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity
+  id: MaxGrabCarVelocity
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: MaxGrabCarVelocity
+  nameWithType: BraceForImpactHelper.MaxGrabCarVelocity
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MaxGrabCarVelocity { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MaxGrabCarVelocity As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.LegStiffness
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.LegStiffness
+  id: LegStiffness
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: LegStiffness
+  nameWithType: BraceForImpactHelper.LegStiffness
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.LegStiffness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float LegStiffness { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property LegStiffness As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.LegStiffness*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace
+  id: TimeToBackwardsBrace
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: TimeToBackwardsBrace
+  nameWithType: BraceForImpactHelper.TimeToBackwardsBrace
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TimeToBackwardsBrace { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TimeToBackwardsBrace As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.Look
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.Look
+  id: Look
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: Look
+  nameWithType: BraceForImpactHelper.Look
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.Look
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 Look { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Look As Vector3
+  overload: GTA.NaturalMotion.BraceForImpactHelper.Look*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.Pos
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.Pos
+  id: Pos
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: Pos
+  nameWithType: BraceForImpactHelper.Pos
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.Pos
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 Pos { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Pos As Vector3
+  overload: GTA.NaturalMotion.BraceForImpactHelper.Pos*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime
+  id: MinBraceTime
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: MinBraceTime
+  nameWithType: BraceForImpactHelper.MinBraceTime
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MinBraceTime { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MinBraceTime As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin
+  id: HandsDelayMin
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: HandsDelayMin
+  nameWithType: BraceForImpactHelper.HandsDelayMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float HandsDelayMin { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property HandsDelayMin As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax
+  id: HandsDelayMax
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: HandsDelayMax
+  nameWithType: BraceForImpactHelper.HandsDelayMax
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float HandsDelayMax { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property HandsDelayMax As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveAway
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.MoveAway
+  id: MoveAway
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: MoveAway
+  nameWithType: BraceForImpactHelper.MoveAway
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveAway
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool MoveAway { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property MoveAway As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.MoveAway*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount
+  id: MoveAwayAmount
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: MoveAwayAmount
+  nameWithType: BraceForImpactHelper.MoveAwayAmount
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MoveAwayAmount { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MoveAwayAmount As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean
+  id: MoveAwayLean
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: MoveAwayLean
+  nameWithType: BraceForImpactHelper.MoveAwayLean
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MoveAwayLean { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MoveAwayLean As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveSideways
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.MoveSideways
+  id: MoveSideways
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: MoveSideways
+  nameWithType: BraceForImpactHelper.MoveSideways
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveSideways
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MoveSideways { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MoveSideways As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.MoveSideways*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BbArms
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.BbArms
+  id: BbArms
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: BbArms
+  nameWithType: BraceForImpactHelper.BbArms
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BbArms
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool BbArms { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property BbArms As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.BbArms*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.NewBrace
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.NewBrace
+  id: NewBrace
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: NewBrace
+  nameWithType: BraceForImpactHelper.NewBrace
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.NewBrace
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool NewBrace { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property NewBrace As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.NewBrace*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact
+  id: BraceOnImpact
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: BraceOnImpact
+  nameWithType: BraceForImpactHelper.BraceOnImpact
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool BraceOnImpact { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property BraceOnImpact As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity
+  id: Roll2Velocity
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: Roll2Velocity
+  nameWithType: BraceForImpactHelper.Roll2Velocity
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Roll2Velocity { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Roll2Velocity As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.RollType
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.RollType
+  id: RollType
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: RollType
+  nameWithType: BraceForImpactHelper.RollType
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.RollType
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int RollType { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property RollType As Integer
+  overload: GTA.NaturalMotion.BraceForImpactHelper.RollType*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts
+  id: SnapImpacts
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: SnapImpacts
+  nameWithType: BraceForImpactHelper.SnapImpacts
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool SnapImpacts { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property SnapImpacts As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapImpact
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.SnapImpact
+  id: SnapImpact
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: SnapImpact
+  nameWithType: BraceForImpactHelper.SnapImpact
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapImpact
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float SnapImpact { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property SnapImpact As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.SnapImpact*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet
+  id: SnapBonnet
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: SnapBonnet
+  nameWithType: BraceForImpactHelper.SnapBonnet
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float SnapBonnet { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property SnapBonnet As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapFloor
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.SnapFloor
+  id: SnapFloor
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: SnapFloor
+  nameWithType: BraceForImpactHelper.SnapFloor
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapFloor
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float SnapFloor { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property SnapFloor As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.SnapFloor*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampVel
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.DampVel
+  id: DampVel
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: DampVel
+  nameWithType: BraceForImpactHelper.DampVel
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampVel
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool DampVel { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property DampVel As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.DampVel*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampSpin
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.DampSpin
+  id: DampSpin
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: DampSpin
+  nameWithType: BraceForImpactHelper.DampSpin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampSpin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float DampSpin { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DampSpin As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.DampSpin*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampUpVel
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.DampUpVel
+  id: DampUpVel
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: DampUpVel
+  nameWithType: BraceForImpactHelper.DampUpVel
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampUpVel
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float DampUpVel { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DampUpVel As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.DampUpVel*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh
+  id: DampSpinThresh
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: DampSpinThresh
+  nameWithType: BraceForImpactHelper.DampSpinThresh
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float DampSpinThresh { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DampSpinThresh As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh
+  id: DampUpVelThresh
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: DampUpVelThresh
+  nameWithType: BraceForImpactHelper.DampUpVelThresh
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float DampUpVelThresh { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DampUpVelThresh As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsHelp
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsHelp
+  id: GsHelp
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsHelp
+  nameWithType: BraceForImpactHelper.GsHelp
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsHelp
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool GsHelp { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property GsHelp As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsHelp*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsEndMin
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsEndMin
+  id: GsEndMin
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsEndMin
+  nameWithType: BraceForImpactHelper.GsEndMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsEndMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsEndMin { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsEndMin As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsEndMin*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsSideMin
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsSideMin
+  id: GsSideMin
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsSideMin
+  nameWithType: BraceForImpactHelper.GsSideMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsSideMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsSideMin { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsSideMin As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsSideMin*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsSideMax
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsSideMax
+  id: GsSideMax
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsSideMax
+  nameWithType: BraceForImpactHelper.GsSideMax
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsSideMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsSideMax { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsSideMax As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsSideMax*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsUpness
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsUpness
+  id: GsUpness
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsUpness
+  nameWithType: BraceForImpactHelper.GsUpness
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsUpness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsUpness { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsUpness As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsUpness*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin
+  id: GsCarVelMin
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsCarVelMin
+  nameWithType: BraceForImpactHelper.GsCarVelMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsCarVelMin { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsCarVelMin As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot
+  id: GsScale1Foot
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsScale1Foot
+  nameWithType: BraceForImpactHelper.GsScale1Foot
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool GsScale1Foot { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property GsScale1Foot As Boolean
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1
+  id: GsFricScale1
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsFricScale1
+  nameWithType: BraceForImpactHelper.GsFricScale1
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsFricScale1 { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsFricScale1 As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1
+  id: GsFricMask1
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsFricMask1
+  nameWithType: BraceForImpactHelper.GsFricMask1
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public string GsFricMask1 { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public WriteOnly Property GsFricMask1 As String
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2
+  id: GsFricScale2
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsFricScale2
+  nameWithType: BraceForImpactHelper.GsFricScale2
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GsFricScale2 { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GsFricScale2 As Single
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2*
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2
+  commentId: P:GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2
+  id: GsFricMask2
+  parent: GTA.NaturalMotion.BraceForImpactHelper
+  langs:
+  - csharp
+  - vb
+  name: GsFricMask2
+  nameWithType: BraceForImpactHelper.GsFricMask2
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public string GsFricMask2 { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public WriteOnly Property GsFricMask2 As String
+  overload: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2*
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.NaturalMotion.CustomHelper
+  commentId: T:GTA.NaturalMotion.CustomHelper
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html
+  name: CustomHelper
+  nameWithType: CustomHelper
+  fullName: GTA.NaturalMotion.CustomHelper
+- uid: GTA.NaturalMotion.CustomHelper.Start
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  name: Start()
+  nameWithType: CustomHelper.Start()
+  fullName: GTA.NaturalMotion.CustomHelper.Start()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  name: Start(int)
+  nameWithType: CustomHelper.Start(int)
+  fullName: GTA.NaturalMotion.CustomHelper.Start(int)
+  nameWithType.vb: CustomHelper.Start(Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.Start(Integer)
+  name.vb: Start(Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Update
+  commentId: M:GTA.NaturalMotion.CustomHelper.Update
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  name: Update()
+  nameWithType: CustomHelper.Update()
+  fullName: GTA.NaturalMotion.CustomHelper.Update()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Stop
+  commentId: M:GTA.NaturalMotion.CustomHelper.Stop
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  name: Stop()
+  nameWithType: CustomHelper.Stop()
+  fullName: GTA.NaturalMotion.CustomHelper.Stop()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  name: SetArgument(string, bool)
+  nameWithType: CustomHelper.SetArgument(string, bool)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, bool)
+  nameWithType.vb: CustomHelper.SetArgument(String, Boolean)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Boolean)
+  name.vb: SetArgument(String, Boolean)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  name: SetArgument(string, int)
+  nameWithType: CustomHelper.SetArgument(string, int)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, int)
+  nameWithType.vb: CustomHelper.SetArgument(String, Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Integer)
+  name.vb: SetArgument(String, Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  name: SetArgument(string, float)
+  nameWithType: CustomHelper.SetArgument(string, float)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, float)
+  nameWithType.vb: CustomHelper.SetArgument(String, Single)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Single)
+  name.vb: SetArgument(String, Single)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  name: SetArgument(string, string)
+  nameWithType: CustomHelper.SetArgument(string, string)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, string)
+  nameWithType.vb: CustomHelper.SetArgument(String, String)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, String)
+  name.vb: SetArgument(String, String)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  name: SetArgument(string, Vector3)
+  nameWithType: CustomHelper.SetArgument(string, Vector3)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, GTA.Math.Vector3)
+  nameWithType.vb: CustomHelper.SetArgument(String, Vector3)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, GTA.Math.Vector3)
+  name.vb: SetArgument(String, Vector3)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+  commentId: M:GTA.NaturalMotion.CustomHelper.ResetArguments
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  name: ResetArguments()
+  nameWithType: CustomHelper.ResetArguments()
+  fullName: GTA.NaturalMotion.CustomHelper.ResetArguments()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ToString
+  commentId: M:GTA.NaturalMotion.CustomHelper.ToString
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  name: ToString()
+  nameWithType: CustomHelper.ToString()
+  fullName: GTA.NaturalMotion.CustomHelper.ToString()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.NaturalMotion.BraceForImpactHelper.#ctor*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.#ctor
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper__ctor_GTA_Ped_
+  name: BraceForImpactHelper
+  nameWithType: BraceForImpactHelper.BraceForImpactHelper
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BraceForImpactHelper
+  nameWithType.vb: BraceForImpactHelper.New
+  fullName.vb: GTA.NaturalMotion.BraceForImpactHelper.New
+  name.vb: New
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BraceDistance*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.BraceDistance
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_BraceDistance
+  name: BraceDistance
+  nameWithType: BraceForImpactHelper.BraceDistance
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BraceDistance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_TargetPredictionTime
+  name: TargetPredictionTime
+  nameWithType: BraceForImpactHelper.TargetPredictionTime
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.TargetPredictionTime
+- uid: GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_ReachAbsorbtionTime
+  name: ReachAbsorbtionTime
+  nameWithType: BraceForImpactHelper.ReachAbsorbtionTime
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.ReachAbsorbtionTime
+- uid: GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_InstanceIndex
+  name: InstanceIndex
+  nameWithType: BraceForImpactHelper.InstanceIndex
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.InstanceIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_BodyStiffness
+  name: BodyStiffness
+  nameWithType: BraceForImpactHelper.BodyStiffness
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BodyStiffness
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GrabDontLetGo
+  name: GrabDontLetGo
+  nameWithType: BraceForImpactHelper.GrabDontLetGo
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabDontLetGo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabStrength*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GrabStrength
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GrabStrength
+  name: GrabStrength
+  nameWithType: BraceForImpactHelper.GrabStrength
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabStrength
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabDistance*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GrabDistance
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GrabDistance
+  name: GrabDistance
+  nameWithType: BraceForImpactHelper.GrabDistance
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabDistance
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GrabReachAngle
+  name: GrabReachAngle
+  nameWithType: BraceForImpactHelper.GrabReachAngle
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabReachAngle
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GrabHoldTimer
+  name: GrabHoldTimer
+  nameWithType: BraceForImpactHelper.GrabHoldTimer
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GrabHoldTimer
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_MaxGrabCarVelocity
+  name: MaxGrabCarVelocity
+  nameWithType: BraceForImpactHelper.MaxGrabCarVelocity
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MaxGrabCarVelocity
+- uid: GTA.NaturalMotion.BraceForImpactHelper.LegStiffness*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.LegStiffness
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_LegStiffness
+  name: LegStiffness
+  nameWithType: BraceForImpactHelper.LegStiffness
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.LegStiffness
+- uid: GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_TimeToBackwardsBrace
+  name: TimeToBackwardsBrace
+  nameWithType: BraceForImpactHelper.TimeToBackwardsBrace
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.TimeToBackwardsBrace
+- uid: GTA.NaturalMotion.BraceForImpactHelper.Look*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.Look
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_Look
+  name: Look
+  nameWithType: BraceForImpactHelper.Look
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.Look
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.NaturalMotion.BraceForImpactHelper.Pos*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.Pos
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_Pos
+  name: Pos
+  nameWithType: BraceForImpactHelper.Pos
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.Pos
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_MinBraceTime
+  name: MinBraceTime
+  nameWithType: BraceForImpactHelper.MinBraceTime
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MinBraceTime
+- uid: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_HandsDelayMin
+  name: HandsDelayMin
+  nameWithType: BraceForImpactHelper.HandsDelayMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMin
+- uid: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_HandsDelayMax
+  name: HandsDelayMax
+  nameWithType: BraceForImpactHelper.HandsDelayMax
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.HandsDelayMax
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveAway*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.MoveAway
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_MoveAway
+  name: MoveAway
+  nameWithType: BraceForImpactHelper.MoveAway
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveAway
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_MoveAwayAmount
+  name: MoveAwayAmount
+  nameWithType: BraceForImpactHelper.MoveAwayAmount
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayAmount
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_MoveAwayLean
+  name: MoveAwayLean
+  nameWithType: BraceForImpactHelper.MoveAwayLean
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveAwayLean
+- uid: GTA.NaturalMotion.BraceForImpactHelper.MoveSideways*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.MoveSideways
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_MoveSideways
+  name: MoveSideways
+  nameWithType: BraceForImpactHelper.MoveSideways
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.MoveSideways
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BbArms*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.BbArms
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_BbArms
+  name: BbArms
+  nameWithType: BraceForImpactHelper.BbArms
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BbArms
+- uid: GTA.NaturalMotion.BraceForImpactHelper.NewBrace*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.NewBrace
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_NewBrace
+  name: NewBrace
+  nameWithType: BraceForImpactHelper.NewBrace
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.NewBrace
+- uid: GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_BraceOnImpact
+  name: BraceOnImpact
+  nameWithType: BraceForImpactHelper.BraceOnImpact
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.BraceOnImpact
+- uid: GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_Roll2Velocity
+  name: Roll2Velocity
+  nameWithType: BraceForImpactHelper.Roll2Velocity
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.Roll2Velocity
+- uid: GTA.NaturalMotion.BraceForImpactHelper.RollType*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.RollType
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_RollType
+  name: RollType
+  nameWithType: BraceForImpactHelper.RollType
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.RollType
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_SnapImpacts
+  name: SnapImpacts
+  nameWithType: BraceForImpactHelper.SnapImpacts
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapImpacts
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapImpact*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.SnapImpact
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_SnapImpact
+  name: SnapImpact
+  nameWithType: BraceForImpactHelper.SnapImpact
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapImpact
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_SnapBonnet
+  name: SnapBonnet
+  nameWithType: BraceForImpactHelper.SnapBonnet
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapBonnet
+- uid: GTA.NaturalMotion.BraceForImpactHelper.SnapFloor*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.SnapFloor
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_SnapFloor
+  name: SnapFloor
+  nameWithType: BraceForImpactHelper.SnapFloor
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.SnapFloor
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampVel*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.DampVel
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_DampVel
+  name: DampVel
+  nameWithType: BraceForImpactHelper.DampVel
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampVel
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampSpin*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.DampSpin
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_DampSpin
+  name: DampSpin
+  nameWithType: BraceForImpactHelper.DampSpin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampSpin
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampUpVel*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.DampUpVel
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_DampUpVel
+  name: DampUpVel
+  nameWithType: BraceForImpactHelper.DampUpVel
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampUpVel
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_DampSpinThresh
+  name: DampSpinThresh
+  nameWithType: BraceForImpactHelper.DampSpinThresh
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampSpinThresh
+- uid: GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_DampUpVelThresh
+  name: DampUpVelThresh
+  nameWithType: BraceForImpactHelper.DampUpVelThresh
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.DampUpVelThresh
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsHelp*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsHelp
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsHelp
+  name: GsHelp
+  nameWithType: BraceForImpactHelper.GsHelp
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsHelp
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsEndMin*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsEndMin
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsEndMin
+  name: GsEndMin
+  nameWithType: BraceForImpactHelper.GsEndMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsEndMin
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsSideMin*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsSideMin
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsSideMin
+  name: GsSideMin
+  nameWithType: BraceForImpactHelper.GsSideMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsSideMin
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsSideMax*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsSideMax
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsSideMax
+  name: GsSideMax
+  nameWithType: BraceForImpactHelper.GsSideMax
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsSideMax
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsUpness*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsUpness
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsUpness
+  name: GsUpness
+  nameWithType: BraceForImpactHelper.GsUpness
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsUpness
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsCarVelMin
+  name: GsCarVelMin
+  nameWithType: BraceForImpactHelper.GsCarVelMin
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsCarVelMin
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsScale1Foot
+  name: GsScale1Foot
+  nameWithType: BraceForImpactHelper.GsScale1Foot
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsScale1Foot
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsFricScale1
+  name: GsFricScale1
+  nameWithType: BraceForImpactHelper.GsFricScale1
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale1
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsFricMask1
+  name: GsFricMask1
+  nameWithType: BraceForImpactHelper.GsFricMask1
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask1
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsFricScale2
+  name: GsFricScale2
+  nameWithType: BraceForImpactHelper.GsFricScale2
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricScale2
+- uid: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2*
+  commentId: Overload:GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2
+  isExternal: true
+  href: GTA.NaturalMotion.BraceForImpactHelper.html#GTA_NaturalMotion_BraceForImpactHelper_GsFricMask2
+  name: GsFricMask2
+  nameWithType: BraceForImpactHelper.GsFricMask2
+  fullName: GTA.NaturalMotion.BraceForImpactHelper.GsFricMask2

@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.MeasurementSystem
+  commentId: T:GTA.MeasurementSystem
+  id: MeasurementSystem
+  parent: GTA
+  children:
+  - GTA.MeasurementSystem.Imperial
+  - GTA.MeasurementSystem.Metric
+  langs:
+  - csharp
+  - vb
+  name: MeasurementSystem
+  nameWithType: MeasurementSystem
+  fullName: GTA.MeasurementSystem
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum MeasurementSystem
+    content.vb: Public Enum MeasurementSystem
+- uid: GTA.MeasurementSystem.Imperial
+  commentId: F:GTA.MeasurementSystem.Imperial
+  id: Imperial
+  parent: GTA.MeasurementSystem
+  langs:
+  - csharp
+  - vb
+  name: Imperial
+  nameWithType: MeasurementSystem.Imperial
+  fullName: GTA.MeasurementSystem.Imperial
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Imperial = 0
+    return:
+      type: GTA.MeasurementSystem
+- uid: GTA.MeasurementSystem.Metric
+  commentId: F:GTA.MeasurementSystem.Metric
+  id: Metric
+  parent: GTA.MeasurementSystem
+  langs:
+  - csharp
+  - vb
+  name: Metric
+  nameWithType: MeasurementSystem.Metric
+  fullName: GTA.MeasurementSystem.Metric
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Metric = 1
+    return:
+      type: GTA.MeasurementSystem
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.MeasurementSystem
+  commentId: T:GTA.MeasurementSystem
+  parent: GTA
+  isExternal: true
+  href: GTA.MeasurementSystem.html
+  name: MeasurementSystem
+  nameWithType: MeasurementSystem
+  fullName: GTA.MeasurementSystem

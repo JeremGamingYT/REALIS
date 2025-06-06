@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.IntersectFlags
+  commentId: T:GTA.IntersectFlags
+  id: IntersectFlags
+  parent: GTA
+  children:
+  - GTA.IntersectFlags.BoundingBox
+  - GTA.IntersectFlags.Everything
+  - GTA.IntersectFlags.Foliage
+  - GTA.IntersectFlags.Glass
+  - GTA.IntersectFlags.LosToEntity
+  - GTA.IntersectFlags.Map
+  - GTA.IntersectFlags.Objects
+  - GTA.IntersectFlags.PedCapsules
+  - GTA.IntersectFlags.Peds
+  - GTA.IntersectFlags.Pickups
+  - GTA.IntersectFlags.Ragdolls
+  - GTA.IntersectFlags.Rivers
+  - GTA.IntersectFlags.Vehicles
+  langs:
+  - csharp
+  - vb
+  name: IntersectFlags
+  nameWithType: IntersectFlags
+  fullName: GTA.IntersectFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum IntersectFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum IntersectFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.IntersectFlags.Map
+  commentId: F:GTA.IntersectFlags.Map
+  id: Map
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Map
+  nameWithType: IntersectFlags.Map
+  fullName: GTA.IntersectFlags.Map
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Map = 1
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Vehicles
+  commentId: F:GTA.IntersectFlags.Vehicles
+  id: Vehicles
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Vehicles
+  nameWithType: IntersectFlags.Vehicles
+  fullName: GTA.IntersectFlags.Vehicles
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Vehicles = 2
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.PedCapsules
+  commentId: F:GTA.IntersectFlags.PedCapsules
+  id: PedCapsules
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: PedCapsules
+  nameWithType: IntersectFlags.PedCapsules
+  fullName: GTA.IntersectFlags.PedCapsules
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PedCapsules = 4
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Ragdolls
+  commentId: F:GTA.IntersectFlags.Ragdolls
+  id: Ragdolls
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Ragdolls
+  nameWithType: IntersectFlags.Ragdolls
+  fullName: GTA.IntersectFlags.Ragdolls
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ragdolls = 8
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Peds
+  commentId: F:GTA.IntersectFlags.Peds
+  id: Peds
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Peds
+  nameWithType: IntersectFlags.Peds
+  fullName: GTA.IntersectFlags.Peds
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Peds = PedCapsules | Ragdolls
+    return:
+      type: GTA.IntersectFlags
+    content.vb: Peds = PedCapsules Or Ragdolls
+- uid: GTA.IntersectFlags.Objects
+  commentId: F:GTA.IntersectFlags.Objects
+  id: Objects
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Objects
+  nameWithType: IntersectFlags.Objects
+  fullName: GTA.IntersectFlags.Objects
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Objects = 16
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Pickups
+  commentId: F:GTA.IntersectFlags.Pickups
+  id: Pickups
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Pickups
+  nameWithType: IntersectFlags.Pickups
+  fullName: GTA.IntersectFlags.Pickups
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Pickups = 32
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Glass
+  commentId: F:GTA.IntersectFlags.Glass
+  id: Glass
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Glass
+  nameWithType: IntersectFlags.Glass
+  fullName: GTA.IntersectFlags.Glass
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Glass = 64
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Rivers
+  commentId: F:GTA.IntersectFlags.Rivers
+  id: Rivers
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Rivers
+  nameWithType: IntersectFlags.Rivers
+  fullName: GTA.IntersectFlags.Rivers
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Rivers = 128
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Foliage
+  commentId: F:GTA.IntersectFlags.Foliage
+  id: Foliage
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Foliage
+  nameWithType: IntersectFlags.Foliage
+  fullName: GTA.IntersectFlags.Foliage
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Foliage = 256
+    return:
+      type: GTA.IntersectFlags
+- uid: GTA.IntersectFlags.Everything
+  commentId: F:GTA.IntersectFlags.Everything
+  id: Everything
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: Everything
+  nameWithType: IntersectFlags.Everything
+  fullName: GTA.IntersectFlags.Everything
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Everything = Map | BoundingBox | Rivers | Foliage
+    return:
+      type: GTA.IntersectFlags
+    content.vb: Everything = Map Or BoundingBox Or Rivers Or Foliage
+- uid: GTA.IntersectFlags.LosToEntity
+  commentId: F:GTA.IntersectFlags.LosToEntity
+  id: LosToEntity
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: LosToEntity
+  nameWithType: IntersectFlags.LosToEntity
+  fullName: GTA.IntersectFlags.LosToEntity
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LosToEntity = Map | Objects
+    return:
+      type: GTA.IntersectFlags
+    content.vb: LosToEntity = Map Or Objects
+- uid: GTA.IntersectFlags.BoundingBox
+  commentId: F:GTA.IntersectFlags.BoundingBox
+  id: BoundingBox
+  parent: GTA.IntersectFlags
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox
+  nameWithType: IntersectFlags.BoundingBox
+  fullName: GTA.IntersectFlags.BoundingBox
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BoundingBox = MissionEntities | Peds | Objects | Pickups | Glass
+    return:
+      type: GTA.IntersectFlags
+    content.vb: BoundingBox = MissionEntities Or Peds Or Objects Or Pickups Or Glass
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.IntersectFlags
+  commentId: T:GTA.IntersectFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.IntersectFlags.html
+  name: IntersectFlags
+  nameWithType: IntersectFlags
+  fullName: GTA.IntersectFlags

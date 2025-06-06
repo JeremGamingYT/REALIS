@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Chrono.IsoDayOfWeek
+  commentId: T:GTA.Chrono.IsoDayOfWeek
+  id: IsoDayOfWeek
+  parent: GTA.Chrono
+  children:
+  - GTA.Chrono.IsoDayOfWeek.Friday
+  - GTA.Chrono.IsoDayOfWeek.Monday
+  - GTA.Chrono.IsoDayOfWeek.Saturday
+  - GTA.Chrono.IsoDayOfWeek.Sunday
+  - GTA.Chrono.IsoDayOfWeek.Thursday
+  - GTA.Chrono.IsoDayOfWeek.Tuesday
+  - GTA.Chrono.IsoDayOfWeek.Wednesday
+  langs:
+  - csharp
+  - vb
+  name: IsoDayOfWeek
+  nameWithType: IsoDayOfWeek
+  fullName: GTA.Chrono.IsoDayOfWeek
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: public enum IsoDayOfWeek
+    content.vb: Public Enum IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Monday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Monday
+  id: Monday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Monday
+  nameWithType: IsoDayOfWeek.Monday
+  fullName: GTA.Chrono.IsoDayOfWeek.Monday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Monday = 0
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Tuesday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Tuesday
+  id: Tuesday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Tuesday
+  nameWithType: IsoDayOfWeek.Tuesday
+  fullName: GTA.Chrono.IsoDayOfWeek.Tuesday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Tuesday = 1
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Wednesday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Wednesday
+  id: Wednesday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Wednesday
+  nameWithType: IsoDayOfWeek.Wednesday
+  fullName: GTA.Chrono.IsoDayOfWeek.Wednesday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Wednesday = 2
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Thursday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Thursday
+  id: Thursday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Thursday
+  nameWithType: IsoDayOfWeek.Thursday
+  fullName: GTA.Chrono.IsoDayOfWeek.Thursday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Thursday = 3
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Friday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Friday
+  id: Friday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Friday
+  nameWithType: IsoDayOfWeek.Friday
+  fullName: GTA.Chrono.IsoDayOfWeek.Friday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Friday = 4
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Saturday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Saturday
+  id: Saturday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Saturday
+  nameWithType: IsoDayOfWeek.Saturday
+  fullName: GTA.Chrono.IsoDayOfWeek.Saturday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Saturday = 5
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek.Sunday
+  commentId: F:GTA.Chrono.IsoDayOfWeek.Sunday
+  id: Sunday
+  parent: GTA.Chrono.IsoDayOfWeek
+  langs:
+  - csharp
+  - vb
+  name: Sunday
+  nameWithType: IsoDayOfWeek.Sunday
+  fullName: GTA.Chrono.IsoDayOfWeek.Sunday
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: Sunday = 6
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+references:
+- uid: GTA.Chrono
+  commentId: N:GTA.Chrono
+  isExternal: true
+  href: GTA.html
+  name: GTA.Chrono
+  nameWithType: GTA.Chrono
+  fullName: GTA.Chrono
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Chrono
+    name: Chrono
+    isExternal: true
+    href: GTA.Chrono.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Chrono
+    name: Chrono
+    isExternal: true
+    href: GTA.Chrono.html
+- uid: GTA.Chrono.IsoDayOfWeek
+  commentId: T:GTA.Chrono.IsoDayOfWeek
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.IsoDayOfWeek.html
+  name: IsoDayOfWeek
+  nameWithType: IsoDayOfWeek
+  fullName: GTA.Chrono.IsoDayOfWeek

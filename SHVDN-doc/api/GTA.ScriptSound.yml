@@ -1,0 +1,1089 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ScriptSound
+  commentId: T:GTA.ScriptSound
+  id: ScriptSound
+  parent: GTA
+  children:
+  - GTA.ScriptSound.Equals(GTA.ScriptSound)
+  - GTA.ScriptSound.Equals(System.Object)
+  - GTA.ScriptSound.GetHashCode
+  - GTA.ScriptSound.HasFinished
+  - GTA.ScriptSound.Id
+  - GTA.ScriptSound.IsNull
+  - GTA.ScriptSound.PlaySound(System.String,System.String,System.Boolean)
+  - GTA.ScriptSound.PlaySoundFromEntity(GTA.Entity,System.String,System.String)
+  - GTA.ScriptSound.PlaySoundFromPosition(GTA.Math.Vector3,System.String,System.String,System.Boolean)
+  - GTA.ScriptSound.PlaySoundFrontend(System.String,System.String,System.Boolean)
+  - GTA.ScriptSound.Release
+  - GTA.ScriptSound.Stop
+  - GTA.ScriptSound.UpdatePosition(GTA.Math.Vector3)
+  - GTA.ScriptSound.UpdatePosition(System.String,System.Single)
+  - GTA.ScriptSound.op_Equality(GTA.ScriptSound,GTA.ScriptSound)
+  - GTA.ScriptSound.op_Implicit(GTA.ScriptSound)~GTA.Native.InputArgument
+  - GTA.ScriptSound.op_Inequality(GTA.ScriptSound,GTA.ScriptSound)
+  langs:
+  - csharp
+  - vb
+  name: ScriptSound
+  nameWithType: ScriptSound
+  fullName: GTA.ScriptSound
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public class ScriptSound : IEquatable<ScriptSound>'
+    content.vb: Public Class ScriptSound Implements IEquatable(Of ScriptSound)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{GTA.ScriptSound}
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: GTA.ScriptSound.PlaySound(System.String,System.String,System.Boolean)
+  commentId: M:GTA.ScriptSound.PlaySound(System.String,System.String,System.Boolean)
+  id: PlaySound(System.String,System.String,System.Boolean)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: PlaySound(string, string, bool)
+  nameWithType: ScriptSound.PlaySound(string, string, bool)
+  fullName: GTA.ScriptSound.PlaySound(string, string, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PlaySound(string soundName, string setName, bool enableOnReplay = true)
+    parameters:
+    - id: soundName
+      type: System.String
+    - id: setName
+      type: System.String
+    - id: enableOnReplay
+      type: System.Boolean
+    content.vb: Public Sub PlaySound(soundName As String, setName As String, enableOnReplay As Boolean = True)
+  overload: GTA.ScriptSound.PlaySound*
+  nameWithType.vb: ScriptSound.PlaySound(String, String, Boolean)
+  fullName.vb: GTA.ScriptSound.PlaySound(String, String, Boolean)
+  name.vb: PlaySound(String, String, Boolean)
+- uid: GTA.ScriptSound.PlaySoundFrontend(System.String,System.String,System.Boolean)
+  commentId: M:GTA.ScriptSound.PlaySoundFrontend(System.String,System.String,System.Boolean)
+  id: PlaySoundFrontend(System.String,System.String,System.Boolean)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: PlaySoundFrontend(string, string, bool)
+  nameWithType: ScriptSound.PlaySoundFrontend(string, string, bool)
+  fullName: GTA.ScriptSound.PlaySoundFrontend(string, string, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PlaySoundFrontend(string soundName, string setName, bool enableOnReplay = true)
+    parameters:
+    - id: soundName
+      type: System.String
+    - id: setName
+      type: System.String
+    - id: enableOnReplay
+      type: System.Boolean
+    content.vb: Public Sub PlaySoundFrontend(soundName As String, setName As String, enableOnReplay As Boolean = True)
+  overload: GTA.ScriptSound.PlaySoundFrontend*
+  nameWithType.vb: ScriptSound.PlaySoundFrontend(String, String, Boolean)
+  fullName.vb: GTA.ScriptSound.PlaySoundFrontend(String, String, Boolean)
+  name.vb: PlaySoundFrontend(String, String, Boolean)
+- uid: GTA.ScriptSound.PlaySoundFromEntity(GTA.Entity,System.String,System.String)
+  commentId: M:GTA.ScriptSound.PlaySoundFromEntity(GTA.Entity,System.String,System.String)
+  id: PlaySoundFromEntity(GTA.Entity,System.String,System.String)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: PlaySoundFromEntity(Entity, string, string)
+  nameWithType: ScriptSound.PlaySoundFromEntity(Entity, string, string)
+  fullName: GTA.ScriptSound.PlaySoundFromEntity(GTA.Entity, string, string)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PlaySoundFromEntity(Entity entity, string soundName, string setName = null)
+    parameters:
+    - id: entity
+      type: GTA.Entity
+    - id: soundName
+      type: System.String
+    - id: setName
+      type: System.String
+    content.vb: Public Sub PlaySoundFromEntity(entity As Entity, soundName As String, setName As String = Nothing)
+  overload: GTA.ScriptSound.PlaySoundFromEntity*
+  nameWithType.vb: ScriptSound.PlaySoundFromEntity(Entity, String, String)
+  fullName.vb: GTA.ScriptSound.PlaySoundFromEntity(GTA.Entity, String, String)
+  name.vb: PlaySoundFromEntity(Entity, String, String)
+- uid: GTA.ScriptSound.PlaySoundFromPosition(GTA.Math.Vector3,System.String,System.String,System.Boolean)
+  commentId: M:GTA.ScriptSound.PlaySoundFromPosition(GTA.Math.Vector3,System.String,System.String,System.Boolean)
+  id: PlaySoundFromPosition(GTA.Math.Vector3,System.String,System.String,System.Boolean)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: PlaySoundFromPosition(Vector3, string, string, bool)
+  nameWithType: ScriptSound.PlaySoundFromPosition(Vector3, string, string, bool)
+  fullName: GTA.ScriptSound.PlaySoundFromPosition(GTA.Math.Vector3, string, string, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PlaySoundFromPosition(Vector3 position, string soundName, string setName = null, bool isExteriorLoc = false)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: soundName
+      type: System.String
+    - id: setName
+      type: System.String
+    - id: isExteriorLoc
+      type: System.Boolean
+    content.vb: Public Sub PlaySoundFromPosition(position As Vector3, soundName As String, setName As String = Nothing, isExteriorLoc As Boolean = False)
+  overload: GTA.ScriptSound.PlaySoundFromPosition*
+  nameWithType.vb: ScriptSound.PlaySoundFromPosition(Vector3, String, String, Boolean)
+  fullName.vb: GTA.ScriptSound.PlaySoundFromPosition(GTA.Math.Vector3, String, String, Boolean)
+  name.vb: PlaySoundFromPosition(Vector3, String, String, Boolean)
+- uid: GTA.ScriptSound.UpdatePosition(System.String,System.Single)
+  commentId: M:GTA.ScriptSound.UpdatePosition(System.String,System.Single)
+  id: UpdatePosition(System.String,System.Single)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: UpdatePosition(string, float)
+  nameWithType: ScriptSound.UpdatePosition(string, float)
+  fullName: GTA.ScriptSound.UpdatePosition(string, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void UpdatePosition(string variableName, float variableValue)
+    parameters:
+    - id: variableName
+      type: System.String
+    - id: variableValue
+      type: System.Single
+    content.vb: Public Sub UpdatePosition(variableName As String, variableValue As Single)
+  overload: GTA.ScriptSound.UpdatePosition*
+  nameWithType.vb: ScriptSound.UpdatePosition(String, Single)
+  fullName.vb: GTA.ScriptSound.UpdatePosition(String, Single)
+  name.vb: UpdatePosition(String, Single)
+- uid: GTA.ScriptSound.UpdatePosition(GTA.Math.Vector3)
+  commentId: M:GTA.ScriptSound.UpdatePosition(GTA.Math.Vector3)
+  id: UpdatePosition(GTA.Math.Vector3)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: UpdatePosition(Vector3)
+  nameWithType: ScriptSound.UpdatePosition(Vector3)
+  fullName: GTA.ScriptSound.UpdatePosition(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void UpdatePosition(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Sub UpdatePosition(position As Vector3)
+  overload: GTA.ScriptSound.UpdatePosition*
+- uid: GTA.ScriptSound.HasFinished
+  commentId: M:GTA.ScriptSound.HasFinished
+  id: HasFinished
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: HasFinished()
+  nameWithType: ScriptSound.HasFinished()
+  fullName: GTA.ScriptSound.HasFinished()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool HasFinished()
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasFinished() As Boolean
+  overload: GTA.ScriptSound.HasFinished*
+- uid: GTA.ScriptSound.Stop
+  commentId: M:GTA.ScriptSound.Stop
+  id: Stop
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: ScriptSound.Stop()
+  fullName: GTA.ScriptSound.Stop()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub [Stop]()
+  overload: GTA.ScriptSound.Stop*
+- uid: GTA.ScriptSound.Release
+  commentId: M:GTA.ScriptSound.Release
+  id: Release
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: Release()
+  nameWithType: ScriptSound.Release()
+  fullName: GTA.ScriptSound.Release()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Release()
+    content.vb: Public Sub Release()
+  overload: GTA.ScriptSound.Release*
+- uid: GTA.ScriptSound.Equals(GTA.ScriptSound)
+  commentId: M:GTA.ScriptSound.Equals(GTA.ScriptSound)
+  id: Equals(GTA.ScriptSound)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: Equals(ScriptSound)
+  nameWithType: ScriptSound.Equals(ScriptSound)
+  fullName: GTA.ScriptSound.Equals(GTA.ScriptSound)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool Equals(ScriptSound other)
+    parameters:
+    - id: other
+      type: GTA.ScriptSound
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ScriptSound) As Boolean
+  overload: GTA.ScriptSound.Equals*
+  implements:
+  - System.IEquatable{GTA.ScriptSound}.Equals(GTA.ScriptSound)
+- uid: GTA.ScriptSound.Equals(System.Object)
+  commentId: M:GTA.ScriptSound.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ScriptSound.Equals(object)
+  fullName: GTA.ScriptSound.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.ScriptSound.Equals*
+  nameWithType.vb: ScriptSound.Equals(Object)
+  fullName.vb: GTA.ScriptSound.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.ScriptSound.op_Equality(GTA.ScriptSound,GTA.ScriptSound)
+  commentId: M:GTA.ScriptSound.op_Equality(GTA.ScriptSound,GTA.ScriptSound)
+  id: op_Equality(GTA.ScriptSound,GTA.ScriptSound)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: operator ==(ScriptSound, ScriptSound)
+  nameWithType: ScriptSound.operator ==(ScriptSound, ScriptSound)
+  fullName: GTA.ScriptSound.operator ==(GTA.ScriptSound, GTA.ScriptSound)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(ScriptSound left, ScriptSound right)
+    parameters:
+    - id: left
+      type: GTA.ScriptSound
+    - id: right
+      type: GTA.ScriptSound
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As ScriptSound, right As ScriptSound) As Boolean
+  overload: GTA.ScriptSound.op_Equality*
+  nameWithType.vb: ScriptSound.=(ScriptSound, ScriptSound)
+  fullName.vb: GTA.ScriptSound.=(GTA.ScriptSound, GTA.ScriptSound)
+  name.vb: =(ScriptSound, ScriptSound)
+- uid: GTA.ScriptSound.op_Inequality(GTA.ScriptSound,GTA.ScriptSound)
+  commentId: M:GTA.ScriptSound.op_Inequality(GTA.ScriptSound,GTA.ScriptSound)
+  id: op_Inequality(GTA.ScriptSound,GTA.ScriptSound)
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: operator !=(ScriptSound, ScriptSound)
+  nameWithType: ScriptSound.operator !=(ScriptSound, ScriptSound)
+  fullName: GTA.ScriptSound.operator !=(GTA.ScriptSound, GTA.ScriptSound)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(ScriptSound left, ScriptSound right)
+    parameters:
+    - id: left
+      type: GTA.ScriptSound
+    - id: right
+      type: GTA.ScriptSound
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As ScriptSound, right As ScriptSound) As Boolean
+  overload: GTA.ScriptSound.op_Inequality*
+  nameWithType.vb: ScriptSound.<>(ScriptSound, ScriptSound)
+  fullName.vb: GTA.ScriptSound.<>(GTA.ScriptSound, GTA.ScriptSound)
+  name.vb: <>(ScriptSound, ScriptSound)
+- uid: GTA.ScriptSound.op_Implicit(GTA.ScriptSound)~GTA.Native.InputArgument
+  commentId: M:GTA.ScriptSound.op_Implicit(GTA.ScriptSound)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.ScriptSound)~GTA.Native.InputArgument
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(ScriptSound)
+  nameWithType: ScriptSound.implicit operator InputArgument(ScriptSound)
+  fullName: GTA.ScriptSound.implicit operator GTA.Native.InputArgument(GTA.ScriptSound)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(ScriptSound value)
+    parameters:
+    - id: value
+      type: GTA.ScriptSound
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As ScriptSound) As InputArgument
+  overload: GTA.ScriptSound.op_Implicit*
+  nameWithType.vb: ScriptSound.CType(ScriptSound)
+  fullName.vb: GTA.ScriptSound.CType(GTA.ScriptSound)
+  name.vb: CType(ScriptSound)
+- uid: GTA.ScriptSound.GetHashCode
+  commentId: M:GTA.ScriptSound.GetHashCode
+  id: GetHashCode
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ScriptSound.GetHashCode()
+  fullName: GTA.ScriptSound.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.ScriptSound.GetHashCode*
+- uid: GTA.ScriptSound.Id
+  commentId: P:GTA.ScriptSound.Id
+  id: Id
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ScriptSound.Id
+  fullName: GTA.ScriptSound.Id
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: GTA.ScriptSound.Id*
+- uid: GTA.ScriptSound.IsNull
+  commentId: P:GTA.ScriptSound.IsNull
+  id: IsNull
+  parent: GTA.ScriptSound
+  langs:
+  - csharp
+  - vb
+  name: IsNull
+  nameWithType: ScriptSound.IsNull
+  fullName: GTA.ScriptSound.IsNull
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsNull { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsNull As Boolean
+  overload: GTA.ScriptSound.IsNull*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{GTA.ScriptSound}
+  commentId: T:System.IEquatable{GTA.ScriptSound}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ScriptSound>
+  nameWithType: IEquatable<ScriptSound>
+  fullName: System.IEquatable<GTA.ScriptSound>
+  nameWithType.vb: IEquatable(Of ScriptSound)
+  fullName.vb: System.IEquatable(Of GTA.ScriptSound)
+  name.vb: IEquatable(Of ScriptSound)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.ScriptSound
+    name: ScriptSound
+    isExternal: true
+    href: GTA.ScriptSound.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.ScriptSound
+    name: ScriptSound
+    isExternal: true
+    href: GTA.ScriptSound.html
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: GTA.ScriptSound.PlaySound*
+  commentId: Overload:GTA.ScriptSound.PlaySound
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_PlaySound_System_String_System_String_System_Boolean_
+  name: PlaySound
+  nameWithType: ScriptSound.PlaySound
+  fullName: GTA.ScriptSound.PlaySound
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.ScriptSound.PlaySoundFrontend*
+  commentId: Overload:GTA.ScriptSound.PlaySoundFrontend
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_PlaySoundFrontend_System_String_System_String_System_Boolean_
+  name: PlaySoundFrontend
+  nameWithType: ScriptSound.PlaySoundFrontend
+  fullName: GTA.ScriptSound.PlaySoundFrontend
+- uid: GTA.ScriptSound.PlaySoundFromEntity*
+  commentId: Overload:GTA.ScriptSound.PlaySoundFromEntity
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_PlaySoundFromEntity_GTA_Entity_System_String_System_String_
+  name: PlaySoundFromEntity
+  nameWithType: ScriptSound.PlaySoundFromEntity
+  fullName: GTA.ScriptSound.PlaySoundFromEntity
+- uid: GTA.Entity
+  commentId: T:GTA.Entity
+  parent: GTA
+  isExternal: true
+  href: GTA.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: GTA.Entity
+- uid: GTA.ScriptSound.PlaySoundFromPosition*
+  commentId: Overload:GTA.ScriptSound.PlaySoundFromPosition
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_PlaySoundFromPosition_GTA_Math_Vector3_System_String_System_String_System_Boolean_
+  name: PlaySoundFromPosition
+  nameWithType: ScriptSound.PlaySoundFromPosition
+  fullName: GTA.ScriptSound.PlaySoundFromPosition
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.ScriptSound.UpdatePosition*
+  commentId: Overload:GTA.ScriptSound.UpdatePosition
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_UpdatePosition_System_String_System_Single_
+  name: UpdatePosition
+  nameWithType: ScriptSound.UpdatePosition
+  fullName: GTA.ScriptSound.UpdatePosition
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.ScriptSound.HasFinished*
+  commentId: Overload:GTA.ScriptSound.HasFinished
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_HasFinished
+  name: HasFinished
+  nameWithType: ScriptSound.HasFinished
+  fullName: GTA.ScriptSound.HasFinished
+- uid: GTA.ScriptSound.Stop*
+  commentId: Overload:GTA.ScriptSound.Stop
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_Stop
+  name: Stop
+  nameWithType: ScriptSound.Stop
+  fullName: GTA.ScriptSound.Stop
+- uid: GTA.ScriptSound.Release*
+  commentId: Overload:GTA.ScriptSound.Release
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_Release
+  name: Release
+  nameWithType: ScriptSound.Release
+  fullName: GTA.ScriptSound.Release
+- uid: GTA.ScriptSound.Equals*
+  commentId: Overload:GTA.ScriptSound.Equals
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_Equals_GTA_ScriptSound_
+  name: Equals
+  nameWithType: ScriptSound.Equals
+  fullName: GTA.ScriptSound.Equals
+- uid: System.IEquatable{GTA.ScriptSound}.Equals(GTA.ScriptSound)
+  commentId: M:System.IEquatable{GTA.ScriptSound}.Equals(GTA.ScriptSound)
+  parent: System.IEquatable{GTA.ScriptSound}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ScriptSound)
+  nameWithType: IEquatable<ScriptSound>.Equals(ScriptSound)
+  fullName: System.IEquatable<GTA.ScriptSound>.Equals(GTA.ScriptSound)
+  nameWithType.vb: IEquatable(Of ScriptSound).Equals(ScriptSound)
+  fullName.vb: System.IEquatable(Of GTA.ScriptSound).Equals(GTA.ScriptSound)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.ScriptSound}.Equals(GTA.ScriptSound)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.ScriptSound
+    name: ScriptSound
+    isExternal: true
+    href: GTA.ScriptSound.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.ScriptSound}.Equals(GTA.ScriptSound)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.ScriptSound
+    name: ScriptSound
+    isExternal: true
+    href: GTA.ScriptSound.html
+  - name: )
+- uid: GTA.ScriptSound
+  commentId: T:GTA.ScriptSound
+  parent: GTA
+  isExternal: true
+  href: GTA.ScriptSound.html
+  name: ScriptSound
+  nameWithType: ScriptSound
+  fullName: GTA.ScriptSound
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.ScriptSound.op_Equality*
+  commentId: Overload:GTA.ScriptSound.op_Equality
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_op_Equality_GTA_ScriptSound_GTA_ScriptSound_
+  name: operator ==
+  nameWithType: ScriptSound.operator ==
+  fullName: GTA.ScriptSound.operator ==
+  nameWithType.vb: ScriptSound.=
+  fullName.vb: GTA.ScriptSound.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.ScriptSound.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.ScriptSound.html#GTA_ScriptSound_op_Equality_GTA_ScriptSound_GTA_ScriptSound_
+- uid: GTA.ScriptSound.op_Inequality*
+  commentId: Overload:GTA.ScriptSound.op_Inequality
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_op_Inequality_GTA_ScriptSound_GTA_ScriptSound_
+  name: operator !=
+  nameWithType: ScriptSound.operator !=
+  fullName: GTA.ScriptSound.operator !=
+  nameWithType.vb: ScriptSound.<>
+  fullName.vb: GTA.ScriptSound.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.ScriptSound.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.ScriptSound.html#GTA_ScriptSound_op_Inequality_GTA_ScriptSound_GTA_ScriptSound_
+- uid: GTA.ScriptSound.op_Implicit*
+  commentId: Overload:GTA.ScriptSound.op_Implicit
+  name: implicit operator
+  nameWithType: ScriptSound.implicit operator
+  fullName: GTA.ScriptSound.implicit operator
+  nameWithType.vb: ScriptSound.CType
+  fullName.vb: GTA.ScriptSound.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.ScriptSound.GetHashCode*
+  commentId: Overload:GTA.ScriptSound.GetHashCode
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_GetHashCode
+  name: GetHashCode
+  nameWithType: ScriptSound.GetHashCode
+  fullName: GTA.ScriptSound.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.ScriptSound.Id*
+  commentId: Overload:GTA.ScriptSound.Id
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_Id
+  name: Id
+  nameWithType: ScriptSound.Id
+  fullName: GTA.ScriptSound.Id
+- uid: GTA.ScriptSound.IsNull*
+  commentId: Overload:GTA.ScriptSound.IsNull
+  isExternal: true
+  href: GTA.ScriptSound.html#GTA_ScriptSound_IsNull
+  name: IsNull
+  nameWithType: ScriptSound.IsNull
+  fullName: GTA.ScriptSound.IsNull

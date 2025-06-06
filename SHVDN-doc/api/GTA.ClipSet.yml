@@ -1,0 +1,1018 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ClipSet
+  commentId: T:GTA.ClipSet
+  id: ClipSet
+  parent: GTA
+  children:
+  - GTA.ClipSet.#ctor(System.String)
+  - GTA.ClipSet.Equals(GTA.ClipSet)
+  - GTA.ClipSet.Equals(System.Object)
+  - GTA.ClipSet.GetHashCode
+  - GTA.ClipSet.HashName
+  - GTA.ClipSet.IsLoaded
+  - GTA.ClipSet.MarkAsNoLongerNeeded
+  - GTA.ClipSet.Name
+  - GTA.ClipSet.Request
+  - GTA.ClipSet.ToString
+  - GTA.ClipSet.op_Equality(GTA.ClipSet,GTA.ClipSet)
+  - GTA.ClipSet.op_Explicit(GTA.ClipSet)~System.String
+  - GTA.ClipSet.op_Explicit(System.String)~GTA.ClipSet
+  - GTA.ClipSet.op_Implicit(GTA.ClipSet)~GTA.Native.InputArgument
+  - GTA.ClipSet.op_Inequality(GTA.ClipSet,GTA.ClipSet)
+  langs:
+  - csharp
+  - vb
+  name: ClipSet
+  nameWithType: ClipSet
+  fullName: GTA.ClipSet
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public readonly struct ClipSet : IEquatable<ClipSet>, IScriptStreamingResource'
+    content.vb: Public Structure ClipSet Implements IEquatable(Of ClipSet), IScriptStreamingResource
+  implements:
+  - System.IEquatable{GTA.ClipSet}
+  - GTA.IScriptStreamingResource
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.ClipSet.#ctor(System.String)
+  commentId: M:GTA.ClipSet.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: ClipSet(string)
+  nameWithType: ClipSet.ClipSet(string)
+  fullName: GTA.ClipSet.ClipSet(string)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public ClipSet(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: GTA.ClipSet.#ctor*
+  nameWithType.vb: ClipSet.New(String)
+  fullName.vb: GTA.ClipSet.New(String)
+  name.vb: New(String)
+- uid: GTA.ClipSet.HashName
+  commentId: M:GTA.ClipSet.HashName
+  id: HashName
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: HashName()
+  nameWithType: ClipSet.HashName()
+  fullName: GTA.ClipSet.HashName()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public AtHashValue HashName()
+    return:
+      type: GTA.AtHashValue
+    content.vb: Public Function HashName() As AtHashValue
+  overload: GTA.ClipSet.HashName*
+- uid: GTA.ClipSet.Request
+  commentId: M:GTA.ClipSet.Request
+  id: Request
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: Request()
+  nameWithType: ClipSet.Request()
+  fullName: GTA.ClipSet.Request()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void Request()
+    content.vb: Public Sub Request()
+  overload: GTA.ClipSet.Request*
+  implements:
+  - GTA.IScriptStreamingResource.Request
+- uid: GTA.ClipSet.MarkAsNoLongerNeeded
+  commentId: M:GTA.ClipSet.MarkAsNoLongerNeeded
+  id: MarkAsNoLongerNeeded
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: MarkAsNoLongerNeeded()
+  nameWithType: ClipSet.MarkAsNoLongerNeeded()
+  fullName: GTA.ClipSet.MarkAsNoLongerNeeded()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void MarkAsNoLongerNeeded()
+    content.vb: Public Sub MarkAsNoLongerNeeded()
+  overload: GTA.ClipSet.MarkAsNoLongerNeeded*
+  implements:
+  - GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+- uid: GTA.ClipSet.Equals(GTA.ClipSet)
+  commentId: M:GTA.ClipSet.Equals(GTA.ClipSet)
+  id: Equals(GTA.ClipSet)
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: Equals(ClipSet)
+  nameWithType: ClipSet.Equals(ClipSet)
+  fullName: GTA.ClipSet.Equals(GTA.ClipSet)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool Equals(ClipSet other)
+    parameters:
+    - id: other
+      type: GTA.ClipSet
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ClipSet) As Boolean
+  overload: GTA.ClipSet.Equals*
+  implements:
+  - System.IEquatable{GTA.ClipSet}.Equals(GTA.ClipSet)
+- uid: GTA.ClipSet.Equals(System.Object)
+  commentId: M:GTA.ClipSet.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ClipSet.Equals(object)
+  fullName: GTA.ClipSet.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.ClipSet.Equals*
+  nameWithType.vb: ClipSet.Equals(Object)
+  fullName.vb: GTA.ClipSet.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.ClipSet.op_Equality(GTA.ClipSet,GTA.ClipSet)
+  commentId: M:GTA.ClipSet.op_Equality(GTA.ClipSet,GTA.ClipSet)
+  id: op_Equality(GTA.ClipSet,GTA.ClipSet)
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: operator ==(ClipSet, ClipSet)
+  nameWithType: ClipSet.operator ==(ClipSet, ClipSet)
+  fullName: GTA.ClipSet.operator ==(GTA.ClipSet, GTA.ClipSet)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(ClipSet left, ClipSet right)
+    parameters:
+    - id: left
+      type: GTA.ClipSet
+    - id: right
+      type: GTA.ClipSet
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As ClipSet, right As ClipSet) As Boolean
+  overload: GTA.ClipSet.op_Equality*
+  nameWithType.vb: ClipSet.=(ClipSet, ClipSet)
+  fullName.vb: GTA.ClipSet.=(GTA.ClipSet, GTA.ClipSet)
+  name.vb: =(ClipSet, ClipSet)
+- uid: GTA.ClipSet.op_Inequality(GTA.ClipSet,GTA.ClipSet)
+  commentId: M:GTA.ClipSet.op_Inequality(GTA.ClipSet,GTA.ClipSet)
+  id: op_Inequality(GTA.ClipSet,GTA.ClipSet)
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: operator !=(ClipSet, ClipSet)
+  nameWithType: ClipSet.operator !=(ClipSet, ClipSet)
+  fullName: GTA.ClipSet.operator !=(GTA.ClipSet, GTA.ClipSet)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(ClipSet left, ClipSet right)
+    parameters:
+    - id: left
+      type: GTA.ClipSet
+    - id: right
+      type: GTA.ClipSet
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As ClipSet, right As ClipSet) As Boolean
+  overload: GTA.ClipSet.op_Inequality*
+  nameWithType.vb: ClipSet.<>(ClipSet, ClipSet)
+  fullName.vb: GTA.ClipSet.<>(GTA.ClipSet, GTA.ClipSet)
+  name.vb: <>(ClipSet, ClipSet)
+- uid: GTA.ClipSet.op_Implicit(GTA.ClipSet)~GTA.Native.InputArgument
+  commentId: M:GTA.ClipSet.op_Implicit(GTA.ClipSet)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.ClipSet)~GTA.Native.InputArgument
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(ClipSet)
+  nameWithType: ClipSet.implicit operator InputArgument(ClipSet)
+  fullName: GTA.ClipSet.implicit operator GTA.Native.InputArgument(GTA.ClipSet)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(ClipSet value)
+    parameters:
+    - id: value
+      type: GTA.ClipSet
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As ClipSet) As InputArgument
+  overload: GTA.ClipSet.op_Implicit*
+  nameWithType.vb: ClipSet.CType(ClipSet)
+  fullName.vb: GTA.ClipSet.CType(GTA.ClipSet)
+  name.vb: CType(ClipSet)
+- uid: GTA.ClipSet.op_Explicit(System.String)~GTA.ClipSet
+  commentId: M:GTA.ClipSet.op_Explicit(System.String)~GTA.ClipSet
+  id: op_Explicit(System.String)~GTA.ClipSet
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: explicit operator ClipSet(string)
+  nameWithType: ClipSet.explicit operator ClipSet(string)
+  fullName: GTA.ClipSet.explicit operator GTA.ClipSet(string)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static explicit operator ClipSet(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: GTA.ClipSet
+    content.vb: Public Shared Narrowing Operator CType(value As String) As ClipSet
+  overload: GTA.ClipSet.op_Explicit*
+  nameWithType.vb: ClipSet.CType(String)
+  fullName.vb: GTA.ClipSet.CType(String)
+  name.vb: CType(String)
+- uid: GTA.ClipSet.op_Explicit(GTA.ClipSet)~System.String
+  commentId: M:GTA.ClipSet.op_Explicit(GTA.ClipSet)~System.String
+  id: op_Explicit(GTA.ClipSet)~System.String
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: explicit operator string(ClipSet)
+  nameWithType: ClipSet.explicit operator string(ClipSet)
+  fullName: GTA.ClipSet.explicit operator string(GTA.ClipSet)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static explicit operator string(ClipSet value)
+    parameters:
+    - id: value
+      type: GTA.ClipSet
+    return:
+      type: System.String
+    content.vb: Public Shared Narrowing Operator CType(value As ClipSet) As String
+  overload: GTA.ClipSet.op_Explicit*
+  nameWithType.vb: ClipSet.CType(ClipSet)
+  fullName.vb: GTA.ClipSet.CType(GTA.ClipSet)
+  name.vb: CType(ClipSet)
+- uid: GTA.ClipSet.GetHashCode
+  commentId: M:GTA.ClipSet.GetHashCode
+  id: GetHashCode
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ClipSet.GetHashCode()
+  fullName: GTA.ClipSet.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.ClipSet.GetHashCode*
+- uid: GTA.ClipSet.ToString
+  commentId: M:GTA.ClipSet.ToString
+  id: ToString
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ClipSet.ToString()
+  fullName: GTA.ClipSet.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.ClipSet.ToString*
+- uid: GTA.ClipSet.Name
+  commentId: P:GTA.ClipSet.Name
+  id: Name
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ClipSet.Name
+  fullName: GTA.ClipSet.Name
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: GTA.ClipSet.Name*
+- uid: GTA.ClipSet.IsLoaded
+  commentId: P:GTA.ClipSet.IsLoaded
+  id: IsLoaded
+  parent: GTA.ClipSet
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: ClipSet.IsLoaded
+  fullName: GTA.ClipSet.IsLoaded
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoaded As Boolean
+  overload: GTA.ClipSet.IsLoaded*
+  implements:
+  - GTA.IScriptStreamingResource.IsLoaded
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.IEquatable{GTA.ClipSet}
+  commentId: T:System.IEquatable{GTA.ClipSet}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ClipSet>
+  nameWithType: IEquatable<ClipSet>
+  fullName: System.IEquatable<GTA.ClipSet>
+  nameWithType.vb: IEquatable(Of ClipSet)
+  fullName.vb: System.IEquatable(Of GTA.ClipSet)
+  name.vb: IEquatable(Of ClipSet)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.ClipSet
+    name: ClipSet
+    isExternal: true
+    href: GTA.ClipSet.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.ClipSet
+    name: ClipSet
+    isExternal: true
+    href: GTA.ClipSet.html
+  - name: )
+- uid: GTA.IScriptStreamingResource
+  commentId: T:GTA.IScriptStreamingResource
+  parent: GTA
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html
+  name: IScriptStreamingResource
+  nameWithType: IScriptStreamingResource
+  fullName: GTA.IScriptStreamingResource
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.ClipSet.#ctor*
+  commentId: Overload:GTA.ClipSet.#ctor
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet__ctor_System_String_
+  name: ClipSet
+  nameWithType: ClipSet.ClipSet
+  fullName: GTA.ClipSet.ClipSet
+  nameWithType.vb: ClipSet.New
+  fullName.vb: GTA.ClipSet.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.ClipSet.HashName*
+  commentId: Overload:GTA.ClipSet.HashName
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_HashName
+  name: HashName
+  nameWithType: ClipSet.HashName
+  fullName: GTA.ClipSet.HashName
+- uid: GTA.AtHashValue
+  commentId: T:GTA.AtHashValue
+  parent: GTA
+  isExternal: true
+  href: GTA.AtHashValue.html
+  name: AtHashValue
+  nameWithType: AtHashValue
+  fullName: GTA.AtHashValue
+- uid: GTA.ClipSet.Request*
+  commentId: Overload:GTA.ClipSet.Request
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_Request
+  name: Request
+  nameWithType: ClipSet.Request
+  fullName: GTA.ClipSet.Request
+- uid: GTA.IScriptStreamingResource.Request
+  commentId: M:GTA.IScriptStreamingResource.Request
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  name: Request()
+  nameWithType: IScriptStreamingResource.Request()
+  fullName: GTA.IScriptStreamingResource.Request()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+- uid: GTA.ClipSet.MarkAsNoLongerNeeded*
+  commentId: Overload:GTA.ClipSet.MarkAsNoLongerNeeded
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded
+  nameWithType: ClipSet.MarkAsNoLongerNeeded
+  fullName: GTA.ClipSet.MarkAsNoLongerNeeded
+- uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  commentId: M:GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded()
+  nameWithType: IScriptStreamingResource.MarkAsNoLongerNeeded()
+  fullName: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+- uid: GTA.ClipSet.Equals*
+  commentId: Overload:GTA.ClipSet.Equals
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_Equals_GTA_ClipSet_
+  name: Equals
+  nameWithType: ClipSet.Equals
+  fullName: GTA.ClipSet.Equals
+- uid: System.IEquatable{GTA.ClipSet}.Equals(GTA.ClipSet)
+  commentId: M:System.IEquatable{GTA.ClipSet}.Equals(GTA.ClipSet)
+  parent: System.IEquatable{GTA.ClipSet}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ClipSet)
+  nameWithType: IEquatable<ClipSet>.Equals(ClipSet)
+  fullName: System.IEquatable<GTA.ClipSet>.Equals(GTA.ClipSet)
+  nameWithType.vb: IEquatable(Of ClipSet).Equals(ClipSet)
+  fullName.vb: System.IEquatable(Of GTA.ClipSet).Equals(GTA.ClipSet)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.ClipSet}.Equals(GTA.ClipSet)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.ClipSet
+    name: ClipSet
+    isExternal: true
+    href: GTA.ClipSet.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.ClipSet}.Equals(GTA.ClipSet)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.ClipSet
+    name: ClipSet
+    isExternal: true
+    href: GTA.ClipSet.html
+  - name: )
+- uid: GTA.ClipSet
+  commentId: T:GTA.ClipSet
+  parent: GTA
+  isExternal: true
+  href: GTA.ClipSet.html
+  name: ClipSet
+  nameWithType: ClipSet
+  fullName: GTA.ClipSet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: GTA.ClipSet.op_Equality*
+  commentId: Overload:GTA.ClipSet.op_Equality
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_op_Equality_GTA_ClipSet_GTA_ClipSet_
+  name: operator ==
+  nameWithType: ClipSet.operator ==
+  fullName: GTA.ClipSet.operator ==
+  nameWithType.vb: ClipSet.=
+  fullName.vb: GTA.ClipSet.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.ClipSet.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.ClipSet.html#GTA_ClipSet_op_Equality_GTA_ClipSet_GTA_ClipSet_
+- uid: GTA.ClipSet.op_Inequality*
+  commentId: Overload:GTA.ClipSet.op_Inequality
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_op_Inequality_GTA_ClipSet_GTA_ClipSet_
+  name: operator !=
+  nameWithType: ClipSet.operator !=
+  fullName: GTA.ClipSet.operator !=
+  nameWithType.vb: ClipSet.<>
+  fullName.vb: GTA.ClipSet.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.ClipSet.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.ClipSet.html#GTA_ClipSet_op_Inequality_GTA_ClipSet_GTA_ClipSet_
+- uid: GTA.ClipSet.op_Implicit*
+  commentId: Overload:GTA.ClipSet.op_Implicit
+  name: implicit operator
+  nameWithType: ClipSet.implicit operator
+  fullName: GTA.ClipSet.implicit operator
+  nameWithType.vb: ClipSet.CType
+  fullName.vb: GTA.ClipSet.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.ClipSet.op_Explicit*
+  commentId: Overload:GTA.ClipSet.op_Explicit
+  name: explicit operator
+  nameWithType: ClipSet.explicit operator
+  fullName: GTA.ClipSet.explicit operator
+  nameWithType.vb: ClipSet.CType
+  fullName.vb: GTA.ClipSet.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.ClipSet.GetHashCode*
+  commentId: Overload:GTA.ClipSet.GetHashCode
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_GetHashCode
+  name: GetHashCode
+  nameWithType: ClipSet.GetHashCode
+  fullName: GTA.ClipSet.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.ClipSet.ToString*
+  commentId: Overload:GTA.ClipSet.ToString
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_ToString
+  name: ToString
+  nameWithType: ClipSet.ToString
+  fullName: GTA.ClipSet.ToString
+- uid: GTA.ClipSet.Name*
+  commentId: Overload:GTA.ClipSet.Name
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_Name
+  name: Name
+  nameWithType: ClipSet.Name
+  fullName: GTA.ClipSet.Name
+- uid: GTA.ClipSet.IsLoaded*
+  commentId: Overload:GTA.ClipSet.IsLoaded
+  isExternal: true
+  href: GTA.ClipSet.html#GTA_ClipSet_IsLoaded
+  name: IsLoaded
+  nameWithType: ClipSet.IsLoaded
+  fullName: GTA.ClipSet.IsLoaded
+- uid: GTA.IScriptStreamingResource.IsLoaded
+  commentId: P:GTA.IScriptStreamingResource.IsLoaded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_IsLoaded
+  name: IsLoaded
+  nameWithType: IScriptStreamingResource.IsLoaded
+  fullName: GTA.IScriptStreamingResource.IsLoaded

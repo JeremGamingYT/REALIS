@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class BodyBalanceHelper </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class BodyBalanceHelper ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.NaturalMotion.BodyBalanceHelper">
+
+
+
+  <h1 id="GTA_NaturalMotion_BodyBalanceHelper" data-uid="GTA.NaturalMotion.BodyBalanceHelper" class="text-break">Class BodyBalanceHelper</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="GTA.NaturalMotion.CustomHelper.html">CustomHelper</a></div>
+    <div class="level2"><span class="xref">BodyBalanceHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start">CustomHelper.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_">CustomHelper.Start(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update">CustomHelper.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop">CustomHelper.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_">CustomHelper.SetArgument(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_">CustomHelper.SetArgument(string, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_">CustomHelper.SetArgument(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_">CustomHelper.SetArgument(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_">CustomHelper.SetArgument(string, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments">CustomHelper.ResetArguments()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString">CustomHelper.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.html">GTA</a>.<a class="xref" href="GTA.NaturalMotion.html">NaturalMotion</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_NaturalMotion_BodyBalanceHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BodyBalanceHelper : CustomHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper__ctor_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.#ctor*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper__ctor_GTA_Ped_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.#ctor(GTA.Ped)">BodyBalanceHelper(Ped)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BodyBalanceHelper(Ped ped)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Ped.html">Ped</a></td>
+        <td><span class="parametername">ped</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_AngVelMultiplier_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.AngVelMultiplier*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_AngVelMultiplier" data-uid="GTA.NaturalMotion.BodyBalanceHelper.AngVelMultiplier">AngVelMultiplier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 AngVelMultiplier { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_AngVelThreshold_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.AngVelThreshold*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_AngVelThreshold" data-uid="GTA.NaturalMotion.BodyBalanceHelper.AngVelThreshold">AngVelThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 AngVelThreshold { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmDamping_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmDamping*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmDamping" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmDamping">ArmDamping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ArmDamping { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmStiffness_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmStiffness*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmStiffness" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmStiffness">ArmStiffness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ArmStiffness { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutMinLean2_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutMinLean2*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutMinLean2" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutMinLean2">ArmsOutMinLean2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ArmsOutMinLean2 { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutOnPush_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPush*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutOnPush" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPush">ArmsOutOnPush</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ArmsOutOnPush { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutOnPushMultiplier_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPushMultiplier*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutOnPushMultiplier" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPushMultiplier">ArmsOutOnPushMultiplier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ArmsOutOnPushMultiplier { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutOnPushTimeout_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPushTimeout*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutOnPushTimeout" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutOnPushTimeout">ArmsOutOnPushTimeout</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ArmsOutOnPushTimeout { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutStraightenElbows_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutStraightenElbows*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ArmsOutStraightenElbows" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ArmsOutStraightenElbows">ArmsOutStraightenElbows</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ArmsOutStraightenElbows { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BackwardsArms_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BackwardsArms*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BackwardsArms" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BackwardsArms">BackwardsArms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BackwardsArms { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BackwardsAutoTurn_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BackwardsAutoTurn*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BackwardsAutoTurn" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BackwardsAutoTurn">BackwardsAutoTurn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BackwardsAutoTurn { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BendElbowsGait_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BendElbowsGait*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BendElbowsGait" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BendElbowsGait">BendElbowsGait</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BendElbowsGait { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BendElbowsTime_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BendElbowsTime*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BendElbowsTime" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BendElbowsTime">BendElbowsTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BendElbowsTime { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BlendToZeroPose_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BlendToZeroPose*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BlendToZeroPose" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BlendToZeroPose">BlendToZeroPose</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BlendToZeroPose { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BraceDistance_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BraceDistance*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BraceDistance" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BraceDistance">BraceDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BraceDistance { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BraceOffset_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BraceOffset*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BraceOffset" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BraceOffset">BraceOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BraceOffset { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_BraceStiffness_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BraceStiffness*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_BraceStiffness" data-uid="GTA.NaturalMotion.BodyBalanceHelper.BraceStiffness">BraceStiffness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BraceStiffness { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_Elbow_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Elbow*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_Elbow" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Elbow">Elbow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Elbow { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ElbowAngleOnContact_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ElbowAngleOnContact*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ElbowAngleOnContact" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ElbowAngleOnContact">ElbowAngleOnContact</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ElbowAngleOnContact { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_HandsDelayMax_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HandsDelayMax*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_HandsDelayMax" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HandsDelayMax">HandsDelayMax</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HandsDelayMax { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_HandsDelayMin_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HandsDelayMin*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_HandsDelayMin" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HandsDelayMin">HandsDelayMin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HandsDelayMin { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_HeadLookAtVelProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HeadLookAtVelProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_HeadLookAtVelProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HeadLookAtVelProb">HeadLookAtVelProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HeadLookAtVelProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_HeadLookInstanceIndex_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HeadLookInstanceIndex*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_HeadLookInstanceIndex" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HeadLookInstanceIndex">HeadLookInstanceIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int HeadLookInstanceIndex { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_HeadLookPos_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HeadLookPos*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_HeadLookPos" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HeadLookPos">HeadLookPos</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 HeadLookPos { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_HipL2ArmL2_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HipL2ArmL2*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_HipL2ArmL2" data-uid="GTA.NaturalMotion.BodyBalanceHelper.HipL2ArmL2">HipL2ArmL2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HipL2ArmL2 { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_MinBraceTime_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MinBraceTime*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_MinBraceTime" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MinBraceTime">MinBraceTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinBraceTime { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_MoveAmount_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MoveAmount*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_MoveAmount" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MoveAmount">MoveAmount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MoveAmount { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_MoveRadius_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MoveRadius*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_MoveRadius" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MoveRadius">MoveRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MoveRadius { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_MoveWhenBracing_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MoveWhenBracing*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_MoveWhenBracing" data-uid="GTA.NaturalMotion.BodyBalanceHelper.MoveWhenBracing">MoveWhenBracing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MoveWhenBracing { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ReachAbsorbtionTime_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ReachAbsorbtionTime*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ReachAbsorbtionTime" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ReachAbsorbtionTime">ReachAbsorbtionTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ReachAbsorbtionTime { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ReturningToBalanceArmsOut_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ReturningToBalanceArmsOut*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ReturningToBalanceArmsOut" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ReturningToBalanceArmsOut">ReturningToBalanceArmsOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ReturningToBalanceArmsOut { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_Shoulder_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Shoulder*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_Shoulder" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Shoulder">Shoulder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Shoulder { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ShoulderL1_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ShoulderL1*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ShoulderL1" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ShoulderL1">ShoulderL1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShoulderL1 { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ShoulderL2_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ShoulderL2*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ShoulderL2" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ShoulderL2">ShoulderL2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShoulderL2 { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_ShoulderTwist_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ShoulderTwist*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_ShoulderTwist" data-uid="GTA.NaturalMotion.BodyBalanceHelper.ShoulderTwist">ShoulderTwist</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShoulderTwist { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_SideSomersaultAngle_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SideSomersaultAngle*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_SideSomersaultAngle" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SideSomersaultAngle">SideSomersaultAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SideSomersaultAngle { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_SideSomersaultAngleThreshold_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SideSomersaultAngleThreshold*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_SideSomersaultAngleThreshold" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SideSomersaultAngleThreshold">SideSomersaultAngleThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SideSomersaultAngleThreshold { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_SomersaultAngle_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SomersaultAngle*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_SomersaultAngle" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SomersaultAngle">SomersaultAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SomersaultAngle { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_SomersaultAngleThreshold_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SomersaultAngleThreshold*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_SomersaultAngleThreshold" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SomersaultAngleThreshold">SomersaultAngleThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SomersaultAngleThreshold { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_SpineDamping_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SpineDamping*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_SpineDamping" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SpineDamping">SpineDamping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpineDamping { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_SpineStiffness_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SpineStiffness*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_SpineStiffness" data-uid="GTA.NaturalMotion.BodyBalanceHelper.SpineStiffness">SpineStiffness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpineStiffness { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TargetPredictionTime_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TargetPredictionTime*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TargetPredictionTime" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TargetPredictionTime">TargetPredictionTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TargetPredictionTime { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TimeToBackwardsBrace_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TimeToBackwardsBrace*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TimeToBackwardsBrace" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TimeToBackwardsBrace">TimeToBackwardsBrace</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TimeToBackwardsBrace { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_Turn2TargetProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Turn2TargetProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_Turn2TargetProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Turn2TargetProb">Turn2TargetProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Turn2TargetProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_Turn2VelProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Turn2VelProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_Turn2VelProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.Turn2VelProb">Turn2VelProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Turn2VelProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TurnAwayProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnAwayProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TurnAwayProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnAwayProb">TurnAwayProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TurnAwayProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TurnLeftProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnLeftProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TurnLeftProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnLeftProb">TurnLeftProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TurnLeftProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TurnOffProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnOffProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TurnOffProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnOffProb">TurnOffProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TurnOffProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TurnRightProb_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnRightProb*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TurnRightProb" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnRightProb">TurnRightProb</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TurnRightProb { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_TurnWithBumpRadius_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnWithBumpRadius*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_TurnWithBumpRadius" data-uid="GTA.NaturalMotion.BodyBalanceHelper.TurnWithBumpRadius">TurnWithBumpRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TurnWithBumpRadius { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_UseBodyTurn_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.UseBodyTurn*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_UseBodyTurn" data-uid="GTA.NaturalMotion.BodyBalanceHelper.UseBodyTurn">UseBodyTurn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseBodyTurn { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_NaturalMotion_BodyBalanceHelper_UseHeadLook_" data-uid="GTA.NaturalMotion.BodyBalanceHelper.UseHeadLook*"></a>
+  <h4 id="GTA_NaturalMotion_BodyBalanceHelper_UseHeadLook" data-uid="GTA.NaturalMotion.BodyBalanceHelper.UseHeadLook">UseHeadLook</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseHeadLook { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

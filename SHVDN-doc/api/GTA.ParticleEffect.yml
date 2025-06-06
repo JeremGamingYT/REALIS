@@ -1,0 +1,1136 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ParticleEffect
+  commentId: T:GTA.ParticleEffect
+  id: ParticleEffect
+  parent: GTA
+  children:
+  - GTA.ParticleEffect.AssetName
+  - GTA.ParticleEffect.Bone
+  - GTA.ParticleEffect.Color
+  - GTA.ParticleEffect.Delete
+  - GTA.ParticleEffect.EffectName
+  - GTA.ParticleEffect.Entity
+  - GTA.ParticleEffect.Equals(System.Object)
+  - GTA.ParticleEffect.Exists
+  - GTA.ParticleEffect.GetHashCode
+  - GTA.ParticleEffect.MemoryAddress
+  - GTA.ParticleEffect.Offset
+  - GTA.ParticleEffect.Range
+  - GTA.ParticleEffect.Rotation
+  - GTA.ParticleEffect.Scale
+  - GTA.ParticleEffect.SetParameter(System.String,System.Single)
+  - GTA.ParticleEffect.ToString
+  - GTA.ParticleEffect.op_Equality(GTA.ParticleEffect,GTA.ParticleEffect)
+  - GTA.ParticleEffect.op_Implicit(GTA.ParticleEffect)~GTA.Native.InputArgument
+  - GTA.ParticleEffect.op_Inequality(GTA.ParticleEffect,GTA.ParticleEffect)
+  langs:
+  - csharp
+  - vb
+  name: ParticleEffect
+  nameWithType: ParticleEffect
+  fullName: GTA.ParticleEffect
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class ParticleEffect : PoolObject, INativeValue, IDeletable, IExistable'
+    content.vb: Public NotInheritable Class ParticleEffect Inherits PoolObject Implements INativeValue, IDeletable, IExistable
+  inheritance:
+  - System.Object
+  - GTA.PoolObject
+  implements:
+  - GTA.Native.INativeValue
+  - GTA.IDeletable
+  - GTA.IExistable
+  inheritedMembers:
+  - GTA.PoolObject.Handle
+  - GTA.PoolObject.NativeValue
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.ParticleEffect.SetParameter(System.String,System.Single)
+  commentId: M:GTA.ParticleEffect.SetParameter(System.String,System.Single)
+  id: SetParameter(System.String,System.Single)
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: SetParameter(string, float)
+  nameWithType: ParticleEffect.SetParameter(string, float)
+  fullName: GTA.ParticleEffect.SetParameter(string, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void SetParameter(string parameterName, float value)
+    parameters:
+    - id: parameterName
+      type: System.String
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetParameter(parameterName As String, value As Single)
+  overload: GTA.ParticleEffect.SetParameter*
+  nameWithType.vb: ParticleEffect.SetParameter(String, Single)
+  fullName.vb: GTA.ParticleEffect.SetParameter(String, Single)
+  name.vb: SetParameter(String, Single)
+- uid: GTA.ParticleEffect.Delete
+  commentId: M:GTA.ParticleEffect.Delete
+  id: Delete
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: ParticleEffect.Delete()
+  fullName: GTA.ParticleEffect.Delete()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override void Delete()
+    content.vb: Public Overrides Sub Delete()
+  overridden: GTA.PoolObject.Delete
+  overload: GTA.ParticleEffect.Delete*
+- uid: GTA.ParticleEffect.Exists
+  commentId: M:GTA.ParticleEffect.Exists
+  id: Exists
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: ParticleEffect.Exists()
+  fullName: GTA.ParticleEffect.Exists()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Exists()
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Exists() As Boolean
+  overridden: GTA.PoolObject.Exists
+  overload: GTA.ParticleEffect.Exists*
+- uid: GTA.ParticleEffect.Equals(System.Object)
+  commentId: M:GTA.ParticleEffect.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ParticleEffect.Equals(object)
+  fullName: GTA.ParticleEffect.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.ParticleEffect.Equals*
+  nameWithType.vb: ParticleEffect.Equals(Object)
+  fullName.vb: GTA.ParticleEffect.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.ParticleEffect.op_Equality(GTA.ParticleEffect,GTA.ParticleEffect)
+  commentId: M:GTA.ParticleEffect.op_Equality(GTA.ParticleEffect,GTA.ParticleEffect)
+  id: op_Equality(GTA.ParticleEffect,GTA.ParticleEffect)
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: operator ==(ParticleEffect, ParticleEffect)
+  nameWithType: ParticleEffect.operator ==(ParticleEffect, ParticleEffect)
+  fullName: GTA.ParticleEffect.operator ==(GTA.ParticleEffect, GTA.ParticleEffect)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(ParticleEffect left, ParticleEffect right)
+    parameters:
+    - id: left
+      type: GTA.ParticleEffect
+    - id: right
+      type: GTA.ParticleEffect
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As ParticleEffect, right As ParticleEffect) As Boolean
+  overload: GTA.ParticleEffect.op_Equality*
+  nameWithType.vb: ParticleEffect.=(ParticleEffect, ParticleEffect)
+  fullName.vb: GTA.ParticleEffect.=(GTA.ParticleEffect, GTA.ParticleEffect)
+  name.vb: =(ParticleEffect, ParticleEffect)
+- uid: GTA.ParticleEffect.op_Inequality(GTA.ParticleEffect,GTA.ParticleEffect)
+  commentId: M:GTA.ParticleEffect.op_Inequality(GTA.ParticleEffect,GTA.ParticleEffect)
+  id: op_Inequality(GTA.ParticleEffect,GTA.ParticleEffect)
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: operator !=(ParticleEffect, ParticleEffect)
+  nameWithType: ParticleEffect.operator !=(ParticleEffect, ParticleEffect)
+  fullName: GTA.ParticleEffect.operator !=(GTA.ParticleEffect, GTA.ParticleEffect)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(ParticleEffect left, ParticleEffect right)
+    parameters:
+    - id: left
+      type: GTA.ParticleEffect
+    - id: right
+      type: GTA.ParticleEffect
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As ParticleEffect, right As ParticleEffect) As Boolean
+  overload: GTA.ParticleEffect.op_Inequality*
+  nameWithType.vb: ParticleEffect.<>(ParticleEffect, ParticleEffect)
+  fullName.vb: GTA.ParticleEffect.<>(GTA.ParticleEffect, GTA.ParticleEffect)
+  name.vb: <>(ParticleEffect, ParticleEffect)
+- uid: GTA.ParticleEffect.op_Implicit(GTA.ParticleEffect)~GTA.Native.InputArgument
+  commentId: M:GTA.ParticleEffect.op_Implicit(GTA.ParticleEffect)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.ParticleEffect)~GTA.Native.InputArgument
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(ParticleEffect)
+  nameWithType: ParticleEffect.implicit operator InputArgument(ParticleEffect)
+  fullName: GTA.ParticleEffect.implicit operator GTA.Native.InputArgument(GTA.ParticleEffect)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(ParticleEffect effect)
+    parameters:
+    - id: effect
+      type: GTA.ParticleEffect
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(effect As ParticleEffect) As InputArgument
+  overload: GTA.ParticleEffect.op_Implicit*
+  nameWithType.vb: ParticleEffect.CType(ParticleEffect)
+  fullName.vb: GTA.ParticleEffect.CType(GTA.ParticleEffect)
+  name.vb: CType(ParticleEffect)
+- uid: GTA.ParticleEffect.GetHashCode
+  commentId: M:GTA.ParticleEffect.GetHashCode
+  id: GetHashCode
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ParticleEffect.GetHashCode()
+  fullName: GTA.ParticleEffect.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.ParticleEffect.GetHashCode*
+- uid: GTA.ParticleEffect.ToString
+  commentId: M:GTA.ParticleEffect.ToString
+  id: ToString
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParticleEffect.ToString()
+  fullName: GTA.ParticleEffect.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: GTA.ParticleEffect.ToString*
+- uid: GTA.ParticleEffect.MemoryAddress
+  commentId: P:GTA.ParticleEffect.MemoryAddress
+  id: MemoryAddress
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: MemoryAddress
+  nameWithType: ParticleEffect.MemoryAddress
+  fullName: GTA.ParticleEffect.MemoryAddress
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IntPtr MemoryAddress { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public ReadOnly Property MemoryAddress As IntPtr
+  overload: GTA.ParticleEffect.MemoryAddress*
+- uid: GTA.ParticleEffect.Entity
+  commentId: P:GTA.ParticleEffect.Entity
+  id: Entity
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: ParticleEffect.Entity
+  fullName: GTA.ParticleEffect.Entity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Entity Entity { get; }
+    parameters: []
+    return:
+      type: GTA.Entity
+    content.vb: Public ReadOnly Property Entity As Entity
+  overload: GTA.ParticleEffect.Entity*
+- uid: GTA.ParticleEffect.Bone
+  commentId: P:GTA.ParticleEffect.Bone
+  id: Bone
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Bone
+  nameWithType: ParticleEffect.Bone
+  fullName: GTA.ParticleEffect.Bone
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public EntityBone Bone { get; }
+    parameters: []
+    return:
+      type: GTA.EntityBone
+    content.vb: Public ReadOnly Property Bone As EntityBone
+  overload: GTA.ParticleEffect.Bone*
+- uid: GTA.ParticleEffect.AssetName
+  commentId: P:GTA.ParticleEffect.AssetName
+  id: AssetName
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: AssetName
+  nameWithType: ParticleEffect.AssetName
+  fullName: GTA.ParticleEffect.AssetName
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string AssetName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property AssetName As String
+  overload: GTA.ParticleEffect.AssetName*
+- uid: GTA.ParticleEffect.EffectName
+  commentId: P:GTA.ParticleEffect.EffectName
+  id: EffectName
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: EffectName
+  nameWithType: ParticleEffect.EffectName
+  fullName: GTA.ParticleEffect.EffectName
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string EffectName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EffectName As String
+  overload: GTA.ParticleEffect.EffectName*
+- uid: GTA.ParticleEffect.Offset
+  commentId: P:GTA.ParticleEffect.Offset
+  id: Offset
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: ParticleEffect.Offset
+  fullName: GTA.ParticleEffect.Offset
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 Offset { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property Offset As Vector3
+  overload: GTA.ParticleEffect.Offset*
+- uid: GTA.ParticleEffect.Rotation
+  commentId: P:GTA.ParticleEffect.Rotation
+  id: Rotation
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: ParticleEffect.Rotation
+  fullName: GTA.ParticleEffect.Rotation
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 Rotation { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Rotation As Vector3
+  overload: GTA.ParticleEffect.Rotation*
+- uid: GTA.ParticleEffect.Color
+  commentId: P:GTA.ParticleEffect.Color
+  id: Color
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ParticleEffect.Color
+  fullName: GTA.ParticleEffect.Color
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Color Color { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property Color As Color
+  overload: GTA.ParticleEffect.Color*
+- uid: GTA.ParticleEffect.Scale
+  commentId: P:GTA.ParticleEffect.Scale
+  id: Scale
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: ParticleEffect.Scale
+  fullName: GTA.ParticleEffect.Scale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float Scale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Scale As Single
+  overload: GTA.ParticleEffect.Scale*
+- uid: GTA.ParticleEffect.Range
+  commentId: P:GTA.ParticleEffect.Range
+  id: Range
+  parent: GTA.ParticleEffect
+  langs:
+  - csharp
+  - vb
+  name: Range
+  nameWithType: ParticleEffect.Range
+  fullName: GTA.ParticleEffect.Range
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float Range { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Range As Single
+  overload: GTA.ParticleEffect.Range*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.PoolObject
+  commentId: T:GTA.PoolObject
+  parent: GTA
+  isExternal: true
+  href: GTA.PoolObject.html
+  name: PoolObject
+  nameWithType: PoolObject
+  fullName: GTA.PoolObject
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: GTA.IDeletable
+  commentId: T:GTA.IDeletable
+  parent: GTA
+  isExternal: true
+  href: GTA.IDeletable.html
+  name: IDeletable
+  nameWithType: IDeletable
+  fullName: GTA.IDeletable
+- uid: GTA.IExistable
+  commentId: T:GTA.IExistable
+  parent: GTA
+  isExternal: true
+  href: GTA.IExistable.html
+  name: IExistable
+  nameWithType: IExistable
+  fullName: GTA.IExistable
+- uid: GTA.PoolObject.Handle
+  commentId: P:GTA.PoolObject.Handle
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Handle
+  name: Handle
+  nameWithType: PoolObject.Handle
+  fullName: GTA.PoolObject.Handle
+- uid: GTA.PoolObject.NativeValue
+  commentId: P:GTA.PoolObject.NativeValue
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_NativeValue
+  name: NativeValue
+  nameWithType: PoolObject.NativeValue
+  fullName: GTA.PoolObject.NativeValue
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.ParticleEffect.SetParameter*
+  commentId: Overload:GTA.ParticleEffect.SetParameter
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_SetParameter_System_String_System_Single_
+  name: SetParameter
+  nameWithType: ParticleEffect.SetParameter
+  fullName: GTA.ParticleEffect.SetParameter
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.PoolObject.Delete
+  commentId: M:GTA.PoolObject.Delete
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  name: Delete()
+  nameWithType: PoolObject.Delete()
+  fullName: GTA.PoolObject.Delete()
+  spec.csharp:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+- uid: GTA.ParticleEffect.Delete*
+  commentId: Overload:GTA.ParticleEffect.Delete
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Delete
+  name: Delete
+  nameWithType: ParticleEffect.Delete
+  fullName: GTA.ParticleEffect.Delete
+- uid: GTA.PoolObject.Exists
+  commentId: M:GTA.PoolObject.Exists
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  name: Exists()
+  nameWithType: PoolObject.Exists()
+  fullName: GTA.PoolObject.Exists()
+  spec.csharp:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+- uid: GTA.ParticleEffect.Exists*
+  commentId: Overload:GTA.ParticleEffect.Exists
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Exists
+  name: Exists
+  nameWithType: ParticleEffect.Exists
+  fullName: GTA.ParticleEffect.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.ParticleEffect.Equals*
+  commentId: Overload:GTA.ParticleEffect.Equals
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Equals_System_Object_
+  name: Equals
+  nameWithType: ParticleEffect.Equals
+  fullName: GTA.ParticleEffect.Equals
+- uid: GTA.ParticleEffect.op_Equality*
+  commentId: Overload:GTA.ParticleEffect.op_Equality
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_op_Equality_GTA_ParticleEffect_GTA_ParticleEffect_
+  name: operator ==
+  nameWithType: ParticleEffect.operator ==
+  fullName: GTA.ParticleEffect.operator ==
+  nameWithType.vb: ParticleEffect.=
+  fullName.vb: GTA.ParticleEffect.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.ParticleEffect.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.ParticleEffect.html#GTA_ParticleEffect_op_Equality_GTA_ParticleEffect_GTA_ParticleEffect_
+- uid: GTA.ParticleEffect
+  commentId: T:GTA.ParticleEffect
+  parent: GTA
+  isExternal: true
+  href: GTA.ParticleEffect.html
+  name: ParticleEffect
+  nameWithType: ParticleEffect
+  fullName: GTA.ParticleEffect
+- uid: GTA.ParticleEffect.op_Inequality*
+  commentId: Overload:GTA.ParticleEffect.op_Inequality
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_op_Inequality_GTA_ParticleEffect_GTA_ParticleEffect_
+  name: operator !=
+  nameWithType: ParticleEffect.operator !=
+  fullName: GTA.ParticleEffect.operator !=
+  nameWithType.vb: ParticleEffect.<>
+  fullName.vb: GTA.ParticleEffect.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.ParticleEffect.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.ParticleEffect.html#GTA_ParticleEffect_op_Inequality_GTA_ParticleEffect_GTA_ParticleEffect_
+- uid: GTA.ParticleEffect.op_Implicit*
+  commentId: Overload:GTA.ParticleEffect.op_Implicit
+  name: implicit operator
+  nameWithType: ParticleEffect.implicit operator
+  fullName: GTA.ParticleEffect.implicit operator
+  nameWithType.vb: ParticleEffect.CType
+  fullName.vb: GTA.ParticleEffect.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.ParticleEffect.GetHashCode*
+  commentId: Overload:GTA.ParticleEffect.GetHashCode
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_GetHashCode
+  name: GetHashCode
+  nameWithType: ParticleEffect.GetHashCode
+  fullName: GTA.ParticleEffect.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: GTA.ParticleEffect.ToString*
+  commentId: Overload:GTA.ParticleEffect.ToString
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_ToString
+  name: ToString
+  nameWithType: ParticleEffect.ToString
+  fullName: GTA.ParticleEffect.ToString
+- uid: GTA.ParticleEffect.MemoryAddress*
+  commentId: Overload:GTA.ParticleEffect.MemoryAddress
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_MemoryAddress
+  name: MemoryAddress
+  nameWithType: ParticleEffect.MemoryAddress
+  fullName: GTA.ParticleEffect.MemoryAddress
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: GTA.ParticleEffect.Entity*
+  commentId: Overload:GTA.ParticleEffect.Entity
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Entity
+  name: Entity
+  nameWithType: ParticleEffect.Entity
+  fullName: GTA.ParticleEffect.Entity
+- uid: GTA.Entity
+  commentId: T:GTA.Entity
+  parent: GTA
+  isExternal: true
+  href: GTA.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: GTA.Entity
+- uid: GTA.ParticleEffect.Bone*
+  commentId: Overload:GTA.ParticleEffect.Bone
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Bone
+  name: Bone
+  nameWithType: ParticleEffect.Bone
+  fullName: GTA.ParticleEffect.Bone
+- uid: GTA.EntityBone
+  commentId: T:GTA.EntityBone
+  parent: GTA
+  isExternal: true
+  href: GTA.EntityBone.html
+  name: EntityBone
+  nameWithType: EntityBone
+  fullName: GTA.EntityBone
+- uid: GTA.ParticleEffect.AssetName*
+  commentId: Overload:GTA.ParticleEffect.AssetName
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_AssetName
+  name: AssetName
+  nameWithType: ParticleEffect.AssetName
+  fullName: GTA.ParticleEffect.AssetName
+- uid: GTA.ParticleEffect.EffectName*
+  commentId: Overload:GTA.ParticleEffect.EffectName
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_EffectName
+  name: EffectName
+  nameWithType: ParticleEffect.EffectName
+  fullName: GTA.ParticleEffect.EffectName
+- uid: GTA.ParticleEffect.Offset*
+  commentId: Overload:GTA.ParticleEffect.Offset
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Offset
+  name: Offset
+  nameWithType: ParticleEffect.Offset
+  fullName: GTA.ParticleEffect.Offset
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.ParticleEffect.Rotation*
+  commentId: Overload:GTA.ParticleEffect.Rotation
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Rotation
+  name: Rotation
+  nameWithType: ParticleEffect.Rotation
+  fullName: GTA.ParticleEffect.Rotation
+- uid: GTA.ParticleEffect.Color*
+  commentId: Overload:GTA.ParticleEffect.Color
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Color
+  name: Color
+  nameWithType: ParticleEffect.Color
+  fullName: GTA.ParticleEffect.Color
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: GTA.ParticleEffect.Scale*
+  commentId: Overload:GTA.ParticleEffect.Scale
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Scale
+  name: Scale
+  nameWithType: ParticleEffect.Scale
+  fullName: GTA.ParticleEffect.Scale
+- uid: GTA.ParticleEffect.Range*
+  commentId: Overload:GTA.ParticleEffect.Range
+  isExternal: true
+  href: GTA.ParticleEffect.html#GTA_ParticleEffect_Range
+  name: Range
+  nameWithType: ParticleEffect.Range
+  fullName: GTA.ParticleEffect.Range

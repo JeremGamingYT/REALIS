@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.HelmetPropFlags
+  commentId: T:GTA.HelmetPropFlags
+  id: HelmetPropFlags
+  parent: GTA
+  children:
+  - GTA.HelmetPropFlags.Armored
+  - GTA.HelmetPropFlags.BikeOnly
+  - GTA.HelmetPropFlags.Bulky
+  - GTA.HelmetPropFlags.Cold
+  - GTA.HelmetPropFlags.DefaultHelmet
+  - GTA.HelmetPropFlags.FireRetardent
+  - GTA.HelmetPropFlags.FlightHelmet
+  - GTA.HelmetPropFlags.HideInFirstPerson
+  - GTA.HelmetPropFlags.HighDetail
+  - GTA.HelmetPropFlags.Job
+  - GTA.HelmetPropFlags.LightlyArmored
+  - GTA.HelmetPropFlags.None
+  - GTA.HelmetPropFlags.NotInCar
+  - GTA.HelmetPropFlags.NotIndoors
+  - GTA.HelmetPropFlags.PilotHelmet
+  - GTA.HelmetPropFlags.RandomHelmet
+  - GTA.HelmetPropFlags.ScriptHelmet
+  - GTA.HelmetPropFlags.Sunny
+  - GTA.HelmetPropFlags.UsePhysicsHat2
+  - GTA.HelmetPropFlags.Wet
+  langs:
+  - csharp
+  - vb
+  name: HelmetPropFlags
+  nameWithType: HelmetPropFlags
+  fullName: GTA.HelmetPropFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum HelmetPropFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum HelmetPropFlags As UInteger
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.HelmetPropFlags.None
+  commentId: F:GTA.HelmetPropFlags.None
+  id: None
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: HelmetPropFlags.None
+  fullName: GTA.HelmetPropFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.Bulky
+  commentId: F:GTA.HelmetPropFlags.Bulky
+  id: Bulky
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: Bulky
+  nameWithType: HelmetPropFlags.Bulky
+  fullName: GTA.HelmetPropFlags.Bulky
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Bulky = 1
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.Job
+  commentId: F:GTA.HelmetPropFlags.Job
+  id: Job
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: Job
+  nameWithType: HelmetPropFlags.Job
+  fullName: GTA.HelmetPropFlags.Job
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Job = 2
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.Sunny
+  commentId: F:GTA.HelmetPropFlags.Sunny
+  id: Sunny
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: Sunny
+  nameWithType: HelmetPropFlags.Sunny
+  fullName: GTA.HelmetPropFlags.Sunny
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Sunny = 4
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.Wet
+  commentId: F:GTA.HelmetPropFlags.Wet
+  id: Wet
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: Wet
+  nameWithType: HelmetPropFlags.Wet
+  fullName: GTA.HelmetPropFlags.Wet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Wet = 8
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.Cold
+  commentId: F:GTA.HelmetPropFlags.Cold
+  id: Cold
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: Cold
+  nameWithType: HelmetPropFlags.Cold
+  fullName: GTA.HelmetPropFlags.Cold
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Cold = 16
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.NotInCar
+  commentId: F:GTA.HelmetPropFlags.NotInCar
+  id: NotInCar
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: NotInCar
+  nameWithType: HelmetPropFlags.NotInCar
+  fullName: GTA.HelmetPropFlags.NotInCar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NotInCar = 32
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.BikeOnly
+  commentId: F:GTA.HelmetPropFlags.BikeOnly
+  id: BikeOnly
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: BikeOnly
+  nameWithType: HelmetPropFlags.BikeOnly
+  fullName: GTA.HelmetPropFlags.BikeOnly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BikeOnly = 64
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.NotIndoors
+  commentId: F:GTA.HelmetPropFlags.NotIndoors
+  id: NotIndoors
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: NotIndoors
+  nameWithType: HelmetPropFlags.NotIndoors
+  fullName: GTA.HelmetPropFlags.NotIndoors
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NotIndoors = 128
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.FireRetardent
+  commentId: F:GTA.HelmetPropFlags.FireRetardent
+  id: FireRetardent
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: FireRetardent
+  nameWithType: HelmetPropFlags.FireRetardent
+  fullName: GTA.HelmetPropFlags.FireRetardent
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FireRetardent = 256
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.Armored
+  commentId: F:GTA.HelmetPropFlags.Armored
+  id: Armored
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: Armored
+  nameWithType: HelmetPropFlags.Armored
+  fullName: GTA.HelmetPropFlags.Armored
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Armored = 512
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.LightlyArmored
+  commentId: F:GTA.HelmetPropFlags.LightlyArmored
+  id: LightlyArmored
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: LightlyArmored
+  nameWithType: HelmetPropFlags.LightlyArmored
+  fullName: GTA.HelmetPropFlags.LightlyArmored
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LightlyArmored = 1024
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.HighDetail
+  commentId: F:GTA.HelmetPropFlags.HighDetail
+  id: HighDetail
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: HighDetail
+  nameWithType: HelmetPropFlags.HighDetail
+  fullName: GTA.HelmetPropFlags.HighDetail
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HighDetail = 2048
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.DefaultHelmet
+  commentId: F:GTA.HelmetPropFlags.DefaultHelmet
+  id: DefaultHelmet
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: DefaultHelmet
+  nameWithType: HelmetPropFlags.DefaultHelmet
+  fullName: GTA.HelmetPropFlags.DefaultHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DefaultHelmet = 4096
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.RandomHelmet
+  commentId: F:GTA.HelmetPropFlags.RandomHelmet
+  id: RandomHelmet
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: RandomHelmet
+  nameWithType: HelmetPropFlags.RandomHelmet
+  fullName: GTA.HelmetPropFlags.RandomHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RandomHelmet = 8192
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.ScriptHelmet
+  commentId: F:GTA.HelmetPropFlags.ScriptHelmet
+  id: ScriptHelmet
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: ScriptHelmet
+  nameWithType: HelmetPropFlags.ScriptHelmet
+  fullName: GTA.HelmetPropFlags.ScriptHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ScriptHelmet = 16384
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.FlightHelmet
+  commentId: F:GTA.HelmetPropFlags.FlightHelmet
+  id: FlightHelmet
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: FlightHelmet
+  nameWithType: HelmetPropFlags.FlightHelmet
+  fullName: GTA.HelmetPropFlags.FlightHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FlightHelmet = 32768
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.HideInFirstPerson
+  commentId: F:GTA.HelmetPropFlags.HideInFirstPerson
+  id: HideInFirstPerson
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: HideInFirstPerson
+  nameWithType: HelmetPropFlags.HideInFirstPerson
+  fullName: GTA.HelmetPropFlags.HideInFirstPerson
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HideInFirstPerson = 65536
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.UsePhysicsHat2
+  commentId: F:GTA.HelmetPropFlags.UsePhysicsHat2
+  id: UsePhysicsHat2
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: UsePhysicsHat2
+  nameWithType: HelmetPropFlags.UsePhysicsHat2
+  fullName: GTA.HelmetPropFlags.UsePhysicsHat2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UsePhysicsHat2 = 131072
+    return:
+      type: GTA.HelmetPropFlags
+- uid: GTA.HelmetPropFlags.PilotHelmet
+  commentId: F:GTA.HelmetPropFlags.PilotHelmet
+  id: PilotHelmet
+  parent: GTA.HelmetPropFlags
+  langs:
+  - csharp
+  - vb
+  name: PilotHelmet
+  nameWithType: HelmetPropFlags.PilotHelmet
+  fullName: GTA.HelmetPropFlags.PilotHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PilotHelmet = 262144
+    return:
+      type: GTA.HelmetPropFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.HelmetPropFlags
+  commentId: T:GTA.HelmetPropFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.HelmetPropFlags.html
+  name: HelmetPropFlags
+  nameWithType: HelmetPropFlags
+  fullName: GTA.HelmetPropFlags

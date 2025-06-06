@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.AnimationIKControlFlags
+  commentId: T:GTA.AnimationIKControlFlags
+  id: AnimationIKControlFlags
+  parent: GTA
+  children:
+  - GTA.AnimationIKControlFlags.DisableArmIK
+  - GTA.AnimationIKControlFlags.DisableHeadIK
+  - GTA.AnimationIKControlFlags.DisableLegIK
+  - GTA.AnimationIKControlFlags.DisableTorsoIK
+  - GTA.AnimationIKControlFlags.DisableTorsoReactIK
+  - GTA.AnimationIKControlFlags.DisableTorsoVehicleIK
+  - GTA.AnimationIKControlFlags.LinkedFacial
+  - GTA.AnimationIKControlFlags.None
+  - GTA.AnimationIKControlFlags.ProcessWeaponHandGrip
+  - GTA.AnimationIKControlFlags.UseArmAllowTags
+  - GTA.AnimationIKControlFlags.UseArmBlockTags
+  - GTA.AnimationIKControlFlags.UseFirstPersonArmLeft
+  - GTA.AnimationIKControlFlags.UseFirstPersonArmRight
+  - GTA.AnimationIKControlFlags.UseLegAllowTags
+  - GTA.AnimationIKControlFlags.UseLegBlockTags
+  langs:
+  - csharp
+  - vb
+  name: AnimationIKControlFlags
+  nameWithType: AnimationIKControlFlags
+  fullName: GTA.AnimationIKControlFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AnimationIKControlFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum AnimationIKControlFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.AnimationIKControlFlags.None
+  commentId: F:GTA.AnimationIKControlFlags.None
+  id: None
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AnimationIKControlFlags.None
+  fullName: GTA.AnimationIKControlFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.DisableLegIK
+  commentId: F:GTA.AnimationIKControlFlags.DisableLegIK
+  id: DisableLegIK
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableLegIK
+  nameWithType: AnimationIKControlFlags.DisableLegIK
+  fullName: GTA.AnimationIKControlFlags.DisableLegIK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableLegIK = 1
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.DisableArmIK
+  commentId: F:GTA.AnimationIKControlFlags.DisableArmIK
+  id: DisableArmIK
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableArmIK
+  nameWithType: AnimationIKControlFlags.DisableArmIK
+  fullName: GTA.AnimationIKControlFlags.DisableArmIK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableArmIK = 2
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.DisableHeadIK
+  commentId: F:GTA.AnimationIKControlFlags.DisableHeadIK
+  id: DisableHeadIK
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableHeadIK
+  nameWithType: AnimationIKControlFlags.DisableHeadIK
+  fullName: GTA.AnimationIKControlFlags.DisableHeadIK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableHeadIK = 4
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.DisableTorsoIK
+  commentId: F:GTA.AnimationIKControlFlags.DisableTorsoIK
+  id: DisableTorsoIK
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableTorsoIK
+  nameWithType: AnimationIKControlFlags.DisableTorsoIK
+  fullName: GTA.AnimationIKControlFlags.DisableTorsoIK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableTorsoIK = 8
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.DisableTorsoReactIK
+  commentId: F:GTA.AnimationIKControlFlags.DisableTorsoReactIK
+  id: DisableTorsoReactIK
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableTorsoReactIK
+  nameWithType: AnimationIKControlFlags.DisableTorsoReactIK
+  fullName: GTA.AnimationIKControlFlags.DisableTorsoReactIK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableTorsoReactIK = 16
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.UseLegAllowTags
+  commentId: F:GTA.AnimationIKControlFlags.UseLegAllowTags
+  id: UseLegAllowTags
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: UseLegAllowTags
+  nameWithType: AnimationIKControlFlags.UseLegAllowTags
+  fullName: GTA.AnimationIKControlFlags.UseLegAllowTags
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseLegAllowTags = 32
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.UseLegBlockTags
+  commentId: F:GTA.AnimationIKControlFlags.UseLegBlockTags
+  id: UseLegBlockTags
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: UseLegBlockTags
+  nameWithType: AnimationIKControlFlags.UseLegBlockTags
+  fullName: GTA.AnimationIKControlFlags.UseLegBlockTags
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseLegBlockTags = 64
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.UseArmAllowTags
+  commentId: F:GTA.AnimationIKControlFlags.UseArmAllowTags
+  id: UseArmAllowTags
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: UseArmAllowTags
+  nameWithType: AnimationIKControlFlags.UseArmAllowTags
+  fullName: GTA.AnimationIKControlFlags.UseArmAllowTags
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseArmAllowTags = 128
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.UseArmBlockTags
+  commentId: F:GTA.AnimationIKControlFlags.UseArmBlockTags
+  id: UseArmBlockTags
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: UseArmBlockTags
+  nameWithType: AnimationIKControlFlags.UseArmBlockTags
+  fullName: GTA.AnimationIKControlFlags.UseArmBlockTags
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseArmBlockTags = 256
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.ProcessWeaponHandGrip
+  commentId: F:GTA.AnimationIKControlFlags.ProcessWeaponHandGrip
+  id: ProcessWeaponHandGrip
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: ProcessWeaponHandGrip
+  nameWithType: AnimationIKControlFlags.ProcessWeaponHandGrip
+  fullName: GTA.AnimationIKControlFlags.ProcessWeaponHandGrip
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ProcessWeaponHandGrip = 512
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.UseFirstPersonArmLeft
+  commentId: F:GTA.AnimationIKControlFlags.UseFirstPersonArmLeft
+  id: UseFirstPersonArmLeft
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: UseFirstPersonArmLeft
+  nameWithType: AnimationIKControlFlags.UseFirstPersonArmLeft
+  fullName: GTA.AnimationIKControlFlags.UseFirstPersonArmLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseFirstPersonArmLeft = 1024
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.UseFirstPersonArmRight
+  commentId: F:GTA.AnimationIKControlFlags.UseFirstPersonArmRight
+  id: UseFirstPersonArmRight
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: UseFirstPersonArmRight
+  nameWithType: AnimationIKControlFlags.UseFirstPersonArmRight
+  fullName: GTA.AnimationIKControlFlags.UseFirstPersonArmRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseFirstPersonArmRight = 2048
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.DisableTorsoVehicleIK
+  commentId: F:GTA.AnimationIKControlFlags.DisableTorsoVehicleIK
+  id: DisableTorsoVehicleIK
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableTorsoVehicleIK
+  nameWithType: AnimationIKControlFlags.DisableTorsoVehicleIK
+  fullName: GTA.AnimationIKControlFlags.DisableTorsoVehicleIK
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableTorsoVehicleIK = 4096
+    return:
+      type: GTA.AnimationIKControlFlags
+- uid: GTA.AnimationIKControlFlags.LinkedFacial
+  commentId: F:GTA.AnimationIKControlFlags.LinkedFacial
+  id: LinkedFacial
+  parent: GTA.AnimationIKControlFlags
+  langs:
+  - csharp
+  - vb
+  name: LinkedFacial
+  nameWithType: AnimationIKControlFlags.LinkedFacial
+  fullName: GTA.AnimationIKControlFlags.LinkedFacial
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LinkedFacial = 8192
+    return:
+      type: GTA.AnimationIKControlFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.AnimationIKControlFlags
+  commentId: T:GTA.AnimationIKControlFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.AnimationIKControlFlags.html
+  name: AnimationIKControlFlags
+  nameWithType: AnimationIKControlFlags
+  fullName: GTA.AnimationIKControlFlags

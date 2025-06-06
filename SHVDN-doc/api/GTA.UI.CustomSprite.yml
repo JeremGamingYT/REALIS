@@ -1,0 +1,1294 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.CustomSprite
+  commentId: T:GTA.UI.CustomSprite
+  id: CustomSprite
+  parent: GTA.UI
+  children:
+  - GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF)
+  - GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color)
+  - GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single)
+  - GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single,System.Boolean)
+  - GTA.UI.CustomSprite.Centered
+  - GTA.UI.CustomSprite.Color
+  - GTA.UI.CustomSprite.Draw
+  - GTA.UI.CustomSprite.Draw(System.Drawing.SizeF)
+  - GTA.UI.CustomSprite.Enabled
+  - GTA.UI.CustomSprite.Position
+  - GTA.UI.CustomSprite.Rotation
+  - GTA.UI.CustomSprite.ScaledDraw
+  - GTA.UI.CustomSprite.ScaledDraw(System.Drawing.SizeF)
+  - GTA.UI.CustomSprite.Size
+  - GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3)
+  - GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  - GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3)
+  - GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  langs:
+  - csharp
+  - vb
+  name: CustomSprite
+  nameWithType: CustomSprite
+  fullName: GTA.UI.CustomSprite
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: 'public class CustomSprite : ISpriteElement, IWorldDrawableElement, IElement'
+    content.vb: Public Class CustomSprite Implements ISpriteElement, IWorldDrawableElement, IElement
+  inheritance:
+  - System.Object
+  implements:
+  - GTA.UI.ISpriteElement
+  - GTA.UI.IWorldDrawableElement
+  - GTA.UI.IElement
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF)
+  commentId: M:GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF)
+  id: '#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF)'
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: CustomSprite(string, SizeF, PointF)
+  nameWithType: CustomSprite.CustomSprite(string, SizeF, PointF)
+  fullName: GTA.UI.CustomSprite.CustomSprite(string, System.Drawing.SizeF, System.Drawing.PointF)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public CustomSprite(string filename, SizeF size, PointF position)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: size
+      type: System.Drawing.SizeF
+    - id: position
+      type: System.Drawing.PointF
+    content.vb: Public Sub New(filename As String, size As SizeF, position As PointF)
+  overload: GTA.UI.CustomSprite.#ctor*
+  nameWithType.vb: CustomSprite.New(String, SizeF, PointF)
+  fullName.vb: GTA.UI.CustomSprite.New(String, System.Drawing.SizeF, System.Drawing.PointF)
+  name.vb: New(String, SizeF, PointF)
+- uid: GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color)
+  commentId: M:GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color)
+  id: '#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color)'
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: CustomSprite(string, SizeF, PointF, Color)
+  nameWithType: CustomSprite.CustomSprite(string, SizeF, PointF, Color)
+  fullName: GTA.UI.CustomSprite.CustomSprite(string, System.Drawing.SizeF, System.Drawing.PointF, System.Drawing.Color)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public CustomSprite(string filename, SizeF size, PointF position, Color color)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: size
+      type: System.Drawing.SizeF
+    - id: position
+      type: System.Drawing.PointF
+    - id: color
+      type: System.Drawing.Color
+    content.vb: Public Sub New(filename As String, size As SizeF, position As PointF, color As Color)
+  overload: GTA.UI.CustomSprite.#ctor*
+  nameWithType.vb: CustomSprite.New(String, SizeF, PointF, Color)
+  fullName.vb: GTA.UI.CustomSprite.New(String, System.Drawing.SizeF, System.Drawing.PointF, System.Drawing.Color)
+  name.vb: New(String, SizeF, PointF, Color)
+- uid: GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single)
+  commentId: M:GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single)
+  id: '#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single)'
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: CustomSprite(string, SizeF, PointF, Color, float)
+  nameWithType: CustomSprite.CustomSprite(string, SizeF, PointF, Color, float)
+  fullName: GTA.UI.CustomSprite.CustomSprite(string, System.Drawing.SizeF, System.Drawing.PointF, System.Drawing.Color, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public CustomSprite(string filename, SizeF size, PointF position, Color color, float rotation)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: size
+      type: System.Drawing.SizeF
+    - id: position
+      type: System.Drawing.PointF
+    - id: color
+      type: System.Drawing.Color
+    - id: rotation
+      type: System.Single
+    content.vb: Public Sub New(filename As String, size As SizeF, position As PointF, color As Color, rotation As Single)
+  overload: GTA.UI.CustomSprite.#ctor*
+  nameWithType.vb: CustomSprite.New(String, SizeF, PointF, Color, Single)
+  fullName.vb: GTA.UI.CustomSprite.New(String, System.Drawing.SizeF, System.Drawing.PointF, System.Drawing.Color, Single)
+  name.vb: New(String, SizeF, PointF, Color, Single)
+- uid: GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single,System.Boolean)
+  commentId: M:GTA.UI.CustomSprite.#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single,System.Boolean)
+  id: '#ctor(System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single,System.Boolean)'
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: CustomSprite(string, SizeF, PointF, Color, float, bool)
+  nameWithType: CustomSprite.CustomSprite(string, SizeF, PointF, Color, float, bool)
+  fullName: GTA.UI.CustomSprite.CustomSprite(string, System.Drawing.SizeF, System.Drawing.PointF, System.Drawing.Color, float, bool)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public CustomSprite(string filename, SizeF size, PointF position, Color color, float rotation, bool centered)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: size
+      type: System.Drawing.SizeF
+    - id: position
+      type: System.Drawing.PointF
+    - id: color
+      type: System.Drawing.Color
+    - id: rotation
+      type: System.Single
+    - id: centered
+      type: System.Boolean
+    content.vb: Public Sub New(filename As String, size As SizeF, position As PointF, color As Color, rotation As Single, centered As Boolean)
+  overload: GTA.UI.CustomSprite.#ctor*
+  nameWithType.vb: CustomSprite.New(String, SizeF, PointF, Color, Single, Boolean)
+  fullName.vb: GTA.UI.CustomSprite.New(String, System.Drawing.SizeF, System.Drawing.PointF, System.Drawing.Color, Single, Boolean)
+  name.vb: New(String, SizeF, PointF, Color, Single, Boolean)
+- uid: GTA.UI.CustomSprite.Draw
+  commentId: M:GTA.UI.CustomSprite.Draw
+  id: Draw
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Draw()
+  nameWithType: CustomSprite.Draw()
+  fullName: GTA.UI.CustomSprite.Draw()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public void Draw()
+    content.vb: Public Sub Draw()
+  overload: GTA.UI.CustomSprite.Draw*
+  implements:
+  - GTA.UI.IElement.Draw
+- uid: GTA.UI.CustomSprite.Draw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.CustomSprite.Draw(System.Drawing.SizeF)
+  id: Draw(System.Drawing.SizeF)
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Draw(SizeF)
+  nameWithType: CustomSprite.Draw(SizeF)
+  fullName: GTA.UI.CustomSprite.Draw(System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public void Draw(SizeF offset)
+    parameters:
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Sub Draw(offset As SizeF)
+  overload: GTA.UI.CustomSprite.Draw*
+  implements:
+  - GTA.UI.IElement.Draw(System.Drawing.SizeF)
+- uid: GTA.UI.CustomSprite.ScaledDraw
+  commentId: M:GTA.UI.CustomSprite.ScaledDraw
+  id: ScaledDraw
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: ScaledDraw()
+  nameWithType: CustomSprite.ScaledDraw()
+  fullName: GTA.UI.CustomSprite.ScaledDraw()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void ScaledDraw()
+    content.vb: Public Overridable Sub ScaledDraw()
+  overload: GTA.UI.CustomSprite.ScaledDraw*
+  implements:
+  - GTA.UI.IElement.ScaledDraw
+- uid: GTA.UI.CustomSprite.ScaledDraw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.CustomSprite.ScaledDraw(System.Drawing.SizeF)
+  id: ScaledDraw(System.Drawing.SizeF)
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: ScaledDraw(SizeF)
+  nameWithType: CustomSprite.ScaledDraw(SizeF)
+  fullName: GTA.UI.CustomSprite.ScaledDraw(System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void ScaledDraw(SizeF offset)
+    parameters:
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub ScaledDraw(offset As SizeF)
+  overload: GTA.UI.CustomSprite.ScaledDraw*
+  implements:
+  - GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+- uid: GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3)
+  id: WorldDraw(GTA.Math.Vector3)
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: WorldDraw(Vector3)
+  nameWithType: CustomSprite.WorldDraw(Vector3)
+  fullName: GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldDraw(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Overridable Sub WorldDraw(position As Vector3)
+  overload: GTA.UI.CustomSprite.WorldDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+- uid: GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  id: WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: WorldDraw(Vector3, SizeF)
+  nameWithType: CustomSprite.WorldDraw(Vector3, SizeF)
+  fullName: GTA.UI.CustomSprite.WorldDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldDraw(Vector3 position, SizeF offset)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub WorldDraw(position As Vector3, offset As SizeF)
+  overload: GTA.UI.CustomSprite.WorldDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+- uid: GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3)
+  id: WorldScaledDraw(GTA.Math.Vector3)
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: WorldScaledDraw(Vector3)
+  nameWithType: CustomSprite.WorldScaledDraw(Vector3)
+  fullName: GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldScaledDraw(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Overridable Sub WorldScaledDraw(position As Vector3)
+  overload: GTA.UI.CustomSprite.WorldScaledDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+- uid: GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  id: WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: WorldScaledDraw(Vector3, SizeF)
+  nameWithType: CustomSprite.WorldScaledDraw(Vector3, SizeF)
+  fullName: GTA.UI.CustomSprite.WorldScaledDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldScaledDraw(Vector3 position, SizeF offset)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub WorldScaledDraw(position As Vector3, offset As SizeF)
+  overload: GTA.UI.CustomSprite.WorldScaledDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+- uid: GTA.UI.CustomSprite.Enabled
+  commentId: P:GTA.UI.CustomSprite.Enabled
+  id: Enabled
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: CustomSprite.Enabled
+  fullName: GTA.UI.CustomSprite.Enabled
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: GTA.UI.CustomSprite.Enabled*
+  implements:
+  - GTA.UI.IElement.Enabled
+- uid: GTA.UI.CustomSprite.Color
+  commentId: P:GTA.UI.CustomSprite.Color
+  id: Color
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: CustomSprite.Color
+  fullName: GTA.UI.CustomSprite.Color
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public Color Color { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property Color As Color
+  overload: GTA.UI.CustomSprite.Color*
+  implements:
+  - GTA.UI.IElement.Color
+- uid: GTA.UI.CustomSprite.Position
+  commentId: P:GTA.UI.CustomSprite.Position
+  id: Position
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: CustomSprite.Position
+  fullName: GTA.UI.CustomSprite.Position
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public PointF Position { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public Property Position As PointF
+  overload: GTA.UI.CustomSprite.Position*
+  implements:
+  - GTA.UI.IElement.Position
+- uid: GTA.UI.CustomSprite.Size
+  commentId: P:GTA.UI.CustomSprite.Size
+  id: Size
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: CustomSprite.Size
+  fullName: GTA.UI.CustomSprite.Size
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public SizeF Size { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.SizeF
+    content.vb: Public Property Size As SizeF
+  overload: GTA.UI.CustomSprite.Size*
+  implements:
+  - GTA.UI.ISpriteElement.Size
+- uid: GTA.UI.CustomSprite.Rotation
+  commentId: P:GTA.UI.CustomSprite.Rotation
+  id: Rotation
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: CustomSprite.Rotation
+  fullName: GTA.UI.CustomSprite.Rotation
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public float Rotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Rotation As Single
+  overload: GTA.UI.CustomSprite.Rotation*
+  implements:
+  - GTA.UI.ISpriteElement.Rotation
+- uid: GTA.UI.CustomSprite.Centered
+  commentId: P:GTA.UI.CustomSprite.Centered
+  id: Centered
+  parent: GTA.UI.CustomSprite
+  langs:
+  - csharp
+  - vb
+  name: Centered
+  nameWithType: CustomSprite.Centered
+  fullName: GTA.UI.CustomSprite.Centered
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public bool Centered { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Centered As Boolean
+  overload: GTA.UI.CustomSprite.Centered*
+  implements:
+  - GTA.UI.IElement.Centered
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.UI.ISpriteElement
+  commentId: T:GTA.UI.ISpriteElement
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.ISpriteElement.html
+  name: ISpriteElement
+  nameWithType: ISpriteElement
+  fullName: GTA.UI.ISpriteElement
+- uid: GTA.UI.IWorldDrawableElement
+  commentId: T:GTA.UI.IWorldDrawableElement
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html
+  name: IWorldDrawableElement
+  nameWithType: IWorldDrawableElement
+  fullName: GTA.UI.IWorldDrawableElement
+- uid: GTA.UI.IElement
+  commentId: T:GTA.UI.IElement
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.IElement.html
+  name: IElement
+  nameWithType: IElement
+  fullName: GTA.UI.IElement
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.UI.CustomSprite.#ctor*
+  commentId: Overload:GTA.UI.CustomSprite.#ctor
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite__ctor_System_String_System_Drawing_SizeF_System_Drawing_PointF_
+  name: CustomSprite
+  nameWithType: CustomSprite.CustomSprite
+  fullName: GTA.UI.CustomSprite.CustomSprite
+  nameWithType.vb: CustomSprite.New
+  fullName.vb: GTA.UI.CustomSprite.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.UI.CustomSprite.Draw*
+  commentId: Overload:GTA.UI.CustomSprite.Draw
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Draw
+  name: Draw
+  nameWithType: CustomSprite.Draw
+  fullName: GTA.UI.CustomSprite.Draw
+- uid: GTA.UI.IElement.Draw
+  commentId: M:GTA.UI.IElement.Draw
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  name: Draw()
+  nameWithType: IElement.Draw()
+  fullName: GTA.UI.IElement.Draw()
+  spec.csharp:
+  - uid: GTA.UI.IElement.Draw
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.Draw
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  - name: (
+  - name: )
+- uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  name: Draw(SizeF)
+  nameWithType: IElement.Draw(SizeF)
+  fullName: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.CustomSprite.ScaledDraw*
+  commentId: Overload:GTA.UI.CustomSprite.ScaledDraw
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_ScaledDraw
+  name: ScaledDraw
+  nameWithType: CustomSprite.ScaledDraw
+  fullName: GTA.UI.CustomSprite.ScaledDraw
+- uid: GTA.UI.IElement.ScaledDraw
+  commentId: M:GTA.UI.IElement.ScaledDraw
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  name: ScaledDraw()
+  nameWithType: IElement.ScaledDraw()
+  fullName: GTA.UI.IElement.ScaledDraw()
+  spec.csharp:
+  - uid: GTA.UI.IElement.ScaledDraw
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.ScaledDraw
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  - name: (
+  - name: )
+- uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  name: ScaledDraw(SizeF)
+  nameWithType: IElement.ScaledDraw(SizeF)
+  fullName: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.CustomSprite.WorldDraw*
+  commentId: Overload:GTA.UI.CustomSprite.WorldDraw
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_WorldDraw_GTA_Math_Vector3_
+  name: WorldDraw
+  nameWithType: CustomSprite.WorldDraw
+  fullName: GTA.UI.CustomSprite.WorldDraw
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  name: WorldDraw(Vector3)
+  nameWithType: IWorldDrawableElement.WorldDraw(Vector3)
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  name: WorldDraw(Vector3, SizeF)
+  nameWithType: IWorldDrawableElement.WorldDraw(Vector3, SizeF)
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.CustomSprite.WorldScaledDraw*
+  commentId: Overload:GTA.UI.CustomSprite.WorldScaledDraw
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_WorldScaledDraw_GTA_Math_Vector3_
+  name: WorldScaledDraw
+  nameWithType: CustomSprite.WorldScaledDraw
+  fullName: GTA.UI.CustomSprite.WorldScaledDraw
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  name: WorldScaledDraw(Vector3)
+  nameWithType: IWorldDrawableElement.WorldScaledDraw(Vector3)
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  name: WorldScaledDraw(Vector3, SizeF)
+  nameWithType: IWorldDrawableElement.WorldScaledDraw(Vector3, SizeF)
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.CustomSprite.Enabled*
+  commentId: Overload:GTA.UI.CustomSprite.Enabled
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Enabled
+  name: Enabled
+  nameWithType: CustomSprite.Enabled
+  fullName: GTA.UI.CustomSprite.Enabled
+- uid: GTA.UI.IElement.Enabled
+  commentId: P:GTA.UI.IElement.Enabled
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Enabled
+  name: Enabled
+  nameWithType: IElement.Enabled
+  fullName: GTA.UI.IElement.Enabled
+- uid: GTA.UI.CustomSprite.Color*
+  commentId: Overload:GTA.UI.CustomSprite.Color
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Color
+  name: Color
+  nameWithType: CustomSprite.Color
+  fullName: GTA.UI.CustomSprite.Color
+- uid: GTA.UI.IElement.Color
+  commentId: P:GTA.UI.IElement.Color
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Color
+  name: Color
+  nameWithType: IElement.Color
+  fullName: GTA.UI.IElement.Color
+- uid: GTA.UI.CustomSprite.Position*
+  commentId: Overload:GTA.UI.CustomSprite.Position
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Position
+  name: Position
+  nameWithType: CustomSprite.Position
+  fullName: GTA.UI.CustomSprite.Position
+- uid: GTA.UI.IElement.Position
+  commentId: P:GTA.UI.IElement.Position
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Position
+  name: Position
+  nameWithType: IElement.Position
+  fullName: GTA.UI.IElement.Position
+- uid: GTA.UI.CustomSprite.Size*
+  commentId: Overload:GTA.UI.CustomSprite.Size
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Size
+  name: Size
+  nameWithType: CustomSprite.Size
+  fullName: GTA.UI.CustomSprite.Size
+- uid: GTA.UI.ISpriteElement.Size
+  commentId: P:GTA.UI.ISpriteElement.Size
+  parent: GTA.UI.ISpriteElement
+  isExternal: true
+  href: GTA.UI.ISpriteElement.html#GTA_UI_ISpriteElement_Size
+  name: Size
+  nameWithType: ISpriteElement.Size
+  fullName: GTA.UI.ISpriteElement.Size
+- uid: GTA.UI.CustomSprite.Rotation*
+  commentId: Overload:GTA.UI.CustomSprite.Rotation
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Rotation
+  name: Rotation
+  nameWithType: CustomSprite.Rotation
+  fullName: GTA.UI.CustomSprite.Rotation
+- uid: GTA.UI.ISpriteElement.Rotation
+  commentId: P:GTA.UI.ISpriteElement.Rotation
+  parent: GTA.UI.ISpriteElement
+  isExternal: true
+  href: GTA.UI.ISpriteElement.html#GTA_UI_ISpriteElement_Rotation
+  name: Rotation
+  nameWithType: ISpriteElement.Rotation
+  fullName: GTA.UI.ISpriteElement.Rotation
+- uid: GTA.UI.CustomSprite.Centered*
+  commentId: Overload:GTA.UI.CustomSprite.Centered
+  isExternal: true
+  href: GTA.UI.CustomSprite.html#GTA_UI_CustomSprite_Centered
+  name: Centered
+  nameWithType: CustomSprite.Centered
+  fullName: GTA.UI.CustomSprite.Centered
+- uid: GTA.UI.IElement.Centered
+  commentId: P:GTA.UI.IElement.Centered
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Centered
+  name: Centered
+  nameWithType: IElement.Centered
+  fullName: GTA.UI.IElement.Centered

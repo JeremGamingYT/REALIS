@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PedComponent
+  commentId: T:GTA.PedComponent
+  id: PedComponent
+  parent: GTA
+  children:
+  - GTA.PedComponent.Count
+  - GTA.PedComponent.HasVariations
+  - GTA.PedComponent.Index
+  - GTA.PedComponent.IsVariationValid(System.Int32,System.Int32)
+  - GTA.PedComponent.Name
+  - GTA.PedComponent.SetVariation(System.Int32,System.Int32)
+  - GTA.PedComponent.TextureCount
+  - GTA.PedComponent.TextureIndex
+  - GTA.PedComponent.ToString
+  - GTA.PedComponent.Type
+  langs:
+  - csharp
+  - vb
+  name: PedComponent
+  nameWithType: PedComponent
+  fullName: GTA.PedComponent
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class PedComponent : IPedVariation'
+    content.vb: Public NotInheritable Class PedComponent Implements IPedVariation
+  inheritance:
+  - System.Object
+  implements:
+  - GTA.IPedVariation
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.PedComponent.SetVariation(System.Int32,System.Int32)
+  commentId: M:GTA.PedComponent.SetVariation(System.Int32,System.Int32)
+  id: SetVariation(System.Int32,System.Int32)
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: SetVariation(int, int)
+  nameWithType: PedComponent.SetVariation(int, int)
+  fullName: GTA.PedComponent.SetVariation(int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool SetVariation(int index, int textureIndex = 0)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: textureIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function SetVariation(index As Integer, textureIndex As Integer = 0) As Boolean
+  overload: GTA.PedComponent.SetVariation*
+  implements:
+  - GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+  nameWithType.vb: PedComponent.SetVariation(Integer, Integer)
+  fullName.vb: GTA.PedComponent.SetVariation(Integer, Integer)
+  name.vb: SetVariation(Integer, Integer)
+- uid: GTA.PedComponent.IsVariationValid(System.Int32,System.Int32)
+  commentId: M:GTA.PedComponent.IsVariationValid(System.Int32,System.Int32)
+  id: IsVariationValid(System.Int32,System.Int32)
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: IsVariationValid(int, int)
+  nameWithType: PedComponent.IsVariationValid(int, int)
+  fullName: GTA.PedComponent.IsVariationValid(int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool IsVariationValid(int index, int textureIndex = 0)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: textureIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsVariationValid(index As Integer, textureIndex As Integer = 0) As Boolean
+  overload: GTA.PedComponent.IsVariationValid*
+  implements:
+  - GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+  nameWithType.vb: PedComponent.IsVariationValid(Integer, Integer)
+  fullName.vb: GTA.PedComponent.IsVariationValid(Integer, Integer)
+  name.vb: IsVariationValid(Integer, Integer)
+- uid: GTA.PedComponent.ToString
+  commentId: M:GTA.PedComponent.ToString
+  id: ToString
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PedComponent.ToString()
+  fullName: GTA.PedComponent.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: GTA.PedComponent.ToString*
+- uid: GTA.PedComponent.Name
+  commentId: P:GTA.PedComponent.Name
+  id: Name
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PedComponent.Name
+  fullName: GTA.PedComponent.Name
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: GTA.PedComponent.Name*
+  implements:
+  - GTA.IPedVariation.Name
+- uid: GTA.PedComponent.Type
+  commentId: P:GTA.PedComponent.Type
+  id: Type
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: PedComponent.Type
+  fullName: GTA.PedComponent.Type
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedComponentType Type { get; }
+    parameters: []
+    return:
+      type: GTA.PedComponentType
+    content.vb: Public ReadOnly Property Type As PedComponentType
+  overload: GTA.PedComponent.Type*
+- uid: GTA.PedComponent.Count
+  commentId: P:GTA.PedComponent.Count
+  id: Count
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: PedComponent.Count
+  fullName: GTA.PedComponent.Count
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: GTA.PedComponent.Count*
+  implements:
+  - GTA.IPedVariation.Count
+- uid: GTA.PedComponent.Index
+  commentId: P:GTA.PedComponent.Index
+  id: Index
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: PedComponent.Index
+  fullName: GTA.PedComponent.Index
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public int Index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Index As Integer
+  overload: GTA.PedComponent.Index*
+  implements:
+  - GTA.IPedVariation.Index
+- uid: GTA.PedComponent.TextureCount
+  commentId: P:GTA.PedComponent.TextureCount
+  id: TextureCount
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: TextureCount
+  nameWithType: PedComponent.TextureCount
+  fullName: GTA.PedComponent.TextureCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public int TextureCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TextureCount As Integer
+  overload: GTA.PedComponent.TextureCount*
+  implements:
+  - GTA.IPedVariation.TextureCount
+- uid: GTA.PedComponent.TextureIndex
+  commentId: P:GTA.PedComponent.TextureIndex
+  id: TextureIndex
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: TextureIndex
+  nameWithType: PedComponent.TextureIndex
+  fullName: GTA.PedComponent.TextureIndex
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public int TextureIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TextureIndex As Integer
+  overload: GTA.PedComponent.TextureIndex*
+  implements:
+  - GTA.IPedVariation.TextureIndex
+- uid: GTA.PedComponent.HasVariations
+  commentId: P:GTA.PedComponent.HasVariations
+  id: HasVariations
+  parent: GTA.PedComponent
+  langs:
+  - csharp
+  - vb
+  name: HasVariations
+  nameWithType: PedComponent.HasVariations
+  fullName: GTA.PedComponent.HasVariations
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool HasVariations { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasVariations As Boolean
+  overload: GTA.PedComponent.HasVariations*
+  implements:
+  - GTA.IPedVariation.HasVariations
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.IPedVariation
+  commentId: T:GTA.IPedVariation
+  parent: GTA
+  isExternal: true
+  href: GTA.IPedVariation.html
+  name: IPedVariation
+  nameWithType: IPedVariation
+  fullName: GTA.IPedVariation
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.PedComponent.SetVariation*
+  commentId: Overload:GTA.PedComponent.SetVariation
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_SetVariation_System_Int32_System_Int32_
+  name: SetVariation
+  nameWithType: PedComponent.SetVariation
+  fullName: GTA.PedComponent.SetVariation
+- uid: GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+  commentId: M:GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_SetVariation_System_Int32_System_Int32_
+  name: SetVariation(int, int)
+  nameWithType: IPedVariation.SetVariation(int, int)
+  fullName: GTA.IPedVariation.SetVariation(int, int)
+  nameWithType.vb: IPedVariation.SetVariation(Integer, Integer)
+  fullName.vb: GTA.IPedVariation.SetVariation(Integer, Integer)
+  name.vb: SetVariation(Integer, Integer)
+  spec.csharp:
+  - uid: GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+    name: SetVariation
+    isExternal: true
+    href: GTA.IPedVariation.html#GTA_IPedVariation_SetVariation_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+    name: SetVariation
+    isExternal: true
+    href: GTA.IPedVariation.html#GTA_IPedVariation_SetVariation_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.PedComponent.IsVariationValid*
+  commentId: Overload:GTA.PedComponent.IsVariationValid
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_IsVariationValid_System_Int32_System_Int32_
+  name: IsVariationValid
+  nameWithType: PedComponent.IsVariationValid
+  fullName: GTA.PedComponent.IsVariationValid
+- uid: GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+  commentId: M:GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_IsVariationValid_System_Int32_System_Int32_
+  name: IsVariationValid(int, int)
+  nameWithType: IPedVariation.IsVariationValid(int, int)
+  fullName: GTA.IPedVariation.IsVariationValid(int, int)
+  nameWithType.vb: IPedVariation.IsVariationValid(Integer, Integer)
+  fullName.vb: GTA.IPedVariation.IsVariationValid(Integer, Integer)
+  name.vb: IsVariationValid(Integer, Integer)
+  spec.csharp:
+  - uid: GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+    name: IsVariationValid
+    isExternal: true
+    href: GTA.IPedVariation.html#GTA_IPedVariation_IsVariationValid_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+    name: IsVariationValid
+    isExternal: true
+    href: GTA.IPedVariation.html#GTA_IPedVariation_IsVariationValid_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: GTA.PedComponent.ToString*
+  commentId: Overload:GTA.PedComponent.ToString
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_ToString
+  name: ToString
+  nameWithType: PedComponent.ToString
+  fullName: GTA.PedComponent.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.PedComponent.Name*
+  commentId: Overload:GTA.PedComponent.Name
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_Name
+  name: Name
+  nameWithType: PedComponent.Name
+  fullName: GTA.PedComponent.Name
+- uid: GTA.IPedVariation.Name
+  commentId: P:GTA.IPedVariation.Name
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_Name
+  name: Name
+  nameWithType: IPedVariation.Name
+  fullName: GTA.IPedVariation.Name
+- uid: GTA.PedComponent.Type*
+  commentId: Overload:GTA.PedComponent.Type
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_Type
+  name: Type
+  nameWithType: PedComponent.Type
+  fullName: GTA.PedComponent.Type
+- uid: GTA.PedComponentType
+  commentId: T:GTA.PedComponentType
+  parent: GTA
+  isExternal: true
+  href: GTA.PedComponentType.html
+  name: PedComponentType
+  nameWithType: PedComponentType
+  fullName: GTA.PedComponentType
+- uid: GTA.PedComponent.Count*
+  commentId: Overload:GTA.PedComponent.Count
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_Count
+  name: Count
+  nameWithType: PedComponent.Count
+  fullName: GTA.PedComponent.Count
+- uid: GTA.IPedVariation.Count
+  commentId: P:GTA.IPedVariation.Count
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_Count
+  name: Count
+  nameWithType: IPedVariation.Count
+  fullName: GTA.IPedVariation.Count
+- uid: GTA.PedComponent.Index*
+  commentId: Overload:GTA.PedComponent.Index
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_Index
+  name: Index
+  nameWithType: PedComponent.Index
+  fullName: GTA.PedComponent.Index
+- uid: GTA.IPedVariation.Index
+  commentId: P:GTA.IPedVariation.Index
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_Index
+  name: Index
+  nameWithType: IPedVariation.Index
+  fullName: GTA.IPedVariation.Index
+- uid: GTA.PedComponent.TextureCount*
+  commentId: Overload:GTA.PedComponent.TextureCount
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_TextureCount
+  name: TextureCount
+  nameWithType: PedComponent.TextureCount
+  fullName: GTA.PedComponent.TextureCount
+- uid: GTA.IPedVariation.TextureCount
+  commentId: P:GTA.IPedVariation.TextureCount
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_TextureCount
+  name: TextureCount
+  nameWithType: IPedVariation.TextureCount
+  fullName: GTA.IPedVariation.TextureCount
+- uid: GTA.PedComponent.TextureIndex*
+  commentId: Overload:GTA.PedComponent.TextureIndex
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_TextureIndex
+  name: TextureIndex
+  nameWithType: PedComponent.TextureIndex
+  fullName: GTA.PedComponent.TextureIndex
+- uid: GTA.IPedVariation.TextureIndex
+  commentId: P:GTA.IPedVariation.TextureIndex
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_TextureIndex
+  name: TextureIndex
+  nameWithType: IPedVariation.TextureIndex
+  fullName: GTA.IPedVariation.TextureIndex
+- uid: GTA.PedComponent.HasVariations*
+  commentId: Overload:GTA.PedComponent.HasVariations
+  isExternal: true
+  href: GTA.PedComponent.html#GTA_PedComponent_HasVariations
+  name: HasVariations
+  nameWithType: PedComponent.HasVariations
+  fullName: GTA.PedComponent.HasVariations
+- uid: GTA.IPedVariation.HasVariations
+  commentId: P:GTA.IPedVariation.HasVariations
+  parent: GTA.IPedVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_HasVariations
+  name: HasVariations
+  nameWithType: IPedVariation.HasVariations
+  fullName: GTA.IPedVariation.HasVariations

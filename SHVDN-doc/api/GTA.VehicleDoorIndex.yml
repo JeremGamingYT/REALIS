@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleDoorIndex
+  commentId: T:GTA.VehicleDoorIndex
+  id: VehicleDoorIndex
+  parent: GTA
+  children:
+  - GTA.VehicleDoorIndex.BackLeftDoor
+  - GTA.VehicleDoorIndex.BackRightDoor
+  - GTA.VehicleDoorIndex.FrontLeftDoor
+  - GTA.VehicleDoorIndex.FrontRightDoor
+  - GTA.VehicleDoorIndex.Hood
+  - GTA.VehicleDoorIndex.Trunk
+  langs:
+  - csharp
+  - vb
+  name: VehicleDoorIndex
+  nameWithType: VehicleDoorIndex
+  fullName: GTA.VehicleDoorIndex
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleDoorIndex
+    content.vb: Public Enum VehicleDoorIndex
+- uid: GTA.VehicleDoorIndex.FrontRightDoor
+  commentId: F:GTA.VehicleDoorIndex.FrontRightDoor
+  id: FrontRightDoor
+  parent: GTA.VehicleDoorIndex
+  langs:
+  - csharp
+  - vb
+  name: FrontRightDoor
+  nameWithType: VehicleDoorIndex.FrontRightDoor
+  fullName: GTA.VehicleDoorIndex.FrontRightDoor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontRightDoor = 1
+    return:
+      type: GTA.VehicleDoorIndex
+- uid: GTA.VehicleDoorIndex.FrontLeftDoor
+  commentId: F:GTA.VehicleDoorIndex.FrontLeftDoor
+  id: FrontLeftDoor
+  parent: GTA.VehicleDoorIndex
+  langs:
+  - csharp
+  - vb
+  name: FrontLeftDoor
+  nameWithType: VehicleDoorIndex.FrontLeftDoor
+  fullName: GTA.VehicleDoorIndex.FrontLeftDoor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontLeftDoor = 0
+    return:
+      type: GTA.VehicleDoorIndex
+- uid: GTA.VehicleDoorIndex.BackRightDoor
+  commentId: F:GTA.VehicleDoorIndex.BackRightDoor
+  id: BackRightDoor
+  parent: GTA.VehicleDoorIndex
+  langs:
+  - csharp
+  - vb
+  name: BackRightDoor
+  nameWithType: VehicleDoorIndex.BackRightDoor
+  fullName: GTA.VehicleDoorIndex.BackRightDoor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BackRightDoor = 3
+    return:
+      type: GTA.VehicleDoorIndex
+- uid: GTA.VehicleDoorIndex.BackLeftDoor
+  commentId: F:GTA.VehicleDoorIndex.BackLeftDoor
+  id: BackLeftDoor
+  parent: GTA.VehicleDoorIndex
+  langs:
+  - csharp
+  - vb
+  name: BackLeftDoor
+  nameWithType: VehicleDoorIndex.BackLeftDoor
+  fullName: GTA.VehicleDoorIndex.BackLeftDoor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BackLeftDoor = 2
+    return:
+      type: GTA.VehicleDoorIndex
+- uid: GTA.VehicleDoorIndex.Hood
+  commentId: F:GTA.VehicleDoorIndex.Hood
+  id: Hood
+  parent: GTA.VehicleDoorIndex
+  langs:
+  - csharp
+  - vb
+  name: Hood
+  nameWithType: VehicleDoorIndex.Hood
+  fullName: GTA.VehicleDoorIndex.Hood
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hood = 4
+    return:
+      type: GTA.VehicleDoorIndex
+- uid: GTA.VehicleDoorIndex.Trunk
+  commentId: F:GTA.VehicleDoorIndex.Trunk
+  id: Trunk
+  parent: GTA.VehicleDoorIndex
+  langs:
+  - csharp
+  - vb
+  name: Trunk
+  nameWithType: VehicleDoorIndex.Trunk
+  fullName: GTA.VehicleDoorIndex.Trunk
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Trunk = 5
+    return:
+      type: GTA.VehicleDoorIndex
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleDoorIndex
+  commentId: T:GTA.VehicleDoorIndex
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleDoorIndex.html
+  name: VehicleDoorIndex
+  nameWithType: VehicleDoorIndex
+  fullName: GTA.VehicleDoorIndex

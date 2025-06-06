@@ -1,0 +1,1091 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Rope
+  commentId: T:GTA.Rope
+  id: Rope
+  parent: GTA
+  children:
+  - GTA.Rope.#ctor(System.Int32)
+  - GTA.Rope.ActivatePhysics
+  - GTA.Rope.Attach(GTA.Entity)
+  - GTA.Rope.Attach(GTA.Entity,GTA.Math.Vector3)
+  - GTA.Rope.Connect(GTA.Entity,GTA.Entity,System.Single)
+  - GTA.Rope.Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math.Vector3,System.Single)
+  - GTA.Rope.Delete
+  - GTA.Rope.Detach(GTA.Entity)
+  - GTA.Rope.Equals(System.Object)
+  - GTA.Rope.Exists
+  - GTA.Rope.GetHashCode
+  - GTA.Rope.GetVertexCoord(System.Int32)
+  - GTA.Rope.Length
+  - GTA.Rope.PinVertex(System.Int32,GTA.Math.Vector3)
+  - GTA.Rope.UnpinVertex(System.Int32)
+  - GTA.Rope.VertexCount
+  - GTA.Rope.op_Equality(GTA.Rope,GTA.Rope)
+  - GTA.Rope.op_Implicit(GTA.Rope)~GTA.Native.InputArgument
+  - GTA.Rope.op_Inequality(GTA.Rope,GTA.Rope)
+  langs:
+  - csharp
+  - vb
+  name: Rope
+  nameWithType: Rope
+  fullName: GTA.Rope
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class Rope : PoolObject, INativeValue, IDeletable, IExistable'
+    content.vb: Public NotInheritable Class Rope Inherits PoolObject Implements INativeValue, IDeletable, IExistable
+  inheritance:
+  - System.Object
+  - GTA.PoolObject
+  implements:
+  - GTA.Native.INativeValue
+  - GTA.IDeletable
+  - GTA.IExistable
+  inheritedMembers:
+  - GTA.PoolObject.Handle
+  - GTA.PoolObject.NativeValue
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Rope.#ctor(System.Int32)
+  commentId: M:GTA.Rope.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Rope(int)
+  nameWithType: Rope.Rope(int)
+  fullName: GTA.Rope.Rope(int)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Rope(int handle)
+    parameters:
+    - id: handle
+      type: System.Int32
+    content.vb: Public Sub New(handle As Integer)
+  overload: GTA.Rope.#ctor*
+  nameWithType.vb: Rope.New(Integer)
+  fullName.vb: GTA.Rope.New(Integer)
+  name.vb: New(Integer)
+- uid: GTA.Rope.ActivatePhysics
+  commentId: M:GTA.Rope.ActivatePhysics
+  id: ActivatePhysics
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: ActivatePhysics()
+  nameWithType: Rope.ActivatePhysics()
+  fullName: GTA.Rope.ActivatePhysics()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void ActivatePhysics()
+    content.vb: Public Sub ActivatePhysics()
+  overload: GTA.Rope.ActivatePhysics*
+- uid: GTA.Rope.Attach(GTA.Entity)
+  commentId: M:GTA.Rope.Attach(GTA.Entity)
+  id: Attach(GTA.Entity)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Attach(Entity)
+  nameWithType: Rope.Attach(Entity)
+  fullName: GTA.Rope.Attach(GTA.Entity)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Attach(Entity entity)
+    parameters:
+    - id: entity
+      type: GTA.Entity
+    content.vb: Public Sub Attach(entity As Entity)
+  overload: GTA.Rope.Attach*
+- uid: GTA.Rope.Attach(GTA.Entity,GTA.Math.Vector3)
+  commentId: M:GTA.Rope.Attach(GTA.Entity,GTA.Math.Vector3)
+  id: Attach(GTA.Entity,GTA.Math.Vector3)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Attach(Entity, Vector3)
+  nameWithType: Rope.Attach(Entity, Vector3)
+  fullName: GTA.Rope.Attach(GTA.Entity, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Attach(Entity entity, Vector3 position)
+    parameters:
+    - id: entity
+      type: GTA.Entity
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Sub Attach(entity As Entity, position As Vector3)
+  overload: GTA.Rope.Attach*
+- uid: GTA.Rope.Detach(GTA.Entity)
+  commentId: M:GTA.Rope.Detach(GTA.Entity)
+  id: Detach(GTA.Entity)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Detach(Entity)
+  nameWithType: Rope.Detach(Entity)
+  fullName: GTA.Rope.Detach(GTA.Entity)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Detach(Entity entity)
+    parameters:
+    - id: entity
+      type: GTA.Entity
+    content.vb: Public Sub Detach(entity As Entity)
+  overload: GTA.Rope.Detach*
+- uid: GTA.Rope.Connect(GTA.Entity,GTA.Entity,System.Single)
+  commentId: M:GTA.Rope.Connect(GTA.Entity,GTA.Entity,System.Single)
+  id: Connect(GTA.Entity,GTA.Entity,System.Single)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Connect(Entity, Entity, float)
+  nameWithType: Rope.Connect(Entity, Entity, float)
+  fullName: GTA.Rope.Connect(GTA.Entity, GTA.Entity, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Connect(Entity entity1, Entity entity2, float length)
+    parameters:
+    - id: entity1
+      type: GTA.Entity
+    - id: entity2
+      type: GTA.Entity
+    - id: length
+      type: System.Single
+    content.vb: Public Sub Connect(entity1 As Entity, entity2 As Entity, length As Single)
+  overload: GTA.Rope.Connect*
+  nameWithType.vb: Rope.Connect(Entity, Entity, Single)
+  fullName.vb: GTA.Rope.Connect(GTA.Entity, GTA.Entity, Single)
+  name.vb: Connect(Entity, Entity, Single)
+- uid: GTA.Rope.Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Rope.Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math.Vector3,System.Single)
+  id: Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math.Vector3,System.Single)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Connect(Entity, Vector3, Entity, Vector3, float)
+  nameWithType: Rope.Connect(Entity, Vector3, Entity, Vector3, float)
+  fullName: GTA.Rope.Connect(GTA.Entity, GTA.Math.Vector3, GTA.Entity, GTA.Math.Vector3, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Connect(Entity entity1, Vector3 position1, Entity entity2, Vector3 position2, float length)
+    parameters:
+    - id: entity1
+      type: GTA.Entity
+    - id: position1
+      type: GTA.Math.Vector3
+    - id: entity2
+      type: GTA.Entity
+    - id: position2
+      type: GTA.Math.Vector3
+    - id: length
+      type: System.Single
+    content.vb: Public Sub Connect(entity1 As Entity, position1 As Vector3, entity2 As Entity, position2 As Vector3, length As Single)
+  overload: GTA.Rope.Connect*
+  nameWithType.vb: Rope.Connect(Entity, Vector3, Entity, Vector3, Single)
+  fullName.vb: GTA.Rope.Connect(GTA.Entity, GTA.Math.Vector3, GTA.Entity, GTA.Math.Vector3, Single)
+  name.vb: Connect(Entity, Vector3, Entity, Vector3, Single)
+- uid: GTA.Rope.PinVertex(System.Int32,GTA.Math.Vector3)
+  commentId: M:GTA.Rope.PinVertex(System.Int32,GTA.Math.Vector3)
+  id: PinVertex(System.Int32,GTA.Math.Vector3)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: PinVertex(int, Vector3)
+  nameWithType: Rope.PinVertex(int, Vector3)
+  fullName: GTA.Rope.PinVertex(int, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PinVertex(int vertex, Vector3 position)
+    parameters:
+    - id: vertex
+      type: System.Int32
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Sub PinVertex(vertex As Integer, position As Vector3)
+  overload: GTA.Rope.PinVertex*
+  nameWithType.vb: Rope.PinVertex(Integer, Vector3)
+  fullName.vb: GTA.Rope.PinVertex(Integer, GTA.Math.Vector3)
+  name.vb: PinVertex(Integer, Vector3)
+- uid: GTA.Rope.UnpinVertex(System.Int32)
+  commentId: M:GTA.Rope.UnpinVertex(System.Int32)
+  id: UnpinVertex(System.Int32)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: UnpinVertex(int)
+  nameWithType: Rope.UnpinVertex(int)
+  fullName: GTA.Rope.UnpinVertex(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void UnpinVertex(int vertex)
+    parameters:
+    - id: vertex
+      type: System.Int32
+    content.vb: Public Sub UnpinVertex(vertex As Integer)
+  overload: GTA.Rope.UnpinVertex*
+  nameWithType.vb: Rope.UnpinVertex(Integer)
+  fullName.vb: GTA.Rope.UnpinVertex(Integer)
+  name.vb: UnpinVertex(Integer)
+- uid: GTA.Rope.GetVertexCoord(System.Int32)
+  commentId: M:GTA.Rope.GetVertexCoord(System.Int32)
+  id: GetVertexCoord(System.Int32)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: GetVertexCoord(int)
+  nameWithType: Rope.GetVertexCoord(int)
+  fullName: GTA.Rope.GetVertexCoord(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 GetVertexCoord(int vertex)
+    parameters:
+    - id: vertex
+      type: System.Int32
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function GetVertexCoord(vertex As Integer) As Vector3
+  overload: GTA.Rope.GetVertexCoord*
+  nameWithType.vb: Rope.GetVertexCoord(Integer)
+  fullName.vb: GTA.Rope.GetVertexCoord(Integer)
+  name.vb: GetVertexCoord(Integer)
+- uid: GTA.Rope.Delete
+  commentId: M:GTA.Rope.Delete
+  id: Delete
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: Rope.Delete()
+  fullName: GTA.Rope.Delete()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override void Delete()
+    content.vb: Public Overrides Sub Delete()
+  overridden: GTA.PoolObject.Delete
+  overload: GTA.Rope.Delete*
+- uid: GTA.Rope.Exists
+  commentId: M:GTA.Rope.Exists
+  id: Exists
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: Rope.Exists()
+  fullName: GTA.Rope.Exists()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Exists()
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Exists() As Boolean
+  overridden: GTA.PoolObject.Exists
+  overload: GTA.Rope.Exists*
+- uid: GTA.Rope.Equals(System.Object)
+  commentId: M:GTA.Rope.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Rope.Equals(object)
+  fullName: GTA.Rope.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.Rope.Equals*
+  nameWithType.vb: Rope.Equals(Object)
+  fullName.vb: GTA.Rope.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.Rope.op_Equality(GTA.Rope,GTA.Rope)
+  commentId: M:GTA.Rope.op_Equality(GTA.Rope,GTA.Rope)
+  id: op_Equality(GTA.Rope,GTA.Rope)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Rope, Rope)
+  nameWithType: Rope.operator ==(Rope, Rope)
+  fullName: GTA.Rope.operator ==(GTA.Rope, GTA.Rope)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(Rope left, Rope right)
+    parameters:
+    - id: left
+      type: GTA.Rope
+    - id: right
+      type: GTA.Rope
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Rope, right As Rope) As Boolean
+  overload: GTA.Rope.op_Equality*
+  nameWithType.vb: Rope.=(Rope, Rope)
+  fullName.vb: GTA.Rope.=(GTA.Rope, GTA.Rope)
+  name.vb: =(Rope, Rope)
+- uid: GTA.Rope.op_Inequality(GTA.Rope,GTA.Rope)
+  commentId: M:GTA.Rope.op_Inequality(GTA.Rope,GTA.Rope)
+  id: op_Inequality(GTA.Rope,GTA.Rope)
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Rope, Rope)
+  nameWithType: Rope.operator !=(Rope, Rope)
+  fullName: GTA.Rope.operator !=(GTA.Rope, GTA.Rope)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(Rope left, Rope right)
+    parameters:
+    - id: left
+      type: GTA.Rope
+    - id: right
+      type: GTA.Rope
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Rope, right As Rope) As Boolean
+  overload: GTA.Rope.op_Inequality*
+  nameWithType.vb: Rope.<>(Rope, Rope)
+  fullName.vb: GTA.Rope.<>(GTA.Rope, GTA.Rope)
+  name.vb: <>(Rope, Rope)
+- uid: GTA.Rope.op_Implicit(GTA.Rope)~GTA.Native.InputArgument
+  commentId: M:GTA.Rope.op_Implicit(GTA.Rope)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.Rope)~GTA.Native.InputArgument
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(Rope)
+  nameWithType: Rope.implicit operator InputArgument(Rope)
+  fullName: GTA.Rope.implicit operator GTA.Native.InputArgument(GTA.Rope)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(Rope value)
+    parameters:
+    - id: value
+      type: GTA.Rope
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As Rope) As InputArgument
+  overload: GTA.Rope.op_Implicit*
+  nameWithType.vb: Rope.CType(Rope)
+  fullName.vb: GTA.Rope.CType(GTA.Rope)
+  name.vb: CType(Rope)
+- uid: GTA.Rope.GetHashCode
+  commentId: M:GTA.Rope.GetHashCode
+  id: GetHashCode
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Rope.GetHashCode()
+  fullName: GTA.Rope.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.Rope.GetHashCode*
+- uid: GTA.Rope.VertexCount
+  commentId: P:GTA.Rope.VertexCount
+  id: VertexCount
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: VertexCount
+  nameWithType: Rope.VertexCount
+  fullName: GTA.Rope.VertexCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int VertexCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property VertexCount As Integer
+  overload: GTA.Rope.VertexCount*
+- uid: GTA.Rope.Length
+  commentId: P:GTA.Rope.Length
+  id: Length
+  parent: GTA.Rope
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Rope.Length
+  fullName: GTA.Rope.Length
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float Length { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Length As Single
+  overload: GTA.Rope.Length*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.PoolObject
+  commentId: T:GTA.PoolObject
+  parent: GTA
+  isExternal: true
+  href: GTA.PoolObject.html
+  name: PoolObject
+  nameWithType: PoolObject
+  fullName: GTA.PoolObject
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: GTA.IDeletable
+  commentId: T:GTA.IDeletable
+  parent: GTA
+  isExternal: true
+  href: GTA.IDeletable.html
+  name: IDeletable
+  nameWithType: IDeletable
+  fullName: GTA.IDeletable
+- uid: GTA.IExistable
+  commentId: T:GTA.IExistable
+  parent: GTA
+  isExternal: true
+  href: GTA.IExistable.html
+  name: IExistable
+  nameWithType: IExistable
+  fullName: GTA.IExistable
+- uid: GTA.PoolObject.Handle
+  commentId: P:GTA.PoolObject.Handle
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Handle
+  name: Handle
+  nameWithType: PoolObject.Handle
+  fullName: GTA.PoolObject.Handle
+- uid: GTA.PoolObject.NativeValue
+  commentId: P:GTA.PoolObject.NativeValue
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_NativeValue
+  name: NativeValue
+  nameWithType: PoolObject.NativeValue
+  fullName: GTA.PoolObject.NativeValue
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.Rope.#ctor*
+  commentId: Overload:GTA.Rope.#ctor
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope__ctor_System_Int32_
+  name: Rope
+  nameWithType: Rope.Rope
+  fullName: GTA.Rope.Rope
+  nameWithType.vb: Rope.New
+  fullName.vb: GTA.Rope.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.Rope.ActivatePhysics*
+  commentId: Overload:GTA.Rope.ActivatePhysics
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_ActivatePhysics
+  name: ActivatePhysics
+  nameWithType: Rope.ActivatePhysics
+  fullName: GTA.Rope.ActivatePhysics
+- uid: GTA.Rope.Attach*
+  commentId: Overload:GTA.Rope.Attach
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Attach_GTA_Entity_
+  name: Attach
+  nameWithType: Rope.Attach
+  fullName: GTA.Rope.Attach
+- uid: GTA.Entity
+  commentId: T:GTA.Entity
+  parent: GTA
+  isExternal: true
+  href: GTA.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: GTA.Entity
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.Rope.Detach*
+  commentId: Overload:GTA.Rope.Detach
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Detach_GTA_Entity_
+  name: Detach
+  nameWithType: Rope.Detach
+  fullName: GTA.Rope.Detach
+- uid: GTA.Rope.Connect*
+  commentId: Overload:GTA.Rope.Connect
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Connect_GTA_Entity_GTA_Entity_System_Single_
+  name: Connect
+  nameWithType: Rope.Connect
+  fullName: GTA.Rope.Connect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.Rope.PinVertex*
+  commentId: Overload:GTA.Rope.PinVertex
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_PinVertex_System_Int32_GTA_Math_Vector3_
+  name: PinVertex
+  nameWithType: Rope.PinVertex
+  fullName: GTA.Rope.PinVertex
+- uid: GTA.Rope.UnpinVertex*
+  commentId: Overload:GTA.Rope.UnpinVertex
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_UnpinVertex_System_Int32_
+  name: UnpinVertex
+  nameWithType: Rope.UnpinVertex
+  fullName: GTA.Rope.UnpinVertex
+- uid: GTA.Rope.GetVertexCoord*
+  commentId: Overload:GTA.Rope.GetVertexCoord
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_GetVertexCoord_System_Int32_
+  name: GetVertexCoord
+  nameWithType: Rope.GetVertexCoord
+  fullName: GTA.Rope.GetVertexCoord
+- uid: GTA.PoolObject.Delete
+  commentId: M:GTA.PoolObject.Delete
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  name: Delete()
+  nameWithType: PoolObject.Delete()
+  fullName: GTA.PoolObject.Delete()
+  spec.csharp:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+- uid: GTA.Rope.Delete*
+  commentId: Overload:GTA.Rope.Delete
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Delete
+  name: Delete
+  nameWithType: Rope.Delete
+  fullName: GTA.Rope.Delete
+- uid: GTA.PoolObject.Exists
+  commentId: M:GTA.PoolObject.Exists
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  name: Exists()
+  nameWithType: PoolObject.Exists()
+  fullName: GTA.PoolObject.Exists()
+  spec.csharp:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+- uid: GTA.Rope.Exists*
+  commentId: Overload:GTA.Rope.Exists
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Exists
+  name: Exists
+  nameWithType: Rope.Exists
+  fullName: GTA.Rope.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.Rope.Equals*
+  commentId: Overload:GTA.Rope.Equals
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Equals_System_Object_
+  name: Equals
+  nameWithType: Rope.Equals
+  fullName: GTA.Rope.Equals
+- uid: GTA.Rope.op_Equality*
+  commentId: Overload:GTA.Rope.op_Equality
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_op_Equality_GTA_Rope_GTA_Rope_
+  name: operator ==
+  nameWithType: Rope.operator ==
+  fullName: GTA.Rope.operator ==
+  nameWithType.vb: Rope.=
+  fullName.vb: GTA.Rope.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Rope.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.Rope.html#GTA_Rope_op_Equality_GTA_Rope_GTA_Rope_
+- uid: GTA.Rope
+  commentId: T:GTA.Rope
+  parent: GTA
+  isExternal: true
+  href: GTA.Rope.html
+  name: Rope
+  nameWithType: Rope
+  fullName: GTA.Rope
+- uid: GTA.Rope.op_Inequality*
+  commentId: Overload:GTA.Rope.op_Inequality
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_op_Inequality_GTA_Rope_GTA_Rope_
+  name: operator !=
+  nameWithType: Rope.operator !=
+  fullName: GTA.Rope.operator !=
+  nameWithType.vb: Rope.<>
+  fullName.vb: GTA.Rope.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Rope.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.Rope.html#GTA_Rope_op_Inequality_GTA_Rope_GTA_Rope_
+- uid: GTA.Rope.op_Implicit*
+  commentId: Overload:GTA.Rope.op_Implicit
+  name: implicit operator
+  nameWithType: Rope.implicit operator
+  fullName: GTA.Rope.implicit operator
+  nameWithType.vb: Rope.CType
+  fullName.vb: GTA.Rope.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.Rope.GetHashCode*
+  commentId: Overload:GTA.Rope.GetHashCode
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_GetHashCode
+  name: GetHashCode
+  nameWithType: Rope.GetHashCode
+  fullName: GTA.Rope.GetHashCode
+- uid: GTA.Rope.VertexCount*
+  commentId: Overload:GTA.Rope.VertexCount
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_VertexCount
+  name: VertexCount
+  nameWithType: Rope.VertexCount
+  fullName: GTA.Rope.VertexCount
+- uid: GTA.Rope.Length*
+  commentId: Overload:GTA.Rope.Length
+  isExternal: true
+  href: GTA.Rope.html#GTA_Rope_Length
+  name: Length
+  nameWithType: Rope.Length
+  fullName: GTA.Rope.Length

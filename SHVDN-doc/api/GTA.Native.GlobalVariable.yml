@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Native.GlobalVariable
+  commentId: T:GTA.Native.GlobalVariable
+  id: GlobalVariable
+  parent: GTA.Native
+  children:
+  - GTA.Native.GlobalVariable.ClearBit(System.Int32)
+  - GTA.Native.GlobalVariable.Get(System.Int32)
+  - GTA.Native.GlobalVariable.GetArray(System.Int32)
+  - GTA.Native.GlobalVariable.GetArrayItem(System.Int32,System.Int32)
+  - GTA.Native.GlobalVariable.GetStructField(System.Int32)
+  - GTA.Native.GlobalVariable.IsBitSet(System.Int32)
+  - GTA.Native.GlobalVariable.MemoryAddress
+  - GTA.Native.GlobalVariable.Read``1
+  - GTA.Native.GlobalVariable.SetBit(System.Int32)
+  - GTA.Native.GlobalVariable.WriteString(System.String,System.Int32)
+  - GTA.Native.GlobalVariable.Write``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: GlobalVariable
+  nameWithType: GlobalVariable
+  fullName: GTA.Native.GlobalVariable
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public struct GlobalVariable
+    content.vb: Public Structure GlobalVariable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Native.GlobalVariable.Get(System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: Get(int)
+  nameWithType: GlobalVariable.Get(int)
+  fullName: GTA.Native.GlobalVariable.Get(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public static GlobalVariable Get(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.Native.GlobalVariable
+    content.vb: Public Shared Function [Get](index As Integer) As GlobalVariable
+  overload: GTA.Native.GlobalVariable.Get*
+  nameWithType.vb: GlobalVariable.Get(Integer)
+  fullName.vb: GTA.Native.GlobalVariable.Get(Integer)
+  name.vb: Get(Integer)
+- uid: GTA.Native.GlobalVariable.Read``1
+  commentId: M:GTA.Native.GlobalVariable.Read``1
+  id: Read``1
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: Read<T>()
+  nameWithType: GlobalVariable.Read<T>()
+  fullName: GTA.Native.GlobalVariable.Read<T>()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public T Read<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function Read(Of T)() As T
+  overload: GTA.Native.GlobalVariable.Read*
+  nameWithType.vb: GlobalVariable.Read(Of T)()
+  fullName.vb: GTA.Native.GlobalVariable.Read(Of T)()
+  name.vb: Read(Of T)()
+- uid: GTA.Native.GlobalVariable.Write``1(``0)
+  commentId: M:GTA.Native.GlobalVariable.Write``1(``0)
+  id: Write``1(``0)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: Write<T>(T)
+  nameWithType: GlobalVariable.Write<T>(T)
+  fullName: GTA.Native.GlobalVariable.Write<T>(T)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public void Write<T>(T value)
+    parameters:
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Write(Of T)(value As T)
+  overload: GTA.Native.GlobalVariable.Write*
+  nameWithType.vb: GlobalVariable.Write(Of T)(T)
+  fullName.vb: GTA.Native.GlobalVariable.Write(Of T)(T)
+  name.vb: Write(Of T)(T)
+- uid: GTA.Native.GlobalVariable.WriteString(System.String,System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.WriteString(System.String,System.Int32)
+  id: WriteString(System.String,System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: WriteString(string, int)
+  nameWithType: GlobalVariable.WriteString(string, int)
+  fullName: GTA.Native.GlobalVariable.WriteString(string, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public void WriteString(string value, int maxSize)
+    parameters:
+    - id: value
+      type: System.String
+    - id: maxSize
+      type: System.Int32
+    content.vb: Public Sub WriteString(value As String, maxSize As Integer)
+  overload: GTA.Native.GlobalVariable.WriteString*
+  nameWithType.vb: GlobalVariable.WriteString(String, Integer)
+  fullName.vb: GTA.Native.GlobalVariable.WriteString(String, Integer)
+  name.vb: WriteString(String, Integer)
+- uid: GTA.Native.GlobalVariable.SetBit(System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.SetBit(System.Int32)
+  id: SetBit(System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: SetBit(int)
+  nameWithType: GlobalVariable.SetBit(int)
+  fullName: GTA.Native.GlobalVariable.SetBit(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public void SetBit(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SetBit(index As Integer)
+  overload: GTA.Native.GlobalVariable.SetBit*
+  nameWithType.vb: GlobalVariable.SetBit(Integer)
+  fullName.vb: GTA.Native.GlobalVariable.SetBit(Integer)
+  name.vb: SetBit(Integer)
+- uid: GTA.Native.GlobalVariable.ClearBit(System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.ClearBit(System.Int32)
+  id: ClearBit(System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: ClearBit(int)
+  nameWithType: GlobalVariable.ClearBit(int)
+  fullName: GTA.Native.GlobalVariable.ClearBit(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public void ClearBit(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub ClearBit(index As Integer)
+  overload: GTA.Native.GlobalVariable.ClearBit*
+  nameWithType.vb: GlobalVariable.ClearBit(Integer)
+  fullName.vb: GTA.Native.GlobalVariable.ClearBit(Integer)
+  name.vb: ClearBit(Integer)
+- uid: GTA.Native.GlobalVariable.IsBitSet(System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.IsBitSet(System.Int32)
+  id: IsBitSet(System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: IsBitSet(int)
+  nameWithType: GlobalVariable.IsBitSet(int)
+  fullName: GTA.Native.GlobalVariable.IsBitSet(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public bool IsBitSet(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsBitSet(index As Integer) As Boolean
+  overload: GTA.Native.GlobalVariable.IsBitSet*
+  nameWithType.vb: GlobalVariable.IsBitSet(Integer)
+  fullName.vb: GTA.Native.GlobalVariable.IsBitSet(Integer)
+  name.vb: IsBitSet(Integer)
+- uid: GTA.Native.GlobalVariable.GetStructField(System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.GetStructField(System.Int32)
+  id: GetStructField(System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: GetStructField(int)
+  nameWithType: GlobalVariable.GetStructField(int)
+  fullName: GTA.Native.GlobalVariable.GetStructField(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public GlobalVariable GetStructField(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.Native.GlobalVariable
+    content.vb: Public Function GetStructField(index As Integer) As GlobalVariable
+  overload: GTA.Native.GlobalVariable.GetStructField*
+  nameWithType.vb: GlobalVariable.GetStructField(Integer)
+  fullName.vb: GTA.Native.GlobalVariable.GetStructField(Integer)
+  name.vb: GetStructField(Integer)
+- uid: GTA.Native.GlobalVariable.GetArray(System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.GetArray(System.Int32)
+  id: GetArray(System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: GetArray(int)
+  nameWithType: GlobalVariable.GetArray(int)
+  fullName: GTA.Native.GlobalVariable.GetArray(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public GlobalVariable[] GetArray(int itemSize)
+    parameters:
+    - id: itemSize
+      type: System.Int32
+    return:
+      type: GTA.Native.GlobalVariable[]
+    content.vb: Public Function GetArray(itemSize As Integer) As GlobalVariable()
+  overload: GTA.Native.GlobalVariable.GetArray*
+  nameWithType.vb: GlobalVariable.GetArray(Integer)
+  fullName.vb: GTA.Native.GlobalVariable.GetArray(Integer)
+  name.vb: GetArray(Integer)
+- uid: GTA.Native.GlobalVariable.GetArrayItem(System.Int32,System.Int32)
+  commentId: M:GTA.Native.GlobalVariable.GetArrayItem(System.Int32,System.Int32)
+  id: GetArrayItem(System.Int32,System.Int32)
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: GetArrayItem(int, int)
+  nameWithType: GlobalVariable.GetArrayItem(int, int)
+  fullName: GTA.Native.GlobalVariable.GetArrayItem(int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public GlobalVariable GetArrayItem(int index, int itemSize)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: itemSize
+      type: System.Int32
+    return:
+      type: GTA.Native.GlobalVariable
+    content.vb: Public Function GetArrayItem(index As Integer, itemSize As Integer) As GlobalVariable
+  overload: GTA.Native.GlobalVariable.GetArrayItem*
+  nameWithType.vb: GlobalVariable.GetArrayItem(Integer, Integer)
+  fullName.vb: GTA.Native.GlobalVariable.GetArrayItem(Integer, Integer)
+  name.vb: GetArrayItem(Integer, Integer)
+- uid: GTA.Native.GlobalVariable.MemoryAddress
+  commentId: P:GTA.Native.GlobalVariable.MemoryAddress
+  id: MemoryAddress
+  parent: GTA.Native.GlobalVariable
+  langs:
+  - csharp
+  - vb
+  name: MemoryAddress
+  nameWithType: GlobalVariable.MemoryAddress
+  fullName: GTA.Native.GlobalVariable.MemoryAddress
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Native
+  syntax:
+    content: public readonly IntPtr MemoryAddress { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public ReadOnly Property MemoryAddress As IntPtr
+  overload: GTA.Native.GlobalVariable.MemoryAddress*
+references:
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native.GlobalVariable.Get*
+  commentId: Overload:GTA.Native.GlobalVariable.Get
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_Get_System_Int32_
+  name: Get
+  nameWithType: GlobalVariable.Get
+  fullName: GTA.Native.GlobalVariable.Get
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.Native.GlobalVariable
+  commentId: T:GTA.Native.GlobalVariable
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html
+  name: GlobalVariable
+  nameWithType: GlobalVariable
+  fullName: GTA.Native.GlobalVariable
+- uid: GTA.Native.GlobalVariable.Read*
+  commentId: Overload:GTA.Native.GlobalVariable.Read
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_Read__1
+  name: Read
+  nameWithType: GlobalVariable.Read
+  fullName: GTA.Native.GlobalVariable.Read
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: GTA.Native.GlobalVariable.Write*
+  commentId: Overload:GTA.Native.GlobalVariable.Write
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_Write__1___0_
+  name: Write
+  nameWithType: GlobalVariable.Write
+  fullName: GTA.Native.GlobalVariable.Write
+- uid: GTA.Native.GlobalVariable.WriteString*
+  commentId: Overload:GTA.Native.GlobalVariable.WriteString
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_WriteString_System_String_System_Int32_
+  name: WriteString
+  nameWithType: GlobalVariable.WriteString
+  fullName: GTA.Native.GlobalVariable.WriteString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.Native.GlobalVariable.SetBit*
+  commentId: Overload:GTA.Native.GlobalVariable.SetBit
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_SetBit_System_Int32_
+  name: SetBit
+  nameWithType: GlobalVariable.SetBit
+  fullName: GTA.Native.GlobalVariable.SetBit
+- uid: GTA.Native.GlobalVariable.ClearBit*
+  commentId: Overload:GTA.Native.GlobalVariable.ClearBit
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_ClearBit_System_Int32_
+  name: ClearBit
+  nameWithType: GlobalVariable.ClearBit
+  fullName: GTA.Native.GlobalVariable.ClearBit
+- uid: GTA.Native.GlobalVariable.IsBitSet*
+  commentId: Overload:GTA.Native.GlobalVariable.IsBitSet
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_IsBitSet_System_Int32_
+  name: IsBitSet
+  nameWithType: GlobalVariable.IsBitSet
+  fullName: GTA.Native.GlobalVariable.IsBitSet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Native.GlobalVariable.GetStructField*
+  commentId: Overload:GTA.Native.GlobalVariable.GetStructField
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_GetStructField_System_Int32_
+  name: GetStructField
+  nameWithType: GlobalVariable.GetStructField
+  fullName: GTA.Native.GlobalVariable.GetStructField
+- uid: GTA.Native.GlobalVariable.GetArray*
+  commentId: Overload:GTA.Native.GlobalVariable.GetArray
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_GetArray_System_Int32_
+  name: GetArray
+  nameWithType: GlobalVariable.GetArray
+  fullName: GTA.Native.GlobalVariable.GetArray
+- uid: GTA.Native.GlobalVariable[]
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html
+  name: GlobalVariable[]
+  nameWithType: GlobalVariable[]
+  fullName: GTA.Native.GlobalVariable[]
+  nameWithType.vb: GlobalVariable()
+  fullName.vb: GTA.Native.GlobalVariable()
+  name.vb: GlobalVariable()
+  spec.csharp:
+  - uid: GTA.Native.GlobalVariable
+    name: GlobalVariable
+    isExternal: true
+    href: GTA.Native.GlobalVariable.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.Native.GlobalVariable
+    name: GlobalVariable
+    isExternal: true
+    href: GTA.Native.GlobalVariable.html
+  - name: (
+  - name: )
+- uid: GTA.Native.GlobalVariable.GetArrayItem*
+  commentId: Overload:GTA.Native.GlobalVariable.GetArrayItem
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_GetArrayItem_System_Int32_System_Int32_
+  name: GetArrayItem
+  nameWithType: GlobalVariable.GetArrayItem
+  fullName: GTA.Native.GlobalVariable.GetArrayItem
+- uid: GTA.Native.GlobalVariable.MemoryAddress*
+  commentId: Overload:GTA.Native.GlobalVariable.MemoryAddress
+  isExternal: true
+  href: GTA.Native.GlobalVariable.html#GTA_Native_GlobalVariable_MemoryAddress
+  name: MemoryAddress
+  nameWithType: GlobalVariable.MemoryAddress
+  fullName: GTA.Native.GlobalVariable.MemoryAddress
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr

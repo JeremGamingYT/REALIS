@@ -1,0 +1,907 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PedHeadshot
+  commentId: T:GTA.PedHeadshot
+  id: PedHeadshot
+  parent: GTA
+  children:
+  - GTA.PedHeadshot.Equals(System.Object)
+  - GTA.PedHeadshot.GetHashCode
+  - GTA.PedHeadshot.GetTxdNoStatusCheck
+  - GTA.PedHeadshot.Handle
+  - GTA.PedHeadshot.IsReady
+  - GTA.PedHeadshot.IsValid
+  - GTA.PedHeadshot.NativeValue
+  - GTA.PedHeadshot.Register(GTA.Ped)
+  - GTA.PedHeadshot.RegisterHiRes(GTA.Ped)
+  - GTA.PedHeadshot.RegisterTransparent(GTA.Ped)
+  - GTA.PedHeadshot.Release
+  - GTA.PedHeadshot.TryGetTxd(GTA.Graphics.Txd@)
+  - GTA.PedHeadshot.op_Equality(GTA.PedHeadshot,GTA.PedHeadshot)
+  - GTA.PedHeadshot.op_Implicit(GTA.PedHeadshot)~GTA.Native.InputArgument
+  - GTA.PedHeadshot.op_Inequality(GTA.PedHeadshot,GTA.PedHeadshot)
+  langs:
+  - csharp
+  - vb
+  name: PedHeadshot
+  nameWithType: PedHeadshot
+  fullName: GTA.PedHeadshot
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public class PedHeadshot : INativeValue'
+    content.vb: Public Class PedHeadshot Implements INativeValue
+  inheritance:
+  - System.Object
+  implements:
+  - GTA.Native.INativeValue
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: GTA.PedHeadshot.Register(GTA.Ped)
+  commentId: M:GTA.PedHeadshot.Register(GTA.Ped)
+  id: Register(GTA.Ped)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: Register(Ped)
+  nameWithType: PedHeadshot.Register(Ped)
+  fullName: GTA.PedHeadshot.Register(GTA.Ped)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedHeadshot Register(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    return:
+      type: GTA.PedHeadshot
+    content.vb: Public Shared Function Register(ped As Ped) As PedHeadshot
+  overload: GTA.PedHeadshot.Register*
+- uid: GTA.PedHeadshot.RegisterHiRes(GTA.Ped)
+  commentId: M:GTA.PedHeadshot.RegisterHiRes(GTA.Ped)
+  id: RegisterHiRes(GTA.Ped)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: RegisterHiRes(Ped)
+  nameWithType: PedHeadshot.RegisterHiRes(Ped)
+  fullName: GTA.PedHeadshot.RegisterHiRes(GTA.Ped)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedHeadshot RegisterHiRes(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    return:
+      type: GTA.PedHeadshot
+    content.vb: Public Shared Function RegisterHiRes(ped As Ped) As PedHeadshot
+  overload: GTA.PedHeadshot.RegisterHiRes*
+- uid: GTA.PedHeadshot.RegisterTransparent(GTA.Ped)
+  commentId: M:GTA.PedHeadshot.RegisterTransparent(GTA.Ped)
+  id: RegisterTransparent(GTA.Ped)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: RegisterTransparent(Ped)
+  nameWithType: PedHeadshot.RegisterTransparent(Ped)
+  fullName: GTA.PedHeadshot.RegisterTransparent(GTA.Ped)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedHeadshot RegisterTransparent(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    return:
+      type: GTA.PedHeadshot
+    content.vb: Public Shared Function RegisterTransparent(ped As Ped) As PedHeadshot
+  overload: GTA.PedHeadshot.RegisterTransparent*
+- uid: GTA.PedHeadshot.TryGetTxd(GTA.Graphics.Txd@)
+  commentId: M:GTA.PedHeadshot.TryGetTxd(GTA.Graphics.Txd@)
+  id: TryGetTxd(GTA.Graphics.Txd@)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: TryGetTxd(out Txd)
+  nameWithType: PedHeadshot.TryGetTxd(out Txd)
+  fullName: GTA.PedHeadshot.TryGetTxd(out GTA.Graphics.Txd)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool TryGetTxd(out Txd txd)
+    parameters:
+    - id: txd
+      type: GTA.Graphics.Txd
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetTxd(txd As Txd) As Boolean
+  overload: GTA.PedHeadshot.TryGetTxd*
+  nameWithType.vb: PedHeadshot.TryGetTxd(Txd)
+  fullName.vb: GTA.PedHeadshot.TryGetTxd(GTA.Graphics.Txd)
+  name.vb: TryGetTxd(Txd)
+- uid: GTA.PedHeadshot.GetTxdNoStatusCheck
+  commentId: M:GTA.PedHeadshot.GetTxdNoStatusCheck
+  id: GetTxdNoStatusCheck
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: GetTxdNoStatusCheck()
+  nameWithType: PedHeadshot.GetTxdNoStatusCheck()
+  fullName: GTA.PedHeadshot.GetTxdNoStatusCheck()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Txd GetTxdNoStatusCheck()
+    return:
+      type: GTA.Graphics.Txd
+    content.vb: Public Function GetTxdNoStatusCheck() As Txd
+  overload: GTA.PedHeadshot.GetTxdNoStatusCheck*
+- uid: GTA.PedHeadshot.Release
+  commentId: M:GTA.PedHeadshot.Release
+  id: Release
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: Release()
+  nameWithType: PedHeadshot.Release()
+  fullName: GTA.PedHeadshot.Release()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Release()
+    content.vb: Public Sub Release()
+  overload: GTA.PedHeadshot.Release*
+- uid: GTA.PedHeadshot.Equals(System.Object)
+  commentId: M:GTA.PedHeadshot.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: PedHeadshot.Equals(object)
+  fullName: GTA.PedHeadshot.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.PedHeadshot.Equals*
+  nameWithType.vb: PedHeadshot.Equals(Object)
+  fullName.vb: GTA.PedHeadshot.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.PedHeadshot.op_Equality(GTA.PedHeadshot,GTA.PedHeadshot)
+  commentId: M:GTA.PedHeadshot.op_Equality(GTA.PedHeadshot,GTA.PedHeadshot)
+  id: op_Equality(GTA.PedHeadshot,GTA.PedHeadshot)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: operator ==(PedHeadshot, PedHeadshot)
+  nameWithType: PedHeadshot.operator ==(PedHeadshot, PedHeadshot)
+  fullName: GTA.PedHeadshot.operator ==(GTA.PedHeadshot, GTA.PedHeadshot)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(PedHeadshot left, PedHeadshot right)
+    parameters:
+    - id: left
+      type: GTA.PedHeadshot
+    - id: right
+      type: GTA.PedHeadshot
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As PedHeadshot, right As PedHeadshot) As Boolean
+  overload: GTA.PedHeadshot.op_Equality*
+  nameWithType.vb: PedHeadshot.=(PedHeadshot, PedHeadshot)
+  fullName.vb: GTA.PedHeadshot.=(GTA.PedHeadshot, GTA.PedHeadshot)
+  name.vb: =(PedHeadshot, PedHeadshot)
+- uid: GTA.PedHeadshot.op_Inequality(GTA.PedHeadshot,GTA.PedHeadshot)
+  commentId: M:GTA.PedHeadshot.op_Inequality(GTA.PedHeadshot,GTA.PedHeadshot)
+  id: op_Inequality(GTA.PedHeadshot,GTA.PedHeadshot)
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: operator !=(PedHeadshot, PedHeadshot)
+  nameWithType: PedHeadshot.operator !=(PedHeadshot, PedHeadshot)
+  fullName: GTA.PedHeadshot.operator !=(GTA.PedHeadshot, GTA.PedHeadshot)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(PedHeadshot left, PedHeadshot right)
+    parameters:
+    - id: left
+      type: GTA.PedHeadshot
+    - id: right
+      type: GTA.PedHeadshot
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As PedHeadshot, right As PedHeadshot) As Boolean
+  overload: GTA.PedHeadshot.op_Inequality*
+  nameWithType.vb: PedHeadshot.<>(PedHeadshot, PedHeadshot)
+  fullName.vb: GTA.PedHeadshot.<>(GTA.PedHeadshot, GTA.PedHeadshot)
+  name.vb: <>(PedHeadshot, PedHeadshot)
+- uid: GTA.PedHeadshot.op_Implicit(GTA.PedHeadshot)~GTA.Native.InputArgument
+  commentId: M:GTA.PedHeadshot.op_Implicit(GTA.PedHeadshot)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.PedHeadshot)~GTA.Native.InputArgument
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(PedHeadshot)
+  nameWithType: PedHeadshot.implicit operator InputArgument(PedHeadshot)
+  fullName: GTA.PedHeadshot.implicit operator GTA.Native.InputArgument(GTA.PedHeadshot)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(PedHeadshot value)
+    parameters:
+    - id: value
+      type: GTA.PedHeadshot
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As PedHeadshot) As InputArgument
+  overload: GTA.PedHeadshot.op_Implicit*
+  nameWithType.vb: PedHeadshot.CType(PedHeadshot)
+  fullName.vb: GTA.PedHeadshot.CType(GTA.PedHeadshot)
+  name.vb: CType(PedHeadshot)
+- uid: GTA.PedHeadshot.GetHashCode
+  commentId: M:GTA.PedHeadshot.GetHashCode
+  id: GetHashCode
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PedHeadshot.GetHashCode()
+  fullName: GTA.PedHeadshot.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.PedHeadshot.GetHashCode*
+- uid: GTA.PedHeadshot.Handle
+  commentId: P:GTA.PedHeadshot.Handle
+  id: Handle
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: Handle
+  nameWithType: PedHeadshot.Handle
+  fullName: GTA.PedHeadshot.Handle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int Handle { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Handle As Integer
+  overload: GTA.PedHeadshot.Handle*
+- uid: GTA.PedHeadshot.NativeValue
+  commentId: P:GTA.PedHeadshot.NativeValue
+  id: NativeValue
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: NativeValue
+  nameWithType: PedHeadshot.NativeValue
+  fullName: GTA.PedHeadshot.NativeValue
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public ulong NativeValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property NativeValue As ULong
+  overload: GTA.PedHeadshot.NativeValue*
+  implements:
+  - GTA.Native.INativeValue.NativeValue
+- uid: GTA.PedHeadshot.IsValid
+  commentId: P:GTA.PedHeadshot.IsValid
+  id: IsValid
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: PedHeadshot.IsValid
+  fullName: GTA.PedHeadshot.IsValid
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: GTA.PedHeadshot.IsValid*
+- uid: GTA.PedHeadshot.IsReady
+  commentId: P:GTA.PedHeadshot.IsReady
+  id: IsReady
+  parent: GTA.PedHeadshot
+  langs:
+  - csharp
+  - vb
+  name: IsReady
+  nameWithType: PedHeadshot.IsReady
+  fullName: GTA.PedHeadshot.IsReady
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsReady { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReady As Boolean
+  overload: GTA.PedHeadshot.IsReady*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.PedHeadshot.Register*
+  commentId: Overload:GTA.PedHeadshot.Register
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_Register_GTA_Ped_
+  name: Register
+  nameWithType: PedHeadshot.Register
+  fullName: GTA.PedHeadshot.Register
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA.PedHeadshot
+  commentId: T:GTA.PedHeadshot
+  parent: GTA
+  isExternal: true
+  href: GTA.PedHeadshot.html
+  name: PedHeadshot
+  nameWithType: PedHeadshot
+  fullName: GTA.PedHeadshot
+- uid: GTA.PedHeadshot.RegisterHiRes*
+  commentId: Overload:GTA.PedHeadshot.RegisterHiRes
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_RegisterHiRes_GTA_Ped_
+  name: RegisterHiRes
+  nameWithType: PedHeadshot.RegisterHiRes
+  fullName: GTA.PedHeadshot.RegisterHiRes
+- uid: GTA.PedHeadshot.RegisterTransparent*
+  commentId: Overload:GTA.PedHeadshot.RegisterTransparent
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_RegisterTransparent_GTA_Ped_
+  name: RegisterTransparent
+  nameWithType: PedHeadshot.RegisterTransparent
+  fullName: GTA.PedHeadshot.RegisterTransparent
+- uid: GTA.PedHeadshot.TryGetTxd*
+  commentId: Overload:GTA.PedHeadshot.TryGetTxd
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_TryGetTxd_GTA_Graphics_Txd__
+  name: TryGetTxd
+  nameWithType: PedHeadshot.TryGetTxd
+  fullName: GTA.PedHeadshot.TryGetTxd
+- uid: GTA.Graphics.Txd
+  commentId: T:GTA.Graphics.Txd
+  parent: GTA.Graphics
+  isExternal: true
+  href: GTA.Graphics.Txd.html
+  name: Txd
+  nameWithType: Txd
+  fullName: GTA.Graphics.Txd
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Graphics
+  commentId: N:GTA.Graphics
+  isExternal: true
+  href: GTA.html
+  name: GTA.Graphics
+  nameWithType: GTA.Graphics
+  fullName: GTA.Graphics
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Graphics
+    name: Graphics
+    isExternal: true
+    href: GTA.Graphics.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Graphics
+    name: Graphics
+    isExternal: true
+    href: GTA.Graphics.html
+- uid: GTA.PedHeadshot.GetTxdNoStatusCheck*
+  commentId: Overload:GTA.PedHeadshot.GetTxdNoStatusCheck
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_GetTxdNoStatusCheck
+  name: GetTxdNoStatusCheck
+  nameWithType: PedHeadshot.GetTxdNoStatusCheck
+  fullName: GTA.PedHeadshot.GetTxdNoStatusCheck
+- uid: GTA.PedHeadshot.Release*
+  commentId: Overload:GTA.PedHeadshot.Release
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_Release
+  name: Release
+  nameWithType: PedHeadshot.Release
+  fullName: GTA.PedHeadshot.Release
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.PedHeadshot.Equals*
+  commentId: Overload:GTA.PedHeadshot.Equals
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_Equals_System_Object_
+  name: Equals
+  nameWithType: PedHeadshot.Equals
+  fullName: GTA.PedHeadshot.Equals
+- uid: GTA.PedHeadshot.op_Equality*
+  commentId: Overload:GTA.PedHeadshot.op_Equality
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_op_Equality_GTA_PedHeadshot_GTA_PedHeadshot_
+  name: operator ==
+  nameWithType: PedHeadshot.operator ==
+  fullName: GTA.PedHeadshot.operator ==
+  nameWithType.vb: PedHeadshot.=
+  fullName.vb: GTA.PedHeadshot.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.PedHeadshot.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.PedHeadshot.html#GTA_PedHeadshot_op_Equality_GTA_PedHeadshot_GTA_PedHeadshot_
+- uid: GTA.PedHeadshot.op_Inequality*
+  commentId: Overload:GTA.PedHeadshot.op_Inequality
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_op_Inequality_GTA_PedHeadshot_GTA_PedHeadshot_
+  name: operator !=
+  nameWithType: PedHeadshot.operator !=
+  fullName: GTA.PedHeadshot.operator !=
+  nameWithType.vb: PedHeadshot.<>
+  fullName.vb: GTA.PedHeadshot.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.PedHeadshot.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.PedHeadshot.html#GTA_PedHeadshot_op_Inequality_GTA_PedHeadshot_GTA_PedHeadshot_
+- uid: GTA.PedHeadshot.op_Implicit*
+  commentId: Overload:GTA.PedHeadshot.op_Implicit
+  name: implicit operator
+  nameWithType: PedHeadshot.implicit operator
+  fullName: GTA.PedHeadshot.implicit operator
+  nameWithType.vb: PedHeadshot.CType
+  fullName.vb: GTA.PedHeadshot.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.PedHeadshot.GetHashCode*
+  commentId: Overload:GTA.PedHeadshot.GetHashCode
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_GetHashCode
+  name: GetHashCode
+  nameWithType: PedHeadshot.GetHashCode
+  fullName: GTA.PedHeadshot.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.PedHeadshot.Handle*
+  commentId: Overload:GTA.PedHeadshot.Handle
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_Handle
+  name: Handle
+  nameWithType: PedHeadshot.Handle
+  fullName: GTA.PedHeadshot.Handle
+- uid: GTA.PedHeadshot.NativeValue*
+  commentId: Overload:GTA.PedHeadshot.NativeValue
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_NativeValue
+  name: NativeValue
+  nameWithType: PedHeadshot.NativeValue
+  fullName: GTA.PedHeadshot.NativeValue
+- uid: GTA.Native.INativeValue.NativeValue
+  commentId: P:GTA.Native.INativeValue.NativeValue
+  parent: GTA.Native.INativeValue
+  isExternal: true
+  href: GTA.Native.INativeValue.html#GTA_Native_INativeValue_NativeValue
+  name: NativeValue
+  nameWithType: INativeValue.NativeValue
+  fullName: GTA.Native.INativeValue.NativeValue
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: GTA.PedHeadshot.IsValid*
+  commentId: Overload:GTA.PedHeadshot.IsValid
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_IsValid
+  name: IsValid
+  nameWithType: PedHeadshot.IsValid
+  fullName: GTA.PedHeadshot.IsValid
+- uid: GTA.PedHeadshot.IsReady*
+  commentId: Overload:GTA.PedHeadshot.IsReady
+  isExternal: true
+  href: GTA.PedHeadshot.html#GTA_PedHeadshot_IsReady
+  name: IsReady
+  nameWithType: PedHeadshot.IsReady
+  fullName: GTA.PedHeadshot.IsReady

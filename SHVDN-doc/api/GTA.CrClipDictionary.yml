@@ -1,0 +1,1047 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CrClipDictionary
+  commentId: T:GTA.CrClipDictionary
+  id: CrClipDictionary
+  parent: GTA
+  children:
+  - GTA.CrClipDictionary.#ctor(System.String)
+  - GTA.CrClipDictionary.Equals(GTA.CrClipDictionary)
+  - GTA.CrClipDictionary.Equals(System.Object)
+  - GTA.CrClipDictionary.Exists
+  - GTA.CrClipDictionary.GetHashCode
+  - GTA.CrClipDictionary.HashName
+  - GTA.CrClipDictionary.IsLoaded
+  - GTA.CrClipDictionary.MarkAsNoLongerNeeded
+  - GTA.CrClipDictionary.Name
+  - GTA.CrClipDictionary.Request
+  - GTA.CrClipDictionary.ToString
+  - GTA.CrClipDictionary.op_Equality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  - GTA.CrClipDictionary.op_Explicit(GTA.CrClipDictionary)~System.String
+  - GTA.CrClipDictionary.op_Explicit(System.String)~GTA.CrClipDictionary
+  - GTA.CrClipDictionary.op_Implicit(GTA.CrClipDictionary)~GTA.Native.InputArgument
+  - GTA.CrClipDictionary.op_Inequality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  langs:
+  - csharp
+  - vb
+  name: CrClipDictionary
+  nameWithType: CrClipDictionary
+  fullName: GTA.CrClipDictionary
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public readonly struct CrClipDictionary : IEquatable<CrClipDictionary>, IScriptStreamingResource'
+    content.vb: Public Structure CrClipDictionary Implements IEquatable(Of CrClipDictionary), IScriptStreamingResource
+  implements:
+  - System.IEquatable{GTA.CrClipDictionary}
+  - GTA.IScriptStreamingResource
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.CrClipDictionary.#ctor(System.String)
+  commentId: M:GTA.CrClipDictionary.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: CrClipDictionary(string)
+  nameWithType: CrClipDictionary.CrClipDictionary(string)
+  fullName: GTA.CrClipDictionary.CrClipDictionary(string)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public CrClipDictionary(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: GTA.CrClipDictionary.#ctor*
+  nameWithType.vb: CrClipDictionary.New(String)
+  fullName.vb: GTA.CrClipDictionary.New(String)
+  name.vb: New(String)
+- uid: GTA.CrClipDictionary.HashName
+  commentId: M:GTA.CrClipDictionary.HashName
+  id: HashName
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: HashName()
+  nameWithType: CrClipDictionary.HashName()
+  fullName: GTA.CrClipDictionary.HashName()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public AtHashValue HashName()
+    return:
+      type: GTA.AtHashValue
+    content.vb: Public Function HashName() As AtHashValue
+  overload: GTA.CrClipDictionary.HashName*
+- uid: GTA.CrClipDictionary.Request
+  commentId: M:GTA.CrClipDictionary.Request
+  id: Request
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: Request()
+  nameWithType: CrClipDictionary.Request()
+  fullName: GTA.CrClipDictionary.Request()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void Request()
+    content.vb: Public Sub Request()
+  overload: GTA.CrClipDictionary.Request*
+  implements:
+  - GTA.IScriptStreamingResource.Request
+- uid: GTA.CrClipDictionary.MarkAsNoLongerNeeded
+  commentId: M:GTA.CrClipDictionary.MarkAsNoLongerNeeded
+  id: MarkAsNoLongerNeeded
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: MarkAsNoLongerNeeded()
+  nameWithType: CrClipDictionary.MarkAsNoLongerNeeded()
+  fullName: GTA.CrClipDictionary.MarkAsNoLongerNeeded()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void MarkAsNoLongerNeeded()
+    content.vb: Public Sub MarkAsNoLongerNeeded()
+  overload: GTA.CrClipDictionary.MarkAsNoLongerNeeded*
+  implements:
+  - GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+- uid: GTA.CrClipDictionary.Equals(GTA.CrClipDictionary)
+  commentId: M:GTA.CrClipDictionary.Equals(GTA.CrClipDictionary)
+  id: Equals(GTA.CrClipDictionary)
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: Equals(CrClipDictionary)
+  nameWithType: CrClipDictionary.Equals(CrClipDictionary)
+  fullName: GTA.CrClipDictionary.Equals(GTA.CrClipDictionary)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool Equals(CrClipDictionary other)
+    parameters:
+    - id: other
+      type: GTA.CrClipDictionary
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As CrClipDictionary) As Boolean
+  overload: GTA.CrClipDictionary.Equals*
+  implements:
+  - System.IEquatable{GTA.CrClipDictionary}.Equals(GTA.CrClipDictionary)
+- uid: GTA.CrClipDictionary.Equals(System.Object)
+  commentId: M:GTA.CrClipDictionary.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: CrClipDictionary.Equals(object)
+  fullName: GTA.CrClipDictionary.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.CrClipDictionary.Equals*
+  nameWithType.vb: CrClipDictionary.Equals(Object)
+  fullName.vb: GTA.CrClipDictionary.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.CrClipDictionary.op_Equality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  commentId: M:GTA.CrClipDictionary.op_Equality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  id: op_Equality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: operator ==(CrClipDictionary, CrClipDictionary)
+  nameWithType: CrClipDictionary.operator ==(CrClipDictionary, CrClipDictionary)
+  fullName: GTA.CrClipDictionary.operator ==(GTA.CrClipDictionary, GTA.CrClipDictionary)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(CrClipDictionary left, CrClipDictionary right)
+    parameters:
+    - id: left
+      type: GTA.CrClipDictionary
+    - id: right
+      type: GTA.CrClipDictionary
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As CrClipDictionary, right As CrClipDictionary) As Boolean
+  overload: GTA.CrClipDictionary.op_Equality*
+  nameWithType.vb: CrClipDictionary.=(CrClipDictionary, CrClipDictionary)
+  fullName.vb: GTA.CrClipDictionary.=(GTA.CrClipDictionary, GTA.CrClipDictionary)
+  name.vb: =(CrClipDictionary, CrClipDictionary)
+- uid: GTA.CrClipDictionary.op_Inequality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  commentId: M:GTA.CrClipDictionary.op_Inequality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  id: op_Inequality(GTA.CrClipDictionary,GTA.CrClipDictionary)
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: operator !=(CrClipDictionary, CrClipDictionary)
+  nameWithType: CrClipDictionary.operator !=(CrClipDictionary, CrClipDictionary)
+  fullName: GTA.CrClipDictionary.operator !=(GTA.CrClipDictionary, GTA.CrClipDictionary)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(CrClipDictionary left, CrClipDictionary right)
+    parameters:
+    - id: left
+      type: GTA.CrClipDictionary
+    - id: right
+      type: GTA.CrClipDictionary
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As CrClipDictionary, right As CrClipDictionary) As Boolean
+  overload: GTA.CrClipDictionary.op_Inequality*
+  nameWithType.vb: CrClipDictionary.<>(CrClipDictionary, CrClipDictionary)
+  fullName.vb: GTA.CrClipDictionary.<>(GTA.CrClipDictionary, GTA.CrClipDictionary)
+  name.vb: <>(CrClipDictionary, CrClipDictionary)
+- uid: GTA.CrClipDictionary.op_Implicit(GTA.CrClipDictionary)~GTA.Native.InputArgument
+  commentId: M:GTA.CrClipDictionary.op_Implicit(GTA.CrClipDictionary)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.CrClipDictionary)~GTA.Native.InputArgument
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(CrClipDictionary)
+  nameWithType: CrClipDictionary.implicit operator InputArgument(CrClipDictionary)
+  fullName: GTA.CrClipDictionary.implicit operator GTA.Native.InputArgument(GTA.CrClipDictionary)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(CrClipDictionary value)
+    parameters:
+    - id: value
+      type: GTA.CrClipDictionary
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As CrClipDictionary) As InputArgument
+  overload: GTA.CrClipDictionary.op_Implicit*
+  nameWithType.vb: CrClipDictionary.CType(CrClipDictionary)
+  fullName.vb: GTA.CrClipDictionary.CType(GTA.CrClipDictionary)
+  name.vb: CType(CrClipDictionary)
+- uid: GTA.CrClipDictionary.op_Explicit(System.String)~GTA.CrClipDictionary
+  commentId: M:GTA.CrClipDictionary.op_Explicit(System.String)~GTA.CrClipDictionary
+  id: op_Explicit(System.String)~GTA.CrClipDictionary
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: explicit operator CrClipDictionary(string)
+  nameWithType: CrClipDictionary.explicit operator CrClipDictionary(string)
+  fullName: GTA.CrClipDictionary.explicit operator GTA.CrClipDictionary(string)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static explicit operator CrClipDictionary(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: GTA.CrClipDictionary
+    content.vb: Public Shared Narrowing Operator CType(value As String) As CrClipDictionary
+  overload: GTA.CrClipDictionary.op_Explicit*
+  nameWithType.vb: CrClipDictionary.CType(String)
+  fullName.vb: GTA.CrClipDictionary.CType(String)
+  name.vb: CType(String)
+- uid: GTA.CrClipDictionary.op_Explicit(GTA.CrClipDictionary)~System.String
+  commentId: M:GTA.CrClipDictionary.op_Explicit(GTA.CrClipDictionary)~System.String
+  id: op_Explicit(GTA.CrClipDictionary)~System.String
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: explicit operator string(CrClipDictionary)
+  nameWithType: CrClipDictionary.explicit operator string(CrClipDictionary)
+  fullName: GTA.CrClipDictionary.explicit operator string(GTA.CrClipDictionary)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static explicit operator string(CrClipDictionary value)
+    parameters:
+    - id: value
+      type: GTA.CrClipDictionary
+    return:
+      type: System.String
+    content.vb: Public Shared Narrowing Operator CType(value As CrClipDictionary) As String
+  overload: GTA.CrClipDictionary.op_Explicit*
+  nameWithType.vb: CrClipDictionary.CType(CrClipDictionary)
+  fullName.vb: GTA.CrClipDictionary.CType(GTA.CrClipDictionary)
+  name.vb: CType(CrClipDictionary)
+- uid: GTA.CrClipDictionary.GetHashCode
+  commentId: M:GTA.CrClipDictionary.GetHashCode
+  id: GetHashCode
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CrClipDictionary.GetHashCode()
+  fullName: GTA.CrClipDictionary.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.CrClipDictionary.GetHashCode*
+- uid: GTA.CrClipDictionary.ToString
+  commentId: M:GTA.CrClipDictionary.ToString
+  id: ToString
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CrClipDictionary.ToString()
+  fullName: GTA.CrClipDictionary.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.CrClipDictionary.ToString*
+- uid: GTA.CrClipDictionary.Name
+  commentId: P:GTA.CrClipDictionary.Name
+  id: Name
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CrClipDictionary.Name
+  fullName: GTA.CrClipDictionary.Name
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: GTA.CrClipDictionary.Name*
+- uid: GTA.CrClipDictionary.Exists
+  commentId: P:GTA.CrClipDictionary.Exists
+  id: Exists
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: Exists
+  nameWithType: CrClipDictionary.Exists
+  fullName: GTA.CrClipDictionary.Exists
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool Exists { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Exists As Boolean
+  overload: GTA.CrClipDictionary.Exists*
+- uid: GTA.CrClipDictionary.IsLoaded
+  commentId: P:GTA.CrClipDictionary.IsLoaded
+  id: IsLoaded
+  parent: GTA.CrClipDictionary
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: CrClipDictionary.IsLoaded
+  fullName: GTA.CrClipDictionary.IsLoaded
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoaded As Boolean
+  overload: GTA.CrClipDictionary.IsLoaded*
+  implements:
+  - GTA.IScriptStreamingResource.IsLoaded
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.IEquatable{GTA.CrClipDictionary}
+  commentId: T:System.IEquatable{GTA.CrClipDictionary}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<CrClipDictionary>
+  nameWithType: IEquatable<CrClipDictionary>
+  fullName: System.IEquatable<GTA.CrClipDictionary>
+  nameWithType.vb: IEquatable(Of CrClipDictionary)
+  fullName.vb: System.IEquatable(Of GTA.CrClipDictionary)
+  name.vb: IEquatable(Of CrClipDictionary)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.CrClipDictionary
+    name: CrClipDictionary
+    isExternal: true
+    href: GTA.CrClipDictionary.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.CrClipDictionary
+    name: CrClipDictionary
+    isExternal: true
+    href: GTA.CrClipDictionary.html
+  - name: )
+- uid: GTA.IScriptStreamingResource
+  commentId: T:GTA.IScriptStreamingResource
+  parent: GTA
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html
+  name: IScriptStreamingResource
+  nameWithType: IScriptStreamingResource
+  fullName: GTA.IScriptStreamingResource
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.CrClipDictionary.#ctor*
+  commentId: Overload:GTA.CrClipDictionary.#ctor
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary__ctor_System_String_
+  name: CrClipDictionary
+  nameWithType: CrClipDictionary.CrClipDictionary
+  fullName: GTA.CrClipDictionary.CrClipDictionary
+  nameWithType.vb: CrClipDictionary.New
+  fullName.vb: GTA.CrClipDictionary.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.CrClipDictionary.HashName*
+  commentId: Overload:GTA.CrClipDictionary.HashName
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_HashName
+  name: HashName
+  nameWithType: CrClipDictionary.HashName
+  fullName: GTA.CrClipDictionary.HashName
+- uid: GTA.AtHashValue
+  commentId: T:GTA.AtHashValue
+  parent: GTA
+  isExternal: true
+  href: GTA.AtHashValue.html
+  name: AtHashValue
+  nameWithType: AtHashValue
+  fullName: GTA.AtHashValue
+- uid: GTA.CrClipDictionary.Request*
+  commentId: Overload:GTA.CrClipDictionary.Request
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_Request
+  name: Request
+  nameWithType: CrClipDictionary.Request
+  fullName: GTA.CrClipDictionary.Request
+- uid: GTA.IScriptStreamingResource.Request
+  commentId: M:GTA.IScriptStreamingResource.Request
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  name: Request()
+  nameWithType: IScriptStreamingResource.Request()
+  fullName: GTA.IScriptStreamingResource.Request()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+- uid: GTA.CrClipDictionary.MarkAsNoLongerNeeded*
+  commentId: Overload:GTA.CrClipDictionary.MarkAsNoLongerNeeded
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded
+  nameWithType: CrClipDictionary.MarkAsNoLongerNeeded
+  fullName: GTA.CrClipDictionary.MarkAsNoLongerNeeded
+- uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  commentId: M:GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded()
+  nameWithType: IScriptStreamingResource.MarkAsNoLongerNeeded()
+  fullName: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+- uid: GTA.CrClipDictionary.Equals*
+  commentId: Overload:GTA.CrClipDictionary.Equals
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_Equals_GTA_CrClipDictionary_
+  name: Equals
+  nameWithType: CrClipDictionary.Equals
+  fullName: GTA.CrClipDictionary.Equals
+- uid: System.IEquatable{GTA.CrClipDictionary}.Equals(GTA.CrClipDictionary)
+  commentId: M:System.IEquatable{GTA.CrClipDictionary}.Equals(GTA.CrClipDictionary)
+  parent: System.IEquatable{GTA.CrClipDictionary}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(CrClipDictionary)
+  nameWithType: IEquatable<CrClipDictionary>.Equals(CrClipDictionary)
+  fullName: System.IEquatable<GTA.CrClipDictionary>.Equals(GTA.CrClipDictionary)
+  nameWithType.vb: IEquatable(Of CrClipDictionary).Equals(CrClipDictionary)
+  fullName.vb: System.IEquatable(Of GTA.CrClipDictionary).Equals(GTA.CrClipDictionary)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.CrClipDictionary}.Equals(GTA.CrClipDictionary)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.CrClipDictionary
+    name: CrClipDictionary
+    isExternal: true
+    href: GTA.CrClipDictionary.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.CrClipDictionary}.Equals(GTA.CrClipDictionary)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.CrClipDictionary
+    name: CrClipDictionary
+    isExternal: true
+    href: GTA.CrClipDictionary.html
+  - name: )
+- uid: GTA.CrClipDictionary
+  commentId: T:GTA.CrClipDictionary
+  parent: GTA
+  isExternal: true
+  href: GTA.CrClipDictionary.html
+  name: CrClipDictionary
+  nameWithType: CrClipDictionary
+  fullName: GTA.CrClipDictionary
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: GTA.CrClipDictionary.op_Equality*
+  commentId: Overload:GTA.CrClipDictionary.op_Equality
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_op_Equality_GTA_CrClipDictionary_GTA_CrClipDictionary_
+  name: operator ==
+  nameWithType: CrClipDictionary.operator ==
+  fullName: GTA.CrClipDictionary.operator ==
+  nameWithType.vb: CrClipDictionary.=
+  fullName.vb: GTA.CrClipDictionary.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.CrClipDictionary.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_op_Equality_GTA_CrClipDictionary_GTA_CrClipDictionary_
+- uid: GTA.CrClipDictionary.op_Inequality*
+  commentId: Overload:GTA.CrClipDictionary.op_Inequality
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_op_Inequality_GTA_CrClipDictionary_GTA_CrClipDictionary_
+  name: operator !=
+  nameWithType: CrClipDictionary.operator !=
+  fullName: GTA.CrClipDictionary.operator !=
+  nameWithType.vb: CrClipDictionary.<>
+  fullName.vb: GTA.CrClipDictionary.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.CrClipDictionary.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_op_Inequality_GTA_CrClipDictionary_GTA_CrClipDictionary_
+- uid: GTA.CrClipDictionary.op_Implicit*
+  commentId: Overload:GTA.CrClipDictionary.op_Implicit
+  name: implicit operator
+  nameWithType: CrClipDictionary.implicit operator
+  fullName: GTA.CrClipDictionary.implicit operator
+  nameWithType.vb: CrClipDictionary.CType
+  fullName.vb: GTA.CrClipDictionary.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.CrClipDictionary.op_Explicit*
+  commentId: Overload:GTA.CrClipDictionary.op_Explicit
+  name: explicit operator
+  nameWithType: CrClipDictionary.explicit operator
+  fullName: GTA.CrClipDictionary.explicit operator
+  nameWithType.vb: CrClipDictionary.CType
+  fullName.vb: GTA.CrClipDictionary.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.CrClipDictionary.GetHashCode*
+  commentId: Overload:GTA.CrClipDictionary.GetHashCode
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_GetHashCode
+  name: GetHashCode
+  nameWithType: CrClipDictionary.GetHashCode
+  fullName: GTA.CrClipDictionary.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.CrClipDictionary.ToString*
+  commentId: Overload:GTA.CrClipDictionary.ToString
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_ToString
+  name: ToString
+  nameWithType: CrClipDictionary.ToString
+  fullName: GTA.CrClipDictionary.ToString
+- uid: GTA.CrClipDictionary.Name*
+  commentId: Overload:GTA.CrClipDictionary.Name
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_Name
+  name: Name
+  nameWithType: CrClipDictionary.Name
+  fullName: GTA.CrClipDictionary.Name
+- uid: GTA.CrClipDictionary.Exists*
+  commentId: Overload:GTA.CrClipDictionary.Exists
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_Exists
+  name: Exists
+  nameWithType: CrClipDictionary.Exists
+  fullName: GTA.CrClipDictionary.Exists
+- uid: GTA.CrClipDictionary.IsLoaded*
+  commentId: Overload:GTA.CrClipDictionary.IsLoaded
+  isExternal: true
+  href: GTA.CrClipDictionary.html#GTA_CrClipDictionary_IsLoaded
+  name: IsLoaded
+  nameWithType: CrClipDictionary.IsLoaded
+  fullName: GTA.CrClipDictionary.IsLoaded
+- uid: GTA.IScriptStreamingResource.IsLoaded
+  commentId: P:GTA.IScriptStreamingResource.IsLoaded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_IsLoaded
+  name: IsLoaded
+  nameWithType: IScriptStreamingResource.IsLoaded
+  fullName: GTA.IScriptStreamingResource.IsLoaded

@@ -1,0 +1,1789 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper
+  commentId: T:GTA.NaturalMotion.ShotConfigureArmsHelper
+  id: ShotConfigureArmsHelper
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor(GTA.Ped)
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Brace
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Bust
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol
+  - GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill
+  langs:
+  - csharp
+  - vb
+  name: ShotConfigureArmsHelper
+  nameWithType: ShotConfigureArmsHelper
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: 'public sealed class ShotConfigureArmsHelper : CustomHelper'
+    content.vb: Public NotInheritable Class ShotConfigureArmsHelper Inherits CustomHelper
+  inheritance:
+  - System.Object
+  - GTA.NaturalMotion.CustomHelper
+  inheritedMembers:
+  - GTA.NaturalMotion.CustomHelper.Start
+  - GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  - GTA.NaturalMotion.CustomHelper.Update
+  - GTA.NaturalMotion.CustomHelper.Stop
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  - GTA.NaturalMotion.CustomHelper.ResetArguments
+  - GTA.NaturalMotion.CustomHelper.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor(GTA.Ped)
+  commentId: M:GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor(GTA.Ped)
+  id: '#ctor(GTA.Ped)'
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: ShotConfigureArmsHelper(Ped)
+  nameWithType: ShotConfigureArmsHelper.ShotConfigureArmsHelper(Ped)
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ShotConfigureArmsHelper(GTA.Ped)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public ShotConfigureArmsHelper(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    content.vb: Public Sub New(ped As Ped)
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor*
+  nameWithType.vb: ShotConfigureArmsHelper.New(Ped)
+  fullName.vb: GTA.NaturalMotion.ShotConfigureArmsHelper.New(GTA.Ped)
+  name.vb: New(Ped)
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Brace
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Brace
+  id: Brace
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Brace
+  nameWithType: ShotConfigureArmsHelper.Brace
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Brace
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Brace { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Brace As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Brace*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun
+  id: PointGun
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: PointGun
+  nameWithType: ShotConfigureArmsHelper.PointGun
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool PointGun { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property PointGun As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill
+  id: UseArmsWindmill
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: UseArmsWindmill
+  nameWithType: ShotConfigureArmsHelper.UseArmsWindmill
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseArmsWindmill { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseArmsWindmill As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound
+  id: ReleaseWound
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: ReleaseWound
+  nameWithType: ShotConfigureArmsHelper.ReleaseWound
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int ReleaseWound { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property ReleaseWound As Integer
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling
+  id: ReachFalling
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: ReachFalling
+  nameWithType: ShotConfigureArmsHelper.ReachFalling
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int ReachFalling { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property ReachFalling As Integer
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand
+  id: ReachFallingWithOneHand
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: ReachFallingWithOneHand
+  nameWithType: ShotConfigureArmsHelper.ReachFallingWithOneHand
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int ReachFallingWithOneHand { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property ReachFallingWithOneHand As Integer
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor
+  id: ReachOnFloor
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: ReachOnFloor
+  nameWithType: ShotConfigureArmsHelper.ReachOnFloor
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int ReachOnFloor { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property ReachOnFloor As Integer
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime
+  id: AlwaysReachTime
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: AlwaysReachTime
+  nameWithType: ShotConfigureArmsHelper.AlwaysReachTime
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float AlwaysReachTime { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property AlwaysReachTime As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult
+  id: AWSpeedMult
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: AWSpeedMult
+  nameWithType: ShotConfigureArmsHelper.AWSpeedMult
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float AWSpeedMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property AWSpeedMult As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult
+  id: AWRadiusMult
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: AWRadiusMult
+  nameWithType: ShotConfigureArmsHelper.AWRadiusMult
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float AWRadiusMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property AWRadiusMult As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd
+  id: AWStiffnessAdd
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: AWStiffnessAdd
+  nameWithType: ShotConfigureArmsHelper.AWStiffnessAdd
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float AWStiffnessAdd { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property AWStiffnessAdd As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand
+  id: ReachWithOneHand
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: ReachWithOneHand
+  nameWithType: ShotConfigureArmsHelper.ReachWithOneHand
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int ReachWithOneHand { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property ReachWithOneHand As Integer
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW
+  id: AllowLeftPistolRFW
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: AllowLeftPistolRFW
+  nameWithType: ShotConfigureArmsHelper.AllowLeftPistolRFW
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool AllowLeftPistolRFW { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property AllowLeftPistolRFW As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW
+  id: AllowRightPistolRFW
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: AllowRightPistolRFW
+  nameWithType: ShotConfigureArmsHelper.AllowRightPistolRFW
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool AllowRightPistolRFW { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property AllowRightPistolRFW As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol
+  id: RfwWithPistol
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: RfwWithPistol
+  nameWithType: ShotConfigureArmsHelper.RfwWithPistol
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool RfwWithPistol { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property RfwWithPistol As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2
+  id: Fling2
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2
+  nameWithType: ShotConfigureArmsHelper.Fling2
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Fling2 { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Fling2 As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left
+  id: Fling2Left
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2Left
+  nameWithType: ShotConfigureArmsHelper.Fling2Left
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Fling2Left { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Fling2Left As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right
+  id: Fling2Right
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2Right
+  nameWithType: ShotConfigureArmsHelper.Fling2Right
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Fling2Right { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Fling2Right As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger
+  id: Fling2OverrideStagger
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2OverrideStagger
+  nameWithType: ShotConfigureArmsHelper.Fling2OverrideStagger
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Fling2OverrideStagger { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Fling2OverrideStagger As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore
+  id: Fling2TimeBefore
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2TimeBefore
+  nameWithType: ShotConfigureArmsHelper.Fling2TimeBefore
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2TimeBefore { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2TimeBefore As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time
+  id: Fling2Time
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2Time
+  nameWithType: ShotConfigureArmsHelper.Fling2Time
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2Time { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2Time As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL
+  id: Fling2MStiffL
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2MStiffL
+  nameWithType: ShotConfigureArmsHelper.Fling2MStiffL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2MStiffL { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2MStiffL As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR
+  id: Fling2MStiffR
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2MStiffR
+  nameWithType: ShotConfigureArmsHelper.Fling2MStiffR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2MStiffR { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2MStiffR As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL
+  id: Fling2RelaxTimeL
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2RelaxTimeL
+  nameWithType: ShotConfigureArmsHelper.Fling2RelaxTimeL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2RelaxTimeL { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2RelaxTimeL As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR
+  id: Fling2RelaxTimeR
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2RelaxTimeR
+  nameWithType: ShotConfigureArmsHelper.Fling2RelaxTimeR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2RelaxTimeR { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2RelaxTimeR As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL
+  id: Fling2AngleMinL
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2AngleMinL
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMinL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2AngleMinL { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2AngleMinL As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL
+  id: Fling2AngleMaxL
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2AngleMaxL
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMaxL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2AngleMaxL { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2AngleMaxL As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR
+  id: Fling2AngleMinR
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2AngleMinR
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMinR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2AngleMinR { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2AngleMinR As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR
+  id: Fling2AngleMaxR
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2AngleMaxR
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMaxR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2AngleMaxR { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2AngleMaxR As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL
+  id: Fling2LengthMinL
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2LengthMinL
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMinL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2LengthMinL { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2LengthMinL As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL
+  id: Fling2LengthMaxL
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2LengthMaxL
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMaxL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2LengthMaxL { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2LengthMaxL As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR
+  id: Fling2LengthMinR
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2LengthMinR
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMinR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2LengthMinR { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2LengthMinR As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR
+  id: Fling2LengthMaxR
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Fling2LengthMaxR
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMaxR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Fling2LengthMaxR { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Fling2LengthMaxR As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Bust
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.Bust
+  id: Bust
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: Bust
+  nameWithType: ShotConfigureArmsHelper.Bust
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Bust
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool Bust { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property Bust As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.Bust*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift
+  id: BustElbowLift
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: BustElbowLift
+  nameWithType: ShotConfigureArmsHelper.BustElbowLift
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float BustElbowLift { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property BustElbowLift As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize
+  id: CupSize
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: CupSize
+  nameWithType: ShotConfigureArmsHelper.CupSize
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float CupSize { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property CupSize As Single
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize*
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust
+  commentId: P:GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust
+  id: CupBust
+  parent: GTA.NaturalMotion.ShotConfigureArmsHelper
+  langs:
+  - csharp
+  - vb
+  name: CupBust
+  nameWithType: ShotConfigureArmsHelper.CupBust
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool CupBust { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property CupBust As Boolean
+  overload: GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust*
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.NaturalMotion.CustomHelper
+  commentId: T:GTA.NaturalMotion.CustomHelper
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html
+  name: CustomHelper
+  nameWithType: CustomHelper
+  fullName: GTA.NaturalMotion.CustomHelper
+- uid: GTA.NaturalMotion.CustomHelper.Start
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  name: Start()
+  nameWithType: CustomHelper.Start()
+  fullName: GTA.NaturalMotion.CustomHelper.Start()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  name: Start(int)
+  nameWithType: CustomHelper.Start(int)
+  fullName: GTA.NaturalMotion.CustomHelper.Start(int)
+  nameWithType.vb: CustomHelper.Start(Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.Start(Integer)
+  name.vb: Start(Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Update
+  commentId: M:GTA.NaturalMotion.CustomHelper.Update
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  name: Update()
+  nameWithType: CustomHelper.Update()
+  fullName: GTA.NaturalMotion.CustomHelper.Update()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Stop
+  commentId: M:GTA.NaturalMotion.CustomHelper.Stop
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  name: Stop()
+  nameWithType: CustomHelper.Stop()
+  fullName: GTA.NaturalMotion.CustomHelper.Stop()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  name: SetArgument(string, bool)
+  nameWithType: CustomHelper.SetArgument(string, bool)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, bool)
+  nameWithType.vb: CustomHelper.SetArgument(String, Boolean)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Boolean)
+  name.vb: SetArgument(String, Boolean)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  name: SetArgument(string, int)
+  nameWithType: CustomHelper.SetArgument(string, int)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, int)
+  nameWithType.vb: CustomHelper.SetArgument(String, Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Integer)
+  name.vb: SetArgument(String, Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  name: SetArgument(string, float)
+  nameWithType: CustomHelper.SetArgument(string, float)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, float)
+  nameWithType.vb: CustomHelper.SetArgument(String, Single)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Single)
+  name.vb: SetArgument(String, Single)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  name: SetArgument(string, string)
+  nameWithType: CustomHelper.SetArgument(string, string)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, string)
+  nameWithType.vb: CustomHelper.SetArgument(String, String)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, String)
+  name.vb: SetArgument(String, String)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  name: SetArgument(string, Vector3)
+  nameWithType: CustomHelper.SetArgument(string, Vector3)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, GTA.Math.Vector3)
+  nameWithType.vb: CustomHelper.SetArgument(String, Vector3)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, GTA.Math.Vector3)
+  name.vb: SetArgument(String, Vector3)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+  commentId: M:GTA.NaturalMotion.CustomHelper.ResetArguments
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  name: ResetArguments()
+  nameWithType: CustomHelper.ResetArguments()
+  fullName: GTA.NaturalMotion.CustomHelper.ResetArguments()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ToString
+  commentId: M:GTA.NaturalMotion.CustomHelper.ToString
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  name: ToString()
+  nameWithType: CustomHelper.ToString()
+  fullName: GTA.NaturalMotion.CustomHelper.ToString()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper__ctor_GTA_Ped_
+  name: ShotConfigureArmsHelper
+  nameWithType: ShotConfigureArmsHelper.ShotConfigureArmsHelper
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ShotConfigureArmsHelper
+  nameWithType.vb: ShotConfigureArmsHelper.New
+  fullName.vb: GTA.NaturalMotion.ShotConfigureArmsHelper.New
+  name.vb: New
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Brace*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Brace
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Brace
+  name: Brace
+  nameWithType: ShotConfigureArmsHelper.Brace
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Brace
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_PointGun
+  name: PointGun
+  nameWithType: ShotConfigureArmsHelper.PointGun
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_UseArmsWindmill
+  name: UseArmsWindmill
+  nameWithType: ShotConfigureArmsHelper.UseArmsWindmill
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReleaseWound
+  name: ReleaseWound
+  nameWithType: ShotConfigureArmsHelper.ReleaseWound
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachFalling
+  name: ReachFalling
+  nameWithType: ShotConfigureArmsHelper.ReachFalling
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachFallingWithOneHand
+  name: ReachFallingWithOneHand
+  nameWithType: ShotConfigureArmsHelper.ReachFallingWithOneHand
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachOnFloor
+  name: ReachOnFloor
+  nameWithType: ShotConfigureArmsHelper.ReachOnFloor
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AlwaysReachTime
+  name: AlwaysReachTime
+  nameWithType: ShotConfigureArmsHelper.AlwaysReachTime
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AWSpeedMult
+  name: AWSpeedMult
+  nameWithType: ShotConfigureArmsHelper.AWSpeedMult
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AWRadiusMult
+  name: AWRadiusMult
+  nameWithType: ShotConfigureArmsHelper.AWRadiusMult
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AWStiffnessAdd
+  name: AWStiffnessAdd
+  nameWithType: ShotConfigureArmsHelper.AWStiffnessAdd
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachWithOneHand
+  name: ReachWithOneHand
+  nameWithType: ShotConfigureArmsHelper.ReachWithOneHand
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AllowLeftPistolRFW
+  name: AllowLeftPistolRFW
+  nameWithType: ShotConfigureArmsHelper.AllowLeftPistolRFW
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AllowRightPistolRFW
+  name: AllowRightPistolRFW
+  nameWithType: ShotConfigureArmsHelper.AllowRightPistolRFW
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_RfwWithPistol
+  name: RfwWithPistol
+  nameWithType: ShotConfigureArmsHelper.RfwWithPistol
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2
+  name: Fling2
+  nameWithType: ShotConfigureArmsHelper.Fling2
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Left
+  name: Fling2Left
+  nameWithType: ShotConfigureArmsHelper.Fling2Left
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Right
+  name: Fling2Right
+  nameWithType: ShotConfigureArmsHelper.Fling2Right
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2OverrideStagger
+  name: Fling2OverrideStagger
+  nameWithType: ShotConfigureArmsHelper.Fling2OverrideStagger
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2TimeBefore
+  name: Fling2TimeBefore
+  nameWithType: ShotConfigureArmsHelper.Fling2TimeBefore
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Time
+  name: Fling2Time
+  nameWithType: ShotConfigureArmsHelper.Fling2Time
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2MStiffL
+  name: Fling2MStiffL
+  nameWithType: ShotConfigureArmsHelper.Fling2MStiffL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2MStiffR
+  name: Fling2MStiffR
+  nameWithType: ShotConfigureArmsHelper.Fling2MStiffR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2RelaxTimeL
+  name: Fling2RelaxTimeL
+  nameWithType: ShotConfigureArmsHelper.Fling2RelaxTimeL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2RelaxTimeR
+  name: Fling2RelaxTimeR
+  nameWithType: ShotConfigureArmsHelper.Fling2RelaxTimeR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMinL
+  name: Fling2AngleMinL
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMinL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMaxL
+  name: Fling2AngleMaxL
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMaxL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMinR
+  name: Fling2AngleMinR
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMinR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMaxR
+  name: Fling2AngleMaxR
+  nameWithType: ShotConfigureArmsHelper.Fling2AngleMaxR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMinL
+  name: Fling2LengthMinL
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMinL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMaxL
+  name: Fling2LengthMaxL
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMaxL
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMinR
+  name: Fling2LengthMinR
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMinR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMaxR
+  name: Fling2LengthMaxR
+  nameWithType: ShotConfigureArmsHelper.Fling2LengthMaxR
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.Bust*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.Bust
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Bust
+  name: Bust
+  nameWithType: ShotConfigureArmsHelper.Bust
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.Bust
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_BustElbowLift
+  name: BustElbowLift
+  nameWithType: ShotConfigureArmsHelper.BustElbowLift
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_CupSize
+  name: CupSize
+  nameWithType: ShotConfigureArmsHelper.CupSize
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize
+- uid: GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust*
+  commentId: Overload:GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust
+  isExternal: true
+  href: GTA.NaturalMotion.ShotConfigureArmsHelper.html#GTA_NaturalMotion_ShotConfigureArmsHelper_CupBust
+  name: CupBust
+  nameWithType: ShotConfigureArmsHelper.CupBust
+  fullName: GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust

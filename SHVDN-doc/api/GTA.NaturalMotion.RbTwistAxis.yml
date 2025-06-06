@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.RbTwistAxis
+  commentId: T:GTA.NaturalMotion.RbTwistAxis
+  id: RbTwistAxis
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.RbTwistAxis.CharacterComUp
+  - GTA.NaturalMotion.RbTwistAxis.WorldUp
+  langs:
+  - csharp
+  - vb
+  name: RbTwistAxis
+  nameWithType: RbTwistAxis
+  fullName: GTA.NaturalMotion.RbTwistAxis
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum RbTwistAxis
+    content.vb: Public Enum RbTwistAxis
+- uid: GTA.NaturalMotion.RbTwistAxis.WorldUp
+  commentId: F:GTA.NaturalMotion.RbTwistAxis.WorldUp
+  id: WorldUp
+  parent: GTA.NaturalMotion.RbTwistAxis
+  langs:
+  - csharp
+  - vb
+  name: WorldUp
+  nameWithType: RbTwistAxis.WorldUp
+  fullName: GTA.NaturalMotion.RbTwistAxis.WorldUp
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: WorldUp = 0
+    return:
+      type: GTA.NaturalMotion.RbTwistAxis
+- uid: GTA.NaturalMotion.RbTwistAxis.CharacterComUp
+  commentId: F:GTA.NaturalMotion.RbTwistAxis.CharacterComUp
+  id: CharacterComUp
+  parent: GTA.NaturalMotion.RbTwistAxis
+  langs:
+  - csharp
+  - vb
+  name: CharacterComUp
+  nameWithType: RbTwistAxis.CharacterComUp
+  fullName: GTA.NaturalMotion.RbTwistAxis.CharacterComUp
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: CharacterComUp = 1
+    return:
+      type: GTA.NaturalMotion.RbTwistAxis
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.RbTwistAxis
+  commentId: T:GTA.NaturalMotion.RbTwistAxis
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.RbTwistAxis.html
+  name: RbTwistAxis
+  nameWithType: RbTwistAxis
+  fullName: GTA.NaturalMotion.RbTwistAxis

@@ -1,0 +1,844 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.SpecialFlightHandlingData
+  commentId: T:GTA.SpecialFlightHandlingData
+  id: SpecialFlightHandlingData
+  parent: GTA
+  children:
+  - GTA.SpecialFlightHandlingData.BrakingThrustScale
+  - GTA.SpecialFlightHandlingData.Equals(System.Object)
+  - GTA.SpecialFlightHandlingData.GetHashCode
+  - GTA.SpecialFlightHandlingData.HoverVelocityScale
+  - GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  - GTA.SpecialFlightHandlingData.PitchTorqueScale
+  - GTA.SpecialFlightHandlingData.RollTorqueScale
+  - GTA.SpecialFlightHandlingData.TransitionDuration
+  - GTA.SpecialFlightHandlingData.VectorAngularDamping
+  - GTA.SpecialFlightHandlingData.VectorAngularDampingMin
+  - GTA.SpecialFlightHandlingData.VectorLinearDamping
+  - GTA.SpecialFlightHandlingData.VectorLinearDampingMin
+  - GTA.SpecialFlightHandlingData.YawTorqueScale
+  - GTA.SpecialFlightHandlingData.op_Equality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  - GTA.SpecialFlightHandlingData.op_Inequality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  langs:
+  - csharp
+  - vb
+  name: SpecialFlightHandlingData
+  nameWithType: SpecialFlightHandlingData
+  fullName: GTA.SpecialFlightHandlingData
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class SpecialFlightHandlingData : BaseSubHandlingData'
+    content.vb: Public NotInheritable Class SpecialFlightHandlingData Inherits BaseSubHandlingData
+  inheritance:
+  - System.Object
+  - GTA.BaseSubHandlingData
+  inheritedMembers:
+  - GTA.BaseSubHandlingData.MemoryAddress
+  - GTA.BaseSubHandlingData.Parent
+  - GTA.BaseSubHandlingData.HandlingType
+  - GTA.BaseSubHandlingData.IsValid
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.SpecialFlightHandlingData.Equals(System.Object)
+  commentId: M:GTA.SpecialFlightHandlingData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SpecialFlightHandlingData.Equals(object)
+  fullName: GTA.SpecialFlightHandlingData.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: GTA.BaseSubHandlingData.Equals(System.Object)
+  overload: GTA.SpecialFlightHandlingData.Equals*
+  nameWithType.vb: SpecialFlightHandlingData.Equals(Object)
+  fullName.vb: GTA.SpecialFlightHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.SpecialFlightHandlingData.op_Equality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  commentId: M:GTA.SpecialFlightHandlingData.op_Equality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  id: op_Equality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator ==(SpecialFlightHandlingData, SpecialFlightHandlingData)
+  nameWithType: SpecialFlightHandlingData.operator ==(SpecialFlightHandlingData, SpecialFlightHandlingData)
+  fullName: GTA.SpecialFlightHandlingData.operator ==(GTA.SpecialFlightHandlingData, GTA.SpecialFlightHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(SpecialFlightHandlingData left, SpecialFlightHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.SpecialFlightHandlingData
+    - id: right
+      type: GTA.SpecialFlightHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As SpecialFlightHandlingData, right As SpecialFlightHandlingData) As Boolean
+  overload: GTA.SpecialFlightHandlingData.op_Equality*
+  nameWithType.vb: SpecialFlightHandlingData.=(SpecialFlightHandlingData, SpecialFlightHandlingData)
+  fullName.vb: GTA.SpecialFlightHandlingData.=(GTA.SpecialFlightHandlingData, GTA.SpecialFlightHandlingData)
+  name.vb: =(SpecialFlightHandlingData, SpecialFlightHandlingData)
+- uid: GTA.SpecialFlightHandlingData.op_Inequality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  commentId: M:GTA.SpecialFlightHandlingData.op_Inequality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  id: op_Inequality(GTA.SpecialFlightHandlingData,GTA.SpecialFlightHandlingData)
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator !=(SpecialFlightHandlingData, SpecialFlightHandlingData)
+  nameWithType: SpecialFlightHandlingData.operator !=(SpecialFlightHandlingData, SpecialFlightHandlingData)
+  fullName: GTA.SpecialFlightHandlingData.operator !=(GTA.SpecialFlightHandlingData, GTA.SpecialFlightHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(SpecialFlightHandlingData left, SpecialFlightHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.SpecialFlightHandlingData
+    - id: right
+      type: GTA.SpecialFlightHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As SpecialFlightHandlingData, right As SpecialFlightHandlingData) As Boolean
+  overload: GTA.SpecialFlightHandlingData.op_Inequality*
+  nameWithType.vb: SpecialFlightHandlingData.<>(SpecialFlightHandlingData, SpecialFlightHandlingData)
+  fullName.vb: GTA.SpecialFlightHandlingData.<>(GTA.SpecialFlightHandlingData, GTA.SpecialFlightHandlingData)
+  name.vb: <>(SpecialFlightHandlingData, SpecialFlightHandlingData)
+- uid: GTA.SpecialFlightHandlingData.GetHashCode
+  commentId: M:GTA.SpecialFlightHandlingData.GetHashCode
+  id: GetHashCode
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SpecialFlightHandlingData.GetHashCode()
+  fullName: GTA.SpecialFlightHandlingData.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: GTA.BaseSubHandlingData.GetHashCode
+  overload: GTA.SpecialFlightHandlingData.GetHashCode*
+- uid: GTA.SpecialFlightHandlingData.VectorAngularDamping
+  commentId: P:GTA.SpecialFlightHandlingData.VectorAngularDamping
+  id: VectorAngularDamping
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: VectorAngularDamping
+  nameWithType: SpecialFlightHandlingData.VectorAngularDamping
+  fullName: GTA.SpecialFlightHandlingData.VectorAngularDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 VectorAngularDamping { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property VectorAngularDamping As Vector3
+  overload: GTA.SpecialFlightHandlingData.VectorAngularDamping*
+- uid: GTA.SpecialFlightHandlingData.VectorAngularDampingMin
+  commentId: P:GTA.SpecialFlightHandlingData.VectorAngularDampingMin
+  id: VectorAngularDampingMin
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: VectorAngularDampingMin
+  nameWithType: SpecialFlightHandlingData.VectorAngularDampingMin
+  fullName: GTA.SpecialFlightHandlingData.VectorAngularDampingMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 VectorAngularDampingMin { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property VectorAngularDampingMin As Vector3
+  overload: GTA.SpecialFlightHandlingData.VectorAngularDampingMin*
+- uid: GTA.SpecialFlightHandlingData.VectorLinearDamping
+  commentId: P:GTA.SpecialFlightHandlingData.VectorLinearDamping
+  id: VectorLinearDamping
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: VectorLinearDamping
+  nameWithType: SpecialFlightHandlingData.VectorLinearDamping
+  fullName: GTA.SpecialFlightHandlingData.VectorLinearDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 VectorLinearDamping { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property VectorLinearDamping As Vector3
+  overload: GTA.SpecialFlightHandlingData.VectorLinearDamping*
+- uid: GTA.SpecialFlightHandlingData.VectorLinearDampingMin
+  commentId: P:GTA.SpecialFlightHandlingData.VectorLinearDampingMin
+  id: VectorLinearDampingMin
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: VectorLinearDampingMin
+  nameWithType: SpecialFlightHandlingData.VectorLinearDampingMin
+  fullName: GTA.SpecialFlightHandlingData.VectorLinearDampingMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 VectorLinearDampingMin { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property VectorLinearDampingMin As Vector3
+  overload: GTA.SpecialFlightHandlingData.VectorLinearDampingMin*
+- uid: GTA.SpecialFlightHandlingData.RollTorqueScale
+  commentId: P:GTA.SpecialFlightHandlingData.RollTorqueScale
+  id: RollTorqueScale
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: RollTorqueScale
+  nameWithType: SpecialFlightHandlingData.RollTorqueScale
+  fullName: GTA.SpecialFlightHandlingData.RollTorqueScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float RollTorqueScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RollTorqueScale As Single
+  overload: GTA.SpecialFlightHandlingData.RollTorqueScale*
+- uid: GTA.SpecialFlightHandlingData.YawTorqueScale
+  commentId: P:GTA.SpecialFlightHandlingData.YawTorqueScale
+  id: YawTorqueScale
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: YawTorqueScale
+  nameWithType: SpecialFlightHandlingData.YawTorqueScale
+  fullName: GTA.SpecialFlightHandlingData.YawTorqueScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float YawTorqueScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property YawTorqueScale As Single
+  overload: GTA.SpecialFlightHandlingData.YawTorqueScale*
+- uid: GTA.SpecialFlightHandlingData.PitchTorqueScale
+  commentId: P:GTA.SpecialFlightHandlingData.PitchTorqueScale
+  id: PitchTorqueScale
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: PitchTorqueScale
+  nameWithType: SpecialFlightHandlingData.PitchTorqueScale
+  fullName: GTA.SpecialFlightHandlingData.PitchTorqueScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float PitchTorqueScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PitchTorqueScale As Single
+  overload: GTA.SpecialFlightHandlingData.PitchTorqueScale*
+- uid: GTA.SpecialFlightHandlingData.TransitionDuration
+  commentId: P:GTA.SpecialFlightHandlingData.TransitionDuration
+  id: TransitionDuration
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: TransitionDuration
+  nameWithType: SpecialFlightHandlingData.TransitionDuration
+  fullName: GTA.SpecialFlightHandlingData.TransitionDuration
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TransitionDuration { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TransitionDuration As Single
+  overload: GTA.SpecialFlightHandlingData.TransitionDuration*
+- uid: GTA.SpecialFlightHandlingData.HoverVelocityScale
+  commentId: P:GTA.SpecialFlightHandlingData.HoverVelocityScale
+  id: HoverVelocityScale
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: HoverVelocityScale
+  nameWithType: SpecialFlightHandlingData.HoverVelocityScale
+  fullName: GTA.SpecialFlightHandlingData.HoverVelocityScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float HoverVelocityScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property HoverVelocityScale As Single
+  overload: GTA.SpecialFlightHandlingData.HoverVelocityScale*
+- uid: GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  commentId: P:GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  id: MinSpeedForThrustFalloff
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: MinSpeedForThrustFalloff
+  nameWithType: SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  fullName: GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float MinSpeedForThrustFalloff { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MinSpeedForThrustFalloff As Single
+  overload: GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff*
+- uid: GTA.SpecialFlightHandlingData.BrakingThrustScale
+  commentId: P:GTA.SpecialFlightHandlingData.BrakingThrustScale
+  id: BrakingThrustScale
+  parent: GTA.SpecialFlightHandlingData
+  langs:
+  - csharp
+  - vb
+  name: BrakingThrustScale
+  nameWithType: SpecialFlightHandlingData.BrakingThrustScale
+  fullName: GTA.SpecialFlightHandlingData.BrakingThrustScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float BrakingThrustScale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BrakingThrustScale As Single
+  overload: GTA.SpecialFlightHandlingData.BrakingThrustScale*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.BaseSubHandlingData
+  commentId: T:GTA.BaseSubHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html
+  name: BaseSubHandlingData
+  nameWithType: BaseSubHandlingData
+  fullName: GTA.BaseSubHandlingData
+- uid: GTA.BaseSubHandlingData.MemoryAddress
+  commentId: P:GTA.BaseSubHandlingData.MemoryAddress
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_MemoryAddress
+  name: MemoryAddress
+  nameWithType: BaseSubHandlingData.MemoryAddress
+  fullName: GTA.BaseSubHandlingData.MemoryAddress
+- uid: GTA.BaseSubHandlingData.Parent
+  commentId: P:GTA.BaseSubHandlingData.Parent
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Parent
+  name: Parent
+  nameWithType: BaseSubHandlingData.Parent
+  fullName: GTA.BaseSubHandlingData.Parent
+- uid: GTA.BaseSubHandlingData.HandlingType
+  commentId: P:GTA.BaseSubHandlingData.HandlingType
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_HandlingType
+  name: HandlingType
+  nameWithType: BaseSubHandlingData.HandlingType
+  fullName: GTA.BaseSubHandlingData.HandlingType
+- uid: GTA.BaseSubHandlingData.IsValid
+  commentId: P:GTA.BaseSubHandlingData.IsValid
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_IsValid
+  name: IsValid
+  nameWithType: BaseSubHandlingData.IsValid
+  fullName: GTA.BaseSubHandlingData.IsValid
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.BaseSubHandlingData.Equals(System.Object)
+  commentId: M:GTA.BaseSubHandlingData.Equals(System.Object)
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: BaseSubHandlingData.Equals(object)
+  fullName: GTA.BaseSubHandlingData.Equals(object)
+  nameWithType.vb: BaseSubHandlingData.Equals(Object)
+  fullName.vb: GTA.BaseSubHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: GTA.BaseSubHandlingData.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: GTA.BaseSubHandlingData.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.SpecialFlightHandlingData.Equals*
+  commentId: Overload:GTA.SpecialFlightHandlingData.Equals
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_Equals_System_Object_
+  name: Equals
+  nameWithType: SpecialFlightHandlingData.Equals
+  fullName: GTA.SpecialFlightHandlingData.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.SpecialFlightHandlingData.op_Equality*
+  commentId: Overload:GTA.SpecialFlightHandlingData.op_Equality
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_op_Equality_GTA_SpecialFlightHandlingData_GTA_SpecialFlightHandlingData_
+  name: operator ==
+  nameWithType: SpecialFlightHandlingData.operator ==
+  fullName: GTA.SpecialFlightHandlingData.operator ==
+  nameWithType.vb: SpecialFlightHandlingData.=
+  fullName.vb: GTA.SpecialFlightHandlingData.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.SpecialFlightHandlingData.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_op_Equality_GTA_SpecialFlightHandlingData_GTA_SpecialFlightHandlingData_
+- uid: GTA.SpecialFlightHandlingData
+  commentId: T:GTA.SpecialFlightHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html
+  name: SpecialFlightHandlingData
+  nameWithType: SpecialFlightHandlingData
+  fullName: GTA.SpecialFlightHandlingData
+- uid: GTA.SpecialFlightHandlingData.op_Inequality*
+  commentId: Overload:GTA.SpecialFlightHandlingData.op_Inequality
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_op_Inequality_GTA_SpecialFlightHandlingData_GTA_SpecialFlightHandlingData_
+  name: operator !=
+  nameWithType: SpecialFlightHandlingData.operator !=
+  fullName: GTA.SpecialFlightHandlingData.operator !=
+  nameWithType.vb: SpecialFlightHandlingData.<>
+  fullName.vb: GTA.SpecialFlightHandlingData.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.SpecialFlightHandlingData.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_op_Inequality_GTA_SpecialFlightHandlingData_GTA_SpecialFlightHandlingData_
+- uid: GTA.BaseSubHandlingData.GetHashCode
+  commentId: M:GTA.BaseSubHandlingData.GetHashCode
+  parent: GTA.BaseSubHandlingData
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  name: GetHashCode()
+  nameWithType: BaseSubHandlingData.GetHashCode()
+  fullName: GTA.BaseSubHandlingData.GetHashCode()
+  spec.csharp:
+  - uid: GTA.BaseSubHandlingData.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.BaseSubHandlingData.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  - name: (
+  - name: )
+- uid: GTA.SpecialFlightHandlingData.GetHashCode*
+  commentId: Overload:GTA.SpecialFlightHandlingData.GetHashCode
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_GetHashCode
+  name: GetHashCode
+  nameWithType: SpecialFlightHandlingData.GetHashCode
+  fullName: GTA.SpecialFlightHandlingData.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.SpecialFlightHandlingData.VectorAngularDamping*
+  commentId: Overload:GTA.SpecialFlightHandlingData.VectorAngularDamping
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_VectorAngularDamping
+  name: VectorAngularDamping
+  nameWithType: SpecialFlightHandlingData.VectorAngularDamping
+  fullName: GTA.SpecialFlightHandlingData.VectorAngularDamping
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.SpecialFlightHandlingData.VectorAngularDampingMin*
+  commentId: Overload:GTA.SpecialFlightHandlingData.VectorAngularDampingMin
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_VectorAngularDampingMin
+  name: VectorAngularDampingMin
+  nameWithType: SpecialFlightHandlingData.VectorAngularDampingMin
+  fullName: GTA.SpecialFlightHandlingData.VectorAngularDampingMin
+- uid: GTA.SpecialFlightHandlingData.VectorLinearDamping*
+  commentId: Overload:GTA.SpecialFlightHandlingData.VectorLinearDamping
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_VectorLinearDamping
+  name: VectorLinearDamping
+  nameWithType: SpecialFlightHandlingData.VectorLinearDamping
+  fullName: GTA.SpecialFlightHandlingData.VectorLinearDamping
+- uid: GTA.SpecialFlightHandlingData.VectorLinearDampingMin*
+  commentId: Overload:GTA.SpecialFlightHandlingData.VectorLinearDampingMin
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_VectorLinearDampingMin
+  name: VectorLinearDampingMin
+  nameWithType: SpecialFlightHandlingData.VectorLinearDampingMin
+  fullName: GTA.SpecialFlightHandlingData.VectorLinearDampingMin
+- uid: GTA.SpecialFlightHandlingData.RollTorqueScale*
+  commentId: Overload:GTA.SpecialFlightHandlingData.RollTorqueScale
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_RollTorqueScale
+  name: RollTorqueScale
+  nameWithType: SpecialFlightHandlingData.RollTorqueScale
+  fullName: GTA.SpecialFlightHandlingData.RollTorqueScale
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.SpecialFlightHandlingData.YawTorqueScale*
+  commentId: Overload:GTA.SpecialFlightHandlingData.YawTorqueScale
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_YawTorqueScale
+  name: YawTorqueScale
+  nameWithType: SpecialFlightHandlingData.YawTorqueScale
+  fullName: GTA.SpecialFlightHandlingData.YawTorqueScale
+- uid: GTA.SpecialFlightHandlingData.PitchTorqueScale*
+  commentId: Overload:GTA.SpecialFlightHandlingData.PitchTorqueScale
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_PitchTorqueScale
+  name: PitchTorqueScale
+  nameWithType: SpecialFlightHandlingData.PitchTorqueScale
+  fullName: GTA.SpecialFlightHandlingData.PitchTorqueScale
+- uid: GTA.SpecialFlightHandlingData.TransitionDuration*
+  commentId: Overload:GTA.SpecialFlightHandlingData.TransitionDuration
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_TransitionDuration
+  name: TransitionDuration
+  nameWithType: SpecialFlightHandlingData.TransitionDuration
+  fullName: GTA.SpecialFlightHandlingData.TransitionDuration
+- uid: GTA.SpecialFlightHandlingData.HoverVelocityScale*
+  commentId: Overload:GTA.SpecialFlightHandlingData.HoverVelocityScale
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_HoverVelocityScale
+  name: HoverVelocityScale
+  nameWithType: SpecialFlightHandlingData.HoverVelocityScale
+  fullName: GTA.SpecialFlightHandlingData.HoverVelocityScale
+- uid: GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff*
+  commentId: Overload:GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_MinSpeedForThrustFalloff
+  name: MinSpeedForThrustFalloff
+  nameWithType: SpecialFlightHandlingData.MinSpeedForThrustFalloff
+  fullName: GTA.SpecialFlightHandlingData.MinSpeedForThrustFalloff
+- uid: GTA.SpecialFlightHandlingData.BrakingThrustScale*
+  commentId: Overload:GTA.SpecialFlightHandlingData.BrakingThrustScale
+  isExternal: true
+  href: GTA.SpecialFlightHandlingData.html#GTA_SpecialFlightHandlingData_BrakingThrustScale
+  name: BrakingThrustScale
+  nameWithType: SpecialFlightHandlingData.BrakingThrustScale
+  fullName: GTA.SpecialFlightHandlingData.BrakingThrustScale

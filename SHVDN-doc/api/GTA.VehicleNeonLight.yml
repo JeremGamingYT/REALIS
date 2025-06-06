@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleNeonLight
+  commentId: T:GTA.VehicleNeonLight
+  id: VehicleNeonLight
+  parent: GTA
+  children:
+  - GTA.VehicleNeonLight.Back
+  - GTA.VehicleNeonLight.Front
+  - GTA.VehicleNeonLight.Left
+  - GTA.VehicleNeonLight.Right
+  langs:
+  - csharp
+  - vb
+  name: VehicleNeonLight
+  nameWithType: VehicleNeonLight
+  fullName: GTA.VehicleNeonLight
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleNeonLight
+    content.vb: Public Enum VehicleNeonLight
+- uid: GTA.VehicleNeonLight.Left
+  commentId: F:GTA.VehicleNeonLight.Left
+  id: Left
+  parent: GTA.VehicleNeonLight
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: VehicleNeonLight.Left
+  fullName: GTA.VehicleNeonLight.Left
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Left = 0
+    return:
+      type: GTA.VehicleNeonLight
+- uid: GTA.VehicleNeonLight.Right
+  commentId: F:GTA.VehicleNeonLight.Right
+  id: Right
+  parent: GTA.VehicleNeonLight
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: VehicleNeonLight.Right
+  fullName: GTA.VehicleNeonLight.Right
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Right = 1
+    return:
+      type: GTA.VehicleNeonLight
+- uid: GTA.VehicleNeonLight.Front
+  commentId: F:GTA.VehicleNeonLight.Front
+  id: Front
+  parent: GTA.VehicleNeonLight
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: VehicleNeonLight.Front
+  fullName: GTA.VehicleNeonLight.Front
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Front = 2
+    return:
+      type: GTA.VehicleNeonLight
+- uid: GTA.VehicleNeonLight.Back
+  commentId: F:GTA.VehicleNeonLight.Back
+  id: Back
+  parent: GTA.VehicleNeonLight
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: VehicleNeonLight.Back
+  fullName: GTA.VehicleNeonLight.Back
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Back = 3
+    return:
+      type: GTA.VehicleNeonLight
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleNeonLight
+  commentId: T:GTA.VehicleNeonLight
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleNeonLight.html
+  name: VehicleNeonLight
+  nameWithType: VehicleNeonLight
+  fullName: GTA.VehicleNeonLight

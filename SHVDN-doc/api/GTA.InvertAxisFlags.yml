@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.InvertAxisFlags
+  commentId: T:GTA.InvertAxisFlags
+  id: InvertAxisFlags
+  parent: GTA
+  children:
+  - GTA.InvertAxisFlags.None
+  - GTA.InvertAxisFlags.X
+  - GTA.InvertAxisFlags.Y
+  - GTA.InvertAxisFlags.Z
+  langs:
+  - csharp
+  - vb
+  name: InvertAxisFlags
+  nameWithType: InvertAxisFlags
+  fullName: GTA.InvertAxisFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum InvertAxisFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum InvertAxisFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.InvertAxisFlags.None
+  commentId: F:GTA.InvertAxisFlags.None
+  id: None
+  parent: GTA.InvertAxisFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: InvertAxisFlags.None
+  fullName: GTA.InvertAxisFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.InvertAxisFlags
+- uid: GTA.InvertAxisFlags.X
+  commentId: F:GTA.InvertAxisFlags.X
+  id: X
+  parent: GTA.InvertAxisFlags
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: InvertAxisFlags.X
+  fullName: GTA.InvertAxisFlags.X
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: X = 1
+    return:
+      type: GTA.InvertAxisFlags
+- uid: GTA.InvertAxisFlags.Y
+  commentId: F:GTA.InvertAxisFlags.Y
+  id: Y
+  parent: GTA.InvertAxisFlags
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: InvertAxisFlags.Y
+  fullName: GTA.InvertAxisFlags.Y
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Y = 2
+    return:
+      type: GTA.InvertAxisFlags
+- uid: GTA.InvertAxisFlags.Z
+  commentId: F:GTA.InvertAxisFlags.Z
+  id: Z
+  parent: GTA.InvertAxisFlags
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: InvertAxisFlags.Z
+  fullName: GTA.InvertAxisFlags.Z
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Z = 4
+    return:
+      type: GTA.InvertAxisFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.InvertAxisFlags
+  commentId: T:GTA.InvertAxisFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.InvertAxisFlags.html
+  name: InvertAxisFlags
+  nameWithType: InvertAxisFlags
+  fullName: GTA.InvertAxisFlags

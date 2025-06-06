@@ -1,0 +1,4102 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.MaterialHash
+  commentId: T:GTA.MaterialHash
+  id: MaterialHash
+  parent: GTA
+  children:
+  - GTA.MaterialHash.AnimalDefault
+  - GTA.MaterialHash.Blood
+  - GTA.MaterialHash.BreezeBlock
+  - GTA.MaterialHash.Brick
+  - GTA.MaterialHash.BrickPavement
+  - GTA.MaterialHash.Bushes
+  - GTA.MaterialHash.BushesNoinst
+  - GTA.MaterialHash.Buttocks
+  - GTA.MaterialHash.CarEngine
+  - GTA.MaterialHash.CarGlassBulletproof
+  - GTA.MaterialHash.CarGlassMedium
+  - GTA.MaterialHash.CarGlassOpaque
+  - GTA.MaterialHash.CarGlassStrong
+  - GTA.MaterialHash.CarGlassWeak
+  - GTA.MaterialHash.CarMetal
+  - GTA.MaterialHash.CarPlastic
+  - GTA.MaterialHash.CarSoftTop
+  - GTA.MaterialHash.CarSoftTopClear
+  - GTA.MaterialHash.CardboardBox
+  - GTA.MaterialHash.CardboardSheet
+  - GTA.MaterialHash.CarpetFloorboard
+  - GTA.MaterialHash.CarpetSolid
+  - GTA.MaterialHash.CarpetSolidDusty
+  - GTA.MaterialHash.Ceramic
+  - GTA.MaterialHash.ClavicleLeft
+  - GTA.MaterialHash.ClavicleRight
+  - GTA.MaterialHash.ClayHard
+  - GTA.MaterialHash.ClaySoft
+  - GTA.MaterialHash.Cloth
+  - GTA.MaterialHash.Cobblestone
+  - GTA.MaterialHash.Concrete
+  - GTA.MaterialHash.ConcreteDusty
+  - GTA.MaterialHash.ConcretePavement
+  - GTA.MaterialHash.ConcretePothole
+  - GTA.MaterialHash.Default
+  - GTA.MaterialHash.DirtTrack
+  - GTA.MaterialHash.DriedMeat
+  - GTA.MaterialHash.EmissiveGlass
+  - GTA.MaterialHash.EmissivePlastic
+  - GTA.MaterialHash.FeatherPillow
+  - GTA.MaterialHash.Fiberglass
+  - GTA.MaterialHash.FiberglassHollow
+  - GTA.MaterialHash.Foam
+  - GTA.MaterialHash.FootLeft
+  - GTA.MaterialHash.FootRight
+  - GTA.MaterialHash.FreshMeat
+  - GTA.MaterialHash.GlassBulletproof
+  - GTA.MaterialHash.GlassOpaque
+  - GTA.MaterialHash.GlassShootThrough
+  - GTA.MaterialHash.Grass
+  - GTA.MaterialHash.GrassLong
+  - GTA.MaterialHash.GrassShort
+  - GTA.MaterialHash.GravelDeep
+  - GTA.MaterialHash.GravelLarge
+  - GTA.MaterialHash.GravelSmall
+  - GTA.MaterialHash.GravelTrainTrack
+  - GTA.MaterialHash.HandLeft
+  - GTA.MaterialHash.HandRight
+  - GTA.MaterialHash.Hay
+  - GTA.MaterialHash.Head
+  - GTA.MaterialHash.Ice
+  - GTA.MaterialHash.IceTarmac
+  - GTA.MaterialHash.Laminate
+  - GTA.MaterialHash.Leather
+  - GTA.MaterialHash.Leaves
+  - GTA.MaterialHash.Linoleum
+  - GTA.MaterialHash.LowerArmLeft
+  - GTA.MaterialHash.LowerArmRight
+  - GTA.MaterialHash.Marble
+  - GTA.MaterialHash.Marsh
+  - GTA.MaterialHash.MarshDeep
+  - GTA.MaterialHash.MetalChainLinkLarge
+  - GTA.MaterialHash.MetalChainLinkSmall
+  - GTA.MaterialHash.MetalCorrugatedIron
+  - GTA.MaterialHash.MetalDuct
+  - GTA.MaterialHash.MetalGarageDoor
+  - GTA.MaterialHash.MetalGrille
+  - GTA.MaterialHash.MetalHollowLarge
+  - GTA.MaterialHash.MetalHollowMedium
+  - GTA.MaterialHash.MetalHollowSmall
+  - GTA.MaterialHash.MetalManhole
+  - GTA.MaterialHash.MetalRailing
+  - GTA.MaterialHash.MetalSolidLarge
+  - GTA.MaterialHash.MetalSolidMedium
+  - GTA.MaterialHash.MetalSolidRoadSurface
+  - GTA.MaterialHash.MetalSolidSmall
+  - GTA.MaterialHash.MudDeep
+  - GTA.MaterialHash.MudHard
+  - GTA.MaterialHash.MudPothole
+  - GTA.MaterialHash.MudSoft
+  - GTA.MaterialHash.MudUnderwater
+  - GTA.MaterialHash.Neck
+  - GTA.MaterialHash.None
+  - GTA.MaterialHash.Oil
+  - GTA.MaterialHash.Paper
+  - GTA.MaterialHash.PavingSlab
+  - GTA.MaterialHash.Perspex
+  - GTA.MaterialHash.Petrol
+  - GTA.MaterialHash.PhysBarbedWire
+  - GTA.MaterialHash.PhysCarVoid
+  - GTA.MaterialHash.PhysCaster
+  - GTA.MaterialHash.PhysCasterRusty
+  - GTA.MaterialHash.PhysDynamicCoverBound
+  - GTA.MaterialHash.PhysElectricFence
+  - GTA.MaterialHash.PhysElectricMetal
+  - GTA.MaterialHash.PhysGolfBall
+  - GTA.MaterialHash.PhysNoFriction
+  - GTA.MaterialHash.PhysPedCapsule
+  - GTA.MaterialHash.PhysPoolTableBall
+  - GTA.MaterialHash.PhysPoolTableCushion
+  - GTA.MaterialHash.PhysPoolTableSurface
+  - GTA.MaterialHash.PhysTennisBall
+  - GTA.MaterialHash.PlasterBrittle
+  - GTA.MaterialHash.PlasterSolid
+  - GTA.MaterialHash.Plastic
+  - GTA.MaterialHash.PlasticClear
+  - GTA.MaterialHash.PlasticHighDensity
+  - GTA.MaterialHash.PlasticHighDensityClear
+  - GTA.MaterialHash.PlasticHollow
+  - GTA.MaterialHash.PlasticHollowClear
+  - GTA.MaterialHash.Polystyrene
+  - GTA.MaterialHash.Puddle
+  - GTA.MaterialHash.Rock
+  - GTA.MaterialHash.RockMossy
+  - GTA.MaterialHash.RockNoinst
+  - GTA.MaterialHash.RoofFelt
+  - GTA.MaterialHash.RoofTile
+  - GTA.MaterialHash.Rubber
+  - GTA.MaterialHash.RubberHollow
+  - GTA.MaterialHash.RumbleStrip
+  - GTA.MaterialHash.SandCompact
+  - GTA.MaterialHash.SandDryDeep
+  - GTA.MaterialHash.SandLoose
+  - GTA.MaterialHash.SandTrack
+  - GTA.MaterialHash.SandUnderwater
+  - GTA.MaterialHash.SandWet
+  - GTA.MaterialHash.SandWetDeep
+  - GTA.MaterialHash.SandstoneBrittle
+  - GTA.MaterialHash.SandstoneSolid
+  - GTA.MaterialHash.ShinLeft
+  - GTA.MaterialHash.ShinRight
+  - GTA.MaterialHash.SlattedBlinds
+  - GTA.MaterialHash.SnowCompact
+  - GTA.MaterialHash.SnowDeep
+  - GTA.MaterialHash.SnowLoose
+  - GTA.MaterialHash.SnowTarmac
+  - GTA.MaterialHash.Soil
+  - GTA.MaterialHash.Spine0
+  - GTA.MaterialHash.Spine1
+  - GTA.MaterialHash.Spine2
+  - GTA.MaterialHash.Spine3
+  - GTA.MaterialHash.Stone
+  - GTA.MaterialHash.StuntRampSurface
+  - GTA.MaterialHash.Tarmac
+  - GTA.MaterialHash.TarmacPainted
+  - GTA.MaterialHash.TarmacPothole
+  - GTA.MaterialHash.Tarpaulin
+  - GTA.MaterialHash.Temp01
+  - GTA.MaterialHash.Temp02
+  - GTA.MaterialHash.Temp03
+  - GTA.MaterialHash.Temp04
+  - GTA.MaterialHash.Temp05
+  - GTA.MaterialHash.Temp06
+  - GTA.MaterialHash.Temp07
+  - GTA.MaterialHash.Temp08
+  - GTA.MaterialHash.Temp09
+  - GTA.MaterialHash.Temp10
+  - GTA.MaterialHash.Temp11
+  - GTA.MaterialHash.Temp12
+  - GTA.MaterialHash.Temp13
+  - GTA.MaterialHash.Temp14
+  - GTA.MaterialHash.Temp15
+  - GTA.MaterialHash.Temp16
+  - GTA.MaterialHash.Temp17
+  - GTA.MaterialHash.Temp18
+  - GTA.MaterialHash.Temp19
+  - GTA.MaterialHash.Temp20
+  - GTA.MaterialHash.Temp21
+  - GTA.MaterialHash.Temp22
+  - GTA.MaterialHash.Temp23
+  - GTA.MaterialHash.Temp24
+  - GTA.MaterialHash.Temp25
+  - GTA.MaterialHash.Temp26
+  - GTA.MaterialHash.Temp27
+  - GTA.MaterialHash.Temp28
+  - GTA.MaterialHash.Temp29
+  - GTA.MaterialHash.Temp30
+  - GTA.MaterialHash.ThighLeft
+  - GTA.MaterialHash.ThighRight
+  - GTA.MaterialHash.TreeBark
+  - GTA.MaterialHash.TvScreen
+  - GTA.MaterialHash.Twigs
+  - GTA.MaterialHash.UpperArmLeft
+  - GTA.MaterialHash.UpperArmRight
+  - GTA.MaterialHash.VfxMetalElectrified
+  - GTA.MaterialHash.VfxMetalFlame
+  - GTA.MaterialHash.VfxMetalSteam
+  - GTA.MaterialHash.VfxMetalWaterTower
+  - GTA.MaterialHash.VfxWoodBeerBarrel
+  - GTA.MaterialHash.Water
+  - GTA.MaterialHash.WoodChipboard
+  - GTA.MaterialHash.WoodFloorDusty
+  - GTA.MaterialHash.WoodHighDensity
+  - GTA.MaterialHash.WoodHighFriction
+  - GTA.MaterialHash.WoodHollowLarge
+  - GTA.MaterialHash.WoodHollowMedium
+  - GTA.MaterialHash.WoodHollowSmall
+  - GTA.MaterialHash.WoodLattice
+  - GTA.MaterialHash.WoodOldCreaky
+  - GTA.MaterialHash.WoodSolidLarge
+  - GTA.MaterialHash.WoodSolidMedium
+  - GTA.MaterialHash.WoodSolidPolished
+  - GTA.MaterialHash.WoodSolidSmall
+  - GTA.MaterialHash.Woodchips
+  langs:
+  - csharp
+  - vb
+  name: MaterialHash
+  nameWithType: MaterialHash
+  fullName: GTA.MaterialHash
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public enum MaterialHash : uint'
+    content.vb: Public Enum MaterialHash As UInteger
+- uid: GTA.MaterialHash.None
+  commentId: F:GTA.MaterialHash.None
+  id: None
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MaterialHash.None
+  fullName: GTA.MaterialHash.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Default
+  commentId: F:GTA.MaterialHash.Default
+  id: Default
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MaterialHash.Default
+  fullName: GTA.MaterialHash.Default
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Default = 2519482235
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Concrete
+  commentId: F:GTA.MaterialHash.Concrete
+  id: Concrete
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Concrete
+  nameWithType: MaterialHash.Concrete
+  fullName: GTA.MaterialHash.Concrete
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Concrete = 1187676648
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ConcretePothole
+  commentId: F:GTA.MaterialHash.ConcretePothole
+  id: ConcretePothole
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ConcretePothole
+  nameWithType: MaterialHash.ConcretePothole
+  fullName: GTA.MaterialHash.ConcretePothole
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ConcretePothole = 359120722
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ConcreteDusty
+  commentId: F:GTA.MaterialHash.ConcreteDusty
+  id: ConcreteDusty
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ConcreteDusty
+  nameWithType: MaterialHash.ConcreteDusty
+  fullName: GTA.MaterialHash.ConcreteDusty
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ConcreteDusty = 3210327185
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Tarmac
+  commentId: F:GTA.MaterialHash.Tarmac
+  id: Tarmac
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Tarmac
+  nameWithType: MaterialHash.Tarmac
+  fullName: GTA.MaterialHash.Tarmac
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Tarmac = 282940568
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.TarmacPainted
+  commentId: F:GTA.MaterialHash.TarmacPainted
+  id: TarmacPainted
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: TarmacPainted
+  nameWithType: MaterialHash.TarmacPainted
+  fullName: GTA.MaterialHash.TarmacPainted
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TarmacPainted = 2993614768
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.TarmacPothole
+  commentId: F:GTA.MaterialHash.TarmacPothole
+  id: TarmacPothole
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: TarmacPothole
+  nameWithType: MaterialHash.TarmacPothole
+  fullName: GTA.MaterialHash.TarmacPothole
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TarmacPothole = 1886546517
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.RumbleStrip
+  commentId: F:GTA.MaterialHash.RumbleStrip
+  id: RumbleStrip
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: RumbleStrip
+  nameWithType: MaterialHash.RumbleStrip
+  fullName: GTA.MaterialHash.RumbleStrip
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RumbleStrip = 4044799021
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.BreezeBlock
+  commentId: F:GTA.MaterialHash.BreezeBlock
+  id: BreezeBlock
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: BreezeBlock
+  nameWithType: MaterialHash.BreezeBlock
+  fullName: GTA.MaterialHash.BreezeBlock
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BreezeBlock = 3340854742
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Rock
+  commentId: F:GTA.MaterialHash.Rock
+  id: Rock
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Rock
+  nameWithType: MaterialHash.Rock
+  fullName: GTA.MaterialHash.Rock
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Rock = 3454750755
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.RockMossy
+  commentId: F:GTA.MaterialHash.RockMossy
+  id: RockMossy
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: RockMossy
+  nameWithType: MaterialHash.RockMossy
+  fullName: GTA.MaterialHash.RockMossy
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RockMossy = 4170197704
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Stone
+  commentId: F:GTA.MaterialHash.Stone
+  id: Stone
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Stone
+  nameWithType: MaterialHash.Stone
+  fullName: GTA.MaterialHash.Stone
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Stone = 765206029
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Cobblestone
+  commentId: F:GTA.MaterialHash.Cobblestone
+  id: Cobblestone
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Cobblestone
+  nameWithType: MaterialHash.Cobblestone
+  fullName: GTA.MaterialHash.Cobblestone
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Cobblestone = 576169331
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Brick
+  commentId: F:GTA.MaterialHash.Brick
+  id: Brick
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Brick
+  nameWithType: MaterialHash.Brick
+  fullName: GTA.MaterialHash.Brick
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Brick = 1639053622
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Marble
+  commentId: F:GTA.MaterialHash.Marble
+  id: Marble
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Marble
+  nameWithType: MaterialHash.Marble
+  fullName: GTA.MaterialHash.Marble
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Marble = 1945073303
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PavingSlab
+  commentId: F:GTA.MaterialHash.PavingSlab
+  id: PavingSlab
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PavingSlab
+  nameWithType: MaterialHash.PavingSlab
+  fullName: GTA.MaterialHash.PavingSlab
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PavingSlab = 1907048430
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandstoneSolid
+  commentId: F:GTA.MaterialHash.SandstoneSolid
+  id: SandstoneSolid
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandstoneSolid
+  nameWithType: MaterialHash.SandstoneSolid
+  fullName: GTA.MaterialHash.SandstoneSolid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandstoneSolid = 592446772
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandstoneBrittle
+  commentId: F:GTA.MaterialHash.SandstoneBrittle
+  id: SandstoneBrittle
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandstoneBrittle
+  nameWithType: MaterialHash.SandstoneBrittle
+  fullName: GTA.MaterialHash.SandstoneBrittle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandstoneBrittle = 1913209870
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandLoose
+  commentId: F:GTA.MaterialHash.SandLoose
+  id: SandLoose
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandLoose
+  nameWithType: MaterialHash.SandLoose
+  fullName: GTA.MaterialHash.SandLoose
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandLoose = 2699818980
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandCompact
+  commentId: F:GTA.MaterialHash.SandCompact
+  id: SandCompact
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandCompact
+  nameWithType: MaterialHash.SandCompact
+  fullName: GTA.MaterialHash.SandCompact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandCompact = 510490462
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandWet
+  commentId: F:GTA.MaterialHash.SandWet
+  id: SandWet
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandWet
+  nameWithType: MaterialHash.SandWet
+  fullName: GTA.MaterialHash.SandWet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandWet = 909950165
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandTrack
+  commentId: F:GTA.MaterialHash.SandTrack
+  id: SandTrack
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandTrack
+  nameWithType: MaterialHash.SandTrack
+  fullName: GTA.MaterialHash.SandTrack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandTrack = 2387446527
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandUnderwater
+  commentId: F:GTA.MaterialHash.SandUnderwater
+  id: SandUnderwater
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandUnderwater
+  nameWithType: MaterialHash.SandUnderwater
+  fullName: GTA.MaterialHash.SandUnderwater
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandUnderwater = 3158909604
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandDryDeep
+  commentId: F:GTA.MaterialHash.SandDryDeep
+  id: SandDryDeep
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandDryDeep
+  nameWithType: MaterialHash.SandDryDeep
+  fullName: GTA.MaterialHash.SandDryDeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandDryDeep = 509508168
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SandWetDeep
+  commentId: F:GTA.MaterialHash.SandWetDeep
+  id: SandWetDeep
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SandWetDeep
+  nameWithType: MaterialHash.SandWetDeep
+  fullName: GTA.MaterialHash.SandWetDeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SandWetDeep = 1288448767
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Ice
+  commentId: F:GTA.MaterialHash.Ice
+  id: Ice
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Ice
+  nameWithType: MaterialHash.Ice
+  fullName: GTA.MaterialHash.Ice
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ice = 3508906581
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.IceTarmac
+  commentId: F:GTA.MaterialHash.IceTarmac
+  id: IceTarmac
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: IceTarmac
+  nameWithType: MaterialHash.IceTarmac
+  fullName: GTA.MaterialHash.IceTarmac
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IceTarmac = 2363942873
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SnowLoose
+  commentId: F:GTA.MaterialHash.SnowLoose
+  id: SnowLoose
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SnowLoose
+  nameWithType: MaterialHash.SnowLoose
+  fullName: GTA.MaterialHash.SnowLoose
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SnowLoose = 2357397706
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SnowCompact
+  commentId: F:GTA.MaterialHash.SnowCompact
+  id: SnowCompact
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SnowCompact
+  nameWithType: MaterialHash.SnowCompact
+  fullName: GTA.MaterialHash.SnowCompact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SnowCompact = 3416406407
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SnowDeep
+  commentId: F:GTA.MaterialHash.SnowDeep
+  id: SnowDeep
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SnowDeep
+  nameWithType: MaterialHash.SnowDeep
+  fullName: GTA.MaterialHash.SnowDeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SnowDeep = 1619704960
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SnowTarmac
+  commentId: F:GTA.MaterialHash.SnowTarmac
+  id: SnowTarmac
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SnowTarmac
+  nameWithType: MaterialHash.SnowTarmac
+  fullName: GTA.MaterialHash.SnowTarmac
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SnowTarmac = 1550304810
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GravelSmall
+  commentId: F:GTA.MaterialHash.GravelSmall
+  id: GravelSmall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GravelSmall
+  nameWithType: MaterialHash.GravelSmall
+  fullName: GTA.MaterialHash.GravelSmall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GravelSmall = 951832588
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GravelLarge
+  commentId: F:GTA.MaterialHash.GravelLarge
+  id: GravelLarge
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GravelLarge
+  nameWithType: MaterialHash.GravelLarge
+  fullName: GTA.MaterialHash.GravelLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GravelLarge = 2128369009
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GravelDeep
+  commentId: F:GTA.MaterialHash.GravelDeep
+  id: GravelDeep
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GravelDeep
+  nameWithType: MaterialHash.GravelDeep
+  fullName: GTA.MaterialHash.GravelDeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GravelDeep = 3938260814
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GravelTrainTrack
+  commentId: F:GTA.MaterialHash.GravelTrainTrack
+  id: GravelTrainTrack
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GravelTrainTrack
+  nameWithType: MaterialHash.GravelTrainTrack
+  fullName: GTA.MaterialHash.GravelTrainTrack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GravelTrainTrack = 1925605558
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.DirtTrack
+  commentId: F:GTA.MaterialHash.DirtTrack
+  id: DirtTrack
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: DirtTrack
+  nameWithType: MaterialHash.DirtTrack
+  fullName: GTA.MaterialHash.DirtTrack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DirtTrack = 2409420175
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MudHard
+  commentId: F:GTA.MaterialHash.MudHard
+  id: MudHard
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MudHard
+  nameWithType: MaterialHash.MudHard
+  fullName: GTA.MaterialHash.MudHard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MudHard = 2352068586
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MudPothole
+  commentId: F:GTA.MaterialHash.MudPothole
+  id: MudPothole
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MudPothole
+  nameWithType: MaterialHash.MudPothole
+  fullName: GTA.MaterialHash.MudPothole
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MudPothole = 312396330
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MudSoft
+  commentId: F:GTA.MaterialHash.MudSoft
+  id: MudSoft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MudSoft
+  nameWithType: MaterialHash.MudSoft
+  fullName: GTA.MaterialHash.MudSoft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MudSoft = 1635937914
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MudUnderwater
+  commentId: F:GTA.MaterialHash.MudUnderwater
+  id: MudUnderwater
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MudUnderwater
+  nameWithType: MaterialHash.MudUnderwater
+  fullName: GTA.MaterialHash.MudUnderwater
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MudUnderwater = 4021477129
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MudDeep
+  commentId: F:GTA.MaterialHash.MudDeep
+  id: MudDeep
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MudDeep
+  nameWithType: MaterialHash.MudDeep
+  fullName: GTA.MaterialHash.MudDeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MudDeep = 1109728704
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Marsh
+  commentId: F:GTA.MaterialHash.Marsh
+  id: Marsh
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Marsh
+  nameWithType: MaterialHash.Marsh
+  fullName: GTA.MaterialHash.Marsh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Marsh = 223086562
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MarshDeep
+  commentId: F:GTA.MaterialHash.MarshDeep
+  id: MarshDeep
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MarshDeep
+  nameWithType: MaterialHash.MarshDeep
+  fullName: GTA.MaterialHash.MarshDeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MarshDeep = 1584636462
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Soil
+  commentId: F:GTA.MaterialHash.Soil
+  id: Soil
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Soil
+  nameWithType: MaterialHash.Soil
+  fullName: GTA.MaterialHash.Soil
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Soil = 3594309083
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ClayHard
+  commentId: F:GTA.MaterialHash.ClayHard
+  id: ClayHard
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ClayHard
+  nameWithType: MaterialHash.ClayHard
+  fullName: GTA.MaterialHash.ClayHard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ClayHard = 1144315879
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ClaySoft
+  commentId: F:GTA.MaterialHash.ClaySoft
+  id: ClaySoft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ClaySoft
+  nameWithType: MaterialHash.ClaySoft
+  fullName: GTA.MaterialHash.ClaySoft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ClaySoft = 560985072
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GrassLong
+  commentId: F:GTA.MaterialHash.GrassLong
+  id: GrassLong
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GrassLong
+  nameWithType: MaterialHash.GrassLong
+  fullName: GTA.MaterialHash.GrassLong
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GrassLong = 3833216577
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Grass
+  commentId: F:GTA.MaterialHash.Grass
+  id: Grass
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Grass
+  nameWithType: MaterialHash.Grass
+  fullName: GTA.MaterialHash.Grass
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Grass = 1333033863
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GrassShort
+  commentId: F:GTA.MaterialHash.GrassShort
+  id: GrassShort
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GrassShort
+  nameWithType: MaterialHash.GrassShort
+  fullName: GTA.MaterialHash.GrassShort
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GrassShort = 3008270349
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Hay
+  commentId: F:GTA.MaterialHash.Hay
+  id: Hay
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Hay
+  nameWithType: MaterialHash.Hay
+  fullName: GTA.MaterialHash.Hay
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hay = 2461440131
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Bushes
+  commentId: F:GTA.MaterialHash.Bushes
+  id: Bushes
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Bushes
+  nameWithType: MaterialHash.Bushes
+  fullName: GTA.MaterialHash.Bushes
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Bushes = 581794674
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Twigs
+  commentId: F:GTA.MaterialHash.Twigs
+  id: Twigs
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Twigs
+  nameWithType: MaterialHash.Twigs
+  fullName: GTA.MaterialHash.Twigs
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Twigs = 3381615457
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Leaves
+  commentId: F:GTA.MaterialHash.Leaves
+  id: Leaves
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Leaves
+  nameWithType: MaterialHash.Leaves
+  fullName: GTA.MaterialHash.Leaves
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Leaves = 2253637325
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Woodchips
+  commentId: F:GTA.MaterialHash.Woodchips
+  id: Woodchips
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Woodchips
+  nameWithType: MaterialHash.Woodchips
+  fullName: GTA.MaterialHash.Woodchips
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Woodchips = 3985845843
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.TreeBark
+  commentId: F:GTA.MaterialHash.TreeBark
+  id: TreeBark
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: TreeBark
+  nameWithType: MaterialHash.TreeBark
+  fullName: GTA.MaterialHash.TreeBark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TreeBark = 2379541433
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalSolidSmall
+  commentId: F:GTA.MaterialHash.MetalSolidSmall
+  id: MetalSolidSmall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalSolidSmall
+  nameWithType: MaterialHash.MetalSolidSmall
+  fullName: GTA.MaterialHash.MetalSolidSmall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalSolidSmall = 2847687191
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalSolidMedium
+  commentId: F:GTA.MaterialHash.MetalSolidMedium
+  id: MetalSolidMedium
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalSolidMedium
+  nameWithType: MaterialHash.MetalSolidMedium
+  fullName: GTA.MaterialHash.MetalSolidMedium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalSolidMedium = 3929336056
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalSolidLarge
+  commentId: F:GTA.MaterialHash.MetalSolidLarge
+  id: MetalSolidLarge
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalSolidLarge
+  nameWithType: MaterialHash.MetalSolidLarge
+  fullName: GTA.MaterialHash.MetalSolidLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalSolidLarge = 752131025
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalHollowSmall
+  commentId: F:GTA.MaterialHash.MetalHollowSmall
+  id: MetalHollowSmall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalHollowSmall
+  nameWithType: MaterialHash.MetalHollowSmall
+  fullName: GTA.MaterialHash.MetalHollowSmall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalHollowSmall = 15972667
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalHollowMedium
+  commentId: F:GTA.MaterialHash.MetalHollowMedium
+  id: MetalHollowMedium
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalHollowMedium
+  nameWithType: MaterialHash.MetalHollowMedium
+  fullName: GTA.MaterialHash.MetalHollowMedium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalHollowMedium = 1849540536
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalHollowLarge
+  commentId: F:GTA.MaterialHash.MetalHollowLarge
+  id: MetalHollowLarge
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalHollowLarge
+  nameWithType: MaterialHash.MetalHollowLarge
+  fullName: GTA.MaterialHash.MetalHollowLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalHollowLarge = 3711753465
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalChainLinkSmall
+  commentId: F:GTA.MaterialHash.MetalChainLinkSmall
+  id: MetalChainLinkSmall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalChainLinkSmall
+  nameWithType: MaterialHash.MetalChainLinkSmall
+  fullName: GTA.MaterialHash.MetalChainLinkSmall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalChainLinkSmall = 762193613
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalChainLinkLarge
+  commentId: F:GTA.MaterialHash.MetalChainLinkLarge
+  id: MetalChainLinkLarge
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalChainLinkLarge
+  nameWithType: MaterialHash.MetalChainLinkLarge
+  fullName: GTA.MaterialHash.MetalChainLinkLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalChainLinkLarge = 125958708
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalCorrugatedIron
+  commentId: F:GTA.MaterialHash.MetalCorrugatedIron
+  id: MetalCorrugatedIron
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalCorrugatedIron
+  nameWithType: MaterialHash.MetalCorrugatedIron
+  fullName: GTA.MaterialHash.MetalCorrugatedIron
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalCorrugatedIron = 834144982
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalGrille
+  commentId: F:GTA.MaterialHash.MetalGrille
+  id: MetalGrille
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalGrille
+  nameWithType: MaterialHash.MetalGrille
+  fullName: GTA.MaterialHash.MetalGrille
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalGrille = 3868849285
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalRailing
+  commentId: F:GTA.MaterialHash.MetalRailing
+  id: MetalRailing
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalRailing
+  nameWithType: MaterialHash.MetalRailing
+  fullName: GTA.MaterialHash.MetalRailing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalRailing = 2100727187
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalDuct
+  commentId: F:GTA.MaterialHash.MetalDuct
+  id: MetalDuct
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalDuct
+  nameWithType: MaterialHash.MetalDuct
+  fullName: GTA.MaterialHash.MetalDuct
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalDuct = 1761524221
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalGarageDoor
+  commentId: F:GTA.MaterialHash.MetalGarageDoor
+  id: MetalGarageDoor
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalGarageDoor
+  nameWithType: MaterialHash.MetalGarageDoor
+  fullName: GTA.MaterialHash.MetalGarageDoor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalGarageDoor = 4063706601
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalManhole
+  commentId: F:GTA.MaterialHash.MetalManhole
+  id: MetalManhole
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalManhole
+  nameWithType: MaterialHash.MetalManhole
+  fullName: GTA.MaterialHash.MetalManhole
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalManhole = 3539969597
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodSolidSmall
+  commentId: F:GTA.MaterialHash.WoodSolidSmall
+  id: WoodSolidSmall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodSolidSmall
+  nameWithType: MaterialHash.WoodSolidSmall
+  fullName: GTA.MaterialHash.WoodSolidSmall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodSolidSmall = 3895095068
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodSolidMedium
+  commentId: F:GTA.MaterialHash.WoodSolidMedium
+  id: WoodSolidMedium
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodSolidMedium
+  nameWithType: MaterialHash.WoodSolidMedium
+  fullName: GTA.MaterialHash.WoodSolidMedium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodSolidMedium = 555004797
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodSolidLarge
+  commentId: F:GTA.MaterialHash.WoodSolidLarge
+  id: WoodSolidLarge
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodSolidLarge
+  nameWithType: MaterialHash.WoodSolidLarge
+  fullName: GTA.MaterialHash.WoodSolidLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodSolidLarge = 815762359
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodSolidPolished
+  commentId: F:GTA.MaterialHash.WoodSolidPolished
+  id: WoodSolidPolished
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodSolidPolished
+  nameWithType: MaterialHash.WoodSolidPolished
+  fullName: GTA.MaterialHash.WoodSolidPolished
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodSolidPolished = 126470059
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodFloorDusty
+  commentId: F:GTA.MaterialHash.WoodFloorDusty
+  id: WoodFloorDusty
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodFloorDusty
+  nameWithType: MaterialHash.WoodFloorDusty
+  fullName: GTA.MaterialHash.WoodFloorDusty
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodFloorDusty = 3545514974
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodHollowSmall
+  commentId: F:GTA.MaterialHash.WoodHollowSmall
+  id: WoodHollowSmall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodHollowSmall
+  nameWithType: MaterialHash.WoodHollowSmall
+  fullName: GTA.MaterialHash.WoodHollowSmall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodHollowSmall = 1993976879
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodHollowMedium
+  commentId: F:GTA.MaterialHash.WoodHollowMedium
+  id: WoodHollowMedium
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodHollowMedium
+  nameWithType: MaterialHash.WoodHollowMedium
+  fullName: GTA.MaterialHash.WoodHollowMedium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodHollowMedium = 3929491133
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodHollowLarge
+  commentId: F:GTA.MaterialHash.WoodHollowLarge
+  id: WoodHollowLarge
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodHollowLarge
+  nameWithType: MaterialHash.WoodHollowLarge
+  fullName: GTA.MaterialHash.WoodHollowLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodHollowLarge = 3369548007
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodChipboard
+  commentId: F:GTA.MaterialHash.WoodChipboard
+  id: WoodChipboard
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodChipboard
+  nameWithType: MaterialHash.WoodChipboard
+  fullName: GTA.MaterialHash.WoodChipboard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodChipboard = 1176309403
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodOldCreaky
+  commentId: F:GTA.MaterialHash.WoodOldCreaky
+  id: WoodOldCreaky
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodOldCreaky
+  nameWithType: MaterialHash.WoodOldCreaky
+  fullName: GTA.MaterialHash.WoodOldCreaky
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodOldCreaky = 722686013
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodHighDensity
+  commentId: F:GTA.MaterialHash.WoodHighDensity
+  id: WoodHighDensity
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodHighDensity
+  nameWithType: MaterialHash.WoodHighDensity
+  fullName: GTA.MaterialHash.WoodHighDensity
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodHighDensity = 2552123904
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodLattice
+  commentId: F:GTA.MaterialHash.WoodLattice
+  id: WoodLattice
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodLattice
+  nameWithType: MaterialHash.WoodLattice
+  fullName: GTA.MaterialHash.WoodLattice
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodLattice = 2011204130
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Ceramic
+  commentId: F:GTA.MaterialHash.Ceramic
+  id: Ceramic
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Ceramic
+  nameWithType: MaterialHash.Ceramic
+  fullName: GTA.MaterialHash.Ceramic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ceramic = 3108646581
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.RoofTile
+  commentId: F:GTA.MaterialHash.RoofTile
+  id: RoofTile
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: RoofTile
+  nameWithType: MaterialHash.RoofTile
+  fullName: GTA.MaterialHash.RoofTile
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RoofTile = 1755188853
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.RoofFelt
+  commentId: F:GTA.MaterialHash.RoofFelt
+  id: RoofFelt
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: RoofFelt
+  nameWithType: MaterialHash.RoofFelt
+  fullName: GTA.MaterialHash.RoofFelt
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RoofFelt = 2877802565
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Fiberglass
+  commentId: F:GTA.MaterialHash.Fiberglass
+  id: Fiberglass
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Fiberglass
+  nameWithType: MaterialHash.Fiberglass
+  fullName: GTA.MaterialHash.Fiberglass
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Fiberglass = 1354180827
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Tarpaulin
+  commentId: F:GTA.MaterialHash.Tarpaulin
+  id: Tarpaulin
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Tarpaulin
+  nameWithType: MaterialHash.Tarpaulin
+  fullName: GTA.MaterialHash.Tarpaulin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Tarpaulin = 3652308448
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Plastic
+  commentId: F:GTA.MaterialHash.Plastic
+  id: Plastic
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Plastic
+  nameWithType: MaterialHash.Plastic
+  fullName: GTA.MaterialHash.Plastic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Plastic = 2221655295
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasticHollow
+  commentId: F:GTA.MaterialHash.PlasticHollow
+  id: PlasticHollow
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasticHollow
+  nameWithType: MaterialHash.PlasticHollow
+  fullName: GTA.MaterialHash.PlasticHollow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasticHollow = 627123000
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasticHighDensity
+  commentId: F:GTA.MaterialHash.PlasticHighDensity
+  id: PlasticHighDensity
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasticHighDensity
+  nameWithType: MaterialHash.PlasticHighDensity
+  fullName: GTA.MaterialHash.PlasticHighDensity
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasticHighDensity = 2668971817
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasticClear
+  commentId: F:GTA.MaterialHash.PlasticClear
+  id: PlasticClear
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasticClear
+  nameWithType: MaterialHash.PlasticClear
+  fullName: GTA.MaterialHash.PlasticClear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasticClear = 2435246283
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasticHollowClear
+  commentId: F:GTA.MaterialHash.PlasticHollowClear
+  id: PlasticHollowClear
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasticHollowClear
+  nameWithType: MaterialHash.PlasticHollowClear
+  fullName: GTA.MaterialHash.PlasticHollowClear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasticHollowClear = 772722531
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasticHighDensityClear
+  commentId: F:GTA.MaterialHash.PlasticHighDensityClear
+  id: PlasticHighDensityClear
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasticHighDensityClear
+  nameWithType: MaterialHash.PlasticHighDensityClear
+  fullName: GTA.MaterialHash.PlasticHighDensityClear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasticHighDensityClear = 2956494126
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.FiberglassHollow
+  commentId: F:GTA.MaterialHash.FiberglassHollow
+  id: FiberglassHollow
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: FiberglassHollow
+  nameWithType: MaterialHash.FiberglassHollow
+  fullName: GTA.MaterialHash.FiberglassHollow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FiberglassHollow = 3528912198
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Rubber
+  commentId: F:GTA.MaterialHash.Rubber
+  id: Rubber
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Rubber
+  nameWithType: MaterialHash.Rubber
+  fullName: GTA.MaterialHash.Rubber
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Rubber = 4149231379
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.RubberHollow
+  commentId: F:GTA.MaterialHash.RubberHollow
+  id: RubberHollow
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: RubberHollow
+  nameWithType: MaterialHash.RubberHollow
+  fullName: GTA.MaterialHash.RubberHollow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RubberHollow = 3511032624
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Linoleum
+  commentId: F:GTA.MaterialHash.Linoleum
+  id: Linoleum
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Linoleum
+  nameWithType: MaterialHash.Linoleum
+  fullName: GTA.MaterialHash.Linoleum
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Linoleum = 289630530
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Laminate
+  commentId: F:GTA.MaterialHash.Laminate
+  id: Laminate
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Laminate
+  nameWithType: MaterialHash.Laminate
+  fullName: GTA.MaterialHash.Laminate
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Laminate = 1845676458
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarpetSolid
+  commentId: F:GTA.MaterialHash.CarpetSolid
+  id: CarpetSolid
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarpetSolid
+  nameWithType: MaterialHash.CarpetSolid
+  fullName: GTA.MaterialHash.CarpetSolid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarpetSolid = 669292054
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarpetSolidDusty
+  commentId: F:GTA.MaterialHash.CarpetSolidDusty
+  id: CarpetSolidDusty
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarpetSolidDusty
+  nameWithType: MaterialHash.CarpetSolidDusty
+  fullName: GTA.MaterialHash.CarpetSolidDusty
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarpetSolidDusty = 158576196
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarpetFloorboard
+  commentId: F:GTA.MaterialHash.CarpetFloorboard
+  id: CarpetFloorboard
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarpetFloorboard
+  nameWithType: MaterialHash.CarpetFloorboard
+  fullName: GTA.MaterialHash.CarpetFloorboard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarpetFloorboard = 2898482353
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Cloth
+  commentId: F:GTA.MaterialHash.Cloth
+  id: Cloth
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Cloth
+  nameWithType: MaterialHash.Cloth
+  fullName: GTA.MaterialHash.Cloth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Cloth = 122789469
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasterSolid
+  commentId: F:GTA.MaterialHash.PlasterSolid
+  id: PlasterSolid
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasterSolid
+  nameWithType: MaterialHash.PlasterSolid
+  fullName: GTA.MaterialHash.PlasterSolid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasterSolid = 3720844863
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PlasterBrittle
+  commentId: F:GTA.MaterialHash.PlasterBrittle
+  id: PlasterBrittle
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PlasterBrittle
+  nameWithType: MaterialHash.PlasterBrittle
+  fullName: GTA.MaterialHash.PlasterBrittle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlasterBrittle = 4043078398
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CardboardSheet
+  commentId: F:GTA.MaterialHash.CardboardSheet
+  id: CardboardSheet
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CardboardSheet
+  nameWithType: MaterialHash.CardboardSheet
+  fullName: GTA.MaterialHash.CardboardSheet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CardboardSheet = 236511221
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CardboardBox
+  commentId: F:GTA.MaterialHash.CardboardBox
+  id: CardboardBox
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CardboardBox
+  nameWithType: MaterialHash.CardboardBox
+  fullName: GTA.MaterialHash.CardboardBox
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CardboardBox = 2885912856
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Paper
+  commentId: F:GTA.MaterialHash.Paper
+  id: Paper
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Paper
+  nameWithType: MaterialHash.Paper
+  fullName: GTA.MaterialHash.Paper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Paper = 474149820
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Foam
+  commentId: F:GTA.MaterialHash.Foam
+  id: Foam
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Foam
+  nameWithType: MaterialHash.Foam
+  fullName: GTA.MaterialHash.Foam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Foam = 808719444
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.FeatherPillow
+  commentId: F:GTA.MaterialHash.FeatherPillow
+  id: FeatherPillow
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: FeatherPillow
+  nameWithType: MaterialHash.FeatherPillow
+  fullName: GTA.MaterialHash.FeatherPillow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FeatherPillow = 1341866303
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Polystyrene
+  commentId: F:GTA.MaterialHash.Polystyrene
+  id: Polystyrene
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Polystyrene
+  nameWithType: MaterialHash.Polystyrene
+  fullName: GTA.MaterialHash.Polystyrene
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Polystyrene = 2538039965
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Leather
+  commentId: F:GTA.MaterialHash.Leather
+  id: Leather
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Leather
+  nameWithType: MaterialHash.Leather
+  fullName: GTA.MaterialHash.Leather
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Leather = 3724496396
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.TvScreen
+  commentId: F:GTA.MaterialHash.TvScreen
+  id: TvScreen
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: TvScreen
+  nameWithType: MaterialHash.TvScreen
+  fullName: GTA.MaterialHash.TvScreen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TvScreen = 1429989756
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.SlattedBlinds
+  commentId: F:GTA.MaterialHash.SlattedBlinds
+  id: SlattedBlinds
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: SlattedBlinds
+  nameWithType: MaterialHash.SlattedBlinds
+  fullName: GTA.MaterialHash.SlattedBlinds
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SlattedBlinds = 673696729
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GlassShootThrough
+  commentId: F:GTA.MaterialHash.GlassShootThrough
+  id: GlassShootThrough
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GlassShootThrough
+  nameWithType: MaterialHash.GlassShootThrough
+  fullName: GTA.MaterialHash.GlassShootThrough
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GlassShootThrough = 937503243
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GlassBulletproof
+  commentId: F:GTA.MaterialHash.GlassBulletproof
+  id: GlassBulletproof
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GlassBulletproof
+  nameWithType: MaterialHash.GlassBulletproof
+  fullName: GTA.MaterialHash.GlassBulletproof
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GlassBulletproof = 244521486
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.GlassOpaque
+  commentId: F:GTA.MaterialHash.GlassOpaque
+  id: GlassOpaque
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: GlassOpaque
+  nameWithType: MaterialHash.GlassOpaque
+  fullName: GTA.MaterialHash.GlassOpaque
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GlassOpaque = 1500272081
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Perspex
+  commentId: F:GTA.MaterialHash.Perspex
+  id: Perspex
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Perspex
+  nameWithType: MaterialHash.Perspex
+  fullName: GTA.MaterialHash.Perspex
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Perspex = 2675173228
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarMetal
+  commentId: F:GTA.MaterialHash.CarMetal
+  id: CarMetal
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarMetal
+  nameWithType: MaterialHash.CarMetal
+  fullName: GTA.MaterialHash.CarMetal
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarMetal = 4201905313
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarPlastic
+  commentId: F:GTA.MaterialHash.CarPlastic
+  id: CarPlastic
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarPlastic
+  nameWithType: MaterialHash.CarPlastic
+  fullName: GTA.MaterialHash.CarPlastic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarPlastic = 2137197282
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarSoftTop
+  commentId: F:GTA.MaterialHash.CarSoftTop
+  id: CarSoftTop
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarSoftTop
+  nameWithType: MaterialHash.CarSoftTop
+  fullName: GTA.MaterialHash.CarSoftTop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarSoftTop = 3315319434
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarSoftTopClear
+  commentId: F:GTA.MaterialHash.CarSoftTopClear
+  id: CarSoftTopClear
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarSoftTopClear
+  nameWithType: MaterialHash.CarSoftTopClear
+  fullName: GTA.MaterialHash.CarSoftTopClear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarSoftTopClear = 2130571536
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarGlassWeak
+  commentId: F:GTA.MaterialHash.CarGlassWeak
+  id: CarGlassWeak
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarGlassWeak
+  nameWithType: MaterialHash.CarGlassWeak
+  fullName: GTA.MaterialHash.CarGlassWeak
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarGlassWeak = 1247281098
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarGlassMedium
+  commentId: F:GTA.MaterialHash.CarGlassMedium
+  id: CarGlassMedium
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarGlassMedium
+  nameWithType: MaterialHash.CarGlassMedium
+  fullName: GTA.MaterialHash.CarGlassMedium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarGlassMedium = 602884284
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarGlassStrong
+  commentId: F:GTA.MaterialHash.CarGlassStrong
+  id: CarGlassStrong
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarGlassStrong
+  nameWithType: MaterialHash.CarGlassStrong
+  fullName: GTA.MaterialHash.CarGlassStrong
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarGlassStrong = 1070994698
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarGlassBulletproof
+  commentId: F:GTA.MaterialHash.CarGlassBulletproof
+  id: CarGlassBulletproof
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarGlassBulletproof
+  nameWithType: MaterialHash.CarGlassBulletproof
+  fullName: GTA.MaterialHash.CarGlassBulletproof
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarGlassBulletproof = 2573051366
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarGlassOpaque
+  commentId: F:GTA.MaterialHash.CarGlassOpaque
+  id: CarGlassOpaque
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarGlassOpaque
+  nameWithType: MaterialHash.CarGlassOpaque
+  fullName: GTA.MaterialHash.CarGlassOpaque
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarGlassOpaque = 513061559
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Water
+  commentId: F:GTA.MaterialHash.Water
+  id: Water
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Water
+  nameWithType: MaterialHash.Water
+  fullName: GTA.MaterialHash.Water
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Water = 435688960
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Blood
+  commentId: F:GTA.MaterialHash.Blood
+  id: Blood
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Blood
+  nameWithType: MaterialHash.Blood
+  fullName: GTA.MaterialHash.Blood
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blood = 5236042
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Oil
+  commentId: F:GTA.MaterialHash.Oil
+  id: Oil
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Oil
+  nameWithType: MaterialHash.Oil
+  fullName: GTA.MaterialHash.Oil
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Oil = 3660485991
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Petrol
+  commentId: F:GTA.MaterialHash.Petrol
+  id: Petrol
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Petrol
+  nameWithType: MaterialHash.Petrol
+  fullName: GTA.MaterialHash.Petrol
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Petrol = 2660782956
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.FreshMeat
+  commentId: F:GTA.MaterialHash.FreshMeat
+  id: FreshMeat
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: FreshMeat
+  nameWithType: MaterialHash.FreshMeat
+  fullName: GTA.MaterialHash.FreshMeat
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FreshMeat = 868733839
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.DriedMeat
+  commentId: F:GTA.MaterialHash.DriedMeat
+  id: DriedMeat
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: DriedMeat
+  nameWithType: MaterialHash.DriedMeat
+  fullName: GTA.MaterialHash.DriedMeat
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DriedMeat = 2849806867
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.EmissiveGlass
+  commentId: F:GTA.MaterialHash.EmissiveGlass
+  id: EmissiveGlass
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: EmissiveGlass
+  nameWithType: MaterialHash.EmissiveGlass
+  fullName: GTA.MaterialHash.EmissiveGlass
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EmissiveGlass = 1501078253
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.EmissivePlastic
+  commentId: F:GTA.MaterialHash.EmissivePlastic
+  id: EmissivePlastic
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: EmissivePlastic
+  nameWithType: MaterialHash.EmissivePlastic
+  fullName: GTA.MaterialHash.EmissivePlastic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EmissivePlastic = 1059629996
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.VfxMetalElectrified
+  commentId: F:GTA.MaterialHash.VfxMetalElectrified
+  id: VfxMetalElectrified
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: VfxMetalElectrified
+  nameWithType: MaterialHash.VfxMetalElectrified
+  fullName: GTA.MaterialHash.VfxMetalElectrified
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VfxMetalElectrified = 3985833031
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.VfxMetalWaterTower
+  commentId: F:GTA.MaterialHash.VfxMetalWaterTower
+  id: VfxMetalWaterTower
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: VfxMetalWaterTower
+  nameWithType: MaterialHash.VfxMetalWaterTower
+  fullName: GTA.MaterialHash.VfxMetalWaterTower
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VfxMetalWaterTower = 611561919
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.VfxMetalSteam
+  commentId: F:GTA.MaterialHash.VfxMetalSteam
+  id: VfxMetalSteam
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: VfxMetalSteam
+  nameWithType: MaterialHash.VfxMetalSteam
+  fullName: GTA.MaterialHash.VfxMetalSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VfxMetalSteam = 3603690002
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.VfxMetalFlame
+  commentId: F:GTA.MaterialHash.VfxMetalFlame
+  id: VfxMetalFlame
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: VfxMetalFlame
+  nameWithType: MaterialHash.VfxMetalFlame
+  fullName: GTA.MaterialHash.VfxMetalFlame
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VfxMetalFlame = 332778253
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysNoFriction
+  commentId: F:GTA.MaterialHash.PhysNoFriction
+  id: PhysNoFriction
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysNoFriction
+  nameWithType: MaterialHash.PhysNoFriction
+  fullName: GTA.MaterialHash.PhysNoFriction
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysNoFriction = 1666473731
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysGolfBall
+  commentId: F:GTA.MaterialHash.PhysGolfBall
+  id: PhysGolfBall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysGolfBall
+  nameWithType: MaterialHash.PhysGolfBall
+  fullName: GTA.MaterialHash.PhysGolfBall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysGolfBall = 2601153738
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysTennisBall
+  commentId: F:GTA.MaterialHash.PhysTennisBall
+  id: PhysTennisBall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysTennisBall
+  nameWithType: MaterialHash.PhysTennisBall
+  fullName: GTA.MaterialHash.PhysTennisBall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysTennisBall = 4038262533
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysCaster
+  commentId: F:GTA.MaterialHash.PhysCaster
+  id: PhysCaster
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysCaster
+  nameWithType: MaterialHash.PhysCaster
+  fullName: GTA.MaterialHash.PhysCaster
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysCaster = 4059664613
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysCasterRusty
+  commentId: F:GTA.MaterialHash.PhysCasterRusty
+  id: PhysCasterRusty
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysCasterRusty
+  nameWithType: MaterialHash.PhysCasterRusty
+  fullName: GTA.MaterialHash.PhysCasterRusty
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysCasterRusty = 2016463089
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysCarVoid
+  commentId: F:GTA.MaterialHash.PhysCarVoid
+  id: PhysCarVoid
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysCarVoid
+  nameWithType: MaterialHash.PhysCarVoid
+  fullName: GTA.MaterialHash.PhysCarVoid
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysCarVoid = 1345867677
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysPedCapsule
+  commentId: F:GTA.MaterialHash.PhysPedCapsule
+  id: PhysPedCapsule
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysPedCapsule
+  nameWithType: MaterialHash.PhysPedCapsule
+  fullName: GTA.MaterialHash.PhysPedCapsule
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysPedCapsule = 4003336261
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysElectricFence
+  commentId: F:GTA.MaterialHash.PhysElectricFence
+  id: PhysElectricFence
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysElectricFence
+  nameWithType: MaterialHash.PhysElectricFence
+  fullName: GTA.MaterialHash.PhysElectricFence
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysElectricFence = 3124923563
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysElectricMetal
+  commentId: F:GTA.MaterialHash.PhysElectricMetal
+  id: PhysElectricMetal
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysElectricMetal
+  nameWithType: MaterialHash.PhysElectricMetal
+  fullName: GTA.MaterialHash.PhysElectricMetal
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysElectricMetal = 2281206151
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysBarbedWire
+  commentId: F:GTA.MaterialHash.PhysBarbedWire
+  id: PhysBarbedWire
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysBarbedWire
+  nameWithType: MaterialHash.PhysBarbedWire
+  fullName: GTA.MaterialHash.PhysBarbedWire
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysBarbedWire = 2751643840
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysPoolTableSurface
+  commentId: F:GTA.MaterialHash.PhysPoolTableSurface
+  id: PhysPoolTableSurface
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysPoolTableSurface
+  nameWithType: MaterialHash.PhysPoolTableSurface
+  fullName: GTA.MaterialHash.PhysPoolTableSurface
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysPoolTableSurface = 605776921
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysPoolTableCushion
+  commentId: F:GTA.MaterialHash.PhysPoolTableCushion
+  id: PhysPoolTableCushion
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysPoolTableCushion
+  nameWithType: MaterialHash.PhysPoolTableCushion
+  fullName: GTA.MaterialHash.PhysPoolTableCushion
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysPoolTableCushion = 972939963
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysPoolTableBall
+  commentId: F:GTA.MaterialHash.PhysPoolTableBall
+  id: PhysPoolTableBall
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysPoolTableBall
+  nameWithType: MaterialHash.PhysPoolTableBall
+  fullName: GTA.MaterialHash.PhysPoolTableBall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysPoolTableBall = 3546625734
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Buttocks
+  commentId: F:GTA.MaterialHash.Buttocks
+  id: Buttocks
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Buttocks
+  nameWithType: MaterialHash.Buttocks
+  fullName: GTA.MaterialHash.Buttocks
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Buttocks = 483400232
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ThighLeft
+  commentId: F:GTA.MaterialHash.ThighLeft
+  id: ThighLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ThighLeft
+  nameWithType: MaterialHash.ThighLeft
+  fullName: GTA.MaterialHash.ThighLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThighLeft = 3834431425
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ShinLeft
+  commentId: F:GTA.MaterialHash.ShinLeft
+  id: ShinLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ShinLeft
+  nameWithType: MaterialHash.ShinLeft
+  fullName: GTA.MaterialHash.ShinLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShinLeft = 652772852
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.FootLeft
+  commentId: F:GTA.MaterialHash.FootLeft
+  id: FootLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: FootLeft
+  nameWithType: MaterialHash.FootLeft
+  fullName: GTA.MaterialHash.FootLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FootLeft = 1926285543
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ThighRight
+  commentId: F:GTA.MaterialHash.ThighRight
+  id: ThighRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ThighRight
+  nameWithType: MaterialHash.ThighRight
+  fullName: GTA.MaterialHash.ThighRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThighRight = 4057986041
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ShinRight
+  commentId: F:GTA.MaterialHash.ShinRight
+  id: ShinRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ShinRight
+  nameWithType: MaterialHash.ShinRight
+  fullName: GTA.MaterialHash.ShinRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShinRight = 3848931141
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.FootRight
+  commentId: F:GTA.MaterialHash.FootRight
+  id: FootRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: FootRight
+  nameWithType: MaterialHash.FootRight
+  fullName: GTA.MaterialHash.FootRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FootRight = 2925830612
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Spine0
+  commentId: F:GTA.MaterialHash.Spine0
+  id: Spine0
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Spine0
+  nameWithType: MaterialHash.Spine0
+  fullName: GTA.MaterialHash.Spine0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine0 = 2372680412
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Spine1
+  commentId: F:GTA.MaterialHash.Spine1
+  id: Spine1
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Spine1
+  nameWithType: MaterialHash.Spine1
+  fullName: GTA.MaterialHash.Spine1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine1 = 3154854427
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Spine2
+  commentId: F:GTA.MaterialHash.Spine2
+  id: Spine2
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Spine2
+  nameWithType: MaterialHash.Spine2
+  fullName: GTA.MaterialHash.Spine2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine2 = 1457572381
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Spine3
+  commentId: F:GTA.MaterialHash.Spine3
+  id: Spine3
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Spine3
+  nameWithType: MaterialHash.Spine3
+  fullName: GTA.MaterialHash.Spine3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spine3 = 32752644
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ClavicleLeft
+  commentId: F:GTA.MaterialHash.ClavicleLeft
+  id: ClavicleLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ClavicleLeft
+  nameWithType: MaterialHash.ClavicleLeft
+  fullName: GTA.MaterialHash.ClavicleLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ClavicleLeft = 2825350831
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.UpperArmLeft
+  commentId: F:GTA.MaterialHash.UpperArmLeft
+  id: UpperArmLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: UpperArmLeft
+  nameWithType: MaterialHash.UpperArmLeft
+  fullName: GTA.MaterialHash.UpperArmLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UpperArmLeft = 3784624938
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.LowerArmLeft
+  commentId: F:GTA.MaterialHash.LowerArmLeft
+  id: LowerArmLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: LowerArmLeft
+  nameWithType: MaterialHash.LowerArmLeft
+  fullName: GTA.MaterialHash.LowerArmLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LowerArmLeft = 1045062756
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.HandLeft
+  commentId: F:GTA.MaterialHash.HandLeft
+  id: HandLeft
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: HandLeft
+  nameWithType: MaterialHash.HandLeft
+  fullName: GTA.MaterialHash.HandLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HandLeft = 113101985
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ClavicleRight
+  commentId: F:GTA.MaterialHash.ClavicleRight
+  id: ClavicleRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ClavicleRight
+  nameWithType: MaterialHash.ClavicleRight
+  fullName: GTA.MaterialHash.ClavicleRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ClavicleRight = 2737678298
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.UpperArmRight
+  commentId: F:GTA.MaterialHash.UpperArmRight
+  id: UpperArmRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: UpperArmRight
+  nameWithType: MaterialHash.UpperArmRight
+  fullName: GTA.MaterialHash.UpperArmRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UpperArmRight = 1501153539
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.LowerArmRight
+  commentId: F:GTA.MaterialHash.LowerArmRight
+  id: LowerArmRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: LowerArmRight
+  nameWithType: MaterialHash.LowerArmRight
+  fullName: GTA.MaterialHash.LowerArmRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LowerArmRight = 1777921590
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.HandRight
+  commentId: F:GTA.MaterialHash.HandRight
+  id: HandRight
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: HandRight
+  nameWithType: MaterialHash.HandRight
+  fullName: GTA.MaterialHash.HandRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HandRight = 2000961972
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Neck
+  commentId: F:GTA.MaterialHash.Neck
+  id: Neck
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Neck
+  nameWithType: MaterialHash.Neck
+  fullName: GTA.MaterialHash.Neck
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Neck = 1718294164
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Head
+  commentId: F:GTA.MaterialHash.Head
+  id: Head
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Head
+  nameWithType: MaterialHash.Head
+  fullName: GTA.MaterialHash.Head
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Head = 3559574543
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.AnimalDefault
+  commentId: F:GTA.MaterialHash.AnimalDefault
+  id: AnimalDefault
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: AnimalDefault
+  nameWithType: MaterialHash.AnimalDefault
+  fullName: GTA.MaterialHash.AnimalDefault
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AnimalDefault = 286224918
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.CarEngine
+  commentId: F:GTA.MaterialHash.CarEngine
+  id: CarEngine
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: CarEngine
+  nameWithType: MaterialHash.CarEngine
+  fullName: GTA.MaterialHash.CarEngine
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CarEngine = 2378027672
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Puddle
+  commentId: F:GTA.MaterialHash.Puddle
+  id: Puddle
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Puddle
+  nameWithType: MaterialHash.Puddle
+  fullName: GTA.MaterialHash.Puddle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Puddle = 999829011
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.ConcretePavement
+  commentId: F:GTA.MaterialHash.ConcretePavement
+  id: ConcretePavement
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: ConcretePavement
+  nameWithType: MaterialHash.ConcretePavement
+  fullName: GTA.MaterialHash.ConcretePavement
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ConcretePavement = 2015599386
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.BrickPavement
+  commentId: F:GTA.MaterialHash.BrickPavement
+  id: BrickPavement
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: BrickPavement
+  nameWithType: MaterialHash.BrickPavement
+  fullName: GTA.MaterialHash.BrickPavement
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BrickPavement = 3147605720
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.PhysDynamicCoverBound
+  commentId: F:GTA.MaterialHash.PhysDynamicCoverBound
+  id: PhysDynamicCoverBound
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: PhysDynamicCoverBound
+  nameWithType: MaterialHash.PhysDynamicCoverBound
+  fullName: GTA.MaterialHash.PhysDynamicCoverBound
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PhysDynamicCoverBound = 2247498441
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.VfxWoodBeerBarrel
+  commentId: F:GTA.MaterialHash.VfxWoodBeerBarrel
+  id: VfxWoodBeerBarrel
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: VfxWoodBeerBarrel
+  nameWithType: MaterialHash.VfxWoodBeerBarrel
+  fullName: GTA.MaterialHash.VfxWoodBeerBarrel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VfxWoodBeerBarrel = 998201806
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.WoodHighFriction
+  commentId: F:GTA.MaterialHash.WoodHighFriction
+  id: WoodHighFriction
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: WoodHighFriction
+  nameWithType: MaterialHash.WoodHighFriction
+  fullName: GTA.MaterialHash.WoodHighFriction
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WoodHighFriction = 2154880249
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.RockNoinst
+  commentId: F:GTA.MaterialHash.RockNoinst
+  id: RockNoinst
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: RockNoinst
+  nameWithType: MaterialHash.RockNoinst
+  fullName: GTA.MaterialHash.RockNoinst
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RockNoinst = 127813971
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.BushesNoinst
+  commentId: F:GTA.MaterialHash.BushesNoinst
+  id: BushesNoinst
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: BushesNoinst
+  nameWithType: MaterialHash.BushesNoinst
+  fullName: GTA.MaterialHash.BushesNoinst
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BushesNoinst = 1441114862
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.MetalSolidRoadSurface
+  commentId: F:GTA.MaterialHash.MetalSolidRoadSurface
+  id: MetalSolidRoadSurface
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: MetalSolidRoadSurface
+  nameWithType: MaterialHash.MetalSolidRoadSurface
+  fullName: GTA.MaterialHash.MetalSolidRoadSurface
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MetalSolidRoadSurface = 3565854962
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.StuntRampSurface
+  commentId: F:GTA.MaterialHash.StuntRampSurface
+  id: StuntRampSurface
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: StuntRampSurface
+  nameWithType: MaterialHash.StuntRampSurface
+  fullName: GTA.MaterialHash.StuntRampSurface
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StuntRampSurface = 2206792300
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp01
+  commentId: F:GTA.MaterialHash.Temp01
+  id: Temp01
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp01
+  nameWithType: MaterialHash.Temp01
+  fullName: GTA.MaterialHash.Temp01
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp01 = 746881105
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp02
+  commentId: F:GTA.MaterialHash.Temp02
+  id: Temp02
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp02
+  nameWithType: MaterialHash.Temp02
+  fullName: GTA.MaterialHash.Temp02
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp02 = 2316997185
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp03
+  commentId: F:GTA.MaterialHash.Temp03
+  id: Temp03
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp03
+  nameWithType: MaterialHash.Temp03
+  fullName: GTA.MaterialHash.Temp03
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp03 = 1911121241
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp04
+  commentId: F:GTA.MaterialHash.Temp04
+  id: Temp04
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp04
+  nameWithType: MaterialHash.Temp04
+  fullName: GTA.MaterialHash.Temp04
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp04 = 1923995104
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp05
+  commentId: F:GTA.MaterialHash.Temp05
+  id: Temp05
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp05
+  nameWithType: MaterialHash.Temp05
+  fullName: GTA.MaterialHash.Temp05
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp05 = 2901304848
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp06
+  commentId: F:GTA.MaterialHash.Temp06
+  id: Temp06
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp06
+  nameWithType: MaterialHash.Temp06
+  fullName: GTA.MaterialHash.Temp06
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp06 = 1061250033
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp07
+  commentId: F:GTA.MaterialHash.Temp07
+  id: Temp07
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp07
+  nameWithType: MaterialHash.Temp07
+  fullName: GTA.MaterialHash.Temp07
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp07 = 2529443614
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp08
+  commentId: F:GTA.MaterialHash.Temp08
+  id: Temp08
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp08
+  nameWithType: MaterialHash.Temp08
+  fullName: GTA.MaterialHash.Temp08
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp08 = 1343679702
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp09
+  commentId: F:GTA.MaterialHash.Temp09
+  id: Temp09
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp09
+  nameWithType: MaterialHash.Temp09
+  fullName: GTA.MaterialHash.Temp09
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp09 = 1026054937
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp10
+  commentId: F:GTA.MaterialHash.Temp10
+  id: Temp10
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp10
+  nameWithType: MaterialHash.Temp10
+  fullName: GTA.MaterialHash.Temp10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp10 = 63305994
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp11
+  commentId: F:GTA.MaterialHash.Temp11
+  id: Temp11
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp11
+  nameWithType: MaterialHash.Temp11
+  fullName: GTA.MaterialHash.Temp11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp11 = 47470226
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp12
+  commentId: F:GTA.MaterialHash.Temp12
+  id: Temp12
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp12
+  nameWithType: MaterialHash.Temp12
+  fullName: GTA.MaterialHash.Temp12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp12 = 702596674
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp13
+  commentId: F:GTA.MaterialHash.Temp13
+  id: Temp13
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp13
+  nameWithType: MaterialHash.Temp13
+  fullName: GTA.MaterialHash.Temp13
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp13 = 2657481383
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp14
+  commentId: F:GTA.MaterialHash.Temp14
+  id: Temp14
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp14
+  nameWithType: MaterialHash.Temp14
+  fullName: GTA.MaterialHash.Temp14
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp14 = 3649011722
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp15
+  commentId: F:GTA.MaterialHash.Temp15
+  id: Temp15
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp15
+  nameWithType: MaterialHash.Temp15
+  fullName: GTA.MaterialHash.Temp15
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp15 = 2710969365
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp16
+  commentId: F:GTA.MaterialHash.Temp16
+  id: Temp16
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp16
+  nameWithType: MaterialHash.Temp16
+  fullName: GTA.MaterialHash.Temp16
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp16 = 2782232023
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp17
+  commentId: F:GTA.MaterialHash.Temp17
+  id: Temp17
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp17
+  nameWithType: MaterialHash.Temp17
+  fullName: GTA.MaterialHash.Temp17
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp17 = 1011960114
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp18
+  commentId: F:GTA.MaterialHash.Temp18
+  id: Temp18
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp18
+  nameWithType: MaterialHash.Temp18
+  fullName: GTA.MaterialHash.Temp18
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp18 = 1354993138
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp19
+  commentId: F:GTA.MaterialHash.Temp19
+  id: Temp19
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp19
+  nameWithType: MaterialHash.Temp19
+  fullName: GTA.MaterialHash.Temp19
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp19 = 3493162850
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp20
+  commentId: F:GTA.MaterialHash.Temp20
+  id: Temp20
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp20
+  nameWithType: MaterialHash.Temp20
+  fullName: GTA.MaterialHash.Temp20
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp20 = 2242086891
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp21
+  commentId: F:GTA.MaterialHash.Temp21
+  id: Temp21
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp21
+  nameWithType: MaterialHash.Temp21
+  fullName: GTA.MaterialHash.Temp21
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp21 = 3257211236
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp22
+  commentId: F:GTA.MaterialHash.Temp22
+  id: Temp22
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp22
+  nameWithType: MaterialHash.Temp22
+  fullName: GTA.MaterialHash.Temp22
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp22 = 3674578943
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp23
+  commentId: F:GTA.MaterialHash.Temp23
+  id: Temp23
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp23
+  nameWithType: MaterialHash.Temp23
+  fullName: GTA.MaterialHash.Temp23
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp23 = 465002639
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp24
+  commentId: F:GTA.MaterialHash.Temp24
+  id: Temp24
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp24
+  nameWithType: MaterialHash.Temp24
+  fullName: GTA.MaterialHash.Temp24
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp24 = 1963820161
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp25
+  commentId: F:GTA.MaterialHash.Temp25
+  id: Temp25
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp25
+  nameWithType: MaterialHash.Temp25
+  fullName: GTA.MaterialHash.Temp25
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp25 = 1952288305
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp26
+  commentId: F:GTA.MaterialHash.Temp26
+  id: Temp26
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp26
+  nameWithType: MaterialHash.Temp26
+  fullName: GTA.MaterialHash.Temp26
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp26 = 3178714198
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp27
+  commentId: F:GTA.MaterialHash.Temp27
+  id: Temp27
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp27
+  nameWithType: MaterialHash.Temp27
+  fullName: GTA.MaterialHash.Temp27
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp27 = 889255498
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp28
+  commentId: F:GTA.MaterialHash.Temp28
+  id: Temp28
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp28
+  nameWithType: MaterialHash.Temp28
+  fullName: GTA.MaterialHash.Temp28
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp28 = 3115293198
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp29
+  commentId: F:GTA.MaterialHash.Temp29
+  id: Temp29
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp29
+  nameWithType: MaterialHash.Temp29
+  fullName: GTA.MaterialHash.Temp29
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp29 = 1078418101
+    return:
+      type: GTA.MaterialHash
+- uid: GTA.MaterialHash.Temp30
+  commentId: F:GTA.MaterialHash.Temp30
+  id: Temp30
+  parent: GTA.MaterialHash
+  langs:
+  - csharp
+  - vb
+  name: Temp30
+  nameWithType: MaterialHash.Temp30
+  fullName: GTA.MaterialHash.Temp30
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Temp30 = 13626292
+    return:
+      type: GTA.MaterialHash
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.MaterialHash
+  commentId: T:GTA.MaterialHash
+  parent: GTA
+  isExternal: true
+  href: GTA.MaterialHash.html
+  name: MaterialHash
+  nameWithType: MaterialHash
+  fullName: GTA.MaterialHash

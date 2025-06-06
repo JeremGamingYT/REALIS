@@ -1,0 +1,354 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleLockStatus
+  commentId: T:GTA.VehicleLockStatus
+  id: VehicleLockStatus
+  parent: GTA
+  children:
+  - GTA.VehicleLockStatus.CanBeBrokenInto
+  - GTA.VehicleLockStatus.CanBeBrokenIntoPersist
+  - GTA.VehicleLockStatus.CannotBeTriedToEnter
+  - GTA.VehicleLockStatus.CannotEnter
+  - GTA.VehicleLockStatus.CannotEnterIfDriverExists
+  - GTA.VehicleLockStatus.DriversSeatOnlyNoJacking
+  - GTA.VehicleLockStatus.IgnoredByPlayer
+  - GTA.VehicleLockStatus.Locked
+  - GTA.VehicleLockStatus.LockedForPlayer
+  - GTA.VehicleLockStatus.None
+  - GTA.VehicleLockStatus.PlayerCannotEnter
+  - GTA.VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist
+  - GTA.VehicleLockStatus.StickPlayerInside
+  - GTA.VehicleLockStatus.Unlocked
+  langs:
+  - csharp
+  - vb
+  name: VehicleLockStatus
+  nameWithType: VehicleLockStatus
+  fullName: GTA.VehicleLockStatus
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleLockStatus
+    content.vb: Public Enum VehicleLockStatus
+- uid: GTA.VehicleLockStatus.None
+  commentId: F:GTA.VehicleLockStatus.None
+  id: None
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VehicleLockStatus.None
+  fullName: GTA.VehicleLockStatus.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.Unlocked
+  commentId: F:GTA.VehicleLockStatus.Unlocked
+  id: Unlocked
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: Unlocked
+  nameWithType: VehicleLockStatus.Unlocked
+  fullName: GTA.VehicleLockStatus.Unlocked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Unlocked = 1
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.CannotEnter
+  commentId: F:GTA.VehicleLockStatus.CannotEnter
+  id: CannotEnter
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: CannotEnter
+  nameWithType: VehicleLockStatus.CannotEnter
+  fullName: GTA.VehicleLockStatus.CannotEnter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CannotEnter = 2
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.PlayerCannotEnter
+  commentId: F:GTA.VehicleLockStatus.PlayerCannotEnter
+  id: PlayerCannotEnter
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: PlayerCannotEnter
+  nameWithType: VehicleLockStatus.PlayerCannotEnter
+  fullName: GTA.VehicleLockStatus.PlayerCannotEnter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayerCannotEnter = 3
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist
+  commentId: F:GTA.VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist
+  id: PlayerCannotLeaveCanBeBrokenIntoPersist
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: PlayerCannotLeaveCanBeBrokenIntoPersist
+  nameWithType: VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist
+  fullName: GTA.VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayerCannotLeaveCanBeBrokenIntoPersist = 4
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.CannotEnterIfDriverExists
+  commentId: F:GTA.VehicleLockStatus.CannotEnterIfDriverExists
+  id: CannotEnterIfDriverExists
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: CannotEnterIfDriverExists
+  nameWithType: VehicleLockStatus.CannotEnterIfDriverExists
+  fullName: GTA.VehicleLockStatus.CannotEnterIfDriverExists
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CannotEnterIfDriverExists = 5
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.CanBeBrokenInto
+  commentId: F:GTA.VehicleLockStatus.CanBeBrokenInto
+  id: CanBeBrokenInto
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: CanBeBrokenInto
+  nameWithType: VehicleLockStatus.CanBeBrokenInto
+  fullName: GTA.VehicleLockStatus.CanBeBrokenInto
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CanBeBrokenInto = 7
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.CanBeBrokenIntoPersist
+  commentId: F:GTA.VehicleLockStatus.CanBeBrokenIntoPersist
+  id: CanBeBrokenIntoPersist
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: CanBeBrokenIntoPersist
+  nameWithType: VehicleLockStatus.CanBeBrokenIntoPersist
+  fullName: GTA.VehicleLockStatus.CanBeBrokenIntoPersist
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CanBeBrokenIntoPersist = 8
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.DriversSeatOnlyNoJacking
+  commentId: F:GTA.VehicleLockStatus.DriversSeatOnlyNoJacking
+  id: DriversSeatOnlyNoJacking
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: DriversSeatOnlyNoJacking
+  nameWithType: VehicleLockStatus.DriversSeatOnlyNoJacking
+  fullName: GTA.VehicleLockStatus.DriversSeatOnlyNoJacking
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DriversSeatOnlyNoJacking = 9
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.IgnoredByPlayer
+  commentId: F:GTA.VehicleLockStatus.IgnoredByPlayer
+  id: IgnoredByPlayer
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: IgnoredByPlayer
+  nameWithType: VehicleLockStatus.IgnoredByPlayer
+  fullName: GTA.VehicleLockStatus.IgnoredByPlayer
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IgnoredByPlayer = 10
+    return:
+      type: GTA.VehicleLockStatus
+- uid: GTA.VehicleLockStatus.Locked
+  commentId: F:GTA.VehicleLockStatus.Locked
+  id: Locked
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: VehicleLockStatus.Locked
+  fullName: GTA.VehicleLockStatus.Locked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete("Use VehicleLockStatus.CannotEnter instead.")]
+
+      Locked = 2
+    return:
+      type: GTA.VehicleLockStatus
+    content.vb: >-
+      <Obsolete("Use VehicleLockStatus.CannotEnter instead.")>
+
+      Locked = 2
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use VehicleLockStatus.CannotEnter instead.
+- uid: GTA.VehicleLockStatus.LockedForPlayer
+  commentId: F:GTA.VehicleLockStatus.LockedForPlayer
+  id: LockedForPlayer
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: LockedForPlayer
+  nameWithType: VehicleLockStatus.LockedForPlayer
+  fullName: GTA.VehicleLockStatus.LockedForPlayer
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete("Use VehicleLockStatus.PlayerCannotEnter instead.")]
+
+      LockedForPlayer = 3
+    return:
+      type: GTA.VehicleLockStatus
+    content.vb: >-
+      <Obsolete("Use VehicleLockStatus.PlayerCannotEnter instead.")>
+
+      LockedForPlayer = 3
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use VehicleLockStatus.PlayerCannotEnter instead.
+- uid: GTA.VehicleLockStatus.StickPlayerInside
+  commentId: F:GTA.VehicleLockStatus.StickPlayerInside
+  id: StickPlayerInside
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: StickPlayerInside
+  nameWithType: VehicleLockStatus.StickPlayerInside
+  fullName: GTA.VehicleLockStatus.StickPlayerInside
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete("Use VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist instead.")]
+
+      StickPlayerInside = 4
+    return:
+      type: GTA.VehicleLockStatus
+    content.vb: >-
+      <Obsolete("Use VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist instead.")>
+
+      StickPlayerInside = 4
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use VehicleLockStatus.PlayerCannotLeaveCanBeBrokenIntoPersist instead.
+- uid: GTA.VehicleLockStatus.CannotBeTriedToEnter
+  commentId: F:GTA.VehicleLockStatus.CannotBeTriedToEnter
+  id: CannotBeTriedToEnter
+  parent: GTA.VehicleLockStatus
+  langs:
+  - csharp
+  - vb
+  name: CannotBeTriedToEnter
+  nameWithType: VehicleLockStatus.CannotBeTriedToEnter
+  fullName: GTA.VehicleLockStatus.CannotBeTriedToEnter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete("Use VehicleLockStatus.IgnoredByPlayer instead.")]
+
+      CannotBeTriedToEnter = 10
+    return:
+      type: GTA.VehicleLockStatus
+    content.vb: >-
+      <Obsolete("Use VehicleLockStatus.IgnoredByPlayer instead.")>
+
+      CannotBeTriedToEnter = 10
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use VehicleLockStatus.IgnoredByPlayer instead.
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleLockStatus
+  commentId: T:GTA.VehicleLockStatus
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleLockStatus.html
+  name: VehicleLockStatus
+  nameWithType: VehicleLockStatus
+  fullName: GTA.VehicleLockStatus

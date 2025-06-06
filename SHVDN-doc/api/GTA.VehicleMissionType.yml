@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleMissionType
+  commentId: T:GTA.VehicleMissionType
+  id: VehicleMissionType
+  parent: GTA
+  children:
+  - GTA.VehicleMissionType.Attack
+  - GTA.VehicleMissionType.Block
+  - GTA.VehicleMissionType.Circle
+  - GTA.VehicleMissionType.Crash
+  - GTA.VehicleMissionType.Cruise
+  - GTA.VehicleMissionType.Escort
+  - GTA.VehicleMissionType.Flee
+  - GTA.VehicleMissionType.Follow
+  - GTA.VehicleMissionType.FollowRecording
+  - GTA.VehicleMissionType.GoTo
+  - GTA.VehicleMissionType.GoToRacing
+  - GTA.VehicleMissionType.HeliProtect
+  - GTA.VehicleMissionType.Land
+  - GTA.VehicleMissionType.LandAndWait
+  - GTA.VehicleMissionType.None
+  - GTA.VehicleMissionType.PoliceBehaviour
+  - GTA.VehicleMissionType.PullOver
+  - GTA.VehicleMissionType.Ram
+  - GTA.VehicleMissionType.Stop
+  langs:
+  - csharp
+  - vb
+  name: VehicleMissionType
+  nameWithType: VehicleMissionType
+  fullName: GTA.VehicleMissionType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleMissionType
+    content.vb: Public Enum VehicleMissionType
+- uid: GTA.VehicleMissionType.None
+  commentId: F:GTA.VehicleMissionType.None
+  id: None
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VehicleMissionType.None
+  fullName: GTA.VehicleMissionType.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Cruise
+  commentId: F:GTA.VehicleMissionType.Cruise
+  id: Cruise
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Cruise
+  nameWithType: VehicleMissionType.Cruise
+  fullName: GTA.VehicleMissionType.Cruise
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Cruise = 1
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Ram
+  commentId: F:GTA.VehicleMissionType.Ram
+  id: Ram
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Ram
+  nameWithType: VehicleMissionType.Ram
+  fullName: GTA.VehicleMissionType.Ram
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ram = 2
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Block
+  commentId: F:GTA.VehicleMissionType.Block
+  id: Block
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Block
+  nameWithType: VehicleMissionType.Block
+  fullName: GTA.VehicleMissionType.Block
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Block = 3
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.GoTo
+  commentId: F:GTA.VehicleMissionType.GoTo
+  id: GoTo
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: GoTo
+  nameWithType: VehicleMissionType.GoTo
+  fullName: GTA.VehicleMissionType.GoTo
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GoTo = 4
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Stop
+  commentId: F:GTA.VehicleMissionType.Stop
+  id: Stop
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Stop
+  nameWithType: VehicleMissionType.Stop
+  fullName: GTA.VehicleMissionType.Stop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Stop = 5
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Attack
+  commentId: F:GTA.VehicleMissionType.Attack
+  id: Attack
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Attack
+  nameWithType: VehicleMissionType.Attack
+  fullName: GTA.VehicleMissionType.Attack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Attack = 6
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Follow
+  commentId: F:GTA.VehicleMissionType.Follow
+  id: Follow
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Follow
+  nameWithType: VehicleMissionType.Follow
+  fullName: GTA.VehicleMissionType.Follow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Follow = 7
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Flee
+  commentId: F:GTA.VehicleMissionType.Flee
+  id: Flee
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Flee
+  nameWithType: VehicleMissionType.Flee
+  fullName: GTA.VehicleMissionType.Flee
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Flee = 8
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Circle
+  commentId: F:GTA.VehicleMissionType.Circle
+  id: Circle
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Circle
+  nameWithType: VehicleMissionType.Circle
+  fullName: GTA.VehicleMissionType.Circle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Circle = 9
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Escort
+  commentId: F:GTA.VehicleMissionType.Escort
+  id: Escort
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Escort
+  nameWithType: VehicleMissionType.Escort
+  fullName: GTA.VehicleMissionType.Escort
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Escort = 12
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.GoToRacing
+  commentId: F:GTA.VehicleMissionType.GoToRacing
+  id: GoToRacing
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: GoToRacing
+  nameWithType: VehicleMissionType.GoToRacing
+  fullName: GTA.VehicleMissionType.GoToRacing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: GoToRacing = 14
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.FollowRecording
+  commentId: F:GTA.VehicleMissionType.FollowRecording
+  id: FollowRecording
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: FollowRecording
+  nameWithType: VehicleMissionType.FollowRecording
+  fullName: GTA.VehicleMissionType.FollowRecording
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FollowRecording = 15
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.PoliceBehaviour
+  commentId: F:GTA.VehicleMissionType.PoliceBehaviour
+  id: PoliceBehaviour
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: PoliceBehaviour
+  nameWithType: VehicleMissionType.PoliceBehaviour
+  fullName: GTA.VehicleMissionType.PoliceBehaviour
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PoliceBehaviour = 16
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Land
+  commentId: F:GTA.VehicleMissionType.Land
+  id: Land
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Land
+  nameWithType: VehicleMissionType.Land
+  fullName: GTA.VehicleMissionType.Land
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Land = 19
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.LandAndWait
+  commentId: F:GTA.VehicleMissionType.LandAndWait
+  id: LandAndWait
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: LandAndWait
+  nameWithType: VehicleMissionType.LandAndWait
+  fullName: GTA.VehicleMissionType.LandAndWait
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LandAndWait = 20
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.Crash
+  commentId: F:GTA.VehicleMissionType.Crash
+  id: Crash
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: Crash
+  nameWithType: VehicleMissionType.Crash
+  fullName: GTA.VehicleMissionType.Crash
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Crash = 21
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.PullOver
+  commentId: F:GTA.VehicleMissionType.PullOver
+  id: PullOver
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: PullOver
+  nameWithType: VehicleMissionType.PullOver
+  fullName: GTA.VehicleMissionType.PullOver
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PullOver = 22
+    return:
+      type: GTA.VehicleMissionType
+- uid: GTA.VehicleMissionType.HeliProtect
+  commentId: F:GTA.VehicleMissionType.HeliProtect
+  id: HeliProtect
+  parent: GTA.VehicleMissionType
+  langs:
+  - csharp
+  - vb
+  name: HeliProtect
+  nameWithType: VehicleMissionType.HeliProtect
+  fullName: GTA.VehicleMissionType.HeliProtect
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HeliProtect = 23
+    return:
+      type: GTA.VehicleMissionType
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleMissionType
+  commentId: T:GTA.VehicleMissionType
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleMissionType.html
+  name: VehicleMissionType
+  nameWithType: VehicleMissionType
+  fullName: GTA.VehicleMissionType

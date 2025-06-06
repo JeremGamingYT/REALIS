@@ -1,0 +1,869 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.WeaponComponentCollection
+  commentId: T:GTA.WeaponComponentCollection
+  id: WeaponComponentCollection
+  parent: GTA
+  children:
+  - GTA.WeaponComponentCollection.BarrelVariationsCount
+  - GTA.WeaponComponentCollection.ClipVariationsCount
+  - GTA.WeaponComponentCollection.Count
+  - GTA.WeaponComponentCollection.GetBarrelComponent(System.Int32)
+  - GTA.WeaponComponentCollection.GetClipComponent(System.Int32)
+  - GTA.WeaponComponentCollection.GetEnumerator
+  - GTA.WeaponComponentCollection.GetFlashLightComponent
+  - GTA.WeaponComponentCollection.GetGunRootComponent(System.Int32)
+  - GTA.WeaponComponentCollection.GetScopeComponent(System.Int32)
+  - GTA.WeaponComponentCollection.GetSuppressorComponent
+  - GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(System.Int32)
+  - GTA.WeaponComponentCollection.GunRootVariationsCount
+  - GTA.WeaponComponentCollection.Item(GTA.WeaponComponentHash)
+  - GTA.WeaponComponentCollection.Item(System.Int32)
+  - GTA.WeaponComponentCollection.ScopeVariationsCount
+  - GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  langs:
+  - csharp
+  - vb
+  name: WeaponComponentCollection
+  nameWithType: WeaponComponentCollection
+  fullName: GTA.WeaponComponentCollection
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class WeaponComponentCollection
+    content.vb: Public NotInheritable Class WeaponComponentCollection
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.WeaponComponentCollection.GetEnumerator
+  commentId: M:GTA.WeaponComponentCollection.GetEnumerator
+  id: GetEnumerator
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: WeaponComponentCollection.GetEnumerator()
+  fullName: GTA.WeaponComponentCollection.GetEnumerator()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IEnumerator<WeaponComponent> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{GTA.WeaponComponent}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of WeaponComponent)
+  overload: GTA.WeaponComponentCollection.GetEnumerator*
+- uid: GTA.WeaponComponentCollection.GetClipComponent(System.Int32)
+  commentId: M:GTA.WeaponComponentCollection.GetClipComponent(System.Int32)
+  id: GetClipComponent(System.Int32)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetClipComponent(int)
+  nameWithType: WeaponComponentCollection.GetClipComponent(int)
+  fullName: GTA.WeaponComponentCollection.GetClipComponent(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetClipComponent(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetClipComponent(index As Integer) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetClipComponent*
+  nameWithType.vb: WeaponComponentCollection.GetClipComponent(Integer)
+  fullName.vb: GTA.WeaponComponentCollection.GetClipComponent(Integer)
+  name.vb: GetClipComponent(Integer)
+- uid: GTA.WeaponComponentCollection.GetScopeComponent(System.Int32)
+  commentId: M:GTA.WeaponComponentCollection.GetScopeComponent(System.Int32)
+  id: GetScopeComponent(System.Int32)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetScopeComponent(int)
+  nameWithType: WeaponComponentCollection.GetScopeComponent(int)
+  fullName: GTA.WeaponComponentCollection.GetScopeComponent(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetScopeComponent(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetScopeComponent(index As Integer) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetScopeComponent*
+  nameWithType.vb: WeaponComponentCollection.GetScopeComponent(Integer)
+  fullName.vb: GTA.WeaponComponentCollection.GetScopeComponent(Integer)
+  name.vb: GetScopeComponent(Integer)
+- uid: GTA.WeaponComponentCollection.GetBarrelComponent(System.Int32)
+  commentId: M:GTA.WeaponComponentCollection.GetBarrelComponent(System.Int32)
+  id: GetBarrelComponent(System.Int32)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetBarrelComponent(int)
+  nameWithType: WeaponComponentCollection.GetBarrelComponent(int)
+  fullName: GTA.WeaponComponentCollection.GetBarrelComponent(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetBarrelComponent(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetBarrelComponent(index As Integer) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetBarrelComponent*
+  nameWithType.vb: WeaponComponentCollection.GetBarrelComponent(Integer)
+  fullName.vb: GTA.WeaponComponentCollection.GetBarrelComponent(Integer)
+  name.vb: GetBarrelComponent(Integer)
+- uid: GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(System.Int32)
+  commentId: M:GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(System.Int32)
+  id: GetSuppressorOrMuzzleBrakeComponent(System.Int32)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetSuppressorOrMuzzleBrakeComponent(int)
+  nameWithType: WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(int)
+  fullName: GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetSuppressorOrMuzzleBrakeComponent(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetSuppressorOrMuzzleBrakeComponent(index As Integer) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent*
+  nameWithType.vb: WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(Integer)
+  fullName.vb: GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent(Integer)
+  name.vb: GetSuppressorOrMuzzleBrakeComponent(Integer)
+- uid: GTA.WeaponComponentCollection.GetGunRootComponent(System.Int32)
+  commentId: M:GTA.WeaponComponentCollection.GetGunRootComponent(System.Int32)
+  id: GetGunRootComponent(System.Int32)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetGunRootComponent(int)
+  nameWithType: WeaponComponentCollection.GetGunRootComponent(int)
+  fullName: GTA.WeaponComponentCollection.GetGunRootComponent(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetGunRootComponent(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetGunRootComponent(index As Integer) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetGunRootComponent*
+  nameWithType.vb: WeaponComponentCollection.GetGunRootComponent(Integer)
+  fullName.vb: GTA.WeaponComponentCollection.GetGunRootComponent(Integer)
+  name.vb: GetGunRootComponent(Integer)
+- uid: GTA.WeaponComponentCollection.GetSuppressorComponent
+  commentId: M:GTA.WeaponComponentCollection.GetSuppressorComponent
+  id: GetSuppressorComponent
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetSuppressorComponent()
+  nameWithType: WeaponComponentCollection.GetSuppressorComponent()
+  fullName: GTA.WeaponComponentCollection.GetSuppressorComponent()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetSuppressorComponent()
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetSuppressorComponent() As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetSuppressorComponent*
+- uid: GTA.WeaponComponentCollection.GetFlashLightComponent
+  commentId: M:GTA.WeaponComponentCollection.GetFlashLightComponent
+  id: GetFlashLightComponent
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GetFlashLightComponent()
+  nameWithType: WeaponComponentCollection.GetFlashLightComponent()
+  fullName: GTA.WeaponComponentCollection.GetFlashLightComponent()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent GetFlashLightComponent()
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public Function GetFlashLightComponent() As WeaponComponent
+  overload: GTA.WeaponComponentCollection.GetFlashLightComponent*
+- uid: GTA.WeaponComponentCollection.Item(System.Int32)
+  commentId: P:GTA.WeaponComponentCollection.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: WeaponComponentCollection.this[int]
+  fullName: GTA.WeaponComponentCollection.this[int]
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public ReadOnly Default Property this[](index As Integer) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.Item*
+  nameWithType.vb: WeaponComponentCollection.this[](Integer)
+  fullName.vb: GTA.WeaponComponentCollection.this[](Integer)
+  name.vb: this[](Integer)
+- uid: GTA.WeaponComponentCollection.Item(GTA.WeaponComponentHash)
+  commentId: P:GTA.WeaponComponentCollection.Item(GTA.WeaponComponentHash)
+  id: Item(GTA.WeaponComponentHash)
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: this[WeaponComponentHash]
+  nameWithType: WeaponComponentCollection.this[WeaponComponentHash]
+  fullName: GTA.WeaponComponentCollection.this[GTA.WeaponComponentHash]
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public WeaponComponent this[WeaponComponentHash componentHash] { get; }
+    parameters:
+    - id: componentHash
+      type: GTA.WeaponComponentHash
+    return:
+      type: GTA.WeaponComponent
+    content.vb: Public ReadOnly Default Property this[](componentHash As WeaponComponentHash) As WeaponComponent
+  overload: GTA.WeaponComponentCollection.Item*
+  nameWithType.vb: WeaponComponentCollection.this[](WeaponComponentHash)
+  fullName.vb: GTA.WeaponComponentCollection.this[](GTA.WeaponComponentHash)
+  name.vb: this[](WeaponComponentHash)
+- uid: GTA.WeaponComponentCollection.Count
+  commentId: P:GTA.WeaponComponentCollection.Count
+  id: Count
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: WeaponComponentCollection.Count
+  fullName: GTA.WeaponComponentCollection.Count
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: GTA.WeaponComponentCollection.Count*
+- uid: GTA.WeaponComponentCollection.ClipVariationsCount
+  commentId: P:GTA.WeaponComponentCollection.ClipVariationsCount
+  id: ClipVariationsCount
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: ClipVariationsCount
+  nameWithType: WeaponComponentCollection.ClipVariationsCount
+  fullName: GTA.WeaponComponentCollection.ClipVariationsCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int ClipVariationsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ClipVariationsCount As Integer
+  overload: GTA.WeaponComponentCollection.ClipVariationsCount*
+- uid: GTA.WeaponComponentCollection.ScopeVariationsCount
+  commentId: P:GTA.WeaponComponentCollection.ScopeVariationsCount
+  id: ScopeVariationsCount
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: ScopeVariationsCount
+  nameWithType: WeaponComponentCollection.ScopeVariationsCount
+  fullName: GTA.WeaponComponentCollection.ScopeVariationsCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int ScopeVariationsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ScopeVariationsCount As Integer
+  overload: GTA.WeaponComponentCollection.ScopeVariationsCount*
+- uid: GTA.WeaponComponentCollection.BarrelVariationsCount
+  commentId: P:GTA.WeaponComponentCollection.BarrelVariationsCount
+  id: BarrelVariationsCount
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: BarrelVariationsCount
+  nameWithType: WeaponComponentCollection.BarrelVariationsCount
+  fullName: GTA.WeaponComponentCollection.BarrelVariationsCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int BarrelVariationsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BarrelVariationsCount As Integer
+  overload: GTA.WeaponComponentCollection.BarrelVariationsCount*
+- uid: GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  commentId: P:GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  id: SuppressorAndMuzzleBrakeVariationsCount
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: SuppressorAndMuzzleBrakeVariationsCount
+  nameWithType: WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  fullName: GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int SuppressorAndMuzzleBrakeVariationsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SuppressorAndMuzzleBrakeVariationsCount As Integer
+  overload: GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount*
+- uid: GTA.WeaponComponentCollection.GunRootVariationsCount
+  commentId: P:GTA.WeaponComponentCollection.GunRootVariationsCount
+  id: GunRootVariationsCount
+  parent: GTA.WeaponComponentCollection
+  langs:
+  - csharp
+  - vb
+  name: GunRootVariationsCount
+  nameWithType: WeaponComponentCollection.GunRootVariationsCount
+  fullName: GTA.WeaponComponentCollection.GunRootVariationsCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int GunRootVariationsCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property GunRootVariationsCount As Integer
+  overload: GTA.WeaponComponentCollection.GunRootVariationsCount*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.WeaponComponentCollection.GetEnumerator*
+  commentId: Overload:GTA.WeaponComponentCollection.GetEnumerator
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetEnumerator
+  name: GetEnumerator
+  nameWithType: WeaponComponentCollection.GetEnumerator
+  fullName: GTA.WeaponComponentCollection.GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{GTA.WeaponComponent}
+  commentId: T:System.Collections.Generic.IEnumerator{GTA.WeaponComponent}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<WeaponComponent>
+  nameWithType: IEnumerator<WeaponComponent>
+  fullName: System.Collections.Generic.IEnumerator<GTA.WeaponComponent>
+  nameWithType.vb: IEnumerator(Of WeaponComponent)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of GTA.WeaponComponent)
+  name.vb: IEnumerator(Of WeaponComponent)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: GTA.WeaponComponent
+    name: WeaponComponent
+    isExternal: true
+    href: GTA.WeaponComponent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.WeaponComponent
+    name: WeaponComponent
+    isExternal: true
+    href: GTA.WeaponComponent.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: GTA.WeaponComponentCollection.GetClipComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetClipComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetClipComponent_System_Int32_
+  name: GetClipComponent
+  nameWithType: WeaponComponentCollection.GetClipComponent
+  fullName: GTA.WeaponComponentCollection.GetClipComponent
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.WeaponComponent
+  commentId: T:GTA.WeaponComponent
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponComponent.html
+  name: WeaponComponent
+  nameWithType: WeaponComponent
+  fullName: GTA.WeaponComponent
+- uid: GTA.WeaponComponentCollection.GetScopeComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetScopeComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetScopeComponent_System_Int32_
+  name: GetScopeComponent
+  nameWithType: WeaponComponentCollection.GetScopeComponent
+  fullName: GTA.WeaponComponentCollection.GetScopeComponent
+- uid: GTA.WeaponComponentCollection.GetBarrelComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetBarrelComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetBarrelComponent_System_Int32_
+  name: GetBarrelComponent
+  nameWithType: WeaponComponentCollection.GetBarrelComponent
+  fullName: GTA.WeaponComponentCollection.GetBarrelComponent
+- uid: GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetSuppressorOrMuzzleBrakeComponent_System_Int32_
+  name: GetSuppressorOrMuzzleBrakeComponent
+  nameWithType: WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent
+  fullName: GTA.WeaponComponentCollection.GetSuppressorOrMuzzleBrakeComponent
+- uid: GTA.WeaponComponentCollection.GetGunRootComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetGunRootComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetGunRootComponent_System_Int32_
+  name: GetGunRootComponent
+  nameWithType: WeaponComponentCollection.GetGunRootComponent
+  fullName: GTA.WeaponComponentCollection.GetGunRootComponent
+- uid: GTA.WeaponComponentCollection.GetSuppressorComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetSuppressorComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetSuppressorComponent
+  name: GetSuppressorComponent
+  nameWithType: WeaponComponentCollection.GetSuppressorComponent
+  fullName: GTA.WeaponComponentCollection.GetSuppressorComponent
+- uid: GTA.WeaponComponentCollection.GetFlashLightComponent*
+  commentId: Overload:GTA.WeaponComponentCollection.GetFlashLightComponent
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GetFlashLightComponent
+  name: GetFlashLightComponent
+  nameWithType: WeaponComponentCollection.GetFlashLightComponent
+  fullName: GTA.WeaponComponentCollection.GetFlashLightComponent
+- uid: GTA.WeaponComponentCollection.Item*
+  commentId: Overload:GTA.WeaponComponentCollection.Item
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_Item_System_Int32_
+  name: this
+  nameWithType: WeaponComponentCollection.this
+  fullName: GTA.WeaponComponentCollection.this
+  nameWithType.vb: WeaponComponentCollection.this[]
+  fullName.vb: GTA.WeaponComponentCollection.this[]
+  name.vb: this[]
+- uid: GTA.WeaponComponentHash
+  commentId: T:GTA.WeaponComponentHash
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponComponentHash.html
+  name: WeaponComponentHash
+  nameWithType: WeaponComponentHash
+  fullName: GTA.WeaponComponentHash
+- uid: GTA.WeaponComponentCollection.Count*
+  commentId: Overload:GTA.WeaponComponentCollection.Count
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_Count
+  name: Count
+  nameWithType: WeaponComponentCollection.Count
+  fullName: GTA.WeaponComponentCollection.Count
+- uid: GTA.WeaponComponentCollection.ClipVariationsCount*
+  commentId: Overload:GTA.WeaponComponentCollection.ClipVariationsCount
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_ClipVariationsCount
+  name: ClipVariationsCount
+  nameWithType: WeaponComponentCollection.ClipVariationsCount
+  fullName: GTA.WeaponComponentCollection.ClipVariationsCount
+- uid: GTA.WeaponComponentCollection.ScopeVariationsCount*
+  commentId: Overload:GTA.WeaponComponentCollection.ScopeVariationsCount
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_ScopeVariationsCount
+  name: ScopeVariationsCount
+  nameWithType: WeaponComponentCollection.ScopeVariationsCount
+  fullName: GTA.WeaponComponentCollection.ScopeVariationsCount
+- uid: GTA.WeaponComponentCollection.BarrelVariationsCount*
+  commentId: Overload:GTA.WeaponComponentCollection.BarrelVariationsCount
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_BarrelVariationsCount
+  name: BarrelVariationsCount
+  nameWithType: WeaponComponentCollection.BarrelVariationsCount
+  fullName: GTA.WeaponComponentCollection.BarrelVariationsCount
+- uid: GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount*
+  commentId: Overload:GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_SuppressorAndMuzzleBrakeVariationsCount
+  name: SuppressorAndMuzzleBrakeVariationsCount
+  nameWithType: WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+  fullName: GTA.WeaponComponentCollection.SuppressorAndMuzzleBrakeVariationsCount
+- uid: GTA.WeaponComponentCollection.GunRootVariationsCount*
+  commentId: Overload:GTA.WeaponComponentCollection.GunRootVariationsCount
+  isExternal: true
+  href: GTA.WeaponComponentCollection.html#GTA_WeaponComponentCollection_GunRootVariationsCount
+  name: GunRootVariationsCount
+  nameWithType: WeaponComponentCollection.GunRootVariationsCount
+  fullName: GTA.WeaponComponentCollection.GunRootVariationsCount

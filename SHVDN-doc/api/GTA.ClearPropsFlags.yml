@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ClearPropsFlags
+  commentId: T:GTA.ClearPropsFlags
+  id: ClearPropsFlags
+  parent: GTA
+  children:
+  - GTA.ClearPropsFlags.ExcludeLadder
+  - GTA.ClearPropsFlags.ForceRespawnAmbientProps
+  - GTA.ClearPropsFlags.IncludeDoors
+  - GTA.ClearPropsFlags.IncludePropsWithScriptBrains
+  langs:
+  - csharp
+  - vb
+  name: ClearPropsFlags
+  nameWithType: ClearPropsFlags
+  fullName: GTA.ClearPropsFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ClearPropsFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum ClearPropsFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.ClearPropsFlags.ForceRespawnAmbientProps
+  commentId: F:GTA.ClearPropsFlags.ForceRespawnAmbientProps
+  id: ForceRespawnAmbientProps
+  parent: GTA.ClearPropsFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceRespawnAmbientProps
+  nameWithType: ClearPropsFlags.ForceRespawnAmbientProps
+  fullName: GTA.ClearPropsFlags.ForceRespawnAmbientProps
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceRespawnAmbientProps = 2
+    return:
+      type: GTA.ClearPropsFlags
+- uid: GTA.ClearPropsFlags.IncludeDoors
+  commentId: F:GTA.ClearPropsFlags.IncludeDoors
+  id: IncludeDoors
+  parent: GTA.ClearPropsFlags
+  langs:
+  - csharp
+  - vb
+  name: IncludeDoors
+  nameWithType: ClearPropsFlags.IncludeDoors
+  fullName: GTA.ClearPropsFlags.IncludeDoors
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IncludeDoors = 4
+    return:
+      type: GTA.ClearPropsFlags
+- uid: GTA.ClearPropsFlags.IncludePropsWithScriptBrains
+  commentId: F:GTA.ClearPropsFlags.IncludePropsWithScriptBrains
+  id: IncludePropsWithScriptBrains
+  parent: GTA.ClearPropsFlags
+  langs:
+  - csharp
+  - vb
+  name: IncludePropsWithScriptBrains
+  nameWithType: ClearPropsFlags.IncludePropsWithScriptBrains
+  fullName: GTA.ClearPropsFlags.IncludePropsWithScriptBrains
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IncludePropsWithScriptBrains = 8
+    return:
+      type: GTA.ClearPropsFlags
+- uid: GTA.ClearPropsFlags.ExcludeLadder
+  commentId: F:GTA.ClearPropsFlags.ExcludeLadder
+  id: ExcludeLadder
+  parent: GTA.ClearPropsFlags
+  langs:
+  - csharp
+  - vb
+  name: ExcludeLadder
+  nameWithType: ClearPropsFlags.ExcludeLadder
+  fullName: GTA.ClearPropsFlags.ExcludeLadder
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExcludeLadder = 16
+    return:
+      type: GTA.ClearPropsFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ClearPropsFlags
+  commentId: T:GTA.ClearPropsFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.ClearPropsFlags.html
+  name: ClearPropsFlags
+  nameWithType: ClearPropsFlags
+  fullName: GTA.ClearPropsFlags

@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.CursorSprite
+  commentId: T:GTA.UI.CursorSprite
+  id: CursorSprite
+  parent: GTA.UI
+  children:
+  - GTA.UI.CursorSprite.DownArrow
+  - GTA.UI.CursorSprite.GrabHand
+  - GTA.UI.CursorSprite.HorizontalDoubleArrow
+  - GTA.UI.CursorSprite.LeftArrow
+  - GTA.UI.CursorSprite.LightArrow
+  - GTA.UI.CursorSprite.MiddleFinger
+  - GTA.UI.CursorSprite.Normal
+  - GTA.UI.CursorSprite.NormalWithMinus
+  - GTA.UI.CursorSprite.NormalWithPlus
+  - GTA.UI.CursorSprite.OpenHand
+  - GTA.UI.CursorSprite.RightArrow
+  - GTA.UI.CursorSprite.UpArrow
+  langs:
+  - csharp
+  - vb
+  name: CursorSprite
+  nameWithType: CursorSprite
+  fullName: GTA.UI.CursorSprite
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public enum CursorSprite
+    content.vb: Public Enum CursorSprite
+- uid: GTA.UI.CursorSprite.Normal
+  commentId: F:GTA.UI.CursorSprite.Normal
+  id: Normal
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: CursorSprite.Normal
+  fullName: GTA.UI.CursorSprite.Normal
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Normal = 1
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.LightArrow
+  commentId: F:GTA.UI.CursorSprite.LightArrow
+  id: LightArrow
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: LightArrow
+  nameWithType: CursorSprite.LightArrow
+  fullName: GTA.UI.CursorSprite.LightArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LightArrow = 2
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.OpenHand
+  commentId: F:GTA.UI.CursorSprite.OpenHand
+  id: OpenHand
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: OpenHand
+  nameWithType: CursorSprite.OpenHand
+  fullName: GTA.UI.CursorSprite.OpenHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: OpenHand = 3
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.GrabHand
+  commentId: F:GTA.UI.CursorSprite.GrabHand
+  id: GrabHand
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: GrabHand
+  nameWithType: CursorSprite.GrabHand
+  fullName: GTA.UI.CursorSprite.GrabHand
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: GrabHand = 4
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.MiddleFinger
+  commentId: F:GTA.UI.CursorSprite.MiddleFinger
+  id: MiddleFinger
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: MiddleFinger
+  nameWithType: CursorSprite.MiddleFinger
+  fullName: GTA.UI.CursorSprite.MiddleFinger
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MiddleFinger = 5
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.LeftArrow
+  commentId: F:GTA.UI.CursorSprite.LeftArrow
+  id: LeftArrow
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: LeftArrow
+  nameWithType: CursorSprite.LeftArrow
+  fullName: GTA.UI.CursorSprite.LeftArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LeftArrow = 6
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.RightArrow
+  commentId: F:GTA.UI.CursorSprite.RightArrow
+  id: RightArrow
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: RightArrow
+  nameWithType: CursorSprite.RightArrow
+  fullName: GTA.UI.CursorSprite.RightArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: RightArrow = 7
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.UpArrow
+  commentId: F:GTA.UI.CursorSprite.UpArrow
+  id: UpArrow
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: UpArrow
+  nameWithType: CursorSprite.UpArrow
+  fullName: GTA.UI.CursorSprite.UpArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: UpArrow = 8
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.DownArrow
+  commentId: F:GTA.UI.CursorSprite.DownArrow
+  id: DownArrow
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: DownArrow
+  nameWithType: CursorSprite.DownArrow
+  fullName: GTA.UI.CursorSprite.DownArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DownArrow = 9
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.HorizontalDoubleArrow
+  commentId: F:GTA.UI.CursorSprite.HorizontalDoubleArrow
+  id: HorizontalDoubleArrow
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: HorizontalDoubleArrow
+  nameWithType: CursorSprite.HorizontalDoubleArrow
+  fullName: GTA.UI.CursorSprite.HorizontalDoubleArrow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HorizontalDoubleArrow = 10
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.NormalWithPlus
+  commentId: F:GTA.UI.CursorSprite.NormalWithPlus
+  id: NormalWithPlus
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: NormalWithPlus
+  nameWithType: CursorSprite.NormalWithPlus
+  fullName: GTA.UI.CursorSprite.NormalWithPlus
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NormalWithPlus = 11
+    return:
+      type: GTA.UI.CursorSprite
+- uid: GTA.UI.CursorSprite.NormalWithMinus
+  commentId: F:GTA.UI.CursorSprite.NormalWithMinus
+  id: NormalWithMinus
+  parent: GTA.UI.CursorSprite
+  langs:
+  - csharp
+  - vb
+  name: NormalWithMinus
+  nameWithType: CursorSprite.NormalWithMinus
+  fullName: GTA.UI.CursorSprite.NormalWithMinus
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: NormalWithMinus = 12
+    return:
+      type: GTA.UI.CursorSprite
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: GTA.UI.CursorSprite
+  commentId: T:GTA.UI.CursorSprite
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.CursorSprite.html
+  name: CursorSprite
+  nameWithType: CursorSprite
+  fullName: GTA.UI.CursorSprite

@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.IPedVariation
+  commentId: T:GTA.IPedVariation
+  id: IPedVariation
+  parent: GTA
+  children:
+  - GTA.IPedVariation.Count
+  - GTA.IPedVariation.HasAnyVariations
+  - GTA.IPedVariation.HasTextureVariations
+  - GTA.IPedVariation.HasVariations
+  - GTA.IPedVariation.Index
+  - GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+  - GTA.IPedVariation.Name
+  - GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+  - GTA.IPedVariation.TextureCount
+  - GTA.IPedVariation.TextureIndex
+  langs:
+  - csharp
+  - vb
+  name: IPedVariation
+  nameWithType: IPedVariation
+  fullName: GTA.IPedVariation
+  type: Interface
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public interface IPedVariation
+    content.vb: Public Interface IPedVariation
+- uid: GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+  commentId: M:GTA.IPedVariation.SetVariation(System.Int32,System.Int32)
+  id: SetVariation(System.Int32,System.Int32)
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: SetVariation(int, int)
+  nameWithType: IPedVariation.SetVariation(int, int)
+  fullName: GTA.IPedVariation.SetVariation(int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: bool SetVariation(int index, int textureIndex = 0)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: textureIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function SetVariation(index As Integer, textureIndex As Integer = 0) As Boolean
+  overload: GTA.IPedVariation.SetVariation*
+  nameWithType.vb: IPedVariation.SetVariation(Integer, Integer)
+  fullName.vb: GTA.IPedVariation.SetVariation(Integer, Integer)
+  name.vb: SetVariation(Integer, Integer)
+- uid: GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+  commentId: M:GTA.IPedVariation.IsVariationValid(System.Int32,System.Int32)
+  id: IsVariationValid(System.Int32,System.Int32)
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: IsVariationValid(int, int)
+  nameWithType: IPedVariation.IsVariationValid(int, int)
+  fullName: GTA.IPedVariation.IsVariationValid(int, int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: bool IsVariationValid(int index, int textureIndex = 0)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: textureIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function IsVariationValid(index As Integer, textureIndex As Integer = 0) As Boolean
+  overload: GTA.IPedVariation.IsVariationValid*
+  nameWithType.vb: IPedVariation.IsVariationValid(Integer, Integer)
+  fullName.vb: GTA.IPedVariation.IsVariationValid(Integer, Integer)
+  name.vb: IsVariationValid(Integer, Integer)
+- uid: GTA.IPedVariation.Count
+  commentId: P:GTA.IPedVariation.Count
+  id: Count
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IPedVariation.Count
+  fullName: GTA.IPedVariation.Count
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: GTA.IPedVariation.Count*
+- uid: GTA.IPedVariation.Index
+  commentId: P:GTA.IPedVariation.Index
+  id: Index
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: IPedVariation.Index
+  fullName: GTA.IPedVariation.Index
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: int Index { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Index As Integer
+  overload: GTA.IPedVariation.Index*
+- uid: GTA.IPedVariation.TextureCount
+  commentId: P:GTA.IPedVariation.TextureCount
+  id: TextureCount
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: TextureCount
+  nameWithType: IPedVariation.TextureCount
+  fullName: GTA.IPedVariation.TextureCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: int TextureCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property TextureCount As Integer
+  overload: GTA.IPedVariation.TextureCount*
+- uid: GTA.IPedVariation.TextureIndex
+  commentId: P:GTA.IPedVariation.TextureIndex
+  id: TextureIndex
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: TextureIndex
+  nameWithType: IPedVariation.TextureIndex
+  fullName: GTA.IPedVariation.TextureIndex
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: int TextureIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property TextureIndex As Integer
+  overload: GTA.IPedVariation.TextureIndex*
+- uid: GTA.IPedVariation.Name
+  commentId: P:GTA.IPedVariation.Name
+  id: Name
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IPedVariation.Name
+  fullName: GTA.IPedVariation.Name
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: GTA.IPedVariation.Name*
+- uid: GTA.IPedVariation.HasVariations
+  commentId: P:GTA.IPedVariation.HasVariations
+  id: HasVariations
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: HasVariations
+  nameWithType: IPedVariation.HasVariations
+  fullName: GTA.IPedVariation.HasVariations
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: bool HasVariations { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property HasVariations As Boolean
+  overload: GTA.IPedVariation.HasVariations*
+- uid: GTA.IPedVariation.HasTextureVariations
+  commentId: P:GTA.IPedVariation.HasTextureVariations
+  id: HasTextureVariations
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: HasTextureVariations
+  nameWithType: IPedVariation.HasTextureVariations
+  fullName: GTA.IPedVariation.HasTextureVariations
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: bool HasTextureVariations { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property HasTextureVariations As Boolean
+  overload: GTA.IPedVariation.HasTextureVariations*
+- uid: GTA.IPedVariation.HasAnyVariations
+  commentId: P:GTA.IPedVariation.HasAnyVariations
+  id: HasAnyVariations
+  parent: GTA.IPedVariation
+  langs:
+  - csharp
+  - vb
+  name: HasAnyVariations
+  nameWithType: IPedVariation.HasAnyVariations
+  fullName: GTA.IPedVariation.HasAnyVariations
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: bool HasAnyVariations { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property HasAnyVariations As Boolean
+  overload: GTA.IPedVariation.HasAnyVariations*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.IPedVariation.SetVariation*
+  commentId: Overload:GTA.IPedVariation.SetVariation
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_SetVariation_System_Int32_System_Int32_
+  name: SetVariation
+  nameWithType: IPedVariation.SetVariation
+  fullName: GTA.IPedVariation.SetVariation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.IPedVariation.IsVariationValid*
+  commentId: Overload:GTA.IPedVariation.IsVariationValid
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_IsVariationValid_System_Int32_System_Int32_
+  name: IsVariationValid
+  nameWithType: IPedVariation.IsVariationValid
+  fullName: GTA.IPedVariation.IsVariationValid
+- uid: GTA.IPedVariation.Count*
+  commentId: Overload:GTA.IPedVariation.Count
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_Count
+  name: Count
+  nameWithType: IPedVariation.Count
+  fullName: GTA.IPedVariation.Count
+- uid: GTA.IPedVariation.Index*
+  commentId: Overload:GTA.IPedVariation.Index
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_Index
+  name: Index
+  nameWithType: IPedVariation.Index
+  fullName: GTA.IPedVariation.Index
+- uid: GTA.IPedVariation.TextureCount*
+  commentId: Overload:GTA.IPedVariation.TextureCount
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_TextureCount
+  name: TextureCount
+  nameWithType: IPedVariation.TextureCount
+  fullName: GTA.IPedVariation.TextureCount
+- uid: GTA.IPedVariation.TextureIndex*
+  commentId: Overload:GTA.IPedVariation.TextureIndex
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_TextureIndex
+  name: TextureIndex
+  nameWithType: IPedVariation.TextureIndex
+  fullName: GTA.IPedVariation.TextureIndex
+- uid: GTA.IPedVariation.Name*
+  commentId: Overload:GTA.IPedVariation.Name
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_Name
+  name: Name
+  nameWithType: IPedVariation.Name
+  fullName: GTA.IPedVariation.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.IPedVariation.HasVariations*
+  commentId: Overload:GTA.IPedVariation.HasVariations
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_HasVariations
+  name: HasVariations
+  nameWithType: IPedVariation.HasVariations
+  fullName: GTA.IPedVariation.HasVariations
+- uid: GTA.IPedVariation.HasTextureVariations*
+  commentId: Overload:GTA.IPedVariation.HasTextureVariations
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_HasTextureVariations
+  name: HasTextureVariations
+  nameWithType: IPedVariation.HasTextureVariations
+  fullName: GTA.IPedVariation.HasTextureVariations
+- uid: GTA.IPedVariation.HasAnyVariations*
+  commentId: Overload:GTA.IPedVariation.HasAnyVariations
+  isExternal: true
+  href: GTA.IPedVariation.html#GTA_IPedVariation_HasAnyVariations
+  name: HasAnyVariations
+  nameWithType: IPedVariation.HasAnyVariations
+  fullName: GTA.IPedVariation.HasAnyVariations

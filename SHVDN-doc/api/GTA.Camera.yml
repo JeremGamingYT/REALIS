@@ -1,0 +1,2334 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Camera
+  commentId: T:GTA.Camera
+  id: Camera
+  parent: GTA
+  children:
+  - GTA.Camera.#ctor(System.Int32)
+  - GTA.Camera.AnimPhase
+  - GTA.Camera.AttachTo(GTA.Entity,GTA.Math.Vector3)
+  - GTA.Camera.AttachTo(GTA.PedBone,GTA.Math.Vector3)
+  - GTA.Camera.AttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,System.Boolean)
+  - GTA.Camera.Create(GTA.ScriptedCameraNameHash,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  - GTA.Camera.Create(GTA.ScriptedCameraNameHash,System.Boolean)
+  - GTA.Camera.Create(System.String,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  - GTA.Camera.Create(System.String,System.Boolean)
+  - GTA.Camera.Delete
+  - GTA.Camera.Delete(System.Boolean)
+  - GTA.Camera.DeleteAllCameras(System.Boolean)
+  - GTA.Camera.DepthOfFieldStrength
+  - GTA.Camera.Detach
+  - GTA.Camera.Direction
+  - GTA.Camera.Equals(System.Object)
+  - GTA.Camera.Exists
+  - GTA.Camera.FarClip
+  - GTA.Camera.FarDepthOfField
+  - GTA.Camera.FieldOfView
+  - GTA.Camera.ForwardVector
+  - GTA.Camera.GetHashCode
+  - GTA.Camera.GetOffsetPosition(GTA.Math.Vector3)
+  - GTA.Camera.GetPositionOffset(GTA.Math.Vector3)
+  - GTA.Camera.HardAttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,System.Boolean)
+  - GTA.Camera.InterpTo(GTA.Camera,System.Int32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  - GTA.Camera.InterpolateToNewCamFrame(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.UInt32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  - GTA.Camera.IsActive
+  - GTA.Camera.IsInterpolating
+  - GTA.Camera.IsPlayingAnim(GTA.CrClipAsset)
+  - GTA.Camera.IsShaking
+  - GTA.Camera.Matrix
+  - GTA.Camera.MemoryAddress
+  - GTA.Camera.MotionBlurStrength
+  - GTA.Camera.NearClip
+  - GTA.Camera.NearDepthOfField
+  - GTA.Camera.PlayAnim(GTA.CrClipAsset,GTA.Math.Vector3,GTA.Math.Vector3,GTA.CamAnimationFlags,GTA.EulerRotationOrder)
+  - GTA.Camera.PlaySynchronizedAnim(GTA.FwSyncedScene,GTA.CrClipAsset)
+  - GTA.Camera.PointAt(GTA.Entity,GTA.Math.Vector3)
+  - GTA.Camera.PointAt(GTA.Math.Vector3)
+  - GTA.Camera.PointAt(GTA.PedBone,GTA.Math.Vector3)
+  - GTA.Camera.Position
+  - GTA.Camera.RightVector
+  - GTA.Camera.Rotation
+  - GTA.Camera.SetCamFrameParameters(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  - GTA.Camera.Shake(GTA.CameraShake,System.Single)
+  - GTA.Camera.Shake(System.String,System.Single)
+  - GTA.Camera.ShakeAmplitude
+  - GTA.Camera.StopPointing
+  - GTA.Camera.StopShaking
+  - GTA.Camera.StopShaking(System.Boolean)
+  - GTA.Camera.UpVector
+  - GTA.Camera.op_Equality(GTA.Camera,GTA.Camera)
+  - GTA.Camera.op_Implicit(GTA.Camera)~GTA.Native.InputArgument
+  - GTA.Camera.op_Inequality(GTA.Camera,GTA.Camera)
+  langs:
+  - csharp
+  - vb
+  name: Camera
+  nameWithType: Camera
+  fullName: GTA.Camera
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class Camera : PoolObject, INativeValue, IDeletable, IExistable, ISpatial'
+    content.vb: Public NotInheritable Class Camera Inherits PoolObject Implements INativeValue, IDeletable, IExistable, ISpatial
+  inheritance:
+  - System.Object
+  - GTA.PoolObject
+  implements:
+  - GTA.Native.INativeValue
+  - GTA.IDeletable
+  - GTA.IExistable
+  - GTA.ISpatial
+  inheritedMembers:
+  - GTA.PoolObject.Handle
+  - GTA.PoolObject.NativeValue
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Camera.#ctor(System.Int32)
+  commentId: M:GTA.Camera.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Camera(int)
+  nameWithType: Camera.Camera(int)
+  fullName: GTA.Camera.Camera(int)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Camera(int handle)
+    parameters:
+    - id: handle
+      type: System.Int32
+    content.vb: Public Sub New(handle As Integer)
+  overload: GTA.Camera.#ctor*
+  nameWithType.vb: Camera.New(Integer)
+  fullName.vb: GTA.Camera.New(Integer)
+  name.vb: New(Integer)
+- uid: GTA.Camera.Create(GTA.ScriptedCameraNameHash,System.Boolean)
+  commentId: M:GTA.Camera.Create(GTA.ScriptedCameraNameHash,System.Boolean)
+  id: Create(GTA.ScriptedCameraNameHash,System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Create(ScriptedCameraNameHash, bool)
+  nameWithType: Camera.Create(ScriptedCameraNameHash, bool)
+  fullName: GTA.Camera.Create(GTA.ScriptedCameraNameHash, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static Camera Create(ScriptedCameraNameHash cameraNameHash, bool startActivated = false)
+    parameters:
+    - id: cameraNameHash
+      type: GTA.ScriptedCameraNameHash
+    - id: startActivated
+      type: System.Boolean
+    return:
+      type: GTA.Camera
+    content.vb: Public Shared Function Create(cameraNameHash As ScriptedCameraNameHash, startActivated As Boolean = False) As Camera
+  overload: GTA.Camera.Create*
+  nameWithType.vb: Camera.Create(ScriptedCameraNameHash, Boolean)
+  fullName.vb: GTA.Camera.Create(GTA.ScriptedCameraNameHash, Boolean)
+  name.vb: Create(ScriptedCameraNameHash, Boolean)
+- uid: GTA.Camera.Create(System.String,System.Boolean)
+  commentId: M:GTA.Camera.Create(System.String,System.Boolean)
+  id: Create(System.String,System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Create(string, bool)
+  nameWithType: Camera.Create(string, bool)
+  fullName: GTA.Camera.Create(string, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static Camera Create(string cameraName, bool startActivated = false)
+    parameters:
+    - id: cameraName
+      type: System.String
+    - id: startActivated
+      type: System.Boolean
+    return:
+      type: GTA.Camera
+    content.vb: Public Shared Function Create(cameraName As String, startActivated As Boolean = False) As Camera
+  overload: GTA.Camera.Create*
+  nameWithType.vb: Camera.Create(String, Boolean)
+  fullName.vb: GTA.Camera.Create(String, Boolean)
+  name.vb: Create(String, Boolean)
+- uid: GTA.Camera.Create(GTA.ScriptedCameraNameHash,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  commentId: M:GTA.Camera.Create(GTA.ScriptedCameraNameHash,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  id: Create(GTA.ScriptedCameraNameHash,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Create(ScriptedCameraNameHash, Vector3, Vector3, float, bool, EulerRotationOrder)
+  nameWithType: Camera.Create(ScriptedCameraNameHash, Vector3, Vector3, float, bool, EulerRotationOrder)
+  fullName: GTA.Camera.Create(GTA.ScriptedCameraNameHash, GTA.Math.Vector3, GTA.Math.Vector3, float, bool, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static Camera Create(ScriptedCameraNameHash cameraNameHash, Vector3 position, Vector3 rotation, float fov = 65, bool startActivated = false, EulerRotationOrder rotOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: cameraNameHash
+      type: GTA.ScriptedCameraNameHash
+    - id: position
+      type: GTA.Math.Vector3
+    - id: rotation
+      type: GTA.Math.Vector3
+    - id: fov
+      type: System.Single
+    - id: startActivated
+      type: System.Boolean
+    - id: rotOrder
+      type: GTA.EulerRotationOrder
+    return:
+      type: GTA.Camera
+    content.vb: Public Shared Function Create(cameraNameHash As ScriptedCameraNameHash, position As Vector3, rotation As Vector3, fov As Single = 65, startActivated As Boolean = False, rotOrder As EulerRotationOrder = EulerRotationOrder.YXZ) As Camera
+  overload: GTA.Camera.Create*
+  nameWithType.vb: Camera.Create(ScriptedCameraNameHash, Vector3, Vector3, Single, Boolean, EulerRotationOrder)
+  fullName.vb: GTA.Camera.Create(GTA.ScriptedCameraNameHash, GTA.Math.Vector3, GTA.Math.Vector3, Single, Boolean, GTA.EulerRotationOrder)
+  name.vb: Create(ScriptedCameraNameHash, Vector3, Vector3, Single, Boolean, EulerRotationOrder)
+- uid: GTA.Camera.Create(System.String,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  commentId: M:GTA.Camera.Create(System.String,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  id: Create(System.String,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,GTA.EulerRotationOrder)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Create(string, Vector3, Vector3, float, bool, EulerRotationOrder)
+  nameWithType: Camera.Create(string, Vector3, Vector3, float, bool, EulerRotationOrder)
+  fullName: GTA.Camera.Create(string, GTA.Math.Vector3, GTA.Math.Vector3, float, bool, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static Camera Create(string cameraName, Vector3 position, Vector3 rotation, float fov = 65, bool startActivated = false, EulerRotationOrder rotOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: cameraName
+      type: System.String
+    - id: position
+      type: GTA.Math.Vector3
+    - id: rotation
+      type: GTA.Math.Vector3
+    - id: fov
+      type: System.Single
+    - id: startActivated
+      type: System.Boolean
+    - id: rotOrder
+      type: GTA.EulerRotationOrder
+    return:
+      type: GTA.Camera
+    content.vb: Public Shared Function Create(cameraName As String, position As Vector3, rotation As Vector3, fov As Single = 65, startActivated As Boolean = False, rotOrder As EulerRotationOrder = EulerRotationOrder.YXZ) As Camera
+  overload: GTA.Camera.Create*
+  nameWithType.vb: Camera.Create(String, Vector3, Vector3, Single, Boolean, EulerRotationOrder)
+  fullName.vb: GTA.Camera.Create(String, GTA.Math.Vector3, GTA.Math.Vector3, Single, Boolean, GTA.EulerRotationOrder)
+  name.vb: Create(String, Vector3, Vector3, Single, Boolean, EulerRotationOrder)
+- uid: GTA.Camera.GetOffsetPosition(GTA.Math.Vector3)
+  commentId: M:GTA.Camera.GetOffsetPosition(GTA.Math.Vector3)
+  id: GetOffsetPosition(GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: GetOffsetPosition(Vector3)
+  nameWithType: Camera.GetOffsetPosition(Vector3)
+  fullName: GTA.Camera.GetOffsetPosition(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 GetOffsetPosition(Vector3 offset)
+    parameters:
+    - id: offset
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function GetOffsetPosition(offset As Vector3) As Vector3
+  overload: GTA.Camera.GetOffsetPosition*
+- uid: GTA.Camera.GetPositionOffset(GTA.Math.Vector3)
+  commentId: M:GTA.Camera.GetPositionOffset(GTA.Math.Vector3)
+  id: GetPositionOffset(GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: GetPositionOffset(Vector3)
+  nameWithType: Camera.GetPositionOffset(Vector3)
+  fullName: GTA.Camera.GetPositionOffset(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 GetPositionOffset(Vector3 worldCoords)
+    parameters:
+    - id: worldCoords
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function GetPositionOffset(worldCoords As Vector3) As Vector3
+  overload: GTA.Camera.GetPositionOffset*
+- uid: GTA.Camera.SetCamFrameParameters(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  commentId: M:GTA.Camera.SetCamFrameParameters(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  id: SetCamFrameParameters(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: SetCamFrameParameters(Vector3, Vector3, float, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  nameWithType: Camera.SetCamFrameParameters(Vector3, Vector3, float, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  fullName: GTA.Camera.SetCamFrameParameters(GTA.Math.Vector3, GTA.Math.Vector3, float, GTA.CamFrameInterpolatorCurveType, GTA.CamFrameInterpolatorCurveType, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void SetCamFrameParameters(Vector3 position, Vector3 rotation, float fov, CamFrameInterpolatorCurveType graphTypePos = CamFrameInterpolatorCurveType.SinAccelDecel, CamFrameInterpolatorCurveType graphTypeRot = CamFrameInterpolatorCurveType.SinAccelDecel, EulerRotationOrder rotOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: rotation
+      type: GTA.Math.Vector3
+    - id: fov
+      type: System.Single
+    - id: graphTypePos
+      type: GTA.CamFrameInterpolatorCurveType
+    - id: graphTypeRot
+      type: GTA.CamFrameInterpolatorCurveType
+    - id: rotOrder
+      type: GTA.EulerRotationOrder
+    content.vb: Public Sub SetCamFrameParameters(position As Vector3, rotation As Vector3, fov As Single, graphTypePos As CamFrameInterpolatorCurveType = CamFrameInterpolatorCurveType.SinAccelDecel, graphTypeRot As CamFrameInterpolatorCurveType = CamFrameInterpolatorCurveType.SinAccelDecel, rotOrder As EulerRotationOrder = EulerRotationOrder.YXZ)
+  overload: GTA.Camera.SetCamFrameParameters*
+  nameWithType.vb: Camera.SetCamFrameParameters(Vector3, Vector3, Single, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  fullName.vb: GTA.Camera.SetCamFrameParameters(GTA.Math.Vector3, GTA.Math.Vector3, Single, GTA.CamFrameInterpolatorCurveType, GTA.CamFrameInterpolatorCurveType, GTA.EulerRotationOrder)
+  name.vb: SetCamFrameParameters(Vector3, Vector3, Single, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+- uid: GTA.Camera.InterpolateToNewCamFrame(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.UInt32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  commentId: M:GTA.Camera.InterpolateToNewCamFrame(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.UInt32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  id: InterpolateToNewCamFrame(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.UInt32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: InterpolateToNewCamFrame(Vector3, Vector3, float, uint, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  nameWithType: Camera.InterpolateToNewCamFrame(Vector3, Vector3, float, uint, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  fullName: GTA.Camera.InterpolateToNewCamFrame(GTA.Math.Vector3, GTA.Math.Vector3, float, uint, GTA.CamFrameInterpolatorCurveType, GTA.CamFrameInterpolatorCurveType, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void InterpolateToNewCamFrame(Vector3 position, Vector3 rotation, float fov, uint duration, CamFrameInterpolatorCurveType graphTypePos = CamFrameInterpolatorCurveType.SinAccelDecel, CamFrameInterpolatorCurveType graphTypeRot = CamFrameInterpolatorCurveType.SinAccelDecel, EulerRotationOrder rotOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: rotation
+      type: GTA.Math.Vector3
+    - id: fov
+      type: System.Single
+    - id: duration
+      type: System.UInt32
+    - id: graphTypePos
+      type: GTA.CamFrameInterpolatorCurveType
+    - id: graphTypeRot
+      type: GTA.CamFrameInterpolatorCurveType
+    - id: rotOrder
+      type: GTA.EulerRotationOrder
+    content.vb: Public Sub InterpolateToNewCamFrame(position As Vector3, rotation As Vector3, fov As Single, duration As UInteger, graphTypePos As CamFrameInterpolatorCurveType = CamFrameInterpolatorCurveType.SinAccelDecel, graphTypeRot As CamFrameInterpolatorCurveType = CamFrameInterpolatorCurveType.SinAccelDecel, rotOrder As EulerRotationOrder = EulerRotationOrder.YXZ)
+  overload: GTA.Camera.InterpolateToNewCamFrame*
+  nameWithType.vb: Camera.InterpolateToNewCamFrame(Vector3, Vector3, Single, UInteger, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  fullName.vb: GTA.Camera.InterpolateToNewCamFrame(GTA.Math.Vector3, GTA.Math.Vector3, Single, UInteger, GTA.CamFrameInterpolatorCurveType, GTA.CamFrameInterpolatorCurveType, GTA.EulerRotationOrder)
+  name.vb: InterpolateToNewCamFrame(Vector3, Vector3, Single, UInteger, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+- uid: GTA.Camera.Shake(GTA.CameraShake,System.Single)
+  commentId: M:GTA.Camera.Shake(GTA.CameraShake,System.Single)
+  id: Shake(GTA.CameraShake,System.Single)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Shake(CameraShake, float)
+  nameWithType: Camera.Shake(CameraShake, float)
+  fullName: GTA.Camera.Shake(GTA.CameraShake, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Shake(CameraShake shakeType, float amplitude)
+    parameters:
+    - id: shakeType
+      type: GTA.CameraShake
+    - id: amplitude
+      type: System.Single
+    content.vb: Public Sub Shake(shakeType As CameraShake, amplitude As Single)
+  overload: GTA.Camera.Shake*
+  nameWithType.vb: Camera.Shake(CameraShake, Single)
+  fullName.vb: GTA.Camera.Shake(GTA.CameraShake, Single)
+  name.vb: Shake(CameraShake, Single)
+- uid: GTA.Camera.Shake(System.String,System.Single)
+  commentId: M:GTA.Camera.Shake(System.String,System.Single)
+  id: Shake(System.String,System.Single)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Shake(string, float)
+  nameWithType: Camera.Shake(string, float)
+  fullName: GTA.Camera.Shake(string, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Shake(string shakeName, float amplitudeScalar)
+    parameters:
+    - id: shakeName
+      type: System.String
+    - id: amplitudeScalar
+      type: System.Single
+    content.vb: Public Sub Shake(shakeName As String, amplitudeScalar As Single)
+  overload: GTA.Camera.Shake*
+  nameWithType.vb: Camera.Shake(String, Single)
+  fullName.vb: GTA.Camera.Shake(String, Single)
+  name.vb: Shake(String, Single)
+- uid: GTA.Camera.StopShaking
+  commentId: M:GTA.Camera.StopShaking
+  id: StopShaking
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: StopShaking()
+  nameWithType: Camera.StopShaking()
+  fullName: GTA.Camera.StopShaking()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void StopShaking()
+    content.vb: Public Sub StopShaking()
+  overload: GTA.Camera.StopShaking*
+- uid: GTA.Camera.StopShaking(System.Boolean)
+  commentId: M:GTA.Camera.StopShaking(System.Boolean)
+  id: StopShaking(System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: StopShaking(bool)
+  nameWithType: Camera.StopShaking(bool)
+  fullName: GTA.Camera.StopShaking(bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void StopShaking(bool stopImmediately)
+    parameters:
+    - id: stopImmediately
+      type: System.Boolean
+    content.vb: Public Sub StopShaking(stopImmediately As Boolean)
+  overload: GTA.Camera.StopShaking*
+  nameWithType.vb: Camera.StopShaking(Boolean)
+  fullName.vb: GTA.Camera.StopShaking(Boolean)
+  name.vb: StopShaking(Boolean)
+- uid: GTA.Camera.PointAt(GTA.Entity,GTA.Math.Vector3)
+  commentId: M:GTA.Camera.PointAt(GTA.Entity,GTA.Math.Vector3)
+  id: PointAt(GTA.Entity,GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: PointAt(Entity, Vector3)
+  nameWithType: Camera.PointAt(Entity, Vector3)
+  fullName: GTA.Camera.PointAt(GTA.Entity, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PointAt(Entity target, Vector3 offset = default)
+    parameters:
+    - id: target
+      type: GTA.Entity
+    - id: offset
+      type: GTA.Math.Vector3
+    content.vb: Public Sub PointAt(target As Entity, offset As Vector3 = Nothing)
+  overload: GTA.Camera.PointAt*
+- uid: GTA.Camera.PointAt(GTA.PedBone,GTA.Math.Vector3)
+  commentId: M:GTA.Camera.PointAt(GTA.PedBone,GTA.Math.Vector3)
+  id: PointAt(GTA.PedBone,GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: PointAt(PedBone, Vector3)
+  nameWithType: Camera.PointAt(PedBone, Vector3)
+  fullName: GTA.Camera.PointAt(GTA.PedBone, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PointAt(PedBone target, Vector3 offset = default)
+    parameters:
+    - id: target
+      type: GTA.PedBone
+    - id: offset
+      type: GTA.Math.Vector3
+    content.vb: Public Sub PointAt(target As PedBone, offset As Vector3 = Nothing)
+  overload: GTA.Camera.PointAt*
+- uid: GTA.Camera.PointAt(GTA.Math.Vector3)
+  commentId: M:GTA.Camera.PointAt(GTA.Math.Vector3)
+  id: PointAt(GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: PointAt(Vector3)
+  nameWithType: Camera.PointAt(Vector3)
+  fullName: GTA.Camera.PointAt(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void PointAt(Vector3 target)
+    parameters:
+    - id: target
+      type: GTA.Math.Vector3
+    content.vb: Public Sub PointAt(target As Vector3)
+  overload: GTA.Camera.PointAt*
+- uid: GTA.Camera.StopPointing
+  commentId: M:GTA.Camera.StopPointing
+  id: StopPointing
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: StopPointing()
+  nameWithType: Camera.StopPointing()
+  fullName: GTA.Camera.StopPointing()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void StopPointing()
+    content.vb: Public Sub StopPointing()
+  overload: GTA.Camera.StopPointing*
+- uid: GTA.Camera.InterpTo(GTA.Camera,System.Int32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  commentId: M:GTA.Camera.InterpTo(GTA.Camera,System.Int32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  id: InterpTo(GTA.Camera,System.Int32,GTA.CamFrameInterpolatorCurveType,GTA.CamFrameInterpolatorCurveType,GTA.EulerRotationOrder)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: InterpTo(Camera, int, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  nameWithType: Camera.InterpTo(Camera, int, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  fullName: GTA.Camera.InterpTo(GTA.Camera, int, GTA.CamFrameInterpolatorCurveType, GTA.CamFrameInterpolatorCurveType, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void InterpTo(Camera destinationCam, int duration, CamFrameInterpolatorCurveType graphTypePos = CamFrameInterpolatorCurveType.SinAccelDecel, CamFrameInterpolatorCurveType graphTypeRot = CamFrameInterpolatorCurveType.SinAccelDecel, EulerRotationOrder rotOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: destinationCam
+      type: GTA.Camera
+    - id: duration
+      type: System.Int32
+    - id: graphTypePos
+      type: GTA.CamFrameInterpolatorCurveType
+    - id: graphTypeRot
+      type: GTA.CamFrameInterpolatorCurveType
+    - id: rotOrder
+      type: GTA.EulerRotationOrder
+    content.vb: Public Sub InterpTo(destinationCam As Camera, duration As Integer, graphTypePos As CamFrameInterpolatorCurveType = CamFrameInterpolatorCurveType.SinAccelDecel, graphTypeRot As CamFrameInterpolatorCurveType = CamFrameInterpolatorCurveType.SinAccelDecel, rotOrder As EulerRotationOrder = EulerRotationOrder.YXZ)
+  overload: GTA.Camera.InterpTo*
+  nameWithType.vb: Camera.InterpTo(Camera, Integer, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+  fullName.vb: GTA.Camera.InterpTo(GTA.Camera, Integer, GTA.CamFrameInterpolatorCurveType, GTA.CamFrameInterpolatorCurveType, GTA.EulerRotationOrder)
+  name.vb: InterpTo(Camera, Integer, CamFrameInterpolatorCurveType, CamFrameInterpolatorCurveType, EulerRotationOrder)
+- uid: GTA.Camera.AttachTo(GTA.Entity,GTA.Math.Vector3)
+  commentId: M:GTA.Camera.AttachTo(GTA.Entity,GTA.Math.Vector3)
+  id: AttachTo(GTA.Entity,GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: AttachTo(Entity, Vector3)
+  nameWithType: Camera.AttachTo(Entity, Vector3)
+  fullName: GTA.Camera.AttachTo(GTA.Entity, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void AttachTo(Entity entity, Vector3 offset)
+    parameters:
+    - id: entity
+      type: GTA.Entity
+    - id: offset
+      type: GTA.Math.Vector3
+    content.vb: Public Sub AttachTo(entity As Entity, offset As Vector3)
+  overload: GTA.Camera.AttachTo*
+- uid: GTA.Camera.AttachTo(GTA.PedBone,GTA.Math.Vector3)
+  commentId: M:GTA.Camera.AttachTo(GTA.PedBone,GTA.Math.Vector3)
+  id: AttachTo(GTA.PedBone,GTA.Math.Vector3)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: AttachTo(PedBone, Vector3)
+  nameWithType: Camera.AttachTo(PedBone, Vector3)
+  fullName: GTA.Camera.AttachTo(GTA.PedBone, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void AttachTo(PedBone pedBone, Vector3 offset)
+    parameters:
+    - id: pedBone
+      type: GTA.PedBone
+    - id: offset
+      type: GTA.Math.Vector3
+    content.vb: Public Sub AttachTo(pedBone As PedBone, offset As Vector3)
+  overload: GTA.Camera.AttachTo*
+- uid: GTA.Camera.AttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,System.Boolean)
+  commentId: M:GTA.Camera.AttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,System.Boolean)
+  id: AttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: AttachToVehicleBone(EntityBone, Vector3, bool)
+  nameWithType: Camera.AttachToVehicleBone(EntityBone, Vector3, bool)
+  fullName: GTA.Camera.AttachToVehicleBone(GTA.EntityBone, GTA.Math.Vector3, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void AttachToVehicleBone(EntityBone vehicleBone, Vector3 positionOffset, bool offsetIsRelative = true)
+    parameters:
+    - id: vehicleBone
+      type: GTA.EntityBone
+    - id: positionOffset
+      type: GTA.Math.Vector3
+    - id: offsetIsRelative
+      type: System.Boolean
+    content.vb: Public Sub AttachToVehicleBone(vehicleBone As EntityBone, positionOffset As Vector3, offsetIsRelative As Boolean = True)
+  overload: GTA.Camera.AttachToVehicleBone*
+  nameWithType.vb: Camera.AttachToVehicleBone(EntityBone, Vector3, Boolean)
+  fullName.vb: GTA.Camera.AttachToVehicleBone(GTA.EntityBone, GTA.Math.Vector3, Boolean)
+  name.vb: AttachToVehicleBone(EntityBone, Vector3, Boolean)
+- uid: GTA.Camera.HardAttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,System.Boolean)
+  commentId: M:GTA.Camera.HardAttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,System.Boolean)
+  id: HardAttachToVehicleBone(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: HardAttachToVehicleBone(EntityBone, Vector3, Vector3, bool)
+  nameWithType: Camera.HardAttachToVehicleBone(EntityBone, Vector3, Vector3, bool)
+  fullName: GTA.Camera.HardAttachToVehicleBone(GTA.EntityBone, GTA.Math.Vector3, GTA.Math.Vector3, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void HardAttachToVehicleBone(EntityBone vehicleBone, Vector3 rotationOffset, Vector3 positionOffset, bool offsetIsRelative = true)
+    parameters:
+    - id: vehicleBone
+      type: GTA.EntityBone
+    - id: rotationOffset
+      type: GTA.Math.Vector3
+    - id: positionOffset
+      type: GTA.Math.Vector3
+    - id: offsetIsRelative
+      type: System.Boolean
+    content.vb: Public Sub HardAttachToVehicleBone(vehicleBone As EntityBone, rotationOffset As Vector3, positionOffset As Vector3, offsetIsRelative As Boolean = True)
+  overload: GTA.Camera.HardAttachToVehicleBone*
+  nameWithType.vb: Camera.HardAttachToVehicleBone(EntityBone, Vector3, Vector3, Boolean)
+  fullName.vb: GTA.Camera.HardAttachToVehicleBone(GTA.EntityBone, GTA.Math.Vector3, GTA.Math.Vector3, Boolean)
+  name.vb: HardAttachToVehicleBone(EntityBone, Vector3, Vector3, Boolean)
+- uid: GTA.Camera.Detach
+  commentId: M:GTA.Camera.Detach
+  id: Detach
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Detach()
+  nameWithType: Camera.Detach()
+  fullName: GTA.Camera.Detach()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Detach()
+    content.vb: Public Sub Detach()
+  overload: GTA.Camera.Detach*
+- uid: GTA.Camera.PlayAnim(GTA.CrClipAsset,GTA.Math.Vector3,GTA.Math.Vector3,GTA.CamAnimationFlags,GTA.EulerRotationOrder)
+  commentId: M:GTA.Camera.PlayAnim(GTA.CrClipAsset,GTA.Math.Vector3,GTA.Math.Vector3,GTA.CamAnimationFlags,GTA.EulerRotationOrder)
+  id: PlayAnim(GTA.CrClipAsset,GTA.Math.Vector3,GTA.Math.Vector3,GTA.CamAnimationFlags,GTA.EulerRotationOrder)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: PlayAnim(CrClipAsset, Vector3, Vector3, CamAnimationFlags, EulerRotationOrder)
+  nameWithType: Camera.PlayAnim(CrClipAsset, Vector3, Vector3, CamAnimationFlags, EulerRotationOrder)
+  fullName: GTA.Camera.PlayAnim(GTA.CrClipAsset, GTA.Math.Vector3, GTA.Math.Vector3, GTA.CamAnimationFlags, GTA.EulerRotationOrder)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool PlayAnim(CrClipAsset anim, Vector3 originPosition, Vector3 originRotation, CamAnimationFlags animFlags = CamAnimationFlags.None, EulerRotationOrder rotOrder = EulerRotationOrder.YXZ)
+    parameters:
+    - id: anim
+      type: GTA.CrClipAsset
+    - id: originPosition
+      type: GTA.Math.Vector3
+    - id: originRotation
+      type: GTA.Math.Vector3
+    - id: animFlags
+      type: GTA.CamAnimationFlags
+    - id: rotOrder
+      type: GTA.EulerRotationOrder
+    return:
+      type: System.Boolean
+    content.vb: Public Function PlayAnim(anim As CrClipAsset, originPosition As Vector3, originRotation As Vector3, animFlags As CamAnimationFlags = CamAnimationFlags.None, rotOrder As EulerRotationOrder = EulerRotationOrder.YXZ) As Boolean
+  overload: GTA.Camera.PlayAnim*
+- uid: GTA.Camera.PlaySynchronizedAnim(GTA.FwSyncedScene,GTA.CrClipAsset)
+  commentId: M:GTA.Camera.PlaySynchronizedAnim(GTA.FwSyncedScene,GTA.CrClipAsset)
+  id: PlaySynchronizedAnim(GTA.FwSyncedScene,GTA.CrClipAsset)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: PlaySynchronizedAnim(FwSyncedScene, CrClipAsset)
+  nameWithType: Camera.PlaySynchronizedAnim(FwSyncedScene, CrClipAsset)
+  fullName: GTA.Camera.PlaySynchronizedAnim(GTA.FwSyncedScene, GTA.CrClipAsset)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool PlaySynchronizedAnim(FwSyncedScene scene, CrClipAsset anim)
+    parameters:
+    - id: scene
+      type: GTA.FwSyncedScene
+    - id: anim
+      type: GTA.CrClipAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Function PlaySynchronizedAnim(scene As FwSyncedScene, anim As CrClipAsset) As Boolean
+  overload: GTA.Camera.PlaySynchronizedAnim*
+- uid: GTA.Camera.IsPlayingAnim(GTA.CrClipAsset)
+  commentId: M:GTA.Camera.IsPlayingAnim(GTA.CrClipAsset)
+  id: IsPlayingAnim(GTA.CrClipAsset)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: IsPlayingAnim(CrClipAsset)
+  nameWithType: Camera.IsPlayingAnim(CrClipAsset)
+  fullName: GTA.Camera.IsPlayingAnim(GTA.CrClipAsset)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsPlayingAnim(CrClipAsset anim)
+    parameters:
+    - id: anim
+      type: GTA.CrClipAsset
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsPlayingAnim(anim As CrClipAsset) As Boolean
+  overload: GTA.Camera.IsPlayingAnim*
+- uid: GTA.Camera.Delete
+  commentId: M:GTA.Camera.Delete
+  id: Delete
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: Camera.Delete()
+  fullName: GTA.Camera.Delete()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override void Delete()
+    content.vb: Public Overrides Sub Delete()
+  overridden: GTA.PoolObject.Delete
+  overload: GTA.Camera.Delete*
+- uid: GTA.Camera.Delete(System.Boolean)
+  commentId: M:GTA.Camera.Delete(System.Boolean)
+  id: Delete(System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Delete(bool)
+  nameWithType: Camera.Delete(bool)
+  fullName: GTA.Camera.Delete(bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Delete(bool shouldApplyAcrossAllThreads)
+    parameters:
+    - id: shouldApplyAcrossAllThreads
+      type: System.Boolean
+    content.vb: Public Sub Delete(shouldApplyAcrossAllThreads As Boolean)
+  overload: GTA.Camera.Delete*
+  nameWithType.vb: Camera.Delete(Boolean)
+  fullName.vb: GTA.Camera.Delete(Boolean)
+  name.vb: Delete(Boolean)
+- uid: GTA.Camera.DeleteAllCameras(System.Boolean)
+  commentId: M:GTA.Camera.DeleteAllCameras(System.Boolean)
+  id: DeleteAllCameras(System.Boolean)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllCameras(bool)
+  nameWithType: Camera.DeleteAllCameras(bool)
+  fullName: GTA.Camera.DeleteAllCameras(bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static void DeleteAllCameras(bool shouldApplyAcrossAllThreads = false)
+    parameters:
+    - id: shouldApplyAcrossAllThreads
+      type: System.Boolean
+    content.vb: Public Shared Sub DeleteAllCameras(shouldApplyAcrossAllThreads As Boolean = False)
+  overload: GTA.Camera.DeleteAllCameras*
+  nameWithType.vb: Camera.DeleteAllCameras(Boolean)
+  fullName.vb: GTA.Camera.DeleteAllCameras(Boolean)
+  name.vb: DeleteAllCameras(Boolean)
+- uid: GTA.Camera.Exists
+  commentId: M:GTA.Camera.Exists
+  id: Exists
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: Camera.Exists()
+  fullName: GTA.Camera.Exists()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Exists()
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Exists() As Boolean
+  overridden: GTA.PoolObject.Exists
+  overload: GTA.Camera.Exists*
+- uid: GTA.Camera.Equals(System.Object)
+  commentId: M:GTA.Camera.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Camera.Equals(object)
+  fullName: GTA.Camera.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.Camera.Equals*
+  nameWithType.vb: Camera.Equals(Object)
+  fullName.vb: GTA.Camera.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.Camera.op_Equality(GTA.Camera,GTA.Camera)
+  commentId: M:GTA.Camera.op_Equality(GTA.Camera,GTA.Camera)
+  id: op_Equality(GTA.Camera,GTA.Camera)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Camera, Camera)
+  nameWithType: Camera.operator ==(Camera, Camera)
+  fullName: GTA.Camera.operator ==(GTA.Camera, GTA.Camera)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(Camera left, Camera right)
+    parameters:
+    - id: left
+      type: GTA.Camera
+    - id: right
+      type: GTA.Camera
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Camera, right As Camera) As Boolean
+  overload: GTA.Camera.op_Equality*
+  nameWithType.vb: Camera.=(Camera, Camera)
+  fullName.vb: GTA.Camera.=(GTA.Camera, GTA.Camera)
+  name.vb: =(Camera, Camera)
+- uid: GTA.Camera.op_Inequality(GTA.Camera,GTA.Camera)
+  commentId: M:GTA.Camera.op_Inequality(GTA.Camera,GTA.Camera)
+  id: op_Inequality(GTA.Camera,GTA.Camera)
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Camera, Camera)
+  nameWithType: Camera.operator !=(Camera, Camera)
+  fullName: GTA.Camera.operator !=(GTA.Camera, GTA.Camera)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(Camera left, Camera right)
+    parameters:
+    - id: left
+      type: GTA.Camera
+    - id: right
+      type: GTA.Camera
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Camera, right As Camera) As Boolean
+  overload: GTA.Camera.op_Inequality*
+  nameWithType.vb: Camera.<>(Camera, Camera)
+  fullName.vb: GTA.Camera.<>(GTA.Camera, GTA.Camera)
+  name.vb: <>(Camera, Camera)
+- uid: GTA.Camera.op_Implicit(GTA.Camera)~GTA.Native.InputArgument
+  commentId: M:GTA.Camera.op_Implicit(GTA.Camera)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.Camera)~GTA.Native.InputArgument
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(Camera)
+  nameWithType: Camera.implicit operator InputArgument(Camera)
+  fullName: GTA.Camera.implicit operator GTA.Native.InputArgument(GTA.Camera)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(Camera value)
+    parameters:
+    - id: value
+      type: GTA.Camera
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As Camera) As InputArgument
+  overload: GTA.Camera.op_Implicit*
+  nameWithType.vb: Camera.CType(Camera)
+  fullName.vb: GTA.Camera.CType(GTA.Camera)
+  name.vb: CType(Camera)
+- uid: GTA.Camera.GetHashCode
+  commentId: M:GTA.Camera.GetHashCode
+  id: GetHashCode
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Camera.GetHashCode()
+  fullName: GTA.Camera.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.Camera.GetHashCode*
+- uid: GTA.Camera.MemoryAddress
+  commentId: P:GTA.Camera.MemoryAddress
+  id: MemoryAddress
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: MemoryAddress
+  nameWithType: Camera.MemoryAddress
+  fullName: GTA.Camera.MemoryAddress
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IntPtr MemoryAddress { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public ReadOnly Property MemoryAddress As IntPtr
+  overload: GTA.Camera.MemoryAddress*
+- uid: GTA.Camera.IsActive
+  commentId: P:GTA.Camera.IsActive
+  id: IsActive
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: Camera.IsActive
+  fullName: GTA.Camera.IsActive
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActive As Boolean
+  overload: GTA.Camera.IsActive*
+- uid: GTA.Camera.Matrix
+  commentId: P:GTA.Camera.Matrix
+  id: Matrix
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: Camera.Matrix
+  fullName: GTA.Camera.Matrix
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Matrix Matrix { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Matrix
+    content.vb: Public ReadOnly Property Matrix As Matrix
+  overload: GTA.Camera.Matrix*
+- uid: GTA.Camera.Position
+  commentId: P:GTA.Camera.Position
+  id: Position
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Camera.Position
+  fullName: GTA.Camera.Position
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property Position As Vector3
+  overload: GTA.Camera.Position*
+  implements:
+  - GTA.ISpatial.Position
+- uid: GTA.Camera.Rotation
+  commentId: P:GTA.Camera.Rotation
+  id: Rotation
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: Camera.Rotation
+  fullName: GTA.Camera.Rotation
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public Vector3 Rotation { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property Rotation As Vector3
+  overload: GTA.Camera.Rotation*
+  implements:
+  - GTA.ISpatial.Rotation
+- uid: GTA.Camera.Direction
+  commentId: P:GTA.Camera.Direction
+  id: Direction
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: Camera.Direction
+  fullName: GTA.Camera.Direction
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 Direction { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property Direction As Vector3
+  overload: GTA.Camera.Direction*
+- uid: GTA.Camera.UpVector
+  commentId: P:GTA.Camera.UpVector
+  id: UpVector
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: UpVector
+  nameWithType: Camera.UpVector
+  fullName: GTA.Camera.UpVector
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 UpVector { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public ReadOnly Property UpVector As Vector3
+  overload: GTA.Camera.UpVector*
+- uid: GTA.Camera.RightVector
+  commentId: P:GTA.Camera.RightVector
+  id: RightVector
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: RightVector
+  nameWithType: Camera.RightVector
+  fullName: GTA.Camera.RightVector
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 RightVector { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public ReadOnly Property RightVector As Vector3
+  overload: GTA.Camera.RightVector*
+- uid: GTA.Camera.ForwardVector
+  commentId: P:GTA.Camera.ForwardVector
+  id: ForwardVector
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: ForwardVector
+  nameWithType: Camera.ForwardVector
+  fullName: GTA.Camera.ForwardVector
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 ForwardVector { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public ReadOnly Property ForwardVector As Vector3
+  overload: GTA.Camera.ForwardVector*
+- uid: GTA.Camera.FarClip
+  commentId: P:GTA.Camera.FarClip
+  id: FarClip
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: FarClip
+  nameWithType: Camera.FarClip
+  fullName: GTA.Camera.FarClip
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FarClip { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FarClip As Single
+  overload: GTA.Camera.FarClip*
+- uid: GTA.Camera.NearClip
+  commentId: P:GTA.Camera.NearClip
+  id: NearClip
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: NearClip
+  nameWithType: Camera.NearClip
+  fullName: GTA.Camera.NearClip
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float NearClip { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property NearClip As Single
+  overload: GTA.Camera.NearClip*
+- uid: GTA.Camera.FieldOfView
+  commentId: P:GTA.Camera.FieldOfView
+  id: FieldOfView
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: FieldOfView
+  nameWithType: Camera.FieldOfView
+  fullName: GTA.Camera.FieldOfView
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FieldOfView { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FieldOfView As Single
+  overload: GTA.Camera.FieldOfView*
+- uid: GTA.Camera.FarDepthOfField
+  commentId: P:GTA.Camera.FarDepthOfField
+  id: FarDepthOfField
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: FarDepthOfField
+  nameWithType: Camera.FarDepthOfField
+  fullName: GTA.Camera.FarDepthOfField
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FarDepthOfField { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property FarDepthOfField As Single
+  overload: GTA.Camera.FarDepthOfField*
+- uid: GTA.Camera.NearDepthOfField
+  commentId: P:GTA.Camera.NearDepthOfField
+  id: NearDepthOfField
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: NearDepthOfField
+  nameWithType: Camera.NearDepthOfField
+  fullName: GTA.Camera.NearDepthOfField
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float NearDepthOfField { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property NearDepthOfField As Single
+  overload: GTA.Camera.NearDepthOfField*
+- uid: GTA.Camera.MotionBlurStrength
+  commentId: P:GTA.Camera.MotionBlurStrength
+  id: MotionBlurStrength
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: MotionBlurStrength
+  nameWithType: Camera.MotionBlurStrength
+  fullName: GTA.Camera.MotionBlurStrength
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float MotionBlurStrength { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MotionBlurStrength As Single
+  overload: GTA.Camera.MotionBlurStrength*
+- uid: GTA.Camera.DepthOfFieldStrength
+  commentId: P:GTA.Camera.DepthOfFieldStrength
+  id: DepthOfFieldStrength
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: DepthOfFieldStrength
+  nameWithType: Camera.DepthOfFieldStrength
+  fullName: GTA.Camera.DepthOfFieldStrength
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float DepthOfFieldStrength { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DepthOfFieldStrength As Single
+  overload: GTA.Camera.DepthOfFieldStrength*
+- uid: GTA.Camera.IsShaking
+  commentId: P:GTA.Camera.IsShaking
+  id: IsShaking
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: IsShaking
+  nameWithType: Camera.IsShaking
+  fullName: GTA.Camera.IsShaking
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsShaking { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsShaking As Boolean
+  overload: GTA.Camera.IsShaking*
+- uid: GTA.Camera.ShakeAmplitude
+  commentId: P:GTA.Camera.ShakeAmplitude
+  id: ShakeAmplitude
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: ShakeAmplitude
+  nameWithType: Camera.ShakeAmplitude
+  fullName: GTA.Camera.ShakeAmplitude
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float ShakeAmplitude { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ShakeAmplitude As Single
+  overload: GTA.Camera.ShakeAmplitude*
+- uid: GTA.Camera.IsInterpolating
+  commentId: P:GTA.Camera.IsInterpolating
+  id: IsInterpolating
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: IsInterpolating
+  nameWithType: Camera.IsInterpolating
+  fullName: GTA.Camera.IsInterpolating
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsInterpolating { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInterpolating As Boolean
+  overload: GTA.Camera.IsInterpolating*
+- uid: GTA.Camera.AnimPhase
+  commentId: P:GTA.Camera.AnimPhase
+  id: AnimPhase
+  parent: GTA.Camera
+  langs:
+  - csharp
+  - vb
+  name: AnimPhase
+  nameWithType: Camera.AnimPhase
+  fullName: GTA.Camera.AnimPhase
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float AnimPhase { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property AnimPhase As Single
+  overload: GTA.Camera.AnimPhase*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.PoolObject
+  commentId: T:GTA.PoolObject
+  parent: GTA
+  isExternal: true
+  href: GTA.PoolObject.html
+  name: PoolObject
+  nameWithType: PoolObject
+  fullName: GTA.PoolObject
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: GTA.IDeletable
+  commentId: T:GTA.IDeletable
+  parent: GTA
+  isExternal: true
+  href: GTA.IDeletable.html
+  name: IDeletable
+  nameWithType: IDeletable
+  fullName: GTA.IDeletable
+- uid: GTA.IExistable
+  commentId: T:GTA.IExistable
+  parent: GTA
+  isExternal: true
+  href: GTA.IExistable.html
+  name: IExistable
+  nameWithType: IExistable
+  fullName: GTA.IExistable
+- uid: GTA.ISpatial
+  commentId: T:GTA.ISpatial
+  parent: GTA
+  isExternal: true
+  href: GTA.ISpatial.html
+  name: ISpatial
+  nameWithType: ISpatial
+  fullName: GTA.ISpatial
+- uid: GTA.PoolObject.Handle
+  commentId: P:GTA.PoolObject.Handle
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Handle
+  name: Handle
+  nameWithType: PoolObject.Handle
+  fullName: GTA.PoolObject.Handle
+- uid: GTA.PoolObject.NativeValue
+  commentId: P:GTA.PoolObject.NativeValue
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_NativeValue
+  name: NativeValue
+  nameWithType: PoolObject.NativeValue
+  fullName: GTA.PoolObject.NativeValue
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.Camera.#ctor*
+  commentId: Overload:GTA.Camera.#ctor
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera__ctor_System_Int32_
+  name: Camera
+  nameWithType: Camera.Camera
+  fullName: GTA.Camera.Camera
+  nameWithType.vb: Camera.New
+  fullName.vb: GTA.Camera.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.Camera.Create*
+  commentId: Overload:GTA.Camera.Create
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Create_GTA_ScriptedCameraNameHash_System_Boolean_
+  name: Create
+  nameWithType: Camera.Create
+  fullName: GTA.Camera.Create
+- uid: GTA.ScriptedCameraNameHash
+  commentId: T:GTA.ScriptedCameraNameHash
+  parent: GTA
+  isExternal: true
+  href: GTA.ScriptedCameraNameHash.html
+  name: ScriptedCameraNameHash
+  nameWithType: ScriptedCameraNameHash
+  fullName: GTA.ScriptedCameraNameHash
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Camera
+  commentId: T:GTA.Camera
+  parent: GTA
+  isExternal: true
+  href: GTA.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: GTA.Camera
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.EulerRotationOrder
+  commentId: T:GTA.EulerRotationOrder
+  parent: GTA
+  isExternal: true
+  href: GTA.EulerRotationOrder.html
+  name: EulerRotationOrder
+  nameWithType: EulerRotationOrder
+  fullName: GTA.EulerRotationOrder
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.Camera.GetOffsetPosition*
+  commentId: Overload:GTA.Camera.GetOffsetPosition
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_GetOffsetPosition_GTA_Math_Vector3_
+  name: GetOffsetPosition
+  nameWithType: Camera.GetOffsetPosition
+  fullName: GTA.Camera.GetOffsetPosition
+- uid: GTA.Camera.GetPositionOffset*
+  commentId: Overload:GTA.Camera.GetPositionOffset
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_GetPositionOffset_GTA_Math_Vector3_
+  name: GetPositionOffset
+  nameWithType: Camera.GetPositionOffset
+  fullName: GTA.Camera.GetPositionOffset
+- uid: GTA.Camera.SetCamFrameParameters*
+  commentId: Overload:GTA.Camera.SetCamFrameParameters
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_SetCamFrameParameters_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_GTA_CamFrameInterpolatorCurveType_GTA_CamFrameInterpolatorCurveType_GTA_EulerRotationOrder_
+  name: SetCamFrameParameters
+  nameWithType: Camera.SetCamFrameParameters
+  fullName: GTA.Camera.SetCamFrameParameters
+- uid: GTA.CamFrameInterpolatorCurveType
+  commentId: T:GTA.CamFrameInterpolatorCurveType
+  parent: GTA
+  isExternal: true
+  href: GTA.CamFrameInterpolatorCurveType.html
+  name: CamFrameInterpolatorCurveType
+  nameWithType: CamFrameInterpolatorCurveType
+  fullName: GTA.CamFrameInterpolatorCurveType
+- uid: GTA.Camera.InterpolateToNewCamFrame*
+  commentId: Overload:GTA.Camera.InterpolateToNewCamFrame
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_InterpolateToNewCamFrame_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_UInt32_GTA_CamFrameInterpolatorCurveType_GTA_CamFrameInterpolatorCurveType_GTA_EulerRotationOrder_
+  name: InterpolateToNewCamFrame
+  nameWithType: Camera.InterpolateToNewCamFrame
+  fullName: GTA.Camera.InterpolateToNewCamFrame
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: GTA.Camera.Shake*
+  commentId: Overload:GTA.Camera.Shake
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Shake_GTA_CameraShake_System_Single_
+  name: Shake
+  nameWithType: Camera.Shake
+  fullName: GTA.Camera.Shake
+- uid: GTA.CameraShake
+  commentId: T:GTA.CameraShake
+  parent: GTA
+  isExternal: true
+  href: GTA.CameraShake.html
+  name: CameraShake
+  nameWithType: CameraShake
+  fullName: GTA.CameraShake
+- uid: GTA.Camera.StopShaking*
+  commentId: Overload:GTA.Camera.StopShaking
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_StopShaking
+  name: StopShaking
+  nameWithType: Camera.StopShaking
+  fullName: GTA.Camera.StopShaking
+- uid: GTA.Camera.PointAt*
+  commentId: Overload:GTA.Camera.PointAt
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_PointAt_GTA_Entity_GTA_Math_Vector3_
+  name: PointAt
+  nameWithType: Camera.PointAt
+  fullName: GTA.Camera.PointAt
+- uid: GTA.Entity
+  commentId: T:GTA.Entity
+  parent: GTA
+  isExternal: true
+  href: GTA.Entity.html
+  name: Entity
+  nameWithType: Entity
+  fullName: GTA.Entity
+- uid: GTA.PedBone
+  commentId: T:GTA.PedBone
+  parent: GTA
+  isExternal: true
+  href: GTA.PedBone.html
+  name: PedBone
+  nameWithType: PedBone
+  fullName: GTA.PedBone
+- uid: GTA.Camera.StopPointing*
+  commentId: Overload:GTA.Camera.StopPointing
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_StopPointing
+  name: StopPointing
+  nameWithType: Camera.StopPointing
+  fullName: GTA.Camera.StopPointing
+- uid: GTA.Camera.InterpTo*
+  commentId: Overload:GTA.Camera.InterpTo
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_InterpTo_GTA_Camera_System_Int32_GTA_CamFrameInterpolatorCurveType_GTA_CamFrameInterpolatorCurveType_GTA_EulerRotationOrder_
+  name: InterpTo
+  nameWithType: Camera.InterpTo
+  fullName: GTA.Camera.InterpTo
+- uid: GTA.Camera.AttachTo*
+  commentId: Overload:GTA.Camera.AttachTo
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_AttachTo_GTA_Entity_GTA_Math_Vector3_
+  name: AttachTo
+  nameWithType: Camera.AttachTo
+  fullName: GTA.Camera.AttachTo
+- uid: GTA.Camera.AttachToVehicleBone*
+  commentId: Overload:GTA.Camera.AttachToVehicleBone
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_AttachToVehicleBone_GTA_EntityBone_GTA_Math_Vector3_System_Boolean_
+  name: AttachToVehicleBone
+  nameWithType: Camera.AttachToVehicleBone
+  fullName: GTA.Camera.AttachToVehicleBone
+- uid: GTA.EntityBone
+  commentId: T:GTA.EntityBone
+  parent: GTA
+  isExternal: true
+  href: GTA.EntityBone.html
+  name: EntityBone
+  nameWithType: EntityBone
+  fullName: GTA.EntityBone
+- uid: GTA.Camera.HardAttachToVehicleBone*
+  commentId: Overload:GTA.Camera.HardAttachToVehicleBone
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_HardAttachToVehicleBone_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_System_Boolean_
+  name: HardAttachToVehicleBone
+  nameWithType: Camera.HardAttachToVehicleBone
+  fullName: GTA.Camera.HardAttachToVehicleBone
+- uid: GTA.Camera.Detach*
+  commentId: Overload:GTA.Camera.Detach
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Detach
+  name: Detach
+  nameWithType: Camera.Detach
+  fullName: GTA.Camera.Detach
+- uid: GTA.Camera.PlayAnim*
+  commentId: Overload:GTA.Camera.PlayAnim
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_PlayAnim_GTA_CrClipAsset_GTA_Math_Vector3_GTA_Math_Vector3_GTA_CamAnimationFlags_GTA_EulerRotationOrder_
+  name: PlayAnim
+  nameWithType: Camera.PlayAnim
+  fullName: GTA.Camera.PlayAnim
+- uid: GTA.CrClipAsset
+  commentId: T:GTA.CrClipAsset
+  parent: GTA
+  isExternal: true
+  href: GTA.CrClipAsset.html
+  name: CrClipAsset
+  nameWithType: CrClipAsset
+  fullName: GTA.CrClipAsset
+- uid: GTA.CamAnimationFlags
+  commentId: T:GTA.CamAnimationFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.CamAnimationFlags.html
+  name: CamAnimationFlags
+  nameWithType: CamAnimationFlags
+  fullName: GTA.CamAnimationFlags
+- uid: GTA.Camera.PlaySynchronizedAnim*
+  commentId: Overload:GTA.Camera.PlaySynchronizedAnim
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_PlaySynchronizedAnim_GTA_FwSyncedScene_GTA_CrClipAsset_
+  name: PlaySynchronizedAnim
+  nameWithType: Camera.PlaySynchronizedAnim
+  fullName: GTA.Camera.PlaySynchronizedAnim
+- uid: GTA.FwSyncedScene
+  commentId: T:GTA.FwSyncedScene
+  parent: GTA
+  isExternal: true
+  href: GTA.FwSyncedScene.html
+  name: FwSyncedScene
+  nameWithType: FwSyncedScene
+  fullName: GTA.FwSyncedScene
+- uid: GTA.Camera.IsPlayingAnim*
+  commentId: Overload:GTA.Camera.IsPlayingAnim
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_IsPlayingAnim_GTA_CrClipAsset_
+  name: IsPlayingAnim
+  nameWithType: Camera.IsPlayingAnim
+  fullName: GTA.Camera.IsPlayingAnim
+- uid: GTA.PoolObject.Delete
+  commentId: M:GTA.PoolObject.Delete
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  name: Delete()
+  nameWithType: PoolObject.Delete()
+  fullName: GTA.PoolObject.Delete()
+  spec.csharp:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+- uid: GTA.Camera.Delete*
+  commentId: Overload:GTA.Camera.Delete
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Delete
+  name: Delete
+  nameWithType: Camera.Delete
+  fullName: GTA.Camera.Delete
+- uid: GTA.Camera.DeleteAllCameras*
+  commentId: Overload:GTA.Camera.DeleteAllCameras
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_DeleteAllCameras_System_Boolean_
+  name: DeleteAllCameras
+  nameWithType: Camera.DeleteAllCameras
+  fullName: GTA.Camera.DeleteAllCameras
+- uid: GTA.PoolObject.Exists
+  commentId: M:GTA.PoolObject.Exists
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  name: Exists()
+  nameWithType: PoolObject.Exists()
+  fullName: GTA.PoolObject.Exists()
+  spec.csharp:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+- uid: GTA.Camera.Exists*
+  commentId: Overload:GTA.Camera.Exists
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Exists
+  name: Exists
+  nameWithType: Camera.Exists
+  fullName: GTA.Camera.Exists
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.Camera.Equals*
+  commentId: Overload:GTA.Camera.Equals
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Equals_System_Object_
+  name: Equals
+  nameWithType: Camera.Equals
+  fullName: GTA.Camera.Equals
+- uid: GTA.Camera.op_Equality*
+  commentId: Overload:GTA.Camera.op_Equality
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_op_Equality_GTA_Camera_GTA_Camera_
+  name: operator ==
+  nameWithType: Camera.operator ==
+  fullName: GTA.Camera.operator ==
+  nameWithType.vb: Camera.=
+  fullName.vb: GTA.Camera.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Camera.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.Camera.html#GTA_Camera_op_Equality_GTA_Camera_GTA_Camera_
+- uid: GTA.Camera.op_Inequality*
+  commentId: Overload:GTA.Camera.op_Inequality
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_op_Inequality_GTA_Camera_GTA_Camera_
+  name: operator !=
+  nameWithType: Camera.operator !=
+  fullName: GTA.Camera.operator !=
+  nameWithType.vb: Camera.<>
+  fullName.vb: GTA.Camera.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Camera.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.Camera.html#GTA_Camera_op_Inequality_GTA_Camera_GTA_Camera_
+- uid: GTA.Camera.op_Implicit*
+  commentId: Overload:GTA.Camera.op_Implicit
+  name: implicit operator
+  nameWithType: Camera.implicit operator
+  fullName: GTA.Camera.implicit operator
+  nameWithType.vb: Camera.CType
+  fullName.vb: GTA.Camera.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.Camera.GetHashCode*
+  commentId: Overload:GTA.Camera.GetHashCode
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_GetHashCode
+  name: GetHashCode
+  nameWithType: Camera.GetHashCode
+  fullName: GTA.Camera.GetHashCode
+- uid: GTA.Camera.MemoryAddress*
+  commentId: Overload:GTA.Camera.MemoryAddress
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_MemoryAddress
+  name: MemoryAddress
+  nameWithType: Camera.MemoryAddress
+  fullName: GTA.Camera.MemoryAddress
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: GTA.Camera.IsActive*
+  commentId: Overload:GTA.Camera.IsActive
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_IsActive
+  name: IsActive
+  nameWithType: Camera.IsActive
+  fullName: GTA.Camera.IsActive
+- uid: GTA.Camera.Matrix*
+  commentId: Overload:GTA.Camera.Matrix
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Matrix
+  name: Matrix
+  nameWithType: Camera.Matrix
+  fullName: GTA.Camera.Matrix
+- uid: GTA.Math.Matrix
+  commentId: T:GTA.Math.Matrix
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: GTA.Math.Matrix
+- uid: GTA.Camera.Position*
+  commentId: Overload:GTA.Camera.Position
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Position
+  name: Position
+  nameWithType: Camera.Position
+  fullName: GTA.Camera.Position
+- uid: GTA.ISpatial.Position
+  commentId: P:GTA.ISpatial.Position
+  parent: GTA.ISpatial
+  isExternal: true
+  href: GTA.ISpatial.html#GTA_ISpatial_Position
+  name: Position
+  nameWithType: ISpatial.Position
+  fullName: GTA.ISpatial.Position
+- uid: GTA.Camera.Rotation*
+  commentId: Overload:GTA.Camera.Rotation
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Rotation
+  name: Rotation
+  nameWithType: Camera.Rotation
+  fullName: GTA.Camera.Rotation
+- uid: GTA.ISpatial.Rotation
+  commentId: P:GTA.ISpatial.Rotation
+  parent: GTA.ISpatial
+  isExternal: true
+  href: GTA.ISpatial.html#GTA_ISpatial_Rotation
+  name: Rotation
+  nameWithType: ISpatial.Rotation
+  fullName: GTA.ISpatial.Rotation
+- uid: GTA.Camera.Direction*
+  commentId: Overload:GTA.Camera.Direction
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_Direction
+  name: Direction
+  nameWithType: Camera.Direction
+  fullName: GTA.Camera.Direction
+- uid: GTA.Camera.UpVector*
+  commentId: Overload:GTA.Camera.UpVector
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_UpVector
+  name: UpVector
+  nameWithType: Camera.UpVector
+  fullName: GTA.Camera.UpVector
+- uid: GTA.Camera.RightVector*
+  commentId: Overload:GTA.Camera.RightVector
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_RightVector
+  name: RightVector
+  nameWithType: Camera.RightVector
+  fullName: GTA.Camera.RightVector
+- uid: GTA.Camera.ForwardVector*
+  commentId: Overload:GTA.Camera.ForwardVector
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_ForwardVector
+  name: ForwardVector
+  nameWithType: Camera.ForwardVector
+  fullName: GTA.Camera.ForwardVector
+- uid: GTA.Camera.FarClip*
+  commentId: Overload:GTA.Camera.FarClip
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_FarClip
+  name: FarClip
+  nameWithType: Camera.FarClip
+  fullName: GTA.Camera.FarClip
+- uid: GTA.Camera.NearClip*
+  commentId: Overload:GTA.Camera.NearClip
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_NearClip
+  name: NearClip
+  nameWithType: Camera.NearClip
+  fullName: GTA.Camera.NearClip
+- uid: GTA.Camera.FieldOfView*
+  commentId: Overload:GTA.Camera.FieldOfView
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_FieldOfView
+  name: FieldOfView
+  nameWithType: Camera.FieldOfView
+  fullName: GTA.Camera.FieldOfView
+- uid: GTA.Camera.FarDepthOfField*
+  commentId: Overload:GTA.Camera.FarDepthOfField
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_FarDepthOfField
+  name: FarDepthOfField
+  nameWithType: Camera.FarDepthOfField
+  fullName: GTA.Camera.FarDepthOfField
+- uid: GTA.Camera.NearDepthOfField*
+  commentId: Overload:GTA.Camera.NearDepthOfField
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_NearDepthOfField
+  name: NearDepthOfField
+  nameWithType: Camera.NearDepthOfField
+  fullName: GTA.Camera.NearDepthOfField
+- uid: GTA.Camera.MotionBlurStrength*
+  commentId: Overload:GTA.Camera.MotionBlurStrength
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_MotionBlurStrength
+  name: MotionBlurStrength
+  nameWithType: Camera.MotionBlurStrength
+  fullName: GTA.Camera.MotionBlurStrength
+- uid: GTA.Camera.DepthOfFieldStrength*
+  commentId: Overload:GTA.Camera.DepthOfFieldStrength
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_DepthOfFieldStrength
+  name: DepthOfFieldStrength
+  nameWithType: Camera.DepthOfFieldStrength
+  fullName: GTA.Camera.DepthOfFieldStrength
+- uid: GTA.Camera.IsShaking*
+  commentId: Overload:GTA.Camera.IsShaking
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_IsShaking
+  name: IsShaking
+  nameWithType: Camera.IsShaking
+  fullName: GTA.Camera.IsShaking
+- uid: GTA.Camera.ShakeAmplitude*
+  commentId: Overload:GTA.Camera.ShakeAmplitude
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_ShakeAmplitude
+  name: ShakeAmplitude
+  nameWithType: Camera.ShakeAmplitude
+  fullName: GTA.Camera.ShakeAmplitude
+- uid: GTA.Camera.IsInterpolating*
+  commentId: Overload:GTA.Camera.IsInterpolating
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_IsInterpolating
+  name: IsInterpolating
+  nameWithType: Camera.IsInterpolating
+  fullName: GTA.Camera.IsInterpolating
+- uid: GTA.Camera.AnimPhase*
+  commentId: Overload:GTA.Camera.AnimPhase
+  isExternal: true
+  href: GTA.Camera.html#GTA_Camera_AnimPhase
+  name: AnimPhase
+  nameWithType: Camera.AnimPhase
+  fullName: GTA.Camera.AnimPhase

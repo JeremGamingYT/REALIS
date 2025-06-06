@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CamAnimationFlags
+  commentId: T:GTA.CamAnimationFlags
+  id: CamAnimationFlags
+  parent: GTA
+  children:
+  - GTA.CamAnimationFlags.Looping
+  - GTA.CamAnimationFlags.None
+  langs:
+  - csharp
+  - vb
+  name: CamAnimationFlags
+  nameWithType: CamAnimationFlags
+  fullName: GTA.CamAnimationFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum CamAnimationFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum CamAnimationFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.CamAnimationFlags.None
+  commentId: F:GTA.CamAnimationFlags.None
+  id: None
+  parent: GTA.CamAnimationFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CamAnimationFlags.None
+  fullName: GTA.CamAnimationFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.CamAnimationFlags
+- uid: GTA.CamAnimationFlags.Looping
+  commentId: F:GTA.CamAnimationFlags.Looping
+  id: Looping
+  parent: GTA.CamAnimationFlags
+  langs:
+  - csharp
+  - vb
+  name: Looping
+  nameWithType: CamAnimationFlags.Looping
+  fullName: GTA.CamAnimationFlags.Looping
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Looping = 1
+    return:
+      type: GTA.CamAnimationFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CamAnimationFlags
+  commentId: T:GTA.CamAnimationFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.CamAnimationFlags.html
+  name: CamAnimationFlags
+  nameWithType: CamAnimationFlags
+  fullName: GTA.CamAnimationFlags

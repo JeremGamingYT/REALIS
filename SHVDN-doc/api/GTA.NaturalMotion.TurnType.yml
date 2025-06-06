@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.TurnType
+  commentId: T:GTA.NaturalMotion.TurnType
+  id: TurnType
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.TurnType.AwayFromTarget
+  - GTA.NaturalMotion.TurnType.DontTurn
+  - GTA.NaturalMotion.TurnType.ToTarget
+  langs:
+  - csharp
+  - vb
+  name: TurnType
+  nameWithType: TurnType
+  fullName: GTA.NaturalMotion.TurnType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum TurnType
+    content.vb: Public Enum TurnType
+- uid: GTA.NaturalMotion.TurnType.DontTurn
+  commentId: F:GTA.NaturalMotion.TurnType.DontTurn
+  id: DontTurn
+  parent: GTA.NaturalMotion.TurnType
+  langs:
+  - csharp
+  - vb
+  name: DontTurn
+  nameWithType: TurnType.DontTurn
+  fullName: GTA.NaturalMotion.TurnType.DontTurn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: DontTurn = 0
+    return:
+      type: GTA.NaturalMotion.TurnType
+- uid: GTA.NaturalMotion.TurnType.ToTarget
+  commentId: F:GTA.NaturalMotion.TurnType.ToTarget
+  id: ToTarget
+  parent: GTA.NaturalMotion.TurnType
+  langs:
+  - csharp
+  - vb
+  name: ToTarget
+  nameWithType: TurnType.ToTarget
+  fullName: GTA.NaturalMotion.TurnType.ToTarget
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: ToTarget = 1
+    return:
+      type: GTA.NaturalMotion.TurnType
+- uid: GTA.NaturalMotion.TurnType.AwayFromTarget
+  commentId: F:GTA.NaturalMotion.TurnType.AwayFromTarget
+  id: AwayFromTarget
+  parent: GTA.NaturalMotion.TurnType
+  langs:
+  - csharp
+  - vb
+  name: AwayFromTarget
+  nameWithType: TurnType.AwayFromTarget
+  fullName: GTA.NaturalMotion.TurnType.AwayFromTarget
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: AwayFromTarget = 2
+    return:
+      type: GTA.NaturalMotion.TurnType
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.TurnType
+  commentId: T:GTA.NaturalMotion.TurnType
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.TurnType.html
+  name: TurnType
+  nameWithType: TurnType
+  fullName: GTA.NaturalMotion.TurnType

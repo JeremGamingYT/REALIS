@@ -1,0 +1,524 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleDoorCollection
+  commentId: T:GTA.VehicleDoorCollection
+  id: VehicleDoorCollection
+  parent: GTA
+  children:
+  - GTA.VehicleDoorCollection.Contains(GTA.VehicleDoorIndex)
+  - GTA.VehicleDoorCollection.GetEnumerator
+  - GTA.VehicleDoorCollection.Item(GTA.VehicleDoorIndex)
+  - GTA.VehicleDoorCollection.ToArray
+  langs:
+  - csharp
+  - vb
+  name: VehicleDoorCollection
+  nameWithType: VehicleDoorCollection
+  fullName: GTA.VehicleDoorCollection
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class VehicleDoorCollection
+    content.vb: Public NotInheritable Class VehicleDoorCollection
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.VehicleDoorCollection.Contains(GTA.VehicleDoorIndex)
+  commentId: M:GTA.VehicleDoorCollection.Contains(GTA.VehicleDoorIndex)
+  id: Contains(GTA.VehicleDoorIndex)
+  parent: GTA.VehicleDoorCollection
+  langs:
+  - csharp
+  - vb
+  name: Contains(VehicleDoorIndex)
+  nameWithType: VehicleDoorCollection.Contains(VehicleDoorIndex)
+  fullName: GTA.VehicleDoorCollection.Contains(GTA.VehicleDoorIndex)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool Contains(VehicleDoorIndex door)
+    parameters:
+    - id: door
+      type: GTA.VehicleDoorIndex
+    return:
+      type: System.Boolean
+    content.vb: Public Function Contains(door As VehicleDoorIndex) As Boolean
+  overload: GTA.VehicleDoorCollection.Contains*
+- uid: GTA.VehicleDoorCollection.ToArray
+  commentId: M:GTA.VehicleDoorCollection.ToArray
+  id: ToArray
+  parent: GTA.VehicleDoorCollection
+  langs:
+  - csharp
+  - vb
+  name: ToArray()
+  nameWithType: VehicleDoorCollection.ToArray()
+  fullName: GTA.VehicleDoorCollection.ToArray()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleDoor[] ToArray()
+    return:
+      type: GTA.VehicleDoor[]
+    content.vb: Public Function ToArray() As VehicleDoor()
+  overload: GTA.VehicleDoorCollection.ToArray*
+- uid: GTA.VehicleDoorCollection.GetEnumerator
+  commentId: M:GTA.VehicleDoorCollection.GetEnumerator
+  id: GetEnumerator
+  parent: GTA.VehicleDoorCollection
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: VehicleDoorCollection.GetEnumerator()
+  fullName: GTA.VehicleDoorCollection.GetEnumerator()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IEnumerator<VehicleDoor> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{GTA.VehicleDoor}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of VehicleDoor)
+  overload: GTA.VehicleDoorCollection.GetEnumerator*
+- uid: GTA.VehicleDoorCollection.Item(GTA.VehicleDoorIndex)
+  commentId: P:GTA.VehicleDoorCollection.Item(GTA.VehicleDoorIndex)
+  id: Item(GTA.VehicleDoorIndex)
+  parent: GTA.VehicleDoorCollection
+  langs:
+  - csharp
+  - vb
+  name: this[VehicleDoorIndex]
+  nameWithType: VehicleDoorCollection.this[VehicleDoorIndex]
+  fullName: GTA.VehicleDoorCollection.this[GTA.VehicleDoorIndex]
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleDoor this[VehicleDoorIndex index] { get; }
+    parameters:
+    - id: index
+      type: GTA.VehicleDoorIndex
+    return:
+      type: GTA.VehicleDoor
+    content.vb: Public ReadOnly Default Property this[](index As VehicleDoorIndex) As VehicleDoor
+  overload: GTA.VehicleDoorCollection.Item*
+  nameWithType.vb: VehicleDoorCollection.this[](VehicleDoorIndex)
+  fullName.vb: GTA.VehicleDoorCollection.this[](GTA.VehicleDoorIndex)
+  name.vb: this[](VehicleDoorIndex)
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.VehicleDoorCollection.Contains*
+  commentId: Overload:GTA.VehicleDoorCollection.Contains
+  isExternal: true
+  href: GTA.VehicleDoorCollection.html#GTA_VehicleDoorCollection_Contains_GTA_VehicleDoorIndex_
+  name: Contains
+  nameWithType: VehicleDoorCollection.Contains
+  fullName: GTA.VehicleDoorCollection.Contains
+- uid: GTA.VehicleDoorIndex
+  commentId: T:GTA.VehicleDoorIndex
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleDoorIndex.html
+  name: VehicleDoorIndex
+  nameWithType: VehicleDoorIndex
+  fullName: GTA.VehicleDoorIndex
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.VehicleDoorCollection.ToArray*
+  commentId: Overload:GTA.VehicleDoorCollection.ToArray
+  isExternal: true
+  href: GTA.VehicleDoorCollection.html#GTA_VehicleDoorCollection_ToArray
+  name: ToArray
+  nameWithType: VehicleDoorCollection.ToArray
+  fullName: GTA.VehicleDoorCollection.ToArray
+- uid: GTA.VehicleDoor[]
+  isExternal: true
+  href: GTA.VehicleDoor.html
+  name: VehicleDoor[]
+  nameWithType: VehicleDoor[]
+  fullName: GTA.VehicleDoor[]
+  nameWithType.vb: VehicleDoor()
+  fullName.vb: GTA.VehicleDoor()
+  name.vb: VehicleDoor()
+  spec.csharp:
+  - uid: GTA.VehicleDoor
+    name: VehicleDoor
+    isExternal: true
+    href: GTA.VehicleDoor.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: GTA.VehicleDoor
+    name: VehicleDoor
+    isExternal: true
+    href: GTA.VehicleDoor.html
+  - name: (
+  - name: )
+- uid: GTA.VehicleDoorCollection.GetEnumerator*
+  commentId: Overload:GTA.VehicleDoorCollection.GetEnumerator
+  isExternal: true
+  href: GTA.VehicleDoorCollection.html#GTA_VehicleDoorCollection_GetEnumerator
+  name: GetEnumerator
+  nameWithType: VehicleDoorCollection.GetEnumerator
+  fullName: GTA.VehicleDoorCollection.GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{GTA.VehicleDoor}
+  commentId: T:System.Collections.Generic.IEnumerator{GTA.VehicleDoor}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<VehicleDoor>
+  nameWithType: IEnumerator<VehicleDoor>
+  fullName: System.Collections.Generic.IEnumerator<GTA.VehicleDoor>
+  nameWithType.vb: IEnumerator(Of VehicleDoor)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of GTA.VehicleDoor)
+  name.vb: IEnumerator(Of VehicleDoor)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: GTA.VehicleDoor
+    name: VehicleDoor
+    isExternal: true
+    href: GTA.VehicleDoor.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.VehicleDoor
+    name: VehicleDoor
+    isExternal: true
+    href: GTA.VehicleDoor.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: GTA.VehicleDoorCollection.Item*
+  commentId: Overload:GTA.VehicleDoorCollection.Item
+  isExternal: true
+  href: GTA.VehicleDoorCollection.html#GTA_VehicleDoorCollection_Item_GTA_VehicleDoorIndex_
+  name: this
+  nameWithType: VehicleDoorCollection.this
+  fullName: GTA.VehicleDoorCollection.this
+  nameWithType.vb: VehicleDoorCollection.this[]
+  fullName.vb: GTA.VehicleDoorCollection.this[]
+  name.vb: this[]
+- uid: GTA.VehicleDoor
+  commentId: T:GTA.VehicleDoor
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleDoor.html
+  name: VehicleDoor
+  nameWithType: VehicleDoor
+  fullName: GTA.VehicleDoor

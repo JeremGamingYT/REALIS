@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.Synchroisation
+  commentId: T:GTA.NaturalMotion.Synchroisation
+  id: Synchroisation
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.Synchroisation.AlwaysSynced
+  - GTA.NaturalMotion.Synchroisation.NotSynced
+  - GTA.NaturalMotion.Synchroisation.SyncedAtStart
+  langs:
+  - csharp
+  - vb
+  name: Synchroisation
+  nameWithType: Synchroisation
+  fullName: GTA.NaturalMotion.Synchroisation
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum Synchroisation
+    content.vb: Public Enum Synchroisation
+- uid: GTA.NaturalMotion.Synchroisation.NotSynced
+  commentId: F:GTA.NaturalMotion.Synchroisation.NotSynced
+  id: NotSynced
+  parent: GTA.NaturalMotion.Synchroisation
+  langs:
+  - csharp
+  - vb
+  name: NotSynced
+  nameWithType: Synchroisation.NotSynced
+  fullName: GTA.NaturalMotion.Synchroisation.NotSynced
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: NotSynced = 0
+    return:
+      type: GTA.NaturalMotion.Synchroisation
+- uid: GTA.NaturalMotion.Synchroisation.AlwaysSynced
+  commentId: F:GTA.NaturalMotion.Synchroisation.AlwaysSynced
+  id: AlwaysSynced
+  parent: GTA.NaturalMotion.Synchroisation
+  langs:
+  - csharp
+  - vb
+  name: AlwaysSynced
+  nameWithType: Synchroisation.AlwaysSynced
+  fullName: GTA.NaturalMotion.Synchroisation.AlwaysSynced
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: AlwaysSynced = 1
+    return:
+      type: GTA.NaturalMotion.Synchroisation
+- uid: GTA.NaturalMotion.Synchroisation.SyncedAtStart
+  commentId: F:GTA.NaturalMotion.Synchroisation.SyncedAtStart
+  id: SyncedAtStart
+  parent: GTA.NaturalMotion.Synchroisation
+  langs:
+  - csharp
+  - vb
+  name: SyncedAtStart
+  nameWithType: Synchroisation.SyncedAtStart
+  fullName: GTA.NaturalMotion.Synchroisation.SyncedAtStart
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: SyncedAtStart = 2
+    return:
+      type: GTA.NaturalMotion.Synchroisation
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.Synchroisation
+  commentId: T:GTA.NaturalMotion.Synchroisation
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.Synchroisation.html
+  name: Synchroisation
+  nameWithType: Synchroisation
+  fullName: GTA.NaturalMotion.Synchroisation

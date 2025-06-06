@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Helmet
+  commentId: T:GTA.Helmet
+  id: Helmet
+  parent: GTA
+  children:
+  - GTA.Helmet.FiremanHelmet
+  - GTA.Helmet.PilotHeadset
+  - GTA.Helmet.RegularMotorcycleHelmet
+  langs:
+  - csharp
+  - vb
+  name: Helmet
+  nameWithType: Helmet
+  fullName: GTA.Helmet
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Obsolete("Use GTA.HelmetPropFlags instead.")]
+
+      public enum Helmet : uint
+    content.vb: >-
+      <Obsolete("Use GTA.HelmetPropFlags instead.")>
+
+      Public Enum Helmet As UInteger
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use GTA.HelmetPropFlags instead.
+- uid: GTA.Helmet.RegularMotorcycleHelmet
+  commentId: F:GTA.Helmet.RegularMotorcycleHelmet
+  id: RegularMotorcycleHelmet
+  parent: GTA.Helmet
+  langs:
+  - csharp
+  - vb
+  name: RegularMotorcycleHelmet
+  nameWithType: Helmet.RegularMotorcycleHelmet
+  fullName: GTA.Helmet.RegularMotorcycleHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RegularMotorcycleHelmet = 4096
+    return:
+      type: GTA.Helmet
+- uid: GTA.Helmet.FiremanHelmet
+  commentId: F:GTA.Helmet.FiremanHelmet
+  id: FiremanHelmet
+  parent: GTA.Helmet
+  langs:
+  - csharp
+  - vb
+  name: FiremanHelmet
+  nameWithType: Helmet.FiremanHelmet
+  fullName: GTA.Helmet.FiremanHelmet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FiremanHelmet = 16384
+    return:
+      type: GTA.Helmet
+- uid: GTA.Helmet.PilotHeadset
+  commentId: F:GTA.Helmet.PilotHeadset
+  id: PilotHeadset
+  parent: GTA.Helmet
+  langs:
+  - csharp
+  - vb
+  name: PilotHeadset
+  nameWithType: Helmet.PilotHeadset
+  fullName: GTA.Helmet.PilotHeadset
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PilotHeadset = 32768
+    return:
+      type: GTA.Helmet
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Helmet
+  commentId: T:GTA.Helmet
+  parent: GTA
+  isExternal: true
+  href: GTA.Helmet.html
+  name: Helmet
+  nameWithType: Helmet
+  fullName: GTA.Helmet

@@ -1,0 +1,416 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleSeat
+  commentId: T:GTA.VehicleSeat
+  id: VehicleSeat
+  parent: GTA
+  children:
+  - GTA.VehicleSeat.Any
+  - GTA.VehicleSeat.Driver
+  - GTA.VehicleSeat.ExtraSeat1
+  - GTA.VehicleSeat.ExtraSeat10
+  - GTA.VehicleSeat.ExtraSeat11
+  - GTA.VehicleSeat.ExtraSeat12
+  - GTA.VehicleSeat.ExtraSeat2
+  - GTA.VehicleSeat.ExtraSeat3
+  - GTA.VehicleSeat.ExtraSeat4
+  - GTA.VehicleSeat.ExtraSeat5
+  - GTA.VehicleSeat.ExtraSeat6
+  - GTA.VehicleSeat.ExtraSeat7
+  - GTA.VehicleSeat.ExtraSeat8
+  - GTA.VehicleSeat.ExtraSeat9
+  - GTA.VehicleSeat.LeftFront
+  - GTA.VehicleSeat.LeftRear
+  - GTA.VehicleSeat.None
+  - GTA.VehicleSeat.Passenger
+  - GTA.VehicleSeat.RightFront
+  - GTA.VehicleSeat.RightRear
+  langs:
+  - csharp
+  - vb
+  name: VehicleSeat
+  nameWithType: VehicleSeat
+  fullName: GTA.VehicleSeat
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleSeat
+    content.vb: Public Enum VehicleSeat
+- uid: GTA.VehicleSeat.None
+  commentId: F:GTA.VehicleSeat.None
+  id: None
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: VehicleSeat.None
+  fullName: GTA.VehicleSeat.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = -3
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.Any
+  commentId: F:GTA.VehicleSeat.Any
+  id: Any
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: VehicleSeat.Any
+  fullName: GTA.VehicleSeat.Any
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Any = -2
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.Driver
+  commentId: F:GTA.VehicleSeat.Driver
+  id: Driver
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: Driver
+  nameWithType: VehicleSeat.Driver
+  fullName: GTA.VehicleSeat.Driver
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Driver = -1
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.Passenger
+  commentId: F:GTA.VehicleSeat.Passenger
+  id: Passenger
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: Passenger
+  nameWithType: VehicleSeat.Passenger
+  fullName: GTA.VehicleSeat.Passenger
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Passenger = 0
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.LeftFront
+  commentId: F:GTA.VehicleSeat.LeftFront
+  id: LeftFront
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: LeftFront
+  nameWithType: VehicleSeat.LeftFront
+  fullName: GTA.VehicleSeat.LeftFront
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LeftFront = -1
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.RightFront
+  commentId: F:GTA.VehicleSeat.RightFront
+  id: RightFront
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: RightFront
+  nameWithType: VehicleSeat.RightFront
+  fullName: GTA.VehicleSeat.RightFront
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RightFront = 0
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.LeftRear
+  commentId: F:GTA.VehicleSeat.LeftRear
+  id: LeftRear
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: LeftRear
+  nameWithType: VehicleSeat.LeftRear
+  fullName: GTA.VehicleSeat.LeftRear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LeftRear = 1
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.RightRear
+  commentId: F:GTA.VehicleSeat.RightRear
+  id: RightRear
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: RightRear
+  nameWithType: VehicleSeat.RightRear
+  fullName: GTA.VehicleSeat.RightRear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RightRear = 2
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat1
+  commentId: F:GTA.VehicleSeat.ExtraSeat1
+  id: ExtraSeat1
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat1
+  nameWithType: VehicleSeat.ExtraSeat1
+  fullName: GTA.VehicleSeat.ExtraSeat1
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat1 = 3
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat2
+  commentId: F:GTA.VehicleSeat.ExtraSeat2
+  id: ExtraSeat2
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat2
+  nameWithType: VehicleSeat.ExtraSeat2
+  fullName: GTA.VehicleSeat.ExtraSeat2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat2 = 4
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat3
+  commentId: F:GTA.VehicleSeat.ExtraSeat3
+  id: ExtraSeat3
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat3
+  nameWithType: VehicleSeat.ExtraSeat3
+  fullName: GTA.VehicleSeat.ExtraSeat3
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat3 = 5
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat4
+  commentId: F:GTA.VehicleSeat.ExtraSeat4
+  id: ExtraSeat4
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat4
+  nameWithType: VehicleSeat.ExtraSeat4
+  fullName: GTA.VehicleSeat.ExtraSeat4
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat4 = 6
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat5
+  commentId: F:GTA.VehicleSeat.ExtraSeat5
+  id: ExtraSeat5
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat5
+  nameWithType: VehicleSeat.ExtraSeat5
+  fullName: GTA.VehicleSeat.ExtraSeat5
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat5 = 7
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat6
+  commentId: F:GTA.VehicleSeat.ExtraSeat6
+  id: ExtraSeat6
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat6
+  nameWithType: VehicleSeat.ExtraSeat6
+  fullName: GTA.VehicleSeat.ExtraSeat6
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat6 = 8
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat7
+  commentId: F:GTA.VehicleSeat.ExtraSeat7
+  id: ExtraSeat7
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat7
+  nameWithType: VehicleSeat.ExtraSeat7
+  fullName: GTA.VehicleSeat.ExtraSeat7
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat7 = 9
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat8
+  commentId: F:GTA.VehicleSeat.ExtraSeat8
+  id: ExtraSeat8
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat8
+  nameWithType: VehicleSeat.ExtraSeat8
+  fullName: GTA.VehicleSeat.ExtraSeat8
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat8 = 10
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat9
+  commentId: F:GTA.VehicleSeat.ExtraSeat9
+  id: ExtraSeat9
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat9
+  nameWithType: VehicleSeat.ExtraSeat9
+  fullName: GTA.VehicleSeat.ExtraSeat9
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat9 = 11
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat10
+  commentId: F:GTA.VehicleSeat.ExtraSeat10
+  id: ExtraSeat10
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat10
+  nameWithType: VehicleSeat.ExtraSeat10
+  fullName: GTA.VehicleSeat.ExtraSeat10
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat10 = 12
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat11
+  commentId: F:GTA.VehicleSeat.ExtraSeat11
+  id: ExtraSeat11
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat11
+  nameWithType: VehicleSeat.ExtraSeat11
+  fullName: GTA.VehicleSeat.ExtraSeat11
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat11 = 13
+    return:
+      type: GTA.VehicleSeat
+- uid: GTA.VehicleSeat.ExtraSeat12
+  commentId: F:GTA.VehicleSeat.ExtraSeat12
+  id: ExtraSeat12
+  parent: GTA.VehicleSeat
+  langs:
+  - csharp
+  - vb
+  name: ExtraSeat12
+  nameWithType: VehicleSeat.ExtraSeat12
+  fullName: GTA.VehicleSeat.ExtraSeat12
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSeat12 = 14
+    return:
+      type: GTA.VehicleSeat
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleSeat
+  commentId: T:GTA.VehicleSeat
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleSeat.html
+  name: VehicleSeat
+  nameWithType: VehicleSeat
+  fullName: GTA.VehicleSeat

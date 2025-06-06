@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Weather
+  commentId: T:GTA.Weather
+  id: Weather
+  parent: GTA
+  children:
+  - GTA.Weather.Blizzard
+  - GTA.Weather.Christmas
+  - GTA.Weather.Clear
+  - GTA.Weather.Clearing
+  - GTA.Weather.Clouds
+  - GTA.Weather.ExtraSunny
+  - GTA.Weather.Foggy
+  - GTA.Weather.Halloween
+  - GTA.Weather.Neutral
+  - GTA.Weather.Overcast
+  - GTA.Weather.Raining
+  - GTA.Weather.Smog
+  - GTA.Weather.Snowing
+  - GTA.Weather.Snowlight
+  - GTA.Weather.ThunderStorm
+  - GTA.Weather.Unknown
+  langs:
+  - csharp
+  - vb
+  name: Weather
+  nameWithType: Weather
+  fullName: GTA.Weather
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum Weather
+    content.vb: Public Enum Weather
+- uid: GTA.Weather.Unknown
+  commentId: F:GTA.Weather.Unknown
+  id: Unknown
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Weather.Unknown
+  fullName: GTA.Weather.Unknown
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Unknown = -1
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.ExtraSunny
+  commentId: F:GTA.Weather.ExtraSunny
+  id: ExtraSunny
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: ExtraSunny
+  nameWithType: Weather.ExtraSunny
+  fullName: GTA.Weather.ExtraSunny
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExtraSunny = 0
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Clear
+  commentId: F:GTA.Weather.Clear
+  id: Clear
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Clear
+  nameWithType: Weather.Clear
+  fullName: GTA.Weather.Clear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Clear = 1
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Clouds
+  commentId: F:GTA.Weather.Clouds
+  id: Clouds
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Clouds
+  nameWithType: Weather.Clouds
+  fullName: GTA.Weather.Clouds
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Clouds = 2
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Smog
+  commentId: F:GTA.Weather.Smog
+  id: Smog
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Smog
+  nameWithType: Weather.Smog
+  fullName: GTA.Weather.Smog
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Smog = 3
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Foggy
+  commentId: F:GTA.Weather.Foggy
+  id: Foggy
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Foggy
+  nameWithType: Weather.Foggy
+  fullName: GTA.Weather.Foggy
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Foggy = 4
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Overcast
+  commentId: F:GTA.Weather.Overcast
+  id: Overcast
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Overcast
+  nameWithType: Weather.Overcast
+  fullName: GTA.Weather.Overcast
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Overcast = 5
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Raining
+  commentId: F:GTA.Weather.Raining
+  id: Raining
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Raining
+  nameWithType: Weather.Raining
+  fullName: GTA.Weather.Raining
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Raining = 6
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.ThunderStorm
+  commentId: F:GTA.Weather.ThunderStorm
+  id: ThunderStorm
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: ThunderStorm
+  nameWithType: Weather.ThunderStorm
+  fullName: GTA.Weather.ThunderStorm
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ThunderStorm = 7
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Clearing
+  commentId: F:GTA.Weather.Clearing
+  id: Clearing
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Clearing
+  nameWithType: Weather.Clearing
+  fullName: GTA.Weather.Clearing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Clearing = 8
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Neutral
+  commentId: F:GTA.Weather.Neutral
+  id: Neutral
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Neutral
+  nameWithType: Weather.Neutral
+  fullName: GTA.Weather.Neutral
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Neutral = 9
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Snowing
+  commentId: F:GTA.Weather.Snowing
+  id: Snowing
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Snowing
+  nameWithType: Weather.Snowing
+  fullName: GTA.Weather.Snowing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Snowing = 10
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Blizzard
+  commentId: F:GTA.Weather.Blizzard
+  id: Blizzard
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Blizzard
+  nameWithType: Weather.Blizzard
+  fullName: GTA.Weather.Blizzard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Blizzard = 11
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Snowlight
+  commentId: F:GTA.Weather.Snowlight
+  id: Snowlight
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Snowlight
+  nameWithType: Weather.Snowlight
+  fullName: GTA.Weather.Snowlight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Snowlight = 12
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Christmas
+  commentId: F:GTA.Weather.Christmas
+  id: Christmas
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Christmas
+  nameWithType: Weather.Christmas
+  fullName: GTA.Weather.Christmas
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Christmas = 13
+    return:
+      type: GTA.Weather
+- uid: GTA.Weather.Halloween
+  commentId: F:GTA.Weather.Halloween
+  id: Halloween
+  parent: GTA.Weather
+  langs:
+  - csharp
+  - vb
+  name: Halloween
+  nameWithType: Weather.Halloween
+  fullName: GTA.Weather.Halloween
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Halloween = 14
+    return:
+      type: GTA.Weather
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Weather
+  commentId: T:GTA.Weather
+  parent: GTA
+  isExternal: true
+  href: GTA.Weather.html
+  name: Weather
+  nameWithType: Weather
+  fullName: GTA.Weather

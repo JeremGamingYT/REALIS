@@ -1,0 +1,1742 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.TextElement
+  commentId: T:GTA.UI.TextElement
+  id: TextElement
+  parent: GTA.UI
+  children:
+  - GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single)
+  - GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color)
+  - GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font)
+  - GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment)
+  - GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean)
+  - GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean,System.Single)
+  - GTA.UI.TextElement.Alignment
+  - GTA.UI.TextElement.Caption
+  - GTA.UI.TextElement.Centered
+  - GTA.UI.TextElement.Color
+  - GTA.UI.TextElement.Draw
+  - GTA.UI.TextElement.Draw(System.Drawing.SizeF)
+  - GTA.UI.TextElement.Enabled
+  - GTA.UI.TextElement.Finalize
+  - GTA.UI.TextElement.Font
+  - GTA.UI.TextElement.GetScaledStringWidth(System.String,GTA.UI.Font,System.Single)
+  - GTA.UI.TextElement.GetStringWidth(System.String,GTA.UI.Font,System.Single)
+  - GTA.UI.TextElement.LineCount
+  - GTA.UI.TextElement.Outline
+  - GTA.UI.TextElement.Position
+  - GTA.UI.TextElement.Scale
+  - GTA.UI.TextElement.ScaledDraw
+  - GTA.UI.TextElement.ScaledDraw(System.Drawing.SizeF)
+  - GTA.UI.TextElement.ScaledLineCount
+  - GTA.UI.TextElement.ScaledWidth
+  - GTA.UI.TextElement.Shadow
+  - GTA.UI.TextElement.Width
+  - GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3)
+  - GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  - GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3)
+  - GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  - GTA.UI.TextElement.WrapWidth
+  langs:
+  - csharp
+  - vb
+  name: TextElement
+  nameWithType: TextElement
+  fullName: GTA.UI.TextElement
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: 'public class TextElement : IWorldDrawableElement, IElement'
+    content.vb: Public Class TextElement Implements IWorldDrawableElement, IElement
+  inheritance:
+  - System.Object
+  implements:
+  - GTA.UI.IWorldDrawableElement
+  - GTA.UI.IElement
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single)
+  commentId: M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single)
+  id: '#ctor(System.String,System.Drawing.PointF,System.Single)'
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: TextElement(string, PointF, float)
+  nameWithType: TextElement.TextElement(string, PointF, float)
+  fullName: GTA.UI.TextElement.TextElement(string, System.Drawing.PointF, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public TextElement(string caption, PointF position, float scale)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: position
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    content.vb: Public Sub New(caption As String, position As PointF, scale As Single)
+  overload: GTA.UI.TextElement.#ctor*
+  nameWithType.vb: TextElement.New(String, PointF, Single)
+  fullName.vb: GTA.UI.TextElement.New(String, System.Drawing.PointF, Single)
+  name.vb: New(String, PointF, Single)
+- uid: GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color)
+  commentId: M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color)
+  id: '#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color)'
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: TextElement(string, PointF, float, Color)
+  nameWithType: TextElement.TextElement(string, PointF, float, Color)
+  fullName: GTA.UI.TextElement.TextElement(string, System.Drawing.PointF, float, System.Drawing.Color)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public TextElement(string caption, PointF position, float scale, Color color)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: position
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    - id: color
+      type: System.Drawing.Color
+    content.vb: Public Sub New(caption As String, position As PointF, scale As Single, color As Color)
+  overload: GTA.UI.TextElement.#ctor*
+  nameWithType.vb: TextElement.New(String, PointF, Single, Color)
+  fullName.vb: GTA.UI.TextElement.New(String, System.Drawing.PointF, Single, System.Drawing.Color)
+  name.vb: New(String, PointF, Single, Color)
+- uid: GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font)
+  commentId: M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font)
+  id: '#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font)'
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: TextElement(string, PointF, float, Color, Font)
+  nameWithType: TextElement.TextElement(string, PointF, float, Color, Font)
+  fullName: GTA.UI.TextElement.TextElement(string, System.Drawing.PointF, float, System.Drawing.Color, GTA.UI.Font)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public TextElement(string caption, PointF position, float scale, Color color, Font font)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: position
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    - id: color
+      type: System.Drawing.Color
+    - id: font
+      type: GTA.UI.Font
+    content.vb: Public Sub New(caption As String, position As PointF, scale As Single, color As Color, font As Font)
+  overload: GTA.UI.TextElement.#ctor*
+  nameWithType.vb: TextElement.New(String, PointF, Single, Color, Font)
+  fullName.vb: GTA.UI.TextElement.New(String, System.Drawing.PointF, Single, System.Drawing.Color, GTA.UI.Font)
+  name.vb: New(String, PointF, Single, Color, Font)
+- uid: GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment)
+  commentId: M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment)
+  id: '#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment)'
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: TextElement(string, PointF, float, Color, Font, Alignment)
+  nameWithType: TextElement.TextElement(string, PointF, float, Color, Font, Alignment)
+  fullName: GTA.UI.TextElement.TextElement(string, System.Drawing.PointF, float, System.Drawing.Color, GTA.UI.Font, GTA.UI.Alignment)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public TextElement(string caption, PointF position, float scale, Color color, Font font, Alignment alignment)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: position
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    - id: color
+      type: System.Drawing.Color
+    - id: font
+      type: GTA.UI.Font
+    - id: alignment
+      type: GTA.UI.Alignment
+    content.vb: Public Sub New(caption As String, position As PointF, scale As Single, color As Color, font As Font, alignment As Alignment)
+  overload: GTA.UI.TextElement.#ctor*
+  nameWithType.vb: TextElement.New(String, PointF, Single, Color, Font, Alignment)
+  fullName.vb: GTA.UI.TextElement.New(String, System.Drawing.PointF, Single, System.Drawing.Color, GTA.UI.Font, GTA.UI.Alignment)
+  name.vb: New(String, PointF, Single, Color, Font, Alignment)
+- uid: GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean)
+  commentId: M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean)
+  id: '#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean)'
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: TextElement(string, PointF, float, Color, Font, Alignment, bool, bool)
+  nameWithType: TextElement.TextElement(string, PointF, float, Color, Font, Alignment, bool, bool)
+  fullName: GTA.UI.TextElement.TextElement(string, System.Drawing.PointF, float, System.Drawing.Color, GTA.UI.Font, GTA.UI.Alignment, bool, bool)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public TextElement(string caption, PointF position, float scale, Color color, Font font, Alignment alignment, bool shadow, bool outline)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: position
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    - id: color
+      type: System.Drawing.Color
+    - id: font
+      type: GTA.UI.Font
+    - id: alignment
+      type: GTA.UI.Alignment
+    - id: shadow
+      type: System.Boolean
+    - id: outline
+      type: System.Boolean
+    content.vb: Public Sub New(caption As String, position As PointF, scale As Single, color As Color, font As Font, alignment As Alignment, shadow As Boolean, outline As Boolean)
+  overload: GTA.UI.TextElement.#ctor*
+  nameWithType.vb: TextElement.New(String, PointF, Single, Color, Font, Alignment, Boolean, Boolean)
+  fullName.vb: GTA.UI.TextElement.New(String, System.Drawing.PointF, Single, System.Drawing.Color, GTA.UI.Font, GTA.UI.Alignment, Boolean, Boolean)
+  name.vb: New(String, PointF, Single, Color, Font, Alignment, Boolean, Boolean)
+- uid: GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean,System.Single)
+  commentId: M:GTA.UI.TextElement.#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean,System.Single)
+  id: '#ctor(System.String,System.Drawing.PointF,System.Single,System.Drawing.Color,GTA.UI.Font,GTA.UI.Alignment,System.Boolean,System.Boolean,System.Single)'
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: TextElement(string, PointF, float, Color, Font, Alignment, bool, bool, float)
+  nameWithType: TextElement.TextElement(string, PointF, float, Color, Font, Alignment, bool, bool, float)
+  fullName: GTA.UI.TextElement.TextElement(string, System.Drawing.PointF, float, System.Drawing.Color, GTA.UI.Font, GTA.UI.Alignment, bool, bool, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public TextElement(string caption, PointF position, float scale, Color color, Font font, Alignment alignment, bool shadow, bool outline, float wrapWidth)
+    parameters:
+    - id: caption
+      type: System.String
+    - id: position
+      type: System.Drawing.PointF
+    - id: scale
+      type: System.Single
+    - id: color
+      type: System.Drawing.Color
+    - id: font
+      type: GTA.UI.Font
+    - id: alignment
+      type: GTA.UI.Alignment
+    - id: shadow
+      type: System.Boolean
+    - id: outline
+      type: System.Boolean
+    - id: wrapWidth
+      type: System.Single
+    content.vb: Public Sub New(caption As String, position As PointF, scale As Single, color As Color, font As Font, alignment As Alignment, shadow As Boolean, outline As Boolean, wrapWidth As Single)
+  overload: GTA.UI.TextElement.#ctor*
+  nameWithType.vb: TextElement.New(String, PointF, Single, Color, Font, Alignment, Boolean, Boolean, Single)
+  fullName.vb: GTA.UI.TextElement.New(String, System.Drawing.PointF, Single, System.Drawing.Color, GTA.UI.Font, GTA.UI.Alignment, Boolean, Boolean, Single)
+  name.vb: New(String, PointF, Single, Color, Font, Alignment, Boolean, Boolean, Single)
+- uid: GTA.UI.TextElement.Finalize
+  commentId: M:GTA.UI.TextElement.Finalize
+  id: Finalize
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: ~TextElement()
+  nameWithType: TextElement.~TextElement()
+  fullName: GTA.UI.TextElement.~TextElement()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: protected ~TextElement()
+    content.vb: 'Protected '
+  overload: GTA.UI.TextElement.Finalize*
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: GTA.UI.TextElement.GetStringWidth(System.String,GTA.UI.Font,System.Single)
+  commentId: M:GTA.UI.TextElement.GetStringWidth(System.String,GTA.UI.Font,System.Single)
+  id: GetStringWidth(System.String,GTA.UI.Font,System.Single)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: GetStringWidth(string, Font, float)
+  nameWithType: TextElement.GetStringWidth(string, Font, float)
+  fullName: GTA.UI.TextElement.GetStringWidth(string, GTA.UI.Font, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static float GetStringWidth(string text, Font font = Font.ChaletLondon, float scale = 1)
+    parameters:
+    - id: text
+      type: System.String
+    - id: font
+      type: GTA.UI.Font
+    - id: scale
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetStringWidth(text As String, font As Font = Font.ChaletLondon, scale As Single = 1) As Single
+  overload: GTA.UI.TextElement.GetStringWidth*
+  nameWithType.vb: TextElement.GetStringWidth(String, Font, Single)
+  fullName.vb: GTA.UI.TextElement.GetStringWidth(String, GTA.UI.Font, Single)
+  name.vb: GetStringWidth(String, Font, Single)
+- uid: GTA.UI.TextElement.GetScaledStringWidth(System.String,GTA.UI.Font,System.Single)
+  commentId: M:GTA.UI.TextElement.GetScaledStringWidth(System.String,GTA.UI.Font,System.Single)
+  id: GetScaledStringWidth(System.String,GTA.UI.Font,System.Single)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: GetScaledStringWidth(string, Font, float)
+  nameWithType: TextElement.GetScaledStringWidth(string, Font, float)
+  fullName: GTA.UI.TextElement.GetScaledStringWidth(string, GTA.UI.Font, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static float GetScaledStringWidth(string text, Font font = Font.ChaletLondon, float scale = 1)
+    parameters:
+    - id: text
+      type: System.String
+    - id: font
+      type: GTA.UI.Font
+    - id: scale
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetScaledStringWidth(text As String, font As Font = Font.ChaletLondon, scale As Single = 1) As Single
+  overload: GTA.UI.TextElement.GetScaledStringWidth*
+  nameWithType.vb: TextElement.GetScaledStringWidth(String, Font, Single)
+  fullName.vb: GTA.UI.TextElement.GetScaledStringWidth(String, GTA.UI.Font, Single)
+  name.vb: GetScaledStringWidth(String, Font, Single)
+- uid: GTA.UI.TextElement.Draw
+  commentId: M:GTA.UI.TextElement.Draw
+  id: Draw
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Draw()
+  nameWithType: TextElement.Draw()
+  fullName: GTA.UI.TextElement.Draw()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void Draw()
+    content.vb: Public Overridable Sub Draw()
+  overload: GTA.UI.TextElement.Draw*
+  implements:
+  - GTA.UI.IElement.Draw
+- uid: GTA.UI.TextElement.Draw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.TextElement.Draw(System.Drawing.SizeF)
+  id: Draw(System.Drawing.SizeF)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Draw(SizeF)
+  nameWithType: TextElement.Draw(SizeF)
+  fullName: GTA.UI.TextElement.Draw(System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void Draw(SizeF offset)
+    parameters:
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub Draw(offset As SizeF)
+  overload: GTA.UI.TextElement.Draw*
+  implements:
+  - GTA.UI.IElement.Draw(System.Drawing.SizeF)
+- uid: GTA.UI.TextElement.ScaledDraw
+  commentId: M:GTA.UI.TextElement.ScaledDraw
+  id: ScaledDraw
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: ScaledDraw()
+  nameWithType: TextElement.ScaledDraw()
+  fullName: GTA.UI.TextElement.ScaledDraw()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void ScaledDraw()
+    content.vb: Public Overridable Sub ScaledDraw()
+  overload: GTA.UI.TextElement.ScaledDraw*
+  implements:
+  - GTA.UI.IElement.ScaledDraw
+- uid: GTA.UI.TextElement.ScaledDraw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.TextElement.ScaledDraw(System.Drawing.SizeF)
+  id: ScaledDraw(System.Drawing.SizeF)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: ScaledDraw(SizeF)
+  nameWithType: TextElement.ScaledDraw(SizeF)
+  fullName: GTA.UI.TextElement.ScaledDraw(System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void ScaledDraw(SizeF offset)
+    parameters:
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub ScaledDraw(offset As SizeF)
+  overload: GTA.UI.TextElement.ScaledDraw*
+  implements:
+  - GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+- uid: GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3)
+  id: WorldDraw(GTA.Math.Vector3)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: WorldDraw(Vector3)
+  nameWithType: TextElement.WorldDraw(Vector3)
+  fullName: GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldDraw(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Overridable Sub WorldDraw(position As Vector3)
+  overload: GTA.UI.TextElement.WorldDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+- uid: GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  id: WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: WorldDraw(Vector3, SizeF)
+  nameWithType: TextElement.WorldDraw(Vector3, SizeF)
+  fullName: GTA.UI.TextElement.WorldDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldDraw(Vector3 position, SizeF offset)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub WorldDraw(position As Vector3, offset As SizeF)
+  overload: GTA.UI.TextElement.WorldDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+- uid: GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3)
+  id: WorldScaledDraw(GTA.Math.Vector3)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: WorldScaledDraw(Vector3)
+  nameWithType: TextElement.WorldScaledDraw(Vector3)
+  fullName: GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldScaledDraw(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    content.vb: Public Overridable Sub WorldScaledDraw(position As Vector3)
+  overload: GTA.UI.TextElement.WorldScaledDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+- uid: GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  id: WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: WorldScaledDraw(Vector3, SizeF)
+  nameWithType: TextElement.WorldScaledDraw(Vector3, SizeF)
+  fullName: GTA.UI.TextElement.WorldScaledDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public virtual void WorldScaledDraw(Vector3 position, SizeF offset)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: offset
+      type: System.Drawing.SizeF
+    content.vb: Public Overridable Sub WorldScaledDraw(position As Vector3, offset As SizeF)
+  overload: GTA.UI.TextElement.WorldScaledDraw*
+  implements:
+  - GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+- uid: GTA.UI.TextElement.Enabled
+  commentId: P:GTA.UI.TextElement.Enabled
+  id: Enabled
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: TextElement.Enabled
+  fullName: GTA.UI.TextElement.Enabled
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: GTA.UI.TextElement.Enabled*
+  implements:
+  - GTA.UI.IElement.Enabled
+- uid: GTA.UI.TextElement.Color
+  commentId: P:GTA.UI.TextElement.Color
+  id: Color
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: TextElement.Color
+  fullName: GTA.UI.TextElement.Color
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public Color Color { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property Color As Color
+  overload: GTA.UI.TextElement.Color*
+  implements:
+  - GTA.UI.IElement.Color
+- uid: GTA.UI.TextElement.Position
+  commentId: P:GTA.UI.TextElement.Position
+  id: Position
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: TextElement.Position
+  fullName: GTA.UI.TextElement.Position
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public PointF Position { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.PointF
+    content.vb: Public Property Position As PointF
+  overload: GTA.UI.TextElement.Position*
+  implements:
+  - GTA.UI.IElement.Position
+- uid: GTA.UI.TextElement.Scale
+  commentId: P:GTA.UI.TextElement.Scale
+  id: Scale
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: TextElement.Scale
+  fullName: GTA.UI.TextElement.Scale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public float Scale { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Scale As Single
+  overload: GTA.UI.TextElement.Scale*
+- uid: GTA.UI.TextElement.Font
+  commentId: P:GTA.UI.TextElement.Font
+  id: Font
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Font
+  nameWithType: TextElement.Font
+  fullName: GTA.UI.TextElement.Font
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public Font Font { get; set; }
+    parameters: []
+    return:
+      type: GTA.UI.Font
+    content.vb: Public Property Font As Font
+  overload: GTA.UI.TextElement.Font*
+- uid: GTA.UI.TextElement.Caption
+  commentId: P:GTA.UI.TextElement.Caption
+  id: Caption
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TextElement.Caption
+  fullName: GTA.UI.TextElement.Caption
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: GTA.UI.TextElement.Caption*
+- uid: GTA.UI.TextElement.Alignment
+  commentId: P:GTA.UI.TextElement.Alignment
+  id: Alignment
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Alignment
+  nameWithType: TextElement.Alignment
+  fullName: GTA.UI.TextElement.Alignment
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public Alignment Alignment { get; set; }
+    parameters: []
+    return:
+      type: GTA.UI.Alignment
+    content.vb: Public Property Alignment As Alignment
+  overload: GTA.UI.TextElement.Alignment*
+- uid: GTA.UI.TextElement.Shadow
+  commentId: P:GTA.UI.TextElement.Shadow
+  id: Shadow
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Shadow
+  nameWithType: TextElement.Shadow
+  fullName: GTA.UI.TextElement.Shadow
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public bool Shadow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Shadow As Boolean
+  overload: GTA.UI.TextElement.Shadow*
+- uid: GTA.UI.TextElement.Outline
+  commentId: P:GTA.UI.TextElement.Outline
+  id: Outline
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Outline
+  nameWithType: TextElement.Outline
+  fullName: GTA.UI.TextElement.Outline
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public bool Outline { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Outline As Boolean
+  overload: GTA.UI.TextElement.Outline*
+- uid: GTA.UI.TextElement.WrapWidth
+  commentId: P:GTA.UI.TextElement.WrapWidth
+  id: WrapWidth
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: WrapWidth
+  nameWithType: TextElement.WrapWidth
+  fullName: GTA.UI.TextElement.WrapWidth
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public float WrapWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property WrapWidth As Single
+  overload: GTA.UI.TextElement.WrapWidth*
+- uid: GTA.UI.TextElement.Centered
+  commentId: P:GTA.UI.TextElement.Centered
+  id: Centered
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Centered
+  nameWithType: TextElement.Centered
+  fullName: GTA.UI.TextElement.Centered
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  example: []
+  syntax:
+    content: public bool Centered { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Centered As Boolean
+  overload: GTA.UI.TextElement.Centered*
+  implements:
+  - GTA.UI.IElement.Centered
+- uid: GTA.UI.TextElement.Width
+  commentId: P:GTA.UI.TextElement.Width
+  id: Width
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: TextElement.Width
+  fullName: GTA.UI.TextElement.Width
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public float Width { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Width As Single
+  overload: GTA.UI.TextElement.Width*
+- uid: GTA.UI.TextElement.ScaledWidth
+  commentId: P:GTA.UI.TextElement.ScaledWidth
+  id: ScaledWidth
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: ScaledWidth
+  nameWithType: TextElement.ScaledWidth
+  fullName: GTA.UI.TextElement.ScaledWidth
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public float ScaledWidth { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property ScaledWidth As Single
+  overload: GTA.UI.TextElement.ScaledWidth*
+- uid: GTA.UI.TextElement.LineCount
+  commentId: P:GTA.UI.TextElement.LineCount
+  id: LineCount
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: LineCount
+  nameWithType: TextElement.LineCount
+  fullName: GTA.UI.TextElement.LineCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public int LineCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property LineCount As Integer
+  overload: GTA.UI.TextElement.LineCount*
+- uid: GTA.UI.TextElement.ScaledLineCount
+  commentId: P:GTA.UI.TextElement.ScaledLineCount
+  id: ScaledLineCount
+  parent: GTA.UI.TextElement
+  langs:
+  - csharp
+  - vb
+  name: ScaledLineCount
+  nameWithType: TextElement.ScaledLineCount
+  fullName: GTA.UI.TextElement.ScaledLineCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public int ScaledLineCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ScaledLineCount As Integer
+  overload: GTA.UI.TextElement.ScaledLineCount*
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.UI.IWorldDrawableElement
+  commentId: T:GTA.UI.IWorldDrawableElement
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html
+  name: IWorldDrawableElement
+  nameWithType: IWorldDrawableElement
+  fullName: GTA.UI.IWorldDrawableElement
+- uid: GTA.UI.IElement
+  commentId: T:GTA.UI.IElement
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.IElement.html
+  name: IElement
+  nameWithType: IElement
+  fullName: GTA.UI.IElement
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.UI.TextElement.#ctor*
+  commentId: Overload:GTA.UI.TextElement.#ctor
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement__ctor_System_String_System_Drawing_PointF_System_Single_
+  name: TextElement
+  nameWithType: TextElement.TextElement
+  fullName: GTA.UI.TextElement.TextElement
+  nameWithType.vb: TextElement.New
+  fullName.vb: GTA.UI.TextElement.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Drawing.PointF
+  commentId: T:System.Drawing.PointF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.pointf
+  name: PointF
+  nameWithType: PointF
+  fullName: System.Drawing.PointF
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: GTA.UI.Font
+  commentId: T:GTA.UI.Font
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.Font.html
+  name: Font
+  nameWithType: Font
+  fullName: GTA.UI.Font
+- uid: GTA.UI.Alignment
+  commentId: T:GTA.UI.Alignment
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.Alignment.html
+  name: Alignment
+  nameWithType: Alignment
+  fullName: GTA.UI.Alignment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.UI.TextElement.Finalize*
+  commentId: Overload:GTA.UI.TextElement.Finalize
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Finalize
+  name: ~TextElement
+  nameWithType: TextElement.~TextElement
+  fullName: GTA.UI.TextElement.~TextElement
+  spec.csharp:
+  - name: "~"
+  - uid: GTA.UI.TextElement.Finalize*
+    name: TextElement
+    isExternal: true
+    href: GTA.UI.TextElement.html#GTA_UI_TextElement_Finalize
+- uid: GTA.UI.TextElement.GetStringWidth*
+  commentId: Overload:GTA.UI.TextElement.GetStringWidth
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_GetStringWidth_System_String_GTA_UI_Font_System_Single_
+  name: GetStringWidth
+  nameWithType: TextElement.GetStringWidth
+  fullName: GTA.UI.TextElement.GetStringWidth
+- uid: GTA.UI.TextElement.GetScaledStringWidth*
+  commentId: Overload:GTA.UI.TextElement.GetScaledStringWidth
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_GetScaledStringWidth_System_String_GTA_UI_Font_System_Single_
+  name: GetScaledStringWidth
+  nameWithType: TextElement.GetScaledStringWidth
+  fullName: GTA.UI.TextElement.GetScaledStringWidth
+- uid: GTA.UI.TextElement.Draw*
+  commentId: Overload:GTA.UI.TextElement.Draw
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Draw
+  name: Draw
+  nameWithType: TextElement.Draw
+  fullName: GTA.UI.TextElement.Draw
+- uid: GTA.UI.IElement.Draw
+  commentId: M:GTA.UI.IElement.Draw
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  name: Draw()
+  nameWithType: IElement.Draw()
+  fullName: GTA.UI.IElement.Draw()
+  spec.csharp:
+  - uid: GTA.UI.IElement.Draw
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.Draw
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw
+  - name: (
+  - name: )
+- uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  name: Draw(SizeF)
+  nameWithType: IElement.Draw(SizeF)
+  fullName: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.Draw(System.Drawing.SizeF)
+    name: Draw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_Draw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: System.Drawing.SizeF
+  commentId: T:System.Drawing.SizeF
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  name: SizeF
+  nameWithType: SizeF
+  fullName: System.Drawing.SizeF
+- uid: GTA.UI.TextElement.ScaledDraw*
+  commentId: Overload:GTA.UI.TextElement.ScaledDraw
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_ScaledDraw
+  name: ScaledDraw
+  nameWithType: TextElement.ScaledDraw
+  fullName: GTA.UI.TextElement.ScaledDraw
+- uid: GTA.UI.IElement.ScaledDraw
+  commentId: M:GTA.UI.IElement.ScaledDraw
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  name: ScaledDraw()
+  nameWithType: IElement.ScaledDraw()
+  fullName: GTA.UI.IElement.ScaledDraw()
+  spec.csharp:
+  - uid: GTA.UI.IElement.ScaledDraw
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.ScaledDraw
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw
+  - name: (
+  - name: )
+- uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  commentId: M:GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  name: ScaledDraw(SizeF)
+  nameWithType: IElement.ScaledDraw(SizeF)
+  fullName: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IElement.ScaledDraw(System.Drawing.SizeF)
+    name: ScaledDraw
+    isExternal: true
+    href: GTA.UI.IElement.html#GTA_UI_IElement_ScaledDraw_System_Drawing_SizeF_
+  - name: (
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.TextElement.WorldDraw*
+  commentId: Overload:GTA.UI.TextElement.WorldDraw
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_WorldDraw_GTA_Math_Vector3_
+  name: WorldDraw
+  nameWithType: TextElement.WorldDraw
+  fullName: GTA.UI.TextElement.WorldDraw
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  name: WorldDraw(Vector3)
+  nameWithType: IWorldDrawableElement.WorldDraw(Vector3)
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  name: WorldDraw(Vector3, SizeF)
+  nameWithType: IWorldDrawableElement.WorldDraw(Vector3, SizeF)
+  fullName: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.TextElement.WorldScaledDraw*
+  commentId: Overload:GTA.UI.TextElement.WorldScaledDraw
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_WorldScaledDraw_GTA_Math_Vector3_
+  name: WorldScaledDraw
+  nameWithType: TextElement.WorldScaledDraw
+  fullName: GTA.UI.TextElement.WorldScaledDraw
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  name: WorldScaledDraw(Vector3)
+  nameWithType: IWorldDrawableElement.WorldScaledDraw(Vector3)
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  commentId: M:GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+  parent: GTA.UI.IWorldDrawableElement
+  isExternal: true
+  href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  name: WorldScaledDraw(Vector3, SizeF)
+  nameWithType: IWorldDrawableElement.WorldScaledDraw(Vector3, SizeF)
+  fullName: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3, System.Drawing.SizeF)
+  spec.csharp:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+  spec.vb:
+  - uid: GTA.UI.IWorldDrawableElement.WorldScaledDraw(GTA.Math.Vector3,System.Drawing.SizeF)
+    name: WorldScaledDraw
+    isExternal: true
+    href: GTA.UI.IWorldDrawableElement.html#GTA_UI_IWorldDrawableElement_WorldScaledDraw_GTA_Math_Vector3_System_Drawing_SizeF_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.SizeF
+    name: SizeF
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.sizef
+  - name: )
+- uid: GTA.UI.TextElement.Enabled*
+  commentId: Overload:GTA.UI.TextElement.Enabled
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Enabled
+  name: Enabled
+  nameWithType: TextElement.Enabled
+  fullName: GTA.UI.TextElement.Enabled
+- uid: GTA.UI.IElement.Enabled
+  commentId: P:GTA.UI.IElement.Enabled
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Enabled
+  name: Enabled
+  nameWithType: IElement.Enabled
+  fullName: GTA.UI.IElement.Enabled
+- uid: GTA.UI.TextElement.Color*
+  commentId: Overload:GTA.UI.TextElement.Color
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Color
+  name: Color
+  nameWithType: TextElement.Color
+  fullName: GTA.UI.TextElement.Color
+- uid: GTA.UI.IElement.Color
+  commentId: P:GTA.UI.IElement.Color
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Color
+  name: Color
+  nameWithType: IElement.Color
+  fullName: GTA.UI.IElement.Color
+- uid: GTA.UI.TextElement.Position*
+  commentId: Overload:GTA.UI.TextElement.Position
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Position
+  name: Position
+  nameWithType: TextElement.Position
+  fullName: GTA.UI.TextElement.Position
+- uid: GTA.UI.IElement.Position
+  commentId: P:GTA.UI.IElement.Position
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Position
+  name: Position
+  nameWithType: IElement.Position
+  fullName: GTA.UI.IElement.Position
+- uid: GTA.UI.TextElement.Scale*
+  commentId: Overload:GTA.UI.TextElement.Scale
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Scale
+  name: Scale
+  nameWithType: TextElement.Scale
+  fullName: GTA.UI.TextElement.Scale
+- uid: GTA.UI.TextElement.Font*
+  commentId: Overload:GTA.UI.TextElement.Font
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Font
+  name: Font
+  nameWithType: TextElement.Font
+  fullName: GTA.UI.TextElement.Font
+- uid: GTA.UI.TextElement.Caption*
+  commentId: Overload:GTA.UI.TextElement.Caption
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Caption
+  name: Caption
+  nameWithType: TextElement.Caption
+  fullName: GTA.UI.TextElement.Caption
+- uid: GTA.UI.TextElement.Alignment*
+  commentId: Overload:GTA.UI.TextElement.Alignment
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Alignment
+  name: Alignment
+  nameWithType: TextElement.Alignment
+  fullName: GTA.UI.TextElement.Alignment
+- uid: GTA.UI.TextElement.Shadow*
+  commentId: Overload:GTA.UI.TextElement.Shadow
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Shadow
+  name: Shadow
+  nameWithType: TextElement.Shadow
+  fullName: GTA.UI.TextElement.Shadow
+- uid: GTA.UI.TextElement.Outline*
+  commentId: Overload:GTA.UI.TextElement.Outline
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Outline
+  name: Outline
+  nameWithType: TextElement.Outline
+  fullName: GTA.UI.TextElement.Outline
+- uid: GTA.UI.TextElement.WrapWidth*
+  commentId: Overload:GTA.UI.TextElement.WrapWidth
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_WrapWidth
+  name: WrapWidth
+  nameWithType: TextElement.WrapWidth
+  fullName: GTA.UI.TextElement.WrapWidth
+- uid: GTA.UI.TextElement.Centered*
+  commentId: Overload:GTA.UI.TextElement.Centered
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Centered
+  name: Centered
+  nameWithType: TextElement.Centered
+  fullName: GTA.UI.TextElement.Centered
+- uid: GTA.UI.IElement.Centered
+  commentId: P:GTA.UI.IElement.Centered
+  parent: GTA.UI.IElement
+  isExternal: true
+  href: GTA.UI.IElement.html#GTA_UI_IElement_Centered
+  name: Centered
+  nameWithType: IElement.Centered
+  fullName: GTA.UI.IElement.Centered
+- uid: GTA.UI.TextElement.Width*
+  commentId: Overload:GTA.UI.TextElement.Width
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_Width
+  name: Width
+  nameWithType: TextElement.Width
+  fullName: GTA.UI.TextElement.Width
+- uid: GTA.UI.TextElement.ScaledWidth*
+  commentId: Overload:GTA.UI.TextElement.ScaledWidth
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_ScaledWidth
+  name: ScaledWidth
+  nameWithType: TextElement.ScaledWidth
+  fullName: GTA.UI.TextElement.ScaledWidth
+- uid: GTA.UI.TextElement.LineCount*
+  commentId: Overload:GTA.UI.TextElement.LineCount
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_LineCount
+  name: LineCount
+  nameWithType: TextElement.LineCount
+  fullName: GTA.UI.TextElement.LineCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.UI.TextElement.ScaledLineCount*
+  commentId: Overload:GTA.UI.TextElement.ScaledLineCount
+  isExternal: true
+  href: GTA.UI.TextElement.html#GTA_UI_TextElement_ScaledLineCount
+  name: ScaledLineCount
+  nameWithType: TextElement.ScaledLineCount
+  fullName: GTA.UI.TextElement.ScaledLineCount

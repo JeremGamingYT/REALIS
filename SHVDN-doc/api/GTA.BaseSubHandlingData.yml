@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.BaseSubHandlingData
+  commentId: T:GTA.BaseSubHandlingData
+  id: BaseSubHandlingData
+  parent: GTA
+  children:
+  - GTA.BaseSubHandlingData.Equals(System.Object)
+  - GTA.BaseSubHandlingData.GetHashCode
+  - GTA.BaseSubHandlingData.HandlingType
+  - GTA.BaseSubHandlingData.IsValid
+  - GTA.BaseSubHandlingData.MemoryAddress
+  - GTA.BaseSubHandlingData.Parent
+  - GTA.BaseSubHandlingData.op_Equality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  - GTA.BaseSubHandlingData.op_Inequality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  langs:
+  - csharp
+  - vb
+  name: BaseSubHandlingData
+  nameWithType: BaseSubHandlingData
+  fullName: GTA.BaseSubHandlingData
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public abstract class BaseSubHandlingData
+    content.vb: Public MustInherit Class BaseSubHandlingData
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - GTA.BikeHandlingData
+  - GTA.BoatHandlingData
+  - GTA.CarHandlingData
+  - GTA.FlyingHandlingData
+  - GTA.SeaPlaneHandlingData
+  - GTA.SpecialFlightHandlingData
+  - GTA.SubmarineHandlingData
+  - GTA.TrailerHandlingData
+  - GTA.VehicleWeaponHandlingData
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: GTA.BaseSubHandlingData.Equals(System.Object)
+  commentId: M:GTA.BaseSubHandlingData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: BaseSubHandlingData.Equals(object)
+  fullName: GTA.BaseSubHandlingData.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.BaseSubHandlingData.Equals*
+  nameWithType.vb: BaseSubHandlingData.Equals(Object)
+  fullName.vb: GTA.BaseSubHandlingData.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.BaseSubHandlingData.op_Equality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  commentId: M:GTA.BaseSubHandlingData.op_Equality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  id: op_Equality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator ==(BaseSubHandlingData, BaseSubHandlingData)
+  nameWithType: BaseSubHandlingData.operator ==(BaseSubHandlingData, BaseSubHandlingData)
+  fullName: GTA.BaseSubHandlingData.operator ==(GTA.BaseSubHandlingData, GTA.BaseSubHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(BaseSubHandlingData left, BaseSubHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.BaseSubHandlingData
+    - id: right
+      type: GTA.BaseSubHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As BaseSubHandlingData, right As BaseSubHandlingData) As Boolean
+  overload: GTA.BaseSubHandlingData.op_Equality*
+  nameWithType.vb: BaseSubHandlingData.=(BaseSubHandlingData, BaseSubHandlingData)
+  fullName.vb: GTA.BaseSubHandlingData.=(GTA.BaseSubHandlingData, GTA.BaseSubHandlingData)
+  name.vb: =(BaseSubHandlingData, BaseSubHandlingData)
+- uid: GTA.BaseSubHandlingData.op_Inequality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  commentId: M:GTA.BaseSubHandlingData.op_Inequality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  id: op_Inequality(GTA.BaseSubHandlingData,GTA.BaseSubHandlingData)
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator !=(BaseSubHandlingData, BaseSubHandlingData)
+  nameWithType: BaseSubHandlingData.operator !=(BaseSubHandlingData, BaseSubHandlingData)
+  fullName: GTA.BaseSubHandlingData.operator !=(GTA.BaseSubHandlingData, GTA.BaseSubHandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(BaseSubHandlingData left, BaseSubHandlingData right)
+    parameters:
+    - id: left
+      type: GTA.BaseSubHandlingData
+    - id: right
+      type: GTA.BaseSubHandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As BaseSubHandlingData, right As BaseSubHandlingData) As Boolean
+  overload: GTA.BaseSubHandlingData.op_Inequality*
+  nameWithType.vb: BaseSubHandlingData.<>(BaseSubHandlingData, BaseSubHandlingData)
+  fullName.vb: GTA.BaseSubHandlingData.<>(GTA.BaseSubHandlingData, GTA.BaseSubHandlingData)
+  name.vb: <>(BaseSubHandlingData, BaseSubHandlingData)
+- uid: GTA.BaseSubHandlingData.GetHashCode
+  commentId: M:GTA.BaseSubHandlingData.GetHashCode
+  id: GetHashCode
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: BaseSubHandlingData.GetHashCode()
+  fullName: GTA.BaseSubHandlingData.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.BaseSubHandlingData.GetHashCode*
+- uid: GTA.BaseSubHandlingData.MemoryAddress
+  commentId: P:GTA.BaseSubHandlingData.MemoryAddress
+  id: MemoryAddress
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: MemoryAddress
+  nameWithType: BaseSubHandlingData.MemoryAddress
+  fullName: GTA.BaseSubHandlingData.MemoryAddress
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IntPtr MemoryAddress { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public ReadOnly Property MemoryAddress As IntPtr
+  overload: GTA.BaseSubHandlingData.MemoryAddress*
+- uid: GTA.BaseSubHandlingData.Parent
+  commentId: P:GTA.BaseSubHandlingData.Parent
+  id: Parent
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: BaseSubHandlingData.Parent
+  fullName: GTA.BaseSubHandlingData.Parent
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public HandlingData Parent { get; }
+    parameters: []
+    return:
+      type: GTA.HandlingData
+    content.vb: Public ReadOnly Property Parent As HandlingData
+  overload: GTA.BaseSubHandlingData.Parent*
+- uid: GTA.BaseSubHandlingData.HandlingType
+  commentId: P:GTA.BaseSubHandlingData.HandlingType
+  id: HandlingType
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: HandlingType
+  nameWithType: BaseSubHandlingData.HandlingType
+  fullName: GTA.BaseSubHandlingData.HandlingType
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public HandlingType HandlingType { get; }
+    parameters: []
+    return:
+      type: GTA.HandlingType
+    content.vb: Public ReadOnly Property HandlingType As HandlingType
+  overload: GTA.BaseSubHandlingData.HandlingType*
+- uid: GTA.BaseSubHandlingData.IsValid
+  commentId: P:GTA.BaseSubHandlingData.IsValid
+  id: IsValid
+  parent: GTA.BaseSubHandlingData
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: BaseSubHandlingData.IsValid
+  fullName: GTA.BaseSubHandlingData.IsValid
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: GTA.BaseSubHandlingData.IsValid*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.BaseSubHandlingData.Equals*
+  commentId: Overload:GTA.BaseSubHandlingData.Equals
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Equals_System_Object_
+  name: Equals
+  nameWithType: BaseSubHandlingData.Equals
+  fullName: GTA.BaseSubHandlingData.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.BaseSubHandlingData.op_Equality*
+  commentId: Overload:GTA.BaseSubHandlingData.op_Equality
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_op_Equality_GTA_BaseSubHandlingData_GTA_BaseSubHandlingData_
+  name: operator ==
+  nameWithType: BaseSubHandlingData.operator ==
+  fullName: GTA.BaseSubHandlingData.operator ==
+  nameWithType.vb: BaseSubHandlingData.=
+  fullName.vb: GTA.BaseSubHandlingData.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.BaseSubHandlingData.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_op_Equality_GTA_BaseSubHandlingData_GTA_BaseSubHandlingData_
+- uid: GTA.BaseSubHandlingData
+  commentId: T:GTA.BaseSubHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html
+  name: BaseSubHandlingData
+  nameWithType: BaseSubHandlingData
+  fullName: GTA.BaseSubHandlingData
+- uid: GTA.BaseSubHandlingData.op_Inequality*
+  commentId: Overload:GTA.BaseSubHandlingData.op_Inequality
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_op_Inequality_GTA_BaseSubHandlingData_GTA_BaseSubHandlingData_
+  name: operator !=
+  nameWithType: BaseSubHandlingData.operator !=
+  fullName: GTA.BaseSubHandlingData.operator !=
+  nameWithType.vb: BaseSubHandlingData.<>
+  fullName.vb: GTA.BaseSubHandlingData.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.BaseSubHandlingData.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_op_Inequality_GTA_BaseSubHandlingData_GTA_BaseSubHandlingData_
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.BaseSubHandlingData.GetHashCode*
+  commentId: Overload:GTA.BaseSubHandlingData.GetHashCode
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_GetHashCode
+  name: GetHashCode
+  nameWithType: BaseSubHandlingData.GetHashCode
+  fullName: GTA.BaseSubHandlingData.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.BaseSubHandlingData.MemoryAddress*
+  commentId: Overload:GTA.BaseSubHandlingData.MemoryAddress
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_MemoryAddress
+  name: MemoryAddress
+  nameWithType: BaseSubHandlingData.MemoryAddress
+  fullName: GTA.BaseSubHandlingData.MemoryAddress
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: GTA.BaseSubHandlingData.Parent*
+  commentId: Overload:GTA.BaseSubHandlingData.Parent
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_Parent
+  name: Parent
+  nameWithType: BaseSubHandlingData.Parent
+  fullName: GTA.BaseSubHandlingData.Parent
+- uid: GTA.HandlingData
+  commentId: T:GTA.HandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.HandlingData.html
+  name: HandlingData
+  nameWithType: HandlingData
+  fullName: GTA.HandlingData
+- uid: GTA.BaseSubHandlingData.HandlingType*
+  commentId: Overload:GTA.BaseSubHandlingData.HandlingType
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_HandlingType
+  name: HandlingType
+  nameWithType: BaseSubHandlingData.HandlingType
+  fullName: GTA.BaseSubHandlingData.HandlingType
+- uid: GTA.HandlingType
+  commentId: T:GTA.HandlingType
+  parent: GTA
+  isExternal: true
+  href: GTA.HandlingType.html
+  name: HandlingType
+  nameWithType: HandlingType
+  fullName: GTA.HandlingType
+- uid: GTA.BaseSubHandlingData.IsValid*
+  commentId: Overload:GTA.BaseSubHandlingData.IsValid
+  isExternal: true
+  href: GTA.BaseSubHandlingData.html#GTA_BaseSubHandlingData_IsValid
+  name: IsValid
+  nameWithType: BaseSubHandlingData.IsValid
+  fullName: GTA.BaseSubHandlingData.IsValid

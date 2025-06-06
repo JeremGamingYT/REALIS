@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.LeaveVehicleFlags
+  commentId: T:GTA.LeaveVehicleFlags
+  id: LeaveVehicleFlags
+  parent: GTA
+  children:
+  - GTA.LeaveVehicleFlags.BailOut
+  - GTA.LeaveVehicleFlags.BlockSeatShuffling
+  - GTA.LeaveVehicleFlags.DontDefaultWarpIfDoorBlocked
+  - GTA.LeaveVehicleFlags.DontJackAnyone
+  - GTA.LeaveVehicleFlags.DontWaitForVehicleToStop
+  - GTA.LeaveVehicleFlags.FromLeftSide
+  - GTA.LeaveVehicleFlags.FromRightSide
+  - GTA.LeaveVehicleFlags.LeaveDoorOpen
+  - GTA.LeaveVehicleFlags.None
+  - GTA.LeaveVehicleFlags.WaitForEntryPointToBeClear
+  - GTA.LeaveVehicleFlags.WarpIfDoorIsBlocked
+  - GTA.LeaveVehicleFlags.WarpIfShuffleLinkIsBlocked
+  - GTA.LeaveVehicleFlags.WarpOut
+  langs:
+  - csharp
+  - vb
+  name: LeaveVehicleFlags
+  nameWithType: LeaveVehicleFlags
+  fullName: GTA.LeaveVehicleFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum LeaveVehicleFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum LeaveVehicleFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.LeaveVehicleFlags.None
+  commentId: F:GTA.LeaveVehicleFlags.None
+  id: None
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LeaveVehicleFlags.None
+  fullName: GTA.LeaveVehicleFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.WarpOut
+  commentId: F:GTA.LeaveVehicleFlags.WarpOut
+  id: WarpOut
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: WarpOut
+  nameWithType: LeaveVehicleFlags.WarpOut
+  fullName: GTA.LeaveVehicleFlags.WarpOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WarpOut = 16
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.DontWaitForVehicleToStop
+  commentId: F:GTA.LeaveVehicleFlags.DontWaitForVehicleToStop
+  id: DontWaitForVehicleToStop
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: DontWaitForVehicleToStop
+  nameWithType: LeaveVehicleFlags.DontWaitForVehicleToStop
+  fullName: GTA.LeaveVehicleFlags.DontWaitForVehicleToStop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontWaitForVehicleToStop = 64
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.LeaveDoorOpen
+  commentId: F:GTA.LeaveVehicleFlags.LeaveDoorOpen
+  id: LeaveDoorOpen
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: LeaveDoorOpen
+  nameWithType: LeaveVehicleFlags.LeaveDoorOpen
+  fullName: GTA.LeaveVehicleFlags.LeaveDoorOpen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LeaveDoorOpen = 256
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.WarpIfDoorIsBlocked
+  commentId: F:GTA.LeaveVehicleFlags.WarpIfDoorIsBlocked
+  id: WarpIfDoorIsBlocked
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: WarpIfDoorIsBlocked
+  nameWithType: LeaveVehicleFlags.WarpIfDoorIsBlocked
+  fullName: GTA.LeaveVehicleFlags.WarpIfDoorIsBlocked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WarpIfDoorIsBlocked = 512
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.BailOut
+  commentId: F:GTA.LeaveVehicleFlags.BailOut
+  id: BailOut
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: BailOut
+  nameWithType: LeaveVehicleFlags.BailOut
+  fullName: GTA.LeaveVehicleFlags.BailOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BailOut = 4096
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.DontDefaultWarpIfDoorBlocked
+  commentId: F:GTA.LeaveVehicleFlags.DontDefaultWarpIfDoorBlocked
+  id: DontDefaultWarpIfDoorBlocked
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: DontDefaultWarpIfDoorBlocked
+  nameWithType: LeaveVehicleFlags.DontDefaultWarpIfDoorBlocked
+  fullName: GTA.LeaveVehicleFlags.DontDefaultWarpIfDoorBlocked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontDefaultWarpIfDoorBlocked = 65536
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.FromLeftSide
+  commentId: F:GTA.LeaveVehicleFlags.FromLeftSide
+  id: FromLeftSide
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: FromLeftSide
+  nameWithType: LeaveVehicleFlags.FromLeftSide
+  fullName: GTA.LeaveVehicleFlags.FromLeftSide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FromLeftSide = 131072
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.FromRightSide
+  commentId: F:GTA.LeaveVehicleFlags.FromRightSide
+  id: FromRightSide
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: FromRightSide
+  nameWithType: LeaveVehicleFlags.FromRightSide
+  fullName: GTA.LeaveVehicleFlags.FromRightSide
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FromRightSide = 262144
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.BlockSeatShuffling
+  commentId: F:GTA.LeaveVehicleFlags.BlockSeatShuffling
+  id: BlockSeatShuffling
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: BlockSeatShuffling
+  nameWithType: LeaveVehicleFlags.BlockSeatShuffling
+  fullName: GTA.LeaveVehicleFlags.BlockSeatShuffling
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlockSeatShuffling = 1048576
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.WarpIfShuffleLinkIsBlocked
+  commentId: F:GTA.LeaveVehicleFlags.WarpIfShuffleLinkIsBlocked
+  id: WarpIfShuffleLinkIsBlocked
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: WarpIfShuffleLinkIsBlocked
+  nameWithType: LeaveVehicleFlags.WarpIfShuffleLinkIsBlocked
+  fullName: GTA.LeaveVehicleFlags.WarpIfShuffleLinkIsBlocked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WarpIfShuffleLinkIsBlocked = 4194304
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.DontJackAnyone
+  commentId: F:GTA.LeaveVehicleFlags.DontJackAnyone
+  id: DontJackAnyone
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: DontJackAnyone
+  nameWithType: LeaveVehicleFlags.DontJackAnyone
+  fullName: GTA.LeaveVehicleFlags.DontJackAnyone
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DontJackAnyone = 8388608
+    return:
+      type: GTA.LeaveVehicleFlags
+- uid: GTA.LeaveVehicleFlags.WaitForEntryPointToBeClear
+  commentId: F:GTA.LeaveVehicleFlags.WaitForEntryPointToBeClear
+  id: WaitForEntryPointToBeClear
+  parent: GTA.LeaveVehicleFlags
+  langs:
+  - csharp
+  - vb
+  name: WaitForEntryPointToBeClear
+  nameWithType: LeaveVehicleFlags.WaitForEntryPointToBeClear
+  fullName: GTA.LeaveVehicleFlags.WaitForEntryPointToBeClear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WaitForEntryPointToBeClear = 16777216
+    return:
+      type: GTA.LeaveVehicleFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.LeaveVehicleFlags
+  commentId: T:GTA.LeaveVehicleFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.LeaveVehicleFlags.html
+  name: LeaveVehicleFlags
+  nameWithType: LeaveVehicleFlags
+  fullName: GTA.LeaveVehicleFlags

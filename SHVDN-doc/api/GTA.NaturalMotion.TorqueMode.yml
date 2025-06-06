@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.TorqueMode
+  commentId: T:GTA.NaturalMotion.TorqueMode
+  id: TorqueMode
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.TorqueMode.Additive
+  - GTA.NaturalMotion.TorqueMode.Disabled
+  - GTA.NaturalMotion.TorqueMode.Proportional
+  langs:
+  - csharp
+  - vb
+  name: TorqueMode
+  nameWithType: TorqueMode
+  fullName: GTA.NaturalMotion.TorqueMode
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum TorqueMode
+    content.vb: Public Enum TorqueMode
+- uid: GTA.NaturalMotion.TorqueMode.Disabled
+  commentId: F:GTA.NaturalMotion.TorqueMode.Disabled
+  id: Disabled
+  parent: GTA.NaturalMotion.TorqueMode
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: TorqueMode.Disabled
+  fullName: GTA.NaturalMotion.TorqueMode.Disabled
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Disabled = 0
+    return:
+      type: GTA.NaturalMotion.TorqueMode
+- uid: GTA.NaturalMotion.TorqueMode.Proportional
+  commentId: F:GTA.NaturalMotion.TorqueMode.Proportional
+  id: Proportional
+  parent: GTA.NaturalMotion.TorqueMode
+  langs:
+  - csharp
+  - vb
+  name: Proportional
+  nameWithType: TorqueMode.Proportional
+  fullName: GTA.NaturalMotion.TorqueMode.Proportional
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Proportional = 1
+    return:
+      type: GTA.NaturalMotion.TorqueMode
+- uid: GTA.NaturalMotion.TorqueMode.Additive
+  commentId: F:GTA.NaturalMotion.TorqueMode.Additive
+  id: Additive
+  parent: GTA.NaturalMotion.TorqueMode
+  langs:
+  - csharp
+  - vb
+  name: Additive
+  nameWithType: TorqueMode.Additive
+  fullName: GTA.NaturalMotion.TorqueMode.Additive
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Additive = 2
+    return:
+      type: GTA.NaturalMotion.TorqueMode
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.TorqueMode
+  commentId: T:GTA.NaturalMotion.TorqueMode
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.TorqueMode.html
+  name: TorqueMode
+  nameWithType: TorqueMode
+  fullName: GTA.NaturalMotion.TorqueMode

@@ -1,0 +1,2873 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  id: Vector3
+  parent: GTA.Math
+  children:
+  - GTA.Math.Vector3.#ctor(System.Single,System.Single,System.Single)
+  - GTA.Math.Vector3.Add(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Angle(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Around(System.Single)
+  - GTA.Math.Vector3.Clamp(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Cross(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Distance(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Distance2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.DistanceSquared(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.DistanceSquared2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.DistanceTo(GTA.Math.Vector3)
+  - GTA.Math.Vector3.DistanceTo2D(GTA.Math.Vector3)
+  - GTA.Math.Vector3.DistanceToSquared(GTA.Math.Vector3)
+  - GTA.Math.Vector3.DistanceToSquared2D(GTA.Math.Vector3)
+  - GTA.Math.Vector3.Divide(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Vector3.Dot(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Equals(GTA.Math.Vector3)
+  - GTA.Math.Vector3.Equals(System.Object)
+  - GTA.Math.Vector3.GetHashCode
+  - GTA.Math.Vector3.Item(System.Int32)
+  - GTA.Math.Vector3.Length
+  - GTA.Math.Vector3.LengthSquared
+  - GTA.Math.Vector3.Lerp(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)
+  - GTA.Math.Vector3.Maximize(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Minimize(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Multiply(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Multiply(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Vector3.Negate(GTA.Math.Vector3)
+  - GTA.Math.Vector3.Normalize
+  - GTA.Math.Vector3.Normalize(GTA.Math.Vector3)
+  - GTA.Math.Vector3.Normalized
+  - GTA.Math.Vector3.One
+  - GTA.Math.Vector3.Project(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.ProjectOnPlane(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.RandomXY
+  - GTA.Math.Vector3.RandomXYZ
+  - GTA.Math.Vector3.Reflect(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.RelativeBack
+  - GTA.Math.Vector3.RelativeBottom
+  - GTA.Math.Vector3.RelativeFront
+  - GTA.Math.Vector3.RelativeLeft
+  - GTA.Math.Vector3.RelativeRight
+  - GTA.Math.Vector3.RelativeTop
+  - GTA.Math.Vector3.Round(System.Int32)
+  - GTA.Math.Vector3.SignedAngle(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.Subtract(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.ToArray
+  - GTA.Math.Vector3.ToHeading
+  - GTA.Math.Vector3.ToString
+  - GTA.Math.Vector3.ToString(System.String)
+  - GTA.Math.Vector3.ToString(System.String,System.IFormatProvider)
+  - GTA.Math.Vector3.UnitX
+  - GTA.Math.Vector3.UnitY
+  - GTA.Math.Vector3.UnitZ
+  - GTA.Math.Vector3.WorldDown
+  - GTA.Math.Vector3.WorldEast
+  - GTA.Math.Vector3.WorldNorth
+  - GTA.Math.Vector3.WorldSouth
+  - GTA.Math.Vector3.WorldUp
+  - GTA.Math.Vector3.WorldWest
+  - GTA.Math.Vector3.X
+  - GTA.Math.Vector3.Y
+  - GTA.Math.Vector3.Z
+  - GTA.Math.Vector3.Zero
+  - GTA.Math.Vector3.op_Addition(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.op_Division(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Vector3.op_Equality(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.op_Implicit(GTA.Math.Vector3)~GTA.Math.Vector2
+  - GTA.Math.Vector3.op_Inequality(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.op_Multiply(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Vector3.op_Multiply(System.Single,GTA.Math.Vector3)
+  - GTA.Math.Vector3.op_Subtraction(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Vector3.op_UnaryNegation(GTA.Math.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: 'public struct Vector3 : IEquatable<Vector3>, IFormattable'
+    content.vb: Public Structure Vector3 Implements IEquatable(Of Vector3), IFormattable
+  implements:
+  - System.IEquatable{GTA.Math.Vector3}
+  - System.IFormattable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Math.Vector3.X
+  commentId: F:GTA.Math.Vector3.X
+  id: X
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Vector3.X
+  fullName: GTA.Math.Vector3.X
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float X
+    return:
+      type: System.Single
+    content.vb: Public X As Single
+- uid: GTA.Math.Vector3.Y
+  commentId: F:GTA.Math.Vector3.Y
+  id: Y
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Vector3.Y
+  fullName: GTA.Math.Vector3.Y
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float Y
+    return:
+      type: System.Single
+    content.vb: Public Y As Single
+- uid: GTA.Math.Vector3.Z
+  commentId: F:GTA.Math.Vector3.Z
+  id: Z
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Z
+  nameWithType: Vector3.Z
+  fullName: GTA.Math.Vector3.Z
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float Z
+    return:
+      type: System.Single
+    content.vb: Public Z As Single
+- uid: GTA.Math.Vector3.#ctor(System.Single,System.Single,System.Single)
+  commentId: M:GTA.Math.Vector3.#ctor(System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single)'
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Vector3(float, float, float)
+  nameWithType: Vector3.Vector3(float, float, float)
+  fullName: GTA.Math.Vector3.Vector3(float, float, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Vector3(float x, float y, float z)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: Public Sub New(x As Single, y As Single, z As Single)
+  overload: GTA.Math.Vector3.#ctor*
+  nameWithType.vb: Vector3.New(Single, Single, Single)
+  fullName.vb: GTA.Math.Vector3.New(Single, Single, Single)
+  name.vb: New(Single, Single, Single)
+- uid: GTA.Math.Vector3.Length
+  commentId: M:GTA.Math.Vector3.Length
+  id: Length
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Length()
+  nameWithType: Vector3.Length()
+  fullName: GTA.Math.Vector3.Length()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float Length()
+    return:
+      type: System.Single
+    content.vb: Public Function Length() As Single
+  overload: GTA.Math.Vector3.Length*
+- uid: GTA.Math.Vector3.LengthSquared
+  commentId: M:GTA.Math.Vector3.LengthSquared
+  id: LengthSquared
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: LengthSquared()
+  nameWithType: Vector3.LengthSquared()
+  fullName: GTA.Math.Vector3.LengthSquared()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float LengthSquared()
+    return:
+      type: System.Single
+    content.vb: Public Function LengthSquared() As Single
+  overload: GTA.Math.Vector3.LengthSquared*
+- uid: GTA.Math.Vector3.Normalize
+  commentId: M:GTA.Math.Vector3.Normalize
+  id: Normalize
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Normalize()
+  nameWithType: Vector3.Normalize()
+  fullName: GTA.Math.Vector3.Normalize()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public void Normalize()
+    content.vb: Public Sub Normalize()
+  overload: GTA.Math.Vector3.Normalize*
+- uid: GTA.Math.Vector3.DistanceTo(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.DistanceTo(GTA.Math.Vector3)
+  id: DistanceTo(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: DistanceTo(Vector3)
+  nameWithType: Vector3.DistanceTo(Vector3)
+  fullName: GTA.Math.Vector3.DistanceTo(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float DistanceTo(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function DistanceTo(position As Vector3) As Single
+  overload: GTA.Math.Vector3.DistanceTo*
+- uid: GTA.Math.Vector3.DistanceToSquared(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.DistanceToSquared(GTA.Math.Vector3)
+  id: DistanceToSquared(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: DistanceToSquared(Vector3)
+  nameWithType: Vector3.DistanceToSquared(Vector3)
+  fullName: GTA.Math.Vector3.DistanceToSquared(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float DistanceToSquared(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function DistanceToSquared(position As Vector3) As Single
+  overload: GTA.Math.Vector3.DistanceToSquared*
+- uid: GTA.Math.Vector3.DistanceTo2D(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.DistanceTo2D(GTA.Math.Vector3)
+  id: DistanceTo2D(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: DistanceTo2D(Vector3)
+  nameWithType: Vector3.DistanceTo2D(Vector3)
+  fullName: GTA.Math.Vector3.DistanceTo2D(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float DistanceTo2D(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function DistanceTo2D(position As Vector3) As Single
+  overload: GTA.Math.Vector3.DistanceTo2D*
+- uid: GTA.Math.Vector3.DistanceToSquared2D(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.DistanceToSquared2D(GTA.Math.Vector3)
+  id: DistanceToSquared2D(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: DistanceToSquared2D(Vector3)
+  nameWithType: Vector3.DistanceToSquared2D(Vector3)
+  fullName: GTA.Math.Vector3.DistanceToSquared2D(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float DistanceToSquared2D(Vector3 position)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function DistanceToSquared2D(position As Vector3) As Single
+  overload: GTA.Math.Vector3.DistanceToSquared2D*
+- uid: GTA.Math.Vector3.Distance(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Distance(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Distance(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Distance(Vector3, Vector3)
+  nameWithType: Vector3.Distance(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Distance(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float Distance(Vector3 position1, Vector3 position2)
+    parameters:
+    - id: position1
+      type: GTA.Math.Vector3
+    - id: position2
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Distance(position1 As Vector3, position2 As Vector3) As Single
+  overload: GTA.Math.Vector3.Distance*
+- uid: GTA.Math.Vector3.DistanceSquared(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.DistanceSquared(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: DistanceSquared(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: DistanceSquared(Vector3, Vector3)
+  nameWithType: Vector3.DistanceSquared(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.DistanceSquared(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float DistanceSquared(Vector3 position1, Vector3 position2)
+    parameters:
+    - id: position1
+      type: GTA.Math.Vector3
+    - id: position2
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function DistanceSquared(position1 As Vector3, position2 As Vector3) As Single
+  overload: GTA.Math.Vector3.DistanceSquared*
+- uid: GTA.Math.Vector3.Distance2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Distance2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Distance2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Distance2D(Vector3, Vector3)
+  nameWithType: Vector3.Distance2D(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Distance2D(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float Distance2D(Vector3 position1, Vector3 position2)
+    parameters:
+    - id: position1
+      type: GTA.Math.Vector3
+    - id: position2
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Distance2D(position1 As Vector3, position2 As Vector3) As Single
+  overload: GTA.Math.Vector3.Distance2D*
+- uid: GTA.Math.Vector3.DistanceSquared2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.DistanceSquared2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: DistanceSquared2D(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: DistanceSquared2D(Vector3, Vector3)
+  nameWithType: Vector3.DistanceSquared2D(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.DistanceSquared2D(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float DistanceSquared2D(Vector3 position1, Vector3 position2)
+    parameters:
+    - id: position1
+      type: GTA.Math.Vector3
+    - id: position2
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function DistanceSquared2D(position1 As Vector3, position2 As Vector3) As Single
+  overload: GTA.Math.Vector3.DistanceSquared2D*
+- uid: GTA.Math.Vector3.Angle(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Angle(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Angle(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Angle(Vector3, Vector3)
+  nameWithType: Vector3.Angle(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Angle(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float Angle(Vector3 from, Vector3 to)
+    parameters:
+    - id: from
+      type: GTA.Math.Vector3
+    - id: to
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Angle(from As Vector3, [to] As Vector3) As Single
+  overload: GTA.Math.Vector3.Angle*
+- uid: GTA.Math.Vector3.SignedAngle(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.SignedAngle(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  id: SignedAngle(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: SignedAngle(Vector3, Vector3, Vector3)
+  nameWithType: Vector3.SignedAngle(Vector3, Vector3, Vector3)
+  fullName: GTA.Math.Vector3.SignedAngle(GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float SignedAngle(Vector3 from, Vector3 to, Vector3 planeNormal)
+    parameters:
+    - id: from
+      type: GTA.Math.Vector3
+    - id: to
+      type: GTA.Math.Vector3
+    - id: planeNormal
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SignedAngle(from As Vector3, [to] As Vector3, planeNormal As Vector3) As Single
+  overload: GTA.Math.Vector3.SignedAngle*
+- uid: GTA.Math.Vector3.ToHeading
+  commentId: M:GTA.Math.Vector3.ToHeading
+  id: ToHeading
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ToHeading()
+  nameWithType: Vector3.ToHeading()
+  fullName: GTA.Math.Vector3.ToHeading()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float ToHeading()
+    return:
+      type: System.Single
+    content.vb: Public Function ToHeading() As Single
+  overload: GTA.Math.Vector3.ToHeading*
+- uid: GTA.Math.Vector3.Around(System.Single)
+  commentId: M:GTA.Math.Vector3.Around(System.Single)
+  id: Around(System.Single)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Around(float)
+  nameWithType: Vector3.Around(float)
+  fullName: GTA.Math.Vector3.Around(float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 Around(float distance)
+    parameters:
+    - id: distance
+      type: System.Single
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function Around(distance As Single) As Vector3
+  overload: GTA.Math.Vector3.Around*
+  nameWithType.vb: Vector3.Around(Single)
+  fullName.vb: GTA.Math.Vector3.Around(Single)
+  name.vb: Around(Single)
+- uid: GTA.Math.Vector3.Round(System.Int32)
+  commentId: M:GTA.Math.Vector3.Round(System.Int32)
+  id: Round(System.Int32)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Round(int)
+  nameWithType: Vector3.Round(int)
+  fullName: GTA.Math.Vector3.Round(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 Round(int decimalPlaces = 2)
+    parameters:
+    - id: decimalPlaces
+      type: System.Int32
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function Round(decimalPlaces As Integer = 2) As Vector3
+  overload: GTA.Math.Vector3.Round*
+  nameWithType.vb: Vector3.Round(Integer)
+  fullName.vb: GTA.Math.Vector3.Round(Integer)
+  name.vb: Round(Integer)
+- uid: GTA.Math.Vector3.RandomXY
+  commentId: M:GTA.Math.Vector3.RandomXY
+  id: RandomXY
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RandomXY()
+  nameWithType: Vector3.RandomXY()
+  fullName: GTA.Math.Vector3.RandomXY()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RandomXY()
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function RandomXY() As Vector3
+  overload: GTA.Math.Vector3.RandomXY*
+- uid: GTA.Math.Vector3.RandomXYZ
+  commentId: M:GTA.Math.Vector3.RandomXYZ
+  id: RandomXYZ
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RandomXYZ()
+  nameWithType: Vector3.RandomXYZ()
+  fullName: GTA.Math.Vector3.RandomXYZ()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RandomXYZ()
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function RandomXYZ() As Vector3
+  overload: GTA.Math.Vector3.RandomXYZ*
+- uid: GTA.Math.Vector3.Add(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Add(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Add(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Add(Vector3, Vector3)
+  nameWithType: Vector3.Add(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Add(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Add(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Add(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Add*
+- uid: GTA.Math.Vector3.Subtract(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Subtract(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Subtract(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Subtract(Vector3, Vector3)
+  nameWithType: Vector3.Subtract(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Subtract(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Subtract(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Subtract(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Subtract*
+- uid: GTA.Math.Vector3.Multiply(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Vector3.Multiply(GTA.Math.Vector3,System.Single)
+  id: Multiply(GTA.Math.Vector3,System.Single)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Vector3, float)
+  nameWithType: Vector3.Multiply(Vector3, float)
+  fullName: GTA.Math.Vector3.Multiply(GTA.Math.Vector3, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Multiply(Vector3 value, float scale)
+    parameters:
+    - id: value
+      type: GTA.Math.Vector3
+    - id: scale
+      type: System.Single
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Multiply(value As Vector3, scale As Single) As Vector3
+  overload: GTA.Math.Vector3.Multiply*
+  nameWithType.vb: Vector3.Multiply(Vector3, Single)
+  fullName.vb: GTA.Math.Vector3.Multiply(GTA.Math.Vector3, Single)
+  name.vb: Multiply(Vector3, Single)
+- uid: GTA.Math.Vector3.Multiply(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Multiply(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Multiply(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Vector3, Vector3)
+  nameWithType: Vector3.Multiply(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Multiply(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Multiply(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Multiply(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Multiply*
+- uid: GTA.Math.Vector3.Divide(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Vector3.Divide(GTA.Math.Vector3,System.Single)
+  id: Divide(GTA.Math.Vector3,System.Single)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Divide(Vector3, float)
+  nameWithType: Vector3.Divide(Vector3, float)
+  fullName: GTA.Math.Vector3.Divide(GTA.Math.Vector3, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Divide(Vector3 value, float scale)
+    parameters:
+    - id: value
+      type: GTA.Math.Vector3
+    - id: scale
+      type: System.Single
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Divide(value As Vector3, scale As Single) As Vector3
+  overload: GTA.Math.Vector3.Divide*
+  nameWithType.vb: Vector3.Divide(Vector3, Single)
+  fullName.vb: GTA.Math.Vector3.Divide(GTA.Math.Vector3, Single)
+  name.vb: Divide(Vector3, Single)
+- uid: GTA.Math.Vector3.Negate(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Negate(GTA.Math.Vector3)
+  id: Negate(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Negate(Vector3)
+  nameWithType: Vector3.Negate(Vector3)
+  fullName: GTA.Math.Vector3.Negate(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Negate(Vector3 value)
+    parameters:
+    - id: value
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Negate(value As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Negate*
+- uid: GTA.Math.Vector3.Clamp(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Clamp(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Clamp(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Clamp(Vector3, Vector3, Vector3)
+  nameWithType: Vector3.Clamp(Vector3, Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Clamp(GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Clamp(Vector3 value, Vector3 min, Vector3 max)
+    parameters:
+    - id: value
+      type: GTA.Math.Vector3
+    - id: min
+      type: GTA.Math.Vector3
+    - id: max
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Clamp(value As Vector3, min As Vector3, max As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Clamp*
+- uid: GTA.Math.Vector3.Lerp(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Vector3.Lerp(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)
+  id: Lerp(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Lerp(Vector3, Vector3, float)
+  nameWithType: Vector3.Lerp(Vector3, Vector3, float)
+  fullName: GTA.Math.Vector3.Lerp(GTA.Math.Vector3, GTA.Math.Vector3, float)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Lerp(Vector3 start, Vector3 end, float amount)
+    parameters:
+    - id: start
+      type: GTA.Math.Vector3
+    - id: end
+      type: GTA.Math.Vector3
+    - id: amount
+      type: System.Single
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Lerp(start As Vector3, [end] As Vector3, amount As Single) As Vector3
+  overload: GTA.Math.Vector3.Lerp*
+  nameWithType.vb: Vector3.Lerp(Vector3, Vector3, Single)
+  fullName.vb: GTA.Math.Vector3.Lerp(GTA.Math.Vector3, GTA.Math.Vector3, Single)
+  name.vb: Lerp(Vector3, Vector3, Single)
+- uid: GTA.Math.Vector3.Normalize(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Normalize(GTA.Math.Vector3)
+  id: Normalize(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Normalize(Vector3)
+  nameWithType: Vector3.Normalize(Vector3)
+  fullName: GTA.Math.Vector3.Normalize(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Normalize(Vector3 vector)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Normalize(vector As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Normalize*
+- uid: GTA.Math.Vector3.Dot(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Dot(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Dot(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector3, Vector3)
+  nameWithType: Vector3.Dot(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Dot(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static float Dot(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Dot(left As Vector3, right As Vector3) As Single
+  overload: GTA.Math.Vector3.Dot*
+- uid: GTA.Math.Vector3.Cross(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Cross(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Cross(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Cross(Vector3, Vector3)
+  nameWithType: Vector3.Cross(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Cross(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Cross(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Cross(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Cross*
+- uid: GTA.Math.Vector3.Project(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Project(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Project(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Project(Vector3, Vector3)
+  nameWithType: Vector3.Project(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Project(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Project(Vector3 vector, Vector3 onNormal)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    - id: onNormal
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Project(vector As Vector3, onNormal As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Project*
+- uid: GTA.Math.Vector3.ProjectOnPlane(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.ProjectOnPlane(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: ProjectOnPlane(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ProjectOnPlane(Vector3, Vector3)
+  nameWithType: Vector3.ProjectOnPlane(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.ProjectOnPlane(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 ProjectOnPlane(Vector3 vector, Vector3 planeNormal)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    - id: planeNormal
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function ProjectOnPlane(vector As Vector3, planeNormal As Vector3) As Vector3
+  overload: GTA.Math.Vector3.ProjectOnPlane*
+- uid: GTA.Math.Vector3.Reflect(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Reflect(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Reflect(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Reflect(Vector3, Vector3)
+  nameWithType: Vector3.Reflect(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Reflect(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Reflect(Vector3 vector, Vector3 normal)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    - id: normal
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Reflect(vector As Vector3, normal As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Reflect*
+- uid: GTA.Math.Vector3.Minimize(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Minimize(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Minimize(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Minimize(Vector3, Vector3)
+  nameWithType: Vector3.Minimize(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Minimize(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Minimize(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Minimize(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Minimize*
+- uid: GTA.Math.Vector3.Maximize(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Maximize(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: Maximize(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Maximize(Vector3, Vector3)
+  nameWithType: Vector3.Maximize(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.Maximize(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Maximize(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Function Maximize(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.Maximize*
+- uid: GTA.Math.Vector3.op_Addition(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.op_Addition(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: op_Addition(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator +(Vector3, Vector3)
+  nameWithType: Vector3.operator +(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.operator +(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator +(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator +(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.op_Addition*
+  nameWithType.vb: Vector3.+(Vector3, Vector3)
+  fullName.vb: GTA.Math.Vector3.+(GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: +(Vector3, Vector3)
+- uid: GTA.Math.Vector3.op_Subtraction(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.op_Subtraction(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: op_Subtraction(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector3, Vector3)
+  nameWithType: Vector3.operator -(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.operator -(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator -(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator -(left As Vector3, right As Vector3) As Vector3
+  overload: GTA.Math.Vector3.op_Subtraction*
+  nameWithType.vb: Vector3.-(Vector3, Vector3)
+  fullName.vb: GTA.Math.Vector3.-(GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: -(Vector3, Vector3)
+- uid: GTA.Math.Vector3.op_UnaryNegation(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.op_UnaryNegation(GTA.Math.Vector3)
+  id: op_UnaryNegation(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector3)
+  nameWithType: Vector3.operator -(Vector3)
+  fullName: GTA.Math.Vector3.operator -(GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator -(Vector3 vector)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator -(vector As Vector3) As Vector3
+  overload: GTA.Math.Vector3.op_UnaryNegation*
+  nameWithType.vb: Vector3.-(Vector3)
+  fullName.vb: GTA.Math.Vector3.-(GTA.Math.Vector3)
+  name.vb: -(Vector3)
+- uid: GTA.Math.Vector3.op_Multiply(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Vector3.op_Multiply(GTA.Math.Vector3,System.Single)
+  id: op_Multiply(GTA.Math.Vector3,System.Single)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector3, float)
+  nameWithType: Vector3.operator *(Vector3, float)
+  fullName: GTA.Math.Vector3.operator *(GTA.Math.Vector3, float)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator *(Vector3 vector, float scale)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    - id: scale
+      type: System.Single
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator *(vector As Vector3, scale As Single) As Vector3
+  overload: GTA.Math.Vector3.op_Multiply*
+  nameWithType.vb: Vector3.*(Vector3, Single)
+  fullName.vb: GTA.Math.Vector3.*(GTA.Math.Vector3, Single)
+  name.vb: '*(Vector3, Single)'
+- uid: GTA.Math.Vector3.op_Multiply(System.Single,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.op_Multiply(System.Single,GTA.Math.Vector3)
+  id: op_Multiply(System.Single,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, Vector3)
+  nameWithType: Vector3.operator *(float, Vector3)
+  fullName: GTA.Math.Vector3.operator *(float, GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator *(float scale, Vector3 vector)
+    parameters:
+    - id: scale
+      type: System.Single
+    - id: vector
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator *(scale As Single, vector As Vector3) As Vector3
+  overload: GTA.Math.Vector3.op_Multiply*
+  nameWithType.vb: Vector3.*(Single, Vector3)
+  fullName.vb: GTA.Math.Vector3.*(Single, GTA.Math.Vector3)
+  name.vb: '*(Single, Vector3)'
+- uid: GTA.Math.Vector3.op_Division(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Vector3.op_Division(GTA.Math.Vector3,System.Single)
+  id: op_Division(GTA.Math.Vector3,System.Single)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator /(Vector3, float)
+  nameWithType: Vector3.operator /(Vector3, float)
+  fullName: GTA.Math.Vector3.operator /(GTA.Math.Vector3, float)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 operator /(Vector3 vector, float scale)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    - id: scale
+      type: System.Single
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared Operator /(vector As Vector3, scale As Single) As Vector3
+  overload: GTA.Math.Vector3.op_Division*
+  nameWithType.vb: Vector3./(Vector3, Single)
+  fullName.vb: GTA.Math.Vector3./(GTA.Math.Vector3, Single)
+  name.vb: /(Vector3, Single)
+- uid: GTA.Math.Vector3.op_Equality(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.op_Equality(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: op_Equality(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Vector3, Vector3)
+  nameWithType: Vector3.operator ==(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.operator ==(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool operator ==(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Vector3, right As Vector3) As Boolean
+  overload: GTA.Math.Vector3.op_Equality*
+  nameWithType.vb: Vector3.=(Vector3, Vector3)
+  fullName.vb: GTA.Math.Vector3.=(GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: =(Vector3, Vector3)
+- uid: GTA.Math.Vector3.op_Inequality(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.op_Inequality(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: op_Inequality(GTA.Math.Vector3,GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Vector3, Vector3)
+  nameWithType: Vector3.operator !=(Vector3, Vector3)
+  fullName: GTA.Math.Vector3.operator !=(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool operator !=(Vector3 left, Vector3 right)
+    parameters:
+    - id: left
+      type: GTA.Math.Vector3
+    - id: right
+      type: GTA.Math.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Vector3, right As Vector3) As Boolean
+  overload: GTA.Math.Vector3.op_Inequality*
+  nameWithType.vb: Vector3.<>(Vector3, Vector3)
+  fullName.vb: GTA.Math.Vector3.<>(GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: <>(Vector3, Vector3)
+- uid: GTA.Math.Vector3.op_Implicit(GTA.Math.Vector3)~GTA.Math.Vector2
+  commentId: M:GTA.Math.Vector3.op_Implicit(GTA.Math.Vector3)~GTA.Math.Vector2
+  id: op_Implicit(GTA.Math.Vector3)~GTA.Math.Vector2
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector2(Vector3)
+  nameWithType: Vector3.implicit operator Vector2(Vector3)
+  fullName: GTA.Math.Vector3.implicit operator GTA.Math.Vector2(GTA.Math.Vector3)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static implicit operator Vector2(Vector3 vector)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector2
+    content.vb: Public Shared Widening Operator CType(vector As Vector3) As Vector2
+  overload: GTA.Math.Vector3.op_Implicit*
+  nameWithType.vb: Vector3.CType(Vector3)
+  fullName.vb: GTA.Math.Vector3.CType(GTA.Math.Vector3)
+  name.vb: CType(Vector3)
+- uid: GTA.Math.Vector3.ToArray
+  commentId: M:GTA.Math.Vector3.ToArray
+  id: ToArray
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ToArray()
+  nameWithType: Vector3.ToArray()
+  fullName: GTA.Math.Vector3.ToArray()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float[] ToArray()
+    return:
+      type: System.Single[]
+    content.vb: Public Function ToArray() As Single()
+  overload: GTA.Math.Vector3.ToArray*
+- uid: GTA.Math.Vector3.ToString
+  commentId: M:GTA.Math.Vector3.ToString
+  id: ToString
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Vector3.ToString()
+  fullName: GTA.Math.Vector3.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.Math.Vector3.ToString*
+- uid: GTA.Math.Vector3.ToString(System.String)
+  commentId: M:GTA.Math.Vector3.ToString(System.String)
+  id: ToString(System.String)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: Vector3.ToString(string)
+  fullName: GTA.Math.Vector3.ToString(string)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly string ToString(string format)
+    parameters:
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String) As String
+  overload: GTA.Math.Vector3.ToString*
+  nameWithType.vb: Vector3.ToString(String)
+  fullName.vb: GTA.Math.Vector3.ToString(String)
+  name.vb: ToString(String)
+- uid: GTA.Math.Vector3.ToString(System.String,System.IFormatProvider)
+  commentId: M:GTA.Math.Vector3.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ToString(string, IFormatProvider)
+  nameWithType: Vector3.ToString(string, IFormatProvider)
+  fullName: GTA.Math.Vector3.ToString(string, System.IFormatProvider)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public readonly string ToString(string format, IFormatProvider provider)
+    parameters:
+    - id: format
+      type: System.String
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String, provider As IFormatProvider) As String
+  overload: GTA.Math.Vector3.ToString*
+  implements:
+  - System.IFormattable.ToString(System.String,System.IFormatProvider)
+  nameWithType.vb: Vector3.ToString(String, IFormatProvider)
+  fullName.vb: GTA.Math.Vector3.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+- uid: GTA.Math.Vector3.GetHashCode
+  commentId: M:GTA.Math.Vector3.GetHashCode
+  id: GetHashCode
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Vector3.GetHashCode()
+  fullName: GTA.Math.Vector3.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.Math.Vector3.GetHashCode*
+- uid: GTA.Math.Vector3.Equals(System.Object)
+  commentId: M:GTA.Math.Vector3.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Vector3.Equals(object)
+  fullName: GTA.Math.Vector3.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.Math.Vector3.Equals*
+  nameWithType.vb: Vector3.Equals(Object)
+  fullName.vb: GTA.Math.Vector3.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.Math.Vector3.Equals(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Vector3.Equals(GTA.Math.Vector3)
+  id: Equals(GTA.Math.Vector3)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Equals(Vector3)
+  nameWithType: Vector3.Equals(Vector3)
+  fullName: GTA.Math.Vector3.Equals(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public readonly bool Equals(Vector3 other)
+    parameters:
+    - id: other
+      type: GTA.Math.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Vector3) As Boolean
+  overload: GTA.Math.Vector3.Equals*
+  implements:
+  - System.IEquatable{GTA.Math.Vector3}.Equals(GTA.Math.Vector3)
+- uid: GTA.Math.Vector3.Normalized
+  commentId: P:GTA.Math.Vector3.Normalized
+  id: Normalized
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Normalized
+  nameWithType: Vector3.Normalized
+  fullName: GTA.Math.Vector3.Normalized
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 Normalized { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public ReadOnly Property Normalized As Vector3
+  overload: GTA.Math.Vector3.Normalized*
+- uid: GTA.Math.Vector3.Zero
+  commentId: P:GTA.Math.Vector3.Zero
+  id: Zero
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: Vector3.Zero
+  fullName: GTA.Math.Vector3.Zero
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 Zero { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property Zero As Vector3
+  overload: GTA.Math.Vector3.Zero*
+- uid: GTA.Math.Vector3.One
+  commentId: P:GTA.Math.Vector3.One
+  id: One
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: Vector3.One
+  fullName: GTA.Math.Vector3.One
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 One { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property One As Vector3
+  overload: GTA.Math.Vector3.One*
+- uid: GTA.Math.Vector3.UnitX
+  commentId: P:GTA.Math.Vector3.UnitX
+  id: UnitX
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: UnitX
+  nameWithType: Vector3.UnitX
+  fullName: GTA.Math.Vector3.UnitX
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 UnitX { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property UnitX As Vector3
+  overload: GTA.Math.Vector3.UnitX*
+- uid: GTA.Math.Vector3.UnitY
+  commentId: P:GTA.Math.Vector3.UnitY
+  id: UnitY
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: UnitY
+  nameWithType: Vector3.UnitY
+  fullName: GTA.Math.Vector3.UnitY
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 UnitY { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property UnitY As Vector3
+  overload: GTA.Math.Vector3.UnitY*
+- uid: GTA.Math.Vector3.UnitZ
+  commentId: P:GTA.Math.Vector3.UnitZ
+  id: UnitZ
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: UnitZ
+  nameWithType: Vector3.UnitZ
+  fullName: GTA.Math.Vector3.UnitZ
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 UnitZ { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property UnitZ As Vector3
+  overload: GTA.Math.Vector3.UnitZ*
+- uid: GTA.Math.Vector3.WorldUp
+  commentId: P:GTA.Math.Vector3.WorldUp
+  id: WorldUp
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: WorldUp
+  nameWithType: Vector3.WorldUp
+  fullName: GTA.Math.Vector3.WorldUp
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 WorldUp { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property WorldUp As Vector3
+  overload: GTA.Math.Vector3.WorldUp*
+- uid: GTA.Math.Vector3.WorldDown
+  commentId: P:GTA.Math.Vector3.WorldDown
+  id: WorldDown
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: WorldDown
+  nameWithType: Vector3.WorldDown
+  fullName: GTA.Math.Vector3.WorldDown
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 WorldDown { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property WorldDown As Vector3
+  overload: GTA.Math.Vector3.WorldDown*
+- uid: GTA.Math.Vector3.WorldNorth
+  commentId: P:GTA.Math.Vector3.WorldNorth
+  id: WorldNorth
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: WorldNorth
+  nameWithType: Vector3.WorldNorth
+  fullName: GTA.Math.Vector3.WorldNorth
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 WorldNorth { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property WorldNorth As Vector3
+  overload: GTA.Math.Vector3.WorldNorth*
+- uid: GTA.Math.Vector3.WorldSouth
+  commentId: P:GTA.Math.Vector3.WorldSouth
+  id: WorldSouth
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: WorldSouth
+  nameWithType: Vector3.WorldSouth
+  fullName: GTA.Math.Vector3.WorldSouth
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 WorldSouth { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property WorldSouth As Vector3
+  overload: GTA.Math.Vector3.WorldSouth*
+- uid: GTA.Math.Vector3.WorldEast
+  commentId: P:GTA.Math.Vector3.WorldEast
+  id: WorldEast
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: WorldEast
+  nameWithType: Vector3.WorldEast
+  fullName: GTA.Math.Vector3.WorldEast
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 WorldEast { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property WorldEast As Vector3
+  overload: GTA.Math.Vector3.WorldEast*
+- uid: GTA.Math.Vector3.WorldWest
+  commentId: P:GTA.Math.Vector3.WorldWest
+  id: WorldWest
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: WorldWest
+  nameWithType: Vector3.WorldWest
+  fullName: GTA.Math.Vector3.WorldWest
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 WorldWest { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property WorldWest As Vector3
+  overload: GTA.Math.Vector3.WorldWest*
+- uid: GTA.Math.Vector3.RelativeRight
+  commentId: P:GTA.Math.Vector3.RelativeRight
+  id: RelativeRight
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RelativeRight
+  nameWithType: Vector3.RelativeRight
+  fullName: GTA.Math.Vector3.RelativeRight
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RelativeRight { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property RelativeRight As Vector3
+  overload: GTA.Math.Vector3.RelativeRight*
+- uid: GTA.Math.Vector3.RelativeLeft
+  commentId: P:GTA.Math.Vector3.RelativeLeft
+  id: RelativeLeft
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RelativeLeft
+  nameWithType: Vector3.RelativeLeft
+  fullName: GTA.Math.Vector3.RelativeLeft
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RelativeLeft { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property RelativeLeft As Vector3
+  overload: GTA.Math.Vector3.RelativeLeft*
+- uid: GTA.Math.Vector3.RelativeFront
+  commentId: P:GTA.Math.Vector3.RelativeFront
+  id: RelativeFront
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RelativeFront
+  nameWithType: Vector3.RelativeFront
+  fullName: GTA.Math.Vector3.RelativeFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RelativeFront { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property RelativeFront As Vector3
+  overload: GTA.Math.Vector3.RelativeFront*
+- uid: GTA.Math.Vector3.RelativeBack
+  commentId: P:GTA.Math.Vector3.RelativeBack
+  id: RelativeBack
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RelativeBack
+  nameWithType: Vector3.RelativeBack
+  fullName: GTA.Math.Vector3.RelativeBack
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RelativeBack { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property RelativeBack As Vector3
+  overload: GTA.Math.Vector3.RelativeBack*
+- uid: GTA.Math.Vector3.RelativeTop
+  commentId: P:GTA.Math.Vector3.RelativeTop
+  id: RelativeTop
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RelativeTop
+  nameWithType: Vector3.RelativeTop
+  fullName: GTA.Math.Vector3.RelativeTop
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RelativeTop { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property RelativeTop As Vector3
+  overload: GTA.Math.Vector3.RelativeTop*
+- uid: GTA.Math.Vector3.RelativeBottom
+  commentId: P:GTA.Math.Vector3.RelativeBottom
+  id: RelativeBottom
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: RelativeBottom
+  nameWithType: Vector3.RelativeBottom
+  fullName: GTA.Math.Vector3.RelativeBottom
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Vector3 RelativeBottom { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Shared ReadOnly Property RelativeBottom As Vector3
+  overload: GTA.Math.Vector3.RelativeBottom*
+- uid: GTA.Math.Vector3.Item(System.Int32)
+  commentId: P:GTA.Math.Vector3.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: GTA.Math.Vector3
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Vector3.this[int]
+  fullName: GTA.Math.Vector3.this[int]
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float this[int index] { readonly get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Default Property this[](index As Integer) As Single
+  overload: GTA.Math.Vector3.Item*
+  nameWithType.vb: Vector3.this[](Integer)
+  fullName.vb: GTA.Math.Vector3.this[](Integer)
+  name.vb: this[](Integer)
+references:
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: System.IEquatable{GTA.Math.Vector3}
+  commentId: T:System.IEquatable{GTA.Math.Vector3}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Vector3>
+  nameWithType: IEquatable<Vector3>
+  fullName: System.IEquatable<GTA.Math.Vector3>
+  nameWithType.vb: IEquatable(Of Vector3)
+  fullName.vb: System.IEquatable(Of GTA.Math.Vector3)
+  name.vb: IEquatable(Of Vector3)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: System.IFormattable
+  commentId: T:System.IFormattable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable
+  name: IFormattable
+  nameWithType: IFormattable
+  fullName: System.IFormattable
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.Math.Vector3.#ctor*
+  commentId: Overload:GTA.Math.Vector3.#ctor
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3__ctor_System_Single_System_Single_System_Single_
+  name: Vector3
+  nameWithType: Vector3.Vector3
+  fullName: GTA.Math.Vector3.Vector3
+  nameWithType.vb: Vector3.New
+  fullName.vb: GTA.Math.Vector3.New
+  name.vb: New
+- uid: GTA.Math.Vector3.Length*
+  commentId: Overload:GTA.Math.Vector3.Length
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Length
+  name: Length
+  nameWithType: Vector3.Length
+  fullName: GTA.Math.Vector3.Length
+- uid: GTA.Math.Vector3.LengthSquared*
+  commentId: Overload:GTA.Math.Vector3.LengthSquared
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_LengthSquared
+  name: LengthSquared
+  nameWithType: Vector3.LengthSquared
+  fullName: GTA.Math.Vector3.LengthSquared
+- uid: GTA.Math.Vector3.Normalize*
+  commentId: Overload:GTA.Math.Vector3.Normalize
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Normalize
+  name: Normalize
+  nameWithType: Vector3.Normalize
+  fullName: GTA.Math.Vector3.Normalize
+- uid: GTA.Math.Vector3.DistanceTo*
+  commentId: Overload:GTA.Math.Vector3.DistanceTo
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_DistanceTo_GTA_Math_Vector3_
+  name: DistanceTo
+  nameWithType: Vector3.DistanceTo
+  fullName: GTA.Math.Vector3.DistanceTo
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math.Vector3.DistanceToSquared*
+  commentId: Overload:GTA.Math.Vector3.DistanceToSquared
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_DistanceToSquared_GTA_Math_Vector3_
+  name: DistanceToSquared
+  nameWithType: Vector3.DistanceToSquared
+  fullName: GTA.Math.Vector3.DistanceToSquared
+- uid: GTA.Math.Vector3.DistanceTo2D*
+  commentId: Overload:GTA.Math.Vector3.DistanceTo2D
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_DistanceTo2D_GTA_Math_Vector3_
+  name: DistanceTo2D
+  nameWithType: Vector3.DistanceTo2D
+  fullName: GTA.Math.Vector3.DistanceTo2D
+- uid: GTA.Math.Vector3.DistanceToSquared2D*
+  commentId: Overload:GTA.Math.Vector3.DistanceToSquared2D
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_DistanceToSquared2D_GTA_Math_Vector3_
+  name: DistanceToSquared2D
+  nameWithType: Vector3.DistanceToSquared2D
+  fullName: GTA.Math.Vector3.DistanceToSquared2D
+- uid: GTA.Math.Vector3.Distance*
+  commentId: Overload:GTA.Math.Vector3.Distance
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Distance_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Distance
+  nameWithType: Vector3.Distance
+  fullName: GTA.Math.Vector3.Distance
+- uid: GTA.Math.Vector3.DistanceSquared*
+  commentId: Overload:GTA.Math.Vector3.DistanceSquared
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_DistanceSquared_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: DistanceSquared
+  nameWithType: Vector3.DistanceSquared
+  fullName: GTA.Math.Vector3.DistanceSquared
+- uid: GTA.Math.Vector3.Distance2D*
+  commentId: Overload:GTA.Math.Vector3.Distance2D
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Distance2D_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Distance2D
+  nameWithType: Vector3.Distance2D
+  fullName: GTA.Math.Vector3.Distance2D
+- uid: GTA.Math.Vector3.DistanceSquared2D*
+  commentId: Overload:GTA.Math.Vector3.DistanceSquared2D
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_DistanceSquared2D_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: DistanceSquared2D
+  nameWithType: Vector3.DistanceSquared2D
+  fullName: GTA.Math.Vector3.DistanceSquared2D
+- uid: GTA.Math.Vector3.Angle*
+  commentId: Overload:GTA.Math.Vector3.Angle
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Angle_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Angle
+  nameWithType: Vector3.Angle
+  fullName: GTA.Math.Vector3.Angle
+- uid: GTA.Math.Vector3.SignedAngle*
+  commentId: Overload:GTA.Math.Vector3.SignedAngle
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_SignedAngle_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: SignedAngle
+  nameWithType: Vector3.SignedAngle
+  fullName: GTA.Math.Vector3.SignedAngle
+- uid: GTA.Math.Vector3.ToHeading*
+  commentId: Overload:GTA.Math.Vector3.ToHeading
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_ToHeading
+  name: ToHeading
+  nameWithType: Vector3.ToHeading
+  fullName: GTA.Math.Vector3.ToHeading
+- uid: GTA.Math.Vector3.Around*
+  commentId: Overload:GTA.Math.Vector3.Around
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Around_System_Single_
+  name: Around
+  nameWithType: Vector3.Around
+  fullName: GTA.Math.Vector3.Around
+- uid: GTA.Math.Vector3.Round*
+  commentId: Overload:GTA.Math.Vector3.Round
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Round_System_Int32_
+  name: Round
+  nameWithType: Vector3.Round
+  fullName: GTA.Math.Vector3.Round
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.Math.Vector3.RandomXY*
+  commentId: Overload:GTA.Math.Vector3.RandomXY
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RandomXY
+  name: RandomXY
+  nameWithType: Vector3.RandomXY
+  fullName: GTA.Math.Vector3.RandomXY
+- uid: GTA.Math.Vector3.RandomXYZ*
+  commentId: Overload:GTA.Math.Vector3.RandomXYZ
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RandomXYZ
+  name: RandomXYZ
+  nameWithType: Vector3.RandomXYZ
+  fullName: GTA.Math.Vector3.RandomXYZ
+- uid: GTA.Math.Vector3.Add*
+  commentId: Overload:GTA.Math.Vector3.Add
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Add_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Add
+  nameWithType: Vector3.Add
+  fullName: GTA.Math.Vector3.Add
+- uid: GTA.Math.Vector3.Subtract*
+  commentId: Overload:GTA.Math.Vector3.Subtract
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Subtract_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Subtract
+  nameWithType: Vector3.Subtract
+  fullName: GTA.Math.Vector3.Subtract
+- uid: GTA.Math.Vector3.Multiply*
+  commentId: Overload:GTA.Math.Vector3.Multiply
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Multiply_GTA_Math_Vector3_System_Single_
+  name: Multiply
+  nameWithType: Vector3.Multiply
+  fullName: GTA.Math.Vector3.Multiply
+- uid: GTA.Math.Vector3.Divide*
+  commentId: Overload:GTA.Math.Vector3.Divide
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Divide_GTA_Math_Vector3_System_Single_
+  name: Divide
+  nameWithType: Vector3.Divide
+  fullName: GTA.Math.Vector3.Divide
+- uid: GTA.Math.Vector3.Negate*
+  commentId: Overload:GTA.Math.Vector3.Negate
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Negate_GTA_Math_Vector3_
+  name: Negate
+  nameWithType: Vector3.Negate
+  fullName: GTA.Math.Vector3.Negate
+- uid: GTA.Math.Vector3.Clamp*
+  commentId: Overload:GTA.Math.Vector3.Clamp
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Clamp_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Clamp
+  nameWithType: Vector3.Clamp
+  fullName: GTA.Math.Vector3.Clamp
+- uid: GTA.Math.Vector3.Lerp*
+  commentId: Overload:GTA.Math.Vector3.Lerp
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Lerp_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_
+  name: Lerp
+  nameWithType: Vector3.Lerp
+  fullName: GTA.Math.Vector3.Lerp
+- uid: GTA.Math.Vector3.Dot*
+  commentId: Overload:GTA.Math.Vector3.Dot
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Dot_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Dot
+  nameWithType: Vector3.Dot
+  fullName: GTA.Math.Vector3.Dot
+- uid: GTA.Math.Vector3.Cross*
+  commentId: Overload:GTA.Math.Vector3.Cross
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Cross_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Cross
+  nameWithType: Vector3.Cross
+  fullName: GTA.Math.Vector3.Cross
+- uid: GTA.Math.Vector3.Project*
+  commentId: Overload:GTA.Math.Vector3.Project
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Project_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Project
+  nameWithType: Vector3.Project
+  fullName: GTA.Math.Vector3.Project
+- uid: GTA.Math.Vector3.ProjectOnPlane*
+  commentId: Overload:GTA.Math.Vector3.ProjectOnPlane
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_ProjectOnPlane_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: ProjectOnPlane
+  nameWithType: Vector3.ProjectOnPlane
+  fullName: GTA.Math.Vector3.ProjectOnPlane
+- uid: GTA.Math.Vector3.Reflect*
+  commentId: Overload:GTA.Math.Vector3.Reflect
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Reflect_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Reflect
+  nameWithType: Vector3.Reflect
+  fullName: GTA.Math.Vector3.Reflect
+- uid: GTA.Math.Vector3.Minimize*
+  commentId: Overload:GTA.Math.Vector3.Minimize
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Minimize_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Minimize
+  nameWithType: Vector3.Minimize
+  fullName: GTA.Math.Vector3.Minimize
+- uid: GTA.Math.Vector3.Maximize*
+  commentId: Overload:GTA.Math.Vector3.Maximize
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Maximize_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: Maximize
+  nameWithType: Vector3.Maximize
+  fullName: GTA.Math.Vector3.Maximize
+- uid: GTA.Math.Vector3.op_Addition*
+  commentId: Overload:GTA.Math.Vector3.op_Addition
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Addition_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: operator +
+  nameWithType: Vector3.operator +
+  fullName: GTA.Math.Vector3.operator +
+  nameWithType.vb: Vector3.+
+  fullName.vb: GTA.Math.Vector3.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_Addition*
+    name: +
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Addition_GTA_Math_Vector3_GTA_Math_Vector3_
+- uid: GTA.Math.Vector3.op_Subtraction*
+  commentId: Overload:GTA.Math.Vector3.op_Subtraction
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Subtraction_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: operator -
+  nameWithType: Vector3.operator -
+  fullName: GTA.Math.Vector3.operator -
+  nameWithType.vb: Vector3.-
+  fullName.vb: GTA.Math.Vector3.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_Subtraction*
+    name: '-'
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Subtraction_GTA_Math_Vector3_GTA_Math_Vector3_
+- uid: GTA.Math.Vector3.op_UnaryNegation*
+  commentId: Overload:GTA.Math.Vector3.op_UnaryNegation
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_UnaryNegation_GTA_Math_Vector3_
+  name: operator -
+  nameWithType: Vector3.operator -
+  fullName: GTA.Math.Vector3.operator -
+  nameWithType.vb: Vector3.-
+  fullName.vb: GTA.Math.Vector3.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_UnaryNegation*
+    name: '-'
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_UnaryNegation_GTA_Math_Vector3_
+- uid: GTA.Math.Vector3.op_Multiply*
+  commentId: Overload:GTA.Math.Vector3.op_Multiply
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Multiply_GTA_Math_Vector3_System_Single_
+  name: operator *
+  nameWithType: Vector3.operator *
+  fullName: GTA.Math.Vector3.operator *
+  nameWithType.vb: Vector3.*
+  fullName.vb: GTA.Math.Vector3.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_Multiply*
+    name: '*'
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Multiply_GTA_Math_Vector3_System_Single_
+- uid: GTA.Math.Vector3.op_Division*
+  commentId: Overload:GTA.Math.Vector3.op_Division
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Division_GTA_Math_Vector3_System_Single_
+  name: operator /
+  nameWithType: Vector3.operator /
+  fullName: GTA.Math.Vector3.operator /
+  nameWithType.vb: Vector3./
+  fullName.vb: GTA.Math.Vector3./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_Division*
+    name: /
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Division_GTA_Math_Vector3_System_Single_
+- uid: GTA.Math.Vector3.op_Equality*
+  commentId: Overload:GTA.Math.Vector3.op_Equality
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Equality_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: operator ==
+  nameWithType: Vector3.operator ==
+  fullName: GTA.Math.Vector3.operator ==
+  nameWithType.vb: Vector3.=
+  fullName.vb: GTA.Math.Vector3.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Equality_GTA_Math_Vector3_GTA_Math_Vector3_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Math.Vector3.op_Inequality*
+  commentId: Overload:GTA.Math.Vector3.op_Inequality
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Inequality_GTA_Math_Vector3_GTA_Math_Vector3_
+  name: operator !=
+  nameWithType: Vector3.operator !=
+  fullName: GTA.Math.Vector3.operator !=
+  nameWithType.vb: Vector3.<>
+  fullName.vb: GTA.Math.Vector3.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Vector3.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.Math.Vector3.html#GTA_Math_Vector3_op_Inequality_GTA_Math_Vector3_GTA_Math_Vector3_
+- uid: GTA.Math.Vector3.op_Implicit*
+  commentId: Overload:GTA.Math.Vector3.op_Implicit
+  name: implicit operator
+  nameWithType: Vector3.implicit operator
+  fullName: GTA.Math.Vector3.implicit operator
+  nameWithType.vb: Vector3.CType
+  fullName.vb: GTA.Math.Vector3.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Math.Vector2
+  commentId: T:GTA.Math.Vector2
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: GTA.Math.Vector2
+- uid: GTA.Math.Vector3.ToArray*
+  commentId: Overload:GTA.Math.Vector3.ToArray
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_ToArray
+  name: ToArray
+  nameWithType: Vector3.ToArray
+  fullName: GTA.Math.Vector3.ToArray
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.Math.Vector3.ToString*
+  commentId: Overload:GTA.Math.Vector3.ToString
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_ToString
+  name: ToString
+  nameWithType: Vector3.ToString
+  fullName: GTA.Math.Vector3.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+  commentId: M:System.IFormattable.ToString(System.String,System.IFormatProvider)
+  parent: System.IFormattable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  name: ToString(string, IFormatProvider)
+  nameWithType: IFormattable.ToString(string, IFormatProvider)
+  fullName: System.IFormattable.ToString(string, System.IFormatProvider)
+  nameWithType.vb: IFormattable.ToString(String, IFormatProvider)
+  fullName.vb: System.IFormattable.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+  spec.csharp:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+  spec.vb:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.Math.Vector3.GetHashCode*
+  commentId: Overload:GTA.Math.Vector3.GetHashCode
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_GetHashCode
+  name: GetHashCode
+  nameWithType: Vector3.GetHashCode
+  fullName: GTA.Math.Vector3.GetHashCode
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.Math.Vector3.Equals*
+  commentId: Overload:GTA.Math.Vector3.Equals
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Equals_System_Object_
+  name: Equals
+  nameWithType: Vector3.Equals
+  fullName: GTA.Math.Vector3.Equals
+- uid: System.IEquatable{GTA.Math.Vector3}.Equals(GTA.Math.Vector3)
+  commentId: M:System.IEquatable{GTA.Math.Vector3}.Equals(GTA.Math.Vector3)
+  parent: System.IEquatable{GTA.Math.Vector3}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Vector3)
+  nameWithType: IEquatable<Vector3>.Equals(Vector3)
+  fullName: System.IEquatable<GTA.Math.Vector3>.Equals(GTA.Math.Vector3)
+  nameWithType.vb: IEquatable(Of Vector3).Equals(Vector3)
+  fullName.vb: System.IEquatable(Of GTA.Math.Vector3).Equals(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.Math.Vector3}.Equals(GTA.Math.Vector3)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.Math.Vector3}.Equals(GTA.Math.Vector3)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: GTA.Math.Vector3.Normalized*
+  commentId: Overload:GTA.Math.Vector3.Normalized
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Normalized
+  name: Normalized
+  nameWithType: Vector3.Normalized
+  fullName: GTA.Math.Vector3.Normalized
+- uid: GTA.Math.Vector3.Zero*
+  commentId: Overload:GTA.Math.Vector3.Zero
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Zero
+  name: Zero
+  nameWithType: Vector3.Zero
+  fullName: GTA.Math.Vector3.Zero
+- uid: GTA.Math.Vector3.One*
+  commentId: Overload:GTA.Math.Vector3.One
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_One
+  name: One
+  nameWithType: Vector3.One
+  fullName: GTA.Math.Vector3.One
+- uid: GTA.Math.Vector3.UnitX*
+  commentId: Overload:GTA.Math.Vector3.UnitX
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_UnitX
+  name: UnitX
+  nameWithType: Vector3.UnitX
+  fullName: GTA.Math.Vector3.UnitX
+- uid: GTA.Math.Vector3.UnitY*
+  commentId: Overload:GTA.Math.Vector3.UnitY
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_UnitY
+  name: UnitY
+  nameWithType: Vector3.UnitY
+  fullName: GTA.Math.Vector3.UnitY
+- uid: GTA.Math.Vector3.UnitZ*
+  commentId: Overload:GTA.Math.Vector3.UnitZ
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_UnitZ
+  name: UnitZ
+  nameWithType: Vector3.UnitZ
+  fullName: GTA.Math.Vector3.UnitZ
+- uid: GTA.Math.Vector3.WorldUp*
+  commentId: Overload:GTA.Math.Vector3.WorldUp
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_WorldUp
+  name: WorldUp
+  nameWithType: Vector3.WorldUp
+  fullName: GTA.Math.Vector3.WorldUp
+- uid: GTA.Math.Vector3.WorldDown*
+  commentId: Overload:GTA.Math.Vector3.WorldDown
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_WorldDown
+  name: WorldDown
+  nameWithType: Vector3.WorldDown
+  fullName: GTA.Math.Vector3.WorldDown
+- uid: GTA.Math.Vector3.WorldNorth*
+  commentId: Overload:GTA.Math.Vector3.WorldNorth
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_WorldNorth
+  name: WorldNorth
+  nameWithType: Vector3.WorldNorth
+  fullName: GTA.Math.Vector3.WorldNorth
+- uid: GTA.Math.Vector3.WorldSouth*
+  commentId: Overload:GTA.Math.Vector3.WorldSouth
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_WorldSouth
+  name: WorldSouth
+  nameWithType: Vector3.WorldSouth
+  fullName: GTA.Math.Vector3.WorldSouth
+- uid: GTA.Math.Vector3.WorldEast*
+  commentId: Overload:GTA.Math.Vector3.WorldEast
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_WorldEast
+  name: WorldEast
+  nameWithType: Vector3.WorldEast
+  fullName: GTA.Math.Vector3.WorldEast
+- uid: GTA.Math.Vector3.WorldWest*
+  commentId: Overload:GTA.Math.Vector3.WorldWest
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_WorldWest
+  name: WorldWest
+  nameWithType: Vector3.WorldWest
+  fullName: GTA.Math.Vector3.WorldWest
+- uid: GTA.Math.Vector3.RelativeRight*
+  commentId: Overload:GTA.Math.Vector3.RelativeRight
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RelativeRight
+  name: RelativeRight
+  nameWithType: Vector3.RelativeRight
+  fullName: GTA.Math.Vector3.RelativeRight
+- uid: GTA.Math.Vector3.RelativeLeft*
+  commentId: Overload:GTA.Math.Vector3.RelativeLeft
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RelativeLeft
+  name: RelativeLeft
+  nameWithType: Vector3.RelativeLeft
+  fullName: GTA.Math.Vector3.RelativeLeft
+- uid: GTA.Math.Vector3.RelativeFront*
+  commentId: Overload:GTA.Math.Vector3.RelativeFront
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RelativeFront
+  name: RelativeFront
+  nameWithType: Vector3.RelativeFront
+  fullName: GTA.Math.Vector3.RelativeFront
+- uid: GTA.Math.Vector3.RelativeBack*
+  commentId: Overload:GTA.Math.Vector3.RelativeBack
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RelativeBack
+  name: RelativeBack
+  nameWithType: Vector3.RelativeBack
+  fullName: GTA.Math.Vector3.RelativeBack
+- uid: GTA.Math.Vector3.RelativeTop*
+  commentId: Overload:GTA.Math.Vector3.RelativeTop
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RelativeTop
+  name: RelativeTop
+  nameWithType: Vector3.RelativeTop
+  fullName: GTA.Math.Vector3.RelativeTop
+- uid: GTA.Math.Vector3.RelativeBottom*
+  commentId: Overload:GTA.Math.Vector3.RelativeBottom
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_RelativeBottom
+  name: RelativeBottom
+  nameWithType: Vector3.RelativeBottom
+  fullName: GTA.Math.Vector3.RelativeBottom
+- uid: GTA.Math.Vector3.Item*
+  commentId: Overload:GTA.Math.Vector3.Item
+  isExternal: true
+  href: GTA.Math.Vector3.html#GTA_Math_Vector3_Item_System_Int32_
+  name: this
+  nameWithType: Vector3.this
+  fullName: GTA.Math.Vector3.this
+  nameWithType.vb: Vector3.this[]
+  fullName.vb: GTA.Math.Vector3.this[]
+  name.vb: this[]

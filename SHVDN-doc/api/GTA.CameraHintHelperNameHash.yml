@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CameraHintHelperNameHash
+  commentId: T:GTA.CameraHintHelperNameHash
+  id: CameraHintHelperNameHash
+  parent: GTA
+  children:
+  - GTA.CameraHintHelperNameHash.AgencyHeist3BSkyDivingHintHelper
+  - GTA.CameraHintHelperNameHash.Arm2Mcs6VehicleHintHelper
+  - GTA.CameraHintHelperNameHash.Arm3VehicleHintHelper
+  - GTA.CameraHintHelperNameHash.ChopHintHelper
+  - GTA.CameraHintHelperNameHash.DefaultHintHelper
+  - GTA.CameraHintHelperNameHash.Family3CoachOnBalconyVehicleHintHelper
+  - GTA.CameraHintHelperNameHash.Family3HouseVehicleHintHelper
+  - GTA.CameraHintHelperNameHash.KillerCamHintHelper
+  - GTA.CameraHintHelperNameHash.NoFovHintHelper
+  - GTA.CameraHintHelperNameHash.None
+  - GTA.CameraHintHelperNameHash.SkyDivingHintHelper
+  - GTA.CameraHintHelperNameHash.VehicleHighZoomHintHelper
+  - GTA.CameraHintHelperNameHash.VehicleHintHelper
+  langs:
+  - csharp
+  - vb
+  name: CameraHintHelperNameHash
+  nameWithType: CameraHintHelperNameHash
+  fullName: GTA.CameraHintHelperNameHash
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public enum CameraHintHelperNameHash : uint'
+    content.vb: Public Enum CameraHintHelperNameHash As UInteger
+- uid: GTA.CameraHintHelperNameHash.None
+  commentId: F:GTA.CameraHintHelperNameHash.None
+  id: None
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CameraHintHelperNameHash.None
+  fullName: GTA.CameraHintHelperNameHash.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.DefaultHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.DefaultHintHelper
+  id: DefaultHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: DefaultHintHelper
+  nameWithType: CameraHintHelperNameHash.DefaultHintHelper
+  fullName: GTA.CameraHintHelperNameHash.DefaultHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DefaultHintHelper = 1803756875
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.SkyDivingHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.SkyDivingHintHelper
+  id: SkyDivingHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: SkyDivingHintHelper
+  nameWithType: CameraHintHelperNameHash.SkyDivingHintHelper
+  fullName: GTA.CameraHintHelperNameHash.SkyDivingHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SkyDivingHintHelper = 3567339302
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.VehicleHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.VehicleHintHelper
+  id: VehicleHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: VehicleHintHelper
+  nameWithType: CameraHintHelperNameHash.VehicleHintHelper
+  fullName: GTA.CameraHintHelperNameHash.VehicleHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VehicleHintHelper = 181066347
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.NoFovHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.NoFovHintHelper
+  id: NoFovHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: NoFovHintHelper
+  nameWithType: CameraHintHelperNameHash.NoFovHintHelper
+  fullName: GTA.CameraHintHelperNameHash.NoFovHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NoFovHintHelper = 1511508800
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.VehicleHighZoomHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.VehicleHighZoomHintHelper
+  id: VehicleHighZoomHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: VehicleHighZoomHintHelper
+  nameWithType: CameraHintHelperNameHash.VehicleHighZoomHintHelper
+  fullName: GTA.CameraHintHelperNameHash.VehicleHighZoomHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VehicleHighZoomHintHelper = 1726668277
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.Arm3VehicleHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.Arm3VehicleHintHelper
+  id: Arm3VehicleHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: Arm3VehicleHintHelper
+  nameWithType: CameraHintHelperNameHash.Arm3VehicleHintHelper
+  fullName: GTA.CameraHintHelperNameHash.Arm3VehicleHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Arm3VehicleHintHelper = 1726668277
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.AgencyHeist3BSkyDivingHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.AgencyHeist3BSkyDivingHintHelper
+  id: AgencyHeist3BSkyDivingHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: AgencyHeist3BSkyDivingHintHelper
+  nameWithType: CameraHintHelperNameHash.AgencyHeist3BSkyDivingHintHelper
+  fullName: GTA.CameraHintHelperNameHash.AgencyHeist3BSkyDivingHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AgencyHeist3BSkyDivingHintHelper = 1213015174
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.Family3HouseVehicleHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.Family3HouseVehicleHintHelper
+  id: Family3HouseVehicleHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: Family3HouseVehicleHintHelper
+  nameWithType: CameraHintHelperNameHash.Family3HouseVehicleHintHelper
+  fullName: GTA.CameraHintHelperNameHash.Family3HouseVehicleHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Family3HouseVehicleHintHelper = 3171128396
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.Arm2Mcs6VehicleHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.Arm2Mcs6VehicleHintHelper
+  id: Arm2Mcs6VehicleHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: Arm2Mcs6VehicleHintHelper
+  nameWithType: CameraHintHelperNameHash.Arm2Mcs6VehicleHintHelper
+  fullName: GTA.CameraHintHelperNameHash.Arm2Mcs6VehicleHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Arm2Mcs6VehicleHintHelper = 2010485655
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.KillerCamHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.KillerCamHintHelper
+  id: KillerCamHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: KillerCamHintHelper
+  nameWithType: CameraHintHelperNameHash.KillerCamHintHelper
+  fullName: GTA.CameraHintHelperNameHash.KillerCamHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: KillerCamHintHelper = 1844968929
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.Family3CoachOnBalconyVehicleHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.Family3CoachOnBalconyVehicleHintHelper
+  id: Family3CoachOnBalconyVehicleHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: Family3CoachOnBalconyVehicleHintHelper
+  nameWithType: CameraHintHelperNameHash.Family3CoachOnBalconyVehicleHintHelper
+  fullName: GTA.CameraHintHelperNameHash.Family3CoachOnBalconyVehicleHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Family3CoachOnBalconyVehicleHintHelper = 4207186672
+    return:
+      type: GTA.CameraHintHelperNameHash
+- uid: GTA.CameraHintHelperNameHash.ChopHintHelper
+  commentId: F:GTA.CameraHintHelperNameHash.ChopHintHelper
+  id: ChopHintHelper
+  parent: GTA.CameraHintHelperNameHash
+  langs:
+  - csharp
+  - vb
+  name: ChopHintHelper
+  nameWithType: CameraHintHelperNameHash.ChopHintHelper
+  fullName: GTA.CameraHintHelperNameHash.ChopHintHelper
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ChopHintHelper = 193150208
+    return:
+      type: GTA.CameraHintHelperNameHash
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CameraHintHelperNameHash
+  commentId: T:GTA.CameraHintHelperNameHash
+  parent: GTA
+  isExternal: true
+  href: GTA.CameraHintHelperNameHash.html
+  name: CameraHintHelperNameHash
+  nameWithType: CameraHintHelperNameHash
+  fullName: GTA.CameraHintHelperNameHash

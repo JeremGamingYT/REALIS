@@ -1,0 +1,890 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.BodyFoetalHelper
+  commentId: T:GTA.NaturalMotion.BodyFoetalHelper
+  id: BodyFoetalHelper
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.BodyFoetalHelper.#ctor(GTA.Ped)
+  - GTA.NaturalMotion.BodyFoetalHelper.Asymmetry
+  - GTA.NaturalMotion.BodyFoetalHelper.BackTwist
+  - GTA.NaturalMotion.BodyFoetalHelper.DampingFactor
+  - GTA.NaturalMotion.BodyFoetalHelper.Mask
+  - GTA.NaturalMotion.BodyFoetalHelper.RandomSeed
+  - GTA.NaturalMotion.BodyFoetalHelper.Stiffness
+  langs:
+  - csharp
+  - vb
+  name: BodyFoetalHelper
+  nameWithType: BodyFoetalHelper
+  fullName: GTA.NaturalMotion.BodyFoetalHelper
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: 'public sealed class BodyFoetalHelper : CustomHelper'
+    content.vb: Public NotInheritable Class BodyFoetalHelper Inherits CustomHelper
+  inheritance:
+  - System.Object
+  - GTA.NaturalMotion.CustomHelper
+  inheritedMembers:
+  - GTA.NaturalMotion.CustomHelper.Start
+  - GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  - GTA.NaturalMotion.CustomHelper.Update
+  - GTA.NaturalMotion.CustomHelper.Stop
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  - GTA.NaturalMotion.CustomHelper.ResetArguments
+  - GTA.NaturalMotion.CustomHelper.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.NaturalMotion.BodyFoetalHelper.#ctor(GTA.Ped)
+  commentId: M:GTA.NaturalMotion.BodyFoetalHelper.#ctor(GTA.Ped)
+  id: '#ctor(GTA.Ped)'
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: BodyFoetalHelper(Ped)
+  nameWithType: BodyFoetalHelper.BodyFoetalHelper(Ped)
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.BodyFoetalHelper(GTA.Ped)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public BodyFoetalHelper(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    content.vb: Public Sub New(ped As Ped)
+  overload: GTA.NaturalMotion.BodyFoetalHelper.#ctor*
+  nameWithType.vb: BodyFoetalHelper.New(Ped)
+  fullName.vb: GTA.NaturalMotion.BodyFoetalHelper.New(GTA.Ped)
+  name.vb: New(Ped)
+- uid: GTA.NaturalMotion.BodyFoetalHelper.Stiffness
+  commentId: P:GTA.NaturalMotion.BodyFoetalHelper.Stiffness
+  id: Stiffness
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: Stiffness
+  nameWithType: BodyFoetalHelper.Stiffness
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.Stiffness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Stiffness { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Stiffness As Single
+  overload: GTA.NaturalMotion.BodyFoetalHelper.Stiffness*
+- uid: GTA.NaturalMotion.BodyFoetalHelper.DampingFactor
+  commentId: P:GTA.NaturalMotion.BodyFoetalHelper.DampingFactor
+  id: DampingFactor
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: DampingFactor
+  nameWithType: BodyFoetalHelper.DampingFactor
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.DampingFactor
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float DampingFactor { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DampingFactor As Single
+  overload: GTA.NaturalMotion.BodyFoetalHelper.DampingFactor*
+- uid: GTA.NaturalMotion.BodyFoetalHelper.Asymmetry
+  commentId: P:GTA.NaturalMotion.BodyFoetalHelper.Asymmetry
+  id: Asymmetry
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: Asymmetry
+  nameWithType: BodyFoetalHelper.Asymmetry
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.Asymmetry
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Asymmetry { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Asymmetry As Single
+  overload: GTA.NaturalMotion.BodyFoetalHelper.Asymmetry*
+- uid: GTA.NaturalMotion.BodyFoetalHelper.RandomSeed
+  commentId: P:GTA.NaturalMotion.BodyFoetalHelper.RandomSeed
+  id: RandomSeed
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: RandomSeed
+  nameWithType: BodyFoetalHelper.RandomSeed
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.RandomSeed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int RandomSeed { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property RandomSeed As Integer
+  overload: GTA.NaturalMotion.BodyFoetalHelper.RandomSeed*
+- uid: GTA.NaturalMotion.BodyFoetalHelper.BackTwist
+  commentId: P:GTA.NaturalMotion.BodyFoetalHelper.BackTwist
+  id: BackTwist
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: BackTwist
+  nameWithType: BodyFoetalHelper.BackTwist
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.BackTwist
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float BackTwist { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property BackTwist As Single
+  overload: GTA.NaturalMotion.BodyFoetalHelper.BackTwist*
+- uid: GTA.NaturalMotion.BodyFoetalHelper.Mask
+  commentId: P:GTA.NaturalMotion.BodyFoetalHelper.Mask
+  id: Mask
+  parent: GTA.NaturalMotion.BodyFoetalHelper
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: BodyFoetalHelper.Mask
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.Mask
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public string Mask { set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public WriteOnly Property Mask As String
+  overload: GTA.NaturalMotion.BodyFoetalHelper.Mask*
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.NaturalMotion.CustomHelper
+  commentId: T:GTA.NaturalMotion.CustomHelper
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html
+  name: CustomHelper
+  nameWithType: CustomHelper
+  fullName: GTA.NaturalMotion.CustomHelper
+- uid: GTA.NaturalMotion.CustomHelper.Start
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  name: Start()
+  nameWithType: CustomHelper.Start()
+  fullName: GTA.NaturalMotion.CustomHelper.Start()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  name: Start(int)
+  nameWithType: CustomHelper.Start(int)
+  fullName: GTA.NaturalMotion.CustomHelper.Start(int)
+  nameWithType.vb: CustomHelper.Start(Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.Start(Integer)
+  name.vb: Start(Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Update
+  commentId: M:GTA.NaturalMotion.CustomHelper.Update
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  name: Update()
+  nameWithType: CustomHelper.Update()
+  fullName: GTA.NaturalMotion.CustomHelper.Update()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Stop
+  commentId: M:GTA.NaturalMotion.CustomHelper.Stop
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  name: Stop()
+  nameWithType: CustomHelper.Stop()
+  fullName: GTA.NaturalMotion.CustomHelper.Stop()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  name: SetArgument(string, bool)
+  nameWithType: CustomHelper.SetArgument(string, bool)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, bool)
+  nameWithType.vb: CustomHelper.SetArgument(String, Boolean)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Boolean)
+  name.vb: SetArgument(String, Boolean)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  name: SetArgument(string, int)
+  nameWithType: CustomHelper.SetArgument(string, int)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, int)
+  nameWithType.vb: CustomHelper.SetArgument(String, Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Integer)
+  name.vb: SetArgument(String, Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  name: SetArgument(string, float)
+  nameWithType: CustomHelper.SetArgument(string, float)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, float)
+  nameWithType.vb: CustomHelper.SetArgument(String, Single)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Single)
+  name.vb: SetArgument(String, Single)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  name: SetArgument(string, string)
+  nameWithType: CustomHelper.SetArgument(string, string)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, string)
+  nameWithType.vb: CustomHelper.SetArgument(String, String)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, String)
+  name.vb: SetArgument(String, String)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  name: SetArgument(string, Vector3)
+  nameWithType: CustomHelper.SetArgument(string, Vector3)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, GTA.Math.Vector3)
+  nameWithType.vb: CustomHelper.SetArgument(String, Vector3)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, GTA.Math.Vector3)
+  name.vb: SetArgument(String, Vector3)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+  commentId: M:GTA.NaturalMotion.CustomHelper.ResetArguments
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  name: ResetArguments()
+  nameWithType: CustomHelper.ResetArguments()
+  fullName: GTA.NaturalMotion.CustomHelper.ResetArguments()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ToString
+  commentId: M:GTA.NaturalMotion.CustomHelper.ToString
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  name: ToString()
+  nameWithType: CustomHelper.ToString()
+  fullName: GTA.NaturalMotion.CustomHelper.ToString()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.NaturalMotion.BodyFoetalHelper.#ctor*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.#ctor
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper__ctor_GTA_Ped_
+  name: BodyFoetalHelper
+  nameWithType: BodyFoetalHelper.BodyFoetalHelper
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.BodyFoetalHelper
+  nameWithType.vb: BodyFoetalHelper.New
+  fullName.vb: GTA.NaturalMotion.BodyFoetalHelper.New
+  name.vb: New
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NaturalMotion.BodyFoetalHelper.Stiffness*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.Stiffness
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper_Stiffness
+  name: Stiffness
+  nameWithType: BodyFoetalHelper.Stiffness
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.Stiffness
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NaturalMotion.BodyFoetalHelper.DampingFactor*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.DampingFactor
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper_DampingFactor
+  name: DampingFactor
+  nameWithType: BodyFoetalHelper.DampingFactor
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.DampingFactor
+- uid: GTA.NaturalMotion.BodyFoetalHelper.Asymmetry*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.Asymmetry
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper_Asymmetry
+  name: Asymmetry
+  nameWithType: BodyFoetalHelper.Asymmetry
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.Asymmetry
+- uid: GTA.NaturalMotion.BodyFoetalHelper.RandomSeed*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.RandomSeed
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper_RandomSeed
+  name: RandomSeed
+  nameWithType: BodyFoetalHelper.RandomSeed
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.RandomSeed
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.NaturalMotion.BodyFoetalHelper.BackTwist*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.BackTwist
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper_BackTwist
+  name: BackTwist
+  nameWithType: BodyFoetalHelper.BackTwist
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.BackTwist
+- uid: GTA.NaturalMotion.BodyFoetalHelper.Mask*
+  commentId: Overload:GTA.NaturalMotion.BodyFoetalHelper.Mask
+  isExternal: true
+  href: GTA.NaturalMotion.BodyFoetalHelper.html#GTA_NaturalMotion_BodyFoetalHelper_Mask
+  name: Mask
+  nameWithType: BodyFoetalHelper.Mask
+  fullName: GTA.NaturalMotion.BodyFoetalHelper.Mask
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

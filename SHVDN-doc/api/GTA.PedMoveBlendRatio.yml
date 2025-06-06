@@ -1,0 +1,958 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PedMoveBlendRatio
+  commentId: T:GTA.PedMoveBlendRatio
+  id: PedMoveBlendRatio
+  parent: GTA
+  children:
+  - GTA.PedMoveBlendRatio.#ctor(System.Single)
+  - GTA.PedMoveBlendRatio.Equals(GTA.PedMoveBlendRatio)
+  - GTA.PedMoveBlendRatio.Equals(System.Object)
+  - GTA.PedMoveBlendRatio.GetHashCode
+  - GTA.PedMoveBlendRatio.Run
+  - GTA.PedMoveBlendRatio.Sprint
+  - GTA.PedMoveBlendRatio.Still
+  - GTA.PedMoveBlendRatio.ToString
+  - GTA.PedMoveBlendRatio.Value
+  - GTA.PedMoveBlendRatio.Walk
+  - GTA.PedMoveBlendRatio.op_Equality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  - GTA.PedMoveBlendRatio.op_Explicit(GTA.PedMoveBlendRatio)~System.Single
+  - GTA.PedMoveBlendRatio.op_Explicit(System.Single)~GTA.PedMoveBlendRatio
+  - GTA.PedMoveBlendRatio.op_Implicit(GTA.PedMoveBlendRatio)~GTA.Native.InputArgument
+  - GTA.PedMoveBlendRatio.op_Inequality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  langs:
+  - csharp
+  - vb
+  name: PedMoveBlendRatio
+  nameWithType: PedMoveBlendRatio
+  fullName: GTA.PedMoveBlendRatio
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public readonly struct PedMoveBlendRatio : IEquatable<PedMoveBlendRatio>'
+    content.vb: Public Structure PedMoveBlendRatio Implements IEquatable(Of PedMoveBlendRatio)
+  implements:
+  - System.IEquatable{GTA.PedMoveBlendRatio}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.PedMoveBlendRatio.#ctor(System.Single)
+  commentId: M:GTA.PedMoveBlendRatio.#ctor(System.Single)
+  id: '#ctor(System.Single)'
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: PedMoveBlendRatio(float)
+  nameWithType: PedMoveBlendRatio.PedMoveBlendRatio(float)
+  fullName: GTA.PedMoveBlendRatio.PedMoveBlendRatio(float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedMoveBlendRatio(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    content.vb: Public Sub New(value As Single)
+  overload: GTA.PedMoveBlendRatio.#ctor*
+  nameWithType.vb: PedMoveBlendRatio.New(Single)
+  fullName.vb: GTA.PedMoveBlendRatio.New(Single)
+  name.vb: New(Single)
+- uid: GTA.PedMoveBlendRatio.op_Explicit(System.Single)~GTA.PedMoveBlendRatio
+  commentId: M:GTA.PedMoveBlendRatio.op_Explicit(System.Single)~GTA.PedMoveBlendRatio
+  id: op_Explicit(System.Single)~GTA.PedMoveBlendRatio
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: explicit operator PedMoveBlendRatio(float)
+  nameWithType: PedMoveBlendRatio.explicit operator PedMoveBlendRatio(float)
+  fullName: GTA.PedMoveBlendRatio.explicit operator GTA.PedMoveBlendRatio(float)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static explicit operator PedMoveBlendRatio(float value)
+    parameters:
+    - id: value
+      type: System.Single
+    return:
+      type: GTA.PedMoveBlendRatio
+    content.vb: Public Shared Narrowing Operator CType(value As Single) As PedMoveBlendRatio
+  overload: GTA.PedMoveBlendRatio.op_Explicit*
+  nameWithType.vb: PedMoveBlendRatio.CType(Single)
+  fullName.vb: GTA.PedMoveBlendRatio.CType(Single)
+  name.vb: CType(Single)
+- uid: GTA.PedMoveBlendRatio.op_Explicit(GTA.PedMoveBlendRatio)~System.Single
+  commentId: M:GTA.PedMoveBlendRatio.op_Explicit(GTA.PedMoveBlendRatio)~System.Single
+  id: op_Explicit(GTA.PedMoveBlendRatio)~System.Single
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: explicit operator float(PedMoveBlendRatio)
+  nameWithType: PedMoveBlendRatio.explicit operator float(PedMoveBlendRatio)
+  fullName: GTA.PedMoveBlendRatio.explicit operator float(GTA.PedMoveBlendRatio)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static explicit operator float(PedMoveBlendRatio value)
+    parameters:
+    - id: value
+      type: GTA.PedMoveBlendRatio
+    return:
+      type: System.Single
+    content.vb: Public Shared Narrowing Operator CType(value As PedMoveBlendRatio) As Single
+  overload: GTA.PedMoveBlendRatio.op_Explicit*
+  nameWithType.vb: PedMoveBlendRatio.CType(PedMoveBlendRatio)
+  fullName.vb: GTA.PedMoveBlendRatio.CType(GTA.PedMoveBlendRatio)
+  name.vb: CType(PedMoveBlendRatio)
+- uid: GTA.PedMoveBlendRatio.op_Implicit(GTA.PedMoveBlendRatio)~GTA.Native.InputArgument
+  commentId: M:GTA.PedMoveBlendRatio.op_Implicit(GTA.PedMoveBlendRatio)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.PedMoveBlendRatio)~GTA.Native.InputArgument
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(PedMoveBlendRatio)
+  nameWithType: PedMoveBlendRatio.implicit operator InputArgument(PedMoveBlendRatio)
+  fullName: GTA.PedMoveBlendRatio.implicit operator GTA.Native.InputArgument(GTA.PedMoveBlendRatio)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(PedMoveBlendRatio value)
+    parameters:
+    - id: value
+      type: GTA.PedMoveBlendRatio
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As PedMoveBlendRatio) As InputArgument
+  overload: GTA.PedMoveBlendRatio.op_Implicit*
+  nameWithType.vb: PedMoveBlendRatio.CType(PedMoveBlendRatio)
+  fullName.vb: GTA.PedMoveBlendRatio.CType(GTA.PedMoveBlendRatio)
+  name.vb: CType(PedMoveBlendRatio)
+- uid: GTA.PedMoveBlendRatio.op_Equality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  commentId: M:GTA.PedMoveBlendRatio.op_Equality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  id: op_Equality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: operator ==(PedMoveBlendRatio, PedMoveBlendRatio)
+  nameWithType: PedMoveBlendRatio.operator ==(PedMoveBlendRatio, PedMoveBlendRatio)
+  fullName: GTA.PedMoveBlendRatio.operator ==(GTA.PedMoveBlendRatio, GTA.PedMoveBlendRatio)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(PedMoveBlendRatio left, PedMoveBlendRatio right)
+    parameters:
+    - id: left
+      type: GTA.PedMoveBlendRatio
+    - id: right
+      type: GTA.PedMoveBlendRatio
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As PedMoveBlendRatio, right As PedMoveBlendRatio) As Boolean
+  overload: GTA.PedMoveBlendRatio.op_Equality*
+  nameWithType.vb: PedMoveBlendRatio.=(PedMoveBlendRatio, PedMoveBlendRatio)
+  fullName.vb: GTA.PedMoveBlendRatio.=(GTA.PedMoveBlendRatio, GTA.PedMoveBlendRatio)
+  name.vb: =(PedMoveBlendRatio, PedMoveBlendRatio)
+- uid: GTA.PedMoveBlendRatio.op_Inequality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  commentId: M:GTA.PedMoveBlendRatio.op_Inequality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  id: op_Inequality(GTA.PedMoveBlendRatio,GTA.PedMoveBlendRatio)
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: operator !=(PedMoveBlendRatio, PedMoveBlendRatio)
+  nameWithType: PedMoveBlendRatio.operator !=(PedMoveBlendRatio, PedMoveBlendRatio)
+  fullName: GTA.PedMoveBlendRatio.operator !=(GTA.PedMoveBlendRatio, GTA.PedMoveBlendRatio)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(PedMoveBlendRatio left, PedMoveBlendRatio right)
+    parameters:
+    - id: left
+      type: GTA.PedMoveBlendRatio
+    - id: right
+      type: GTA.PedMoveBlendRatio
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As PedMoveBlendRatio, right As PedMoveBlendRatio) As Boolean
+  overload: GTA.PedMoveBlendRatio.op_Inequality*
+  nameWithType.vb: PedMoveBlendRatio.<>(PedMoveBlendRatio, PedMoveBlendRatio)
+  fullName.vb: GTA.PedMoveBlendRatio.<>(GTA.PedMoveBlendRatio, GTA.PedMoveBlendRatio)
+  name.vb: <>(PedMoveBlendRatio, PedMoveBlendRatio)
+- uid: GTA.PedMoveBlendRatio.Equals(GTA.PedMoveBlendRatio)
+  commentId: M:GTA.PedMoveBlendRatio.Equals(GTA.PedMoveBlendRatio)
+  id: Equals(GTA.PedMoveBlendRatio)
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Equals(PedMoveBlendRatio)
+  nameWithType: PedMoveBlendRatio.Equals(PedMoveBlendRatio)
+  fullName: GTA.PedMoveBlendRatio.Equals(GTA.PedMoveBlendRatio)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool Equals(PedMoveBlendRatio moveBlendRatio)
+    parameters:
+    - id: moveBlendRatio
+      type: GTA.PedMoveBlendRatio
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(moveBlendRatio As PedMoveBlendRatio) As Boolean
+  overload: GTA.PedMoveBlendRatio.Equals*
+  implements:
+  - System.IEquatable{GTA.PedMoveBlendRatio}.Equals(GTA.PedMoveBlendRatio)
+- uid: GTA.PedMoveBlendRatio.Equals(System.Object)
+  commentId: M:GTA.PedMoveBlendRatio.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: PedMoveBlendRatio.Equals(object)
+  fullName: GTA.PedMoveBlendRatio.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.PedMoveBlendRatio.Equals*
+  nameWithType.vb: PedMoveBlendRatio.Equals(Object)
+  fullName.vb: GTA.PedMoveBlendRatio.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.PedMoveBlendRatio.GetHashCode
+  commentId: M:GTA.PedMoveBlendRatio.GetHashCode
+  id: GetHashCode
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PedMoveBlendRatio.GetHashCode()
+  fullName: GTA.PedMoveBlendRatio.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.PedMoveBlendRatio.GetHashCode*
+- uid: GTA.PedMoveBlendRatio.ToString
+  commentId: M:GTA.PedMoveBlendRatio.ToString
+  id: ToString
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PedMoveBlendRatio.ToString()
+  fullName: GTA.PedMoveBlendRatio.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.PedMoveBlendRatio.ToString*
+- uid: GTA.PedMoveBlendRatio.Value
+  commentId: P:GTA.PedMoveBlendRatio.Value
+  id: Value
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: PedMoveBlendRatio.Value
+  fullName: GTA.PedMoveBlendRatio.Value
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float Value { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Value As Single
+  overload: GTA.PedMoveBlendRatio.Value*
+- uid: GTA.PedMoveBlendRatio.Still
+  commentId: P:GTA.PedMoveBlendRatio.Still
+  id: Still
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Still
+  nameWithType: PedMoveBlendRatio.Still
+  fullName: GTA.PedMoveBlendRatio.Still
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedMoveBlendRatio Still { get; }
+    parameters: []
+    return:
+      type: GTA.PedMoveBlendRatio
+    content.vb: Public Shared ReadOnly Property Still As PedMoveBlendRatio
+  overload: GTA.PedMoveBlendRatio.Still*
+- uid: GTA.PedMoveBlendRatio.Walk
+  commentId: P:GTA.PedMoveBlendRatio.Walk
+  id: Walk
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Walk
+  nameWithType: PedMoveBlendRatio.Walk
+  fullName: GTA.PedMoveBlendRatio.Walk
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedMoveBlendRatio Walk { get; }
+    parameters: []
+    return:
+      type: GTA.PedMoveBlendRatio
+    content.vb: Public Shared ReadOnly Property Walk As PedMoveBlendRatio
+  overload: GTA.PedMoveBlendRatio.Walk*
+- uid: GTA.PedMoveBlendRatio.Run
+  commentId: P:GTA.PedMoveBlendRatio.Run
+  id: Run
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: PedMoveBlendRatio.Run
+  fullName: GTA.PedMoveBlendRatio.Run
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedMoveBlendRatio Run { get; }
+    parameters: []
+    return:
+      type: GTA.PedMoveBlendRatio
+    content.vb: Public Shared ReadOnly Property Run As PedMoveBlendRatio
+  overload: GTA.PedMoveBlendRatio.Run*
+- uid: GTA.PedMoveBlendRatio.Sprint
+  commentId: P:GTA.PedMoveBlendRatio.Sprint
+  id: Sprint
+  parent: GTA.PedMoveBlendRatio
+  langs:
+  - csharp
+  - vb
+  name: Sprint
+  nameWithType: PedMoveBlendRatio.Sprint
+  fullName: GTA.PedMoveBlendRatio.Sprint
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static PedMoveBlendRatio Sprint { get; }
+    parameters: []
+    return:
+      type: GTA.PedMoveBlendRatio
+    content.vb: Public Shared ReadOnly Property Sprint As PedMoveBlendRatio
+  overload: GTA.PedMoveBlendRatio.Sprint*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.IEquatable{GTA.PedMoveBlendRatio}
+  commentId: T:System.IEquatable{GTA.PedMoveBlendRatio}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<PedMoveBlendRatio>
+  nameWithType: IEquatable<PedMoveBlendRatio>
+  fullName: System.IEquatable<GTA.PedMoveBlendRatio>
+  nameWithType.vb: IEquatable(Of PedMoveBlendRatio)
+  fullName.vb: System.IEquatable(Of GTA.PedMoveBlendRatio)
+  name.vb: IEquatable(Of PedMoveBlendRatio)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.PedMoveBlendRatio
+    name: PedMoveBlendRatio
+    isExternal: true
+    href: GTA.PedMoveBlendRatio.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.PedMoveBlendRatio
+    name: PedMoveBlendRatio
+    isExternal: true
+    href: GTA.PedMoveBlendRatio.html
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.PedMoveBlendRatio.#ctor*
+  commentId: Overload:GTA.PedMoveBlendRatio.#ctor
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio__ctor_System_Single_
+  name: PedMoveBlendRatio
+  nameWithType: PedMoveBlendRatio.PedMoveBlendRatio
+  fullName: GTA.PedMoveBlendRatio.PedMoveBlendRatio
+  nameWithType.vb: PedMoveBlendRatio.New
+  fullName.vb: GTA.PedMoveBlendRatio.New
+  name.vb: New
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.PedMoveBlendRatio.op_Explicit*
+  commentId: Overload:GTA.PedMoveBlendRatio.op_Explicit
+  name: explicit operator
+  nameWithType: PedMoveBlendRatio.explicit operator
+  fullName: GTA.PedMoveBlendRatio.explicit operator
+  nameWithType.vb: PedMoveBlendRatio.CType
+  fullName.vb: GTA.PedMoveBlendRatio.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: GTA.PedMoveBlendRatio
+  commentId: T:GTA.PedMoveBlendRatio
+  parent: GTA
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html
+  name: PedMoveBlendRatio
+  nameWithType: PedMoveBlendRatio
+  fullName: GTA.PedMoveBlendRatio
+- uid: GTA.PedMoveBlendRatio.op_Implicit*
+  commentId: Overload:GTA.PedMoveBlendRatio.op_Implicit
+  name: implicit operator
+  nameWithType: PedMoveBlendRatio.implicit operator
+  fullName: GTA.PedMoveBlendRatio.implicit operator
+  nameWithType.vb: PedMoveBlendRatio.CType
+  fullName.vb: GTA.PedMoveBlendRatio.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.PedMoveBlendRatio.op_Equality*
+  commentId: Overload:GTA.PedMoveBlendRatio.op_Equality
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_op_Equality_GTA_PedMoveBlendRatio_GTA_PedMoveBlendRatio_
+  name: operator ==
+  nameWithType: PedMoveBlendRatio.operator ==
+  fullName: GTA.PedMoveBlendRatio.operator ==
+  nameWithType.vb: PedMoveBlendRatio.=
+  fullName.vb: GTA.PedMoveBlendRatio.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.PedMoveBlendRatio.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_op_Equality_GTA_PedMoveBlendRatio_GTA_PedMoveBlendRatio_
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.PedMoveBlendRatio.op_Inequality*
+  commentId: Overload:GTA.PedMoveBlendRatio.op_Inequality
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_op_Inequality_GTA_PedMoveBlendRatio_GTA_PedMoveBlendRatio_
+  name: operator !=
+  nameWithType: PedMoveBlendRatio.operator !=
+  fullName: GTA.PedMoveBlendRatio.operator !=
+  nameWithType.vb: PedMoveBlendRatio.<>
+  fullName.vb: GTA.PedMoveBlendRatio.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.PedMoveBlendRatio.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_op_Inequality_GTA_PedMoveBlendRatio_GTA_PedMoveBlendRatio_
+- uid: GTA.PedMoveBlendRatio.Equals*
+  commentId: Overload:GTA.PedMoveBlendRatio.Equals
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_Equals_GTA_PedMoveBlendRatio_
+  name: Equals
+  nameWithType: PedMoveBlendRatio.Equals
+  fullName: GTA.PedMoveBlendRatio.Equals
+- uid: System.IEquatable{GTA.PedMoveBlendRatio}.Equals(GTA.PedMoveBlendRatio)
+  commentId: M:System.IEquatable{GTA.PedMoveBlendRatio}.Equals(GTA.PedMoveBlendRatio)
+  parent: System.IEquatable{GTA.PedMoveBlendRatio}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(PedMoveBlendRatio)
+  nameWithType: IEquatable<PedMoveBlendRatio>.Equals(PedMoveBlendRatio)
+  fullName: System.IEquatable<GTA.PedMoveBlendRatio>.Equals(GTA.PedMoveBlendRatio)
+  nameWithType.vb: IEquatable(Of PedMoveBlendRatio).Equals(PedMoveBlendRatio)
+  fullName.vb: System.IEquatable(Of GTA.PedMoveBlendRatio).Equals(GTA.PedMoveBlendRatio)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.PedMoveBlendRatio}.Equals(GTA.PedMoveBlendRatio)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.PedMoveBlendRatio
+    name: PedMoveBlendRatio
+    isExternal: true
+    href: GTA.PedMoveBlendRatio.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.PedMoveBlendRatio}.Equals(GTA.PedMoveBlendRatio)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.PedMoveBlendRatio
+    name: PedMoveBlendRatio
+    isExternal: true
+    href: GTA.PedMoveBlendRatio.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.PedMoveBlendRatio.GetHashCode*
+  commentId: Overload:GTA.PedMoveBlendRatio.GetHashCode
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_GetHashCode
+  name: GetHashCode
+  nameWithType: PedMoveBlendRatio.GetHashCode
+  fullName: GTA.PedMoveBlendRatio.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.PedMoveBlendRatio.ToString*
+  commentId: Overload:GTA.PedMoveBlendRatio.ToString
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_ToString
+  name: ToString
+  nameWithType: PedMoveBlendRatio.ToString
+  fullName: GTA.PedMoveBlendRatio.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.PedMoveBlendRatio.Value*
+  commentId: Overload:GTA.PedMoveBlendRatio.Value
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_Value
+  name: Value
+  nameWithType: PedMoveBlendRatio.Value
+  fullName: GTA.PedMoveBlendRatio.Value
+- uid: GTA.PedMoveBlendRatio.Still*
+  commentId: Overload:GTA.PedMoveBlendRatio.Still
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_Still
+  name: Still
+  nameWithType: PedMoveBlendRatio.Still
+  fullName: GTA.PedMoveBlendRatio.Still
+- uid: GTA.PedMoveBlendRatio.Walk*
+  commentId: Overload:GTA.PedMoveBlendRatio.Walk
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_Walk
+  name: Walk
+  nameWithType: PedMoveBlendRatio.Walk
+  fullName: GTA.PedMoveBlendRatio.Walk
+- uid: GTA.PedMoveBlendRatio.Run*
+  commentId: Overload:GTA.PedMoveBlendRatio.Run
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_Run
+  name: Run
+  nameWithType: PedMoveBlendRatio.Run
+  fullName: GTA.PedMoveBlendRatio.Run
+- uid: GTA.PedMoveBlendRatio.Sprint*
+  commentId: Overload:GTA.PedMoveBlendRatio.Sprint
+  isExternal: true
+  href: GTA.PedMoveBlendRatio.html#GTA_PedMoveBlendRatio_Sprint
+  name: Sprint
+  nameWithType: PedMoveBlendRatio.Sprint
+  fullName: GTA.PedMoveBlendRatio.Sprint

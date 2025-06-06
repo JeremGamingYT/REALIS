@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.ArmDirection
+  commentId: T:GTA.NaturalMotion.ArmDirection
+  id: ArmDirection
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.ArmDirection.Adaptive
+  - GTA.NaturalMotion.ArmDirection.Backwards
+  - GTA.NaturalMotion.ArmDirection.Forwards
+  langs:
+  - csharp
+  - vb
+  name: ArmDirection
+  nameWithType: ArmDirection
+  fullName: GTA.NaturalMotion.ArmDirection
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum ArmDirection
+    content.vb: Public Enum ArmDirection
+- uid: GTA.NaturalMotion.ArmDirection.Backwards
+  commentId: F:GTA.NaturalMotion.ArmDirection.Backwards
+  id: Backwards
+  parent: GTA.NaturalMotion.ArmDirection
+  langs:
+  - csharp
+  - vb
+  name: Backwards
+  nameWithType: ArmDirection.Backwards
+  fullName: GTA.NaturalMotion.ArmDirection.Backwards
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Backwards = -1
+    return:
+      type: GTA.NaturalMotion.ArmDirection
+- uid: GTA.NaturalMotion.ArmDirection.Adaptive
+  commentId: F:GTA.NaturalMotion.ArmDirection.Adaptive
+  id: Adaptive
+  parent: GTA.NaturalMotion.ArmDirection
+  langs:
+  - csharp
+  - vb
+  name: Adaptive
+  nameWithType: ArmDirection.Adaptive
+  fullName: GTA.NaturalMotion.ArmDirection.Adaptive
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Adaptive = 0
+    return:
+      type: GTA.NaturalMotion.ArmDirection
+- uid: GTA.NaturalMotion.ArmDirection.Forwards
+  commentId: F:GTA.NaturalMotion.ArmDirection.Forwards
+  id: Forwards
+  parent: GTA.NaturalMotion.ArmDirection
+  langs:
+  - csharp
+  - vb
+  name: Forwards
+  nameWithType: ArmDirection.Forwards
+  fullName: GTA.NaturalMotion.ArmDirection.Forwards
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Forwards = 1
+    return:
+      type: GTA.NaturalMotion.ArmDirection
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.ArmDirection
+  commentId: T:GTA.NaturalMotion.ArmDirection
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.ArmDirection.html
+  name: ArmDirection
+  nameWithType: ArmDirection
+  fullName: GTA.NaturalMotion.ArmDirection

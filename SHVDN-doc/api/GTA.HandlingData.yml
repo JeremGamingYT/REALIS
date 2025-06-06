@@ -1,0 +1,2454 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.HandlingData
+  commentId: T:GTA.HandlingData
+  id: HandlingData
+  parent: GTA
+  children:
+  - GTA.HandlingData.AntiRollBarBiasFront
+  - GTA.HandlingData.AntiRollBarForce
+  - GTA.HandlingData.BikeHandlingData
+  - GTA.HandlingData.BoatHandlingData
+  - GTA.HandlingData.BoostMaxSpeed
+  - GTA.HandlingData.BrakeBiasFront
+  - GTA.HandlingData.BrakeForce
+  - GTA.HandlingData.CamberStiffness
+  - GTA.HandlingData.CarHandlingData
+  - GTA.HandlingData.CenterOfMassOffset
+  - GTA.HandlingData.ClutchChangeRateScaleDownShift
+  - GTA.HandlingData.ClutchChangeRateScaleUpShift
+  - GTA.HandlingData.CollisionDamageMultiplier
+  - GTA.HandlingData.DeformationDamageMultiplier
+  - GTA.HandlingData.DownForceModifier
+  - GTA.HandlingData.DriveBiasFront
+  - GTA.HandlingData.DriveInertia
+  - GTA.HandlingData.EngineDamageMultiplier
+  - GTA.HandlingData.Equals(System.Object)
+  - GTA.HandlingData.FlyingHandlingData
+  - GTA.HandlingData.GetByHash(System.Int32)
+  - GTA.HandlingData.GetByVehicleModel(GTA.Model)
+  - GTA.HandlingData.GetHashCode
+  - GTA.HandlingData.HandBrakeForce
+  - GTA.HandlingData.InertiaMultiplier
+  - GTA.HandlingData.InitialDragCoefficient
+  - GTA.HandlingData.InitialDriveForce
+  - GTA.HandlingData.InitialDriveGears
+  - GTA.HandlingData.InitialDriveMaxFlatVelocity
+  - GTA.HandlingData.InitialDriveMaxVelocity
+  - GTA.HandlingData.IsValid
+  - GTA.HandlingData.LowSpeedTractionLossMultiplier
+  - GTA.HandlingData.Mass
+  - GTA.HandlingData.MemoryAddress
+  - GTA.HandlingData.MonetaryValue
+  - GTA.HandlingData.OilVolume
+  - GTA.HandlingData.PercentSubmerged
+  - GTA.HandlingData.PetrolConsumptionRate
+  - GTA.HandlingData.PetrolTankVolume
+  - GTA.HandlingData.PopUpLightRotation
+  - GTA.HandlingData.RocketBoostCapacity
+  - GTA.HandlingData.RollCenterHeightFront
+  - GTA.HandlingData.RollCenterHeightRear
+  - GTA.HandlingData.SeaPlaneHandlingData
+  - GTA.HandlingData.SeatOffsetDistanceX
+  - GTA.HandlingData.SeatOffsetDistanceY
+  - GTA.HandlingData.SeatOffsetDistanceZ
+  - GTA.HandlingData.SteeringLock
+  - GTA.HandlingData.SubmarineHandlingData
+  - GTA.HandlingData.SuspensionBiasFront
+  - GTA.HandlingData.SuspensionCompressionDamping
+  - GTA.HandlingData.SuspensionForce
+  - GTA.HandlingData.SuspensionLowerLimit
+  - GTA.HandlingData.SuspensionRaise
+  - GTA.HandlingData.SuspensionReboundDamping
+  - GTA.HandlingData.SuspensionUpperLimit
+  - GTA.HandlingData.TractionBiasFront
+  - GTA.HandlingData.TractionCurveLateral
+  - GTA.HandlingData.TractionCurveMax
+  - GTA.HandlingData.TractionCurveMin
+  - GTA.HandlingData.TractionLossMultiplier
+  - GTA.HandlingData.TractionSpringDeltaMax
+  - GTA.HandlingData.TrailerHandlingData
+  - GTA.HandlingData.VehicleWeaponHandlingData
+  - GTA.HandlingData.VerticalFlyingHandlingData
+  - GTA.HandlingData.WeaponDamageMultiplier
+  - GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  - GTA.HandlingData.op_Equality(GTA.HandlingData,GTA.HandlingData)
+  - GTA.HandlingData.op_Inequality(GTA.HandlingData,GTA.HandlingData)
+  langs:
+  - csharp
+  - vb
+  name: HandlingData
+  nameWithType: HandlingData
+  fullName: GTA.HandlingData
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class HandlingData
+    content.vb: Public NotInheritable Class HandlingData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.HandlingData.GetByHash(System.Int32)
+  commentId: M:GTA.HandlingData.GetByHash(System.Int32)
+  id: GetByHash(System.Int32)
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetByHash(int)
+  nameWithType: HandlingData.GetByHash(int)
+  fullName: GTA.HandlingData.GetByHash(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static HandlingData GetByHash(int handlingNameHash)
+    parameters:
+    - id: handlingNameHash
+      type: System.Int32
+    return:
+      type: GTA.HandlingData
+    content.vb: Public Shared Function GetByHash(handlingNameHash As Integer) As HandlingData
+  overload: GTA.HandlingData.GetByHash*
+  nameWithType.vb: HandlingData.GetByHash(Integer)
+  fullName.vb: GTA.HandlingData.GetByHash(Integer)
+  name.vb: GetByHash(Integer)
+- uid: GTA.HandlingData.GetByVehicleModel(GTA.Model)
+  commentId: M:GTA.HandlingData.GetByVehicleModel(GTA.Model)
+  id: GetByVehicleModel(GTA.Model)
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetByVehicleModel(Model)
+  nameWithType: HandlingData.GetByVehicleModel(Model)
+  fullName: GTA.HandlingData.GetByVehicleModel(GTA.Model)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static HandlingData GetByVehicleModel(Model VehicleModel)
+    parameters:
+    - id: VehicleModel
+      type: GTA.Model
+    return:
+      type: GTA.HandlingData
+    content.vb: Public Shared Function GetByVehicleModel(VehicleModel As Model) As HandlingData
+  overload: GTA.HandlingData.GetByVehicleModel*
+- uid: GTA.HandlingData.Equals(System.Object)
+  commentId: M:GTA.HandlingData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: HandlingData.Equals(object)
+  fullName: GTA.HandlingData.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.HandlingData.Equals*
+  nameWithType.vb: HandlingData.Equals(Object)
+  fullName.vb: GTA.HandlingData.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.HandlingData.op_Equality(GTA.HandlingData,GTA.HandlingData)
+  commentId: M:GTA.HandlingData.op_Equality(GTA.HandlingData,GTA.HandlingData)
+  id: op_Equality(GTA.HandlingData,GTA.HandlingData)
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator ==(HandlingData, HandlingData)
+  nameWithType: HandlingData.operator ==(HandlingData, HandlingData)
+  fullName: GTA.HandlingData.operator ==(GTA.HandlingData, GTA.HandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(HandlingData left, HandlingData right)
+    parameters:
+    - id: left
+      type: GTA.HandlingData
+    - id: right
+      type: GTA.HandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As HandlingData, right As HandlingData) As Boolean
+  overload: GTA.HandlingData.op_Equality*
+  nameWithType.vb: HandlingData.=(HandlingData, HandlingData)
+  fullName.vb: GTA.HandlingData.=(GTA.HandlingData, GTA.HandlingData)
+  name.vb: =(HandlingData, HandlingData)
+- uid: GTA.HandlingData.op_Inequality(GTA.HandlingData,GTA.HandlingData)
+  commentId: M:GTA.HandlingData.op_Inequality(GTA.HandlingData,GTA.HandlingData)
+  id: op_Inequality(GTA.HandlingData,GTA.HandlingData)
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: operator !=(HandlingData, HandlingData)
+  nameWithType: HandlingData.operator !=(HandlingData, HandlingData)
+  fullName: GTA.HandlingData.operator !=(GTA.HandlingData, GTA.HandlingData)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(HandlingData left, HandlingData right)
+    parameters:
+    - id: left
+      type: GTA.HandlingData
+    - id: right
+      type: GTA.HandlingData
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As HandlingData, right As HandlingData) As Boolean
+  overload: GTA.HandlingData.op_Inequality*
+  nameWithType.vb: HandlingData.<>(HandlingData, HandlingData)
+  fullName.vb: GTA.HandlingData.<>(GTA.HandlingData, GTA.HandlingData)
+  name.vb: <>(HandlingData, HandlingData)
+- uid: GTA.HandlingData.GetHashCode
+  commentId: M:GTA.HandlingData.GetHashCode
+  id: GetHashCode
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: HandlingData.GetHashCode()
+  fullName: GTA.HandlingData.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.HandlingData.GetHashCode*
+- uid: GTA.HandlingData.MemoryAddress
+  commentId: P:GTA.HandlingData.MemoryAddress
+  id: MemoryAddress
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: MemoryAddress
+  nameWithType: HandlingData.MemoryAddress
+  fullName: GTA.HandlingData.MemoryAddress
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IntPtr MemoryAddress { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public ReadOnly Property MemoryAddress As IntPtr
+  overload: GTA.HandlingData.MemoryAddress*
+- uid: GTA.HandlingData.IsValid
+  commentId: P:GTA.HandlingData.IsValid
+  id: IsValid
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: HandlingData.IsValid
+  fullName: GTA.HandlingData.IsValid
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: GTA.HandlingData.IsValid*
+- uid: GTA.HandlingData.AntiRollBarBiasFront
+  commentId: P:GTA.HandlingData.AntiRollBarBiasFront
+  id: AntiRollBarBiasFront
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: AntiRollBarBiasFront
+  nameWithType: HandlingData.AntiRollBarBiasFront
+  fullName: GTA.HandlingData.AntiRollBarBiasFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float AntiRollBarBiasFront { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property AntiRollBarBiasFront As Single
+  overload: GTA.HandlingData.AntiRollBarBiasFront*
+- uid: GTA.HandlingData.AntiRollBarForce
+  commentId: P:GTA.HandlingData.AntiRollBarForce
+  id: AntiRollBarForce
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: AntiRollBarForce
+  nameWithType: HandlingData.AntiRollBarForce
+  fullName: GTA.HandlingData.AntiRollBarForce
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float AntiRollBarForce { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property AntiRollBarForce As Single
+  overload: GTA.HandlingData.AntiRollBarForce*
+- uid: GTA.HandlingData.BoostMaxSpeed
+  commentId: P:GTA.HandlingData.BoostMaxSpeed
+  id: BoostMaxSpeed
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: BoostMaxSpeed
+  nameWithType: HandlingData.BoostMaxSpeed
+  fullName: GTA.HandlingData.BoostMaxSpeed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float BoostMaxSpeed { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BoostMaxSpeed As Single
+  overload: GTA.HandlingData.BoostMaxSpeed*
+- uid: GTA.HandlingData.BrakeBiasFront
+  commentId: P:GTA.HandlingData.BrakeBiasFront
+  id: BrakeBiasFront
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: BrakeBiasFront
+  nameWithType: HandlingData.BrakeBiasFront
+  fullName: GTA.HandlingData.BrakeBiasFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float BrakeBiasFront { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BrakeBiasFront As Single
+  overload: GTA.HandlingData.BrakeBiasFront*
+- uid: GTA.HandlingData.BrakeForce
+  commentId: P:GTA.HandlingData.BrakeForce
+  id: BrakeForce
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: BrakeForce
+  nameWithType: HandlingData.BrakeForce
+  fullName: GTA.HandlingData.BrakeForce
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float BrakeForce { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BrakeForce As Single
+  overload: GTA.HandlingData.BrakeForce*
+- uid: GTA.HandlingData.CamberStiffness
+  commentId: P:GTA.HandlingData.CamberStiffness
+  id: CamberStiffness
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: CamberStiffness
+  nameWithType: HandlingData.CamberStiffness
+  fullName: GTA.HandlingData.CamberStiffness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float CamberStiffness { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property CamberStiffness As Single
+  overload: GTA.HandlingData.CamberStiffness*
+- uid: GTA.HandlingData.CenterOfMassOffset
+  commentId: P:GTA.HandlingData.CenterOfMassOffset
+  id: CenterOfMassOffset
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: CenterOfMassOffset
+  nameWithType: HandlingData.CenterOfMassOffset
+  fullName: GTA.HandlingData.CenterOfMassOffset
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 CenterOfMassOffset { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property CenterOfMassOffset As Vector3
+  overload: GTA.HandlingData.CenterOfMassOffset*
+- uid: GTA.HandlingData.ClutchChangeRateScaleDownShift
+  commentId: P:GTA.HandlingData.ClutchChangeRateScaleDownShift
+  id: ClutchChangeRateScaleDownShift
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: ClutchChangeRateScaleDownShift
+  nameWithType: HandlingData.ClutchChangeRateScaleDownShift
+  fullName: GTA.HandlingData.ClutchChangeRateScaleDownShift
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float ClutchChangeRateScaleDownShift { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ClutchChangeRateScaleDownShift As Single
+  overload: GTA.HandlingData.ClutchChangeRateScaleDownShift*
+- uid: GTA.HandlingData.ClutchChangeRateScaleUpShift
+  commentId: P:GTA.HandlingData.ClutchChangeRateScaleUpShift
+  id: ClutchChangeRateScaleUpShift
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: ClutchChangeRateScaleUpShift
+  nameWithType: HandlingData.ClutchChangeRateScaleUpShift
+  fullName: GTA.HandlingData.ClutchChangeRateScaleUpShift
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float ClutchChangeRateScaleUpShift { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ClutchChangeRateScaleUpShift As Single
+  overload: GTA.HandlingData.ClutchChangeRateScaleUpShift*
+- uid: GTA.HandlingData.CollisionDamageMultiplier
+  commentId: P:GTA.HandlingData.CollisionDamageMultiplier
+  id: CollisionDamageMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: CollisionDamageMultiplier
+  nameWithType: HandlingData.CollisionDamageMultiplier
+  fullName: GTA.HandlingData.CollisionDamageMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float CollisionDamageMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property CollisionDamageMultiplier As Single
+  overload: GTA.HandlingData.CollisionDamageMultiplier*
+- uid: GTA.HandlingData.DeformationDamageMultiplier
+  commentId: P:GTA.HandlingData.DeformationDamageMultiplier
+  id: DeformationDamageMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: DeformationDamageMultiplier
+  nameWithType: HandlingData.DeformationDamageMultiplier
+  fullName: GTA.HandlingData.DeformationDamageMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float DeformationDamageMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DeformationDamageMultiplier As Single
+  overload: GTA.HandlingData.DeformationDamageMultiplier*
+- uid: GTA.HandlingData.DownForceModifier
+  commentId: P:GTA.HandlingData.DownForceModifier
+  id: DownForceModifier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: DownForceModifier
+  nameWithType: HandlingData.DownForceModifier
+  fullName: GTA.HandlingData.DownForceModifier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float DownForceModifier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DownForceModifier As Single
+  overload: GTA.HandlingData.DownForceModifier*
+- uid: GTA.HandlingData.DriveBiasFront
+  commentId: P:GTA.HandlingData.DriveBiasFront
+  id: DriveBiasFront
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: DriveBiasFront
+  nameWithType: HandlingData.DriveBiasFront
+  fullName: GTA.HandlingData.DriveBiasFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float DriveBiasFront { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DriveBiasFront As Single
+  overload: GTA.HandlingData.DriveBiasFront*
+- uid: GTA.HandlingData.DriveInertia
+  commentId: P:GTA.HandlingData.DriveInertia
+  id: DriveInertia
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: DriveInertia
+  nameWithType: HandlingData.DriveInertia
+  fullName: GTA.HandlingData.DriveInertia
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float DriveInertia { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property DriveInertia As Single
+  overload: GTA.HandlingData.DriveInertia*
+- uid: GTA.HandlingData.EngineDamageMultiplier
+  commentId: P:GTA.HandlingData.EngineDamageMultiplier
+  id: EngineDamageMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: EngineDamageMultiplier
+  nameWithType: HandlingData.EngineDamageMultiplier
+  fullName: GTA.HandlingData.EngineDamageMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float EngineDamageMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property EngineDamageMultiplier As Single
+  overload: GTA.HandlingData.EngineDamageMultiplier*
+- uid: GTA.HandlingData.HandBrakeForce
+  commentId: P:GTA.HandlingData.HandBrakeForce
+  id: HandBrakeForce
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: HandBrakeForce
+  nameWithType: HandlingData.HandBrakeForce
+  fullName: GTA.HandlingData.HandBrakeForce
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float HandBrakeForce { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property HandBrakeForce As Single
+  overload: GTA.HandlingData.HandBrakeForce*
+- uid: GTA.HandlingData.InertiaMultiplier
+  commentId: P:GTA.HandlingData.InertiaMultiplier
+  id: InertiaMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: InertiaMultiplier
+  nameWithType: HandlingData.InertiaMultiplier
+  fullName: GTA.HandlingData.InertiaMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vector3 InertiaMultiplier { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Property InertiaMultiplier As Vector3
+  overload: GTA.HandlingData.InertiaMultiplier*
+- uid: GTA.HandlingData.InitialDragCoefficient
+  commentId: P:GTA.HandlingData.InitialDragCoefficient
+  id: InitialDragCoefficient
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: InitialDragCoefficient
+  nameWithType: HandlingData.InitialDragCoefficient
+  fullName: GTA.HandlingData.InitialDragCoefficient
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float InitialDragCoefficient { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property InitialDragCoefficient As Single
+  overload: GTA.HandlingData.InitialDragCoefficient*
+- uid: GTA.HandlingData.InitialDriveForce
+  commentId: P:GTA.HandlingData.InitialDriveForce
+  id: InitialDriveForce
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: InitialDriveForce
+  nameWithType: HandlingData.InitialDriveForce
+  fullName: GTA.HandlingData.InitialDriveForce
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float InitialDriveForce { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property InitialDriveForce As Single
+  overload: GTA.HandlingData.InitialDriveForce*
+- uid: GTA.HandlingData.InitialDriveGears
+  commentId: P:GTA.HandlingData.InitialDriveGears
+  id: InitialDriveGears
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: InitialDriveGears
+  nameWithType: HandlingData.InitialDriveGears
+  fullName: GTA.HandlingData.InitialDriveGears
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int InitialDriveGears { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InitialDriveGears As Integer
+  overload: GTA.HandlingData.InitialDriveGears*
+- uid: GTA.HandlingData.InitialDriveMaxVelocity
+  commentId: P:GTA.HandlingData.InitialDriveMaxVelocity
+  id: InitialDriveMaxVelocity
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: InitialDriveMaxVelocity
+  nameWithType: HandlingData.InitialDriveMaxVelocity
+  fullName: GTA.HandlingData.InitialDriveMaxVelocity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float InitialDriveMaxVelocity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property InitialDriveMaxVelocity As Single
+  overload: GTA.HandlingData.InitialDriveMaxVelocity*
+- uid: GTA.HandlingData.InitialDriveMaxFlatVelocity
+  commentId: P:GTA.HandlingData.InitialDriveMaxFlatVelocity
+  id: InitialDriveMaxFlatVelocity
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: InitialDriveMaxFlatVelocity
+  nameWithType: HandlingData.InitialDriveMaxFlatVelocity
+  fullName: GTA.HandlingData.InitialDriveMaxFlatVelocity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float InitialDriveMaxFlatVelocity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property InitialDriveMaxFlatVelocity As Single
+  overload: GTA.HandlingData.InitialDriveMaxFlatVelocity*
+- uid: GTA.HandlingData.LowSpeedTractionLossMultiplier
+  commentId: P:GTA.HandlingData.LowSpeedTractionLossMultiplier
+  id: LowSpeedTractionLossMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: LowSpeedTractionLossMultiplier
+  nameWithType: HandlingData.LowSpeedTractionLossMultiplier
+  fullName: GTA.HandlingData.LowSpeedTractionLossMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float LowSpeedTractionLossMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property LowSpeedTractionLossMultiplier As Single
+  overload: GTA.HandlingData.LowSpeedTractionLossMultiplier*
+- uid: GTA.HandlingData.Mass
+  commentId: P:GTA.HandlingData.Mass
+  id: Mass
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: Mass
+  nameWithType: HandlingData.Mass
+  fullName: GTA.HandlingData.Mass
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float Mass { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Mass As Single
+  overload: GTA.HandlingData.Mass*
+- uid: GTA.HandlingData.MonetaryValue
+  commentId: P:GTA.HandlingData.MonetaryValue
+  id: MonetaryValue
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: MonetaryValue
+  nameWithType: HandlingData.MonetaryValue
+  fullName: GTA.HandlingData.MonetaryValue
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int MonetaryValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MonetaryValue As Integer
+  overload: GTA.HandlingData.MonetaryValue*
+- uid: GTA.HandlingData.OilVolume
+  commentId: P:GTA.HandlingData.OilVolume
+  id: OilVolume
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: OilVolume
+  nameWithType: HandlingData.OilVolume
+  fullName: GTA.HandlingData.OilVolume
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float OilVolume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property OilVolume As Single
+  overload: GTA.HandlingData.OilVolume*
+- uid: GTA.HandlingData.PercentSubmerged
+  commentId: P:GTA.HandlingData.PercentSubmerged
+  id: PercentSubmerged
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: PercentSubmerged
+  nameWithType: HandlingData.PercentSubmerged
+  fullName: GTA.HandlingData.PercentSubmerged
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float PercentSubmerged { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PercentSubmerged As Single
+  overload: GTA.HandlingData.PercentSubmerged*
+- uid: GTA.HandlingData.PetrolTankVolume
+  commentId: P:GTA.HandlingData.PetrolTankVolume
+  id: PetrolTankVolume
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: PetrolTankVolume
+  nameWithType: HandlingData.PetrolTankVolume
+  fullName: GTA.HandlingData.PetrolTankVolume
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float PetrolTankVolume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PetrolTankVolume As Single
+  overload: GTA.HandlingData.PetrolTankVolume*
+- uid: GTA.HandlingData.PetrolConsumptionRate
+  commentId: P:GTA.HandlingData.PetrolConsumptionRate
+  id: PetrolConsumptionRate
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: PetrolConsumptionRate
+  nameWithType: HandlingData.PetrolConsumptionRate
+  fullName: GTA.HandlingData.PetrolConsumptionRate
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float PetrolConsumptionRate { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PetrolConsumptionRate As Single
+  overload: GTA.HandlingData.PetrolConsumptionRate*
+- uid: GTA.HandlingData.PopUpLightRotation
+  commentId: P:GTA.HandlingData.PopUpLightRotation
+  id: PopUpLightRotation
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: PopUpLightRotation
+  nameWithType: HandlingData.PopUpLightRotation
+  fullName: GTA.HandlingData.PopUpLightRotation
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float PopUpLightRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PopUpLightRotation As Single
+  overload: GTA.HandlingData.PopUpLightRotation*
+- uid: GTA.HandlingData.RocketBoostCapacity
+  commentId: P:GTA.HandlingData.RocketBoostCapacity
+  id: RocketBoostCapacity
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: RocketBoostCapacity
+  nameWithType: HandlingData.RocketBoostCapacity
+  fullName: GTA.HandlingData.RocketBoostCapacity
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float RocketBoostCapacity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RocketBoostCapacity As Single
+  overload: GTA.HandlingData.RocketBoostCapacity*
+- uid: GTA.HandlingData.RollCenterHeightFront
+  commentId: P:GTA.HandlingData.RollCenterHeightFront
+  id: RollCenterHeightFront
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: RollCenterHeightFront
+  nameWithType: HandlingData.RollCenterHeightFront
+  fullName: GTA.HandlingData.RollCenterHeightFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float RollCenterHeightFront { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RollCenterHeightFront As Single
+  overload: GTA.HandlingData.RollCenterHeightFront*
+- uid: GTA.HandlingData.RollCenterHeightRear
+  commentId: P:GTA.HandlingData.RollCenterHeightRear
+  id: RollCenterHeightRear
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: RollCenterHeightRear
+  nameWithType: HandlingData.RollCenterHeightRear
+  fullName: GTA.HandlingData.RollCenterHeightRear
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float RollCenterHeightRear { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RollCenterHeightRear As Single
+  overload: GTA.HandlingData.RollCenterHeightRear*
+- uid: GTA.HandlingData.SeatOffsetDistanceX
+  commentId: P:GTA.HandlingData.SeatOffsetDistanceX
+  id: SeatOffsetDistanceX
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SeatOffsetDistanceX
+  nameWithType: HandlingData.SeatOffsetDistanceX
+  fullName: GTA.HandlingData.SeatOffsetDistanceX
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SeatOffsetDistanceX { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SeatOffsetDistanceX As Single
+  overload: GTA.HandlingData.SeatOffsetDistanceX*
+- uid: GTA.HandlingData.SeatOffsetDistanceY
+  commentId: P:GTA.HandlingData.SeatOffsetDistanceY
+  id: SeatOffsetDistanceY
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SeatOffsetDistanceY
+  nameWithType: HandlingData.SeatOffsetDistanceY
+  fullName: GTA.HandlingData.SeatOffsetDistanceY
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SeatOffsetDistanceY { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SeatOffsetDistanceY As Single
+  overload: GTA.HandlingData.SeatOffsetDistanceY*
+- uid: GTA.HandlingData.SeatOffsetDistanceZ
+  commentId: P:GTA.HandlingData.SeatOffsetDistanceZ
+  id: SeatOffsetDistanceZ
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SeatOffsetDistanceZ
+  nameWithType: HandlingData.SeatOffsetDistanceZ
+  fullName: GTA.HandlingData.SeatOffsetDistanceZ
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SeatOffsetDistanceZ { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SeatOffsetDistanceZ As Single
+  overload: GTA.HandlingData.SeatOffsetDistanceZ*
+- uid: GTA.HandlingData.SteeringLock
+  commentId: P:GTA.HandlingData.SteeringLock
+  id: SteeringLock
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SteeringLock
+  nameWithType: HandlingData.SteeringLock
+  fullName: GTA.HandlingData.SteeringLock
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SteeringLock { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SteeringLock As Single
+  overload: GTA.HandlingData.SteeringLock*
+- uid: GTA.HandlingData.SuspensionBiasFront
+  commentId: P:GTA.HandlingData.SuspensionBiasFront
+  id: SuspensionBiasFront
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionBiasFront
+  nameWithType: HandlingData.SuspensionBiasFront
+  fullName: GTA.HandlingData.SuspensionBiasFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionBiasFront { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionBiasFront As Single
+  overload: GTA.HandlingData.SuspensionBiasFront*
+- uid: GTA.HandlingData.SuspensionCompressionDamping
+  commentId: P:GTA.HandlingData.SuspensionCompressionDamping
+  id: SuspensionCompressionDamping
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionCompressionDamping
+  nameWithType: HandlingData.SuspensionCompressionDamping
+  fullName: GTA.HandlingData.SuspensionCompressionDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionCompressionDamping { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionCompressionDamping As Single
+  overload: GTA.HandlingData.SuspensionCompressionDamping*
+- uid: GTA.HandlingData.SuspensionForce
+  commentId: P:GTA.HandlingData.SuspensionForce
+  id: SuspensionForce
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionForce
+  nameWithType: HandlingData.SuspensionForce
+  fullName: GTA.HandlingData.SuspensionForce
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionForce { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionForce As Single
+  overload: GTA.HandlingData.SuspensionForce*
+- uid: GTA.HandlingData.SuspensionLowerLimit
+  commentId: P:GTA.HandlingData.SuspensionLowerLimit
+  id: SuspensionLowerLimit
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionLowerLimit
+  nameWithType: HandlingData.SuspensionLowerLimit
+  fullName: GTA.HandlingData.SuspensionLowerLimit
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionLowerLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionLowerLimit As Single
+  overload: GTA.HandlingData.SuspensionLowerLimit*
+- uid: GTA.HandlingData.SuspensionRaise
+  commentId: P:GTA.HandlingData.SuspensionRaise
+  id: SuspensionRaise
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionRaise
+  nameWithType: HandlingData.SuspensionRaise
+  fullName: GTA.HandlingData.SuspensionRaise
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionRaise { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionRaise As Single
+  overload: GTA.HandlingData.SuspensionRaise*
+- uid: GTA.HandlingData.SuspensionReboundDamping
+  commentId: P:GTA.HandlingData.SuspensionReboundDamping
+  id: SuspensionReboundDamping
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionReboundDamping
+  nameWithType: HandlingData.SuspensionReboundDamping
+  fullName: GTA.HandlingData.SuspensionReboundDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionReboundDamping { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionReboundDamping As Single
+  overload: GTA.HandlingData.SuspensionReboundDamping*
+- uid: GTA.HandlingData.SuspensionUpperLimit
+  commentId: P:GTA.HandlingData.SuspensionUpperLimit
+  id: SuspensionUpperLimit
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SuspensionUpperLimit
+  nameWithType: HandlingData.SuspensionUpperLimit
+  fullName: GTA.HandlingData.SuspensionUpperLimit
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float SuspensionUpperLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SuspensionUpperLimit As Single
+  overload: GTA.HandlingData.SuspensionUpperLimit*
+- uid: GTA.HandlingData.TractionBiasFront
+  commentId: P:GTA.HandlingData.TractionBiasFront
+  id: TractionBiasFront
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TractionBiasFront
+  nameWithType: HandlingData.TractionBiasFront
+  fullName: GTA.HandlingData.TractionBiasFront
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TractionBiasFront { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TractionBiasFront As Single
+  overload: GTA.HandlingData.TractionBiasFront*
+- uid: GTA.HandlingData.TractionCurveMax
+  commentId: P:GTA.HandlingData.TractionCurveMax
+  id: TractionCurveMax
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TractionCurveMax
+  nameWithType: HandlingData.TractionCurveMax
+  fullName: GTA.HandlingData.TractionCurveMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TractionCurveMax { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TractionCurveMax As Single
+  overload: GTA.HandlingData.TractionCurveMax*
+- uid: GTA.HandlingData.TractionCurveMin
+  commentId: P:GTA.HandlingData.TractionCurveMin
+  id: TractionCurveMin
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TractionCurveMin
+  nameWithType: HandlingData.TractionCurveMin
+  fullName: GTA.HandlingData.TractionCurveMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TractionCurveMin { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TractionCurveMin As Single
+  overload: GTA.HandlingData.TractionCurveMin*
+- uid: GTA.HandlingData.TractionCurveLateral
+  commentId: P:GTA.HandlingData.TractionCurveLateral
+  id: TractionCurveLateral
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TractionCurveLateral
+  nameWithType: HandlingData.TractionCurveLateral
+  fullName: GTA.HandlingData.TractionCurveLateral
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TractionCurveLateral { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TractionCurveLateral As Single
+  overload: GTA.HandlingData.TractionCurveLateral*
+- uid: GTA.HandlingData.TractionLossMultiplier
+  commentId: P:GTA.HandlingData.TractionLossMultiplier
+  id: TractionLossMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TractionLossMultiplier
+  nameWithType: HandlingData.TractionLossMultiplier
+  fullName: GTA.HandlingData.TractionLossMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TractionLossMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TractionLossMultiplier As Single
+  overload: GTA.HandlingData.TractionLossMultiplier*
+- uid: GTA.HandlingData.TractionSpringDeltaMax
+  commentId: P:GTA.HandlingData.TractionSpringDeltaMax
+  id: TractionSpringDeltaMax
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TractionSpringDeltaMax
+  nameWithType: HandlingData.TractionSpringDeltaMax
+  fullName: GTA.HandlingData.TractionSpringDeltaMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float TractionSpringDeltaMax { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TractionSpringDeltaMax As Single
+  overload: GTA.HandlingData.TractionSpringDeltaMax*
+- uid: GTA.HandlingData.WeaponDamageMultiplier
+  commentId: P:GTA.HandlingData.WeaponDamageMultiplier
+  id: WeaponDamageMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: WeaponDamageMultiplier
+  nameWithType: HandlingData.WeaponDamageMultiplier
+  fullName: GTA.HandlingData.WeaponDamageMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float WeaponDamageMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property WeaponDamageMultiplier As Single
+  overload: GTA.HandlingData.WeaponDamageMultiplier*
+- uid: GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  commentId: P:GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  id: WeaponDamageScaledToVehicleHealthMultiplier
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: WeaponDamageScaledToVehicleHealthMultiplier
+  nameWithType: HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  fullName: GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float WeaponDamageScaledToVehicleHealthMultiplier { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property WeaponDamageScaledToVehicleHealthMultiplier As Single
+  overload: GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier*
+- uid: GTA.HandlingData.BikeHandlingData
+  commentId: P:GTA.HandlingData.BikeHandlingData
+  id: BikeHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: BikeHandlingData
+  nameWithType: HandlingData.BikeHandlingData
+  fullName: GTA.HandlingData.BikeHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public BikeHandlingData BikeHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.BikeHandlingData
+    content.vb: Public ReadOnly Property BikeHandlingData As BikeHandlingData
+  overload: GTA.HandlingData.BikeHandlingData*
+- uid: GTA.HandlingData.FlyingHandlingData
+  commentId: P:GTA.HandlingData.FlyingHandlingData
+  id: FlyingHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: FlyingHandlingData
+  nameWithType: HandlingData.FlyingHandlingData
+  fullName: GTA.HandlingData.FlyingHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public FlyingHandlingData FlyingHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.FlyingHandlingData
+    content.vb: Public ReadOnly Property FlyingHandlingData As FlyingHandlingData
+  overload: GTA.HandlingData.FlyingHandlingData*
+- uid: GTA.HandlingData.VerticalFlyingHandlingData
+  commentId: P:GTA.HandlingData.VerticalFlyingHandlingData
+  id: VerticalFlyingHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: VerticalFlyingHandlingData
+  nameWithType: HandlingData.VerticalFlyingHandlingData
+  fullName: GTA.HandlingData.VerticalFlyingHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public FlyingHandlingData VerticalFlyingHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.FlyingHandlingData
+    content.vb: Public ReadOnly Property VerticalFlyingHandlingData As FlyingHandlingData
+  overload: GTA.HandlingData.VerticalFlyingHandlingData*
+- uid: GTA.HandlingData.BoatHandlingData
+  commentId: P:GTA.HandlingData.BoatHandlingData
+  id: BoatHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: BoatHandlingData
+  nameWithType: HandlingData.BoatHandlingData
+  fullName: GTA.HandlingData.BoatHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public BoatHandlingData BoatHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.BoatHandlingData
+    content.vb: Public ReadOnly Property BoatHandlingData As BoatHandlingData
+  overload: GTA.HandlingData.BoatHandlingData*
+- uid: GTA.HandlingData.SeaPlaneHandlingData
+  commentId: P:GTA.HandlingData.SeaPlaneHandlingData
+  id: SeaPlaneHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SeaPlaneHandlingData
+  nameWithType: HandlingData.SeaPlaneHandlingData
+  fullName: GTA.HandlingData.SeaPlaneHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public SeaPlaneHandlingData SeaPlaneHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.SeaPlaneHandlingData
+    content.vb: Public ReadOnly Property SeaPlaneHandlingData As SeaPlaneHandlingData
+  overload: GTA.HandlingData.SeaPlaneHandlingData*
+- uid: GTA.HandlingData.SubmarineHandlingData
+  commentId: P:GTA.HandlingData.SubmarineHandlingData
+  id: SubmarineHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: SubmarineHandlingData
+  nameWithType: HandlingData.SubmarineHandlingData
+  fullName: GTA.HandlingData.SubmarineHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public SubmarineHandlingData SubmarineHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.SubmarineHandlingData
+    content.vb: Public ReadOnly Property SubmarineHandlingData As SubmarineHandlingData
+  overload: GTA.HandlingData.SubmarineHandlingData*
+- uid: GTA.HandlingData.TrailerHandlingData
+  commentId: P:GTA.HandlingData.TrailerHandlingData
+  id: TrailerHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: TrailerHandlingData
+  nameWithType: HandlingData.TrailerHandlingData
+  fullName: GTA.HandlingData.TrailerHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public TrailerHandlingData TrailerHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.TrailerHandlingData
+    content.vb: Public ReadOnly Property TrailerHandlingData As TrailerHandlingData
+  overload: GTA.HandlingData.TrailerHandlingData*
+- uid: GTA.HandlingData.CarHandlingData
+  commentId: P:GTA.HandlingData.CarHandlingData
+  id: CarHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: CarHandlingData
+  nameWithType: HandlingData.CarHandlingData
+  fullName: GTA.HandlingData.CarHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public CarHandlingData CarHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.CarHandlingData
+    content.vb: Public ReadOnly Property CarHandlingData As CarHandlingData
+  overload: GTA.HandlingData.CarHandlingData*
+- uid: GTA.HandlingData.VehicleWeaponHandlingData
+  commentId: P:GTA.HandlingData.VehicleWeaponHandlingData
+  id: VehicleWeaponHandlingData
+  parent: GTA.HandlingData
+  langs:
+  - csharp
+  - vb
+  name: VehicleWeaponHandlingData
+  nameWithType: HandlingData.VehicleWeaponHandlingData
+  fullName: GTA.HandlingData.VehicleWeaponHandlingData
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleWeaponHandlingData VehicleWeaponHandlingData { get; }
+    parameters: []
+    return:
+      type: GTA.VehicleWeaponHandlingData
+    content.vb: Public ReadOnly Property VehicleWeaponHandlingData As VehicleWeaponHandlingData
+  overload: GTA.HandlingData.VehicleWeaponHandlingData*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.HandlingData.GetByHash*
+  commentId: Overload:GTA.HandlingData.GetByHash
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_GetByHash_System_Int32_
+  name: GetByHash
+  nameWithType: HandlingData.GetByHash
+  fullName: GTA.HandlingData.GetByHash
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.HandlingData
+  commentId: T:GTA.HandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.HandlingData.html
+  name: HandlingData
+  nameWithType: HandlingData
+  fullName: GTA.HandlingData
+- uid: GTA.HandlingData.GetByVehicleModel*
+  commentId: Overload:GTA.HandlingData.GetByVehicleModel
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_GetByVehicleModel_GTA_Model_
+  name: GetByVehicleModel
+  nameWithType: HandlingData.GetByVehicleModel
+  fullName: GTA.HandlingData.GetByVehicleModel
+- uid: GTA.Model
+  commentId: T:GTA.Model
+  parent: GTA
+  isExternal: true
+  href: GTA.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: GTA.Model
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.HandlingData.Equals*
+  commentId: Overload:GTA.HandlingData.Equals
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_Equals_System_Object_
+  name: Equals
+  nameWithType: HandlingData.Equals
+  fullName: GTA.HandlingData.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.HandlingData.op_Equality*
+  commentId: Overload:GTA.HandlingData.op_Equality
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_op_Equality_GTA_HandlingData_GTA_HandlingData_
+  name: operator ==
+  nameWithType: HandlingData.operator ==
+  fullName: GTA.HandlingData.operator ==
+  nameWithType.vb: HandlingData.=
+  fullName.vb: GTA.HandlingData.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.HandlingData.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.HandlingData.html#GTA_HandlingData_op_Equality_GTA_HandlingData_GTA_HandlingData_
+- uid: GTA.HandlingData.op_Inequality*
+  commentId: Overload:GTA.HandlingData.op_Inequality
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_op_Inequality_GTA_HandlingData_GTA_HandlingData_
+  name: operator !=
+  nameWithType: HandlingData.operator !=
+  fullName: GTA.HandlingData.operator !=
+  nameWithType.vb: HandlingData.<>
+  fullName.vb: GTA.HandlingData.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.HandlingData.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.HandlingData.html#GTA_HandlingData_op_Inequality_GTA_HandlingData_GTA_HandlingData_
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.HandlingData.GetHashCode*
+  commentId: Overload:GTA.HandlingData.GetHashCode
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_GetHashCode
+  name: GetHashCode
+  nameWithType: HandlingData.GetHashCode
+  fullName: GTA.HandlingData.GetHashCode
+- uid: GTA.HandlingData.MemoryAddress*
+  commentId: Overload:GTA.HandlingData.MemoryAddress
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_MemoryAddress
+  name: MemoryAddress
+  nameWithType: HandlingData.MemoryAddress
+  fullName: GTA.HandlingData.MemoryAddress
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: GTA.HandlingData.IsValid*
+  commentId: Overload:GTA.HandlingData.IsValid
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_IsValid
+  name: IsValid
+  nameWithType: HandlingData.IsValid
+  fullName: GTA.HandlingData.IsValid
+- uid: GTA.HandlingData.AntiRollBarBiasFront*
+  commentId: Overload:GTA.HandlingData.AntiRollBarBiasFront
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_AntiRollBarBiasFront
+  name: AntiRollBarBiasFront
+  nameWithType: HandlingData.AntiRollBarBiasFront
+  fullName: GTA.HandlingData.AntiRollBarBiasFront
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.HandlingData.AntiRollBarForce*
+  commentId: Overload:GTA.HandlingData.AntiRollBarForce
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_AntiRollBarForce
+  name: AntiRollBarForce
+  nameWithType: HandlingData.AntiRollBarForce
+  fullName: GTA.HandlingData.AntiRollBarForce
+- uid: GTA.HandlingData.BoostMaxSpeed*
+  commentId: Overload:GTA.HandlingData.BoostMaxSpeed
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_BoostMaxSpeed
+  name: BoostMaxSpeed
+  nameWithType: HandlingData.BoostMaxSpeed
+  fullName: GTA.HandlingData.BoostMaxSpeed
+- uid: GTA.HandlingData.BrakeBiasFront*
+  commentId: Overload:GTA.HandlingData.BrakeBiasFront
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_BrakeBiasFront
+  name: BrakeBiasFront
+  nameWithType: HandlingData.BrakeBiasFront
+  fullName: GTA.HandlingData.BrakeBiasFront
+- uid: GTA.HandlingData.BrakeForce*
+  commentId: Overload:GTA.HandlingData.BrakeForce
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_BrakeForce
+  name: BrakeForce
+  nameWithType: HandlingData.BrakeForce
+  fullName: GTA.HandlingData.BrakeForce
+- uid: GTA.HandlingData.CamberStiffness*
+  commentId: Overload:GTA.HandlingData.CamberStiffness
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_CamberStiffness
+  name: CamberStiffness
+  nameWithType: HandlingData.CamberStiffness
+  fullName: GTA.HandlingData.CamberStiffness
+- uid: GTA.HandlingData.CenterOfMassOffset*
+  commentId: Overload:GTA.HandlingData.CenterOfMassOffset
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_CenterOfMassOffset
+  name: CenterOfMassOffset
+  nameWithType: HandlingData.CenterOfMassOffset
+  fullName: GTA.HandlingData.CenterOfMassOffset
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.HandlingData.ClutchChangeRateScaleDownShift*
+  commentId: Overload:GTA.HandlingData.ClutchChangeRateScaleDownShift
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_ClutchChangeRateScaleDownShift
+  name: ClutchChangeRateScaleDownShift
+  nameWithType: HandlingData.ClutchChangeRateScaleDownShift
+  fullName: GTA.HandlingData.ClutchChangeRateScaleDownShift
+- uid: GTA.HandlingData.ClutchChangeRateScaleUpShift*
+  commentId: Overload:GTA.HandlingData.ClutchChangeRateScaleUpShift
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_ClutchChangeRateScaleUpShift
+  name: ClutchChangeRateScaleUpShift
+  nameWithType: HandlingData.ClutchChangeRateScaleUpShift
+  fullName: GTA.HandlingData.ClutchChangeRateScaleUpShift
+- uid: GTA.HandlingData.CollisionDamageMultiplier*
+  commentId: Overload:GTA.HandlingData.CollisionDamageMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_CollisionDamageMultiplier
+  name: CollisionDamageMultiplier
+  nameWithType: HandlingData.CollisionDamageMultiplier
+  fullName: GTA.HandlingData.CollisionDamageMultiplier
+- uid: GTA.HandlingData.DeformationDamageMultiplier*
+  commentId: Overload:GTA.HandlingData.DeformationDamageMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_DeformationDamageMultiplier
+  name: DeformationDamageMultiplier
+  nameWithType: HandlingData.DeformationDamageMultiplier
+  fullName: GTA.HandlingData.DeformationDamageMultiplier
+- uid: GTA.HandlingData.DownForceModifier*
+  commentId: Overload:GTA.HandlingData.DownForceModifier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_DownForceModifier
+  name: DownForceModifier
+  nameWithType: HandlingData.DownForceModifier
+  fullName: GTA.HandlingData.DownForceModifier
+- uid: GTA.HandlingData.DriveBiasFront*
+  commentId: Overload:GTA.HandlingData.DriveBiasFront
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_DriveBiasFront
+  name: DriveBiasFront
+  nameWithType: HandlingData.DriveBiasFront
+  fullName: GTA.HandlingData.DriveBiasFront
+- uid: GTA.HandlingData.DriveInertia*
+  commentId: Overload:GTA.HandlingData.DriveInertia
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_DriveInertia
+  name: DriveInertia
+  nameWithType: HandlingData.DriveInertia
+  fullName: GTA.HandlingData.DriveInertia
+- uid: GTA.HandlingData.EngineDamageMultiplier*
+  commentId: Overload:GTA.HandlingData.EngineDamageMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_EngineDamageMultiplier
+  name: EngineDamageMultiplier
+  nameWithType: HandlingData.EngineDamageMultiplier
+  fullName: GTA.HandlingData.EngineDamageMultiplier
+- uid: GTA.HandlingData.HandBrakeForce*
+  commentId: Overload:GTA.HandlingData.HandBrakeForce
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_HandBrakeForce
+  name: HandBrakeForce
+  nameWithType: HandlingData.HandBrakeForce
+  fullName: GTA.HandlingData.HandBrakeForce
+- uid: GTA.HandlingData.InertiaMultiplier*
+  commentId: Overload:GTA.HandlingData.InertiaMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_InertiaMultiplier
+  name: InertiaMultiplier
+  nameWithType: HandlingData.InertiaMultiplier
+  fullName: GTA.HandlingData.InertiaMultiplier
+- uid: GTA.HandlingData.InitialDragCoefficient*
+  commentId: Overload:GTA.HandlingData.InitialDragCoefficient
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_InitialDragCoefficient
+  name: InitialDragCoefficient
+  nameWithType: HandlingData.InitialDragCoefficient
+  fullName: GTA.HandlingData.InitialDragCoefficient
+- uid: GTA.HandlingData.InitialDriveForce*
+  commentId: Overload:GTA.HandlingData.InitialDriveForce
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_InitialDriveForce
+  name: InitialDriveForce
+  nameWithType: HandlingData.InitialDriveForce
+  fullName: GTA.HandlingData.InitialDriveForce
+- uid: GTA.HandlingData.InitialDriveGears*
+  commentId: Overload:GTA.HandlingData.InitialDriveGears
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_InitialDriveGears
+  name: InitialDriveGears
+  nameWithType: HandlingData.InitialDriveGears
+  fullName: GTA.HandlingData.InitialDriveGears
+- uid: GTA.HandlingData.InitialDriveMaxVelocity*
+  commentId: Overload:GTA.HandlingData.InitialDriveMaxVelocity
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_InitialDriveMaxVelocity
+  name: InitialDriveMaxVelocity
+  nameWithType: HandlingData.InitialDriveMaxVelocity
+  fullName: GTA.HandlingData.InitialDriveMaxVelocity
+- uid: GTA.HandlingData.InitialDriveMaxFlatVelocity*
+  commentId: Overload:GTA.HandlingData.InitialDriveMaxFlatVelocity
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_InitialDriveMaxFlatVelocity
+  name: InitialDriveMaxFlatVelocity
+  nameWithType: HandlingData.InitialDriveMaxFlatVelocity
+  fullName: GTA.HandlingData.InitialDriveMaxFlatVelocity
+- uid: GTA.HandlingData.LowSpeedTractionLossMultiplier*
+  commentId: Overload:GTA.HandlingData.LowSpeedTractionLossMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_LowSpeedTractionLossMultiplier
+  name: LowSpeedTractionLossMultiplier
+  nameWithType: HandlingData.LowSpeedTractionLossMultiplier
+  fullName: GTA.HandlingData.LowSpeedTractionLossMultiplier
+- uid: GTA.HandlingData.Mass*
+  commentId: Overload:GTA.HandlingData.Mass
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_Mass
+  name: Mass
+  nameWithType: HandlingData.Mass
+  fullName: GTA.HandlingData.Mass
+- uid: GTA.HandlingData.MonetaryValue*
+  commentId: Overload:GTA.HandlingData.MonetaryValue
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_MonetaryValue
+  name: MonetaryValue
+  nameWithType: HandlingData.MonetaryValue
+  fullName: GTA.HandlingData.MonetaryValue
+- uid: GTA.HandlingData.OilVolume*
+  commentId: Overload:GTA.HandlingData.OilVolume
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_OilVolume
+  name: OilVolume
+  nameWithType: HandlingData.OilVolume
+  fullName: GTA.HandlingData.OilVolume
+- uid: GTA.HandlingData.PercentSubmerged*
+  commentId: Overload:GTA.HandlingData.PercentSubmerged
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_PercentSubmerged
+  name: PercentSubmerged
+  nameWithType: HandlingData.PercentSubmerged
+  fullName: GTA.HandlingData.PercentSubmerged
+- uid: GTA.HandlingData.PetrolTankVolume*
+  commentId: Overload:GTA.HandlingData.PetrolTankVolume
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_PetrolTankVolume
+  name: PetrolTankVolume
+  nameWithType: HandlingData.PetrolTankVolume
+  fullName: GTA.HandlingData.PetrolTankVolume
+- uid: GTA.HandlingData.PetrolConsumptionRate*
+  commentId: Overload:GTA.HandlingData.PetrolConsumptionRate
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_PetrolConsumptionRate
+  name: PetrolConsumptionRate
+  nameWithType: HandlingData.PetrolConsumptionRate
+  fullName: GTA.HandlingData.PetrolConsumptionRate
+- uid: GTA.HandlingData.PopUpLightRotation*
+  commentId: Overload:GTA.HandlingData.PopUpLightRotation
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_PopUpLightRotation
+  name: PopUpLightRotation
+  nameWithType: HandlingData.PopUpLightRotation
+  fullName: GTA.HandlingData.PopUpLightRotation
+- uid: GTA.HandlingData.RocketBoostCapacity*
+  commentId: Overload:GTA.HandlingData.RocketBoostCapacity
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_RocketBoostCapacity
+  name: RocketBoostCapacity
+  nameWithType: HandlingData.RocketBoostCapacity
+  fullName: GTA.HandlingData.RocketBoostCapacity
+- uid: GTA.HandlingData.RollCenterHeightFront*
+  commentId: Overload:GTA.HandlingData.RollCenterHeightFront
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_RollCenterHeightFront
+  name: RollCenterHeightFront
+  nameWithType: HandlingData.RollCenterHeightFront
+  fullName: GTA.HandlingData.RollCenterHeightFront
+- uid: GTA.HandlingData.RollCenterHeightRear*
+  commentId: Overload:GTA.HandlingData.RollCenterHeightRear
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_RollCenterHeightRear
+  name: RollCenterHeightRear
+  nameWithType: HandlingData.RollCenterHeightRear
+  fullName: GTA.HandlingData.RollCenterHeightRear
+- uid: GTA.HandlingData.SeatOffsetDistanceX*
+  commentId: Overload:GTA.HandlingData.SeatOffsetDistanceX
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SeatOffsetDistanceX
+  name: SeatOffsetDistanceX
+  nameWithType: HandlingData.SeatOffsetDistanceX
+  fullName: GTA.HandlingData.SeatOffsetDistanceX
+- uid: GTA.HandlingData.SeatOffsetDistanceY*
+  commentId: Overload:GTA.HandlingData.SeatOffsetDistanceY
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SeatOffsetDistanceY
+  name: SeatOffsetDistanceY
+  nameWithType: HandlingData.SeatOffsetDistanceY
+  fullName: GTA.HandlingData.SeatOffsetDistanceY
+- uid: GTA.HandlingData.SeatOffsetDistanceZ*
+  commentId: Overload:GTA.HandlingData.SeatOffsetDistanceZ
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SeatOffsetDistanceZ
+  name: SeatOffsetDistanceZ
+  nameWithType: HandlingData.SeatOffsetDistanceZ
+  fullName: GTA.HandlingData.SeatOffsetDistanceZ
+- uid: GTA.HandlingData.SteeringLock*
+  commentId: Overload:GTA.HandlingData.SteeringLock
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SteeringLock
+  name: SteeringLock
+  nameWithType: HandlingData.SteeringLock
+  fullName: GTA.HandlingData.SteeringLock
+- uid: GTA.HandlingData.SuspensionBiasFront*
+  commentId: Overload:GTA.HandlingData.SuspensionBiasFront
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionBiasFront
+  name: SuspensionBiasFront
+  nameWithType: HandlingData.SuspensionBiasFront
+  fullName: GTA.HandlingData.SuspensionBiasFront
+- uid: GTA.HandlingData.SuspensionCompressionDamping*
+  commentId: Overload:GTA.HandlingData.SuspensionCompressionDamping
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionCompressionDamping
+  name: SuspensionCompressionDamping
+  nameWithType: HandlingData.SuspensionCompressionDamping
+  fullName: GTA.HandlingData.SuspensionCompressionDamping
+- uid: GTA.HandlingData.SuspensionForce*
+  commentId: Overload:GTA.HandlingData.SuspensionForce
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionForce
+  name: SuspensionForce
+  nameWithType: HandlingData.SuspensionForce
+  fullName: GTA.HandlingData.SuspensionForce
+- uid: GTA.HandlingData.SuspensionLowerLimit*
+  commentId: Overload:GTA.HandlingData.SuspensionLowerLimit
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionLowerLimit
+  name: SuspensionLowerLimit
+  nameWithType: HandlingData.SuspensionLowerLimit
+  fullName: GTA.HandlingData.SuspensionLowerLimit
+- uid: GTA.HandlingData.SuspensionRaise*
+  commentId: Overload:GTA.HandlingData.SuspensionRaise
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionRaise
+  name: SuspensionRaise
+  nameWithType: HandlingData.SuspensionRaise
+  fullName: GTA.HandlingData.SuspensionRaise
+- uid: GTA.HandlingData.SuspensionReboundDamping*
+  commentId: Overload:GTA.HandlingData.SuspensionReboundDamping
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionReboundDamping
+  name: SuspensionReboundDamping
+  nameWithType: HandlingData.SuspensionReboundDamping
+  fullName: GTA.HandlingData.SuspensionReboundDamping
+- uid: GTA.HandlingData.SuspensionUpperLimit*
+  commentId: Overload:GTA.HandlingData.SuspensionUpperLimit
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SuspensionUpperLimit
+  name: SuspensionUpperLimit
+  nameWithType: HandlingData.SuspensionUpperLimit
+  fullName: GTA.HandlingData.SuspensionUpperLimit
+- uid: GTA.HandlingData.TractionBiasFront*
+  commentId: Overload:GTA.HandlingData.TractionBiasFront
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TractionBiasFront
+  name: TractionBiasFront
+  nameWithType: HandlingData.TractionBiasFront
+  fullName: GTA.HandlingData.TractionBiasFront
+- uid: GTA.HandlingData.TractionCurveMax*
+  commentId: Overload:GTA.HandlingData.TractionCurveMax
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TractionCurveMax
+  name: TractionCurveMax
+  nameWithType: HandlingData.TractionCurveMax
+  fullName: GTA.HandlingData.TractionCurveMax
+- uid: GTA.HandlingData.TractionCurveMin*
+  commentId: Overload:GTA.HandlingData.TractionCurveMin
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TractionCurveMin
+  name: TractionCurveMin
+  nameWithType: HandlingData.TractionCurveMin
+  fullName: GTA.HandlingData.TractionCurveMin
+- uid: GTA.HandlingData.TractionCurveLateral*
+  commentId: Overload:GTA.HandlingData.TractionCurveLateral
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TractionCurveLateral
+  name: TractionCurveLateral
+  nameWithType: HandlingData.TractionCurveLateral
+  fullName: GTA.HandlingData.TractionCurveLateral
+- uid: GTA.HandlingData.TractionLossMultiplier*
+  commentId: Overload:GTA.HandlingData.TractionLossMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TractionLossMultiplier
+  name: TractionLossMultiplier
+  nameWithType: HandlingData.TractionLossMultiplier
+  fullName: GTA.HandlingData.TractionLossMultiplier
+- uid: GTA.HandlingData.TractionSpringDeltaMax*
+  commentId: Overload:GTA.HandlingData.TractionSpringDeltaMax
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TractionSpringDeltaMax
+  name: TractionSpringDeltaMax
+  nameWithType: HandlingData.TractionSpringDeltaMax
+  fullName: GTA.HandlingData.TractionSpringDeltaMax
+- uid: GTA.HandlingData.WeaponDamageMultiplier*
+  commentId: Overload:GTA.HandlingData.WeaponDamageMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_WeaponDamageMultiplier
+  name: WeaponDamageMultiplier
+  nameWithType: HandlingData.WeaponDamageMultiplier
+  fullName: GTA.HandlingData.WeaponDamageMultiplier
+- uid: GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier*
+  commentId: Overload:GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_WeaponDamageScaledToVehicleHealthMultiplier
+  name: WeaponDamageScaledToVehicleHealthMultiplier
+  nameWithType: HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+  fullName: GTA.HandlingData.WeaponDamageScaledToVehicleHealthMultiplier
+- uid: GTA.HandlingData.BikeHandlingData*
+  commentId: Overload:GTA.HandlingData.BikeHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_BikeHandlingData
+  name: BikeHandlingData
+  nameWithType: HandlingData.BikeHandlingData
+  fullName: GTA.HandlingData.BikeHandlingData
+- uid: GTA.BikeHandlingData
+  commentId: T:GTA.BikeHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BikeHandlingData.html
+  name: BikeHandlingData
+  nameWithType: BikeHandlingData
+  fullName: GTA.BikeHandlingData
+- uid: GTA.HandlingData.FlyingHandlingData*
+  commentId: Overload:GTA.HandlingData.FlyingHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_FlyingHandlingData
+  name: FlyingHandlingData
+  nameWithType: HandlingData.FlyingHandlingData
+  fullName: GTA.HandlingData.FlyingHandlingData
+- uid: GTA.FlyingHandlingData
+  commentId: T:GTA.FlyingHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.FlyingHandlingData.html
+  name: FlyingHandlingData
+  nameWithType: FlyingHandlingData
+  fullName: GTA.FlyingHandlingData
+- uid: GTA.HandlingData.VerticalFlyingHandlingData*
+  commentId: Overload:GTA.HandlingData.VerticalFlyingHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_VerticalFlyingHandlingData
+  name: VerticalFlyingHandlingData
+  nameWithType: HandlingData.VerticalFlyingHandlingData
+  fullName: GTA.HandlingData.VerticalFlyingHandlingData
+- uid: GTA.HandlingData.BoatHandlingData*
+  commentId: Overload:GTA.HandlingData.BoatHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_BoatHandlingData
+  name: BoatHandlingData
+  nameWithType: HandlingData.BoatHandlingData
+  fullName: GTA.HandlingData.BoatHandlingData
+- uid: GTA.BoatHandlingData
+  commentId: T:GTA.BoatHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.BoatHandlingData.html
+  name: BoatHandlingData
+  nameWithType: BoatHandlingData
+  fullName: GTA.BoatHandlingData
+- uid: GTA.HandlingData.SeaPlaneHandlingData*
+  commentId: Overload:GTA.HandlingData.SeaPlaneHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SeaPlaneHandlingData
+  name: SeaPlaneHandlingData
+  nameWithType: HandlingData.SeaPlaneHandlingData
+  fullName: GTA.HandlingData.SeaPlaneHandlingData
+- uid: GTA.SeaPlaneHandlingData
+  commentId: T:GTA.SeaPlaneHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.SeaPlaneHandlingData.html
+  name: SeaPlaneHandlingData
+  nameWithType: SeaPlaneHandlingData
+  fullName: GTA.SeaPlaneHandlingData
+- uid: GTA.HandlingData.SubmarineHandlingData*
+  commentId: Overload:GTA.HandlingData.SubmarineHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_SubmarineHandlingData
+  name: SubmarineHandlingData
+  nameWithType: HandlingData.SubmarineHandlingData
+  fullName: GTA.HandlingData.SubmarineHandlingData
+- uid: GTA.SubmarineHandlingData
+  commentId: T:GTA.SubmarineHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.SubmarineHandlingData.html
+  name: SubmarineHandlingData
+  nameWithType: SubmarineHandlingData
+  fullName: GTA.SubmarineHandlingData
+- uid: GTA.HandlingData.TrailerHandlingData*
+  commentId: Overload:GTA.HandlingData.TrailerHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_TrailerHandlingData
+  name: TrailerHandlingData
+  nameWithType: HandlingData.TrailerHandlingData
+  fullName: GTA.HandlingData.TrailerHandlingData
+- uid: GTA.TrailerHandlingData
+  commentId: T:GTA.TrailerHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.TrailerHandlingData.html
+  name: TrailerHandlingData
+  nameWithType: TrailerHandlingData
+  fullName: GTA.TrailerHandlingData
+- uid: GTA.HandlingData.CarHandlingData*
+  commentId: Overload:GTA.HandlingData.CarHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_CarHandlingData
+  name: CarHandlingData
+  nameWithType: HandlingData.CarHandlingData
+  fullName: GTA.HandlingData.CarHandlingData
+- uid: GTA.CarHandlingData
+  commentId: T:GTA.CarHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.CarHandlingData.html
+  name: CarHandlingData
+  nameWithType: CarHandlingData
+  fullName: GTA.CarHandlingData
+- uid: GTA.HandlingData.VehicleWeaponHandlingData*
+  commentId: Overload:GTA.HandlingData.VehicleWeaponHandlingData
+  isExternal: true
+  href: GTA.HandlingData.html#GTA_HandlingData_VehicleWeaponHandlingData
+  name: VehicleWeaponHandlingData
+  nameWithType: HandlingData.VehicleWeaponHandlingData
+  fullName: GTA.HandlingData.VehicleWeaponHandlingData
+- uid: GTA.VehicleWeaponHandlingData
+  commentId: T:GTA.VehicleWeaponHandlingData
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleWeaponHandlingData.html
+  name: VehicleWeaponHandlingData
+  nameWithType: VehicleWeaponHandlingData
+  fullName: GTA.VehicleWeaponHandlingData

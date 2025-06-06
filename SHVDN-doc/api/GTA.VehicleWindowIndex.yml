@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleWindowIndex
+  commentId: T:GTA.VehicleWindowIndex
+  id: VehicleWindowIndex
+  parent: GTA
+  children:
+  - GTA.VehicleWindowIndex.BackLeftWindow
+  - GTA.VehicleWindowIndex.BackRightWindow
+  - GTA.VehicleWindowIndex.BackWindshield
+  - GTA.VehicleWindowIndex.FrontLeftWindow
+  - GTA.VehicleWindowIndex.FrontRightWindow
+  - GTA.VehicleWindowIndex.MiddleLeftWindow
+  - GTA.VehicleWindowIndex.MiddleRightWindow
+  - GTA.VehicleWindowIndex.Windshield
+  langs:
+  - csharp
+  - vb
+  name: VehicleWindowIndex
+  nameWithType: VehicleWindowIndex
+  fullName: GTA.VehicleWindowIndex
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum VehicleWindowIndex
+    content.vb: Public Enum VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.FrontLeftWindow
+  commentId: F:GTA.VehicleWindowIndex.FrontLeftWindow
+  id: FrontLeftWindow
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: FrontLeftWindow
+  nameWithType: VehicleWindowIndex.FrontLeftWindow
+  fullName: GTA.VehicleWindowIndex.FrontLeftWindow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontLeftWindow = 0
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.FrontRightWindow
+  commentId: F:GTA.VehicleWindowIndex.FrontRightWindow
+  id: FrontRightWindow
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: FrontRightWindow
+  nameWithType: VehicleWindowIndex.FrontRightWindow
+  fullName: GTA.VehicleWindowIndex.FrontRightWindow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontRightWindow = 1
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.BackLeftWindow
+  commentId: F:GTA.VehicleWindowIndex.BackLeftWindow
+  id: BackLeftWindow
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: BackLeftWindow
+  nameWithType: VehicleWindowIndex.BackLeftWindow
+  fullName: GTA.VehicleWindowIndex.BackLeftWindow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BackLeftWindow = 2
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.BackRightWindow
+  commentId: F:GTA.VehicleWindowIndex.BackRightWindow
+  id: BackRightWindow
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: BackRightWindow
+  nameWithType: VehicleWindowIndex.BackRightWindow
+  fullName: GTA.VehicleWindowIndex.BackRightWindow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BackRightWindow = 3
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.MiddleLeftWindow
+  commentId: F:GTA.VehicleWindowIndex.MiddleLeftWindow
+  id: MiddleLeftWindow
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeftWindow
+  nameWithType: VehicleWindowIndex.MiddleLeftWindow
+  fullName: GTA.VehicleWindowIndex.MiddleLeftWindow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MiddleLeftWindow = 4
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.MiddleRightWindow
+  commentId: F:GTA.VehicleWindowIndex.MiddleRightWindow
+  id: MiddleRightWindow
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: MiddleRightWindow
+  nameWithType: VehicleWindowIndex.MiddleRightWindow
+  fullName: GTA.VehicleWindowIndex.MiddleRightWindow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MiddleRightWindow = 5
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.Windshield
+  commentId: F:GTA.VehicleWindowIndex.Windshield
+  id: Windshield
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: Windshield
+  nameWithType: VehicleWindowIndex.Windshield
+  fullName: GTA.VehicleWindowIndex.Windshield
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Windshield = 6
+    return:
+      type: GTA.VehicleWindowIndex
+- uid: GTA.VehicleWindowIndex.BackWindshield
+  commentId: F:GTA.VehicleWindowIndex.BackWindshield
+  id: BackWindshield
+  parent: GTA.VehicleWindowIndex
+  langs:
+  - csharp
+  - vb
+  name: BackWindshield
+  nameWithType: VehicleWindowIndex.BackWindshield
+  fullName: GTA.VehicleWindowIndex.BackWindshield
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BackWindshield = 7
+    return:
+      type: GTA.VehicleWindowIndex
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.VehicleWindowIndex
+  commentId: T:GTA.VehicleWindowIndex
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleWindowIndex.html
+  name: VehicleWindowIndex
+  nameWithType: VehicleWindowIndex
+  fullName: GTA.VehicleWindowIndex

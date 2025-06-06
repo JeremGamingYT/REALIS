@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Language
+  commentId: T:GTA.Language
+  id: Language
+  parent: GTA
+  children:
+  - GTA.Language.American
+  - GTA.Language.Chinese
+  - GTA.Language.ChineseSimplified
+  - GTA.Language.French
+  - GTA.Language.German
+  - GTA.Language.Italian
+  - GTA.Language.Japanese
+  - GTA.Language.Korean
+  - GTA.Language.Mexican
+  - GTA.Language.Polish
+  - GTA.Language.Portuguese
+  - GTA.Language.Russian
+  - GTA.Language.Spanish
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Language
+  fullName: GTA.Language
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum Language
+    content.vb: Public Enum Language
+- uid: GTA.Language.American
+  commentId: F:GTA.Language.American
+  id: American
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: American
+  nameWithType: Language.American
+  fullName: GTA.Language.American
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: American = 0
+    return:
+      type: GTA.Language
+- uid: GTA.Language.French
+  commentId: F:GTA.Language.French
+  id: French
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: French
+  nameWithType: Language.French
+  fullName: GTA.Language.French
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: French = 1
+    return:
+      type: GTA.Language
+- uid: GTA.Language.German
+  commentId: F:GTA.Language.German
+  id: German
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: German
+  nameWithType: Language.German
+  fullName: GTA.Language.German
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: German = 2
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Italian
+  commentId: F:GTA.Language.Italian
+  id: Italian
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Italian
+  nameWithType: Language.Italian
+  fullName: GTA.Language.Italian
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Italian = 3
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Spanish
+  commentId: F:GTA.Language.Spanish
+  id: Spanish
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Spanish
+  nameWithType: Language.Spanish
+  fullName: GTA.Language.Spanish
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Spanish = 4
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Portuguese
+  commentId: F:GTA.Language.Portuguese
+  id: Portuguese
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Portuguese
+  nameWithType: Language.Portuguese
+  fullName: GTA.Language.Portuguese
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Portuguese = 5
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Polish
+  commentId: F:GTA.Language.Polish
+  id: Polish
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Polish
+  nameWithType: Language.Polish
+  fullName: GTA.Language.Polish
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Polish = 6
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Russian
+  commentId: F:GTA.Language.Russian
+  id: Russian
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Russian
+  nameWithType: Language.Russian
+  fullName: GTA.Language.Russian
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Russian = 7
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Korean
+  commentId: F:GTA.Language.Korean
+  id: Korean
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Korean
+  nameWithType: Language.Korean
+  fullName: GTA.Language.Korean
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Korean = 8
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Chinese
+  commentId: F:GTA.Language.Chinese
+  id: Chinese
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Chinese
+  nameWithType: Language.Chinese
+  fullName: GTA.Language.Chinese
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Chinese = 9
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Japanese
+  commentId: F:GTA.Language.Japanese
+  id: Japanese
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Japanese
+  nameWithType: Language.Japanese
+  fullName: GTA.Language.Japanese
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Japanese = 10
+    return:
+      type: GTA.Language
+- uid: GTA.Language.Mexican
+  commentId: F:GTA.Language.Mexican
+  id: Mexican
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: Mexican
+  nameWithType: Language.Mexican
+  fullName: GTA.Language.Mexican
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Mexican = 11
+    return:
+      type: GTA.Language
+- uid: GTA.Language.ChineseSimplified
+  commentId: F:GTA.Language.ChineseSimplified
+  id: ChineseSimplified
+  parent: GTA.Language
+  langs:
+  - csharp
+  - vb
+  name: ChineseSimplified
+  nameWithType: Language.ChineseSimplified
+  fullName: GTA.Language.ChineseSimplified
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ChineseSimplified = 12
+    return:
+      type: GTA.Language
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.Language
+  commentId: T:GTA.Language
+  parent: GTA
+  isExternal: true
+  href: GTA.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: GTA.Language

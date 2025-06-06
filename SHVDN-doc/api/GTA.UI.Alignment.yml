@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.Alignment
+  commentId: T:GTA.UI.Alignment
+  id: Alignment
+  parent: GTA.UI
+  children:
+  - GTA.UI.Alignment.Center
+  - GTA.UI.Alignment.Left
+  - GTA.UI.Alignment.Right
+  langs:
+  - csharp
+  - vb
+  name: Alignment
+  nameWithType: Alignment
+  fullName: GTA.UI.Alignment
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public enum Alignment
+    content.vb: Public Enum Alignment
+- uid: GTA.UI.Alignment.Center
+  commentId: F:GTA.UI.Alignment.Center
+  id: Center
+  parent: GTA.UI.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: Alignment.Center
+  fullName: GTA.UI.Alignment.Center
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Center = 0
+    return:
+      type: GTA.UI.Alignment
+- uid: GTA.UI.Alignment.Left
+  commentId: F:GTA.UI.Alignment.Left
+  id: Left
+  parent: GTA.UI.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Alignment.Left
+  fullName: GTA.UI.Alignment.Left
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Left = 1
+    return:
+      type: GTA.UI.Alignment
+- uid: GTA.UI.Alignment.Right
+  commentId: F:GTA.UI.Alignment.Right
+  id: Right
+  parent: GTA.UI.Alignment
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Alignment.Right
+  fullName: GTA.UI.Alignment.Right
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Right = 2
+    return:
+      type: GTA.UI.Alignment
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: GTA.UI.Alignment
+  commentId: T:GTA.UI.Alignment
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.Alignment.html
+  name: Alignment
+  nameWithType: Alignment
+  fullName: GTA.UI.Alignment

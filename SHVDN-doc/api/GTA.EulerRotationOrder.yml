@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.EulerRotationOrder
+  commentId: T:GTA.EulerRotationOrder
+  id: EulerRotationOrder
+  parent: GTA
+  children:
+  - GTA.EulerRotationOrder.XYZ
+  - GTA.EulerRotationOrder.XZY
+  - GTA.EulerRotationOrder.YXZ
+  - GTA.EulerRotationOrder.YZX
+  - GTA.EulerRotationOrder.ZXY
+  - GTA.EulerRotationOrder.ZYX
+  langs:
+  - csharp
+  - vb
+  name: EulerRotationOrder
+  nameWithType: EulerRotationOrder
+  fullName: GTA.EulerRotationOrder
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum EulerRotationOrder
+    content.vb: Public Enum EulerRotationOrder
+- uid: GTA.EulerRotationOrder.XYZ
+  commentId: F:GTA.EulerRotationOrder.XYZ
+  id: XYZ
+  parent: GTA.EulerRotationOrder
+  langs:
+  - csharp
+  - vb
+  name: XYZ
+  nameWithType: EulerRotationOrder.XYZ
+  fullName: GTA.EulerRotationOrder.XYZ
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: XYZ = 0
+    return:
+      type: GTA.EulerRotationOrder
+- uid: GTA.EulerRotationOrder.XZY
+  commentId: F:GTA.EulerRotationOrder.XZY
+  id: XZY
+  parent: GTA.EulerRotationOrder
+  langs:
+  - csharp
+  - vb
+  name: XZY
+  nameWithType: EulerRotationOrder.XZY
+  fullName: GTA.EulerRotationOrder.XZY
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: XZY = 1
+    return:
+      type: GTA.EulerRotationOrder
+- uid: GTA.EulerRotationOrder.YXZ
+  commentId: F:GTA.EulerRotationOrder.YXZ
+  id: YXZ
+  parent: GTA.EulerRotationOrder
+  langs:
+  - csharp
+  - vb
+  name: YXZ
+  nameWithType: EulerRotationOrder.YXZ
+  fullName: GTA.EulerRotationOrder.YXZ
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: YXZ = 2
+    return:
+      type: GTA.EulerRotationOrder
+- uid: GTA.EulerRotationOrder.YZX
+  commentId: F:GTA.EulerRotationOrder.YZX
+  id: YZX
+  parent: GTA.EulerRotationOrder
+  langs:
+  - csharp
+  - vb
+  name: YZX
+  nameWithType: EulerRotationOrder.YZX
+  fullName: GTA.EulerRotationOrder.YZX
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: YZX = 3
+    return:
+      type: GTA.EulerRotationOrder
+- uid: GTA.EulerRotationOrder.ZXY
+  commentId: F:GTA.EulerRotationOrder.ZXY
+  id: ZXY
+  parent: GTA.EulerRotationOrder
+  langs:
+  - csharp
+  - vb
+  name: ZXY
+  nameWithType: EulerRotationOrder.ZXY
+  fullName: GTA.EulerRotationOrder.ZXY
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ZXY = 4
+    return:
+      type: GTA.EulerRotationOrder
+- uid: GTA.EulerRotationOrder.ZYX
+  commentId: F:GTA.EulerRotationOrder.ZYX
+  id: ZYX
+  parent: GTA.EulerRotationOrder
+  langs:
+  - csharp
+  - vb
+  name: ZYX
+  nameWithType: EulerRotationOrder.ZYX
+  fullName: GTA.EulerRotationOrder.ZYX
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ZYX = 5
+    return:
+      type: GTA.EulerRotationOrder
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.EulerRotationOrder
+  commentId: T:GTA.EulerRotationOrder
+  parent: GTA
+  isExternal: true
+  href: GTA.EulerRotationOrder.html
+  name: EulerRotationOrder
+  nameWithType: EulerRotationOrder
+  fullName: GTA.EulerRotationOrder

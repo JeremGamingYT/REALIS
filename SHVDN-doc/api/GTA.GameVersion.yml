@@ -1,0 +1,1898 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.GameVersion
+  commentId: T:GTA.GameVersion
+  id: GameVersion
+  parent: GTA
+  children:
+  - GTA.GameVersion.Unknown
+  - GTA.GameVersion.V1_0_3407_0
+  - GTA.GameVersion.V1_0_3411_0
+  - GTA.GameVersion.V1_0_3442_0
+  - GTA.GameVersion.V1_0_3504_0
+  - GTA.GameVersion.V1_0_3521_0
+  - GTA.GameVersion.v1_0_1011_1_NoSteam
+  - GTA.GameVersion.v1_0_1011_1_Steam
+  - GTA.GameVersion.v1_0_1032_1_NoSteam
+  - GTA.GameVersion.v1_0_1032_1_Steam
+  - GTA.GameVersion.v1_0_1103_2_NoSteam
+  - GTA.GameVersion.v1_0_1103_2_Steam
+  - GTA.GameVersion.v1_0_1180_2_NoSteam
+  - GTA.GameVersion.v1_0_1180_2_Steam
+  - GTA.GameVersion.v1_0_1290_1_NoSteam
+  - GTA.GameVersion.v1_0_1290_1_Steam
+  - GTA.GameVersion.v1_0_1365_1_NoSteam
+  - GTA.GameVersion.v1_0_1365_1_Steam
+  - GTA.GameVersion.v1_0_1493_0_NoSteam
+  - GTA.GameVersion.v1_0_1493_0_Steam
+  - GTA.GameVersion.v1_0_1493_1_NoSteam
+  - GTA.GameVersion.v1_0_1493_1_Steam
+  - GTA.GameVersion.v1_0_1604_0_NoSteam
+  - GTA.GameVersion.v1_0_1604_0_Steam
+  - GTA.GameVersion.v1_0_1604_1_NoSteam
+  - GTA.GameVersion.v1_0_1604_1_Steam
+  - GTA.GameVersion.v1_0_1737_0_NoSteam
+  - GTA.GameVersion.v1_0_1737_0_Steam
+  - GTA.GameVersion.v1_0_1737_6_NoSteam
+  - GTA.GameVersion.v1_0_1737_6_Steam
+  - GTA.GameVersion.v1_0_1868_0_NoSteam
+  - GTA.GameVersion.v1_0_1868_0_Steam
+  - GTA.GameVersion.v1_0_1868_1_NoSteam
+  - GTA.GameVersion.v1_0_1868_1_Steam
+  - GTA.GameVersion.v1_0_1868_4_EGS
+  - GTA.GameVersion.v1_0_2060_0_NoSteam
+  - GTA.GameVersion.v1_0_2060_0_Steam
+  - GTA.GameVersion.v1_0_2060_1_NoSteam
+  - GTA.GameVersion.v1_0_2060_1_Steam
+  - GTA.GameVersion.v1_0_2189_0_NoSteam
+  - GTA.GameVersion.v1_0_2189_0_Steam
+  - GTA.GameVersion.v1_0_2215_0_NoSteam
+  - GTA.GameVersion.v1_0_2215_0_Steam
+  - GTA.GameVersion.v1_0_2245_0_NoSteam
+  - GTA.GameVersion.v1_0_2245_0_Steam
+  - GTA.GameVersion.v1_0_2372_0_NoSteam
+  - GTA.GameVersion.v1_0_2372_0_Steam
+  - GTA.GameVersion.v1_0_2545_0_NoSteam
+  - GTA.GameVersion.v1_0_2545_0_Steam
+  - GTA.GameVersion.v1_0_2612_1_NoSteam
+  - GTA.GameVersion.v1_0_2612_1_Steam
+  - GTA.GameVersion.v1_0_2628_2_NoSteam
+  - GTA.GameVersion.v1_0_2628_2_Steam
+  - GTA.GameVersion.v1_0_2699_0_NoSteam
+  - GTA.GameVersion.v1_0_2699_0_Steam
+  - GTA.GameVersion.v1_0_2699_16
+  - GTA.GameVersion.v1_0_2802_0
+  - GTA.GameVersion.v1_0_2824_0
+  - GTA.GameVersion.v1_0_2845_0
+  - GTA.GameVersion.v1_0_2944_0
+  - GTA.GameVersion.v1_0_3028_0
+  - GTA.GameVersion.v1_0_3095_0
+  - GTA.GameVersion.v1_0_3179_0
+  - GTA.GameVersion.v1_0_3258_0
+  - GTA.GameVersion.v1_0_3274_0
+  - GTA.GameVersion.v1_0_3323_0
+  - GTA.GameVersion.v1_0_3337_0
+  - GTA.GameVersion.v1_0_3351_0
+  - GTA.GameVersion.v1_0_335_2_NoSteam
+  - GTA.GameVersion.v1_0_335_2_Steam
+  - GTA.GameVersion.v1_0_350_1_Steam
+  - GTA.GameVersion.v1_0_350_2_NoSteam
+  - GTA.GameVersion.v1_0_372_2_NoSteam
+  - GTA.GameVersion.v1_0_372_2_Steam
+  - GTA.GameVersion.v1_0_393_2_NoSteam
+  - GTA.GameVersion.v1_0_393_2_Steam
+  - GTA.GameVersion.v1_0_393_4_NoSteam
+  - GTA.GameVersion.v1_0_393_4_Steam
+  - GTA.GameVersion.v1_0_463_1_NoSteam
+  - GTA.GameVersion.v1_0_463_1_Steam
+  - GTA.GameVersion.v1_0_505_2_NoSteam
+  - GTA.GameVersion.v1_0_505_2_Steam
+  - GTA.GameVersion.v1_0_573_1_NoSteam
+  - GTA.GameVersion.v1_0_573_1_Steam
+  - GTA.GameVersion.v1_0_617_1_NoSteam
+  - GTA.GameVersion.v1_0_617_1_Steam
+  - GTA.GameVersion.v1_0_678_1_NoSteam
+  - GTA.GameVersion.v1_0_678_1_Steam
+  - GTA.GameVersion.v1_0_757_2_NoSteam
+  - GTA.GameVersion.v1_0_757_2_Steam
+  - GTA.GameVersion.v1_0_757_3_Steam
+  - GTA.GameVersion.v1_0_757_4_NoSteam
+  - GTA.GameVersion.v1_0_791_2_NoSteam
+  - GTA.GameVersion.v1_0_791_2_Steam
+  - GTA.GameVersion.v1_0_877_1_NoSteam
+  - GTA.GameVersion.v1_0_877_1_Steam
+  - GTA.GameVersion.v1_0_944_2_NoSteam
+  - GTA.GameVersion.v1_0_944_2_Steam
+  langs:
+  - csharp
+  - vb
+  name: GameVersion
+  nameWithType: GameVersion
+  fullName: GTA.GameVersion
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum GameVersion
+    content.vb: Public Enum GameVersion
+- uid: GTA.GameVersion.Unknown
+  commentId: F:GTA.GameVersion.Unknown
+  id: Unknown
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: GameVersion.Unknown
+  fullName: GTA.GameVersion.Unknown
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Unknown = -1
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_335_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_335_2_Steam
+  id: v1_0_335_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_335_2_Steam
+  nameWithType: GameVersion.v1_0_335_2_Steam
+  fullName: GTA.GameVersion.v1_0_335_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_335_2_Steam = 0
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_335_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_335_2_NoSteam
+  id: v1_0_335_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_335_2_NoSteam
+  nameWithType: GameVersion.v1_0_335_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_335_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_335_2_NoSteam = 1
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_350_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_350_1_Steam
+  id: v1_0_350_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_350_1_Steam
+  nameWithType: GameVersion.v1_0_350_1_Steam
+  fullName: GTA.GameVersion.v1_0_350_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_350_1_Steam = 2
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_350_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_350_2_NoSteam
+  id: v1_0_350_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_350_2_NoSteam
+  nameWithType: GameVersion.v1_0_350_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_350_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_350_2_NoSteam = 3
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_372_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_372_2_Steam
+  id: v1_0_372_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_372_2_Steam
+  nameWithType: GameVersion.v1_0_372_2_Steam
+  fullName: GTA.GameVersion.v1_0_372_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_372_2_Steam = 4
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_372_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_372_2_NoSteam
+  id: v1_0_372_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_372_2_NoSteam
+  nameWithType: GameVersion.v1_0_372_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_372_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_372_2_NoSteam = 5
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_393_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_393_2_Steam
+  id: v1_0_393_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_393_2_Steam
+  nameWithType: GameVersion.v1_0_393_2_Steam
+  fullName: GTA.GameVersion.v1_0_393_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_393_2_Steam = 6
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_393_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_393_2_NoSteam
+  id: v1_0_393_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_393_2_NoSteam
+  nameWithType: GameVersion.v1_0_393_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_393_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_393_2_NoSteam = 7
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_393_4_Steam
+  commentId: F:GTA.GameVersion.v1_0_393_4_Steam
+  id: v1_0_393_4_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_393_4_Steam
+  nameWithType: GameVersion.v1_0_393_4_Steam
+  fullName: GTA.GameVersion.v1_0_393_4_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_393_4_Steam = 8
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_393_4_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_393_4_NoSteam
+  id: v1_0_393_4_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_393_4_NoSteam
+  nameWithType: GameVersion.v1_0_393_4_NoSteam
+  fullName: GTA.GameVersion.v1_0_393_4_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_393_4_NoSteam = 9
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_463_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_463_1_Steam
+  id: v1_0_463_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_463_1_Steam
+  nameWithType: GameVersion.v1_0_463_1_Steam
+  fullName: GTA.GameVersion.v1_0_463_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_463_1_Steam = 10
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_463_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_463_1_NoSteam
+  id: v1_0_463_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_463_1_NoSteam
+  nameWithType: GameVersion.v1_0_463_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_463_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_463_1_NoSteam = 11
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_505_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_505_2_Steam
+  id: v1_0_505_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_505_2_Steam
+  nameWithType: GameVersion.v1_0_505_2_Steam
+  fullName: GTA.GameVersion.v1_0_505_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_505_2_Steam = 12
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_505_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_505_2_NoSteam
+  id: v1_0_505_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_505_2_NoSteam
+  nameWithType: GameVersion.v1_0_505_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_505_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_505_2_NoSteam = 13
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_573_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_573_1_Steam
+  id: v1_0_573_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_573_1_Steam
+  nameWithType: GameVersion.v1_0_573_1_Steam
+  fullName: GTA.GameVersion.v1_0_573_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_573_1_Steam = 14
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_573_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_573_1_NoSteam
+  id: v1_0_573_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_573_1_NoSteam
+  nameWithType: GameVersion.v1_0_573_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_573_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_573_1_NoSteam = 15
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_617_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_617_1_Steam
+  id: v1_0_617_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_617_1_Steam
+  nameWithType: GameVersion.v1_0_617_1_Steam
+  fullName: GTA.GameVersion.v1_0_617_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_617_1_Steam = 16
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_617_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_617_1_NoSteam
+  id: v1_0_617_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_617_1_NoSteam
+  nameWithType: GameVersion.v1_0_617_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_617_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_617_1_NoSteam = 17
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_678_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_678_1_Steam
+  id: v1_0_678_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_678_1_Steam
+  nameWithType: GameVersion.v1_0_678_1_Steam
+  fullName: GTA.GameVersion.v1_0_678_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_678_1_Steam = 18
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_678_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_678_1_NoSteam
+  id: v1_0_678_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_678_1_NoSteam
+  nameWithType: GameVersion.v1_0_678_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_678_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_678_1_NoSteam = 19
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_757_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_757_2_Steam
+  id: v1_0_757_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_757_2_Steam
+  nameWithType: GameVersion.v1_0_757_2_Steam
+  fullName: GTA.GameVersion.v1_0_757_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_757_2_Steam = 20
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_757_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_757_2_NoSteam
+  id: v1_0_757_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_757_2_NoSteam
+  nameWithType: GameVersion.v1_0_757_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_757_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_757_2_NoSteam = 21
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_757_3_Steam
+  commentId: F:GTA.GameVersion.v1_0_757_3_Steam
+  id: v1_0_757_3_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_757_3_Steam
+  nameWithType: GameVersion.v1_0_757_3_Steam
+  fullName: GTA.GameVersion.v1_0_757_3_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_757_3_Steam = 22
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_757_4_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_757_4_NoSteam
+  id: v1_0_757_4_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_757_4_NoSteam
+  nameWithType: GameVersion.v1_0_757_4_NoSteam
+  fullName: GTA.GameVersion.v1_0_757_4_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_757_4_NoSteam = 23
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_791_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_791_2_Steam
+  id: v1_0_791_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_791_2_Steam
+  nameWithType: GameVersion.v1_0_791_2_Steam
+  fullName: GTA.GameVersion.v1_0_791_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_791_2_Steam = 24
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_791_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_791_2_NoSteam
+  id: v1_0_791_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_791_2_NoSteam
+  nameWithType: GameVersion.v1_0_791_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_791_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_791_2_NoSteam = 25
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_877_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_877_1_Steam
+  id: v1_0_877_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_877_1_Steam
+  nameWithType: GameVersion.v1_0_877_1_Steam
+  fullName: GTA.GameVersion.v1_0_877_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_877_1_Steam = 26
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_877_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_877_1_NoSteam
+  id: v1_0_877_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_877_1_NoSteam
+  nameWithType: GameVersion.v1_0_877_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_877_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_877_1_NoSteam = 27
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_944_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_944_2_Steam
+  id: v1_0_944_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_944_2_Steam
+  nameWithType: GameVersion.v1_0_944_2_Steam
+  fullName: GTA.GameVersion.v1_0_944_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_944_2_Steam = 28
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_944_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_944_2_NoSteam
+  id: v1_0_944_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_944_2_NoSteam
+  nameWithType: GameVersion.v1_0_944_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_944_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_944_2_NoSteam = 29
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1011_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1011_1_Steam
+  id: v1_0_1011_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1011_1_Steam
+  nameWithType: GameVersion.v1_0_1011_1_Steam
+  fullName: GTA.GameVersion.v1_0_1011_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1011_1_Steam = 30
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1011_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1011_1_NoSteam
+  id: v1_0_1011_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1011_1_NoSteam
+  nameWithType: GameVersion.v1_0_1011_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1011_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1011_1_NoSteam = 31
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1032_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1032_1_Steam
+  id: v1_0_1032_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1032_1_Steam
+  nameWithType: GameVersion.v1_0_1032_1_Steam
+  fullName: GTA.GameVersion.v1_0_1032_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1032_1_Steam = 32
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1032_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1032_1_NoSteam
+  id: v1_0_1032_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1032_1_NoSteam
+  nameWithType: GameVersion.v1_0_1032_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1032_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1032_1_NoSteam = 33
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1103_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_1103_2_Steam
+  id: v1_0_1103_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1103_2_Steam
+  nameWithType: GameVersion.v1_0_1103_2_Steam
+  fullName: GTA.GameVersion.v1_0_1103_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1103_2_Steam = 34
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1103_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1103_2_NoSteam
+  id: v1_0_1103_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1103_2_NoSteam
+  nameWithType: GameVersion.v1_0_1103_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_1103_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1103_2_NoSteam = 35
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1180_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_1180_2_Steam
+  id: v1_0_1180_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1180_2_Steam
+  nameWithType: GameVersion.v1_0_1180_2_Steam
+  fullName: GTA.GameVersion.v1_0_1180_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1180_2_Steam = 36
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1180_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1180_2_NoSteam
+  id: v1_0_1180_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1180_2_NoSteam
+  nameWithType: GameVersion.v1_0_1180_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_1180_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1180_2_NoSteam = 37
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1290_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1290_1_Steam
+  id: v1_0_1290_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1290_1_Steam
+  nameWithType: GameVersion.v1_0_1290_1_Steam
+  fullName: GTA.GameVersion.v1_0_1290_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1290_1_Steam = 38
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1290_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1290_1_NoSteam
+  id: v1_0_1290_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1290_1_NoSteam
+  nameWithType: GameVersion.v1_0_1290_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1290_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1290_1_NoSteam = 39
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1365_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1365_1_Steam
+  id: v1_0_1365_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1365_1_Steam
+  nameWithType: GameVersion.v1_0_1365_1_Steam
+  fullName: GTA.GameVersion.v1_0_1365_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1365_1_Steam = 40
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1365_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1365_1_NoSteam
+  id: v1_0_1365_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1365_1_NoSteam
+  nameWithType: GameVersion.v1_0_1365_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1365_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1365_1_NoSteam = 41
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1493_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_1493_0_Steam
+  id: v1_0_1493_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1493_0_Steam
+  nameWithType: GameVersion.v1_0_1493_0_Steam
+  fullName: GTA.GameVersion.v1_0_1493_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1493_0_Steam = 42
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1493_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1493_0_NoSteam
+  id: v1_0_1493_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1493_0_NoSteam
+  nameWithType: GameVersion.v1_0_1493_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_1493_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1493_0_NoSteam = 43
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1493_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1493_1_Steam
+  id: v1_0_1493_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1493_1_Steam
+  nameWithType: GameVersion.v1_0_1493_1_Steam
+  fullName: GTA.GameVersion.v1_0_1493_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1493_1_Steam = 44
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1493_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1493_1_NoSteam
+  id: v1_0_1493_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1493_1_NoSteam
+  nameWithType: GameVersion.v1_0_1493_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1493_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1493_1_NoSteam = 45
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1604_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_1604_0_Steam
+  id: v1_0_1604_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1604_0_Steam
+  nameWithType: GameVersion.v1_0_1604_0_Steam
+  fullName: GTA.GameVersion.v1_0_1604_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1604_0_Steam = 46
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1604_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1604_0_NoSteam
+  id: v1_0_1604_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1604_0_NoSteam
+  nameWithType: GameVersion.v1_0_1604_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_1604_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1604_0_NoSteam = 47
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1604_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1604_1_Steam
+  id: v1_0_1604_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1604_1_Steam
+  nameWithType: GameVersion.v1_0_1604_1_Steam
+  fullName: GTA.GameVersion.v1_0_1604_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1604_1_Steam = 48
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1604_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1604_1_NoSteam
+  id: v1_0_1604_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1604_1_NoSteam
+  nameWithType: GameVersion.v1_0_1604_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1604_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1604_1_NoSteam = 49
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1737_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_1737_0_Steam
+  id: v1_0_1737_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1737_0_Steam
+  nameWithType: GameVersion.v1_0_1737_0_Steam
+  fullName: GTA.GameVersion.v1_0_1737_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1737_0_Steam = 50
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1737_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1737_0_NoSteam
+  id: v1_0_1737_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1737_0_NoSteam
+  nameWithType: GameVersion.v1_0_1737_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_1737_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1737_0_NoSteam = 51
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1737_6_Steam
+  commentId: F:GTA.GameVersion.v1_0_1737_6_Steam
+  id: v1_0_1737_6_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1737_6_Steam
+  nameWithType: GameVersion.v1_0_1737_6_Steam
+  fullName: GTA.GameVersion.v1_0_1737_6_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1737_6_Steam = 52
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1737_6_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1737_6_NoSteam
+  id: v1_0_1737_6_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1737_6_NoSteam
+  nameWithType: GameVersion.v1_0_1737_6_NoSteam
+  fullName: GTA.GameVersion.v1_0_1737_6_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1737_6_NoSteam = 53
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1868_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_1868_0_Steam
+  id: v1_0_1868_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1868_0_Steam
+  nameWithType: GameVersion.v1_0_1868_0_Steam
+  fullName: GTA.GameVersion.v1_0_1868_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1868_0_Steam = 54
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1868_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1868_0_NoSteam
+  id: v1_0_1868_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1868_0_NoSteam
+  nameWithType: GameVersion.v1_0_1868_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_1868_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1868_0_NoSteam = 55
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1868_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_1868_1_Steam
+  id: v1_0_1868_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1868_1_Steam
+  nameWithType: GameVersion.v1_0_1868_1_Steam
+  fullName: GTA.GameVersion.v1_0_1868_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1868_1_Steam = 56
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1868_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_1868_1_NoSteam
+  id: v1_0_1868_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1868_1_NoSteam
+  nameWithType: GameVersion.v1_0_1868_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_1868_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1868_1_NoSteam = 57
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_1868_4_EGS
+  commentId: F:GTA.GameVersion.v1_0_1868_4_EGS
+  id: v1_0_1868_4_EGS
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_1868_4_EGS
+  nameWithType: GameVersion.v1_0_1868_4_EGS
+  fullName: GTA.GameVersion.v1_0_1868_4_EGS
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_1868_4_EGS = 58
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2060_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2060_0_Steam
+  id: v1_0_2060_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2060_0_Steam
+  nameWithType: GameVersion.v1_0_2060_0_Steam
+  fullName: GTA.GameVersion.v1_0_2060_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2060_0_Steam = 59
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2060_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2060_0_NoSteam
+  id: v1_0_2060_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2060_0_NoSteam
+  nameWithType: GameVersion.v1_0_2060_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2060_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2060_0_NoSteam = 60
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2060_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_2060_1_Steam
+  id: v1_0_2060_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2060_1_Steam
+  nameWithType: GameVersion.v1_0_2060_1_Steam
+  fullName: GTA.GameVersion.v1_0_2060_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2060_1_Steam = 61
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2060_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2060_1_NoSteam
+  id: v1_0_2060_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2060_1_NoSteam
+  nameWithType: GameVersion.v1_0_2060_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_2060_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2060_1_NoSteam = 62
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2189_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2189_0_Steam
+  id: v1_0_2189_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2189_0_Steam
+  nameWithType: GameVersion.v1_0_2189_0_Steam
+  fullName: GTA.GameVersion.v1_0_2189_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2189_0_Steam = 63
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2189_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2189_0_NoSteam
+  id: v1_0_2189_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2189_0_NoSteam
+  nameWithType: GameVersion.v1_0_2189_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2189_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2189_0_NoSteam = 64
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2215_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2215_0_Steam
+  id: v1_0_2215_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2215_0_Steam
+  nameWithType: GameVersion.v1_0_2215_0_Steam
+  fullName: GTA.GameVersion.v1_0_2215_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2215_0_Steam = 65
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2215_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2215_0_NoSteam
+  id: v1_0_2215_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2215_0_NoSteam
+  nameWithType: GameVersion.v1_0_2215_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2215_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2215_0_NoSteam = 66
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2245_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2245_0_Steam
+  id: v1_0_2245_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2245_0_Steam
+  nameWithType: GameVersion.v1_0_2245_0_Steam
+  fullName: GTA.GameVersion.v1_0_2245_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2245_0_Steam = 67
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2245_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2245_0_NoSteam
+  id: v1_0_2245_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2245_0_NoSteam
+  nameWithType: GameVersion.v1_0_2245_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2245_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2245_0_NoSteam = 68
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2372_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2372_0_Steam
+  id: v1_0_2372_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2372_0_Steam
+  nameWithType: GameVersion.v1_0_2372_0_Steam
+  fullName: GTA.GameVersion.v1_0_2372_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2372_0_Steam = 69
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2372_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2372_0_NoSteam
+  id: v1_0_2372_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2372_0_NoSteam
+  nameWithType: GameVersion.v1_0_2372_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2372_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2372_0_NoSteam = 70
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2545_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2545_0_Steam
+  id: v1_0_2545_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2545_0_Steam
+  nameWithType: GameVersion.v1_0_2545_0_Steam
+  fullName: GTA.GameVersion.v1_0_2545_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2545_0_Steam = 71
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2545_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2545_0_NoSteam
+  id: v1_0_2545_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2545_0_NoSteam
+  nameWithType: GameVersion.v1_0_2545_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2545_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2545_0_NoSteam = 72
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2612_1_Steam
+  commentId: F:GTA.GameVersion.v1_0_2612_1_Steam
+  id: v1_0_2612_1_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2612_1_Steam
+  nameWithType: GameVersion.v1_0_2612_1_Steam
+  fullName: GTA.GameVersion.v1_0_2612_1_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2612_1_Steam = 73
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2612_1_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2612_1_NoSteam
+  id: v1_0_2612_1_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2612_1_NoSteam
+  nameWithType: GameVersion.v1_0_2612_1_NoSteam
+  fullName: GTA.GameVersion.v1_0_2612_1_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2612_1_NoSteam = 74
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2628_2_Steam
+  commentId: F:GTA.GameVersion.v1_0_2628_2_Steam
+  id: v1_0_2628_2_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2628_2_Steam
+  nameWithType: GameVersion.v1_0_2628_2_Steam
+  fullName: GTA.GameVersion.v1_0_2628_2_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2628_2_Steam = 75
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2628_2_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2628_2_NoSteam
+  id: v1_0_2628_2_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2628_2_NoSteam
+  nameWithType: GameVersion.v1_0_2628_2_NoSteam
+  fullName: GTA.GameVersion.v1_0_2628_2_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2628_2_NoSteam = 76
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2699_0_Steam
+  commentId: F:GTA.GameVersion.v1_0_2699_0_Steam
+  id: v1_0_2699_0_Steam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2699_0_Steam
+  nameWithType: GameVersion.v1_0_2699_0_Steam
+  fullName: GTA.GameVersion.v1_0_2699_0_Steam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2699_0_Steam = 77
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2699_0_NoSteam
+  commentId: F:GTA.GameVersion.v1_0_2699_0_NoSteam
+  id: v1_0_2699_0_NoSteam
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2699_0_NoSteam
+  nameWithType: GameVersion.v1_0_2699_0_NoSteam
+  fullName: GTA.GameVersion.v1_0_2699_0_NoSteam
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2699_0_NoSteam = 78
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2699_16
+  commentId: F:GTA.GameVersion.v1_0_2699_16
+  id: v1_0_2699_16
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2699_16
+  nameWithType: GameVersion.v1_0_2699_16
+  fullName: GTA.GameVersion.v1_0_2699_16
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2699_16 = 79
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2802_0
+  commentId: F:GTA.GameVersion.v1_0_2802_0
+  id: v1_0_2802_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2802_0
+  nameWithType: GameVersion.v1_0_2802_0
+  fullName: GTA.GameVersion.v1_0_2802_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2802_0 = 80
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2824_0
+  commentId: F:GTA.GameVersion.v1_0_2824_0
+  id: v1_0_2824_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2824_0
+  nameWithType: GameVersion.v1_0_2824_0
+  fullName: GTA.GameVersion.v1_0_2824_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2824_0 = 81
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2845_0
+  commentId: F:GTA.GameVersion.v1_0_2845_0
+  id: v1_0_2845_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2845_0
+  nameWithType: GameVersion.v1_0_2845_0
+  fullName: GTA.GameVersion.v1_0_2845_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2845_0 = 82
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_2944_0
+  commentId: F:GTA.GameVersion.v1_0_2944_0
+  id: v1_0_2944_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_2944_0
+  nameWithType: GameVersion.v1_0_2944_0
+  fullName: GTA.GameVersion.v1_0_2944_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_2944_0 = 83
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3028_0
+  commentId: F:GTA.GameVersion.v1_0_3028_0
+  id: v1_0_3028_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3028_0
+  nameWithType: GameVersion.v1_0_3028_0
+  fullName: GTA.GameVersion.v1_0_3028_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3028_0 = 84
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3095_0
+  commentId: F:GTA.GameVersion.v1_0_3095_0
+  id: v1_0_3095_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3095_0
+  nameWithType: GameVersion.v1_0_3095_0
+  fullName: GTA.GameVersion.v1_0_3095_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3095_0 = 85
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3179_0
+  commentId: F:GTA.GameVersion.v1_0_3179_0
+  id: v1_0_3179_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3179_0
+  nameWithType: GameVersion.v1_0_3179_0
+  fullName: GTA.GameVersion.v1_0_3179_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3179_0 = 86
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3258_0
+  commentId: F:GTA.GameVersion.v1_0_3258_0
+  id: v1_0_3258_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3258_0
+  nameWithType: GameVersion.v1_0_3258_0
+  fullName: GTA.GameVersion.v1_0_3258_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3258_0 = 87
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3274_0
+  commentId: F:GTA.GameVersion.v1_0_3274_0
+  id: v1_0_3274_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3274_0
+  nameWithType: GameVersion.v1_0_3274_0
+  fullName: GTA.GameVersion.v1_0_3274_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3274_0 = 88
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3323_0
+  commentId: F:GTA.GameVersion.v1_0_3323_0
+  id: v1_0_3323_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3323_0
+  nameWithType: GameVersion.v1_0_3323_0
+  fullName: GTA.GameVersion.v1_0_3323_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3323_0 = 89
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3337_0
+  commentId: F:GTA.GameVersion.v1_0_3337_0
+  id: v1_0_3337_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3337_0
+  nameWithType: GameVersion.v1_0_3337_0
+  fullName: GTA.GameVersion.v1_0_3337_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3337_0 = 90
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.v1_0_3351_0
+  commentId: F:GTA.GameVersion.v1_0_3351_0
+  id: v1_0_3351_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: v1_0_3351_0
+  nameWithType: GameVersion.v1_0_3351_0
+  fullName: GTA.GameVersion.v1_0_3351_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: v1_0_3351_0 = 91
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.V1_0_3407_0
+  commentId: F:GTA.GameVersion.V1_0_3407_0
+  id: V1_0_3407_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: V1_0_3407_0
+  nameWithType: GameVersion.V1_0_3407_0
+  fullName: GTA.GameVersion.V1_0_3407_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: V1_0_3407_0 = 92
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.V1_0_3411_0
+  commentId: F:GTA.GameVersion.V1_0_3411_0
+  id: V1_0_3411_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: V1_0_3411_0
+  nameWithType: GameVersion.V1_0_3411_0
+  fullName: GTA.GameVersion.V1_0_3411_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: V1_0_3411_0 = 93
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.V1_0_3442_0
+  commentId: F:GTA.GameVersion.V1_0_3442_0
+  id: V1_0_3442_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: V1_0_3442_0
+  nameWithType: GameVersion.V1_0_3442_0
+  fullName: GTA.GameVersion.V1_0_3442_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: V1_0_3442_0 = 94
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.V1_0_3504_0
+  commentId: F:GTA.GameVersion.V1_0_3504_0
+  id: V1_0_3504_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: V1_0_3504_0
+  nameWithType: GameVersion.V1_0_3504_0
+  fullName: GTA.GameVersion.V1_0_3504_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: V1_0_3504_0 = 95
+    return:
+      type: GTA.GameVersion
+- uid: GTA.GameVersion.V1_0_3521_0
+  commentId: F:GTA.GameVersion.V1_0_3521_0
+  id: V1_0_3521_0
+  parent: GTA.GameVersion
+  langs:
+  - csharp
+  - vb
+  name: V1_0_3521_0
+  nameWithType: GameVersion.V1_0_3521_0
+  fullName: GTA.GameVersion.V1_0_3521_0
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: V1_0_3521_0 = 96
+    return:
+      type: GTA.GameVersion
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.GameVersion
+  commentId: T:GTA.GameVersion
+  parent: GTA
+  isExternal: true
+  href: GTA.GameVersion.html
+  name: GameVersion
+  nameWithType: GameVersion
+  fullName: GTA.GameVersion

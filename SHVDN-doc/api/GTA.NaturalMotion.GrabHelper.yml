@@ -1,0 +1,1919 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.GrabHelper
+  commentId: T:GTA.NaturalMotion.GrabHelper
+  id: GrabHelper
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.GrabHelper.#ctor(GTA.Ped)
+  - GTA.NaturalMotion.GrabHelper.ArmStiffness
+  - GTA.NaturalMotion.GrabHelper.BodyStiffness
+  - GTA.NaturalMotion.GrabHelper.DontLetGo
+  - GTA.NaturalMotion.GrabHelper.DropWeaponDistance
+  - GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary
+  - GTA.NaturalMotion.GrabHelper.FromEA
+  - GTA.NaturalMotion.GrabHelper.GrabDistance
+  - GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer
+  - GTA.NaturalMotion.GrabHelper.GrabStrength
+  - GTA.NaturalMotion.GrabHelper.HandsCollide
+  - GTA.NaturalMotion.GrabHelper.InstanceIndex
+  - GTA.NaturalMotion.GrabHelper.InstancePartIndex
+  - GTA.NaturalMotion.GrabHelper.JustBrace
+  - GTA.NaturalMotion.GrabHelper.LookAtGrab
+  - GTA.NaturalMotion.GrabHelper.MaxReachDistance
+  - GTA.NaturalMotion.GrabHelper.MaxWristAngle
+  - GTA.NaturalMotion.GrabHelper.Move2Radius
+  - GTA.NaturalMotion.GrabHelper.NormalL
+  - GTA.NaturalMotion.GrabHelper.NormalL2
+  - GTA.NaturalMotion.GrabHelper.NormalR
+  - GTA.NaturalMotion.GrabHelper.NormalR2
+  - GTA.NaturalMotion.GrabHelper.OneSideReachAngle
+  - GTA.NaturalMotion.GrabHelper.OrientationConstraintScale
+  - GTA.NaturalMotion.GrabHelper.PointsX4grab
+  - GTA.NaturalMotion.GrabHelper.Pos1
+  - GTA.NaturalMotion.GrabHelper.Pos2
+  - GTA.NaturalMotion.GrabHelper.Pos3
+  - GTA.NaturalMotion.GrabHelper.Pos4
+  - GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft
+  - GTA.NaturalMotion.GrabHelper.PullUpStrengthRight
+  - GTA.NaturalMotion.GrabHelper.PullUpTime
+  - GTA.NaturalMotion.GrabHelper.ReachAngle
+  - GTA.NaturalMotion.GrabHelper.StickyHands
+  - GTA.NaturalMotion.GrabHelper.SurfaceGrab
+  - GTA.NaturalMotion.GrabHelper.TargetForHeadLook
+  - GTA.NaturalMotion.GrabHelper.TurnToTarget
+  - GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget
+  - GTA.NaturalMotion.GrabHelper.UseLeft
+  - GTA.NaturalMotion.GrabHelper.UseLineGrab
+  - GTA.NaturalMotion.GrabHelper.UseRight
+  langs:
+  - csharp
+  - vb
+  name: GrabHelper
+  nameWithType: GrabHelper
+  fullName: GTA.NaturalMotion.GrabHelper
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: 'public sealed class GrabHelper : CustomHelper'
+    content.vb: Public NotInheritable Class GrabHelper Inherits CustomHelper
+  inheritance:
+  - System.Object
+  - GTA.NaturalMotion.CustomHelper
+  inheritedMembers:
+  - GTA.NaturalMotion.CustomHelper.Start
+  - GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  - GTA.NaturalMotion.CustomHelper.Update
+  - GTA.NaturalMotion.CustomHelper.Stop
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  - GTA.NaturalMotion.CustomHelper.ResetArguments
+  - GTA.NaturalMotion.CustomHelper.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.NaturalMotion.GrabHelper.#ctor(GTA.Ped)
+  commentId: M:GTA.NaturalMotion.GrabHelper.#ctor(GTA.Ped)
+  id: '#ctor(GTA.Ped)'
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabHelper(Ped)
+  nameWithType: GrabHelper.GrabHelper(Ped)
+  fullName: GTA.NaturalMotion.GrabHelper.GrabHelper(GTA.Ped)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public GrabHelper(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    content.vb: Public Sub New(ped As Ped)
+  overload: GTA.NaturalMotion.GrabHelper.#ctor*
+  nameWithType.vb: GrabHelper.New(Ped)
+  fullName.vb: GTA.NaturalMotion.GrabHelper.New(GTA.Ped)
+  name.vb: New(Ped)
+- uid: GTA.NaturalMotion.GrabHelper.UseLeft
+  commentId: P:GTA.NaturalMotion.GrabHelper.UseLeft
+  id: UseLeft
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: UseLeft
+  nameWithType: GrabHelper.UseLeft
+  fullName: GTA.NaturalMotion.GrabHelper.UseLeft
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseLeft { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseLeft As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.UseLeft*
+- uid: GTA.NaturalMotion.GrabHelper.UseRight
+  commentId: P:GTA.NaturalMotion.GrabHelper.UseRight
+  id: UseRight
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: UseRight
+  nameWithType: GrabHelper.UseRight
+  fullName: GTA.NaturalMotion.GrabHelper.UseRight
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseRight { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseRight As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.UseRight*
+- uid: GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary
+  commentId: P:GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary
+  id: DropWeaponIfNecessary
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: DropWeaponIfNecessary
+  nameWithType: GrabHelper.DropWeaponIfNecessary
+  fullName: GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool DropWeaponIfNecessary { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property DropWeaponIfNecessary As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary*
+- uid: GTA.NaturalMotion.GrabHelper.DropWeaponDistance
+  commentId: P:GTA.NaturalMotion.GrabHelper.DropWeaponDistance
+  id: DropWeaponDistance
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: DropWeaponDistance
+  nameWithType: GrabHelper.DropWeaponDistance
+  fullName: GTA.NaturalMotion.GrabHelper.DropWeaponDistance
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float DropWeaponDistance { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property DropWeaponDistance As Single
+  overload: GTA.NaturalMotion.GrabHelper.DropWeaponDistance*
+- uid: GTA.NaturalMotion.GrabHelper.GrabStrength
+  commentId: P:GTA.NaturalMotion.GrabHelper.GrabStrength
+  id: GrabStrength
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabStrength
+  nameWithType: GrabHelper.GrabStrength
+  fullName: GTA.NaturalMotion.GrabHelper.GrabStrength
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabStrength { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabStrength As Single
+  overload: GTA.NaturalMotion.GrabHelper.GrabStrength*
+- uid: GTA.NaturalMotion.GrabHelper.StickyHands
+  commentId: P:GTA.NaturalMotion.GrabHelper.StickyHands
+  id: StickyHands
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: StickyHands
+  nameWithType: GrabHelper.StickyHands
+  fullName: GTA.NaturalMotion.GrabHelper.StickyHands
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float StickyHands { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property StickyHands As Single
+  overload: GTA.NaturalMotion.GrabHelper.StickyHands*
+- uid: GTA.NaturalMotion.GrabHelper.TurnToTarget
+  commentId: P:GTA.NaturalMotion.GrabHelper.TurnToTarget
+  id: TurnToTarget
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: TurnToTarget
+  nameWithType: GrabHelper.TurnToTarget
+  fullName: GTA.NaturalMotion.GrabHelper.TurnToTarget
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public TurnType TurnToTarget { set; }
+    parameters: []
+    return:
+      type: GTA.NaturalMotion.TurnType
+    content.vb: Public WriteOnly Property TurnToTarget As TurnType
+  overload: GTA.NaturalMotion.GrabHelper.TurnToTarget*
+- uid: GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer
+  commentId: P:GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer
+  id: GrabHoldMaxTimer
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabHoldMaxTimer
+  nameWithType: GrabHelper.GrabHoldMaxTimer
+  fullName: GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabHoldMaxTimer { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabHoldMaxTimer As Single
+  overload: GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer*
+- uid: GTA.NaturalMotion.GrabHelper.PullUpTime
+  commentId: P:GTA.NaturalMotion.GrabHelper.PullUpTime
+  id: PullUpTime
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: PullUpTime
+  nameWithType: GrabHelper.PullUpTime
+  fullName: GTA.NaturalMotion.GrabHelper.PullUpTime
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float PullUpTime { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property PullUpTime As Single
+  overload: GTA.NaturalMotion.GrabHelper.PullUpTime*
+- uid: GTA.NaturalMotion.GrabHelper.PullUpStrengthRight
+  commentId: P:GTA.NaturalMotion.GrabHelper.PullUpStrengthRight
+  id: PullUpStrengthRight
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: PullUpStrengthRight
+  nameWithType: GrabHelper.PullUpStrengthRight
+  fullName: GTA.NaturalMotion.GrabHelper.PullUpStrengthRight
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float PullUpStrengthRight { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property PullUpStrengthRight As Single
+  overload: GTA.NaturalMotion.GrabHelper.PullUpStrengthRight*
+- uid: GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft
+  commentId: P:GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft
+  id: PullUpStrengthLeft
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: PullUpStrengthLeft
+  nameWithType: GrabHelper.PullUpStrengthLeft
+  fullName: GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float PullUpStrengthLeft { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property PullUpStrengthLeft As Single
+  overload: GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft*
+- uid: GTA.NaturalMotion.GrabHelper.Pos1
+  commentId: P:GTA.NaturalMotion.GrabHelper.Pos1
+  id: Pos1
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: Pos1
+  nameWithType: GrabHelper.Pos1
+  fullName: GTA.NaturalMotion.GrabHelper.Pos1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 Pos1 { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Pos1 As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.Pos1*
+- uid: GTA.NaturalMotion.GrabHelper.Pos2
+  commentId: P:GTA.NaturalMotion.GrabHelper.Pos2
+  id: Pos2
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: Pos2
+  nameWithType: GrabHelper.Pos2
+  fullName: GTA.NaturalMotion.GrabHelper.Pos2
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 Pos2 { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Pos2 As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.Pos2*
+- uid: GTA.NaturalMotion.GrabHelper.Pos3
+  commentId: P:GTA.NaturalMotion.GrabHelper.Pos3
+  id: Pos3
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: Pos3
+  nameWithType: GrabHelper.Pos3
+  fullName: GTA.NaturalMotion.GrabHelper.Pos3
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 Pos3 { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Pos3 As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.Pos3*
+- uid: GTA.NaturalMotion.GrabHelper.Pos4
+  commentId: P:GTA.NaturalMotion.GrabHelper.Pos4
+  id: Pos4
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: Pos4
+  nameWithType: GrabHelper.Pos4
+  fullName: GTA.NaturalMotion.GrabHelper.Pos4
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 Pos4 { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property Pos4 As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.Pos4*
+- uid: GTA.NaturalMotion.GrabHelper.NormalR
+  commentId: P:GTA.NaturalMotion.GrabHelper.NormalR
+  id: NormalR
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: NormalR
+  nameWithType: GrabHelper.NormalR
+  fullName: GTA.NaturalMotion.GrabHelper.NormalR
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 NormalR { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property NormalR As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.NormalR*
+- uid: GTA.NaturalMotion.GrabHelper.NormalL
+  commentId: P:GTA.NaturalMotion.GrabHelper.NormalL
+  id: NormalL
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: NormalL
+  nameWithType: GrabHelper.NormalL
+  fullName: GTA.NaturalMotion.GrabHelper.NormalL
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 NormalL { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property NormalL As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.NormalL*
+- uid: GTA.NaturalMotion.GrabHelper.NormalR2
+  commentId: P:GTA.NaturalMotion.GrabHelper.NormalR2
+  id: NormalR2
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: NormalR2
+  nameWithType: GrabHelper.NormalR2
+  fullName: GTA.NaturalMotion.GrabHelper.NormalR2
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 NormalR2 { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property NormalR2 As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.NormalR2*
+- uid: GTA.NaturalMotion.GrabHelper.NormalL2
+  commentId: P:GTA.NaturalMotion.GrabHelper.NormalL2
+  id: NormalL2
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: NormalL2
+  nameWithType: GrabHelper.NormalL2
+  fullName: GTA.NaturalMotion.GrabHelper.NormalL2
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 NormalL2 { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property NormalL2 As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.NormalL2*
+- uid: GTA.NaturalMotion.GrabHelper.HandsCollide
+  commentId: P:GTA.NaturalMotion.GrabHelper.HandsCollide
+  id: HandsCollide
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: HandsCollide
+  nameWithType: GrabHelper.HandsCollide
+  fullName: GTA.NaturalMotion.GrabHelper.HandsCollide
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool HandsCollide { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property HandsCollide As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.HandsCollide*
+- uid: GTA.NaturalMotion.GrabHelper.JustBrace
+  commentId: P:GTA.NaturalMotion.GrabHelper.JustBrace
+  id: JustBrace
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: JustBrace
+  nameWithType: GrabHelper.JustBrace
+  fullName: GTA.NaturalMotion.GrabHelper.JustBrace
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool JustBrace { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property JustBrace As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.JustBrace*
+- uid: GTA.NaturalMotion.GrabHelper.UseLineGrab
+  commentId: P:GTA.NaturalMotion.GrabHelper.UseLineGrab
+  id: UseLineGrab
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: UseLineGrab
+  nameWithType: GrabHelper.UseLineGrab
+  fullName: GTA.NaturalMotion.GrabHelper.UseLineGrab
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseLineGrab { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseLineGrab As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.UseLineGrab*
+- uid: GTA.NaturalMotion.GrabHelper.PointsX4grab
+  commentId: P:GTA.NaturalMotion.GrabHelper.PointsX4grab
+  id: PointsX4grab
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: PointsX4grab
+  nameWithType: GrabHelper.PointsX4grab
+  fullName: GTA.NaturalMotion.GrabHelper.PointsX4grab
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool PointsX4grab { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property PointsX4grab As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.PointsX4grab*
+- uid: GTA.NaturalMotion.GrabHelper.FromEA
+  commentId: P:GTA.NaturalMotion.GrabHelper.FromEA
+  id: FromEA
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: FromEA
+  nameWithType: GrabHelper.FromEA
+  fullName: GTA.NaturalMotion.GrabHelper.FromEA
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool FromEA { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property FromEA As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.FromEA*
+- uid: GTA.NaturalMotion.GrabHelper.SurfaceGrab
+  commentId: P:GTA.NaturalMotion.GrabHelper.SurfaceGrab
+  id: SurfaceGrab
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: SurfaceGrab
+  nameWithType: GrabHelper.SurfaceGrab
+  fullName: GTA.NaturalMotion.GrabHelper.SurfaceGrab
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool SurfaceGrab { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property SurfaceGrab As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.SurfaceGrab*
+- uid: GTA.NaturalMotion.GrabHelper.InstanceIndex
+  commentId: P:GTA.NaturalMotion.GrabHelper.InstanceIndex
+  id: InstanceIndex
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: InstanceIndex
+  nameWithType: GrabHelper.InstanceIndex
+  fullName: GTA.NaturalMotion.GrabHelper.InstanceIndex
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int InstanceIndex { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property InstanceIndex As Integer
+  overload: GTA.NaturalMotion.GrabHelper.InstanceIndex*
+- uid: GTA.NaturalMotion.GrabHelper.InstancePartIndex
+  commentId: P:GTA.NaturalMotion.GrabHelper.InstancePartIndex
+  id: InstancePartIndex
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: InstancePartIndex
+  nameWithType: GrabHelper.InstancePartIndex
+  fullName: GTA.NaturalMotion.GrabHelper.InstancePartIndex
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public int InstancePartIndex { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public WriteOnly Property InstancePartIndex As Integer
+  overload: GTA.NaturalMotion.GrabHelper.InstancePartIndex*
+- uid: GTA.NaturalMotion.GrabHelper.DontLetGo
+  commentId: P:GTA.NaturalMotion.GrabHelper.DontLetGo
+  id: DontLetGo
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: DontLetGo
+  nameWithType: GrabHelper.DontLetGo
+  fullName: GTA.NaturalMotion.GrabHelper.DontLetGo
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool DontLetGo { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property DontLetGo As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.DontLetGo*
+- uid: GTA.NaturalMotion.GrabHelper.BodyStiffness
+  commentId: P:GTA.NaturalMotion.GrabHelper.BodyStiffness
+  id: BodyStiffness
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: BodyStiffness
+  nameWithType: GrabHelper.BodyStiffness
+  fullName: GTA.NaturalMotion.GrabHelper.BodyStiffness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float BodyStiffness { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property BodyStiffness As Single
+  overload: GTA.NaturalMotion.GrabHelper.BodyStiffness*
+- uid: GTA.NaturalMotion.GrabHelper.ReachAngle
+  commentId: P:GTA.NaturalMotion.GrabHelper.ReachAngle
+  id: ReachAngle
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: ReachAngle
+  nameWithType: GrabHelper.ReachAngle
+  fullName: GTA.NaturalMotion.GrabHelper.ReachAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ReachAngle { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ReachAngle As Single
+  overload: GTA.NaturalMotion.GrabHelper.ReachAngle*
+- uid: GTA.NaturalMotion.GrabHelper.OneSideReachAngle
+  commentId: P:GTA.NaturalMotion.GrabHelper.OneSideReachAngle
+  id: OneSideReachAngle
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: OneSideReachAngle
+  nameWithType: GrabHelper.OneSideReachAngle
+  fullName: GTA.NaturalMotion.GrabHelper.OneSideReachAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float OneSideReachAngle { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property OneSideReachAngle As Single
+  overload: GTA.NaturalMotion.GrabHelper.OneSideReachAngle*
+- uid: GTA.NaturalMotion.GrabHelper.GrabDistance
+  commentId: P:GTA.NaturalMotion.GrabHelper.GrabDistance
+  id: GrabDistance
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: GrabDistance
+  nameWithType: GrabHelper.GrabDistance
+  fullName: GTA.NaturalMotion.GrabHelper.GrabDistance
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float GrabDistance { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property GrabDistance As Single
+  overload: GTA.NaturalMotion.GrabHelper.GrabDistance*
+- uid: GTA.NaturalMotion.GrabHelper.Move2Radius
+  commentId: P:GTA.NaturalMotion.GrabHelper.Move2Radius
+  id: Move2Radius
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: Move2Radius
+  nameWithType: GrabHelper.Move2Radius
+  fullName: GTA.NaturalMotion.GrabHelper.Move2Radius
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float Move2Radius { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property Move2Radius As Single
+  overload: GTA.NaturalMotion.GrabHelper.Move2Radius*
+- uid: GTA.NaturalMotion.GrabHelper.ArmStiffness
+  commentId: P:GTA.NaturalMotion.GrabHelper.ArmStiffness
+  id: ArmStiffness
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: ArmStiffness
+  nameWithType: GrabHelper.ArmStiffness
+  fullName: GTA.NaturalMotion.GrabHelper.ArmStiffness
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ArmStiffness { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ArmStiffness As Single
+  overload: GTA.NaturalMotion.GrabHelper.ArmStiffness*
+- uid: GTA.NaturalMotion.GrabHelper.MaxReachDistance
+  commentId: P:GTA.NaturalMotion.GrabHelper.MaxReachDistance
+  id: MaxReachDistance
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: MaxReachDistance
+  nameWithType: GrabHelper.MaxReachDistance
+  fullName: GTA.NaturalMotion.GrabHelper.MaxReachDistance
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MaxReachDistance { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MaxReachDistance As Single
+  overload: GTA.NaturalMotion.GrabHelper.MaxReachDistance*
+- uid: GTA.NaturalMotion.GrabHelper.OrientationConstraintScale
+  commentId: P:GTA.NaturalMotion.GrabHelper.OrientationConstraintScale
+  id: OrientationConstraintScale
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: OrientationConstraintScale
+  nameWithType: GrabHelper.OrientationConstraintScale
+  fullName: GTA.NaturalMotion.GrabHelper.OrientationConstraintScale
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float OrientationConstraintScale { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property OrientationConstraintScale As Single
+  overload: GTA.NaturalMotion.GrabHelper.OrientationConstraintScale*
+- uid: GTA.NaturalMotion.GrabHelper.MaxWristAngle
+  commentId: P:GTA.NaturalMotion.GrabHelper.MaxWristAngle
+  id: MaxWristAngle
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: MaxWristAngle
+  nameWithType: GrabHelper.MaxWristAngle
+  fullName: GTA.NaturalMotion.GrabHelper.MaxWristAngle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float MaxWristAngle { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property MaxWristAngle As Single
+  overload: GTA.NaturalMotion.GrabHelper.MaxWristAngle*
+- uid: GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget
+  commentId: P:GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget
+  id: UseHeadLookToTarget
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: UseHeadLookToTarget
+  nameWithType: GrabHelper.UseHeadLookToTarget
+  fullName: GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseHeadLookToTarget { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseHeadLookToTarget As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget*
+- uid: GTA.NaturalMotion.GrabHelper.LookAtGrab
+  commentId: P:GTA.NaturalMotion.GrabHelper.LookAtGrab
+  id: LookAtGrab
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: LookAtGrab
+  nameWithType: GrabHelper.LookAtGrab
+  fullName: GTA.NaturalMotion.GrabHelper.LookAtGrab
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool LookAtGrab { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property LookAtGrab As Boolean
+  overload: GTA.NaturalMotion.GrabHelper.LookAtGrab*
+- uid: GTA.NaturalMotion.GrabHelper.TargetForHeadLook
+  commentId: P:GTA.NaturalMotion.GrabHelper.TargetForHeadLook
+  id: TargetForHeadLook
+  parent: GTA.NaturalMotion.GrabHelper
+  langs:
+  - csharp
+  - vb
+  name: TargetForHeadLook
+  nameWithType: GrabHelper.TargetForHeadLook
+  fullName: GTA.NaturalMotion.GrabHelper.TargetForHeadLook
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public Vector3 TargetForHeadLook { set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public WriteOnly Property TargetForHeadLook As Vector3
+  overload: GTA.NaturalMotion.GrabHelper.TargetForHeadLook*
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.NaturalMotion.CustomHelper
+  commentId: T:GTA.NaturalMotion.CustomHelper
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html
+  name: CustomHelper
+  nameWithType: CustomHelper
+  fullName: GTA.NaturalMotion.CustomHelper
+- uid: GTA.NaturalMotion.CustomHelper.Start
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  name: Start()
+  nameWithType: CustomHelper.Start()
+  fullName: GTA.NaturalMotion.CustomHelper.Start()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  name: Start(int)
+  nameWithType: CustomHelper.Start(int)
+  fullName: GTA.NaturalMotion.CustomHelper.Start(int)
+  nameWithType.vb: CustomHelper.Start(Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.Start(Integer)
+  name.vb: Start(Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Update
+  commentId: M:GTA.NaturalMotion.CustomHelper.Update
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  name: Update()
+  nameWithType: CustomHelper.Update()
+  fullName: GTA.NaturalMotion.CustomHelper.Update()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Stop
+  commentId: M:GTA.NaturalMotion.CustomHelper.Stop
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  name: Stop()
+  nameWithType: CustomHelper.Stop()
+  fullName: GTA.NaturalMotion.CustomHelper.Stop()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  name: SetArgument(string, bool)
+  nameWithType: CustomHelper.SetArgument(string, bool)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, bool)
+  nameWithType.vb: CustomHelper.SetArgument(String, Boolean)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Boolean)
+  name.vb: SetArgument(String, Boolean)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  name: SetArgument(string, int)
+  nameWithType: CustomHelper.SetArgument(string, int)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, int)
+  nameWithType.vb: CustomHelper.SetArgument(String, Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Integer)
+  name.vb: SetArgument(String, Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  name: SetArgument(string, float)
+  nameWithType: CustomHelper.SetArgument(string, float)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, float)
+  nameWithType.vb: CustomHelper.SetArgument(String, Single)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Single)
+  name.vb: SetArgument(String, Single)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  name: SetArgument(string, string)
+  nameWithType: CustomHelper.SetArgument(string, string)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, string)
+  nameWithType.vb: CustomHelper.SetArgument(String, String)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, String)
+  name.vb: SetArgument(String, String)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  name: SetArgument(string, Vector3)
+  nameWithType: CustomHelper.SetArgument(string, Vector3)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, GTA.Math.Vector3)
+  nameWithType.vb: CustomHelper.SetArgument(String, Vector3)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, GTA.Math.Vector3)
+  name.vb: SetArgument(String, Vector3)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+  commentId: M:GTA.NaturalMotion.CustomHelper.ResetArguments
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  name: ResetArguments()
+  nameWithType: CustomHelper.ResetArguments()
+  fullName: GTA.NaturalMotion.CustomHelper.ResetArguments()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ToString
+  commentId: M:GTA.NaturalMotion.CustomHelper.ToString
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  name: ToString()
+  nameWithType: CustomHelper.ToString()
+  fullName: GTA.NaturalMotion.CustomHelper.ToString()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.NaturalMotion.GrabHelper.#ctor*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.#ctor
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper__ctor_GTA_Ped_
+  name: GrabHelper
+  nameWithType: GrabHelper.GrabHelper
+  fullName: GTA.NaturalMotion.GrabHelper.GrabHelper
+  nameWithType.vb: GrabHelper.New
+  fullName.vb: GTA.NaturalMotion.GrabHelper.New
+  name.vb: New
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NaturalMotion.GrabHelper.UseLeft*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.UseLeft
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_UseLeft
+  name: UseLeft
+  nameWithType: GrabHelper.UseLeft
+  fullName: GTA.NaturalMotion.GrabHelper.UseLeft
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.NaturalMotion.GrabHelper.UseRight*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.UseRight
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_UseRight
+  name: UseRight
+  nameWithType: GrabHelper.UseRight
+  fullName: GTA.NaturalMotion.GrabHelper.UseRight
+- uid: GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_DropWeaponIfNecessary
+  name: DropWeaponIfNecessary
+  nameWithType: GrabHelper.DropWeaponIfNecessary
+  fullName: GTA.NaturalMotion.GrabHelper.DropWeaponIfNecessary
+- uid: GTA.NaturalMotion.GrabHelper.DropWeaponDistance*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.DropWeaponDistance
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_DropWeaponDistance
+  name: DropWeaponDistance
+  nameWithType: GrabHelper.DropWeaponDistance
+  fullName: GTA.NaturalMotion.GrabHelper.DropWeaponDistance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NaturalMotion.GrabHelper.GrabStrength*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.GrabStrength
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_GrabStrength
+  name: GrabStrength
+  nameWithType: GrabHelper.GrabStrength
+  fullName: GTA.NaturalMotion.GrabHelper.GrabStrength
+- uid: GTA.NaturalMotion.GrabHelper.StickyHands*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.StickyHands
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_StickyHands
+  name: StickyHands
+  nameWithType: GrabHelper.StickyHands
+  fullName: GTA.NaturalMotion.GrabHelper.StickyHands
+- uid: GTA.NaturalMotion.GrabHelper.TurnToTarget*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.TurnToTarget
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_TurnToTarget
+  name: TurnToTarget
+  nameWithType: GrabHelper.TurnToTarget
+  fullName: GTA.NaturalMotion.GrabHelper.TurnToTarget
+- uid: GTA.NaturalMotion.TurnType
+  commentId: T:GTA.NaturalMotion.TurnType
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.TurnType.html
+  name: TurnType
+  nameWithType: TurnType
+  fullName: GTA.NaturalMotion.TurnType
+- uid: GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_GrabHoldMaxTimer
+  name: GrabHoldMaxTimer
+  nameWithType: GrabHelper.GrabHoldMaxTimer
+  fullName: GTA.NaturalMotion.GrabHelper.GrabHoldMaxTimer
+- uid: GTA.NaturalMotion.GrabHelper.PullUpTime*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.PullUpTime
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_PullUpTime
+  name: PullUpTime
+  nameWithType: GrabHelper.PullUpTime
+  fullName: GTA.NaturalMotion.GrabHelper.PullUpTime
+- uid: GTA.NaturalMotion.GrabHelper.PullUpStrengthRight*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.PullUpStrengthRight
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_PullUpStrengthRight
+  name: PullUpStrengthRight
+  nameWithType: GrabHelper.PullUpStrengthRight
+  fullName: GTA.NaturalMotion.GrabHelper.PullUpStrengthRight
+- uid: GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_PullUpStrengthLeft
+  name: PullUpStrengthLeft
+  nameWithType: GrabHelper.PullUpStrengthLeft
+  fullName: GTA.NaturalMotion.GrabHelper.PullUpStrengthLeft
+- uid: GTA.NaturalMotion.GrabHelper.Pos1*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.Pos1
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_Pos1
+  name: Pos1
+  nameWithType: GrabHelper.Pos1
+  fullName: GTA.NaturalMotion.GrabHelper.Pos1
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.NaturalMotion.GrabHelper.Pos2*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.Pos2
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_Pos2
+  name: Pos2
+  nameWithType: GrabHelper.Pos2
+  fullName: GTA.NaturalMotion.GrabHelper.Pos2
+- uid: GTA.NaturalMotion.GrabHelper.Pos3*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.Pos3
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_Pos3
+  name: Pos3
+  nameWithType: GrabHelper.Pos3
+  fullName: GTA.NaturalMotion.GrabHelper.Pos3
+- uid: GTA.NaturalMotion.GrabHelper.Pos4*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.Pos4
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_Pos4
+  name: Pos4
+  nameWithType: GrabHelper.Pos4
+  fullName: GTA.NaturalMotion.GrabHelper.Pos4
+- uid: GTA.NaturalMotion.GrabHelper.NormalR*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.NormalR
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_NormalR
+  name: NormalR
+  nameWithType: GrabHelper.NormalR
+  fullName: GTA.NaturalMotion.GrabHelper.NormalR
+- uid: GTA.NaturalMotion.GrabHelper.NormalL*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.NormalL
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_NormalL
+  name: NormalL
+  nameWithType: GrabHelper.NormalL
+  fullName: GTA.NaturalMotion.GrabHelper.NormalL
+- uid: GTA.NaturalMotion.GrabHelper.NormalR2*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.NormalR2
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_NormalR2
+  name: NormalR2
+  nameWithType: GrabHelper.NormalR2
+  fullName: GTA.NaturalMotion.GrabHelper.NormalR2
+- uid: GTA.NaturalMotion.GrabHelper.NormalL2*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.NormalL2
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_NormalL2
+  name: NormalL2
+  nameWithType: GrabHelper.NormalL2
+  fullName: GTA.NaturalMotion.GrabHelper.NormalL2
+- uid: GTA.NaturalMotion.GrabHelper.HandsCollide*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.HandsCollide
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_HandsCollide
+  name: HandsCollide
+  nameWithType: GrabHelper.HandsCollide
+  fullName: GTA.NaturalMotion.GrabHelper.HandsCollide
+- uid: GTA.NaturalMotion.GrabHelper.JustBrace*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.JustBrace
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_JustBrace
+  name: JustBrace
+  nameWithType: GrabHelper.JustBrace
+  fullName: GTA.NaturalMotion.GrabHelper.JustBrace
+- uid: GTA.NaturalMotion.GrabHelper.UseLineGrab*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.UseLineGrab
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_UseLineGrab
+  name: UseLineGrab
+  nameWithType: GrabHelper.UseLineGrab
+  fullName: GTA.NaturalMotion.GrabHelper.UseLineGrab
+- uid: GTA.NaturalMotion.GrabHelper.PointsX4grab*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.PointsX4grab
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_PointsX4grab
+  name: PointsX4grab
+  nameWithType: GrabHelper.PointsX4grab
+  fullName: GTA.NaturalMotion.GrabHelper.PointsX4grab
+- uid: GTA.NaturalMotion.GrabHelper.FromEA*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.FromEA
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_FromEA
+  name: FromEA
+  nameWithType: GrabHelper.FromEA
+  fullName: GTA.NaturalMotion.GrabHelper.FromEA
+- uid: GTA.NaturalMotion.GrabHelper.SurfaceGrab*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.SurfaceGrab
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_SurfaceGrab
+  name: SurfaceGrab
+  nameWithType: GrabHelper.SurfaceGrab
+  fullName: GTA.NaturalMotion.GrabHelper.SurfaceGrab
+- uid: GTA.NaturalMotion.GrabHelper.InstanceIndex*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.InstanceIndex
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_InstanceIndex
+  name: InstanceIndex
+  nameWithType: GrabHelper.InstanceIndex
+  fullName: GTA.NaturalMotion.GrabHelper.InstanceIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.NaturalMotion.GrabHelper.InstancePartIndex*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.InstancePartIndex
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_InstancePartIndex
+  name: InstancePartIndex
+  nameWithType: GrabHelper.InstancePartIndex
+  fullName: GTA.NaturalMotion.GrabHelper.InstancePartIndex
+- uid: GTA.NaturalMotion.GrabHelper.DontLetGo*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.DontLetGo
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_DontLetGo
+  name: DontLetGo
+  nameWithType: GrabHelper.DontLetGo
+  fullName: GTA.NaturalMotion.GrabHelper.DontLetGo
+- uid: GTA.NaturalMotion.GrabHelper.BodyStiffness*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.BodyStiffness
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_BodyStiffness
+  name: BodyStiffness
+  nameWithType: GrabHelper.BodyStiffness
+  fullName: GTA.NaturalMotion.GrabHelper.BodyStiffness
+- uid: GTA.NaturalMotion.GrabHelper.ReachAngle*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.ReachAngle
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_ReachAngle
+  name: ReachAngle
+  nameWithType: GrabHelper.ReachAngle
+  fullName: GTA.NaturalMotion.GrabHelper.ReachAngle
+- uid: GTA.NaturalMotion.GrabHelper.OneSideReachAngle*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.OneSideReachAngle
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_OneSideReachAngle
+  name: OneSideReachAngle
+  nameWithType: GrabHelper.OneSideReachAngle
+  fullName: GTA.NaturalMotion.GrabHelper.OneSideReachAngle
+- uid: GTA.NaturalMotion.GrabHelper.GrabDistance*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.GrabDistance
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_GrabDistance
+  name: GrabDistance
+  nameWithType: GrabHelper.GrabDistance
+  fullName: GTA.NaturalMotion.GrabHelper.GrabDistance
+- uid: GTA.NaturalMotion.GrabHelper.Move2Radius*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.Move2Radius
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_Move2Radius
+  name: Move2Radius
+  nameWithType: GrabHelper.Move2Radius
+  fullName: GTA.NaturalMotion.GrabHelper.Move2Radius
+- uid: GTA.NaturalMotion.GrabHelper.ArmStiffness*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.ArmStiffness
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_ArmStiffness
+  name: ArmStiffness
+  nameWithType: GrabHelper.ArmStiffness
+  fullName: GTA.NaturalMotion.GrabHelper.ArmStiffness
+- uid: GTA.NaturalMotion.GrabHelper.MaxReachDistance*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.MaxReachDistance
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_MaxReachDistance
+  name: MaxReachDistance
+  nameWithType: GrabHelper.MaxReachDistance
+  fullName: GTA.NaturalMotion.GrabHelper.MaxReachDistance
+- uid: GTA.NaturalMotion.GrabHelper.OrientationConstraintScale*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.OrientationConstraintScale
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_OrientationConstraintScale
+  name: OrientationConstraintScale
+  nameWithType: GrabHelper.OrientationConstraintScale
+  fullName: GTA.NaturalMotion.GrabHelper.OrientationConstraintScale
+- uid: GTA.NaturalMotion.GrabHelper.MaxWristAngle*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.MaxWristAngle
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_MaxWristAngle
+  name: MaxWristAngle
+  nameWithType: GrabHelper.MaxWristAngle
+  fullName: GTA.NaturalMotion.GrabHelper.MaxWristAngle
+- uid: GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_UseHeadLookToTarget
+  name: UseHeadLookToTarget
+  nameWithType: GrabHelper.UseHeadLookToTarget
+  fullName: GTA.NaturalMotion.GrabHelper.UseHeadLookToTarget
+- uid: GTA.NaturalMotion.GrabHelper.LookAtGrab*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.LookAtGrab
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_LookAtGrab
+  name: LookAtGrab
+  nameWithType: GrabHelper.LookAtGrab
+  fullName: GTA.NaturalMotion.GrabHelper.LookAtGrab
+- uid: GTA.NaturalMotion.GrabHelper.TargetForHeadLook*
+  commentId: Overload:GTA.NaturalMotion.GrabHelper.TargetForHeadLook
+  isExternal: true
+  href: GTA.NaturalMotion.GrabHelper.html#GTA_NaturalMotion_GrabHelper_TargetForHeadLook
+  name: TargetForHeadLook
+  nameWithType: GrabHelper.TargetForHeadLook
+  fullName: GTA.NaturalMotion.GrabHelper.TargetForHeadLook

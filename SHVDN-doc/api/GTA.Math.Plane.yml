@@ -1,0 +1,1213 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Math.Plane
+  commentId: T:GTA.Math.Plane
+  id: Plane
+  parent: GTA.Math
+  children:
+  - GTA.Math.Plane.#ctor(GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Plane.#ctor(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  - GTA.Math.Plane.#ctor(GTA.Math.Vector3,System.Single)
+  - GTA.Math.Plane.D
+  - GTA.Math.Plane.DistanceTo(GTA.Math.Vector3)
+  - GTA.Math.Plane.Equals(GTA.Math.Plane)
+  - GTA.Math.Plane.Equals(System.Object)
+  - GTA.Math.Plane.GetHashCode
+  - GTA.Math.Plane.Intersect3(GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Vector3@)
+  - GTA.Math.Plane.IntersectsRay(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3@)
+  - GTA.Math.Plane.Normal
+  - GTA.Math.Plane.Normalize
+  - GTA.Math.Plane.Normalize(GTA.Math.Plane)
+  - GTA.Math.Plane.Normalized
+  - GTA.Math.Plane.ProjectPoint(GTA.Math.Vector3)
+  - GTA.Math.Plane.ToString
+  - GTA.Math.Plane.ToString(System.String)
+  - GTA.Math.Plane.ToString(System.String,System.IFormatProvider)
+  - GTA.Math.Plane.op_Equality(GTA.Math.Plane,GTA.Math.Plane)
+  - GTA.Math.Plane.op_Explicit(GTA.Math.Plane)~GTA.Math.Vector4
+  - GTA.Math.Plane.op_Explicit(GTA.Math.Vector4)~GTA.Math.Plane
+  - GTA.Math.Plane.op_Inequality(GTA.Math.Plane,GTA.Math.Plane)
+  langs:
+  - csharp
+  - vb
+  name: Plane
+  nameWithType: Plane
+  fullName: GTA.Math.Plane
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: 'public struct Plane : IEquatable<Plane>, IFormattable'
+    content.vb: Public Structure Plane Implements IEquatable(Of Plane), IFormattable
+  implements:
+  - System.IEquatable{GTA.Math.Plane}
+  - System.IFormattable
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Math.Plane.Normal
+  commentId: F:GTA.Math.Plane.Normal
+  id: Normal
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Plane.Normal
+  fullName: GTA.Math.Plane.Normal
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Vector3 Normal
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Normal As Vector3
+- uid: GTA.Math.Plane.D
+  commentId: F:GTA.Math.Plane.D
+  id: D
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: Plane.D
+  fullName: GTA.Math.Plane.D
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public float D
+    return:
+      type: System.Single
+    content.vb: Public D As Single
+- uid: GTA.Math.Plane.#ctor(GTA.Math.Vector3,System.Single)
+  commentId: M:GTA.Math.Plane.#ctor(GTA.Math.Vector3,System.Single)
+  id: '#ctor(GTA.Math.Vector3,System.Single)'
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Plane(Vector3, float)
+  nameWithType: Plane.Plane(Vector3, float)
+  fullName: GTA.Math.Plane.Plane(GTA.Math.Vector3, float)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Plane(Vector3 normal, float d)
+    parameters:
+    - id: normal
+      type: GTA.Math.Vector3
+    - id: d
+      type: System.Single
+    content.vb: Public Sub New(normal As Vector3, d As Single)
+  overload: GTA.Math.Plane.#ctor*
+  nameWithType.vb: Plane.New(Vector3, Single)
+  fullName.vb: GTA.Math.Plane.New(GTA.Math.Vector3, Single)
+  name.vb: New(Vector3, Single)
+- uid: GTA.Math.Plane.#ctor(GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Plane.#ctor(GTA.Math.Vector3,GTA.Math.Vector3)
+  id: '#ctor(GTA.Math.Vector3,GTA.Math.Vector3)'
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Plane(Vector3, Vector3)
+  nameWithType: Plane.Plane(Vector3, Vector3)
+  fullName: GTA.Math.Plane.Plane(GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Plane(Vector3 normal, Vector3 point)
+    parameters:
+    - id: normal
+      type: GTA.Math.Vector3
+    - id: point
+      type: GTA.Math.Vector3
+    content.vb: Public Sub New(normal As Vector3, point As Vector3)
+  overload: GTA.Math.Plane.#ctor*
+  nameWithType.vb: Plane.New(Vector3, Vector3)
+  fullName.vb: GTA.Math.Plane.New(GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: New(Vector3, Vector3)
+- uid: GTA.Math.Plane.#ctor(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  commentId: M:GTA.Math.Plane.#ctor(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)
+  id: '#ctor(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3)'
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Plane(Vector3, Vector3, Vector3)
+  nameWithType: Plane.Plane(Vector3, Vector3, Vector3)
+  fullName: GTA.Math.Plane.Plane(GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public Plane(Vector3 a, Vector3 b, Vector3 c)
+    parameters:
+    - id: a
+      type: GTA.Math.Vector3
+    - id: b
+      type: GTA.Math.Vector3
+    - id: c
+      type: GTA.Math.Vector3
+    content.vb: Public Sub New(a As Vector3, b As Vector3, c As Vector3)
+  overload: GTA.Math.Plane.#ctor*
+  nameWithType.vb: Plane.New(Vector3, Vector3, Vector3)
+  fullName.vb: GTA.Math.Plane.New(GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: New(Vector3, Vector3, Vector3)
+- uid: GTA.Math.Plane.DistanceTo(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Plane.DistanceTo(GTA.Math.Vector3)
+  id: DistanceTo(GTA.Math.Vector3)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: DistanceTo(Vector3)
+  nameWithType: Plane.DistanceTo(Vector3)
+  fullName: GTA.Math.Plane.DistanceTo(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly float DistanceTo(Vector3 point)
+    parameters:
+    - id: point
+      type: GTA.Math.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function DistanceTo(point As Vector3) As Single
+  overload: GTA.Math.Plane.DistanceTo*
+- uid: GTA.Math.Plane.Intersect3(GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Vector3@)
+  commentId: M:GTA.Math.Plane.Intersect3(GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Vector3@)
+  id: Intersect3(GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Plane@,GTA.Math.Vector3@)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Intersect3(in Plane, in Plane, in Plane, out Vector3)
+  nameWithType: Plane.Intersect3(in Plane, in Plane, in Plane, out Vector3)
+  fullName: GTA.Math.Plane.Intersect3(in GTA.Math.Plane, in GTA.Math.Plane, in GTA.Math.Plane, out GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool Intersect3(in Plane a, in Plane b, in Plane c, out Vector3 dest)
+    parameters:
+    - id: a
+      type: GTA.Math.Plane
+    - id: b
+      type: GTA.Math.Plane
+    - id: c
+      type: GTA.Math.Plane
+    - id: dest
+      type: GTA.Math.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Intersect3(a As Plane, b As Plane, c As Plane, dest As Vector3) As Boolean
+  overload: GTA.Math.Plane.Intersect3*
+  nameWithType.vb: Plane.Intersect3(Plane, Plane, Plane, Vector3)
+  fullName.vb: GTA.Math.Plane.Intersect3(GTA.Math.Plane, GTA.Math.Plane, GTA.Math.Plane, GTA.Math.Vector3)
+  name.vb: Intersect3(Plane, Plane, Plane, Vector3)
+- uid: GTA.Math.Plane.IntersectsRay(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3@)
+  commentId: M:GTA.Math.Plane.IntersectsRay(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3@)
+  id: IntersectsRay(GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3@)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: IntersectsRay(Vector3, Vector3, out Vector3)
+  nameWithType: Plane.IntersectsRay(Vector3, Vector3, out Vector3)
+  fullName: GTA.Math.Plane.IntersectsRay(GTA.Math.Vector3, GTA.Math.Vector3, out GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly bool IntersectsRay(Vector3 from, Vector3 dir, out Vector3 dest)
+    parameters:
+    - id: from
+      type: GTA.Math.Vector3
+    - id: dir
+      type: GTA.Math.Vector3
+    - id: dest
+      type: GTA.Math.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Function IntersectsRay(from As Vector3, dir As Vector3, dest As Vector3) As Boolean
+  overload: GTA.Math.Plane.IntersectsRay*
+  nameWithType.vb: Plane.IntersectsRay(Vector3, Vector3, Vector3)
+  fullName.vb: GTA.Math.Plane.IntersectsRay(GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: IntersectsRay(Vector3, Vector3, Vector3)
+- uid: GTA.Math.Plane.ProjectPoint(GTA.Math.Vector3)
+  commentId: M:GTA.Math.Plane.ProjectPoint(GTA.Math.Vector3)
+  id: ProjectPoint(GTA.Math.Vector3)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: ProjectPoint(Vector3)
+  nameWithType: Plane.ProjectPoint(Vector3)
+  fullName: GTA.Math.Plane.ProjectPoint(GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Vector3 ProjectPoint(Vector3 point)
+    parameters:
+    - id: point
+      type: GTA.Math.Vector3
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Public Function ProjectPoint(point As Vector3) As Vector3
+  overload: GTA.Math.Plane.ProjectPoint*
+- uid: GTA.Math.Plane.Normalize
+  commentId: M:GTA.Math.Plane.Normalize
+  id: Normalize
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Normalize()
+  nameWithType: Plane.Normalize()
+  fullName: GTA.Math.Plane.Normalize()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public void Normalize()
+    content.vb: Public Sub Normalize()
+  overload: GTA.Math.Plane.Normalize*
+- uid: GTA.Math.Plane.Normalize(GTA.Math.Plane)
+  commentId: M:GTA.Math.Plane.Normalize(GTA.Math.Plane)
+  id: Normalize(GTA.Math.Plane)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Normalize(Plane)
+  nameWithType: Plane.Normalize(Plane)
+  fullName: GTA.Math.Plane.Normalize(GTA.Math.Plane)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static Plane Normalize(Plane plane)
+    parameters:
+    - id: plane
+      type: GTA.Math.Plane
+    return:
+      type: GTA.Math.Plane
+    content.vb: Public Shared Function Normalize(plane As Plane) As Plane
+  overload: GTA.Math.Plane.Normalize*
+- uid: GTA.Math.Plane.op_Equality(GTA.Math.Plane,GTA.Math.Plane)
+  commentId: M:GTA.Math.Plane.op_Equality(GTA.Math.Plane,GTA.Math.Plane)
+  id: op_Equality(GTA.Math.Plane,GTA.Math.Plane)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Plane, Plane)
+  nameWithType: Plane.operator ==(Plane, Plane)
+  fullName: GTA.Math.Plane.operator ==(GTA.Math.Plane, GTA.Math.Plane)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool operator ==(Plane left, Plane right)
+    parameters:
+    - id: left
+      type: GTA.Math.Plane
+    - id: right
+      type: GTA.Math.Plane
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Plane, right As Plane) As Boolean
+  overload: GTA.Math.Plane.op_Equality*
+  nameWithType.vb: Plane.=(Plane, Plane)
+  fullName.vb: GTA.Math.Plane.=(GTA.Math.Plane, GTA.Math.Plane)
+  name.vb: =(Plane, Plane)
+- uid: GTA.Math.Plane.op_Inequality(GTA.Math.Plane,GTA.Math.Plane)
+  commentId: M:GTA.Math.Plane.op_Inequality(GTA.Math.Plane,GTA.Math.Plane)
+  id: op_Inequality(GTA.Math.Plane,GTA.Math.Plane)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Plane, Plane)
+  nameWithType: Plane.operator !=(Plane, Plane)
+  fullName: GTA.Math.Plane.operator !=(GTA.Math.Plane, GTA.Math.Plane)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static bool operator !=(Plane left, Plane right)
+    parameters:
+    - id: left
+      type: GTA.Math.Plane
+    - id: right
+      type: GTA.Math.Plane
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Plane, right As Plane) As Boolean
+  overload: GTA.Math.Plane.op_Inequality*
+  nameWithType.vb: Plane.<>(Plane, Plane)
+  fullName.vb: GTA.Math.Plane.<>(GTA.Math.Plane, GTA.Math.Plane)
+  name.vb: <>(Plane, Plane)
+- uid: GTA.Math.Plane.op_Explicit(GTA.Math.Vector4)~GTA.Math.Plane
+  commentId: M:GTA.Math.Plane.op_Explicit(GTA.Math.Vector4)~GTA.Math.Plane
+  id: op_Explicit(GTA.Math.Vector4)~GTA.Math.Plane
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Plane(Vector4)
+  nameWithType: Plane.explicit operator Plane(Vector4)
+  fullName: GTA.Math.Plane.explicit operator GTA.Math.Plane(GTA.Math.Vector4)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static explicit operator Plane(Vector4 vector)
+    parameters:
+    - id: vector
+      type: GTA.Math.Vector4
+    return:
+      type: GTA.Math.Plane
+    content.vb: Public Shared Narrowing Operator CType(vector As Vector4) As Plane
+  overload: GTA.Math.Plane.op_Explicit*
+  nameWithType.vb: Plane.CType(Vector4)
+  fullName.vb: GTA.Math.Plane.CType(GTA.Math.Vector4)
+  name.vb: CType(Vector4)
+- uid: GTA.Math.Plane.op_Explicit(GTA.Math.Plane)~GTA.Math.Vector4
+  commentId: M:GTA.Math.Plane.op_Explicit(GTA.Math.Plane)~GTA.Math.Vector4
+  id: op_Explicit(GTA.Math.Plane)~GTA.Math.Vector4
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: explicit operator Vector4(Plane)
+  nameWithType: Plane.explicit operator Vector4(Plane)
+  fullName: GTA.Math.Plane.explicit operator GTA.Math.Vector4(GTA.Math.Plane)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public static explicit operator Vector4(Plane plane)
+    parameters:
+    - id: plane
+      type: GTA.Math.Plane
+    return:
+      type: GTA.Math.Vector4
+    content.vb: Public Shared Narrowing Operator CType(plane As Plane) As Vector4
+  overload: GTA.Math.Plane.op_Explicit*
+  nameWithType.vb: Plane.CType(Plane)
+  fullName.vb: GTA.Math.Plane.CType(GTA.Math.Plane)
+  name.vb: CType(Plane)
+- uid: GTA.Math.Plane.ToString
+  commentId: M:GTA.Math.Plane.ToString
+  id: ToString
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Plane.ToString()
+  fullName: GTA.Math.Plane.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.Math.Plane.ToString*
+- uid: GTA.Math.Plane.ToString(System.String)
+  commentId: M:GTA.Math.Plane.ToString(System.String)
+  id: ToString(System.String)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: Plane.ToString(string)
+  fullName: GTA.Math.Plane.ToString(string)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly string ToString(string format)
+    parameters:
+    - id: format
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String) As String
+  overload: GTA.Math.Plane.ToString*
+  nameWithType.vb: Plane.ToString(String)
+  fullName.vb: GTA.Math.Plane.ToString(String)
+  name.vb: ToString(String)
+- uid: GTA.Math.Plane.ToString(System.String,System.IFormatProvider)
+  commentId: M:GTA.Math.Plane.ToString(System.String,System.IFormatProvider)
+  id: ToString(System.String,System.IFormatProvider)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: ToString(string, IFormatProvider)
+  nameWithType: Plane.ToString(string, IFormatProvider)
+  fullName: GTA.Math.Plane.ToString(string, System.IFormatProvider)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public readonly string ToString(string format, IFormatProvider provider)
+    parameters:
+    - id: format
+      type: System.String
+    - id: provider
+      type: System.IFormatProvider
+    return:
+      type: System.String
+    content.vb: Public Function ToString(format As String, provider As IFormatProvider) As String
+  overload: GTA.Math.Plane.ToString*
+  implements:
+  - System.IFormattable.ToString(System.String,System.IFormatProvider)
+  nameWithType.vb: Plane.ToString(String, IFormatProvider)
+  fullName.vb: GTA.Math.Plane.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+- uid: GTA.Math.Plane.Equals(GTA.Math.Plane)
+  commentId: M:GTA.Math.Plane.Equals(GTA.Math.Plane)
+  id: Equals(GTA.Math.Plane)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Equals(Plane)
+  nameWithType: Plane.Equals(Plane)
+  fullName: GTA.Math.Plane.Equals(GTA.Math.Plane)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public readonly bool Equals(Plane value)
+    parameters:
+    - id: value
+      type: GTA.Math.Plane
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(value As Plane) As Boolean
+  overload: GTA.Math.Plane.Equals*
+  implements:
+  - System.IEquatable{GTA.Math.Plane}.Equals(GTA.Math.Plane)
+- uid: GTA.Math.Plane.Equals(System.Object)
+  commentId: M:GTA.Math.Plane.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Plane.Equals(object)
+  fullName: GTA.Math.Plane.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly bool Equals(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(value As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.Math.Plane.Equals*
+  nameWithType.vb: Plane.Equals(Object)
+  fullName.vb: GTA.Math.Plane.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.Math.Plane.GetHashCode
+  commentId: M:GTA.Math.Plane.GetHashCode
+  id: GetHashCode
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Plane.GetHashCode()
+  fullName: GTA.Math.Plane.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  example: []
+  syntax:
+    content: public override readonly int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.Math.Plane.GetHashCode*
+- uid: GTA.Math.Plane.Normalized
+  commentId: P:GTA.Math.Plane.Normalized
+  id: Normalized
+  parent: GTA.Math.Plane
+  langs:
+  - csharp
+  - vb
+  name: Normalized
+  nameWithType: Plane.Normalized
+  fullName: GTA.Math.Plane.Normalized
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Math
+  syntax:
+    content: public readonly Plane Normalized { get; }
+    parameters: []
+    return:
+      type: GTA.Math.Plane
+    content.vb: Public ReadOnly Property Normalized As Plane
+  overload: GTA.Math.Plane.Normalized*
+references:
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: System.IEquatable{GTA.Math.Plane}
+  commentId: T:System.IEquatable{GTA.Math.Plane}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Plane>
+  nameWithType: IEquatable<Plane>
+  fullName: System.IEquatable<GTA.Math.Plane>
+  nameWithType.vb: IEquatable(Of Plane)
+  fullName.vb: System.IEquatable(Of GTA.Math.Plane)
+  name.vb: IEquatable(Of Plane)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.Math.Plane
+    name: Plane
+    isExternal: true
+    href: GTA.Math.Plane.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.Math.Plane
+    name: Plane
+    isExternal: true
+    href: GTA.Math.Plane.html
+  - name: )
+- uid: System.IFormattable
+  commentId: T:System.IFormattable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable
+  name: IFormattable
+  nameWithType: IFormattable
+  fullName: System.IFormattable
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.Math.Plane.#ctor*
+  commentId: Overload:GTA.Math.Plane.#ctor
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane__ctor_GTA_Math_Vector3_System_Single_
+  name: Plane
+  nameWithType: Plane.Plane
+  fullName: GTA.Math.Plane.Plane
+  nameWithType.vb: Plane.New
+  fullName.vb: GTA.Math.Plane.New
+  name.vb: New
+- uid: GTA.Math.Plane.DistanceTo*
+  commentId: Overload:GTA.Math.Plane.DistanceTo
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_DistanceTo_GTA_Math_Vector3_
+  name: DistanceTo
+  nameWithType: Plane.DistanceTo
+  fullName: GTA.Math.Plane.DistanceTo
+- uid: GTA.Math.Plane.Intersect3*
+  commentId: Overload:GTA.Math.Plane.Intersect3
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_Intersect3_GTA_Math_Plane__GTA_Math_Plane__GTA_Math_Plane__GTA_Math_Vector3__
+  name: Intersect3
+  nameWithType: Plane.Intersect3
+  fullName: GTA.Math.Plane.Intersect3
+- uid: GTA.Math.Plane
+  commentId: T:GTA.Math.Plane
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Plane.html
+  name: Plane
+  nameWithType: Plane
+  fullName: GTA.Math.Plane
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Math.Plane.IntersectsRay*
+  commentId: Overload:GTA.Math.Plane.IntersectsRay
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_IntersectsRay_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3__
+  name: IntersectsRay
+  nameWithType: Plane.IntersectsRay
+  fullName: GTA.Math.Plane.IntersectsRay
+- uid: GTA.Math.Plane.ProjectPoint*
+  commentId: Overload:GTA.Math.Plane.ProjectPoint
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_ProjectPoint_GTA_Math_Vector3_
+  name: ProjectPoint
+  nameWithType: Plane.ProjectPoint
+  fullName: GTA.Math.Plane.ProjectPoint
+- uid: GTA.Math.Plane.Normalize*
+  commentId: Overload:GTA.Math.Plane.Normalize
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_Normalize
+  name: Normalize
+  nameWithType: Plane.Normalize
+  fullName: GTA.Math.Plane.Normalize
+- uid: GTA.Math.Plane.op_Equality*
+  commentId: Overload:GTA.Math.Plane.op_Equality
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_op_Equality_GTA_Math_Plane_GTA_Math_Plane_
+  name: operator ==
+  nameWithType: Plane.operator ==
+  fullName: GTA.Math.Plane.operator ==
+  nameWithType.vb: Plane.=
+  fullName.vb: GTA.Math.Plane.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Plane.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.Math.Plane.html#GTA_Math_Plane_op_Equality_GTA_Math_Plane_GTA_Math_Plane_
+- uid: GTA.Math.Plane.op_Inequality*
+  commentId: Overload:GTA.Math.Plane.op_Inequality
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_op_Inequality_GTA_Math_Plane_GTA_Math_Plane_
+  name: operator !=
+  nameWithType: Plane.operator !=
+  fullName: GTA.Math.Plane.operator !=
+  nameWithType.vb: Plane.<>
+  fullName.vb: GTA.Math.Plane.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Math.Plane.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.Math.Plane.html#GTA_Math_Plane_op_Inequality_GTA_Math_Plane_GTA_Math_Plane_
+- uid: GTA.Math.Plane.op_Explicit*
+  commentId: Overload:GTA.Math.Plane.op_Explicit
+  name: explicit operator
+  nameWithType: Plane.explicit operator
+  fullName: GTA.Math.Plane.explicit operator
+  nameWithType.vb: Plane.CType
+  fullName.vb: GTA.Math.Plane.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator
+- uid: GTA.Math.Vector4
+  commentId: T:GTA.Math.Vector4
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector4.html
+  name: Vector4
+  nameWithType: Vector4
+  fullName: GTA.Math.Vector4
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.Math.Plane.ToString*
+  commentId: Overload:GTA.Math.Plane.ToString
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_ToString
+  name: ToString
+  nameWithType: Plane.ToString
+  fullName: GTA.Math.Plane.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+  commentId: M:System.IFormattable.ToString(System.String,System.IFormatProvider)
+  parent: System.IFormattable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  name: ToString(string, IFormatProvider)
+  nameWithType: IFormattable.ToString(string, IFormatProvider)
+  fullName: System.IFormattable.ToString(string, System.IFormatProvider)
+  nameWithType.vb: IFormattable.ToString(String, IFormatProvider)
+  fullName.vb: System.IFormattable.ToString(String, System.IFormatProvider)
+  name.vb: ToString(String, IFormatProvider)
+  spec.csharp:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+  spec.vb:
+  - uid: System.IFormattable.ToString(System.String,System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformattable.tostring
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: GTA.Math.Plane.Equals*
+  commentId: Overload:GTA.Math.Plane.Equals
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_Equals_GTA_Math_Plane_
+  name: Equals
+  nameWithType: Plane.Equals
+  fullName: GTA.Math.Plane.Equals
+- uid: System.IEquatable{GTA.Math.Plane}.Equals(GTA.Math.Plane)
+  commentId: M:System.IEquatable{GTA.Math.Plane}.Equals(GTA.Math.Plane)
+  parent: System.IEquatable{GTA.Math.Plane}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Plane)
+  nameWithType: IEquatable<Plane>.Equals(Plane)
+  fullName: System.IEquatable<GTA.Math.Plane>.Equals(GTA.Math.Plane)
+  nameWithType.vb: IEquatable(Of Plane).Equals(Plane)
+  fullName.vb: System.IEquatable(Of GTA.Math.Plane).Equals(GTA.Math.Plane)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.Math.Plane}.Equals(GTA.Math.Plane)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Math.Plane
+    name: Plane
+    isExternal: true
+    href: GTA.Math.Plane.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.Math.Plane}.Equals(GTA.Math.Plane)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Math.Plane
+    name: Plane
+    isExternal: true
+    href: GTA.Math.Plane.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.Math.Plane.GetHashCode*
+  commentId: Overload:GTA.Math.Plane.GetHashCode
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_GetHashCode
+  name: GetHashCode
+  nameWithType: Plane.GetHashCode
+  fullName: GTA.Math.Plane.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.Math.Plane.Normalized*
+  commentId: Overload:GTA.Math.Plane.Normalized
+  isExternal: true
+  href: GTA.Math.Plane.html#GTA_Math_Plane_Normalized
+  name: Normalized
+  nameWithType: Plane.Normalized
+  fullName: GTA.Math.Plane.Normalized

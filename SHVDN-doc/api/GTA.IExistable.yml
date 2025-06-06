@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.IExistable
+  commentId: T:GTA.IExistable
+  id: IExistable
+  parent: GTA
+  children:
+  - GTA.IExistable.Exists
+  langs:
+  - csharp
+  - vb
+  name: IExistable
+  nameWithType: IExistable
+  fullName: GTA.IExistable
+  type: Interface
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public interface IExistable
+    content.vb: Public Interface IExistable
+- uid: GTA.IExistable.Exists
+  commentId: M:GTA.IExistable.Exists
+  id: Exists
+  parent: GTA.IExistable
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: IExistable.Exists()
+  fullName: GTA.IExistable.Exists()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: bool Exists()
+    return:
+      type: System.Boolean
+    content.vb: Function Exists() As Boolean
+  overload: GTA.IExistable.Exists*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.IExistable.Exists*
+  commentId: Overload:GTA.IExistable.Exists
+  isExternal: true
+  href: GTA.IExistable.html#GTA_IExistable_Exists
+  name: Exists
+  nameWithType: IExistable.Exists
+  fullName: GTA.IExistable.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

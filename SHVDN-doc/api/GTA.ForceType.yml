@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ForceType
+  commentId: T:GTA.ForceType
+  id: ForceType
+  parent: GTA
+  children:
+  - GTA.ForceType.AngularImpulse
+  - GTA.ForceType.ExternalForce
+  - GTA.ForceType.ExternalImpulse
+  - GTA.ForceType.InternalForce
+  - GTA.ForceType.InternalImpulse
+  - GTA.ForceType.Torque
+  langs:
+  - csharp
+  - vb
+  name: ForceType
+  nameWithType: ForceType
+  fullName: GTA.ForceType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum ForceType
+    content.vb: Public Enum ForceType
+- uid: GTA.ForceType.InternalForce
+  commentId: F:GTA.ForceType.InternalForce
+  id: InternalForce
+  parent: GTA.ForceType
+  langs:
+  - csharp
+  - vb
+  name: InternalForce
+  nameWithType: ForceType.InternalForce
+  fullName: GTA.ForceType.InternalForce
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InternalForce = 0
+    return:
+      type: GTA.ForceType
+- uid: GTA.ForceType.InternalImpulse
+  commentId: F:GTA.ForceType.InternalImpulse
+  id: InternalImpulse
+  parent: GTA.ForceType
+  langs:
+  - csharp
+  - vb
+  name: InternalImpulse
+  nameWithType: ForceType.InternalImpulse
+  fullName: GTA.ForceType.InternalImpulse
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InternalImpulse = 1
+    return:
+      type: GTA.ForceType
+- uid: GTA.ForceType.ExternalForce
+  commentId: F:GTA.ForceType.ExternalForce
+  id: ExternalForce
+  parent: GTA.ForceType
+  langs:
+  - csharp
+  - vb
+  name: ExternalForce
+  nameWithType: ForceType.ExternalForce
+  fullName: GTA.ForceType.ExternalForce
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExternalForce = 2
+    return:
+      type: GTA.ForceType
+- uid: GTA.ForceType.ExternalImpulse
+  commentId: F:GTA.ForceType.ExternalImpulse
+  id: ExternalImpulse
+  parent: GTA.ForceType
+  langs:
+  - csharp
+  - vb
+  name: ExternalImpulse
+  nameWithType: ForceType.ExternalImpulse
+  fullName: GTA.ForceType.ExternalImpulse
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ExternalImpulse = 3
+    return:
+      type: GTA.ForceType
+- uid: GTA.ForceType.Torque
+  commentId: F:GTA.ForceType.Torque
+  id: Torque
+  parent: GTA.ForceType
+  langs:
+  - csharp
+  - vb
+  name: Torque
+  nameWithType: ForceType.Torque
+  fullName: GTA.ForceType.Torque
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Torque = 4
+    return:
+      type: GTA.ForceType
+- uid: GTA.ForceType.AngularImpulse
+  commentId: F:GTA.ForceType.AngularImpulse
+  id: AngularImpulse
+  parent: GTA.ForceType
+  langs:
+  - csharp
+  - vb
+  name: AngularImpulse
+  nameWithType: ForceType.AngularImpulse
+  fullName: GTA.ForceType.AngularImpulse
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AngularImpulse = 5
+    return:
+      type: GTA.ForceType
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ForceType
+  commentId: T:GTA.ForceType
+  parent: GTA
+  isExternal: true
+  href: GTA.ForceType.html
+  name: ForceType
+  nameWithType: ForceType
+  fullName: GTA.ForceType

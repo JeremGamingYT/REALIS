@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CargobobHook
+  commentId: T:GTA.CargobobHook
+  id: CargobobHook
+  parent: GTA
+  children:
+  - GTA.CargobobHook.Hook
+  - GTA.CargobobHook.Magnet
+  langs:
+  - csharp
+  - vb
+  name: CargobobHook
+  nameWithType: CargobobHook
+  fullName: GTA.CargobobHook
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CargobobHook
+    content.vb: Public Enum CargobobHook
+- uid: GTA.CargobobHook.Hook
+  commentId: F:GTA.CargobobHook.Hook
+  id: Hook
+  parent: GTA.CargobobHook
+  langs:
+  - csharp
+  - vb
+  name: Hook
+  nameWithType: CargobobHook.Hook
+  fullName: GTA.CargobobHook.Hook
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Hook = 0
+    return:
+      type: GTA.CargobobHook
+- uid: GTA.CargobobHook.Magnet
+  commentId: F:GTA.CargobobHook.Magnet
+  id: Magnet
+  parent: GTA.CargobobHook
+  langs:
+  - csharp
+  - vb
+  name: Magnet
+  nameWithType: CargobobHook.Magnet
+  fullName: GTA.CargobobHook.Magnet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Magnet = 1
+    return:
+      type: GTA.CargobobHook
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CargobobHook
+  commentId: T:GTA.CargobobHook
+  parent: GTA
+  isExternal: true
+  href: GTA.CargobobHook.html
+  name: CargobobHook
+  nameWithType: CargobobHook
+  fullName: GTA.CargobobHook

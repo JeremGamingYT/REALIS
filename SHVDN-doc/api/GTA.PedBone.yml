@@ -1,0 +1,1442 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PedBone
+  commentId: T:GTA.PedBone
+  id: PedBone
+  parent: GTA
+  children:
+  - GTA.PedBone.NextSibling
+  - GTA.PedBone.Owner
+  - GTA.PedBone.Parent
+  - GTA.PedBone.Tag
+  langs:
+  - csharp
+  - vb
+  name: PedBone
+  nameWithType: PedBone
+  fullName: GTA.PedBone
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class PedBone : EntityBone'
+    content.vb: Public NotInheritable Class PedBone Inherits EntityBone
+  inheritance:
+  - System.Object
+  - GTA.EntityBone
+  inheritedMembers:
+  - GTA.EntityBone.GetOffsetPosition(GTA.Math.Vector3)
+  - GTA.EntityBone.GetRelativeOffsetPosition(GTA.Math.Vector3)
+  - GTA.EntityBone.GetPositionOffset(GTA.Math.Vector3)
+  - GTA.EntityBone.GetRelativePositionOffset(GTA.Math.Vector3)
+  - GTA.EntityBone.AttachToBone(GTA.EntityBone,System.Boolean,System.Boolean)
+  - GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone,System.Boolean,System.Boolean)
+  - GTA.EntityBone.AttachToEntityPhysically(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+  - GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+  - GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+  - GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+  - GTA.EntityBone.Equals(System.Object)
+  - GTA.EntityBone.GetHashCode
+  - GTA.EntityBone.Index
+  - GTA.EntityBone.Name
+  - GTA.EntityBone.IsValid
+  - GTA.EntityBone.PoseMatrix
+  - GTA.EntityBone.RelativeMatrix
+  - GTA.EntityBone.Pose
+  - GTA.EntityBone.PoseQuaternion
+  - GTA.EntityBone.PoseRotation
+  - GTA.EntityBone.Position
+  - GTA.EntityBone.Quaternion
+  - GTA.EntityBone.Rotation
+  - GTA.EntityBone.RelativePosition
+  - GTA.EntityBone.RelativeQuaternion
+  - GTA.EntityBone.RelativeRotation
+  - GTA.EntityBone.UpVector
+  - GTA.EntityBone.RightVector
+  - GTA.EntityBone.ForwardVector
+  - GTA.EntityBone.RelativeUpVector
+  - GTA.EntityBone.RelativeRightVector
+  - GTA.EntityBone.RelativeForwardVector
+  - GTA.EntityBone.FragmentGroupIndex
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.PedBone.Owner
+  commentId: P:GTA.PedBone.Owner
+  id: Owner
+  parent: GTA.PedBone
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: PedBone.Owner
+  fullName: GTA.PedBone.Owner
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Ped Owner { get; }
+    parameters: []
+    return:
+      type: GTA.Ped
+    content.vb: Public ReadOnly Property Owner As Ped
+  overload: GTA.PedBone.Owner*
+- uid: GTA.PedBone.Tag
+  commentId: P:GTA.PedBone.Tag
+  id: Tag
+  parent: GTA.PedBone
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: PedBone.Tag
+  fullName: GTA.PedBone.Tag
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Bone Tag { get; }
+    parameters: []
+    return:
+      type: GTA.Bone
+    content.vb: Public ReadOnly Property Tag As Bone
+  overload: GTA.PedBone.Tag*
+- uid: GTA.PedBone.NextSibling
+  commentId: P:GTA.PedBone.NextSibling
+  id: NextSibling
+  parent: GTA.PedBone
+  langs:
+  - csharp
+  - vb
+  name: NextSibling
+  nameWithType: PedBone.NextSibling
+  fullName: GTA.PedBone.NextSibling
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedBone NextSibling { get; }
+    parameters: []
+    return:
+      type: GTA.PedBone
+    content.vb: Public ReadOnly Property NextSibling As PedBone
+  overload: GTA.PedBone.NextSibling*
+- uid: GTA.PedBone.Parent
+  commentId: P:GTA.PedBone.Parent
+  id: Parent
+  parent: GTA.PedBone
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: PedBone.Parent
+  fullName: GTA.PedBone.Parent
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PedBone Parent { get; }
+    parameters: []
+    return:
+      type: GTA.PedBone
+    content.vb: Public ReadOnly Property Parent As PedBone
+  overload: GTA.PedBone.Parent*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.EntityBone
+  commentId: T:GTA.EntityBone
+  parent: GTA
+  isExternal: true
+  href: GTA.EntityBone.html
+  name: EntityBone
+  nameWithType: EntityBone
+  fullName: GTA.EntityBone
+- uid: GTA.EntityBone.GetOffsetPosition(GTA.Math.Vector3)
+  commentId: M:GTA.EntityBone.GetOffsetPosition(GTA.Math.Vector3)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_GetOffsetPosition_GTA_Math_Vector3_
+  name: GetOffsetPosition(Vector3)
+  nameWithType: EntityBone.GetOffsetPosition(Vector3)
+  fullName: GTA.EntityBone.GetOffsetPosition(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.EntityBone.GetOffsetPosition(GTA.Math.Vector3)
+    name: GetOffsetPosition
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetOffsetPosition_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.GetOffsetPosition(GTA.Math.Vector3)
+    name: GetOffsetPosition
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetOffsetPosition_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.EntityBone.GetRelativeOffsetPosition(GTA.Math.Vector3)
+  commentId: M:GTA.EntityBone.GetRelativeOffsetPosition(GTA.Math.Vector3)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_GetRelativeOffsetPosition_GTA_Math_Vector3_
+  name: GetRelativeOffsetPosition(Vector3)
+  nameWithType: EntityBone.GetRelativeOffsetPosition(Vector3)
+  fullName: GTA.EntityBone.GetRelativeOffsetPosition(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.EntityBone.GetRelativeOffsetPosition(GTA.Math.Vector3)
+    name: GetRelativeOffsetPosition
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetRelativeOffsetPosition_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.GetRelativeOffsetPosition(GTA.Math.Vector3)
+    name: GetRelativeOffsetPosition
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetRelativeOffsetPosition_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.EntityBone.GetPositionOffset(GTA.Math.Vector3)
+  commentId: M:GTA.EntityBone.GetPositionOffset(GTA.Math.Vector3)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_GetPositionOffset_GTA_Math_Vector3_
+  name: GetPositionOffset(Vector3)
+  nameWithType: EntityBone.GetPositionOffset(Vector3)
+  fullName: GTA.EntityBone.GetPositionOffset(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.EntityBone.GetPositionOffset(GTA.Math.Vector3)
+    name: GetPositionOffset
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetPositionOffset_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.GetPositionOffset(GTA.Math.Vector3)
+    name: GetPositionOffset
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetPositionOffset_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.EntityBone.GetRelativePositionOffset(GTA.Math.Vector3)
+  commentId: M:GTA.EntityBone.GetRelativePositionOffset(GTA.Math.Vector3)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_GetRelativePositionOffset_GTA_Math_Vector3_
+  name: GetRelativePositionOffset(Vector3)
+  nameWithType: EntityBone.GetRelativePositionOffset(Vector3)
+  fullName: GTA.EntityBone.GetRelativePositionOffset(GTA.Math.Vector3)
+  spec.csharp:
+  - uid: GTA.EntityBone.GetRelativePositionOffset(GTA.Math.Vector3)
+    name: GetRelativePositionOffset
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetRelativePositionOffset_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.GetRelativePositionOffset(GTA.Math.Vector3)
+    name: GetRelativePositionOffset
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetRelativePositionOffset_GTA_Math_Vector3_
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.EntityBone.AttachToBone(GTA.EntityBone,System.Boolean,System.Boolean)
+  commentId: M:GTA.EntityBone.AttachToBone(GTA.EntityBone,System.Boolean,System.Boolean)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_AttachToBone_GTA_EntityBone_System_Boolean_System_Boolean_
+  name: AttachToBone(EntityBone, bool, bool)
+  nameWithType: EntityBone.AttachToBone(EntityBone, bool, bool)
+  fullName: GTA.EntityBone.AttachToBone(GTA.EntityBone, bool, bool)
+  nameWithType.vb: EntityBone.AttachToBone(EntityBone, Boolean, Boolean)
+  fullName.vb: GTA.EntityBone.AttachToBone(GTA.EntityBone, Boolean, Boolean)
+  name.vb: AttachToBone(EntityBone, Boolean, Boolean)
+  spec.csharp:
+  - uid: GTA.EntityBone.AttachToBone(GTA.EntityBone,System.Boolean,System.Boolean)
+    name: AttachToBone
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBone_GTA_EntityBone_System_Boolean_System_Boolean_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.AttachToBone(GTA.EntityBone,System.Boolean,System.Boolean)
+    name: AttachToBone
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBone_GTA_EntityBone_System_Boolean_System_Boolean_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone,System.Boolean,System.Boolean)
+  commentId: M:GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone,System.Boolean,System.Boolean)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_AttachToBoneYForward_GTA_EntityBone_System_Boolean_System_Boolean_
+  name: AttachToBoneYForward(EntityBone, bool, bool)
+  nameWithType: EntityBone.AttachToBoneYForward(EntityBone, bool, bool)
+  fullName: GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone, bool, bool)
+  nameWithType.vb: EntityBone.AttachToBoneYForward(EntityBone, Boolean, Boolean)
+  fullName.vb: GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone, Boolean, Boolean)
+  name.vb: AttachToBoneYForward(EntityBone, Boolean, Boolean)
+  spec.csharp:
+  - uid: GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone,System.Boolean,System.Boolean)
+    name: AttachToBoneYForward
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBoneYForward_GTA_EntityBone_System_Boolean_System_Boolean_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.AttachToBoneYForward(GTA.EntityBone,System.Boolean,System.Boolean)
+    name: AttachToBoneYForward
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBoneYForward_GTA_EntityBone_System_Boolean_System_Boolean_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.EntityBone.AttachToEntityPhysically(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+  commentId: M:GTA.EntityBone.AttachToEntityPhysically(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_AttachToEntityPhysically_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_
+  name: AttachToEntityPhysically(Entity, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder)
+  nameWithType: EntityBone.AttachToEntityPhysically(Entity, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder)
+  fullName: GTA.EntityBone.AttachToEntityPhysically(GTA.Entity, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, float, bool, bool, bool, bool, GTA.EulerRotationOrder)
+  nameWithType.vb: EntityBone.AttachToEntityPhysically(Entity, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder)
+  fullName.vb: GTA.EntityBone.AttachToEntityPhysically(GTA.Entity, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, Single, Boolean, Boolean, Boolean, Boolean, GTA.EulerRotationOrder)
+  name.vb: AttachToEntityPhysically(Entity, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder)
+  spec.csharp:
+  - uid: GTA.EntityBone.AttachToEntityPhysically(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+    name: AttachToEntityPhysically
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToEntityPhysically_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_
+  - name: (
+  - uid: GTA.Entity
+    name: Entity
+    isExternal: true
+    href: GTA.Entity.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.AttachToEntityPhysically(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+    name: AttachToEntityPhysically
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToEntityPhysically_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_
+  - name: (
+  - uid: GTA.Entity
+    name: Entity
+    isExternal: true
+    href: GTA.Entity.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: )
+- uid: GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+  commentId: M:GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_AttachToBonePhysically_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_
+  name: AttachToBonePhysically(EntityBone, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder)
+  nameWithType: EntityBone.AttachToBonePhysically(EntityBone, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder)
+  fullName: GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, float, bool, bool, bool, bool, GTA.EulerRotationOrder)
+  nameWithType.vb: EntityBone.AttachToBonePhysically(EntityBone, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder)
+  fullName.vb: GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, Single, Boolean, Boolean, Boolean, Boolean, GTA.EulerRotationOrder)
+  name.vb: AttachToBonePhysically(EntityBone, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder)
+  spec.csharp:
+  - uid: GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+    name: AttachToBonePhysically
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBonePhysically_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.AttachToBonePhysically(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder)
+    name: AttachToBonePhysically
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBonePhysically_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: )
+- uid: GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+  commentId: M:GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_AttachToEntityPhysicallyOverrideInverseMass_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_System_Single_System_Single_
+  name: AttachToEntityPhysicallyOverrideInverseMass(Entity, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder, float, float)
+  nameWithType: EntityBone.AttachToEntityPhysicallyOverrideInverseMass(Entity, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder, float, float)
+  fullName: GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, float, bool, bool, bool, bool, GTA.EulerRotationOrder, float, float)
+  nameWithType.vb: EntityBone.AttachToEntityPhysicallyOverrideInverseMass(Entity, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder, Single, Single)
+  fullName.vb: GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, Single, Boolean, Boolean, Boolean, Boolean, GTA.EulerRotationOrder, Single, Single)
+  name.vb: AttachToEntityPhysicallyOverrideInverseMass(Entity, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder, Single, Single)
+  spec.csharp:
+  - uid: GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+    name: AttachToEntityPhysicallyOverrideInverseMass
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToEntityPhysicallyOverrideInverseMass_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_System_Single_System_Single_
+  - name: (
+  - uid: GTA.Entity
+    name: Entity
+    isExternal: true
+    href: GTA.Entity.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.AttachToEntityPhysicallyOverrideInverseMass(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+    name: AttachToEntityPhysicallyOverrideInverseMass
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToEntityPhysicallyOverrideInverseMass_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_System_Single_System_Single_
+  - name: (
+  - uid: GTA.Entity
+    name: Entity
+    isExternal: true
+    href: GTA.Entity.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+  commentId: M:GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_AttachToBonePhysicallyOverrideInverseMass_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_System_Single_System_Single_
+  name: AttachToBonePhysicallyOverrideInverseMass(EntityBone, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder, float, float)
+  nameWithType: EntityBone.AttachToBonePhysicallyOverrideInverseMass(EntityBone, Vector3, Vector3, Vector3, float, bool, bool, bool, bool, EulerRotationOrder, float, float)
+  fullName: GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, float, bool, bool, bool, bool, GTA.EulerRotationOrder, float, float)
+  nameWithType.vb: EntityBone.AttachToBonePhysicallyOverrideInverseMass(EntityBone, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder, Single, Single)
+  fullName.vb: GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone, GTA.Math.Vector3, GTA.Math.Vector3, GTA.Math.Vector3, Single, Boolean, Boolean, Boolean, Boolean, GTA.EulerRotationOrder, Single, Single)
+  name.vb: AttachToBonePhysicallyOverrideInverseMass(EntityBone, Vector3, Vector3, Vector3, Single, Boolean, Boolean, Boolean, Boolean, EulerRotationOrder, Single, Single)
+  spec.csharp:
+  - uid: GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+    name: AttachToBonePhysicallyOverrideInverseMass
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBonePhysicallyOverrideInverseMass_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_System_Single_System_Single_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.AttachToBonePhysicallyOverrideInverseMass(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3,GTA.Math.Vector3,System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,GTA.EulerRotationOrder,System.Single,System.Single)
+    name: AttachToBonePhysicallyOverrideInverseMass
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_AttachToBonePhysicallyOverrideInverseMass_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_System_Boolean_System_Boolean_System_Boolean_System_Boolean_GTA_EulerRotationOrder_System_Single_System_Single_
+  - name: (
+  - uid: GTA.EntityBone
+    name: EntityBone
+    isExternal: true
+    href: GTA.EntityBone.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: GTA.EulerRotationOrder
+    name: EulerRotationOrder
+    isExternal: true
+    href: GTA.EulerRotationOrder.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.EntityBone.Equals(System.Object)
+  commentId: M:GTA.EntityBone.Equals(System.Object)
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: EntityBone.Equals(object)
+  fullName: GTA.EntityBone.Equals(object)
+  nameWithType.vb: EntityBone.Equals(Object)
+  fullName.vb: GTA.EntityBone.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: GTA.EntityBone.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.EntityBone.GetHashCode
+  commentId: M:GTA.EntityBone.GetHashCode
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_GetHashCode
+  name: GetHashCode()
+  nameWithType: EntityBone.GetHashCode()
+  fullName: GTA.EntityBone.GetHashCode()
+  spec.csharp:
+  - uid: GTA.EntityBone.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.EntityBone.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: GTA.EntityBone.html#GTA_EntityBone_GetHashCode
+  - name: (
+  - name: )
+- uid: GTA.EntityBone.Index
+  commentId: P:GTA.EntityBone.Index
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Index
+  name: Index
+  nameWithType: EntityBone.Index
+  fullName: GTA.EntityBone.Index
+- uid: GTA.EntityBone.Name
+  commentId: P:GTA.EntityBone.Name
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Name
+  name: Name
+  nameWithType: EntityBone.Name
+  fullName: GTA.EntityBone.Name
+- uid: GTA.EntityBone.IsValid
+  commentId: P:GTA.EntityBone.IsValid
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_IsValid
+  name: IsValid
+  nameWithType: EntityBone.IsValid
+  fullName: GTA.EntityBone.IsValid
+- uid: GTA.EntityBone.PoseMatrix
+  commentId: P:GTA.EntityBone.PoseMatrix
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_PoseMatrix
+  name: PoseMatrix
+  nameWithType: EntityBone.PoseMatrix
+  fullName: GTA.EntityBone.PoseMatrix
+- uid: GTA.EntityBone.RelativeMatrix
+  commentId: P:GTA.EntityBone.RelativeMatrix
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativeMatrix
+  name: RelativeMatrix
+  nameWithType: EntityBone.RelativeMatrix
+  fullName: GTA.EntityBone.RelativeMatrix
+- uid: GTA.EntityBone.Pose
+  commentId: P:GTA.EntityBone.Pose
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Pose
+  name: Pose
+  nameWithType: EntityBone.Pose
+  fullName: GTA.EntityBone.Pose
+- uid: GTA.EntityBone.PoseQuaternion
+  commentId: P:GTA.EntityBone.PoseQuaternion
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_PoseQuaternion
+  name: PoseQuaternion
+  nameWithType: EntityBone.PoseQuaternion
+  fullName: GTA.EntityBone.PoseQuaternion
+- uid: GTA.EntityBone.PoseRotation
+  commentId: P:GTA.EntityBone.PoseRotation
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_PoseRotation
+  name: PoseRotation
+  nameWithType: EntityBone.PoseRotation
+  fullName: GTA.EntityBone.PoseRotation
+- uid: GTA.EntityBone.Position
+  commentId: P:GTA.EntityBone.Position
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Position
+  name: Position
+  nameWithType: EntityBone.Position
+  fullName: GTA.EntityBone.Position
+- uid: GTA.EntityBone.Quaternion
+  commentId: P:GTA.EntityBone.Quaternion
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Quaternion
+  name: Quaternion
+  nameWithType: EntityBone.Quaternion
+  fullName: GTA.EntityBone.Quaternion
+- uid: GTA.EntityBone.Rotation
+  commentId: P:GTA.EntityBone.Rotation
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_Rotation
+  name: Rotation
+  nameWithType: EntityBone.Rotation
+  fullName: GTA.EntityBone.Rotation
+- uid: GTA.EntityBone.RelativePosition
+  commentId: P:GTA.EntityBone.RelativePosition
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativePosition
+  name: RelativePosition
+  nameWithType: EntityBone.RelativePosition
+  fullName: GTA.EntityBone.RelativePosition
+- uid: GTA.EntityBone.RelativeQuaternion
+  commentId: P:GTA.EntityBone.RelativeQuaternion
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativeQuaternion
+  name: RelativeQuaternion
+  nameWithType: EntityBone.RelativeQuaternion
+  fullName: GTA.EntityBone.RelativeQuaternion
+- uid: GTA.EntityBone.RelativeRotation
+  commentId: P:GTA.EntityBone.RelativeRotation
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativeRotation
+  name: RelativeRotation
+  nameWithType: EntityBone.RelativeRotation
+  fullName: GTA.EntityBone.RelativeRotation
+- uid: GTA.EntityBone.UpVector
+  commentId: P:GTA.EntityBone.UpVector
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_UpVector
+  name: UpVector
+  nameWithType: EntityBone.UpVector
+  fullName: GTA.EntityBone.UpVector
+- uid: GTA.EntityBone.RightVector
+  commentId: P:GTA.EntityBone.RightVector
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RightVector
+  name: RightVector
+  nameWithType: EntityBone.RightVector
+  fullName: GTA.EntityBone.RightVector
+- uid: GTA.EntityBone.ForwardVector
+  commentId: P:GTA.EntityBone.ForwardVector
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_ForwardVector
+  name: ForwardVector
+  nameWithType: EntityBone.ForwardVector
+  fullName: GTA.EntityBone.ForwardVector
+- uid: GTA.EntityBone.RelativeUpVector
+  commentId: P:GTA.EntityBone.RelativeUpVector
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativeUpVector
+  name: RelativeUpVector
+  nameWithType: EntityBone.RelativeUpVector
+  fullName: GTA.EntityBone.RelativeUpVector
+- uid: GTA.EntityBone.RelativeRightVector
+  commentId: P:GTA.EntityBone.RelativeRightVector
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativeRightVector
+  name: RelativeRightVector
+  nameWithType: EntityBone.RelativeRightVector
+  fullName: GTA.EntityBone.RelativeRightVector
+- uid: GTA.EntityBone.RelativeForwardVector
+  commentId: P:GTA.EntityBone.RelativeForwardVector
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_RelativeForwardVector
+  name: RelativeForwardVector
+  nameWithType: EntityBone.RelativeForwardVector
+  fullName: GTA.EntityBone.RelativeForwardVector
+- uid: GTA.EntityBone.FragmentGroupIndex
+  commentId: P:GTA.EntityBone.FragmentGroupIndex
+  parent: GTA.EntityBone
+  isExternal: true
+  href: GTA.EntityBone.html#GTA_EntityBone_FragmentGroupIndex
+  name: FragmentGroupIndex
+  nameWithType: EntityBone.FragmentGroupIndex
+  fullName: GTA.EntityBone.FragmentGroupIndex
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.PedBone.Owner*
+  commentId: Overload:GTA.PedBone.Owner
+  isExternal: true
+  href: GTA.PedBone.html#GTA_PedBone_Owner
+  name: Owner
+  nameWithType: PedBone.Owner
+  fullName: GTA.PedBone.Owner
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA.PedBone.Tag*
+  commentId: Overload:GTA.PedBone.Tag
+  isExternal: true
+  href: GTA.PedBone.html#GTA_PedBone_Tag
+  name: Tag
+  nameWithType: PedBone.Tag
+  fullName: GTA.PedBone.Tag
+- uid: GTA.Bone
+  commentId: T:GTA.Bone
+  parent: GTA
+  isExternal: true
+  href: GTA.Bone.html
+  name: Bone
+  nameWithType: Bone
+  fullName: GTA.Bone
+- uid: GTA.PedBone.NextSibling*
+  commentId: Overload:GTA.PedBone.NextSibling
+  isExternal: true
+  href: GTA.PedBone.html#GTA_PedBone_NextSibling
+  name: NextSibling
+  nameWithType: PedBone.NextSibling
+  fullName: GTA.PedBone.NextSibling
+- uid: GTA.PedBone
+  commentId: T:GTA.PedBone
+  parent: GTA
+  isExternal: true
+  href: GTA.PedBone.html
+  name: PedBone
+  nameWithType: PedBone
+  fullName: GTA.PedBone
+- uid: GTA.PedBone.Parent*
+  commentId: Overload:GTA.PedBone.Parent
+  isExternal: true
+  href: GTA.PedBone.html#GTA_PedBone_Parent
+  name: Parent
+  nameWithType: PedBone.Parent
+  fullName: GTA.PedBone.Parent

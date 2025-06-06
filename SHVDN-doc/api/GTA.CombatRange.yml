@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CombatRange
+  commentId: T:GTA.CombatRange
+  id: CombatRange
+  parent: GTA
+  children:
+  - GTA.CombatRange.Far
+  - GTA.CombatRange.Medium
+  - GTA.CombatRange.Near
+  - GTA.CombatRange.VeryFar
+  langs:
+  - csharp
+  - vb
+  name: CombatRange
+  nameWithType: CombatRange
+  fullName: GTA.CombatRange
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CombatRange
+    content.vb: Public Enum CombatRange
+- uid: GTA.CombatRange.Near
+  commentId: F:GTA.CombatRange.Near
+  id: Near
+  parent: GTA.CombatRange
+  langs:
+  - csharp
+  - vb
+  name: Near
+  nameWithType: CombatRange.Near
+  fullName: GTA.CombatRange.Near
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Near = 0
+    return:
+      type: GTA.CombatRange
+- uid: GTA.CombatRange.Medium
+  commentId: F:GTA.CombatRange.Medium
+  id: Medium
+  parent: GTA.CombatRange
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: CombatRange.Medium
+  fullName: GTA.CombatRange.Medium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Medium = 1
+    return:
+      type: GTA.CombatRange
+- uid: GTA.CombatRange.Far
+  commentId: F:GTA.CombatRange.Far
+  id: Far
+  parent: GTA.CombatRange
+  langs:
+  - csharp
+  - vb
+  name: Far
+  nameWithType: CombatRange.Far
+  fullName: GTA.CombatRange.Far
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Far = 2
+    return:
+      type: GTA.CombatRange
+- uid: GTA.CombatRange.VeryFar
+  commentId: F:GTA.CombatRange.VeryFar
+  id: VeryFar
+  parent: GTA.CombatRange
+  langs:
+  - csharp
+  - vb
+  name: VeryFar
+  nameWithType: CombatRange.VeryFar
+  fullName: GTA.CombatRange.VeryFar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VeryFar = 3
+    return:
+      type: GTA.CombatRange
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CombatRange
+  commentId: T:GTA.CombatRange
+  parent: GTA
+  isExternal: true
+  href: GTA.CombatRange.html
+  name: CombatRange
+  nameWithType: CombatRange
+  fullName: GTA.CombatRange

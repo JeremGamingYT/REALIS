@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ShapeTestStatus
+  commentId: T:GTA.ShapeTestStatus
+  id: ShapeTestStatus
+  parent: GTA
+  children:
+  - GTA.ShapeTestStatus.NonExistent
+  - GTA.ShapeTestStatus.NotReady
+  - GTA.ShapeTestStatus.Ready
+  langs:
+  - csharp
+  - vb
+  name: ShapeTestStatus
+  nameWithType: ShapeTestStatus
+  fullName: GTA.ShapeTestStatus
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum ShapeTestStatus
+    content.vb: Public Enum ShapeTestStatus
+- uid: GTA.ShapeTestStatus.NonExistent
+  commentId: F:GTA.ShapeTestStatus.NonExistent
+  id: NonExistent
+  parent: GTA.ShapeTestStatus
+  langs:
+  - csharp
+  - vb
+  name: NonExistent
+  nameWithType: ShapeTestStatus.NonExistent
+  fullName: GTA.ShapeTestStatus.NonExistent
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NonExistent = 0
+    return:
+      type: GTA.ShapeTestStatus
+- uid: GTA.ShapeTestStatus.NotReady
+  commentId: F:GTA.ShapeTestStatus.NotReady
+  id: NotReady
+  parent: GTA.ShapeTestStatus
+  langs:
+  - csharp
+  - vb
+  name: NotReady
+  nameWithType: ShapeTestStatus.NotReady
+  fullName: GTA.ShapeTestStatus.NotReady
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NotReady = 1
+    return:
+      type: GTA.ShapeTestStatus
+- uid: GTA.ShapeTestStatus.Ready
+  commentId: F:GTA.ShapeTestStatus.Ready
+  id: Ready
+  parent: GTA.ShapeTestStatus
+  langs:
+  - csharp
+  - vb
+  name: Ready
+  nameWithType: ShapeTestStatus.Ready
+  fullName: GTA.ShapeTestStatus.Ready
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Ready = 2
+    return:
+      type: GTA.ShapeTestStatus
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ShapeTestStatus
+  commentId: T:GTA.ShapeTestStatus
+  parent: GTA
+  isExternal: true
+  href: GTA.ShapeTestStatus.html
+  name: ShapeTestStatus
+  nameWithType: ShapeTestStatus
+  fullName: GTA.ShapeTestStatus

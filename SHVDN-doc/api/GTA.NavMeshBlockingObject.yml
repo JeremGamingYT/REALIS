@@ -1,0 +1,799 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NavMeshBlockingObject
+  commentId: T:GTA.NavMeshBlockingObject
+  id: NavMeshBlockingObject
+  parent: GTA
+  children:
+  - GTA.NavMeshBlockingObject.Create(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  - GTA.NavMeshBlockingObject.Delete
+  - GTA.NavMeshBlockingObject.Equals(System.Object)
+  - GTA.NavMeshBlockingObject.Exists
+  - GTA.NavMeshBlockingObject.GetHashCode
+  - GTA.NavMeshBlockingObject.Update(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  - GTA.NavMeshBlockingObject.op_Equality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  - GTA.NavMeshBlockingObject.op_Implicit(GTA.NavMeshBlockingObject)~GTA.Native.InputArgument
+  - GTA.NavMeshBlockingObject.op_Inequality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  langs:
+  - csharp
+  - vb
+  name: NavMeshBlockingObject
+  nameWithType: NavMeshBlockingObject
+  fullName: GTA.NavMeshBlockingObject
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public sealed class NavMeshBlockingObject : PoolObject, IDeletable, IExistable, INativeValue'
+    content.vb: Public NotInheritable Class NavMeshBlockingObject Inherits PoolObject Implements IDeletable, IExistable, INativeValue
+  inheritance:
+  - System.Object
+  - GTA.PoolObject
+  implements:
+  - GTA.IDeletable
+  - GTA.IExistable
+  - GTA.Native.INativeValue
+  inheritedMembers:
+  - GTA.PoolObject.Handle
+  - GTA.PoolObject.NativeValue
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.NavMeshBlockingObject.Create(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  commentId: M:GTA.NavMeshBlockingObject.Create(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  id: Create(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: Create(Vector3, Vector3, float, NavMeshBlockingObjectFlags)
+  nameWithType: NavMeshBlockingObject.Create(Vector3, Vector3, float, NavMeshBlockingObjectFlags)
+  fullName: GTA.NavMeshBlockingObject.Create(GTA.Math.Vector3, GTA.Math.Vector3, float, GTA.NavMeshBlockingObjectFlags)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static NavMeshBlockingObject Create(Vector3 position, Vector3 size, float headingDegrees, NavMeshBlockingObjectFlags flags = NavMeshBlockingObjectFlags.AllPaths)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: size
+      type: GTA.Math.Vector3
+    - id: headingDegrees
+      type: System.Single
+    - id: flags
+      type: GTA.NavMeshBlockingObjectFlags
+    return:
+      type: GTA.NavMeshBlockingObject
+    content.vb: Public Shared Function Create(position As Vector3, size As Vector3, headingDegrees As Single, flags As NavMeshBlockingObjectFlags = NavMeshBlockingObjectFlags.AllPaths) As NavMeshBlockingObject
+  overload: GTA.NavMeshBlockingObject.Create*
+  nameWithType.vb: NavMeshBlockingObject.Create(Vector3, Vector3, Single, NavMeshBlockingObjectFlags)
+  fullName.vb: GTA.NavMeshBlockingObject.Create(GTA.Math.Vector3, GTA.Math.Vector3, Single, GTA.NavMeshBlockingObjectFlags)
+  name.vb: Create(Vector3, Vector3, Single, NavMeshBlockingObjectFlags)
+- uid: GTA.NavMeshBlockingObject.Delete
+  commentId: M:GTA.NavMeshBlockingObject.Delete
+  id: Delete
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: NavMeshBlockingObject.Delete()
+  fullName: GTA.NavMeshBlockingObject.Delete()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override void Delete()
+    content.vb: Public Overrides Sub Delete()
+  overridden: GTA.PoolObject.Delete
+  overload: GTA.NavMeshBlockingObject.Delete*
+- uid: GTA.NavMeshBlockingObject.Exists
+  commentId: M:GTA.NavMeshBlockingObject.Exists
+  id: Exists
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: Exists()
+  nameWithType: NavMeshBlockingObject.Exists()
+  fullName: GTA.NavMeshBlockingObject.Exists()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Exists()
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Exists() As Boolean
+  overridden: GTA.PoolObject.Exists
+  overload: GTA.NavMeshBlockingObject.Exists*
+- uid: GTA.NavMeshBlockingObject.Update(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  commentId: M:GTA.NavMeshBlockingObject.Update(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  id: Update(GTA.Math.Vector3,GTA.Math.Vector3,System.Single,GTA.NavMeshBlockingObjectFlags)
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: Update(Vector3, Vector3, float, NavMeshBlockingObjectFlags)
+  nameWithType: NavMeshBlockingObject.Update(Vector3, Vector3, float, NavMeshBlockingObjectFlags)
+  fullName: GTA.NavMeshBlockingObject.Update(GTA.Math.Vector3, GTA.Math.Vector3, float, GTA.NavMeshBlockingObjectFlags)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Update(Vector3 position, Vector3 size, float headingDegrees, NavMeshBlockingObjectFlags flags)
+    parameters:
+    - id: position
+      type: GTA.Math.Vector3
+    - id: size
+      type: GTA.Math.Vector3
+    - id: headingDegrees
+      type: System.Single
+    - id: flags
+      type: GTA.NavMeshBlockingObjectFlags
+    content.vb: Public Sub Update(position As Vector3, size As Vector3, headingDegrees As Single, flags As NavMeshBlockingObjectFlags)
+  overload: GTA.NavMeshBlockingObject.Update*
+  nameWithType.vb: NavMeshBlockingObject.Update(Vector3, Vector3, Single, NavMeshBlockingObjectFlags)
+  fullName.vb: GTA.NavMeshBlockingObject.Update(GTA.Math.Vector3, GTA.Math.Vector3, Single, GTA.NavMeshBlockingObjectFlags)
+  name.vb: Update(Vector3, Vector3, Single, NavMeshBlockingObjectFlags)
+- uid: GTA.NavMeshBlockingObject.Equals(System.Object)
+  commentId: M:GTA.NavMeshBlockingObject.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: NavMeshBlockingObject.Equals(object)
+  fullName: GTA.NavMeshBlockingObject.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.NavMeshBlockingObject.Equals*
+  nameWithType.vb: NavMeshBlockingObject.Equals(Object)
+  fullName.vb: GTA.NavMeshBlockingObject.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.NavMeshBlockingObject.op_Equality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  commentId: M:GTA.NavMeshBlockingObject.op_Equality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  id: op_Equality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: operator ==(NavMeshBlockingObject, NavMeshBlockingObject)
+  nameWithType: NavMeshBlockingObject.operator ==(NavMeshBlockingObject, NavMeshBlockingObject)
+  fullName: GTA.NavMeshBlockingObject.operator ==(GTA.NavMeshBlockingObject, GTA.NavMeshBlockingObject)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(NavMeshBlockingObject left, NavMeshBlockingObject right)
+    parameters:
+    - id: left
+      type: GTA.NavMeshBlockingObject
+    - id: right
+      type: GTA.NavMeshBlockingObject
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As NavMeshBlockingObject, right As NavMeshBlockingObject) As Boolean
+  overload: GTA.NavMeshBlockingObject.op_Equality*
+  nameWithType.vb: NavMeshBlockingObject.=(NavMeshBlockingObject, NavMeshBlockingObject)
+  fullName.vb: GTA.NavMeshBlockingObject.=(GTA.NavMeshBlockingObject, GTA.NavMeshBlockingObject)
+  name.vb: =(NavMeshBlockingObject, NavMeshBlockingObject)
+- uid: GTA.NavMeshBlockingObject.op_Inequality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  commentId: M:GTA.NavMeshBlockingObject.op_Inequality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  id: op_Inequality(GTA.NavMeshBlockingObject,GTA.NavMeshBlockingObject)
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: operator !=(NavMeshBlockingObject, NavMeshBlockingObject)
+  nameWithType: NavMeshBlockingObject.operator !=(NavMeshBlockingObject, NavMeshBlockingObject)
+  fullName: GTA.NavMeshBlockingObject.operator !=(GTA.NavMeshBlockingObject, GTA.NavMeshBlockingObject)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(NavMeshBlockingObject left, NavMeshBlockingObject right)
+    parameters:
+    - id: left
+      type: GTA.NavMeshBlockingObject
+    - id: right
+      type: GTA.NavMeshBlockingObject
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As NavMeshBlockingObject, right As NavMeshBlockingObject) As Boolean
+  overload: GTA.NavMeshBlockingObject.op_Inequality*
+  nameWithType.vb: NavMeshBlockingObject.<>(NavMeshBlockingObject, NavMeshBlockingObject)
+  fullName.vb: GTA.NavMeshBlockingObject.<>(GTA.NavMeshBlockingObject, GTA.NavMeshBlockingObject)
+  name.vb: <>(NavMeshBlockingObject, NavMeshBlockingObject)
+- uid: GTA.NavMeshBlockingObject.op_Implicit(GTA.NavMeshBlockingObject)~GTA.Native.InputArgument
+  commentId: M:GTA.NavMeshBlockingObject.op_Implicit(GTA.NavMeshBlockingObject)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.NavMeshBlockingObject)~GTA.Native.InputArgument
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(NavMeshBlockingObject)
+  nameWithType: NavMeshBlockingObject.implicit operator InputArgument(NavMeshBlockingObject)
+  fullName: GTA.NavMeshBlockingObject.implicit operator GTA.Native.InputArgument(GTA.NavMeshBlockingObject)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(NavMeshBlockingObject value)
+    parameters:
+    - id: value
+      type: GTA.NavMeshBlockingObject
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As NavMeshBlockingObject) As InputArgument
+  overload: GTA.NavMeshBlockingObject.op_Implicit*
+  nameWithType.vb: NavMeshBlockingObject.CType(NavMeshBlockingObject)
+  fullName.vb: GTA.NavMeshBlockingObject.CType(GTA.NavMeshBlockingObject)
+  name.vb: CType(NavMeshBlockingObject)
+- uid: GTA.NavMeshBlockingObject.GetHashCode
+  commentId: M:GTA.NavMeshBlockingObject.GetHashCode
+  id: GetHashCode
+  parent: GTA.NavMeshBlockingObject
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NavMeshBlockingObject.GetHashCode()
+  fullName: GTA.NavMeshBlockingObject.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.NavMeshBlockingObject.GetHashCode*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.PoolObject
+  commentId: T:GTA.PoolObject
+  parent: GTA
+  isExternal: true
+  href: GTA.PoolObject.html
+  name: PoolObject
+  nameWithType: PoolObject
+  fullName: GTA.PoolObject
+- uid: GTA.IDeletable
+  commentId: T:GTA.IDeletable
+  parent: GTA
+  isExternal: true
+  href: GTA.IDeletable.html
+  name: IDeletable
+  nameWithType: IDeletable
+  fullName: GTA.IDeletable
+- uid: GTA.IExistable
+  commentId: T:GTA.IExistable
+  parent: GTA
+  isExternal: true
+  href: GTA.IExistable.html
+  name: IExistable
+  nameWithType: IExistable
+  fullName: GTA.IExistable
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: GTA.PoolObject.Handle
+  commentId: P:GTA.PoolObject.Handle
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Handle
+  name: Handle
+  nameWithType: PoolObject.Handle
+  fullName: GTA.PoolObject.Handle
+- uid: GTA.PoolObject.NativeValue
+  commentId: P:GTA.PoolObject.NativeValue
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_NativeValue
+  name: NativeValue
+  nameWithType: PoolObject.NativeValue
+  fullName: GTA.PoolObject.NativeValue
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: GTA.NavMeshBlockingObject.Create*
+  commentId: Overload:GTA.NavMeshBlockingObject.Create
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_Create_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_GTA_NavMeshBlockingObjectFlags_
+  name: Create
+  nameWithType: NavMeshBlockingObject.Create
+  fullName: GTA.NavMeshBlockingObject.Create
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NavMeshBlockingObjectFlags
+  commentId: T:GTA.NavMeshBlockingObjectFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.NavMeshBlockingObjectFlags.html
+  name: NavMeshBlockingObjectFlags
+  nameWithType: NavMeshBlockingObjectFlags
+  fullName: GTA.NavMeshBlockingObjectFlags
+- uid: GTA.NavMeshBlockingObject
+  commentId: T:GTA.NavMeshBlockingObject
+  parent: GTA
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html
+  name: NavMeshBlockingObject
+  nameWithType: NavMeshBlockingObject
+  fullName: GTA.NavMeshBlockingObject
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.PoolObject.Delete
+  commentId: M:GTA.PoolObject.Delete
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  name: Delete()
+  nameWithType: PoolObject.Delete()
+  fullName: GTA.PoolObject.Delete()
+  spec.csharp:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Delete
+    name: Delete
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Delete
+  - name: (
+  - name: )
+- uid: GTA.NavMeshBlockingObject.Delete*
+  commentId: Overload:GTA.NavMeshBlockingObject.Delete
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_Delete
+  name: Delete
+  nameWithType: NavMeshBlockingObject.Delete
+  fullName: GTA.NavMeshBlockingObject.Delete
+- uid: GTA.PoolObject.Exists
+  commentId: M:GTA.PoolObject.Exists
+  parent: GTA.PoolObject
+  isExternal: true
+  href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  name: Exists()
+  nameWithType: PoolObject.Exists()
+  fullName: GTA.PoolObject.Exists()
+  spec.csharp:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.PoolObject.Exists
+    name: Exists
+    isExternal: true
+    href: GTA.PoolObject.html#GTA_PoolObject_Exists
+  - name: (
+  - name: )
+- uid: GTA.NavMeshBlockingObject.Exists*
+  commentId: Overload:GTA.NavMeshBlockingObject.Exists
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_Exists
+  name: Exists
+  nameWithType: NavMeshBlockingObject.Exists
+  fullName: GTA.NavMeshBlockingObject.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.NavMeshBlockingObject.Update*
+  commentId: Overload:GTA.NavMeshBlockingObject.Update
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_Update_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_GTA_NavMeshBlockingObjectFlags_
+  name: Update
+  nameWithType: NavMeshBlockingObject.Update
+  fullName: GTA.NavMeshBlockingObject.Update
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.NavMeshBlockingObject.Equals*
+  commentId: Overload:GTA.NavMeshBlockingObject.Equals
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_Equals_System_Object_
+  name: Equals
+  nameWithType: NavMeshBlockingObject.Equals
+  fullName: GTA.NavMeshBlockingObject.Equals
+- uid: GTA.NavMeshBlockingObject.op_Equality*
+  commentId: Overload:GTA.NavMeshBlockingObject.op_Equality
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_op_Equality_GTA_NavMeshBlockingObject_GTA_NavMeshBlockingObject_
+  name: operator ==
+  nameWithType: NavMeshBlockingObject.operator ==
+  fullName: GTA.NavMeshBlockingObject.operator ==
+  nameWithType.vb: NavMeshBlockingObject.=
+  fullName.vb: GTA.NavMeshBlockingObject.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.NavMeshBlockingObject.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_op_Equality_GTA_NavMeshBlockingObject_GTA_NavMeshBlockingObject_
+- uid: GTA.NavMeshBlockingObject.op_Inequality*
+  commentId: Overload:GTA.NavMeshBlockingObject.op_Inequality
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_op_Inequality_GTA_NavMeshBlockingObject_GTA_NavMeshBlockingObject_
+  name: operator !=
+  nameWithType: NavMeshBlockingObject.operator !=
+  fullName: GTA.NavMeshBlockingObject.operator !=
+  nameWithType.vb: NavMeshBlockingObject.<>
+  fullName.vb: GTA.NavMeshBlockingObject.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.NavMeshBlockingObject.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_op_Inequality_GTA_NavMeshBlockingObject_GTA_NavMeshBlockingObject_
+- uid: GTA.NavMeshBlockingObject.op_Implicit*
+  commentId: Overload:GTA.NavMeshBlockingObject.op_Implicit
+  name: implicit operator
+  nameWithType: NavMeshBlockingObject.implicit operator
+  fullName: GTA.NavMeshBlockingObject.implicit operator
+  nameWithType.vb: NavMeshBlockingObject.CType
+  fullName.vb: GTA.NavMeshBlockingObject.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.NavMeshBlockingObject.GetHashCode*
+  commentId: Overload:GTA.NavMeshBlockingObject.GetHashCode
+  isExternal: true
+  href: GTA.NavMeshBlockingObject.html#GTA_NavMeshBlockingObject_GetHashCode
+  name: GetHashCode
+  nameWithType: NavMeshBlockingObject.GetHashCode
+  fullName: GTA.NavMeshBlockingObject.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

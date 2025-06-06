@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.LookAtPriority
+  commentId: T:GTA.LookAtPriority
+  id: LookAtPriority
+  parent: GTA
+  children:
+  - GTA.LookAtPriority.High
+  - GTA.LookAtPriority.Low
+  - GTA.LookAtPriority.Medium
+  - GTA.LookAtPriority.VeryHigh
+  - GTA.LookAtPriority.VeryLow
+  langs:
+  - csharp
+  - vb
+  name: LookAtPriority
+  nameWithType: LookAtPriority
+  fullName: GTA.LookAtPriority
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum LookAtPriority
+    content.vb: Public Enum LookAtPriority
+- uid: GTA.LookAtPriority.VeryLow
+  commentId: F:GTA.LookAtPriority.VeryLow
+  id: VeryLow
+  parent: GTA.LookAtPriority
+  langs:
+  - csharp
+  - vb
+  name: VeryLow
+  nameWithType: LookAtPriority.VeryLow
+  fullName: GTA.LookAtPriority.VeryLow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VeryLow = 0
+    return:
+      type: GTA.LookAtPriority
+- uid: GTA.LookAtPriority.Low
+  commentId: F:GTA.LookAtPriority.Low
+  id: Low
+  parent: GTA.LookAtPriority
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: LookAtPriority.Low
+  fullName: GTA.LookAtPriority.Low
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Low = 1
+    return:
+      type: GTA.LookAtPriority
+- uid: GTA.LookAtPriority.Medium
+  commentId: F:GTA.LookAtPriority.Medium
+  id: Medium
+  parent: GTA.LookAtPriority
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: LookAtPriority.Medium
+  fullName: GTA.LookAtPriority.Medium
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Medium = 2
+    return:
+      type: GTA.LookAtPriority
+- uid: GTA.LookAtPriority.High
+  commentId: F:GTA.LookAtPriority.High
+  id: High
+  parent: GTA.LookAtPriority
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: LookAtPriority.High
+  fullName: GTA.LookAtPriority.High
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: High = 3
+    return:
+      type: GTA.LookAtPriority
+- uid: GTA.LookAtPriority.VeryHigh
+  commentId: F:GTA.LookAtPriority.VeryHigh
+  id: VeryHigh
+  parent: GTA.LookAtPriority
+  langs:
+  - csharp
+  - vb
+  name: VeryHigh
+  nameWithType: LookAtPriority.VeryHigh
+  fullName: GTA.LookAtPriority.VeryHigh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VeryHigh = 4
+    return:
+      type: GTA.LookAtPriority
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.LookAtPriority
+  commentId: T:GTA.LookAtPriority
+  parent: GTA
+  isExternal: true
+  href: GTA.LookAtPriority.html
+  name: LookAtPriority
+  nameWithType: LookAtPriority
+  fullName: GTA.LookAtPriority

@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.WindowTitle
+  commentId: T:GTA.WindowTitle
+  id: WindowTitle
+  parent: GTA
+  children:
+  - GTA.WindowTitle.CustomTeamName
+  - GTA.WindowTitle.EnterChallengeName
+  - GTA.WindowTitle.EnterCustomTeamName
+  - GTA.WindowTitle.EnterEyefindMessage
+  - GTA.WindowTitle.EnterEyefindSubject
+  - GTA.WindowTitle.EnterMessage20
+  - GTA.WindowTitle.EnterMessage60
+  - GTA.WindowTitle.EnterOutfitName
+  - GTA.WindowTitle.EnterSynopsis
+  - GTA.WindowTitle.ForbiddenMessage
+  - GTA.WindowTitle.ForbiddenText15
+  - GTA.WindowTitle.ForbiddenText60
+  - GTA.WindowTitle.InvalidMessage
+  - GTA.WindowTitle.InvalidOutfitName
+  - GTA.WindowTitle.MessageTooLong
+  - GTA.WindowTitle.OutfitName
+  - GTA.WindowTitle.SubjectTooLong
+  langs:
+  - csharp
+  - vb
+  name: WindowTitle
+  nameWithType: WindowTitle
+  fullName: GTA.WindowTitle
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum WindowTitle
+    content.vb: Public Enum WindowTitle
+- uid: GTA.WindowTitle.EnterEyefindMessage
+  commentId: F:GTA.WindowTitle.EnterEyefindMessage
+  id: EnterEyefindMessage
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterEyefindMessage
+  nameWithType: WindowTitle.EnterEyefindMessage
+  fullName: GTA.WindowTitle.EnterEyefindMessage
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterEyefindMessage = 0
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.MessageTooLong
+  commentId: F:GTA.WindowTitle.MessageTooLong
+  id: MessageTooLong
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: MessageTooLong
+  nameWithType: WindowTitle.MessageTooLong
+  fullName: GTA.WindowTitle.MessageTooLong
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MessageTooLong = 1
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.ForbiddenMessage
+  commentId: F:GTA.WindowTitle.ForbiddenMessage
+  id: ForbiddenMessage
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: ForbiddenMessage
+  nameWithType: WindowTitle.ForbiddenMessage
+  fullName: GTA.WindowTitle.ForbiddenMessage
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForbiddenMessage = 2
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterEyefindSubject
+  commentId: F:GTA.WindowTitle.EnterEyefindSubject
+  id: EnterEyefindSubject
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterEyefindSubject
+  nameWithType: WindowTitle.EnterEyefindSubject
+  fullName: GTA.WindowTitle.EnterEyefindSubject
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterEyefindSubject = 3
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.SubjectTooLong
+  commentId: F:GTA.WindowTitle.SubjectTooLong
+  id: SubjectTooLong
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: SubjectTooLong
+  nameWithType: WindowTitle.SubjectTooLong
+  fullName: GTA.WindowTitle.SubjectTooLong
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SubjectTooLong = 4
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterSynopsis
+  commentId: F:GTA.WindowTitle.EnterSynopsis
+  id: EnterSynopsis
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterSynopsis
+  nameWithType: WindowTitle.EnterSynopsis
+  fullName: GTA.WindowTitle.EnterSynopsis
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterSynopsis = 5
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterCustomTeamName
+  commentId: F:GTA.WindowTitle.EnterCustomTeamName
+  id: EnterCustomTeamName
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterCustomTeamName
+  nameWithType: WindowTitle.EnterCustomTeamName
+  fullName: GTA.WindowTitle.EnterCustomTeamName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterCustomTeamName = 6
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.ForbiddenText15
+  commentId: F:GTA.WindowTitle.ForbiddenText15
+  id: ForbiddenText15
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: ForbiddenText15
+  nameWithType: WindowTitle.ForbiddenText15
+  fullName: GTA.WindowTitle.ForbiddenText15
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForbiddenText15 = 7
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.CustomTeamName
+  commentId: F:GTA.WindowTitle.CustomTeamName
+  id: CustomTeamName
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: CustomTeamName
+  nameWithType: WindowTitle.CustomTeamName
+  fullName: GTA.WindowTitle.CustomTeamName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CustomTeamName = 8
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterMessage60
+  commentId: F:GTA.WindowTitle.EnterMessage60
+  id: EnterMessage60
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterMessage60
+  nameWithType: WindowTitle.EnterMessage60
+  fullName: GTA.WindowTitle.EnterMessage60
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterMessage60 = 9
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.ForbiddenText60
+  commentId: F:GTA.WindowTitle.ForbiddenText60
+  id: ForbiddenText60
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: ForbiddenText60
+  nameWithType: WindowTitle.ForbiddenText60
+  fullName: GTA.WindowTitle.ForbiddenText60
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForbiddenText60 = 10
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.InvalidMessage
+  commentId: F:GTA.WindowTitle.InvalidMessage
+  id: InvalidMessage
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: InvalidMessage
+  nameWithType: WindowTitle.InvalidMessage
+  fullName: GTA.WindowTitle.InvalidMessage
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InvalidMessage = 11
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterMessage20
+  commentId: F:GTA.WindowTitle.EnterMessage20
+  id: EnterMessage20
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterMessage20
+  nameWithType: WindowTitle.EnterMessage20
+  fullName: GTA.WindowTitle.EnterMessage20
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterMessage20 = 12
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterOutfitName
+  commentId: F:GTA.WindowTitle.EnterOutfitName
+  id: EnterOutfitName
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterOutfitName
+  nameWithType: WindowTitle.EnterOutfitName
+  fullName: GTA.WindowTitle.EnterOutfitName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterOutfitName = 13
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.InvalidOutfitName
+  commentId: F:GTA.WindowTitle.InvalidOutfitName
+  id: InvalidOutfitName
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: InvalidOutfitName
+  nameWithType: WindowTitle.InvalidOutfitName
+  fullName: GTA.WindowTitle.InvalidOutfitName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InvalidOutfitName = 14
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.OutfitName
+  commentId: F:GTA.WindowTitle.OutfitName
+  id: OutfitName
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: OutfitName
+  nameWithType: WindowTitle.OutfitName
+  fullName: GTA.WindowTitle.OutfitName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OutfitName = 15
+    return:
+      type: GTA.WindowTitle
+- uid: GTA.WindowTitle.EnterChallengeName
+  commentId: F:GTA.WindowTitle.EnterChallengeName
+  id: EnterChallengeName
+  parent: GTA.WindowTitle
+  langs:
+  - csharp
+  - vb
+  name: EnterChallengeName
+  nameWithType: WindowTitle.EnterChallengeName
+  fullName: GTA.WindowTitle.EnterChallengeName
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnterChallengeName = 16
+    return:
+      type: GTA.WindowTitle
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.WindowTitle
+  commentId: T:GTA.WindowTitle
+  parent: GTA
+  isExternal: true
+  href: GTA.WindowTitle.html
+  name: WindowTitle
+  nameWithType: WindowTitle
+  fullName: GTA.WindowTitle

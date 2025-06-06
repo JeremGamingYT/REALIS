@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.BoatMissionFlags
+  commentId: T:GTA.BoatMissionFlags
+  id: BoatMissionFlags
+  parent: GTA
+  children:
+  - GTA.BoatMissionFlags.AvoidShore
+  - GTA.BoatMissionFlags.DefaultSettings
+  - GTA.BoatMissionFlags.ForceBeached
+  - GTA.BoatMissionFlags.NeverNavMesh
+  - GTA.BoatMissionFlags.NeverPause
+  - GTA.BoatMissionFlags.NeverRoute
+  - GTA.BoatMissionFlags.NeverStop
+  - GTA.BoatMissionFlags.OpenOceanSettings
+  - GTA.BoatMissionFlags.PreferForward
+  - GTA.BoatMissionFlags.StopAtEnd
+  - GTA.BoatMissionFlags.StopAtShore
+  - GTA.BoatMissionFlags.UseFleeRoute
+  - GTA.BoatMissionFlags.UseWanderRoute
+  langs:
+  - csharp
+  - vb
+  name: BoatMissionFlags
+  nameWithType: BoatMissionFlags
+  fullName: GTA.BoatMissionFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum BoatMissionFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum BoatMissionFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.BoatMissionFlags.StopAtEnd
+  commentId: F:GTA.BoatMissionFlags.StopAtEnd
+  id: StopAtEnd
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: StopAtEnd
+  nameWithType: BoatMissionFlags.StopAtEnd
+  fullName: GTA.BoatMissionFlags.StopAtEnd
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StopAtEnd = 1
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.StopAtShore
+  commentId: F:GTA.BoatMissionFlags.StopAtShore
+  id: StopAtShore
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: StopAtShore
+  nameWithType: BoatMissionFlags.StopAtShore
+  fullName: GTA.BoatMissionFlags.StopAtShore
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StopAtShore = 2
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.AvoidShore
+  commentId: F:GTA.BoatMissionFlags.AvoidShore
+  id: AvoidShore
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: AvoidShore
+  nameWithType: BoatMissionFlags.AvoidShore
+  fullName: GTA.BoatMissionFlags.AvoidShore
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AvoidShore = 4
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.PreferForward
+  commentId: F:GTA.BoatMissionFlags.PreferForward
+  id: PreferForward
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: PreferForward
+  nameWithType: BoatMissionFlags.PreferForward
+  fullName: GTA.BoatMissionFlags.PreferForward
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PreferForward = 8
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.NeverStop
+  commentId: F:GTA.BoatMissionFlags.NeverStop
+  id: NeverStop
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: NeverStop
+  nameWithType: BoatMissionFlags.NeverStop
+  fullName: GTA.BoatMissionFlags.NeverStop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NeverStop = 16
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.NeverNavMesh
+  commentId: F:GTA.BoatMissionFlags.NeverNavMesh
+  id: NeverNavMesh
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: NeverNavMesh
+  nameWithType: BoatMissionFlags.NeverNavMesh
+  fullName: GTA.BoatMissionFlags.NeverNavMesh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NeverNavMesh = 32
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.NeverRoute
+  commentId: F:GTA.BoatMissionFlags.NeverRoute
+  id: NeverRoute
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: NeverRoute
+  nameWithType: BoatMissionFlags.NeverRoute
+  fullName: GTA.BoatMissionFlags.NeverRoute
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NeverRoute = 64
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.ForceBeached
+  commentId: F:GTA.BoatMissionFlags.ForceBeached
+  id: ForceBeached
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceBeached
+  nameWithType: BoatMissionFlags.ForceBeached
+  fullName: GTA.BoatMissionFlags.ForceBeached
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceBeached = 128
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.UseWanderRoute
+  commentId: F:GTA.BoatMissionFlags.UseWanderRoute
+  id: UseWanderRoute
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: UseWanderRoute
+  nameWithType: BoatMissionFlags.UseWanderRoute
+  fullName: GTA.BoatMissionFlags.UseWanderRoute
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseWanderRoute = 256
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.UseFleeRoute
+  commentId: F:GTA.BoatMissionFlags.UseFleeRoute
+  id: UseFleeRoute
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: UseFleeRoute
+  nameWithType: BoatMissionFlags.UseFleeRoute
+  fullName: GTA.BoatMissionFlags.UseFleeRoute
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UseFleeRoute = 512
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.NeverPause
+  commentId: F:GTA.BoatMissionFlags.NeverPause
+  id: NeverPause
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: NeverPause
+  nameWithType: BoatMissionFlags.NeverPause
+  fullName: GTA.BoatMissionFlags.NeverPause
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NeverPause = 1024
+    return:
+      type: GTA.BoatMissionFlags
+- uid: GTA.BoatMissionFlags.DefaultSettings
+  commentId: F:GTA.BoatMissionFlags.DefaultSettings
+  id: DefaultSettings
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: DefaultSettings
+  nameWithType: BoatMissionFlags.DefaultSettings
+  fullName: GTA.BoatMissionFlags.DefaultSettings
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DefaultSettings = StopAtEnd | StopAtShore | AvoidShore
+    return:
+      type: GTA.BoatMissionFlags
+    content.vb: DefaultSettings = StopAtEnd Or StopAtShore Or AvoidShore
+- uid: GTA.BoatMissionFlags.OpenOceanSettings
+  commentId: F:GTA.BoatMissionFlags.OpenOceanSettings
+  id: OpenOceanSettings
+  parent: GTA.BoatMissionFlags
+  langs:
+  - csharp
+  - vb
+  name: OpenOceanSettings
+  nameWithType: BoatMissionFlags.OpenOceanSettings
+  fullName: GTA.BoatMissionFlags.OpenOceanSettings
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OpenOceanSettings = DefaultSettings | PreferForward | NeverNavMesh | NeverRoute
+    return:
+      type: GTA.BoatMissionFlags
+    content.vb: OpenOceanSettings = DefaultSettings Or PreferForward Or NeverNavMesh Or NeverRoute
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.BoatMissionFlags
+  commentId: T:GTA.BoatMissionFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.BoatMissionFlags.html
+  name: BoatMissionFlags
+  nameWithType: BoatMissionFlags
+  fullName: GTA.BoatMissionFlags

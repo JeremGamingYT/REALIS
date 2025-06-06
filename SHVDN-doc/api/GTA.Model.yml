@@ -1,0 +1,2790 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Model
+  commentId: T:GTA.Model
+  id: Model
+  parent: GTA
+  children:
+  - GTA.Model.#ctor(GTA.PedHash)
+  - GTA.Model.#ctor(GTA.VehicleHash)
+  - GTA.Model.#ctor(GTA.WeaponHash)
+  - GTA.Model.#ctor(System.Int32)
+  - GTA.Model.#ctor(System.String)
+  - GTA.Model.Dimensions
+  - GTA.Model.Equals(GTA.Model)
+  - GTA.Model.Equals(System.Object)
+  - GTA.Model.GetDimensions(GTA.Math.Vector3@,GTA.Math.Vector3@)
+  - GTA.Model.GetHashCode
+  - GTA.Model.Hash
+  - GTA.Model.IsAmphibiousCar
+  - GTA.Model.IsAmphibiousQuadBike
+  - GTA.Model.IsAmphibiousVehicle
+  - GTA.Model.IsAnimalPed
+  - GTA.Model.IsBicycle
+  - GTA.Model.IsBigVehicle
+  - GTA.Model.IsBike
+  - GTA.Model.IsBlimp
+  - GTA.Model.IsBoat
+  - GTA.Model.IsBus
+  - GTA.Model.IsCar
+  - GTA.Model.IsCargobob
+  - GTA.Model.IsCollisionLoaded
+  - GTA.Model.IsDonk
+  - GTA.Model.IsElectricVehicle
+  - GTA.Model.IsEmergencyVehicle
+  - GTA.Model.IsFemalePed
+  - GTA.Model.IsFragment
+  - GTA.Model.IsGangPed
+  - GTA.Model.IsHelicopter
+  - GTA.Model.IsHumanPed
+  - GTA.Model.IsInCdImage
+  - GTA.Model.IsJetSki
+  - GTA.Model.IsLawEnforcementVehicle
+  - GTA.Model.IsLoaded
+  - GTA.Model.IsLowrider
+  - GTA.Model.IsMalePed
+  - GTA.Model.IsMlo
+  - GTA.Model.IsMotorcycle
+  - GTA.Model.IsOffRoadVehicle
+  - GTA.Model.IsPed
+  - GTA.Model.IsPlane
+  - GTA.Model.IsProp
+  - GTA.Model.IsQuadBike
+  - GTA.Model.IsSubmarine
+  - GTA.Model.IsSubmarineCar
+  - GTA.Model.IsTank
+  - GTA.Model.IsTrailer
+  - GTA.Model.IsTrain
+  - GTA.Model.IsValid
+  - GTA.Model.IsVan
+  - GTA.Model.IsVehicle
+  - GTA.Model.MarkAsNoLongerNeeded
+  - GTA.Model.NativeValue
+  - GTA.Model.Request
+  - GTA.Model.Request(System.Int32)
+  - GTA.Model.RequestCollision
+  - GTA.Model.RequestCollision(System.Int32)
+  - GTA.Model.ToString
+  - GTA.Model.op_Equality(GTA.Model,GTA.Model)
+  - GTA.Model.op_Implicit(GTA.Model)~GTA.Native.InputArgument
+  - GTA.Model.op_Implicit(GTA.Model)~GTA.PedHash
+  - GTA.Model.op_Implicit(GTA.Model)~GTA.VehicleHash
+  - GTA.Model.op_Implicit(GTA.Model)~GTA.WeaponHash
+  - GTA.Model.op_Implicit(GTA.Model)~System.Int32
+  - GTA.Model.op_Implicit(GTA.PedHash)~GTA.Model
+  - GTA.Model.op_Implicit(GTA.VehicleHash)~GTA.Model
+  - GTA.Model.op_Implicit(GTA.WeaponHash)~GTA.Model
+  - GTA.Model.op_Implicit(System.Int32)~GTA.Model
+  - GTA.Model.op_Implicit(System.String)~GTA.Model
+  - GTA.Model.op_Inequality(GTA.Model,GTA.Model)
+  langs:
+  - csharp
+  - vb
+  name: Model
+  nameWithType: Model
+  fullName: GTA.Model
+  type: Struct
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public struct Model : IEquatable<Model>, INativeValue, IScriptStreamingResource'
+    content.vb: Public Structure Model Implements IEquatable(Of Model), INativeValue, IScriptStreamingResource
+  implements:
+  - System.IEquatable{GTA.Model}
+  - GTA.Native.INativeValue
+  - GTA.IScriptStreamingResource
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.Model.#ctor(System.Int32)
+  commentId: M:GTA.Model.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Model(int)
+  nameWithType: Model.Model(int)
+  fullName: GTA.Model.Model(int)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Model(int hash)
+    parameters:
+    - id: hash
+      type: System.Int32
+    content.vb: Public Sub New(hash As Integer)
+  overload: GTA.Model.#ctor*
+  nameWithType.vb: Model.New(Integer)
+  fullName.vb: GTA.Model.New(Integer)
+  name.vb: New(Integer)
+- uid: GTA.Model.#ctor(System.String)
+  commentId: M:GTA.Model.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Model(string)
+  nameWithType: Model.Model(string)
+  fullName: GTA.Model.Model(string)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Model(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: GTA.Model.#ctor*
+  nameWithType.vb: Model.New(String)
+  fullName.vb: GTA.Model.New(String)
+  name.vb: New(String)
+- uid: GTA.Model.#ctor(GTA.PedHash)
+  commentId: M:GTA.Model.#ctor(GTA.PedHash)
+  id: '#ctor(GTA.PedHash)'
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Model(PedHash)
+  nameWithType: Model.Model(PedHash)
+  fullName: GTA.Model.Model(GTA.PedHash)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Model(PedHash hash)
+    parameters:
+    - id: hash
+      type: GTA.PedHash
+    content.vb: Public Sub New(hash As PedHash)
+  overload: GTA.Model.#ctor*
+  nameWithType.vb: Model.New(PedHash)
+  fullName.vb: GTA.Model.New(GTA.PedHash)
+  name.vb: New(PedHash)
+- uid: GTA.Model.#ctor(GTA.WeaponHash)
+  commentId: M:GTA.Model.#ctor(GTA.WeaponHash)
+  id: '#ctor(GTA.WeaponHash)'
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Model(WeaponHash)
+  nameWithType: Model.Model(WeaponHash)
+  fullName: GTA.Model.Model(GTA.WeaponHash)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Model(WeaponHash hash)
+    parameters:
+    - id: hash
+      type: GTA.WeaponHash
+    content.vb: Public Sub New(hash As WeaponHash)
+  overload: GTA.Model.#ctor*
+  nameWithType.vb: Model.New(WeaponHash)
+  fullName.vb: GTA.Model.New(GTA.WeaponHash)
+  name.vb: New(WeaponHash)
+- uid: GTA.Model.#ctor(GTA.VehicleHash)
+  commentId: M:GTA.Model.#ctor(GTA.VehicleHash)
+  id: '#ctor(GTA.VehicleHash)'
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Model(VehicleHash)
+  nameWithType: Model.Model(VehicleHash)
+  fullName: GTA.Model.Model(GTA.VehicleHash)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Model(VehicleHash hash)
+    parameters:
+    - id: hash
+      type: GTA.VehicleHash
+    content.vb: Public Sub New(hash As VehicleHash)
+  overload: GTA.Model.#ctor*
+  nameWithType.vb: Model.New(VehicleHash)
+  fullName.vb: GTA.Model.New(GTA.VehicleHash)
+  name.vb: New(VehicleHash)
+- uid: GTA.Model.GetDimensions(GTA.Math.Vector3@,GTA.Math.Vector3@)
+  commentId: M:GTA.Model.GetDimensions(GTA.Math.Vector3@,GTA.Math.Vector3@)
+  id: GetDimensions(GTA.Math.Vector3@,GTA.Math.Vector3@)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: GetDimensions(out Vector3, out Vector3)
+  nameWithType: Model.GetDimensions(out Vector3, out Vector3)
+  fullName: GTA.Model.GetDimensions(out GTA.Math.Vector3, out GTA.Math.Vector3)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void GetDimensions(out Vector3 min, out Vector3 max)
+    parameters:
+    - id: min
+      type: GTA.Math.Vector3
+    - id: max
+      type: GTA.Math.Vector3
+    content.vb: Public Sub GetDimensions(min As Vector3, max As Vector3)
+  overload: GTA.Model.GetDimensions*
+  nameWithType.vb: Model.GetDimensions(Vector3, Vector3)
+  fullName.vb: GTA.Model.GetDimensions(GTA.Math.Vector3, GTA.Math.Vector3)
+  name.vb: GetDimensions(Vector3, Vector3)
+- uid: GTA.Model.Request
+  commentId: M:GTA.Model.Request
+  id: Request
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Request()
+  nameWithType: Model.Request()
+  fullName: GTA.Model.Request()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void Request()
+    content.vb: Public Sub Request()
+  overload: GTA.Model.Request*
+  implements:
+  - GTA.IScriptStreamingResource.Request
+- uid: GTA.Model.Request(System.Int32)
+  commentId: M:GTA.Model.Request(System.Int32)
+  id: Request(System.Int32)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Request(int)
+  nameWithType: Model.Request(int)
+  fullName: GTA.Model.Request(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool Request(int timeout)
+    parameters:
+    - id: timeout
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function Request(timeout As Integer) As Boolean
+  overload: GTA.Model.Request*
+  nameWithType.vb: Model.Request(Integer)
+  fullName.vb: GTA.Model.Request(Integer)
+  name.vb: Request(Integer)
+- uid: GTA.Model.RequestCollision
+  commentId: M:GTA.Model.RequestCollision
+  id: RequestCollision
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: RequestCollision()
+  nameWithType: Model.RequestCollision()
+  fullName: GTA.Model.RequestCollision()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void RequestCollision()
+    content.vb: Public Sub RequestCollision()
+  overload: GTA.Model.RequestCollision*
+- uid: GTA.Model.RequestCollision(System.Int32)
+  commentId: M:GTA.Model.RequestCollision(System.Int32)
+  id: RequestCollision(System.Int32)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: RequestCollision(int)
+  nameWithType: Model.RequestCollision(int)
+  fullName: GTA.Model.RequestCollision(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool RequestCollision(int timeout)
+    parameters:
+    - id: timeout
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function RequestCollision(timeout As Integer) As Boolean
+  overload: GTA.Model.RequestCollision*
+  nameWithType.vb: Model.RequestCollision(Integer)
+  fullName.vb: GTA.Model.RequestCollision(Integer)
+  name.vb: RequestCollision(Integer)
+- uid: GTA.Model.MarkAsNoLongerNeeded
+  commentId: M:GTA.Model.MarkAsNoLongerNeeded
+  id: MarkAsNoLongerNeeded
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: MarkAsNoLongerNeeded()
+  nameWithType: Model.MarkAsNoLongerNeeded()
+  fullName: GTA.Model.MarkAsNoLongerNeeded()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public void MarkAsNoLongerNeeded()
+    content.vb: Public Sub MarkAsNoLongerNeeded()
+  overload: GTA.Model.MarkAsNoLongerNeeded*
+  implements:
+  - GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+- uid: GTA.Model.Equals(GTA.Model)
+  commentId: M:GTA.Model.Equals(GTA.Model)
+  id: Equals(GTA.Model)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Equals(Model)
+  nameWithType: Model.Equals(Model)
+  fullName: GTA.Model.Equals(GTA.Model)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool Equals(Model model)
+    parameters:
+    - id: model
+      type: GTA.Model
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(model As Model) As Boolean
+  overload: GTA.Model.Equals*
+  implements:
+  - System.IEquatable{GTA.Model}.Equals(GTA.Model)
+- uid: GTA.Model.Equals(System.Object)
+  commentId: M:GTA.Model.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Model.Equals(object)
+  fullName: GTA.Model.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: GTA.Model.Equals*
+  nameWithType.vb: Model.Equals(Object)
+  fullName.vb: GTA.Model.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.Model.op_Equality(GTA.Model,GTA.Model)
+  commentId: M:GTA.Model.op_Equality(GTA.Model,GTA.Model)
+  id: op_Equality(GTA.Model,GTA.Model)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Model, Model)
+  nameWithType: Model.operator ==(Model, Model)
+  fullName: GTA.Model.operator ==(GTA.Model, GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(Model left, Model right)
+    parameters:
+    - id: left
+      type: GTA.Model
+    - id: right
+      type: GTA.Model
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As Model, right As Model) As Boolean
+  overload: GTA.Model.op_Equality*
+  nameWithType.vb: Model.=(Model, Model)
+  fullName.vb: GTA.Model.=(GTA.Model, GTA.Model)
+  name.vb: =(Model, Model)
+- uid: GTA.Model.op_Inequality(GTA.Model,GTA.Model)
+  commentId: M:GTA.Model.op_Inequality(GTA.Model,GTA.Model)
+  id: op_Inequality(GTA.Model,GTA.Model)
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Model, Model)
+  nameWithType: Model.operator !=(Model, Model)
+  fullName: GTA.Model.operator !=(GTA.Model, GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(Model left, Model right)
+    parameters:
+    - id: left
+      type: GTA.Model
+    - id: right
+      type: GTA.Model
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As Model, right As Model) As Boolean
+  overload: GTA.Model.op_Inequality*
+  nameWithType.vb: Model.<>(Model, Model)
+  fullName.vb: GTA.Model.<>(GTA.Model, GTA.Model)
+  name.vb: <>(Model, Model)
+- uid: GTA.Model.op_Implicit(GTA.Model)~System.Int32
+  commentId: M:GTA.Model.op_Implicit(GTA.Model)~System.Int32
+  id: op_Implicit(GTA.Model)~System.Int32
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator int(Model)
+  nameWithType: Model.implicit operator int(Model)
+  fullName: GTA.Model.implicit operator int(GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator int(Model source)
+    parameters:
+    - id: source
+      type: GTA.Model
+    return:
+      type: System.Int32
+    content.vb: Public Shared Widening Operator CType(source As Model) As Integer
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(Model)
+  fullName.vb: GTA.Model.CType(GTA.Model)
+  name.vb: CType(Model)
+- uid: GTA.Model.op_Implicit(GTA.Model)~GTA.PedHash
+  commentId: M:GTA.Model.op_Implicit(GTA.Model)~GTA.PedHash
+  id: op_Implicit(GTA.Model)~GTA.PedHash
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator PedHash(Model)
+  nameWithType: Model.implicit operator PedHash(Model)
+  fullName: GTA.Model.implicit operator GTA.PedHash(GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator PedHash(Model source)
+    parameters:
+    - id: source
+      type: GTA.Model
+    return:
+      type: GTA.PedHash
+    content.vb: Public Shared Widening Operator CType(source As Model) As PedHash
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(Model)
+  fullName.vb: GTA.Model.CType(GTA.Model)
+  name.vb: CType(Model)
+- uid: GTA.Model.op_Implicit(GTA.Model)~GTA.WeaponHash
+  commentId: M:GTA.Model.op_Implicit(GTA.Model)~GTA.WeaponHash
+  id: op_Implicit(GTA.Model)~GTA.WeaponHash
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator WeaponHash(Model)
+  nameWithType: Model.implicit operator WeaponHash(Model)
+  fullName: GTA.Model.implicit operator GTA.WeaponHash(GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator WeaponHash(Model source)
+    parameters:
+    - id: source
+      type: GTA.Model
+    return:
+      type: GTA.WeaponHash
+    content.vb: Public Shared Widening Operator CType(source As Model) As WeaponHash
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(Model)
+  fullName.vb: GTA.Model.CType(GTA.Model)
+  name.vb: CType(Model)
+- uid: GTA.Model.op_Implicit(GTA.Model)~GTA.VehicleHash
+  commentId: M:GTA.Model.op_Implicit(GTA.Model)~GTA.VehicleHash
+  id: op_Implicit(GTA.Model)~GTA.VehicleHash
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator VehicleHash(Model)
+  nameWithType: Model.implicit operator VehicleHash(Model)
+  fullName: GTA.Model.implicit operator GTA.VehicleHash(GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator VehicleHash(Model source)
+    parameters:
+    - id: source
+      type: GTA.Model
+    return:
+      type: GTA.VehicleHash
+    content.vb: Public Shared Widening Operator CType(source As Model) As VehicleHash
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(Model)
+  fullName.vb: GTA.Model.CType(GTA.Model)
+  name.vb: CType(Model)
+- uid: GTA.Model.op_Implicit(System.Int32)~GTA.Model
+  commentId: M:GTA.Model.op_Implicit(System.Int32)~GTA.Model
+  id: op_Implicit(System.Int32)~GTA.Model
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Model(int)
+  nameWithType: Model.implicit operator Model(int)
+  fullName: GTA.Model.implicit operator GTA.Model(int)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator Model(int source)
+    parameters:
+    - id: source
+      type: System.Int32
+    return:
+      type: GTA.Model
+    content.vb: Public Shared Widening Operator CType(source As Integer) As Model
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(Integer)
+  fullName.vb: GTA.Model.CType(Integer)
+  name.vb: CType(Integer)
+- uid: GTA.Model.op_Implicit(System.String)~GTA.Model
+  commentId: M:GTA.Model.op_Implicit(System.String)~GTA.Model
+  id: op_Implicit(System.String)~GTA.Model
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Model(string)
+  nameWithType: Model.implicit operator Model(string)
+  fullName: GTA.Model.implicit operator GTA.Model(string)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator Model(string source)
+    parameters:
+    - id: source
+      type: System.String
+    return:
+      type: GTA.Model
+    content.vb: Public Shared Widening Operator CType(source As String) As Model
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(String)
+  fullName.vb: GTA.Model.CType(String)
+  name.vb: CType(String)
+- uid: GTA.Model.op_Implicit(GTA.PedHash)~GTA.Model
+  commentId: M:GTA.Model.op_Implicit(GTA.PedHash)~GTA.Model
+  id: op_Implicit(GTA.PedHash)~GTA.Model
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Model(PedHash)
+  nameWithType: Model.implicit operator Model(PedHash)
+  fullName: GTA.Model.implicit operator GTA.Model(GTA.PedHash)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator Model(PedHash source)
+    parameters:
+    - id: source
+      type: GTA.PedHash
+    return:
+      type: GTA.Model
+    content.vb: Public Shared Widening Operator CType(source As PedHash) As Model
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(PedHash)
+  fullName.vb: GTA.Model.CType(GTA.PedHash)
+  name.vb: CType(PedHash)
+- uid: GTA.Model.op_Implicit(GTA.WeaponHash)~GTA.Model
+  commentId: M:GTA.Model.op_Implicit(GTA.WeaponHash)~GTA.Model
+  id: op_Implicit(GTA.WeaponHash)~GTA.Model
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Model(WeaponHash)
+  nameWithType: Model.implicit operator Model(WeaponHash)
+  fullName: GTA.Model.implicit operator GTA.Model(GTA.WeaponHash)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator Model(WeaponHash source)
+    parameters:
+    - id: source
+      type: GTA.WeaponHash
+    return:
+      type: GTA.Model
+    content.vb: Public Shared Widening Operator CType(source As WeaponHash) As Model
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(WeaponHash)
+  fullName.vb: GTA.Model.CType(GTA.WeaponHash)
+  name.vb: CType(WeaponHash)
+- uid: GTA.Model.op_Implicit(GTA.VehicleHash)~GTA.Model
+  commentId: M:GTA.Model.op_Implicit(GTA.VehicleHash)~GTA.Model
+  id: op_Implicit(GTA.VehicleHash)~GTA.Model
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Model(VehicleHash)
+  nameWithType: Model.implicit operator Model(VehicleHash)
+  fullName: GTA.Model.implicit operator GTA.Model(GTA.VehicleHash)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator Model(VehicleHash source)
+    parameters:
+    - id: source
+      type: GTA.VehicleHash
+    return:
+      type: GTA.Model
+    content.vb: Public Shared Widening Operator CType(source As VehicleHash) As Model
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(VehicleHash)
+  fullName.vb: GTA.Model.CType(GTA.VehicleHash)
+  name.vb: CType(VehicleHash)
+- uid: GTA.Model.op_Implicit(GTA.Model)~GTA.Native.InputArgument
+  commentId: M:GTA.Model.op_Implicit(GTA.Model)~GTA.Native.InputArgument
+  id: op_Implicit(GTA.Model)~GTA.Native.InputArgument
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: implicit operator InputArgument(Model)
+  nameWithType: Model.implicit operator InputArgument(Model)
+  fullName: GTA.Model.implicit operator GTA.Native.InputArgument(GTA.Model)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static implicit operator InputArgument(Model value)
+    parameters:
+    - id: value
+      type: GTA.Model
+    return:
+      type: GTA.Native.InputArgument
+    content.vb: Public Shared Widening Operator CType(value As Model) As InputArgument
+  overload: GTA.Model.op_Implicit*
+  nameWithType.vb: Model.CType(Model)
+  fullName.vb: GTA.Model.CType(GTA.Model)
+  name.vb: CType(Model)
+- uid: GTA.Model.GetHashCode
+  commentId: M:GTA.Model.GetHashCode
+  id: GetHashCode
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Model.GetHashCode()
+  fullName: GTA.Model.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: GTA.Model.GetHashCode*
+- uid: GTA.Model.ToString
+  commentId: M:GTA.Model.ToString
+  id: ToString
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Model.ToString()
+  fullName: GTA.Model.ToString()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: GTA.Model.ToString*
+- uid: GTA.Model.Hash
+  commentId: P:GTA.Model.Hash
+  id: Hash
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: Model.Hash
+  fullName: GTA.Model.Hash
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public readonly int Hash { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Hash As Integer
+  overload: GTA.Model.Hash*
+- uid: GTA.Model.NativeValue
+  commentId: P:GTA.Model.NativeValue
+  id: NativeValue
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: NativeValue
+  nameWithType: Model.NativeValue
+  fullName: GTA.Model.NativeValue
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public ulong NativeValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property NativeValue As ULong
+  overload: GTA.Model.NativeValue*
+  implements:
+  - GTA.Native.INativeValue.NativeValue
+- uid: GTA.Model.IsValid
+  commentId: P:GTA.Model.IsValid
+  id: IsValid
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: Model.IsValid
+  fullName: GTA.Model.IsValid
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: GTA.Model.IsValid*
+- uid: GTA.Model.IsInCdImage
+  commentId: P:GTA.Model.IsInCdImage
+  id: IsInCdImage
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsInCdImage
+  nameWithType: Model.IsInCdImage
+  fullName: GTA.Model.IsInCdImage
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsInCdImage { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInCdImage As Boolean
+  overload: GTA.Model.IsInCdImage*
+- uid: GTA.Model.IsLoaded
+  commentId: P:GTA.Model.IsLoaded
+  id: IsLoaded
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: Model.IsLoaded
+  fullName: GTA.Model.IsLoaded
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoaded As Boolean
+  overload: GTA.Model.IsLoaded*
+  implements:
+  - GTA.IScriptStreamingResource.IsLoaded
+- uid: GTA.Model.IsCollisionLoaded
+  commentId: P:GTA.Model.IsCollisionLoaded
+  id: IsCollisionLoaded
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsCollisionLoaded
+  nameWithType: Model.IsCollisionLoaded
+  fullName: GTA.Model.IsCollisionLoaded
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsCollisionLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCollisionLoaded As Boolean
+  overload: GTA.Model.IsCollisionLoaded*
+- uid: GTA.Model.IsAmphibiousCar
+  commentId: P:GTA.Model.IsAmphibiousCar
+  id: IsAmphibiousCar
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsAmphibiousCar
+  nameWithType: Model.IsAmphibiousCar
+  fullName: GTA.Model.IsAmphibiousCar
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsAmphibiousCar { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAmphibiousCar As Boolean
+  overload: GTA.Model.IsAmphibiousCar*
+- uid: GTA.Model.IsAmphibiousQuadBike
+  commentId: P:GTA.Model.IsAmphibiousQuadBike
+  id: IsAmphibiousQuadBike
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsAmphibiousQuadBike
+  nameWithType: Model.IsAmphibiousQuadBike
+  fullName: GTA.Model.IsAmphibiousQuadBike
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsAmphibiousQuadBike { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAmphibiousQuadBike As Boolean
+  overload: GTA.Model.IsAmphibiousQuadBike*
+- uid: GTA.Model.IsAmphibiousVehicle
+  commentId: P:GTA.Model.IsAmphibiousVehicle
+  id: IsAmphibiousVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsAmphibiousVehicle
+  nameWithType: Model.IsAmphibiousVehicle
+  fullName: GTA.Model.IsAmphibiousVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsAmphibiousVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAmphibiousVehicle As Boolean
+  overload: GTA.Model.IsAmphibiousVehicle*
+- uid: GTA.Model.IsAnimalPed
+  commentId: P:GTA.Model.IsAnimalPed
+  id: IsAnimalPed
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsAnimalPed
+  nameWithType: Model.IsAnimalPed
+  fullName: GTA.Model.IsAnimalPed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsAnimalPed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAnimalPed As Boolean
+  overload: GTA.Model.IsAnimalPed*
+- uid: GTA.Model.IsBicycle
+  commentId: P:GTA.Model.IsBicycle
+  id: IsBicycle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsBicycle
+  nameWithType: Model.IsBicycle
+  fullName: GTA.Model.IsBicycle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBicycle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBicycle As Boolean
+  overload: GTA.Model.IsBicycle*
+- uid: GTA.Model.IsBigVehicle
+  commentId: P:GTA.Model.IsBigVehicle
+  id: IsBigVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsBigVehicle
+  nameWithType: Model.IsBigVehicle
+  fullName: GTA.Model.IsBigVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBigVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBigVehicle As Boolean
+  overload: GTA.Model.IsBigVehicle*
+- uid: GTA.Model.IsBike
+  commentId: P:GTA.Model.IsBike
+  id: IsBike
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsBike
+  nameWithType: Model.IsBike
+  fullName: GTA.Model.IsBike
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBike { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBike As Boolean
+  overload: GTA.Model.IsBike*
+- uid: GTA.Model.IsBlimp
+  commentId: P:GTA.Model.IsBlimp
+  id: IsBlimp
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsBlimp
+  nameWithType: Model.IsBlimp
+  fullName: GTA.Model.IsBlimp
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBlimp { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBlimp As Boolean
+  overload: GTA.Model.IsBlimp*
+- uid: GTA.Model.IsBoat
+  commentId: P:GTA.Model.IsBoat
+  id: IsBoat
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsBoat
+  nameWithType: Model.IsBoat
+  fullName: GTA.Model.IsBoat
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBoat { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBoat As Boolean
+  overload: GTA.Model.IsBoat*
+- uid: GTA.Model.IsBus
+  commentId: P:GTA.Model.IsBus
+  id: IsBus
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsBus
+  nameWithType: Model.IsBus
+  fullName: GTA.Model.IsBus
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBus { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBus As Boolean
+  overload: GTA.Model.IsBus*
+- uid: GTA.Model.IsCar
+  commentId: P:GTA.Model.IsCar
+  id: IsCar
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsCar
+  nameWithType: Model.IsCar
+  fullName: GTA.Model.IsCar
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsCar { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCar As Boolean
+  overload: GTA.Model.IsCar*
+- uid: GTA.Model.IsCargobob
+  commentId: P:GTA.Model.IsCargobob
+  id: IsCargobob
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsCargobob
+  nameWithType: Model.IsCargobob
+  fullName: GTA.Model.IsCargobob
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsCargobob { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCargobob As Boolean
+  overload: GTA.Model.IsCargobob*
+- uid: GTA.Model.IsDonk
+  commentId: P:GTA.Model.IsDonk
+  id: IsDonk
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsDonk
+  nameWithType: Model.IsDonk
+  fullName: GTA.Model.IsDonk
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsDonk { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDonk As Boolean
+  overload: GTA.Model.IsDonk*
+- uid: GTA.Model.IsElectricVehicle
+  commentId: P:GTA.Model.IsElectricVehicle
+  id: IsElectricVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsElectricVehicle
+  nameWithType: Model.IsElectricVehicle
+  fullName: GTA.Model.IsElectricVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsElectricVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsElectricVehicle As Boolean
+  overload: GTA.Model.IsElectricVehicle*
+- uid: GTA.Model.IsEmergencyVehicle
+  commentId: P:GTA.Model.IsEmergencyVehicle
+  id: IsEmergencyVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsEmergencyVehicle
+  nameWithType: Model.IsEmergencyVehicle
+  fullName: GTA.Model.IsEmergencyVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsEmergencyVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmergencyVehicle As Boolean
+  overload: GTA.Model.IsEmergencyVehicle*
+- uid: GTA.Model.IsFemalePed
+  commentId: P:GTA.Model.IsFemalePed
+  id: IsFemalePed
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsFemalePed
+  nameWithType: Model.IsFemalePed
+  fullName: GTA.Model.IsFemalePed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsFemalePed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFemalePed As Boolean
+  overload: GTA.Model.IsFemalePed*
+- uid: GTA.Model.IsFragment
+  commentId: P:GTA.Model.IsFragment
+  id: IsFragment
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsFragment
+  nameWithType: Model.IsFragment
+  fullName: GTA.Model.IsFragment
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsFragment { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFragment As Boolean
+  overload: GTA.Model.IsFragment*
+- uid: GTA.Model.IsGangPed
+  commentId: P:GTA.Model.IsGangPed
+  id: IsGangPed
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsGangPed
+  nameWithType: Model.IsGangPed
+  fullName: GTA.Model.IsGangPed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsGangPed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsGangPed As Boolean
+  overload: GTA.Model.IsGangPed*
+- uid: GTA.Model.IsHelicopter
+  commentId: P:GTA.Model.IsHelicopter
+  id: IsHelicopter
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsHelicopter
+  nameWithType: Model.IsHelicopter
+  fullName: GTA.Model.IsHelicopter
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsHelicopter { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsHelicopter As Boolean
+  overload: GTA.Model.IsHelicopter*
+- uid: GTA.Model.IsHumanPed
+  commentId: P:GTA.Model.IsHumanPed
+  id: IsHumanPed
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsHumanPed
+  nameWithType: Model.IsHumanPed
+  fullName: GTA.Model.IsHumanPed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsHumanPed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsHumanPed As Boolean
+  overload: GTA.Model.IsHumanPed*
+- uid: GTA.Model.IsJetSki
+  commentId: P:GTA.Model.IsJetSki
+  id: IsJetSki
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsJetSki
+  nameWithType: Model.IsJetSki
+  fullName: GTA.Model.IsJetSki
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsJetSki { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsJetSki As Boolean
+  overload: GTA.Model.IsJetSki*
+- uid: GTA.Model.IsLawEnforcementVehicle
+  commentId: P:GTA.Model.IsLawEnforcementVehicle
+  id: IsLawEnforcementVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsLawEnforcementVehicle
+  nameWithType: Model.IsLawEnforcementVehicle
+  fullName: GTA.Model.IsLawEnforcementVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsLawEnforcementVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLawEnforcementVehicle As Boolean
+  overload: GTA.Model.IsLawEnforcementVehicle*
+- uid: GTA.Model.IsLowrider
+  commentId: P:GTA.Model.IsLowrider
+  id: IsLowrider
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsLowrider
+  nameWithType: Model.IsLowrider
+  fullName: GTA.Model.IsLowrider
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsLowrider { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLowrider As Boolean
+  overload: GTA.Model.IsLowrider*
+- uid: GTA.Model.IsMlo
+  commentId: P:GTA.Model.IsMlo
+  id: IsMlo
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsMlo
+  nameWithType: Model.IsMlo
+  fullName: GTA.Model.IsMlo
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsMlo { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMlo As Boolean
+  overload: GTA.Model.IsMlo*
+- uid: GTA.Model.IsMalePed
+  commentId: P:GTA.Model.IsMalePed
+  id: IsMalePed
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsMalePed
+  nameWithType: Model.IsMalePed
+  fullName: GTA.Model.IsMalePed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsMalePed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMalePed As Boolean
+  overload: GTA.Model.IsMalePed*
+- uid: GTA.Model.IsMotorcycle
+  commentId: P:GTA.Model.IsMotorcycle
+  id: IsMotorcycle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsMotorcycle
+  nameWithType: Model.IsMotorcycle
+  fullName: GTA.Model.IsMotorcycle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsMotorcycle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMotorcycle As Boolean
+  overload: GTA.Model.IsMotorcycle*
+- uid: GTA.Model.IsOffRoadVehicle
+  commentId: P:GTA.Model.IsOffRoadVehicle
+  id: IsOffRoadVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsOffRoadVehicle
+  nameWithType: Model.IsOffRoadVehicle
+  fullName: GTA.Model.IsOffRoadVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsOffRoadVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOffRoadVehicle As Boolean
+  overload: GTA.Model.IsOffRoadVehicle*
+- uid: GTA.Model.IsPed
+  commentId: P:GTA.Model.IsPed
+  id: IsPed
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsPed
+  nameWithType: Model.IsPed
+  fullName: GTA.Model.IsPed
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsPed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPed As Boolean
+  overload: GTA.Model.IsPed*
+- uid: GTA.Model.IsPlane
+  commentId: P:GTA.Model.IsPlane
+  id: IsPlane
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsPlane
+  nameWithType: Model.IsPlane
+  fullName: GTA.Model.IsPlane
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsPlane { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPlane As Boolean
+  overload: GTA.Model.IsPlane*
+- uid: GTA.Model.IsProp
+  commentId: P:GTA.Model.IsProp
+  id: IsProp
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsProp
+  nameWithType: Model.IsProp
+  fullName: GTA.Model.IsProp
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsProp { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsProp As Boolean
+  overload: GTA.Model.IsProp*
+- uid: GTA.Model.IsQuadBike
+  commentId: P:GTA.Model.IsQuadBike
+  id: IsQuadBike
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsQuadBike
+  nameWithType: Model.IsQuadBike
+  fullName: GTA.Model.IsQuadBike
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsQuadBike { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsQuadBike As Boolean
+  overload: GTA.Model.IsQuadBike*
+- uid: GTA.Model.IsSubmarine
+  commentId: P:GTA.Model.IsSubmarine
+  id: IsSubmarine
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsSubmarine
+  nameWithType: Model.IsSubmarine
+  fullName: GTA.Model.IsSubmarine
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsSubmarine { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSubmarine As Boolean
+  overload: GTA.Model.IsSubmarine*
+- uid: GTA.Model.IsSubmarineCar
+  commentId: P:GTA.Model.IsSubmarineCar
+  id: IsSubmarineCar
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsSubmarineCar
+  nameWithType: Model.IsSubmarineCar
+  fullName: GTA.Model.IsSubmarineCar
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsSubmarineCar { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSubmarineCar As Boolean
+  overload: GTA.Model.IsSubmarineCar*
+- uid: GTA.Model.IsTank
+  commentId: P:GTA.Model.IsTank
+  id: IsTank
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsTank
+  nameWithType: Model.IsTank
+  fullName: GTA.Model.IsTank
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsTank { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsTank As Boolean
+  overload: GTA.Model.IsTank*
+- uid: GTA.Model.IsTrain
+  commentId: P:GTA.Model.IsTrain
+  id: IsTrain
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsTrain
+  nameWithType: Model.IsTrain
+  fullName: GTA.Model.IsTrain
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsTrain { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsTrain As Boolean
+  overload: GTA.Model.IsTrain*
+- uid: GTA.Model.IsTrailer
+  commentId: P:GTA.Model.IsTrailer
+  id: IsTrailer
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsTrailer
+  nameWithType: Model.IsTrailer
+  fullName: GTA.Model.IsTrailer
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsTrailer { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsTrailer As Boolean
+  overload: GTA.Model.IsTrailer*
+- uid: GTA.Model.IsVan
+  commentId: P:GTA.Model.IsVan
+  id: IsVan
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsVan
+  nameWithType: Model.IsVan
+  fullName: GTA.Model.IsVan
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsVan { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsVan As Boolean
+  overload: GTA.Model.IsVan*
+- uid: GTA.Model.IsVehicle
+  commentId: P:GTA.Model.IsVehicle
+  id: IsVehicle
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: IsVehicle
+  nameWithType: Model.IsVehicle
+  fullName: GTA.Model.IsVehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsVehicle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsVehicle As Boolean
+  overload: GTA.Model.IsVehicle*
+- uid: GTA.Model.Dimensions
+  commentId: P:GTA.Model.Dimensions
+  id: Dimensions
+  parent: GTA.Model
+  langs:
+  - csharp
+  - vb
+  name: Dimensions
+  nameWithType: Model.Dimensions
+  fullName: GTA.Model.Dimensions
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public (Vector3 rearBottomLeft, Vector3 frontTopRight) Dimensions { get; }
+    parameters: []
+    return:
+      type: System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}
+    content.vb: Public ReadOnly Property Dimensions As (rearBottomLeft As Vector3, frontTopRight As Vector3)
+  overload: GTA.Model.Dimensions*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.IEquatable{GTA.Model}
+  commentId: T:System.IEquatable{GTA.Model}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Model>
+  nameWithType: IEquatable<Model>
+  fullName: System.IEquatable<GTA.Model>
+  nameWithType.vb: IEquatable(Of Model)
+  fullName.vb: System.IEquatable(Of GTA.Model)
+  name.vb: IEquatable(Of Model)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: GTA.Model
+    name: Model
+    isExternal: true
+    href: GTA.Model.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: GTA.Model
+    name: Model
+    isExternal: true
+    href: GTA.Model.html
+  - name: )
+- uid: GTA.Native.INativeValue
+  commentId: T:GTA.Native.INativeValue
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.INativeValue.html
+  name: INativeValue
+  nameWithType: INativeValue
+  fullName: GTA.Native.INativeValue
+- uid: GTA.IScriptStreamingResource
+  commentId: T:GTA.IScriptStreamingResource
+  parent: GTA
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html
+  name: IScriptStreamingResource
+  nameWithType: IScriptStreamingResource
+  fullName: GTA.IScriptStreamingResource
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.Native
+  commentId: N:GTA.Native
+  isExternal: true
+  href: GTA.html
+  name: GTA.Native
+  nameWithType: GTA.Native
+  fullName: GTA.Native
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Native
+    name: Native
+    isExternal: true
+    href: GTA.Native.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.Model.#ctor*
+  commentId: Overload:GTA.Model.#ctor
+  isExternal: true
+  href: GTA.Model.html#GTA_Model__ctor_System_Int32_
+  name: Model
+  nameWithType: Model.Model
+  fullName: GTA.Model.Model
+  nameWithType.vb: Model.New
+  fullName.vb: GTA.Model.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.PedHash
+  commentId: T:GTA.PedHash
+  parent: GTA
+  isExternal: true
+  href: GTA.PedHash.html
+  name: PedHash
+  nameWithType: PedHash
+  fullName: GTA.PedHash
+- uid: GTA.WeaponHash
+  commentId: T:GTA.WeaponHash
+  parent: GTA
+  isExternal: true
+  href: GTA.WeaponHash.html
+  name: WeaponHash
+  nameWithType: WeaponHash
+  fullName: GTA.WeaponHash
+- uid: GTA.VehicleHash
+  commentId: T:GTA.VehicleHash
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleHash.html
+  name: VehicleHash
+  nameWithType: VehicleHash
+  fullName: GTA.VehicleHash
+- uid: GTA.Model.GetDimensions*
+  commentId: Overload:GTA.Model.GetDimensions
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_GetDimensions_GTA_Math_Vector3__GTA_Math_Vector3__
+  name: GetDimensions
+  nameWithType: Model.GetDimensions
+  fullName: GTA.Model.GetDimensions
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.Model.Request*
+  commentId: Overload:GTA.Model.Request
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_Request
+  name: Request
+  nameWithType: Model.Request
+  fullName: GTA.Model.Request
+- uid: GTA.IScriptStreamingResource.Request
+  commentId: M:GTA.IScriptStreamingResource.Request
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  name: Request()
+  nameWithType: IScriptStreamingResource.Request()
+  fullName: GTA.IScriptStreamingResource.Request()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.Request
+    name: Request
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_Request
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.Model.RequestCollision*
+  commentId: Overload:GTA.Model.RequestCollision
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_RequestCollision
+  name: RequestCollision
+  nameWithType: Model.RequestCollision
+  fullName: GTA.Model.RequestCollision
+- uid: GTA.Model.MarkAsNoLongerNeeded*
+  commentId: Overload:GTA.Model.MarkAsNoLongerNeeded
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded
+  nameWithType: Model.MarkAsNoLongerNeeded
+  fullName: GTA.Model.MarkAsNoLongerNeeded
+- uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  commentId: M:GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  name: MarkAsNoLongerNeeded()
+  nameWithType: IScriptStreamingResource.MarkAsNoLongerNeeded()
+  fullName: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded()
+  spec.csharp:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.IScriptStreamingResource.MarkAsNoLongerNeeded
+    name: MarkAsNoLongerNeeded
+    isExternal: true
+    href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_MarkAsNoLongerNeeded
+  - name: (
+  - name: )
+- uid: GTA.Model.Equals*
+  commentId: Overload:GTA.Model.Equals
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_Equals_GTA_Model_
+  name: Equals
+  nameWithType: Model.Equals
+  fullName: GTA.Model.Equals
+- uid: System.IEquatable{GTA.Model}.Equals(GTA.Model)
+  commentId: M:System.IEquatable{GTA.Model}.Equals(GTA.Model)
+  parent: System.IEquatable{GTA.Model}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Model)
+  nameWithType: IEquatable<Model>.Equals(Model)
+  fullName: System.IEquatable<GTA.Model>.Equals(GTA.Model)
+  nameWithType.vb: IEquatable(Of Model).Equals(Model)
+  fullName.vb: System.IEquatable(Of GTA.Model).Equals(GTA.Model)
+  spec.csharp:
+  - uid: System.IEquatable{GTA.Model}.Equals(GTA.Model)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Model
+    name: Model
+    isExternal: true
+    href: GTA.Model.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{GTA.Model}.Equals(GTA.Model)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: GTA.Model
+    name: Model
+    isExternal: true
+    href: GTA.Model.html
+  - name: )
+- uid: GTA.Model
+  commentId: T:GTA.Model
+  parent: GTA
+  isExternal: true
+  href: GTA.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: GTA.Model
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: GTA.Model.op_Equality*
+  commentId: Overload:GTA.Model.op_Equality
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_op_Equality_GTA_Model_GTA_Model_
+  name: operator ==
+  nameWithType: Model.operator ==
+  fullName: GTA.Model.operator ==
+  nameWithType.vb: Model.=
+  fullName.vb: GTA.Model.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Model.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.Model.html#GTA_Model_op_Equality_GTA_Model_GTA_Model_
+- uid: GTA.Model.op_Inequality*
+  commentId: Overload:GTA.Model.op_Inequality
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_op_Inequality_GTA_Model_GTA_Model_
+  name: operator !=
+  nameWithType: Model.operator !=
+  fullName: GTA.Model.operator !=
+  nameWithType.vb: Model.<>
+  fullName.vb: GTA.Model.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.Model.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.Model.html#GTA_Model_op_Inequality_GTA_Model_GTA_Model_
+- uid: GTA.Model.op_Implicit*
+  commentId: Overload:GTA.Model.op_Implicit
+  name: implicit operator
+  nameWithType: Model.implicit operator
+  fullName: GTA.Model.implicit operator
+  nameWithType.vb: Model.CType
+  fullName.vb: GTA.Model.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: GTA.Native.InputArgument
+  commentId: T:GTA.Native.InputArgument
+  parent: GTA.Native
+  isExternal: true
+  href: GTA.Native.InputArgument.html
+  name: InputArgument
+  nameWithType: InputArgument
+  fullName: GTA.Native.InputArgument
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.Model.GetHashCode*
+  commentId: Overload:GTA.Model.GetHashCode
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_GetHashCode
+  name: GetHashCode
+  nameWithType: Model.GetHashCode
+  fullName: GTA.Model.GetHashCode
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: GTA.Model.ToString*
+  commentId: Overload:GTA.Model.ToString
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_ToString
+  name: ToString
+  nameWithType: Model.ToString
+  fullName: GTA.Model.ToString
+- uid: GTA.Model.Hash*
+  commentId: Overload:GTA.Model.Hash
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_Hash
+  name: Hash
+  nameWithType: Model.Hash
+  fullName: GTA.Model.Hash
+- uid: GTA.Model.NativeValue*
+  commentId: Overload:GTA.Model.NativeValue
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_NativeValue
+  name: NativeValue
+  nameWithType: Model.NativeValue
+  fullName: GTA.Model.NativeValue
+- uid: GTA.Native.INativeValue.NativeValue
+  commentId: P:GTA.Native.INativeValue.NativeValue
+  parent: GTA.Native.INativeValue
+  isExternal: true
+  href: GTA.Native.INativeValue.html#GTA_Native_INativeValue_NativeValue
+  name: NativeValue
+  nameWithType: INativeValue.NativeValue
+  fullName: GTA.Native.INativeValue.NativeValue
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: GTA.Model.IsValid*
+  commentId: Overload:GTA.Model.IsValid
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsValid
+  name: IsValid
+  nameWithType: Model.IsValid
+  fullName: GTA.Model.IsValid
+- uid: GTA.Model.IsInCdImage*
+  commentId: Overload:GTA.Model.IsInCdImage
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsInCdImage
+  name: IsInCdImage
+  nameWithType: Model.IsInCdImage
+  fullName: GTA.Model.IsInCdImage
+- uid: GTA.Model.IsLoaded*
+  commentId: Overload:GTA.Model.IsLoaded
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsLoaded
+  name: IsLoaded
+  nameWithType: Model.IsLoaded
+  fullName: GTA.Model.IsLoaded
+- uid: GTA.IScriptStreamingResource.IsLoaded
+  commentId: P:GTA.IScriptStreamingResource.IsLoaded
+  parent: GTA.IScriptStreamingResource
+  isExternal: true
+  href: GTA.IScriptStreamingResource.html#GTA_IScriptStreamingResource_IsLoaded
+  name: IsLoaded
+  nameWithType: IScriptStreamingResource.IsLoaded
+  fullName: GTA.IScriptStreamingResource.IsLoaded
+- uid: GTA.Model.IsCollisionLoaded*
+  commentId: Overload:GTA.Model.IsCollisionLoaded
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsCollisionLoaded
+  name: IsCollisionLoaded
+  nameWithType: Model.IsCollisionLoaded
+  fullName: GTA.Model.IsCollisionLoaded
+- uid: GTA.Model.IsAmphibiousCar*
+  commentId: Overload:GTA.Model.IsAmphibiousCar
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsAmphibiousCar
+  name: IsAmphibiousCar
+  nameWithType: Model.IsAmphibiousCar
+  fullName: GTA.Model.IsAmphibiousCar
+- uid: GTA.Model.IsAmphibiousQuadBike*
+  commentId: Overload:GTA.Model.IsAmphibiousQuadBike
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsAmphibiousQuadBike
+  name: IsAmphibiousQuadBike
+  nameWithType: Model.IsAmphibiousQuadBike
+  fullName: GTA.Model.IsAmphibiousQuadBike
+- uid: GTA.Model.IsAmphibiousVehicle*
+  commentId: Overload:GTA.Model.IsAmphibiousVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsAmphibiousVehicle
+  name: IsAmphibiousVehicle
+  nameWithType: Model.IsAmphibiousVehicle
+  fullName: GTA.Model.IsAmphibiousVehicle
+- uid: GTA.Model.IsAnimalPed*
+  commentId: Overload:GTA.Model.IsAnimalPed
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsAnimalPed
+  name: IsAnimalPed
+  nameWithType: Model.IsAnimalPed
+  fullName: GTA.Model.IsAnimalPed
+- uid: GTA.Model.IsBicycle*
+  commentId: Overload:GTA.Model.IsBicycle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsBicycle
+  name: IsBicycle
+  nameWithType: Model.IsBicycle
+  fullName: GTA.Model.IsBicycle
+- uid: GTA.Model.IsBigVehicle*
+  commentId: Overload:GTA.Model.IsBigVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsBigVehicle
+  name: IsBigVehicle
+  nameWithType: Model.IsBigVehicle
+  fullName: GTA.Model.IsBigVehicle
+- uid: GTA.Model.IsBike*
+  commentId: Overload:GTA.Model.IsBike
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsBike
+  name: IsBike
+  nameWithType: Model.IsBike
+  fullName: GTA.Model.IsBike
+- uid: GTA.Model.IsBlimp*
+  commentId: Overload:GTA.Model.IsBlimp
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsBlimp
+  name: IsBlimp
+  nameWithType: Model.IsBlimp
+  fullName: GTA.Model.IsBlimp
+- uid: GTA.Model.IsBoat*
+  commentId: Overload:GTA.Model.IsBoat
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsBoat
+  name: IsBoat
+  nameWithType: Model.IsBoat
+  fullName: GTA.Model.IsBoat
+- uid: GTA.Model.IsBus*
+  commentId: Overload:GTA.Model.IsBus
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsBus
+  name: IsBus
+  nameWithType: Model.IsBus
+  fullName: GTA.Model.IsBus
+- uid: GTA.Model.IsCar*
+  commentId: Overload:GTA.Model.IsCar
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsCar
+  name: IsCar
+  nameWithType: Model.IsCar
+  fullName: GTA.Model.IsCar
+- uid: GTA.Model.IsCargobob*
+  commentId: Overload:GTA.Model.IsCargobob
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsCargobob
+  name: IsCargobob
+  nameWithType: Model.IsCargobob
+  fullName: GTA.Model.IsCargobob
+- uid: GTA.Model.IsDonk*
+  commentId: Overload:GTA.Model.IsDonk
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsDonk
+  name: IsDonk
+  nameWithType: Model.IsDonk
+  fullName: GTA.Model.IsDonk
+- uid: GTA.Model.IsElectricVehicle*
+  commentId: Overload:GTA.Model.IsElectricVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsElectricVehicle
+  name: IsElectricVehicle
+  nameWithType: Model.IsElectricVehicle
+  fullName: GTA.Model.IsElectricVehicle
+- uid: GTA.Model.IsEmergencyVehicle*
+  commentId: Overload:GTA.Model.IsEmergencyVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsEmergencyVehicle
+  name: IsEmergencyVehicle
+  nameWithType: Model.IsEmergencyVehicle
+  fullName: GTA.Model.IsEmergencyVehicle
+- uid: GTA.Model.IsFemalePed*
+  commentId: Overload:GTA.Model.IsFemalePed
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsFemalePed
+  name: IsFemalePed
+  nameWithType: Model.IsFemalePed
+  fullName: GTA.Model.IsFemalePed
+- uid: GTA.Model.IsFragment*
+  commentId: Overload:GTA.Model.IsFragment
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsFragment
+  name: IsFragment
+  nameWithType: Model.IsFragment
+  fullName: GTA.Model.IsFragment
+- uid: GTA.Model.IsGangPed*
+  commentId: Overload:GTA.Model.IsGangPed
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsGangPed
+  name: IsGangPed
+  nameWithType: Model.IsGangPed
+  fullName: GTA.Model.IsGangPed
+- uid: GTA.Model.IsHelicopter*
+  commentId: Overload:GTA.Model.IsHelicopter
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsHelicopter
+  name: IsHelicopter
+  nameWithType: Model.IsHelicopter
+  fullName: GTA.Model.IsHelicopter
+- uid: GTA.Model.IsHumanPed*
+  commentId: Overload:GTA.Model.IsHumanPed
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsHumanPed
+  name: IsHumanPed
+  nameWithType: Model.IsHumanPed
+  fullName: GTA.Model.IsHumanPed
+- uid: GTA.Model.IsJetSki*
+  commentId: Overload:GTA.Model.IsJetSki
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsJetSki
+  name: IsJetSki
+  nameWithType: Model.IsJetSki
+  fullName: GTA.Model.IsJetSki
+- uid: GTA.Model.IsLawEnforcementVehicle*
+  commentId: Overload:GTA.Model.IsLawEnforcementVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsLawEnforcementVehicle
+  name: IsLawEnforcementVehicle
+  nameWithType: Model.IsLawEnforcementVehicle
+  fullName: GTA.Model.IsLawEnforcementVehicle
+- uid: GTA.Model.IsLowrider*
+  commentId: Overload:GTA.Model.IsLowrider
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsLowrider
+  name: IsLowrider
+  nameWithType: Model.IsLowrider
+  fullName: GTA.Model.IsLowrider
+- uid: GTA.Model.IsMlo*
+  commentId: Overload:GTA.Model.IsMlo
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsMlo
+  name: IsMlo
+  nameWithType: Model.IsMlo
+  fullName: GTA.Model.IsMlo
+- uid: GTA.Model.IsMalePed*
+  commentId: Overload:GTA.Model.IsMalePed
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsMalePed
+  name: IsMalePed
+  nameWithType: Model.IsMalePed
+  fullName: GTA.Model.IsMalePed
+- uid: GTA.Model.IsMotorcycle*
+  commentId: Overload:GTA.Model.IsMotorcycle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsMotorcycle
+  name: IsMotorcycle
+  nameWithType: Model.IsMotorcycle
+  fullName: GTA.Model.IsMotorcycle
+- uid: GTA.Model.IsOffRoadVehicle*
+  commentId: Overload:GTA.Model.IsOffRoadVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsOffRoadVehicle
+  name: IsOffRoadVehicle
+  nameWithType: Model.IsOffRoadVehicle
+  fullName: GTA.Model.IsOffRoadVehicle
+- uid: GTA.Model.IsPed*
+  commentId: Overload:GTA.Model.IsPed
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsPed
+  name: IsPed
+  nameWithType: Model.IsPed
+  fullName: GTA.Model.IsPed
+- uid: GTA.Model.IsPlane*
+  commentId: Overload:GTA.Model.IsPlane
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsPlane
+  name: IsPlane
+  nameWithType: Model.IsPlane
+  fullName: GTA.Model.IsPlane
+- uid: GTA.Model.IsProp*
+  commentId: Overload:GTA.Model.IsProp
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsProp
+  name: IsProp
+  nameWithType: Model.IsProp
+  fullName: GTA.Model.IsProp
+- uid: GTA.Model.IsQuadBike*
+  commentId: Overload:GTA.Model.IsQuadBike
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsQuadBike
+  name: IsQuadBike
+  nameWithType: Model.IsQuadBike
+  fullName: GTA.Model.IsQuadBike
+- uid: GTA.Model.IsSubmarine*
+  commentId: Overload:GTA.Model.IsSubmarine
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsSubmarine
+  name: IsSubmarine
+  nameWithType: Model.IsSubmarine
+  fullName: GTA.Model.IsSubmarine
+- uid: GTA.Model.IsSubmarineCar*
+  commentId: Overload:GTA.Model.IsSubmarineCar
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsSubmarineCar
+  name: IsSubmarineCar
+  nameWithType: Model.IsSubmarineCar
+  fullName: GTA.Model.IsSubmarineCar
+- uid: GTA.Model.IsTank*
+  commentId: Overload:GTA.Model.IsTank
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsTank
+  name: IsTank
+  nameWithType: Model.IsTank
+  fullName: GTA.Model.IsTank
+- uid: GTA.Model.IsTrain*
+  commentId: Overload:GTA.Model.IsTrain
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsTrain
+  name: IsTrain
+  nameWithType: Model.IsTrain
+  fullName: GTA.Model.IsTrain
+- uid: GTA.Model.IsTrailer*
+  commentId: Overload:GTA.Model.IsTrailer
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsTrailer
+  name: IsTrailer
+  nameWithType: Model.IsTrailer
+  fullName: GTA.Model.IsTrailer
+- uid: GTA.Model.IsVan*
+  commentId: Overload:GTA.Model.IsVan
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsVan
+  name: IsVan
+  nameWithType: Model.IsVan
+  fullName: GTA.Model.IsVan
+- uid: GTA.Model.IsVehicle*
+  commentId: Overload:GTA.Model.IsVehicle
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_IsVehicle
+  name: IsVehicle
+  nameWithType: Model.IsVehicle
+  fullName: GTA.Model.IsVehicle
+- uid: GTA.Model.Dimensions*
+  commentId: Overload:GTA.Model.Dimensions
+  isExternal: true
+  href: GTA.Model.html#GTA_Model_Dimensions
+  name: Dimensions
+  nameWithType: Model.Dimensions
+  fullName: GTA.Model.Dimensions
+- uid: System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}
+  commentId: T:System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}
+  parent: System
+  definition: System.ValueTuple`2
+  href: GTA.Math.Vector3.html
+  name: (Vector3 rearBottomLeft, Vector3 frontTopRight)
+  nameWithType: (Vector3 rearBottomLeft, Vector3 frontTopRight)
+  fullName: (GTA.Math.Vector3 rearBottomLeft, GTA.Math.Vector3 frontTopRight)
+  nameWithType.vb: (rearBottomLeft As Vector3, frontTopRight As Vector3)
+  fullName.vb: (rearBottomLeft As GTA.Math.Vector3, frontTopRight As GTA.Math.Vector3)
+  name.vb: (rearBottomLeft As Vector3, frontTopRight As Vector3)
+  spec.csharp:
+  - name: (
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: " "
+  - uid: System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}.rearBottomLeft
+    name: rearBottomLeft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-gta.math.vector3,gta.math.vector3-.rearbottomleft
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: " "
+  - uid: System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}.frontTopRight
+    name: frontTopRight
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-gta.math.vector3,gta.math.vector3-.fronttopright
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}.rearBottomLeft
+    name: rearBottomLeft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-gta.math.vector3,gta.math.vector3-.rearbottomleft
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{GTA.Math.Vector3,GTA.Math.Vector3}.frontTopRight
+    name: frontTopRight
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-gta.math.vector3,gta.math.vector3-.fronttopright
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )

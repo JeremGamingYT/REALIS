@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.RagdollBlockingFlags
+  commentId: T:GTA.RagdollBlockingFlags
+  id: RagdollBlockingFlags
+  parent: GTA
+  children:
+  - GTA.RagdollBlockingFlags.AllowBlockDeadPed
+  - GTA.RagdollBlockingFlags.BulletImpact
+  - GTA.RagdollBlockingFlags.Drowning
+  - GTA.RagdollBlockingFlags.Electrocution
+  - GTA.RagdollBlockingFlags.Explosion
+  - GTA.RagdollBlockingFlags.Falling
+  - GTA.RagdollBlockingFlags.Fire
+  - GTA.RagdollBlockingFlags.ImpactObject
+  - GTA.RagdollBlockingFlags.Melee
+  - GTA.RagdollBlockingFlags.None
+  - GTA.RagdollBlockingFlags.PedRagdollBump
+  - GTA.RagdollBlockingFlags.PlayerBump
+  - GTA.RagdollBlockingFlags.PlayerImpact
+  - GTA.RagdollBlockingFlags.PlayerRagdollBump
+  - GTA.RagdollBlockingFlags.RubberBullet
+  - GTA.RagdollBlockingFlags.SmokeGrenade
+  - GTA.RagdollBlockingFlags.VehicleGrab
+  - GTA.RagdollBlockingFlags.VehicleImpact
+  - GTA.RagdollBlockingFlags.WaterJet
+  langs:
+  - csharp
+  - vb
+  name: RagdollBlockingFlags
+  nameWithType: RagdollBlockingFlags
+  fullName: GTA.RagdollBlockingFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum RagdollBlockingFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum RagdollBlockingFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.RagdollBlockingFlags.None
+  commentId: F:GTA.RagdollBlockingFlags.None
+  id: None
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RagdollBlockingFlags.None
+  fullName: GTA.RagdollBlockingFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.BulletImpact
+  commentId: F:GTA.RagdollBlockingFlags.BulletImpact
+  id: BulletImpact
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: BulletImpact
+  nameWithType: RagdollBlockingFlags.BulletImpact
+  fullName: GTA.RagdollBlockingFlags.BulletImpact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BulletImpact = 1
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.VehicleImpact
+  commentId: F:GTA.RagdollBlockingFlags.VehicleImpact
+  id: VehicleImpact
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: VehicleImpact
+  nameWithType: RagdollBlockingFlags.VehicleImpact
+  fullName: GTA.RagdollBlockingFlags.VehicleImpact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VehicleImpact = 2
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.Fire
+  commentId: F:GTA.RagdollBlockingFlags.Fire
+  id: Fire
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: Fire
+  nameWithType: RagdollBlockingFlags.Fire
+  fullName: GTA.RagdollBlockingFlags.Fire
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Fire = 4
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.Electrocution
+  commentId: F:GTA.RagdollBlockingFlags.Electrocution
+  id: Electrocution
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: Electrocution
+  nameWithType: RagdollBlockingFlags.Electrocution
+  fullName: GTA.RagdollBlockingFlags.Electrocution
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Electrocution = 8
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.PlayerImpact
+  commentId: F:GTA.RagdollBlockingFlags.PlayerImpact
+  id: PlayerImpact
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: PlayerImpact
+  nameWithType: RagdollBlockingFlags.PlayerImpact
+  fullName: GTA.RagdollBlockingFlags.PlayerImpact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayerImpact = 16
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.Explosion
+  commentId: F:GTA.RagdollBlockingFlags.Explosion
+  id: Explosion
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: Explosion
+  nameWithType: RagdollBlockingFlags.Explosion
+  fullName: GTA.RagdollBlockingFlags.Explosion
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Explosion = 32
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.ImpactObject
+  commentId: F:GTA.RagdollBlockingFlags.ImpactObject
+  id: ImpactObject
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: ImpactObject
+  nameWithType: RagdollBlockingFlags.ImpactObject
+  fullName: GTA.RagdollBlockingFlags.ImpactObject
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ImpactObject = 64
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.Melee
+  commentId: F:GTA.RagdollBlockingFlags.Melee
+  id: Melee
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: Melee
+  nameWithType: RagdollBlockingFlags.Melee
+  fullName: GTA.RagdollBlockingFlags.Melee
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Melee = 128
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.RubberBullet
+  commentId: F:GTA.RagdollBlockingFlags.RubberBullet
+  id: RubberBullet
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: RubberBullet
+  nameWithType: RagdollBlockingFlags.RubberBullet
+  fullName: GTA.RagdollBlockingFlags.RubberBullet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: RubberBullet = 256
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.Falling
+  commentId: F:GTA.RagdollBlockingFlags.Falling
+  id: Falling
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: Falling
+  nameWithType: RagdollBlockingFlags.Falling
+  fullName: GTA.RagdollBlockingFlags.Falling
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Falling = 512
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.WaterJet
+  commentId: F:GTA.RagdollBlockingFlags.WaterJet
+  id: WaterJet
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: WaterJet
+  nameWithType: RagdollBlockingFlags.WaterJet
+  fullName: GTA.RagdollBlockingFlags.WaterJet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WaterJet = 1024
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.Drowning
+  commentId: F:GTA.RagdollBlockingFlags.Drowning
+  id: Drowning
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: Drowning
+  nameWithType: RagdollBlockingFlags.Drowning
+  fullName: GTA.RagdollBlockingFlags.Drowning
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Drowning = 2048
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.AllowBlockDeadPed
+  commentId: F:GTA.RagdollBlockingFlags.AllowBlockDeadPed
+  id: AllowBlockDeadPed
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowBlockDeadPed
+  nameWithType: RagdollBlockingFlags.AllowBlockDeadPed
+  fullName: GTA.RagdollBlockingFlags.AllowBlockDeadPed
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowBlockDeadPed = 4096
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.PlayerBump
+  commentId: F:GTA.RagdollBlockingFlags.PlayerBump
+  id: PlayerBump
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: PlayerBump
+  nameWithType: RagdollBlockingFlags.PlayerBump
+  fullName: GTA.RagdollBlockingFlags.PlayerBump
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayerBump = 8192
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.PlayerRagdollBump
+  commentId: F:GTA.RagdollBlockingFlags.PlayerRagdollBump
+  id: PlayerRagdollBump
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: PlayerRagdollBump
+  nameWithType: RagdollBlockingFlags.PlayerRagdollBump
+  fullName: GTA.RagdollBlockingFlags.PlayerRagdollBump
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayerRagdollBump = 16384
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.PedRagdollBump
+  commentId: F:GTA.RagdollBlockingFlags.PedRagdollBump
+  id: PedRagdollBump
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: PedRagdollBump
+  nameWithType: RagdollBlockingFlags.PedRagdollBump
+  fullName: GTA.RagdollBlockingFlags.PedRagdollBump
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PedRagdollBump = 32768
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.VehicleGrab
+  commentId: F:GTA.RagdollBlockingFlags.VehicleGrab
+  id: VehicleGrab
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: VehicleGrab
+  nameWithType: RagdollBlockingFlags.VehicleGrab
+  fullName: GTA.RagdollBlockingFlags.VehicleGrab
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VehicleGrab = 65536
+    return:
+      type: GTA.RagdollBlockingFlags
+- uid: GTA.RagdollBlockingFlags.SmokeGrenade
+  commentId: F:GTA.RagdollBlockingFlags.SmokeGrenade
+  id: SmokeGrenade
+  parent: GTA.RagdollBlockingFlags
+  langs:
+  - csharp
+  - vb
+  name: SmokeGrenade
+  nameWithType: RagdollBlockingFlags.SmokeGrenade
+  fullName: GTA.RagdollBlockingFlags.SmokeGrenade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SmokeGrenade = 131072
+    return:
+      type: GTA.RagdollBlockingFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.RagdollBlockingFlags
+  commentId: T:GTA.RagdollBlockingFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.RagdollBlockingFlags.html
+  name: RagdollBlockingFlags
+  nameWithType: RagdollBlockingFlags
+  fullName: GTA.RagdollBlockingFlags

@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.DrawBoxFlags
+  commentId: T:GTA.DrawBoxFlags
+  id: DrawBoxFlags
+  parent: GTA
+  children:
+  - GTA.DrawBoxFlags.BothSides
+  - GTA.DrawBoxFlags.InsideOnly
+  - GTA.DrawBoxFlags.OutsideOnly
+  langs:
+  - csharp
+  - vb
+  name: DrawBoxFlags
+  nameWithType: DrawBoxFlags
+  fullName: GTA.DrawBoxFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DrawBoxFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum DrawBoxFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.DrawBoxFlags.OutsideOnly
+  commentId: F:GTA.DrawBoxFlags.OutsideOnly
+  id: OutsideOnly
+  parent: GTA.DrawBoxFlags
+  langs:
+  - csharp
+  - vb
+  name: OutsideOnly
+  nameWithType: DrawBoxFlags.OutsideOnly
+  fullName: GTA.DrawBoxFlags.OutsideOnly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OutsideOnly = 1
+    return:
+      type: GTA.DrawBoxFlags
+- uid: GTA.DrawBoxFlags.InsideOnly
+  commentId: F:GTA.DrawBoxFlags.InsideOnly
+  id: InsideOnly
+  parent: GTA.DrawBoxFlags
+  langs:
+  - csharp
+  - vb
+  name: InsideOnly
+  nameWithType: DrawBoxFlags.InsideOnly
+  fullName: GTA.DrawBoxFlags.InsideOnly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InsideOnly = 2
+    return:
+      type: GTA.DrawBoxFlags
+- uid: GTA.DrawBoxFlags.BothSides
+  commentId: F:GTA.DrawBoxFlags.BothSides
+  id: BothSides
+  parent: GTA.DrawBoxFlags
+  langs:
+  - csharp
+  - vb
+  name: BothSides
+  nameWithType: DrawBoxFlags.BothSides
+  fullName: GTA.DrawBoxFlags.BothSides
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BothSides = OutsideOnly | InsideOnly
+    return:
+      type: GTA.DrawBoxFlags
+    content.vb: BothSides = OutsideOnly Or InsideOnly
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.DrawBoxFlags
+  commentId: T:GTA.DrawBoxFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.DrawBoxFlags.html
+  name: DrawBoxFlags
+  nameWithType: DrawBoxFlags
+  fullName: GTA.DrawBoxFlags

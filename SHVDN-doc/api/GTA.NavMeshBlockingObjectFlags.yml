@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NavMeshBlockingObjectFlags
+  commentId: T:GTA.NavMeshBlockingObjectFlags
+  id: NavMeshBlockingObjectFlags
+  parent: GTA
+  children:
+  - GTA.NavMeshBlockingObjectFlags.AllPaths
+  - GTA.NavMeshBlockingObjectFlags.Default
+  - GTA.NavMeshBlockingObjectFlags.FleePath
+  - GTA.NavMeshBlockingObjectFlags.ShortestPath
+  - GTA.NavMeshBlockingObjectFlags.WanderPath
+  langs:
+  - csharp
+  - vb
+  name: NavMeshBlockingObjectFlags
+  nameWithType: NavMeshBlockingObjectFlags
+  fullName: GTA.NavMeshBlockingObjectFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum NavMeshBlockingObjectFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum NavMeshBlockingObjectFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.NavMeshBlockingObjectFlags.Default
+  commentId: F:GTA.NavMeshBlockingObjectFlags.Default
+  id: Default
+  parent: GTA.NavMeshBlockingObjectFlags
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: NavMeshBlockingObjectFlags.Default
+  fullName: GTA.NavMeshBlockingObjectFlags.Default
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Default = 0
+    return:
+      type: GTA.NavMeshBlockingObjectFlags
+- uid: GTA.NavMeshBlockingObjectFlags.WanderPath
+  commentId: F:GTA.NavMeshBlockingObjectFlags.WanderPath
+  id: WanderPath
+  parent: GTA.NavMeshBlockingObjectFlags
+  langs:
+  - csharp
+  - vb
+  name: WanderPath
+  nameWithType: NavMeshBlockingObjectFlags.WanderPath
+  fullName: GTA.NavMeshBlockingObjectFlags.WanderPath
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WanderPath = 1
+    return:
+      type: GTA.NavMeshBlockingObjectFlags
+- uid: GTA.NavMeshBlockingObjectFlags.ShortestPath
+  commentId: F:GTA.NavMeshBlockingObjectFlags.ShortestPath
+  id: ShortestPath
+  parent: GTA.NavMeshBlockingObjectFlags
+  langs:
+  - csharp
+  - vb
+  name: ShortestPath
+  nameWithType: NavMeshBlockingObjectFlags.ShortestPath
+  fullName: GTA.NavMeshBlockingObjectFlags.ShortestPath
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ShortestPath = 2
+    return:
+      type: GTA.NavMeshBlockingObjectFlags
+- uid: GTA.NavMeshBlockingObjectFlags.FleePath
+  commentId: F:GTA.NavMeshBlockingObjectFlags.FleePath
+  id: FleePath
+  parent: GTA.NavMeshBlockingObjectFlags
+  langs:
+  - csharp
+  - vb
+  name: FleePath
+  nameWithType: NavMeshBlockingObjectFlags.FleePath
+  fullName: GTA.NavMeshBlockingObjectFlags.FleePath
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FleePath = 4
+    return:
+      type: GTA.NavMeshBlockingObjectFlags
+- uid: GTA.NavMeshBlockingObjectFlags.AllPaths
+  commentId: F:GTA.NavMeshBlockingObjectFlags.AllPaths
+  id: AllPaths
+  parent: GTA.NavMeshBlockingObjectFlags
+  langs:
+  - csharp
+  - vb
+  name: AllPaths
+  nameWithType: NavMeshBlockingObjectFlags.AllPaths
+  fullName: GTA.NavMeshBlockingObjectFlags.AllPaths
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllPaths = WanderPath | ShortestPath | FleePath
+    return:
+      type: GTA.NavMeshBlockingObjectFlags
+    content.vb: AllPaths = WanderPath Or ShortestPath Or FleePath
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NavMeshBlockingObjectFlags
+  commentId: T:GTA.NavMeshBlockingObjectFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.NavMeshBlockingObjectFlags.html
+  name: NavMeshBlockingObjectFlags
+  nameWithType: NavMeshBlockingObjectFlags
+  fullName: GTA.NavMeshBlockingObjectFlags

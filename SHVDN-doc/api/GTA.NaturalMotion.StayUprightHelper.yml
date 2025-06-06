@@ -1,0 +1,1517 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.StayUprightHelper
+  commentId: T:GTA.NaturalMotion.StayUprightHelper
+  id: StayUprightHelper
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.StayUprightHelper.#ctor(GTA.Ped)
+  - GTA.NaturalMotion.StayUprightHelper.ForceDamping
+  - GTA.NaturalMotion.StayUprightHelper.ForceFeetMult
+  - GTA.NaturalMotion.StayUprightHelper.ForceInAirShare
+  - GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction
+  - GTA.NaturalMotion.StayUprightHelper.ForceMax
+  - GTA.NaturalMotion.StayUprightHelper.ForceMin
+  - GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel
+  - GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share
+  - GTA.NaturalMotion.StayUprightHelper.ForceStrength
+  - GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel
+  - GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping
+  - GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime
+  - GTA.NaturalMotion.StayUprightHelper.LastStandMode
+  - GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate
+  - GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult
+  - GTA.NaturalMotion.StayUprightHelper.StayUpAcc
+  - GTA.NaturalMotion.StayUprightHelper.StayUpAccMax
+  - GTA.NaturalMotion.StayUprightHelper.StepUpHelp
+  - GTA.NaturalMotion.StayUprightHelper.SupportPosition
+  - GTA.NaturalMotion.StayUprightHelper.TorqueDamping
+  - GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir
+  - GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel
+  - GTA.NaturalMotion.StayUprightHelper.TorqueStrength
+  - GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel
+  - GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets
+  - GTA.NaturalMotion.StayUprightHelper.UseForces
+  - GTA.NaturalMotion.StayUprightHelper.UseTorques
+  - GTA.NaturalMotion.StayUprightHelper.VelocityBased
+  langs:
+  - csharp
+  - vb
+  name: StayUprightHelper
+  nameWithType: StayUprightHelper
+  fullName: GTA.NaturalMotion.StayUprightHelper
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: 'public sealed class StayUprightHelper : CustomHelper'
+    content.vb: Public NotInheritable Class StayUprightHelper Inherits CustomHelper
+  inheritance:
+  - System.Object
+  - GTA.NaturalMotion.CustomHelper
+  inheritedMembers:
+  - GTA.NaturalMotion.CustomHelper.Start
+  - GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  - GTA.NaturalMotion.CustomHelper.Update
+  - GTA.NaturalMotion.CustomHelper.Stop
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  - GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  - GTA.NaturalMotion.CustomHelper.ResetArguments
+  - GTA.NaturalMotion.CustomHelper.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.NaturalMotion.StayUprightHelper.#ctor(GTA.Ped)
+  commentId: M:GTA.NaturalMotion.StayUprightHelper.#ctor(GTA.Ped)
+  id: '#ctor(GTA.Ped)'
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: StayUprightHelper(Ped)
+  nameWithType: StayUprightHelper.StayUprightHelper(Ped)
+  fullName: GTA.NaturalMotion.StayUprightHelper.StayUprightHelper(GTA.Ped)
+  type: Constructor
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public StayUprightHelper(Ped ped)
+    parameters:
+    - id: ped
+      type: GTA.Ped
+    content.vb: Public Sub New(ped As Ped)
+  overload: GTA.NaturalMotion.StayUprightHelper.#ctor*
+  nameWithType.vb: StayUprightHelper.New(Ped)
+  fullName.vb: GTA.NaturalMotion.StayUprightHelper.New(GTA.Ped)
+  name.vb: New(Ped)
+- uid: GTA.NaturalMotion.StayUprightHelper.UseForces
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.UseForces
+  id: UseForces
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: UseForces
+  nameWithType: StayUprightHelper.UseForces
+  fullName: GTA.NaturalMotion.StayUprightHelper.UseForces
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseForces { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseForces As Boolean
+  overload: GTA.NaturalMotion.StayUprightHelper.UseForces*
+- uid: GTA.NaturalMotion.StayUprightHelper.UseTorques
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.UseTorques
+  id: UseTorques
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: UseTorques
+  nameWithType: StayUprightHelper.UseTorques
+  fullName: GTA.NaturalMotion.StayUprightHelper.UseTorques
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool UseTorques { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property UseTorques As Boolean
+  overload: GTA.NaturalMotion.StayUprightHelper.UseTorques*
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandMode
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.LastStandMode
+  id: LastStandMode
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: LastStandMode
+  nameWithType: StayUprightHelper.LastStandMode
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandMode
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool LastStandMode { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property LastStandMode As Boolean
+  overload: GTA.NaturalMotion.StayUprightHelper.LastStandMode*
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate
+  id: LastStandSinkRate
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: LastStandSinkRate
+  nameWithType: StayUprightHelper.LastStandSinkRate
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float LastStandSinkRate { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property LastStandSinkRate As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate*
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping
+  id: LastStandHorizDamping
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: LastStandHorizDamping
+  nameWithType: StayUprightHelper.LastStandHorizDamping
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float LastStandHorizDamping { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property LastStandHorizDamping As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping*
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime
+  id: LastStandMaxTime
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: LastStandMaxTime
+  nameWithType: StayUprightHelper.LastStandMaxTime
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float LastStandMaxTime { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property LastStandMaxTime As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime*
+- uid: GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets
+  id: TurnTowardsBullets
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: TurnTowardsBullets
+  nameWithType: StayUprightHelper.TurnTowardsBullets
+  fullName: GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool TurnTowardsBullets { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property TurnTowardsBullets As Boolean
+  overload: GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets*
+- uid: GTA.NaturalMotion.StayUprightHelper.VelocityBased
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.VelocityBased
+  id: VelocityBased
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: VelocityBased
+  nameWithType: StayUprightHelper.VelocityBased
+  fullName: GTA.NaturalMotion.StayUprightHelper.VelocityBased
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool VelocityBased { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property VelocityBased As Boolean
+  overload: GTA.NaturalMotion.StayUprightHelper.VelocityBased*
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir
+  id: TorqueOnlyInAir
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueOnlyInAir
+  nameWithType: StayUprightHelper.TorqueOnlyInAir
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public bool TorqueOnlyInAir { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property TorqueOnlyInAir As Boolean
+  overload: GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceStrength
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceStrength
+  id: ForceStrength
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceStrength
+  nameWithType: StayUprightHelper.ForceStrength
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceStrength
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceStrength { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceStrength As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceStrength*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceDamping
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceDamping
+  id: ForceDamping
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceDamping
+  nameWithType: StayUprightHelper.ForceDamping
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceDamping { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceDamping As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceDamping*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceFeetMult
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceFeetMult
+  id: ForceFeetMult
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceFeetMult
+  nameWithType: StayUprightHelper.ForceFeetMult
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceFeetMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceFeetMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceFeetMult As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceFeetMult*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share
+  id: ForceSpine3Share
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceSpine3Share
+  nameWithType: StayUprightHelper.ForceSpine3Share
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceSpine3Share { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceSpine3Share As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction
+  id: ForceLeanReduction
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceLeanReduction
+  nameWithType: StayUprightHelper.ForceLeanReduction
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceLeanReduction { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceLeanReduction As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceInAirShare
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceInAirShare
+  id: ForceInAirShare
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceInAirShare
+  nameWithType: StayUprightHelper.ForceInAirShare
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceInAirShare
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceInAirShare { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceInAirShare As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceInAirShare*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceMin
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceMin
+  id: ForceMin
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceMin
+  nameWithType: StayUprightHelper.ForceMin
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceMin
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceMin { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceMin As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceMin*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceMax
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceMax
+  id: ForceMax
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceMax
+  nameWithType: StayUprightHelper.ForceMax
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceMax { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceMax As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceMax*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel
+  id: ForceSaturationVel
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceSaturationVel
+  nameWithType: StayUprightHelper.ForceSaturationVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceSaturationVel { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceSaturationVel As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel*
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel
+  id: ForceThresholdVel
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: ForceThresholdVel
+  nameWithType: StayUprightHelper.ForceThresholdVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float ForceThresholdVel { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property ForceThresholdVel As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel*
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueStrength
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.TorqueStrength
+  id: TorqueStrength
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueStrength
+  nameWithType: StayUprightHelper.TorqueStrength
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueStrength
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueStrength { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueStrength As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.TorqueStrength*
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueDamping
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.TorqueDamping
+  id: TorqueDamping
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueDamping
+  nameWithType: StayUprightHelper.TorqueDamping
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueDamping
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueDamping { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueDamping As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.TorqueDamping*
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel
+  id: TorqueSaturationVel
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueSaturationVel
+  nameWithType: StayUprightHelper.TorqueSaturationVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueSaturationVel { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueSaturationVel As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel*
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel
+  id: TorqueThresholdVel
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: TorqueThresholdVel
+  nameWithType: StayUprightHelper.TorqueThresholdVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float TorqueThresholdVel { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property TorqueThresholdVel As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel*
+- uid: GTA.NaturalMotion.StayUprightHelper.SupportPosition
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.SupportPosition
+  id: SupportPosition
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: SupportPosition
+  nameWithType: StayUprightHelper.SupportPosition
+  fullName: GTA.NaturalMotion.StayUprightHelper.SupportPosition
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float SupportPosition { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property SupportPosition As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.SupportPosition*
+- uid: GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult
+  id: NoSupportForceMult
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: NoSupportForceMult
+  nameWithType: StayUprightHelper.NoSupportForceMult
+  fullName: GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float NoSupportForceMult { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property NoSupportForceMult As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult*
+- uid: GTA.NaturalMotion.StayUprightHelper.StepUpHelp
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.StepUpHelp
+  id: StepUpHelp
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: StepUpHelp
+  nameWithType: StayUprightHelper.StepUpHelp
+  fullName: GTA.NaturalMotion.StayUprightHelper.StepUpHelp
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float StepUpHelp { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property StepUpHelp As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.StepUpHelp*
+- uid: GTA.NaturalMotion.StayUprightHelper.StayUpAcc
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.StayUpAcc
+  id: StayUpAcc
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: StayUpAcc
+  nameWithType: StayUprightHelper.StayUpAcc
+  fullName: GTA.NaturalMotion.StayUprightHelper.StayUpAcc
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float StayUpAcc { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property StayUpAcc As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.StayUpAcc*
+- uid: GTA.NaturalMotion.StayUprightHelper.StayUpAccMax
+  commentId: P:GTA.NaturalMotion.StayUprightHelper.StayUpAccMax
+  id: StayUpAccMax
+  parent: GTA.NaturalMotion.StayUprightHelper
+  langs:
+  - csharp
+  - vb
+  name: StayUpAccMax
+  nameWithType: StayUprightHelper.StayUpAccMax
+  fullName: GTA.NaturalMotion.StayUprightHelper.StayUpAccMax
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public float StayUpAccMax { set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public WriteOnly Property StayUpAccMax As Single
+  overload: GTA.NaturalMotion.StayUprightHelper.StayUpAccMax*
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: GTA.NaturalMotion.CustomHelper
+  commentId: T:GTA.NaturalMotion.CustomHelper
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html
+  name: CustomHelper
+  nameWithType: CustomHelper
+  fullName: GTA.NaturalMotion.CustomHelper
+- uid: GTA.NaturalMotion.CustomHelper.Start
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  name: Start()
+  nameWithType: CustomHelper.Start()
+  fullName: GTA.NaturalMotion.CustomHelper.Start()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  name: Start(int)
+  nameWithType: CustomHelper.Start(int)
+  fullName: GTA.NaturalMotion.CustomHelper.Start(int)
+  nameWithType.vb: CustomHelper.Start(Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.Start(Integer)
+  name.vb: Start(Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Start(System.Int32)
+    name: Start
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Update
+  commentId: M:GTA.NaturalMotion.CustomHelper.Update
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  name: Update()
+  nameWithType: CustomHelper.Update()
+  fullName: GTA.NaturalMotion.CustomHelper.Update()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Update
+    name: Update
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Update
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.Stop
+  commentId: M:GTA.NaturalMotion.CustomHelper.Stop
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  name: Stop()
+  nameWithType: CustomHelper.Stop()
+  fullName: GTA.NaturalMotion.CustomHelper.Stop()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.Stop
+    name: Stop
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_Stop
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  name: SetArgument(string, bool)
+  nameWithType: CustomHelper.SetArgument(string, bool)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, bool)
+  nameWithType.vb: CustomHelper.SetArgument(String, Boolean)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Boolean)
+  name.vb: SetArgument(String, Boolean)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Boolean)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  name: SetArgument(string, int)
+  nameWithType: CustomHelper.SetArgument(string, int)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, int)
+  nameWithType.vb: CustomHelper.SetArgument(String, Integer)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Integer)
+  name.vb: SetArgument(String, Integer)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Int32)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  name: SetArgument(string, float)
+  nameWithType: CustomHelper.SetArgument(string, float)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, float)
+  nameWithType.vb: CustomHelper.SetArgument(String, Single)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, Single)
+  name.vb: SetArgument(String, Single)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.Single)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  name: SetArgument(string, string)
+  nameWithType: CustomHelper.SetArgument(string, string)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, string)
+  nameWithType.vb: CustomHelper.SetArgument(String, String)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, String)
+  name.vb: SetArgument(String, String)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,System.String)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  commentId: M:GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  name: SetArgument(string, Vector3)
+  nameWithType: CustomHelper.SetArgument(string, Vector3)
+  fullName: GTA.NaturalMotion.CustomHelper.SetArgument(string, GTA.Math.Vector3)
+  nameWithType.vb: CustomHelper.SetArgument(String, Vector3)
+  fullName.vb: GTA.NaturalMotion.CustomHelper.SetArgument(String, GTA.Math.Vector3)
+  name.vb: SetArgument(String, Vector3)
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.SetArgument(System.String,GTA.Math.Vector3)
+    name: SetArgument
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: GTA.Math.Vector3
+    name: Vector3
+    isExternal: true
+    href: GTA.Math.Vector3.html
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+  commentId: M:GTA.NaturalMotion.CustomHelper.ResetArguments
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  name: ResetArguments()
+  nameWithType: CustomHelper.ResetArguments()
+  fullName: GTA.NaturalMotion.CustomHelper.ResetArguments()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ResetArguments
+    name: ResetArguments
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ResetArguments
+  - name: (
+  - name: )
+- uid: GTA.NaturalMotion.CustomHelper.ToString
+  commentId: M:GTA.NaturalMotion.CustomHelper.ToString
+  parent: GTA.NaturalMotion.CustomHelper
+  isExternal: true
+  href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  name: ToString()
+  nameWithType: CustomHelper.ToString()
+  fullName: GTA.NaturalMotion.CustomHelper.ToString()
+  spec.csharp:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: GTA.NaturalMotion.CustomHelper.ToString
+    name: ToString
+    isExternal: true
+    href: GTA.NaturalMotion.CustomHelper.html#GTA_NaturalMotion_CustomHelper_ToString
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.NaturalMotion.StayUprightHelper.#ctor*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.#ctor
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper__ctor_GTA_Ped_
+  name: StayUprightHelper
+  nameWithType: StayUprightHelper.StayUprightHelper
+  fullName: GTA.NaturalMotion.StayUprightHelper.StayUprightHelper
+  nameWithType.vb: StayUprightHelper.New
+  fullName.vb: GTA.NaturalMotion.StayUprightHelper.New
+  name.vb: New
+- uid: GTA.Ped
+  commentId: T:GTA.Ped
+  parent: GTA
+  isExternal: true
+  href: GTA.Ped.html
+  name: Ped
+  nameWithType: Ped
+  fullName: GTA.Ped
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.NaturalMotion.StayUprightHelper.UseForces*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.UseForces
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_UseForces
+  name: UseForces
+  nameWithType: StayUprightHelper.UseForces
+  fullName: GTA.NaturalMotion.StayUprightHelper.UseForces
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.NaturalMotion.StayUprightHelper.UseTorques*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.UseTorques
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_UseTorques
+  name: UseTorques
+  nameWithType: StayUprightHelper.UseTorques
+  fullName: GTA.NaturalMotion.StayUprightHelper.UseTorques
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandMode*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.LastStandMode
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_LastStandMode
+  name: LastStandMode
+  nameWithType: StayUprightHelper.LastStandMode
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandMode
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_LastStandSinkRate
+  name: LastStandSinkRate
+  nameWithType: StayUprightHelper.LastStandSinkRate
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandSinkRate
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_LastStandHorizDamping
+  name: LastStandHorizDamping
+  nameWithType: StayUprightHelper.LastStandHorizDamping
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandHorizDamping
+- uid: GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_LastStandMaxTime
+  name: LastStandMaxTime
+  nameWithType: StayUprightHelper.LastStandMaxTime
+  fullName: GTA.NaturalMotion.StayUprightHelper.LastStandMaxTime
+- uid: GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_TurnTowardsBullets
+  name: TurnTowardsBullets
+  nameWithType: StayUprightHelper.TurnTowardsBullets
+  fullName: GTA.NaturalMotion.StayUprightHelper.TurnTowardsBullets
+- uid: GTA.NaturalMotion.StayUprightHelper.VelocityBased*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.VelocityBased
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_VelocityBased
+  name: VelocityBased
+  nameWithType: StayUprightHelper.VelocityBased
+  fullName: GTA.NaturalMotion.StayUprightHelper.VelocityBased
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_TorqueOnlyInAir
+  name: TorqueOnlyInAir
+  nameWithType: StayUprightHelper.TorqueOnlyInAir
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueOnlyInAir
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceStrength*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceStrength
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceStrength
+  name: ForceStrength
+  nameWithType: StayUprightHelper.ForceStrength
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceStrength
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceDamping*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceDamping
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceDamping
+  name: ForceDamping
+  nameWithType: StayUprightHelper.ForceDamping
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceDamping
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceFeetMult*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceFeetMult
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceFeetMult
+  name: ForceFeetMult
+  nameWithType: StayUprightHelper.ForceFeetMult
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceFeetMult
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceSpine3Share
+  name: ForceSpine3Share
+  nameWithType: StayUprightHelper.ForceSpine3Share
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceSpine3Share
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceLeanReduction
+  name: ForceLeanReduction
+  nameWithType: StayUprightHelper.ForceLeanReduction
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceLeanReduction
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceInAirShare*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceInAirShare
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceInAirShare
+  name: ForceInAirShare
+  nameWithType: StayUprightHelper.ForceInAirShare
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceInAirShare
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceMin*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceMin
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceMin
+  name: ForceMin
+  nameWithType: StayUprightHelper.ForceMin
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceMin
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceMax*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceMax
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceMax
+  name: ForceMax
+  nameWithType: StayUprightHelper.ForceMax
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceMax
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceSaturationVel
+  name: ForceSaturationVel
+  nameWithType: StayUprightHelper.ForceSaturationVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceSaturationVel
+- uid: GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_ForceThresholdVel
+  name: ForceThresholdVel
+  nameWithType: StayUprightHelper.ForceThresholdVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.ForceThresholdVel
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueStrength*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.TorqueStrength
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_TorqueStrength
+  name: TorqueStrength
+  nameWithType: StayUprightHelper.TorqueStrength
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueStrength
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueDamping*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.TorqueDamping
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_TorqueDamping
+  name: TorqueDamping
+  nameWithType: StayUprightHelper.TorqueDamping
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueDamping
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_TorqueSaturationVel
+  name: TorqueSaturationVel
+  nameWithType: StayUprightHelper.TorqueSaturationVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueSaturationVel
+- uid: GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_TorqueThresholdVel
+  name: TorqueThresholdVel
+  nameWithType: StayUprightHelper.TorqueThresholdVel
+  fullName: GTA.NaturalMotion.StayUprightHelper.TorqueThresholdVel
+- uid: GTA.NaturalMotion.StayUprightHelper.SupportPosition*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.SupportPosition
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_SupportPosition
+  name: SupportPosition
+  nameWithType: StayUprightHelper.SupportPosition
+  fullName: GTA.NaturalMotion.StayUprightHelper.SupportPosition
+- uid: GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_NoSupportForceMult
+  name: NoSupportForceMult
+  nameWithType: StayUprightHelper.NoSupportForceMult
+  fullName: GTA.NaturalMotion.StayUprightHelper.NoSupportForceMult
+- uid: GTA.NaturalMotion.StayUprightHelper.StepUpHelp*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.StepUpHelp
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_StepUpHelp
+  name: StepUpHelp
+  nameWithType: StayUprightHelper.StepUpHelp
+  fullName: GTA.NaturalMotion.StayUprightHelper.StepUpHelp
+- uid: GTA.NaturalMotion.StayUprightHelper.StayUpAcc*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.StayUpAcc
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_StayUpAcc
+  name: StayUpAcc
+  nameWithType: StayUprightHelper.StayUpAcc
+  fullName: GTA.NaturalMotion.StayUprightHelper.StayUpAcc
+- uid: GTA.NaturalMotion.StayUprightHelper.StayUpAccMax*
+  commentId: Overload:GTA.NaturalMotion.StayUprightHelper.StayUpAccMax
+  isExternal: true
+  href: GTA.NaturalMotion.StayUprightHelper.html#GTA_NaturalMotion_StayUprightHelper_StayUpAccMax
+  name: StayUpAccMax
+  nameWithType: StayUprightHelper.StayUpAccMax
+  fullName: GTA.NaturalMotion.StayUprightHelper.StayUpAccMax

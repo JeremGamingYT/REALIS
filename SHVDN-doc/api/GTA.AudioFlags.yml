@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.AudioFlags
+  commentId: T:GTA.AudioFlags
+  id: AudioFlags
+  parent: GTA
+  children:
+  - GTA.AudioFlags.ActivateSwitchWheelAudio
+  - GTA.AudioFlags.AllowCutsceneOverScreenFade
+  - GTA.AudioFlags.AllowForceRadioAfterRetune
+  - GTA.AudioFlags.AllowPainAndAmbientSpeechToPlayDuringCutscene
+  - GTA.AudioFlags.AllowPlayerAIOnMission
+  - GTA.AudioFlags.AllowPoliceScannerWhenPlayerHasNoControl
+  - GTA.AudioFlags.AllowRadioDuringSwitch
+  - GTA.AudioFlags.AllowRadioOverScreenFade
+  - GTA.AudioFlags.AllowScoreAndRadio
+  - GTA.AudioFlags.AllowScriptedSpeechInSlowMo
+  - GTA.AudioFlags.AvoidMissionCompleteDelay
+  - GTA.AudioFlags.DisableAbortConversationForDeathAndInjury
+  - GTA.AudioFlags.DisableAbortConversationForRagdoll
+  - GTA.AudioFlags.DisableBarks
+  - GTA.AudioFlags.DisableFlightMusic
+  - GTA.AudioFlags.DisableReplayScriptStreamRecording
+  - GTA.AudioFlags.EnableHeadsetBeep
+  - GTA.AudioFlags.ForceConversationInterrupt
+  - GTA.AudioFlags.ForceSeamlessRadioSwitch
+  - GTA.AudioFlags.ForceSniperAudio
+  - GTA.AudioFlags.FrontendRadioDisabled
+  - GTA.AudioFlags.HoldMissionCompleteWhenPrepared
+  - GTA.AudioFlags.IsDirectorModeActive
+  - GTA.AudioFlags.IsPlayerOnMissionForSpeech
+  - GTA.AudioFlags.ListenerReverbDisabled
+  - GTA.AudioFlags.LoadMPData
+  - GTA.AudioFlags.MobileRadioInGame
+  - GTA.AudioFlags.OnlyAllowScriptTriggerPoliceScanner
+  - GTA.AudioFlags.PlayMenuMusic
+  - GTA.AudioFlags.PoliceScannerDisabled
+  - GTA.AudioFlags.ScriptedConvListenerMaySpeak
+  - GTA.AudioFlags.SpeechDucksScore
+  - GTA.AudioFlags.SuppressPlayerScubaBreathing
+  - GTA.AudioFlags.WantedMusicDisabled
+  - GTA.AudioFlags.WantedMusicOnMission
+  langs:
+  - csharp
+  - vb
+  name: AudioFlags
+  nameWithType: AudioFlags
+  fullName: GTA.AudioFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum AudioFlags
+    content.vb: Public Enum AudioFlags
+- uid: GTA.AudioFlags.ActivateSwitchWheelAudio
+  commentId: F:GTA.AudioFlags.ActivateSwitchWheelAudio
+  id: ActivateSwitchWheelAudio
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: ActivateSwitchWheelAudio
+  nameWithType: AudioFlags.ActivateSwitchWheelAudio
+  fullName: GTA.AudioFlags.ActivateSwitchWheelAudio
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ActivateSwitchWheelAudio = 0
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowCutsceneOverScreenFade
+  commentId: F:GTA.AudioFlags.AllowCutsceneOverScreenFade
+  id: AllowCutsceneOverScreenFade
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowCutsceneOverScreenFade
+  nameWithType: AudioFlags.AllowCutsceneOverScreenFade
+  fullName: GTA.AudioFlags.AllowCutsceneOverScreenFade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowCutsceneOverScreenFade = 1
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowForceRadioAfterRetune
+  commentId: F:GTA.AudioFlags.AllowForceRadioAfterRetune
+  id: AllowForceRadioAfterRetune
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowForceRadioAfterRetune
+  nameWithType: AudioFlags.AllowForceRadioAfterRetune
+  fullName: GTA.AudioFlags.AllowForceRadioAfterRetune
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowForceRadioAfterRetune = 2
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowPainAndAmbientSpeechToPlayDuringCutscene
+  commentId: F:GTA.AudioFlags.AllowPainAndAmbientSpeechToPlayDuringCutscene
+  id: AllowPainAndAmbientSpeechToPlayDuringCutscene
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowPainAndAmbientSpeechToPlayDuringCutscene
+  nameWithType: AudioFlags.AllowPainAndAmbientSpeechToPlayDuringCutscene
+  fullName: GTA.AudioFlags.AllowPainAndAmbientSpeechToPlayDuringCutscene
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowPainAndAmbientSpeechToPlayDuringCutscene = 3
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowPlayerAIOnMission
+  commentId: F:GTA.AudioFlags.AllowPlayerAIOnMission
+  id: AllowPlayerAIOnMission
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowPlayerAIOnMission
+  nameWithType: AudioFlags.AllowPlayerAIOnMission
+  fullName: GTA.AudioFlags.AllowPlayerAIOnMission
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowPlayerAIOnMission = 4
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowPoliceScannerWhenPlayerHasNoControl
+  commentId: F:GTA.AudioFlags.AllowPoliceScannerWhenPlayerHasNoControl
+  id: AllowPoliceScannerWhenPlayerHasNoControl
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowPoliceScannerWhenPlayerHasNoControl
+  nameWithType: AudioFlags.AllowPoliceScannerWhenPlayerHasNoControl
+  fullName: GTA.AudioFlags.AllowPoliceScannerWhenPlayerHasNoControl
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowPoliceScannerWhenPlayerHasNoControl = 5
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowRadioDuringSwitch
+  commentId: F:GTA.AudioFlags.AllowRadioDuringSwitch
+  id: AllowRadioDuringSwitch
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowRadioDuringSwitch
+  nameWithType: AudioFlags.AllowRadioDuringSwitch
+  fullName: GTA.AudioFlags.AllowRadioDuringSwitch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowRadioDuringSwitch = 6
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowRadioOverScreenFade
+  commentId: F:GTA.AudioFlags.AllowRadioOverScreenFade
+  id: AllowRadioOverScreenFade
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowRadioOverScreenFade
+  nameWithType: AudioFlags.AllowRadioOverScreenFade
+  fullName: GTA.AudioFlags.AllowRadioOverScreenFade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowRadioOverScreenFade = 7
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowScoreAndRadio
+  commentId: F:GTA.AudioFlags.AllowScoreAndRadio
+  id: AllowScoreAndRadio
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowScoreAndRadio
+  nameWithType: AudioFlags.AllowScoreAndRadio
+  fullName: GTA.AudioFlags.AllowScoreAndRadio
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowScoreAndRadio = 8
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AllowScriptedSpeechInSlowMo
+  commentId: F:GTA.AudioFlags.AllowScriptedSpeechInSlowMo
+  id: AllowScriptedSpeechInSlowMo
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AllowScriptedSpeechInSlowMo
+  nameWithType: AudioFlags.AllowScriptedSpeechInSlowMo
+  fullName: GTA.AudioFlags.AllowScriptedSpeechInSlowMo
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AllowScriptedSpeechInSlowMo = 9
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.AvoidMissionCompleteDelay
+  commentId: F:GTA.AudioFlags.AvoidMissionCompleteDelay
+  id: AvoidMissionCompleteDelay
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: AvoidMissionCompleteDelay
+  nameWithType: AudioFlags.AvoidMissionCompleteDelay
+  fullName: GTA.AudioFlags.AvoidMissionCompleteDelay
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AvoidMissionCompleteDelay = 10
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.DisableAbortConversationForDeathAndInjury
+  commentId: F:GTA.AudioFlags.DisableAbortConversationForDeathAndInjury
+  id: DisableAbortConversationForDeathAndInjury
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableAbortConversationForDeathAndInjury
+  nameWithType: AudioFlags.DisableAbortConversationForDeathAndInjury
+  fullName: GTA.AudioFlags.DisableAbortConversationForDeathAndInjury
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableAbortConversationForDeathAndInjury = 11
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.DisableAbortConversationForRagdoll
+  commentId: F:GTA.AudioFlags.DisableAbortConversationForRagdoll
+  id: DisableAbortConversationForRagdoll
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableAbortConversationForRagdoll
+  nameWithType: AudioFlags.DisableAbortConversationForRagdoll
+  fullName: GTA.AudioFlags.DisableAbortConversationForRagdoll
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableAbortConversationForRagdoll = 12
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.DisableBarks
+  commentId: F:GTA.AudioFlags.DisableBarks
+  id: DisableBarks
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableBarks
+  nameWithType: AudioFlags.DisableBarks
+  fullName: GTA.AudioFlags.DisableBarks
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableBarks = 13
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.DisableFlightMusic
+  commentId: F:GTA.AudioFlags.DisableFlightMusic
+  id: DisableFlightMusic
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableFlightMusic
+  nameWithType: AudioFlags.DisableFlightMusic
+  fullName: GTA.AudioFlags.DisableFlightMusic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableFlightMusic = 14
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.DisableReplayScriptStreamRecording
+  commentId: F:GTA.AudioFlags.DisableReplayScriptStreamRecording
+  id: DisableReplayScriptStreamRecording
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: DisableReplayScriptStreamRecording
+  nameWithType: AudioFlags.DisableReplayScriptStreamRecording
+  fullName: GTA.AudioFlags.DisableReplayScriptStreamRecording
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DisableReplayScriptStreamRecording = 15
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.EnableHeadsetBeep
+  commentId: F:GTA.AudioFlags.EnableHeadsetBeep
+  id: EnableHeadsetBeep
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: EnableHeadsetBeep
+  nameWithType: AudioFlags.EnableHeadsetBeep
+  fullName: GTA.AudioFlags.EnableHeadsetBeep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EnableHeadsetBeep = 16
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.ForceConversationInterrupt
+  commentId: F:GTA.AudioFlags.ForceConversationInterrupt
+  id: ForceConversationInterrupt
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceConversationInterrupt
+  nameWithType: AudioFlags.ForceConversationInterrupt
+  fullName: GTA.AudioFlags.ForceConversationInterrupt
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceConversationInterrupt = 17
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.ForceSeamlessRadioSwitch
+  commentId: F:GTA.AudioFlags.ForceSeamlessRadioSwitch
+  id: ForceSeamlessRadioSwitch
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceSeamlessRadioSwitch
+  nameWithType: AudioFlags.ForceSeamlessRadioSwitch
+  fullName: GTA.AudioFlags.ForceSeamlessRadioSwitch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceSeamlessRadioSwitch = 18
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.ForceSniperAudio
+  commentId: F:GTA.AudioFlags.ForceSniperAudio
+  id: ForceSniperAudio
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: ForceSniperAudio
+  nameWithType: AudioFlags.ForceSniperAudio
+  fullName: GTA.AudioFlags.ForceSniperAudio
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ForceSniperAudio = 19
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.FrontendRadioDisabled
+  commentId: F:GTA.AudioFlags.FrontendRadioDisabled
+  id: FrontendRadioDisabled
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: FrontendRadioDisabled
+  nameWithType: AudioFlags.FrontendRadioDisabled
+  fullName: GTA.AudioFlags.FrontendRadioDisabled
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FrontendRadioDisabled = 20
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.HoldMissionCompleteWhenPrepared
+  commentId: F:GTA.AudioFlags.HoldMissionCompleteWhenPrepared
+  id: HoldMissionCompleteWhenPrepared
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: HoldMissionCompleteWhenPrepared
+  nameWithType: AudioFlags.HoldMissionCompleteWhenPrepared
+  fullName: GTA.AudioFlags.HoldMissionCompleteWhenPrepared
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HoldMissionCompleteWhenPrepared = 21
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.IsDirectorModeActive
+  commentId: F:GTA.AudioFlags.IsDirectorModeActive
+  id: IsDirectorModeActive
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: IsDirectorModeActive
+  nameWithType: AudioFlags.IsDirectorModeActive
+  fullName: GTA.AudioFlags.IsDirectorModeActive
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IsDirectorModeActive = 22
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.IsPlayerOnMissionForSpeech
+  commentId: F:GTA.AudioFlags.IsPlayerOnMissionForSpeech
+  id: IsPlayerOnMissionForSpeech
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: IsPlayerOnMissionForSpeech
+  nameWithType: AudioFlags.IsPlayerOnMissionForSpeech
+  fullName: GTA.AudioFlags.IsPlayerOnMissionForSpeech
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: IsPlayerOnMissionForSpeech = 23
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.ListenerReverbDisabled
+  commentId: F:GTA.AudioFlags.ListenerReverbDisabled
+  id: ListenerReverbDisabled
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: ListenerReverbDisabled
+  nameWithType: AudioFlags.ListenerReverbDisabled
+  fullName: GTA.AudioFlags.ListenerReverbDisabled
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ListenerReverbDisabled = 24
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.LoadMPData
+  commentId: F:GTA.AudioFlags.LoadMPData
+  id: LoadMPData
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: LoadMPData
+  nameWithType: AudioFlags.LoadMPData
+  fullName: GTA.AudioFlags.LoadMPData
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LoadMPData = 25
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.MobileRadioInGame
+  commentId: F:GTA.AudioFlags.MobileRadioInGame
+  id: MobileRadioInGame
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: MobileRadioInGame
+  nameWithType: AudioFlags.MobileRadioInGame
+  fullName: GTA.AudioFlags.MobileRadioInGame
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MobileRadioInGame = 26
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.OnlyAllowScriptTriggerPoliceScanner
+  commentId: F:GTA.AudioFlags.OnlyAllowScriptTriggerPoliceScanner
+  id: OnlyAllowScriptTriggerPoliceScanner
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: OnlyAllowScriptTriggerPoliceScanner
+  nameWithType: AudioFlags.OnlyAllowScriptTriggerPoliceScanner
+  fullName: GTA.AudioFlags.OnlyAllowScriptTriggerPoliceScanner
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OnlyAllowScriptTriggerPoliceScanner = 27
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.PlayMenuMusic
+  commentId: F:GTA.AudioFlags.PlayMenuMusic
+  id: PlayMenuMusic
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: PlayMenuMusic
+  nameWithType: AudioFlags.PlayMenuMusic
+  fullName: GTA.AudioFlags.PlayMenuMusic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PlayMenuMusic = 28
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.PoliceScannerDisabled
+  commentId: F:GTA.AudioFlags.PoliceScannerDisabled
+  id: PoliceScannerDisabled
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: PoliceScannerDisabled
+  nameWithType: AudioFlags.PoliceScannerDisabled
+  fullName: GTA.AudioFlags.PoliceScannerDisabled
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: PoliceScannerDisabled = 29
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.ScriptedConvListenerMaySpeak
+  commentId: F:GTA.AudioFlags.ScriptedConvListenerMaySpeak
+  id: ScriptedConvListenerMaySpeak
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: ScriptedConvListenerMaySpeak
+  nameWithType: AudioFlags.ScriptedConvListenerMaySpeak
+  fullName: GTA.AudioFlags.ScriptedConvListenerMaySpeak
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ScriptedConvListenerMaySpeak = 30
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.SpeechDucksScore
+  commentId: F:GTA.AudioFlags.SpeechDucksScore
+  id: SpeechDucksScore
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: SpeechDucksScore
+  nameWithType: AudioFlags.SpeechDucksScore
+  fullName: GTA.AudioFlags.SpeechDucksScore
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SpeechDucksScore = 31
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.SuppressPlayerScubaBreathing
+  commentId: F:GTA.AudioFlags.SuppressPlayerScubaBreathing
+  id: SuppressPlayerScubaBreathing
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: SuppressPlayerScubaBreathing
+  nameWithType: AudioFlags.SuppressPlayerScubaBreathing
+  fullName: GTA.AudioFlags.SuppressPlayerScubaBreathing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SuppressPlayerScubaBreathing = 32
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.WantedMusicDisabled
+  commentId: F:GTA.AudioFlags.WantedMusicDisabled
+  id: WantedMusicDisabled
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: WantedMusicDisabled
+  nameWithType: AudioFlags.WantedMusicDisabled
+  fullName: GTA.AudioFlags.WantedMusicDisabled
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WantedMusicDisabled = 33
+    return:
+      type: GTA.AudioFlags
+- uid: GTA.AudioFlags.WantedMusicOnMission
+  commentId: F:GTA.AudioFlags.WantedMusicOnMission
+  id: WantedMusicOnMission
+  parent: GTA.AudioFlags
+  langs:
+  - csharp
+  - vb
+  name: WantedMusicOnMission
+  nameWithType: AudioFlags.WantedMusicOnMission
+  fullName: GTA.AudioFlags.WantedMusicOnMission
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WantedMusicOnMission = 34
+    return:
+      type: GTA.AudioFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.AudioFlags
+  commentId: T:GTA.AudioFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.AudioFlags.html
+  name: AudioFlags
+  nameWithType: AudioFlags
+  fullName: GTA.AudioFlags

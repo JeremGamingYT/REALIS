@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CombatAbility
+  commentId: T:GTA.CombatAbility
+  id: CombatAbility
+  parent: GTA
+  children:
+  - GTA.CombatAbility.Average
+  - GTA.CombatAbility.Poor
+  - GTA.CombatAbility.Professional
+  langs:
+  - csharp
+  - vb
+  name: CombatAbility
+  nameWithType: CombatAbility
+  fullName: GTA.CombatAbility
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CombatAbility
+    content.vb: Public Enum CombatAbility
+- uid: GTA.CombatAbility.Poor
+  commentId: F:GTA.CombatAbility.Poor
+  id: Poor
+  parent: GTA.CombatAbility
+  langs:
+  - csharp
+  - vb
+  name: Poor
+  nameWithType: CombatAbility.Poor
+  fullName: GTA.CombatAbility.Poor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Poor = 0
+    return:
+      type: GTA.CombatAbility
+- uid: GTA.CombatAbility.Average
+  commentId: F:GTA.CombatAbility.Average
+  id: Average
+  parent: GTA.CombatAbility
+  langs:
+  - csharp
+  - vb
+  name: Average
+  nameWithType: CombatAbility.Average
+  fullName: GTA.CombatAbility.Average
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Average = 1
+    return:
+      type: GTA.CombatAbility
+- uid: GTA.CombatAbility.Professional
+  commentId: F:GTA.CombatAbility.Professional
+  id: Professional
+  parent: GTA.CombatAbility
+  langs:
+  - csharp
+  - vb
+  name: Professional
+  nameWithType: CombatAbility.Professional
+  fullName: GTA.CombatAbility.Professional
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Professional = 2
+    return:
+      type: GTA.CombatAbility
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CombatAbility
+  commentId: T:GTA.CombatAbility
+  parent: GTA
+  isExternal: true
+  href: GTA.CombatAbility.html
+  name: CombatAbility
+  nameWithType: CombatAbility
+  fullName: GTA.CombatAbility

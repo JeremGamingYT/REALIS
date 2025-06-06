@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags
+  commentId: T:GTA.ExtraWeaponComponentScriptResourceFlags
+  id: ExtraWeaponComponentScriptResourceFlags
+  parent: GTA
+  children:
+  - GTA.ExtraWeaponComponentScriptResourceFlags.Flash
+  - GTA.ExtraWeaponComponentScriptResourceFlags.Grip
+  - GTA.ExtraWeaponComponentScriptResourceFlags.None
+  - GTA.ExtraWeaponComponentScriptResourceFlags.Sclip2
+  - GTA.ExtraWeaponComponentScriptResourceFlags.Scope
+  - GTA.ExtraWeaponComponentScriptResourceFlags.Supp
+  langs:
+  - csharp
+  - vb
+  name: ExtraWeaponComponentScriptResourceFlags
+  nameWithType: ExtraWeaponComponentScriptResourceFlags
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ExtraWeaponComponentScriptResourceFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum ExtraWeaponComponentScriptResourceFlags As UInteger
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags.None
+  commentId: F:GTA.ExtraWeaponComponentScriptResourceFlags.None
+  id: None
+  parent: GTA.ExtraWeaponComponentScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ExtraWeaponComponentScriptResourceFlags.None
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 0
+    return:
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags.Flash
+  commentId: F:GTA.ExtraWeaponComponentScriptResourceFlags.Flash
+  id: Flash
+  parent: GTA.ExtraWeaponComponentScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: Flash
+  nameWithType: ExtraWeaponComponentScriptResourceFlags.Flash
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags.Flash
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Flash = 1
+    return:
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags.Scope
+  commentId: F:GTA.ExtraWeaponComponentScriptResourceFlags.Scope
+  id: Scope
+  parent: GTA.ExtraWeaponComponentScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: ExtraWeaponComponentScriptResourceFlags.Scope
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags.Scope
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Scope = 2
+    return:
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags.Supp
+  commentId: F:GTA.ExtraWeaponComponentScriptResourceFlags.Supp
+  id: Supp
+  parent: GTA.ExtraWeaponComponentScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: Supp
+  nameWithType: ExtraWeaponComponentScriptResourceFlags.Supp
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags.Supp
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Supp = 4
+    return:
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags.Sclip2
+  commentId: F:GTA.ExtraWeaponComponentScriptResourceFlags.Sclip2
+  id: Sclip2
+  parent: GTA.ExtraWeaponComponentScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: Sclip2
+  nameWithType: ExtraWeaponComponentScriptResourceFlags.Sclip2
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags.Sclip2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Sclip2 = 8
+    return:
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags.Grip
+  commentId: F:GTA.ExtraWeaponComponentScriptResourceFlags.Grip
+  id: Grip
+  parent: GTA.ExtraWeaponComponentScriptResourceFlags
+  langs:
+  - csharp
+  - vb
+  name: Grip
+  nameWithType: ExtraWeaponComponentScriptResourceFlags.Grip
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags.Grip
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Grip = 16
+    return:
+      type: GTA.ExtraWeaponComponentScriptResourceFlags
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ExtraWeaponComponentScriptResourceFlags
+  commentId: T:GTA.ExtraWeaponComponentScriptResourceFlags
+  parent: GTA
+  isExternal: true
+  href: GTA.ExtraWeaponComponentScriptResourceFlags.html
+  name: ExtraWeaponComponentScriptResourceFlags
+  nameWithType: ExtraWeaponComponentScriptResourceFlags
+  fullName: GTA.ExtraWeaponComponentScriptResourceFlags

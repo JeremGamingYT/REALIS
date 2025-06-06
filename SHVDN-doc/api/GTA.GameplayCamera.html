@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class GameplayCamera </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class GameplayCamera ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.GameplayCamera">
+
+
+
+  <h1 id="GTA_GameplayCamera" data-uid="GTA.GameplayCamera" class="text-break">Class GameplayCamera</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">GameplayCamera</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_GameplayCamera_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class GameplayCamera</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="GTA_GameplayCamera_DefaultDwellTime" data-uid="GTA.GameplayCamera.DefaultDwellTime">DefaultDwellTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultDwellTime = 2000</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="GTA_GameplayCamera_DefaultInterpInTime" data-uid="GTA.GameplayCamera.DefaultInterpInTime">DefaultInterpInTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultInterpInTime = 2000</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="GTA_GameplayCamera_DefaultInterpOutTime" data-uid="GTA.GameplayCamera.DefaultInterpOutTime">DefaultInterpOutTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DefaultInterpOutTime = 2000</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="GTA_GameplayCamera_ActiveViewModeContext_" data-uid="GTA.GameplayCamera.ActiveViewModeContext*"></a>
+  <h4 id="GTA_GameplayCamera_ActiveViewModeContext" data-uid="GTA.GameplayCamera.ActiveViewModeContext">ActiveViewModeContext</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CamViewModeContext ActiveViewModeContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewModeContext.html">CamViewModeContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_Direction_" data-uid="GTA.GameplayCamera.Direction*"></a>
+  <h4 id="GTA_GameplayCamera_Direction" data-uid="GTA.GameplayCamera.Direction">Direction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Direction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_FieldOfView_" data-uid="GTA.GameplayCamera.FieldOfView*"></a>
+  <h4 id="GTA_GameplayCamera_FieldOfView" data-uid="GTA.GameplayCamera.FieldOfView">FieldOfView</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float FieldOfView { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_FirstPersonAimCamZoomFactor_" data-uid="GTA.GameplayCamera.FirstPersonAimCamZoomFactor*"></a>
+  <h4 id="GTA_GameplayCamera_FirstPersonAimCamZoomFactor" data-uid="GTA.GameplayCamera.FirstPersonAimCamZoomFactor">FirstPersonAimCamZoomFactor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float FirstPersonAimCamZoomFactor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_FollowPedCamViewMode_" data-uid="GTA.GameplayCamera.FollowPedCamViewMode*"></a>
+  <h4 id="GTA_GameplayCamera_FollowPedCamViewMode" data-uid="GTA.GameplayCamera.FollowPedCamViewMode">FollowPedCamViewMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CamViewMode FollowPedCamViewMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewMode.html">CamViewMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_FollowVehicleCamViewMode_" data-uid="GTA.GameplayCamera.FollowVehicleCamViewMode*"></a>
+  <h4 id="GTA_GameplayCamera_FollowVehicleCamViewMode" data-uid="GTA.GameplayCamera.FollowVehicleCamViewMode">FollowVehicleCamViewMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CamViewMode FollowVehicleCamViewMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewMode.html">CamViewMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_ForwardVector_" data-uid="GTA.GameplayCamera.ForwardVector*"></a>
+  <h4 id="GTA_GameplayCamera_ForwardVector" data-uid="GTA.GameplayCamera.ForwardVector">ForwardVector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ForwardVector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_HintBaseOrbitPitchOffset_" data-uid="GTA.GameplayCamera.HintBaseOrbitPitchOffset*"></a>
+  <h4 id="GTA_GameplayCamera_HintBaseOrbitPitchOffset" data-uid="GTA.GameplayCamera.HintBaseOrbitPitchOffset">HintBaseOrbitPitchOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float HintBaseOrbitPitchOffset { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_HintCameraRelativeSideOffset_" data-uid="GTA.GameplayCamera.HintCameraRelativeSideOffset*"></a>
+  <h4 id="GTA_GameplayCamera_HintCameraRelativeSideOffset" data-uid="GTA.GameplayCamera.HintCameraRelativeSideOffset">HintCameraRelativeSideOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float HintCameraRelativeSideOffset { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_HintCameraRelativeVerticalOffset_" data-uid="GTA.GameplayCamera.HintCameraRelativeVerticalOffset*"></a>
+  <h4 id="GTA_GameplayCamera_HintCameraRelativeVerticalOffset" data-uid="GTA.GameplayCamera.HintCameraRelativeVerticalOffset">HintCameraRelativeVerticalOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float HintCameraRelativeVerticalOffset { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_HintFollowDistanceScalar_" data-uid="GTA.GameplayCamera.HintFollowDistanceScalar*"></a>
+  <h4 id="GTA_GameplayCamera_HintFollowDistanceScalar" data-uid="GTA.GameplayCamera.HintFollowDistanceScalar">HintFollowDistanceScalar</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float HintFollowDistanceScalar { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_HintFovOverride_" data-uid="GTA.GameplayCamera.HintFovOverride*"></a>
+  <h4 id="GTA_GameplayCamera_HintFovOverride" data-uid="GTA.GameplayCamera.HintFovOverride">HintFovOverride</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float HintFovOverride { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsAimCamActive_" data-uid="GTA.GameplayCamera.IsAimCamActive*"></a>
+  <h4 id="GTA_GameplayCamera_IsAimCamActive" data-uid="GTA.GameplayCamera.IsAimCamActive">IsAimCamActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAimCamActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsCodeHintActive_" data-uid="GTA.GameplayCamera.IsCodeHintActive*"></a>
+  <h4 id="GTA_GameplayCamera_IsCodeHintActive" data-uid="GTA.GameplayCamera.IsCodeHintActive">IsCodeHintActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsCodeHintActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsFirstPersonAimCamActive_" data-uid="GTA.GameplayCamera.IsFirstPersonAimCamActive*"></a>
+  <h4 id="GTA_GameplayCamera_IsFirstPersonAimCamActive" data-uid="GTA.GameplayCamera.IsFirstPersonAimCamActive">IsFirstPersonAimCamActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFirstPersonAimCamActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsFollowPedCamActive_" data-uid="GTA.GameplayCamera.IsFollowPedCamActive*"></a>
+  <h4 id="GTA_GameplayCamera_IsFollowPedCamActive" data-uid="GTA.GameplayCamera.IsFollowPedCamActive">IsFollowPedCamActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFollowPedCamActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsFollowVehicleCamActive_" data-uid="GTA.GameplayCamera.IsFollowVehicleCamActive*"></a>
+  <h4 id="GTA_GameplayCamera_IsFollowVehicleCamActive" data-uid="GTA.GameplayCamera.IsFollowVehicleCamActive">IsFollowVehicleCamActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFollowVehicleCamActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsHintActive_" data-uid="GTA.GameplayCamera.IsHintActive*"></a>
+  <h4 id="GTA_GameplayCamera_IsHintActive" data-uid="GTA.GameplayCamera.IsHintActive">IsHintActive</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsHintActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsLookingBehind_" data-uid="GTA.GameplayCamera.IsLookingBehind*"></a>
+  <h4 id="GTA_GameplayCamera_IsLookingBehind" data-uid="GTA.GameplayCamera.IsLookingBehind">IsLookingBehind</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsLookingBehind { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsRendering_" data-uid="GTA.GameplayCamera.IsRendering*"></a>
+  <h4 id="GTA_GameplayCamera_IsRendering" data-uid="GTA.GameplayCamera.IsRendering">IsRendering</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRendering { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_IsShaking_" data-uid="GTA.GameplayCamera.IsShaking*"></a>
+  <h4 id="GTA_GameplayCamera_IsShaking" data-uid="GTA.GameplayCamera.IsShaking">IsShaking</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsShaking { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_Matrix_" data-uid="GTA.GameplayCamera.Matrix*"></a>
+  <h4 id="GTA_GameplayCamera_Matrix" data-uid="GTA.GameplayCamera.Matrix">Matrix</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Matrix { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Matrix.html">Matrix</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_MemoryAddress_" data-uid="GTA.GameplayCamera.MemoryAddress*"></a>
+  <h4 id="GTA_GameplayCamera_MemoryAddress" data-uid="GTA.GameplayCamera.MemoryAddress">MemoryAddress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntPtr MemoryAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_Position_" data-uid="GTA.GameplayCamera.Position*"></a>
+  <h4 id="GTA_GameplayCamera_Position" data-uid="GTA.GameplayCamera.Position">Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_RelativeHeading_" data-uid="GTA.GameplayCamera.RelativeHeading*"></a>
+  <h4 id="GTA_GameplayCamera_RelativeHeading" data-uid="GTA.GameplayCamera.RelativeHeading">RelativeHeading</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float RelativeHeading { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_RelativePitch_" data-uid="GTA.GameplayCamera.RelativePitch*"></a>
+  <h4 id="GTA_GameplayCamera_RelativePitch" data-uid="GTA.GameplayCamera.RelativePitch">RelativePitch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float RelativePitch { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_RightVector_" data-uid="GTA.GameplayCamera.RightVector*"></a>
+  <h4 id="GTA_GameplayCamera_RightVector" data-uid="GTA.GameplayCamera.RightVector">RightVector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 RightVector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_Rotation_" data-uid="GTA.GameplayCamera.Rotation*"></a>
+  <h4 id="GTA_GameplayCamera_Rotation" data-uid="GTA.GameplayCamera.Rotation">Rotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Rotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_ShakeAmplitude_" data-uid="GTA.GameplayCamera.ShakeAmplitude*"></a>
+  <h4 id="GTA_GameplayCamera_ShakeAmplitude" data-uid="GTA.GameplayCamera.ShakeAmplitude">ShakeAmplitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float ShakeAmplitude { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_UpVector_" data-uid="GTA.GameplayCamera.UpVector*"></a>
+  <h4 id="GTA_GameplayCamera_UpVector" data-uid="GTA.GameplayCamera.UpVector">UpVector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 UpVector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="GTA_GameplayCamera_DisableFirstPersonFlashEffectThisUpdate_" data-uid="GTA.GameplayCamera.DisableFirstPersonFlashEffectThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_DisableFirstPersonFlashEffectThisUpdate" data-uid="GTA.GameplayCamera.DisableFirstPersonFlashEffectThisUpdate">DisableFirstPersonFlashEffectThisUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisableFirstPersonFlashEffectThisUpdate()</code></pre>
+  </div>
+
+
+  <a id="GTA_GameplayCamera_DisableOnFootFirstPersonViewThisUpdate_" data-uid="GTA.GameplayCamera.DisableOnFootFirstPersonViewThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_DisableOnFootFirstPersonViewThisUpdate" data-uid="GTA.GameplayCamera.DisableOnFootFirstPersonViewThisUpdate">DisableOnFootFirstPersonViewThisUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DisableOnFootFirstPersonViewThisUpdate()</code></pre>
+  </div>
+
+
+  <a id="GTA_GameplayCamera_FollowCameraIgnoreAttachParentMovementThisUpdate_" data-uid="GTA.GameplayCamera.FollowCameraIgnoreAttachParentMovementThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_FollowCameraIgnoreAttachParentMovementThisUpdate" data-uid="GTA.GameplayCamera.FollowCameraIgnoreAttachParentMovementThisUpdate">FollowCameraIgnoreAttachParentMovementThisUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FollowCameraIgnoreAttachParentMovementThisUpdate()</code></pre>
+  </div>
+
+
+  <a id="GTA_GameplayCamera_ForceRelativeHeadingAndPitch_" data-uid="GTA.GameplayCamera.ForceRelativeHeadingAndPitch*"></a>
+  <h4 id="GTA_GameplayCamera_ForceRelativeHeadingAndPitch_System_Single_System_Single_System_Single_" data-uid="GTA.GameplayCamera.ForceRelativeHeadingAndPitch(System.Single,System.Single,System.Single)">ForceRelativeHeadingAndPitch(float, float, float)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ForceRelativeHeadingAndPitch(float heading, float pitch, float smoothRate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">heading</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">pitch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">smoothRate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_GetCamViewModeForContext_" data-uid="GTA.GameplayCamera.GetCamViewModeForContext*"></a>
+  <h4 id="GTA_GameplayCamera_GetCamViewModeForContext_GTA_CamViewModeContext_" data-uid="GTA.GameplayCamera.GetCamViewModeForContext(GTA.CamViewModeContext)">GetCamViewModeForContext(CamViewModeContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CamViewMode GetCamViewModeForContext(CamViewModeContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewModeContext.html">CamViewModeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewMode.html">CamViewMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_GetOffsetPosition_" data-uid="GTA.GameplayCamera.GetOffsetPosition*"></a>
+  <h4 id="GTA_GameplayCamera_GetOffsetPosition_GTA_Math_Vector3_" data-uid="GTA.GameplayCamera.GetOffsetPosition(GTA.Math.Vector3)">GetOffsetPosition(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetOffsetPosition(Vector3 offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_GetPositionOffset_" data-uid="GTA.GameplayCamera.GetPositionOffset*"></a>
+  <h4 id="GTA_GameplayCamera_GetPositionOffset_GTA_Math_Vector3_" data-uid="GTA.GameplayCamera.GetPositionOffset(GTA.Math.Vector3)">GetPositionOffset(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetPositionOffset(Vector3 worldCoords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">worldCoords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetCamViewModeForContext_" data-uid="GTA.GameplayCamera.SetCamViewModeForContext*"></a>
+  <h4 id="GTA_GameplayCamera_SetCamViewModeForContext_GTA_CamViewModeContext_GTA_CamViewMode_" data-uid="GTA.GameplayCamera.SetCamViewModeForContext(GTA.CamViewModeContext,GTA.CamViewMode)">SetCamViewModeForContext(CamViewModeContext, CamViewMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CamViewMode SetCamViewModeForContext(CamViewModeContext context, CamViewMode viewMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewModeContext.html">CamViewModeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewMode.html">CamViewMode</a></td>
+        <td><span class="parametername">viewMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CamViewMode.html">CamViewMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetCoordHint_" data-uid="GTA.GameplayCamera.SetCoordHint*"></a>
+  <h4 id="GTA_GameplayCamera_SetCoordHint_GTA_Math_Vector3_System_Int32_System_Int32_System_Int32_GTA_CameraHintHelperNameHash_" data-uid="GTA.GameplayCamera.SetCoordHint(GTA.Math.Vector3,System.Int32,System.Int32,System.Int32,GTA.CameraHintHelperNameHash)">SetCoordHint(Vector3, int, int, int, CameraHintHelperNameHash)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetCoordHint(Vector3 coord, int dwellTime = 2000, int interpTo = 2000, int interpFrom = 2000, CameraHintHelperNameHash overriddenHintType = CameraHintHelperNameHash.None)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">coord</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">dwellTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interpTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interpFrom</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.CameraHintHelperNameHash.html">CameraHintHelperNameHash</a></td>
+        <td><span class="parametername">overriddenHintType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetEntityHint_" data-uid="GTA.GameplayCamera.SetEntityHint*"></a>
+  <h4 id="GTA_GameplayCamera_SetEntityHint_GTA_Entity_GTA_Math_Vector3_System_Boolean_System_Int32_System_Int32_System_Int32_GTA_CameraHintHelperNameHash_" data-uid="GTA.GameplayCamera.SetEntityHint(GTA.Entity,GTA.Math.Vector3,System.Boolean,System.Int32,System.Int32,System.Int32,GTA.CameraHintHelperNameHash)">SetEntityHint(Entity, Vector3, bool, int, int, int, CameraHintHelperNameHash)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetEntityHint(Entity entity, Vector3 offset, bool relativeOffset = true, int dwellTime = 2000, int interpTo = 2000, int interpFrom = 2000, CameraHintHelperNameHash overriddenHintType = CameraHintHelperNameHash.None)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">relativeOffset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">dwellTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interpTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">interpFrom</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.CameraHintHelperNameHash.html">CameraHintHelperNameHash</a></td>
+        <td><span class="parametername">overriddenHintType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetInVehicleCameraStateThisUpdate_" data-uid="GTA.GameplayCamera.SetInVehicleCameraStateThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_SetInVehicleCameraStateThisUpdate_GTA_Vehicle_GTA_CamInVehicleState_" data-uid="GTA.GameplayCamera.SetInVehicleCameraStateThisUpdate(GTA.Vehicle,GTA.CamInVehicleState)">SetInVehicleCameraStateThisUpdate(Vehicle, CamInVehicleState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetInVehicleCameraStateThisUpdate(Vehicle vehicle, CamInVehicleState inVehicleState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Vehicle.html">Vehicle</a></td>
+        <td><span class="parametername">vehicle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.CamInVehicleState.html">CamInVehicleState</a></td>
+        <td><span class="parametername">inVehicleState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetRelativePitch_" data-uid="GTA.GameplayCamera.SetRelativePitch*"></a>
+  <h4 id="GTA_GameplayCamera_SetRelativePitch_System_Single_System_Single_" data-uid="GTA.GameplayCamera.SetRelativePitch(System.Single,System.Single)">SetRelativePitch(float, float)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetRelativePitch(float pitch, float smoothRate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">pitch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">smoothRate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetThirdPersonCameraOrbitDistanceLimitsThisUpdate_" data-uid="GTA.GameplayCamera.SetThirdPersonCameraOrbitDistanceLimitsThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_SetThirdPersonCameraOrbitDistanceLimitsThisUpdate_System_Single_System_Single_" data-uid="GTA.GameplayCamera.SetThirdPersonCameraOrbitDistanceLimitsThisUpdate(System.Single,System.Single)">SetThirdPersonCameraOrbitDistanceLimitsThisUpdate(float, float)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetThirdPersonCameraOrbitDistanceLimitsThisUpdate(float minDistance, float maxDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">minDistance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">maxDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetThirdPersonCameraRelativeHeadingLimitsThisUpdate_" data-uid="GTA.GameplayCamera.SetThirdPersonCameraRelativeHeadingLimitsThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_SetThirdPersonCameraRelativeHeadingLimitsThisUpdate_System_Single_System_Single_" data-uid="GTA.GameplayCamera.SetThirdPersonCameraRelativeHeadingLimitsThisUpdate(System.Single,System.Single)">SetThirdPersonCameraRelativeHeadingLimitsThisUpdate(float, float)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetThirdPersonCameraRelativeHeadingLimitsThisUpdate(float minRelativeHeading, float maxRelativeHeading)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">minRelativeHeading</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">maxRelativeHeading</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_SetThirdPersonCameraRelativePitchLimitsThisUpdate_" data-uid="GTA.GameplayCamera.SetThirdPersonCameraRelativePitchLimitsThisUpdate*"></a>
+  <h4 id="GTA_GameplayCamera_SetThirdPersonCameraRelativePitchLimitsThisUpdate_System_Single_System_Single_" data-uid="GTA.GameplayCamera.SetThirdPersonCameraRelativePitchLimitsThisUpdate(System.Single,System.Single)">SetThirdPersonCameraRelativePitchLimitsThisUpdate(float, float)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetThirdPersonCameraRelativePitchLimitsThisUpdate(float minRelativePitch, float maxRelativePitch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">minRelativePitch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">maxRelativePitch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_Shake_" data-uid="GTA.GameplayCamera.Shake*"></a>
+  <h4 id="GTA_GameplayCamera_Shake_GTA_CameraShake_System_Single_" data-uid="GTA.GameplayCamera.Shake(GTA.CameraShake,System.Single)">Shake(CameraShake, float)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Shake(CameraShake shakeType, float amplitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CameraShake.html">CameraShake</a></td>
+        <td><span class="parametername">shakeType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_StopCodeGameplayHint_" data-uid="GTA.GameplayCamera.StopCodeGameplayHint*"></a>
+  <h4 id="GTA_GameplayCamera_StopCodeGameplayHint_System_Boolean_" data-uid="GTA.GameplayCamera.StopCodeGameplayHint(System.Boolean)">StopCodeGameplayHint(bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopCodeGameplayHint(bool stopImmediately)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">stopImmediately</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_StopGameplayHint_" data-uid="GTA.GameplayCamera.StopGameplayHint*"></a>
+  <h4 id="GTA_GameplayCamera_StopGameplayHint_System_Boolean_" data-uid="GTA.GameplayCamera.StopGameplayHint(System.Boolean)">StopGameplayHint(bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopGameplayHint(bool stopImmediately)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">stopImmediately</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="GTA_GameplayCamera_StopShaking_" data-uid="GTA.GameplayCamera.StopShaking*"></a>
+  <h4 id="GTA_GameplayCamera_StopShaking" data-uid="GTA.GameplayCamera.StopShaking">StopShaking()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopShaking()</code></pre>
+  </div>
+
+
+  <a id="GTA_GameplayCamera_StopShaking_" data-uid="GTA.GameplayCamera.StopShaking*"></a>
+  <h4 id="GTA_GameplayCamera_StopShaking_System_Boolean_" data-uid="GTA.GameplayCamera.StopShaking(System.Boolean)">StopShaking(bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopShaking(bool stopImmediately)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">stopImmediately</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,530 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CamSplineSmoothingMode
+  commentId: T:GTA.CamSplineSmoothingMode
+  id: CamSplineSmoothingMode
+  parent: GTA
+  children:
+  - GTA.CamSplineSmoothingMode.CircularEaseIn
+  - GTA.CamSplineSmoothingMode.CircularEaseInOut
+  - GTA.CamSplineSmoothingMode.CircularEaseOut
+  - GTA.CamSplineSmoothingMode.CubicEaseIn
+  - GTA.CamSplineSmoothingMode.CubicEaseInOut
+  - GTA.CamSplineSmoothingMode.CubicEaseOut
+  - GTA.CamSplineSmoothingMode.EaseIn
+  - GTA.CamSplineSmoothingMode.EaseOut
+  - GTA.CamSplineSmoothingMode.NoSmooth
+  - GTA.CamSplineSmoothingMode.QuadraticEaseIn
+  - GTA.CamSplineSmoothingMode.QuadraticEaseInOut
+  - GTA.CamSplineSmoothingMode.QuadraticEaseOut
+  - GTA.CamSplineSmoothingMode.QuarticEaseIn
+  - GTA.CamSplineSmoothingMode.QuarticEaseInOut
+  - GTA.CamSplineSmoothingMode.QuarticEaseOut
+  - GTA.CamSplineSmoothingMode.QuinticEaseIn
+  - GTA.CamSplineSmoothingMode.QuinticEaseInOut
+  - GTA.CamSplineSmoothingMode.QuinticEaseOut
+  - GTA.CamSplineSmoothingMode.SlowInOutSmooth
+  - GTA.CamSplineSmoothingMode.SlowInSmooth
+  - GTA.CamSplineSmoothingMode.SlowInVerySlowOut
+  - GTA.CamSplineSmoothingMode.SlowOutSmooth
+  - GTA.CamSplineSmoothingMode.VerySlowIn
+  - GTA.CamSplineSmoothingMode.VerySlowInSlowOut
+  - GTA.CamSplineSmoothingMode.VerySlowInVerySlowOut
+  - GTA.CamSplineSmoothingMode.VerySlowOut
+  langs:
+  - csharp
+  - vb
+  name: CamSplineSmoothingMode
+  nameWithType: CamSplineSmoothingMode
+  fullName: GTA.CamSplineSmoothingMode
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CamSplineSmoothingMode
+    content.vb: Public Enum CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.NoSmooth
+  commentId: F:GTA.CamSplineSmoothingMode.NoSmooth
+  id: NoSmooth
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: NoSmooth
+  nameWithType: CamSplineSmoothingMode.NoSmooth
+  fullName: GTA.CamSplineSmoothingMode.NoSmooth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: NoSmooth = 0
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.SlowInSmooth
+  commentId: F:GTA.CamSplineSmoothingMode.SlowInSmooth
+  id: SlowInSmooth
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: SlowInSmooth
+  nameWithType: CamSplineSmoothingMode.SlowInSmooth
+  fullName: GTA.CamSplineSmoothingMode.SlowInSmooth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SlowInSmooth = 1
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.SlowOutSmooth
+  commentId: F:GTA.CamSplineSmoothingMode.SlowOutSmooth
+  id: SlowOutSmooth
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: SlowOutSmooth
+  nameWithType: CamSplineSmoothingMode.SlowOutSmooth
+  fullName: GTA.CamSplineSmoothingMode.SlowOutSmooth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SlowOutSmooth = 2
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.SlowInOutSmooth
+  commentId: F:GTA.CamSplineSmoothingMode.SlowInOutSmooth
+  id: SlowInOutSmooth
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: SlowInOutSmooth
+  nameWithType: CamSplineSmoothingMode.SlowInOutSmooth
+  fullName: GTA.CamSplineSmoothingMode.SlowInOutSmooth
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SlowInOutSmooth = 3
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.VerySlowIn
+  commentId: F:GTA.CamSplineSmoothingMode.VerySlowIn
+  id: VerySlowIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: VerySlowIn
+  nameWithType: CamSplineSmoothingMode.VerySlowIn
+  fullName: GTA.CamSplineSmoothingMode.VerySlowIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VerySlowIn = 4
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.VerySlowOut
+  commentId: F:GTA.CamSplineSmoothingMode.VerySlowOut
+  id: VerySlowOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: VerySlowOut
+  nameWithType: CamSplineSmoothingMode.VerySlowOut
+  fullName: GTA.CamSplineSmoothingMode.VerySlowOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VerySlowOut = 5
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.VerySlowInSlowOut
+  commentId: F:GTA.CamSplineSmoothingMode.VerySlowInSlowOut
+  id: VerySlowInSlowOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: VerySlowInSlowOut
+  nameWithType: CamSplineSmoothingMode.VerySlowInSlowOut
+  fullName: GTA.CamSplineSmoothingMode.VerySlowInSlowOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VerySlowInSlowOut = 6
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.SlowInVerySlowOut
+  commentId: F:GTA.CamSplineSmoothingMode.SlowInVerySlowOut
+  id: SlowInVerySlowOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: SlowInVerySlowOut
+  nameWithType: CamSplineSmoothingMode.SlowInVerySlowOut
+  fullName: GTA.CamSplineSmoothingMode.SlowInVerySlowOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SlowInVerySlowOut = 7
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.VerySlowInVerySlowOut
+  commentId: F:GTA.CamSplineSmoothingMode.VerySlowInVerySlowOut
+  id: VerySlowInVerySlowOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: VerySlowInVerySlowOut
+  nameWithType: CamSplineSmoothingMode.VerySlowInVerySlowOut
+  fullName: GTA.CamSplineSmoothingMode.VerySlowInVerySlowOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: VerySlowInVerySlowOut = 8
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.EaseIn
+  commentId: F:GTA.CamSplineSmoothingMode.EaseIn
+  id: EaseIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: EaseIn
+  nameWithType: CamSplineSmoothingMode.EaseIn
+  fullName: GTA.CamSplineSmoothingMode.EaseIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EaseIn = 9
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.EaseOut
+  commentId: F:GTA.CamSplineSmoothingMode.EaseOut
+  id: EaseOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: EaseOut
+  nameWithType: CamSplineSmoothingMode.EaseOut
+  fullName: GTA.CamSplineSmoothingMode.EaseOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: EaseOut = 10
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuadraticEaseIn
+  commentId: F:GTA.CamSplineSmoothingMode.QuadraticEaseIn
+  id: QuadraticEaseIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuadraticEaseIn
+  nameWithType: CamSplineSmoothingMode.QuadraticEaseIn
+  fullName: GTA.CamSplineSmoothingMode.QuadraticEaseIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuadraticEaseIn = 11
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuadraticEaseOut
+  commentId: F:GTA.CamSplineSmoothingMode.QuadraticEaseOut
+  id: QuadraticEaseOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuadraticEaseOut
+  nameWithType: CamSplineSmoothingMode.QuadraticEaseOut
+  fullName: GTA.CamSplineSmoothingMode.QuadraticEaseOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuadraticEaseOut = 12
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuadraticEaseInOut
+  commentId: F:GTA.CamSplineSmoothingMode.QuadraticEaseInOut
+  id: QuadraticEaseInOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuadraticEaseInOut
+  nameWithType: CamSplineSmoothingMode.QuadraticEaseInOut
+  fullName: GTA.CamSplineSmoothingMode.QuadraticEaseInOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuadraticEaseInOut = 13
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.CubicEaseIn
+  commentId: F:GTA.CamSplineSmoothingMode.CubicEaseIn
+  id: CubicEaseIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseIn
+  nameWithType: CamSplineSmoothingMode.CubicEaseIn
+  fullName: GTA.CamSplineSmoothingMode.CubicEaseIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CubicEaseIn = 14
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.CubicEaseOut
+  commentId: F:GTA.CamSplineSmoothingMode.CubicEaseOut
+  id: CubicEaseOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseOut
+  nameWithType: CamSplineSmoothingMode.CubicEaseOut
+  fullName: GTA.CamSplineSmoothingMode.CubicEaseOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CubicEaseOut = 15
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.CubicEaseInOut
+  commentId: F:GTA.CamSplineSmoothingMode.CubicEaseInOut
+  id: CubicEaseInOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseInOut
+  nameWithType: CamSplineSmoothingMode.CubicEaseInOut
+  fullName: GTA.CamSplineSmoothingMode.CubicEaseInOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CubicEaseInOut = 16
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuarticEaseIn
+  commentId: F:GTA.CamSplineSmoothingMode.QuarticEaseIn
+  id: QuarticEaseIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuarticEaseIn
+  nameWithType: CamSplineSmoothingMode.QuarticEaseIn
+  fullName: GTA.CamSplineSmoothingMode.QuarticEaseIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuarticEaseIn = 17
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuarticEaseOut
+  commentId: F:GTA.CamSplineSmoothingMode.QuarticEaseOut
+  id: QuarticEaseOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuarticEaseOut
+  nameWithType: CamSplineSmoothingMode.QuarticEaseOut
+  fullName: GTA.CamSplineSmoothingMode.QuarticEaseOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuarticEaseOut = 18
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuarticEaseInOut
+  commentId: F:GTA.CamSplineSmoothingMode.QuarticEaseInOut
+  id: QuarticEaseInOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuarticEaseInOut
+  nameWithType: CamSplineSmoothingMode.QuarticEaseInOut
+  fullName: GTA.CamSplineSmoothingMode.QuarticEaseInOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuarticEaseInOut = 19
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuinticEaseIn
+  commentId: F:GTA.CamSplineSmoothingMode.QuinticEaseIn
+  id: QuinticEaseIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuinticEaseIn
+  nameWithType: CamSplineSmoothingMode.QuinticEaseIn
+  fullName: GTA.CamSplineSmoothingMode.QuinticEaseIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuinticEaseIn = 20
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuinticEaseOut
+  commentId: F:GTA.CamSplineSmoothingMode.QuinticEaseOut
+  id: QuinticEaseOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuinticEaseOut
+  nameWithType: CamSplineSmoothingMode.QuinticEaseOut
+  fullName: GTA.CamSplineSmoothingMode.QuinticEaseOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuinticEaseOut = 21
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.QuinticEaseInOut
+  commentId: F:GTA.CamSplineSmoothingMode.QuinticEaseInOut
+  id: QuinticEaseInOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: QuinticEaseInOut
+  nameWithType: CamSplineSmoothingMode.QuinticEaseInOut
+  fullName: GTA.CamSplineSmoothingMode.QuinticEaseInOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: QuinticEaseInOut = 22
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.CircularEaseIn
+  commentId: F:GTA.CamSplineSmoothingMode.CircularEaseIn
+  id: CircularEaseIn
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: CircularEaseIn
+  nameWithType: CamSplineSmoothingMode.CircularEaseIn
+  fullName: GTA.CamSplineSmoothingMode.CircularEaseIn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CircularEaseIn = 23
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.CircularEaseOut
+  commentId: F:GTA.CamSplineSmoothingMode.CircularEaseOut
+  id: CircularEaseOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: CircularEaseOut
+  nameWithType: CamSplineSmoothingMode.CircularEaseOut
+  fullName: GTA.CamSplineSmoothingMode.CircularEaseOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CircularEaseOut = 24
+    return:
+      type: GTA.CamSplineSmoothingMode
+- uid: GTA.CamSplineSmoothingMode.CircularEaseInOut
+  commentId: F:GTA.CamSplineSmoothingMode.CircularEaseInOut
+  id: CircularEaseInOut
+  parent: GTA.CamSplineSmoothingMode
+  langs:
+  - csharp
+  - vb
+  name: CircularEaseInOut
+  nameWithType: CamSplineSmoothingMode.CircularEaseInOut
+  fullName: GTA.CamSplineSmoothingMode.CircularEaseInOut
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CircularEaseInOut = 25
+    return:
+      type: GTA.CamSplineSmoothingMode
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CamSplineSmoothingMode
+  commentId: T:GTA.CamSplineSmoothingMode
+  parent: GTA
+  isExternal: true
+  href: GTA.CamSplineSmoothingMode.html
+  name: CamSplineSmoothingMode
+  nameWithType: CamSplineSmoothingMode
+  fullName: GTA.CamSplineSmoothingMode

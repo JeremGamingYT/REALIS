@@ -1,0 +1,697 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.TaskMoVEScriptedInitialParameters
+  commentId: T:GTA.TaskMoVEScriptedInitialParameters
+  id: TaskMoVEScriptedInitialParameters
+  parent: GTA
+  children:
+  - GTA.TaskMoVEScriptedInitialParameters.BoolParamName0
+  - GTA.TaskMoVEScriptedInitialParameters.BoolParamName1
+  - GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0
+  - GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1
+  - GTA.TaskMoVEScriptedInitialParameters.ClipSet0
+  - GTA.TaskMoVEScriptedInitialParameters.ClipSet1
+  - GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  - GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  - GTA.TaskMoVEScriptedInitialParameters.FloatParamName0
+  - GTA.TaskMoVEScriptedInitialParameters.FloatParamName1
+  - GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0
+  - GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1
+  - GTA.TaskMoVEScriptedInitialParameters.VarClipSet0
+  - GTA.TaskMoVEScriptedInitialParameters.VarClipSet1
+  langs:
+  - csharp
+  - vb
+  name: TaskMoVEScriptedInitialParameters
+  nameWithType: TaskMoVEScriptedInitialParameters
+  fullName: GTA.TaskMoVEScriptedInitialParameters
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class TaskMoVEScriptedInitialParameters
+    content.vb: Public NotInheritable Class TaskMoVEScriptedInitialParameters
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.TaskMoVEScriptedInitialParameters.ClipSet0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.ClipSet0
+  id: ClipSet0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: ClipSet0
+  nameWithType: TaskMoVEScriptedInitialParameters.ClipSet0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.ClipSet0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public AtHashValue ClipSet0 { get; }
+    parameters: []
+    return:
+      type: GTA.AtHashValue
+    content.vb: Public ReadOnly Property ClipSet0 As AtHashValue
+  overload: GTA.TaskMoVEScriptedInitialParameters.ClipSet0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.VarClipSet0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.VarClipSet0
+  id: VarClipSet0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: VarClipSet0
+  nameWithType: TaskMoVEScriptedInitialParameters.VarClipSet0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.VarClipSet0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public AtHashValue VarClipSet0 { get; }
+    parameters: []
+    return:
+      type: GTA.AtHashValue
+    content.vb: Public ReadOnly Property VarClipSet0 As AtHashValue
+  overload: GTA.TaskMoVEScriptedInitialParameters.VarClipSet0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.ClipSet1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.ClipSet1
+  id: ClipSet1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: ClipSet1
+  nameWithType: TaskMoVEScriptedInitialParameters.ClipSet1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.ClipSet1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public AtHashValue ClipSet1 { get; }
+    parameters: []
+    return:
+      type: GTA.AtHashValue
+    content.vb: Public ReadOnly Property ClipSet1 As AtHashValue
+  overload: GTA.TaskMoVEScriptedInitialParameters.ClipSet1*
+- uid: GTA.TaskMoVEScriptedInitialParameters.VarClipSet1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.VarClipSet1
+  id: VarClipSet1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: VarClipSet1
+  nameWithType: TaskMoVEScriptedInitialParameters.VarClipSet1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.VarClipSet1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public AtHashValue VarClipSet1 { get; }
+    parameters: []
+    return:
+      type: GTA.AtHashValue
+    content.vb: Public ReadOnly Property VarClipSet1 As AtHashValue
+  overload: GTA.TaskMoVEScriptedInitialParameters.VarClipSet1*
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamName0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.FloatParamName0
+  id: FloatParamName0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: FloatParamName0
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamName0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamName0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string FloatParamName0 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FloatParamName0 As String
+  overload: GTA.TaskMoVEScriptedInitialParameters.FloatParamName0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0
+  id: FloatParamValue0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: FloatParamValue0
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamValue0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FloatParamValue0 { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property FloatParamValue0 As Single
+  overload: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  id: FloatParamLerpValue0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: FloatParamLerpValue0
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FloatParamLerpValue0 { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property FloatParamLerpValue0 As Single
+  overload: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamName1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.FloatParamName1
+  id: FloatParamName1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: FloatParamName1
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamName1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamName1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string FloatParamName1 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FloatParamName1 As String
+  overload: GTA.TaskMoVEScriptedInitialParameters.FloatParamName1*
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1
+  id: FloatParamValue1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: FloatParamValue1
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamValue1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FloatParamValue1 { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property FloatParamValue1 As Single
+  overload: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1*
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  id: FloatParamLerpValue1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: FloatParamLerpValue1
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float FloatParamLerpValue1 { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property FloatParamLerpValue1 As Single
+  overload: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1*
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamName0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.BoolParamName0
+  id: BoolParamName0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: BoolParamName0
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamName0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamName0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string BoolParamName0 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BoolParamName0 As String
+  overload: GTA.TaskMoVEScriptedInitialParameters.BoolParamName0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0
+  id: BoolParamValue0
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: BoolParamValue0
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamValue0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool BoolParamValue0 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property BoolParamValue0 As Boolean
+  overload: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0*
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamName1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.BoolParamName1
+  id: BoolParamName1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: BoolParamName1
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamName1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamName1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public string BoolParamName1 { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BoolParamName1 As String
+  overload: GTA.TaskMoVEScriptedInitialParameters.BoolParamName1*
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1
+  commentId: P:GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1
+  id: BoolParamValue1
+  parent: GTA.TaskMoVEScriptedInitialParameters
+  langs:
+  - csharp
+  - vb
+  name: BoolParamValue1
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamValue1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool BoolParamValue1 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property BoolParamValue1 As Boolean
+  overload: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.TaskMoVEScriptedInitialParameters.ClipSet0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.ClipSet0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_ClipSet0
+  name: ClipSet0
+  nameWithType: TaskMoVEScriptedInitialParameters.ClipSet0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.ClipSet0
+- uid: GTA.AtHashValue
+  commentId: T:GTA.AtHashValue
+  parent: GTA
+  isExternal: true
+  href: GTA.AtHashValue.html
+  name: AtHashValue
+  nameWithType: AtHashValue
+  fullName: GTA.AtHashValue
+- uid: GTA.TaskMoVEScriptedInitialParameters.VarClipSet0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.VarClipSet0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_VarClipSet0
+  name: VarClipSet0
+  nameWithType: TaskMoVEScriptedInitialParameters.VarClipSet0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.VarClipSet0
+- uid: GTA.TaskMoVEScriptedInitialParameters.ClipSet1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.ClipSet1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_ClipSet1
+  name: ClipSet1
+  nameWithType: TaskMoVEScriptedInitialParameters.ClipSet1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.ClipSet1
+- uid: GTA.TaskMoVEScriptedInitialParameters.VarClipSet1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.VarClipSet1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_VarClipSet1
+  name: VarClipSet1
+  nameWithType: TaskMoVEScriptedInitialParameters.VarClipSet1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.VarClipSet1
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamName0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.FloatParamName0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_FloatParamName0
+  name: FloatParamName0
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamName0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamName0
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_FloatParamValue0
+  name: FloatParamValue0
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamValue0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue0
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_FloatParamLerpValue0
+  name: FloatParamLerpValue0
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue0
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamName1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.FloatParamName1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_FloatParamName1
+  name: FloatParamName1
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamName1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamName1
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_FloatParamValue1
+  name: FloatParamValue1
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamValue1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamValue1
+- uid: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_FloatParamLerpValue1
+  name: FloatParamLerpValue1
+  nameWithType: TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.FloatParamLerpValue1
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamName0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.BoolParamName0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_BoolParamName0
+  name: BoolParamName0
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamName0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamName0
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_BoolParamValue0
+  name: BoolParamValue0
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamValue0
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue0
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamName1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.BoolParamName1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_BoolParamName1
+  name: BoolParamName1
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamName1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamName1
+- uid: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1*
+  commentId: Overload:GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1
+  isExternal: true
+  href: GTA.TaskMoVEScriptedInitialParameters.html#GTA_TaskMoVEScriptedInitialParameters_BoolParamValue1
+  name: BoolParamValue1
+  nameWithType: TaskMoVEScriptedInitialParameters.BoolParamValue1
+  fullName: GTA.TaskMoVEScriptedInitialParameters.BoolParamValue1

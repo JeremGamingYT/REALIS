@@ -1,0 +1,646 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Chrono.IDatelike`1
+  commentId: T:GTA.Chrono.IDatelike`1
+  id: IDatelike`1
+  parent: GTA.Chrono
+  children:
+  - GTA.Chrono.IDatelike`1.Day
+  - GTA.Chrono.IDatelike`1.Day0
+  - GTA.Chrono.IDatelike`1.DayOfWeek
+  - GTA.Chrono.IDatelike`1.DayOfYear
+  - GTA.Chrono.IDatelike`1.DayOfYear0
+  - GTA.Chrono.IDatelike`1.IsoDayOfWeek
+  - GTA.Chrono.IDatelike`1.Month
+  - GTA.Chrono.IDatelike`1.Month0
+  - GTA.Chrono.IDatelike`1.WithDay(System.Int32)
+  - GTA.Chrono.IDatelike`1.WithDay0(System.Int32)
+  - GTA.Chrono.IDatelike`1.WithDayOfYear(System.Int32)
+  - GTA.Chrono.IDatelike`1.WithDayOfYear0(System.Int32)
+  - GTA.Chrono.IDatelike`1.WithMonth(System.Int32)
+  - GTA.Chrono.IDatelike`1.WithMonth0(System.Int32)
+  - GTA.Chrono.IDatelike`1.WithYear(System.Int32)
+  - GTA.Chrono.IDatelike`1.Year
+  langs:
+  - csharp
+  - vb
+  name: IDatelike<T>
+  nameWithType: IDatelike<T>
+  fullName: GTA.Chrono.IDatelike<T>
+  type: Interface
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: public interface IDatelike<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IDatelike(Of T)
+  nameWithType.vb: IDatelike(Of T)
+  fullName.vb: GTA.Chrono.IDatelike(Of T)
+  name.vb: IDatelike(Of T)
+- uid: GTA.Chrono.IDatelike`1.WithYear(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithYear(System.Int32)
+  id: WithYear(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithYear(int)
+  nameWithType: IDatelike<T>.WithYear(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithYear(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithYear(int year)
+    parameters:
+    - id: year
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithYear(year As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithYear*
+  nameWithType.vb: IDatelike(Of T).WithYear(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithYear(Integer)
+  name.vb: WithYear(Integer)
+- uid: GTA.Chrono.IDatelike`1.WithMonth(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithMonth(System.Int32)
+  id: WithMonth(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithMonth(int)
+  nameWithType: IDatelike<T>.WithMonth(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithMonth(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithMonth(int month)
+    parameters:
+    - id: month
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithMonth(month As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithMonth*
+  nameWithType.vb: IDatelike(Of T).WithMonth(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithMonth(Integer)
+  name.vb: WithMonth(Integer)
+- uid: GTA.Chrono.IDatelike`1.WithMonth0(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithMonth0(System.Int32)
+  id: WithMonth0(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithMonth0(int)
+  nameWithType: IDatelike<T>.WithMonth0(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithMonth0(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithMonth0(int month0)
+    parameters:
+    - id: month0
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithMonth0(month0 As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithMonth0*
+  nameWithType.vb: IDatelike(Of T).WithMonth0(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithMonth0(Integer)
+  name.vb: WithMonth0(Integer)
+- uid: GTA.Chrono.IDatelike`1.WithDay(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithDay(System.Int32)
+  id: WithDay(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithDay(int)
+  nameWithType: IDatelike<T>.WithDay(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithDay(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithDay(int day)
+    parameters:
+    - id: day
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithDay(day As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithDay*
+  nameWithType.vb: IDatelike(Of T).WithDay(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDay(Integer)
+  name.vb: WithDay(Integer)
+- uid: GTA.Chrono.IDatelike`1.WithDay0(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithDay0(System.Int32)
+  id: WithDay0(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithDay0(int)
+  nameWithType: IDatelike<T>.WithDay0(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithDay0(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithDay0(int day0)
+    parameters:
+    - id: day0
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithDay0(day0 As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithDay0*
+  nameWithType.vb: IDatelike(Of T).WithDay0(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDay0(Integer)
+  name.vb: WithDay0(Integer)
+- uid: GTA.Chrono.IDatelike`1.WithDayOfYear(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithDayOfYear(System.Int32)
+  id: WithDayOfYear(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithDayOfYear(int)
+  nameWithType: IDatelike<T>.WithDayOfYear(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithDayOfYear(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithDayOfYear(int dayOfYear)
+    parameters:
+    - id: dayOfYear
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithDayOfYear(dayOfYear As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithDayOfYear*
+  nameWithType.vb: IDatelike(Of T).WithDayOfYear(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDayOfYear(Integer)
+  name.vb: WithDayOfYear(Integer)
+- uid: GTA.Chrono.IDatelike`1.WithDayOfYear0(System.Int32)
+  commentId: M:GTA.Chrono.IDatelike`1.WithDayOfYear0(System.Int32)
+  id: WithDayOfYear0(System.Int32)
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: WithDayOfYear0(int)
+  nameWithType: IDatelike<T>.WithDayOfYear0(int)
+  fullName: GTA.Chrono.IDatelike<T>.WithDayOfYear0(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: T WithDayOfYear0(int dayOfYear0)
+    parameters:
+    - id: dayOfYear0
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Function WithDayOfYear0(dayOfYear0 As Integer) As T
+  overload: GTA.Chrono.IDatelike`1.WithDayOfYear0*
+  nameWithType.vb: IDatelike(Of T).WithDayOfYear0(Integer)
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDayOfYear0(Integer)
+  name.vb: WithDayOfYear0(Integer)
+- uid: GTA.Chrono.IDatelike`1.Year
+  commentId: P:GTA.Chrono.IDatelike`1.Year
+  id: Year
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: IDatelike<T>.Year
+  fullName: GTA.Chrono.IDatelike<T>.Year
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int Year { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Year As Integer
+  overload: GTA.Chrono.IDatelike`1.Year*
+  nameWithType.vb: IDatelike(Of T).Year
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Year
+- uid: GTA.Chrono.IDatelike`1.Month
+  commentId: P:GTA.Chrono.IDatelike`1.Month
+  id: Month
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: IDatelike<T>.Month
+  fullName: GTA.Chrono.IDatelike<T>.Month
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int Month { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Month As Integer
+  overload: GTA.Chrono.IDatelike`1.Month*
+  nameWithType.vb: IDatelike(Of T).Month
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Month
+- uid: GTA.Chrono.IDatelike`1.Month0
+  commentId: P:GTA.Chrono.IDatelike`1.Month0
+  id: Month0
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: Month0
+  nameWithType: IDatelike<T>.Month0
+  fullName: GTA.Chrono.IDatelike<T>.Month0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int Month0 { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Month0 As Integer
+  overload: GTA.Chrono.IDatelike`1.Month0*
+  nameWithType.vb: IDatelike(Of T).Month0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Month0
+- uid: GTA.Chrono.IDatelike`1.Day
+  commentId: P:GTA.Chrono.IDatelike`1.Day
+  id: Day
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: IDatelike<T>.Day
+  fullName: GTA.Chrono.IDatelike<T>.Day
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int Day { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Day As Integer
+  overload: GTA.Chrono.IDatelike`1.Day*
+  nameWithType.vb: IDatelike(Of T).Day
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Day
+- uid: GTA.Chrono.IDatelike`1.Day0
+  commentId: P:GTA.Chrono.IDatelike`1.Day0
+  id: Day0
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: Day0
+  nameWithType: IDatelike<T>.Day0
+  fullName: GTA.Chrono.IDatelike<T>.Day0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int Day0 { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Day0 As Integer
+  overload: GTA.Chrono.IDatelike`1.Day0*
+  nameWithType.vb: IDatelike(Of T).Day0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Day0
+- uid: GTA.Chrono.IDatelike`1.DayOfYear
+  commentId: P:GTA.Chrono.IDatelike`1.DayOfYear
+  id: DayOfYear
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: DayOfYear
+  nameWithType: IDatelike<T>.DayOfYear
+  fullName: GTA.Chrono.IDatelike<T>.DayOfYear
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int DayOfYear { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property DayOfYear As Integer
+  overload: GTA.Chrono.IDatelike`1.DayOfYear*
+  nameWithType.vb: IDatelike(Of T).DayOfYear
+  fullName.vb: GTA.Chrono.IDatelike(Of T).DayOfYear
+- uid: GTA.Chrono.IDatelike`1.DayOfYear0
+  commentId: P:GTA.Chrono.IDatelike`1.DayOfYear0
+  id: DayOfYear0
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: DayOfYear0
+  nameWithType: IDatelike<T>.DayOfYear0
+  fullName: GTA.Chrono.IDatelike<T>.DayOfYear0
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: int DayOfYear0 { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property DayOfYear0 As Integer
+  overload: GTA.Chrono.IDatelike`1.DayOfYear0*
+  nameWithType.vb: IDatelike(Of T).DayOfYear0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).DayOfYear0
+- uid: GTA.Chrono.IDatelike`1.DayOfWeek
+  commentId: P:GTA.Chrono.IDatelike`1.DayOfWeek
+  id: DayOfWeek
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: DayOfWeek
+  nameWithType: IDatelike<T>.DayOfWeek
+  fullName: GTA.Chrono.IDatelike<T>.DayOfWeek
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: DayOfWeek DayOfWeek { get; }
+    parameters: []
+    return:
+      type: System.DayOfWeek
+    content.vb: ReadOnly Property DayOfWeek As DayOfWeek
+  overload: GTA.Chrono.IDatelike`1.DayOfWeek*
+  nameWithType.vb: IDatelike(Of T).DayOfWeek
+  fullName.vb: GTA.Chrono.IDatelike(Of T).DayOfWeek
+- uid: GTA.Chrono.IDatelike`1.IsoDayOfWeek
+  commentId: P:GTA.Chrono.IDatelike`1.IsoDayOfWeek
+  id: IsoDayOfWeek
+  parent: GTA.Chrono.IDatelike`1
+  langs:
+  - csharp
+  - vb
+  name: IsoDayOfWeek
+  nameWithType: IDatelike<T>.IsoDayOfWeek
+  fullName: GTA.Chrono.IDatelike<T>.IsoDayOfWeek
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Chrono
+  syntax:
+    content: IsoDayOfWeek IsoDayOfWeek { get; }
+    parameters: []
+    return:
+      type: GTA.Chrono.IsoDayOfWeek
+    content.vb: ReadOnly Property IsoDayOfWeek As IsoDayOfWeek
+  overload: GTA.Chrono.IDatelike`1.IsoDayOfWeek*
+  nameWithType.vb: IDatelike(Of T).IsoDayOfWeek
+  fullName.vb: GTA.Chrono.IDatelike(Of T).IsoDayOfWeek
+references:
+- uid: GTA.Chrono
+  commentId: N:GTA.Chrono
+  isExternal: true
+  href: GTA.html
+  name: GTA.Chrono
+  nameWithType: GTA.Chrono
+  fullName: GTA.Chrono
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Chrono
+    name: Chrono
+    isExternal: true
+    href: GTA.Chrono.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Chrono
+    name: Chrono
+    isExternal: true
+    href: GTA.Chrono.html
+- uid: GTA.Chrono.IDatelike`1.WithYear*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithYear
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithYear_System_Int32_
+  name: WithYear
+  nameWithType: IDatelike<T>.WithYear
+  fullName: GTA.Chrono.IDatelike<T>.WithYear
+  nameWithType.vb: IDatelike(Of T).WithYear
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithYear
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: GTA.Chrono.IDatelike`1.WithMonth*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithMonth
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithMonth_System_Int32_
+  name: WithMonth
+  nameWithType: IDatelike<T>.WithMonth
+  fullName: GTA.Chrono.IDatelike<T>.WithMonth
+  nameWithType.vb: IDatelike(Of T).WithMonth
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithMonth
+- uid: GTA.Chrono.IDatelike`1.WithMonth0*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithMonth0
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithMonth0_System_Int32_
+  name: WithMonth0
+  nameWithType: IDatelike<T>.WithMonth0
+  fullName: GTA.Chrono.IDatelike<T>.WithMonth0
+  nameWithType.vb: IDatelike(Of T).WithMonth0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithMonth0
+- uid: GTA.Chrono.IDatelike`1.WithDay*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithDay
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithDay_System_Int32_
+  name: WithDay
+  nameWithType: IDatelike<T>.WithDay
+  fullName: GTA.Chrono.IDatelike<T>.WithDay
+  nameWithType.vb: IDatelike(Of T).WithDay
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDay
+- uid: GTA.Chrono.IDatelike`1.WithDay0*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithDay0
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithDay0_System_Int32_
+  name: WithDay0
+  nameWithType: IDatelike<T>.WithDay0
+  fullName: GTA.Chrono.IDatelike<T>.WithDay0
+  nameWithType.vb: IDatelike(Of T).WithDay0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDay0
+- uid: GTA.Chrono.IDatelike`1.WithDayOfYear*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithDayOfYear
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithDayOfYear_System_Int32_
+  name: WithDayOfYear
+  nameWithType: IDatelike<T>.WithDayOfYear
+  fullName: GTA.Chrono.IDatelike<T>.WithDayOfYear
+  nameWithType.vb: IDatelike(Of T).WithDayOfYear
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDayOfYear
+- uid: GTA.Chrono.IDatelike`1.WithDayOfYear0*
+  commentId: Overload:GTA.Chrono.IDatelike`1.WithDayOfYear0
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_WithDayOfYear0_System_Int32_
+  name: WithDayOfYear0
+  nameWithType: IDatelike<T>.WithDayOfYear0
+  fullName: GTA.Chrono.IDatelike<T>.WithDayOfYear0
+  nameWithType.vb: IDatelike(Of T).WithDayOfYear0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).WithDayOfYear0
+- uid: GTA.Chrono.IDatelike`1.Year*
+  commentId: Overload:GTA.Chrono.IDatelike`1.Year
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_Year
+  name: Year
+  nameWithType: IDatelike<T>.Year
+  fullName: GTA.Chrono.IDatelike<T>.Year
+  nameWithType.vb: IDatelike(Of T).Year
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Year
+- uid: GTA.Chrono.IDatelike`1.Month*
+  commentId: Overload:GTA.Chrono.IDatelike`1.Month
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_Month
+  name: Month
+  nameWithType: IDatelike<T>.Month
+  fullName: GTA.Chrono.IDatelike<T>.Month
+  nameWithType.vb: IDatelike(Of T).Month
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Month
+- uid: GTA.Chrono.IDatelike`1.Month0*
+  commentId: Overload:GTA.Chrono.IDatelike`1.Month0
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_Month0
+  name: Month0
+  nameWithType: IDatelike<T>.Month0
+  fullName: GTA.Chrono.IDatelike<T>.Month0
+  nameWithType.vb: IDatelike(Of T).Month0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Month0
+- uid: GTA.Chrono.IDatelike`1.Day*
+  commentId: Overload:GTA.Chrono.IDatelike`1.Day
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_Day
+  name: Day
+  nameWithType: IDatelike<T>.Day
+  fullName: GTA.Chrono.IDatelike<T>.Day
+  nameWithType.vb: IDatelike(Of T).Day
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Day
+- uid: GTA.Chrono.IDatelike`1.Day0*
+  commentId: Overload:GTA.Chrono.IDatelike`1.Day0
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_Day0
+  name: Day0
+  nameWithType: IDatelike<T>.Day0
+  fullName: GTA.Chrono.IDatelike<T>.Day0
+  nameWithType.vb: IDatelike(Of T).Day0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).Day0
+- uid: GTA.Chrono.IDatelike`1.DayOfYear*
+  commentId: Overload:GTA.Chrono.IDatelike`1.DayOfYear
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_DayOfYear
+  name: DayOfYear
+  nameWithType: IDatelike<T>.DayOfYear
+  fullName: GTA.Chrono.IDatelike<T>.DayOfYear
+  nameWithType.vb: IDatelike(Of T).DayOfYear
+  fullName.vb: GTA.Chrono.IDatelike(Of T).DayOfYear
+- uid: GTA.Chrono.IDatelike`1.DayOfYear0*
+  commentId: Overload:GTA.Chrono.IDatelike`1.DayOfYear0
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_DayOfYear0
+  name: DayOfYear0
+  nameWithType: IDatelike<T>.DayOfYear0
+  fullName: GTA.Chrono.IDatelike<T>.DayOfYear0
+  nameWithType.vb: IDatelike(Of T).DayOfYear0
+  fullName.vb: GTA.Chrono.IDatelike(Of T).DayOfYear0
+- uid: GTA.Chrono.IDatelike`1.DayOfWeek*
+  commentId: Overload:GTA.Chrono.IDatelike`1.DayOfWeek
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_DayOfWeek
+  name: DayOfWeek
+  nameWithType: IDatelike<T>.DayOfWeek
+  fullName: GTA.Chrono.IDatelike<T>.DayOfWeek
+  nameWithType.vb: IDatelike(Of T).DayOfWeek
+  fullName.vb: GTA.Chrono.IDatelike(Of T).DayOfWeek
+- uid: System.DayOfWeek
+  commentId: T:System.DayOfWeek
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.dayofweek
+  name: DayOfWeek
+  nameWithType: DayOfWeek
+  fullName: System.DayOfWeek
+- uid: GTA.Chrono.IDatelike`1.IsoDayOfWeek*
+  commentId: Overload:GTA.Chrono.IDatelike`1.IsoDayOfWeek
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html#GTA_Chrono_IDatelike_1_IsoDayOfWeek
+  name: IsoDayOfWeek
+  nameWithType: IDatelike<T>.IsoDayOfWeek
+  fullName: GTA.Chrono.IDatelike<T>.IsoDayOfWeek
+  nameWithType.vb: IDatelike(Of T).IsoDayOfWeek
+  fullName.vb: GTA.Chrono.IDatelike(Of T).IsoDayOfWeek
+- uid: GTA.Chrono.IsoDayOfWeek
+  commentId: T:GTA.Chrono.IsoDayOfWeek
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.IsoDayOfWeek.html
+  name: IsoDayOfWeek
+  nameWithType: IsoDayOfWeek
+  fullName: GTA.Chrono.IsoDayOfWeek

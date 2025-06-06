@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.FallType
+  commentId: T:GTA.NaturalMotion.FallType
+  id: FallType
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.FallType.DontChangeStep
+  - GTA.NaturalMotion.FallType.ForceBalance
+  - GTA.NaturalMotion.FallType.RampDownStiffness
+  - GTA.NaturalMotion.FallType.Slump
+  langs:
+  - csharp
+  - vb
+  name: FallType
+  nameWithType: FallType
+  fullName: GTA.NaturalMotion.FallType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum FallType
+    content.vb: Public Enum FallType
+- uid: GTA.NaturalMotion.FallType.RampDownStiffness
+  commentId: F:GTA.NaturalMotion.FallType.RampDownStiffness
+  id: RampDownStiffness
+  parent: GTA.NaturalMotion.FallType
+  langs:
+  - csharp
+  - vb
+  name: RampDownStiffness
+  nameWithType: FallType.RampDownStiffness
+  fullName: GTA.NaturalMotion.FallType.RampDownStiffness
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: RampDownStiffness = 0
+    return:
+      type: GTA.NaturalMotion.FallType
+- uid: GTA.NaturalMotion.FallType.DontChangeStep
+  commentId: F:GTA.NaturalMotion.FallType.DontChangeStep
+  id: DontChangeStep
+  parent: GTA.NaturalMotion.FallType
+  langs:
+  - csharp
+  - vb
+  name: DontChangeStep
+  nameWithType: FallType.DontChangeStep
+  fullName: GTA.NaturalMotion.FallType.DontChangeStep
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: DontChangeStep = 1
+    return:
+      type: GTA.NaturalMotion.FallType
+- uid: GTA.NaturalMotion.FallType.ForceBalance
+  commentId: F:GTA.NaturalMotion.FallType.ForceBalance
+  id: ForceBalance
+  parent: GTA.NaturalMotion.FallType
+  langs:
+  - csharp
+  - vb
+  name: ForceBalance
+  nameWithType: FallType.ForceBalance
+  fullName: GTA.NaturalMotion.FallType.ForceBalance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: ForceBalance = 2
+    return:
+      type: GTA.NaturalMotion.FallType
+- uid: GTA.NaturalMotion.FallType.Slump
+  commentId: F:GTA.NaturalMotion.FallType.Slump
+  id: Slump
+  parent: GTA.NaturalMotion.FallType
+  langs:
+  - csharp
+  - vb
+  name: Slump
+  nameWithType: FallType.Slump
+  fullName: GTA.NaturalMotion.FallType.Slump
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Slump = 3
+    return:
+      type: GTA.NaturalMotion.FallType
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.FallType
+  commentId: T:GTA.NaturalMotion.FallType
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.FallType.html
+  name: FallType
+  nameWithType: FallType
+  fullName: GTA.NaturalMotion.FallType

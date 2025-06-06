@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.RagdollFallType
+  commentId: T:GTA.RagdollFallType
+  id: RagdollFallType
+  parent: GTA
+  children:
+  - GTA.RagdollFallType.FallToDeath
+  - GTA.RagdollFallType.Female
+  - GTA.RagdollFallType.Male
+  - GTA.RagdollFallType.MaleLarge
+  langs:
+  - csharp
+  - vb
+  name: RagdollFallType
+  nameWithType: RagdollFallType
+  fullName: GTA.RagdollFallType
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum RagdollFallType
+    content.vb: Public Enum RagdollFallType
+- uid: GTA.RagdollFallType.Male
+  commentId: F:GTA.RagdollFallType.Male
+  id: Male
+  parent: GTA.RagdollFallType
+  langs:
+  - csharp
+  - vb
+  name: Male
+  nameWithType: RagdollFallType.Male
+  fullName: GTA.RagdollFallType.Male
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Male = 0
+    return:
+      type: GTA.RagdollFallType
+- uid: GTA.RagdollFallType.Female
+  commentId: F:GTA.RagdollFallType.Female
+  id: Female
+  parent: GTA.RagdollFallType
+  langs:
+  - csharp
+  - vb
+  name: Female
+  nameWithType: RagdollFallType.Female
+  fullName: GTA.RagdollFallType.Female
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Female = 1
+    return:
+      type: GTA.RagdollFallType
+- uid: GTA.RagdollFallType.MaleLarge
+  commentId: F:GTA.RagdollFallType.MaleLarge
+  id: MaleLarge
+  parent: GTA.RagdollFallType
+  langs:
+  - csharp
+  - vb
+  name: MaleLarge
+  nameWithType: RagdollFallType.MaleLarge
+  fullName: GTA.RagdollFallType.MaleLarge
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MaleLarge = 2
+    return:
+      type: GTA.RagdollFallType
+- uid: GTA.RagdollFallType.FallToDeath
+  commentId: F:GTA.RagdollFallType.FallToDeath
+  id: FallToDeath
+  parent: GTA.RagdollFallType
+  langs:
+  - csharp
+  - vb
+  name: FallToDeath
+  nameWithType: RagdollFallType.FallToDeath
+  fullName: GTA.RagdollFallType.FallToDeath
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FallToDeath = 4
+    return:
+      type: GTA.RagdollFallType
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.RagdollFallType
+  commentId: T:GTA.RagdollFallType
+  parent: GTA
+  isExternal: true
+  href: GTA.RagdollFallType.html
+  name: RagdollFallType
+  nameWithType: RagdollFallType
+  fullName: GTA.RagdollFallType

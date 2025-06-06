@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.CombatFloatAttributes
+  commentId: T:GTA.CombatFloatAttributes
+  id: CombatFloatAttributes
+  parent: GTA
+  children:
+  - GTA.CombatFloatAttributes.AimTurnThreshold
+  - GTA.CombatFloatAttributes.AttackWindowDistanceForCover
+  - GTA.CombatFloatAttributes.AutomobileSpeedModifier
+  - GTA.CombatFloatAttributes.BlindFireChance
+  - GTA.CombatFloatAttributes.BulletImpactDetectionRange
+  - GTA.CombatFloatAttributes.BurstDurationInCover
+  - GTA.CombatFloatAttributes.FightProficiency
+  - GTA.CombatFloatAttributes.HeliSensesRange
+  - GTA.CombatFloatAttributes.HeliSpeedModifier
+  - GTA.CombatFloatAttributes.HomingRocketBreakLockAngle
+  - GTA.CombatFloatAttributes.HomingRocketBreakLockAngleClose
+  - GTA.CombatFloatAttributes.HomingRocketBreakLockCloseDistance
+  - GTA.CombatFloatAttributes.HomingRocketTurnRateModifier
+  - GTA.CombatFloatAttributes.MaxDistanceToHearEvents
+  - GTA.CombatFloatAttributes.MaxDistanceToHearEventsUsingLOS
+  - GTA.CombatFloatAttributes.MaxShootingDistance
+  - GTA.CombatFloatAttributes.MaxVehicleTurretFiringRange
+  - GTA.CombatFloatAttributes.MinimumDistanceToTarget
+  - GTA.CombatFloatAttributes.OptimalCoverDistance
+  - GTA.CombatFloatAttributes.SpeedToFleeInVehicle
+  - GTA.CombatFloatAttributes.StrafeWhenMovingChance
+  - GTA.CombatFloatAttributes.TimeBetweenAggressiveMovesDuringVehicleChase
+  - GTA.CombatFloatAttributes.TimeBetweenBurstsInCover
+  - GTA.CombatFloatAttributes.TimeBetweenPeeks
+  - GTA.CombatFloatAttributes.TimeToInvalidateInjuredTarget
+  - GTA.CombatFloatAttributes.TriggerChargeTimeFar
+  - GTA.CombatFloatAttributes.TriggerChargeTimeNear
+  - GTA.CombatFloatAttributes.UnarmedDamageModifier
+  - GTA.CombatFloatAttributes.WalkWhenStrafingChance
+  - GTA.CombatFloatAttributes.WeaponAccuracy
+  - GTA.CombatFloatAttributes.WeaponDamageModifier
+  langs:
+  - csharp
+  - vb
+  name: CombatFloatAttributes
+  nameWithType: CombatFloatAttributes
+  fullName: GTA.CombatFloatAttributes
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum CombatFloatAttributes
+    content.vb: Public Enum CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.BlindFireChance
+  commentId: F:GTA.CombatFloatAttributes.BlindFireChance
+  id: BlindFireChance
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: BlindFireChance
+  nameWithType: CombatFloatAttributes.BlindFireChance
+  fullName: GTA.CombatFloatAttributes.BlindFireChance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BlindFireChance = 0
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.BurstDurationInCover
+  commentId: F:GTA.CombatFloatAttributes.BurstDurationInCover
+  id: BurstDurationInCover
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: BurstDurationInCover
+  nameWithType: CombatFloatAttributes.BurstDurationInCover
+  fullName: GTA.CombatFloatAttributes.BurstDurationInCover
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BurstDurationInCover = 1
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.MaxShootingDistance
+  commentId: F:GTA.CombatFloatAttributes.MaxShootingDistance
+  id: MaxShootingDistance
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: MaxShootingDistance
+  nameWithType: CombatFloatAttributes.MaxShootingDistance
+  fullName: GTA.CombatFloatAttributes.MaxShootingDistance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MaxShootingDistance = 2
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.TimeBetweenBurstsInCover
+  commentId: F:GTA.CombatFloatAttributes.TimeBetweenBurstsInCover
+  id: TimeBetweenBurstsInCover
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: TimeBetweenBurstsInCover
+  nameWithType: CombatFloatAttributes.TimeBetweenBurstsInCover
+  fullName: GTA.CombatFloatAttributes.TimeBetweenBurstsInCover
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TimeBetweenBurstsInCover = 3
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.TimeBetweenPeeks
+  commentId: F:GTA.CombatFloatAttributes.TimeBetweenPeeks
+  id: TimeBetweenPeeks
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: TimeBetweenPeeks
+  nameWithType: CombatFloatAttributes.TimeBetweenPeeks
+  fullName: GTA.CombatFloatAttributes.TimeBetweenPeeks
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TimeBetweenPeeks = 4
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.StrafeWhenMovingChance
+  commentId: F:GTA.CombatFloatAttributes.StrafeWhenMovingChance
+  id: StrafeWhenMovingChance
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: StrafeWhenMovingChance
+  nameWithType: CombatFloatAttributes.StrafeWhenMovingChance
+  fullName: GTA.CombatFloatAttributes.StrafeWhenMovingChance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StrafeWhenMovingChance = 5
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.WeaponAccuracy
+  commentId: F:GTA.CombatFloatAttributes.WeaponAccuracy
+  id: WeaponAccuracy
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: WeaponAccuracy
+  nameWithType: CombatFloatAttributes.WeaponAccuracy
+  fullName: GTA.CombatFloatAttributes.WeaponAccuracy
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WeaponAccuracy = 6
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.FightProficiency
+  commentId: F:GTA.CombatFloatAttributes.FightProficiency
+  id: FightProficiency
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: FightProficiency
+  nameWithType: CombatFloatAttributes.FightProficiency
+  fullName: GTA.CombatFloatAttributes.FightProficiency
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FightProficiency = 7
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.WalkWhenStrafingChance
+  commentId: F:GTA.CombatFloatAttributes.WalkWhenStrafingChance
+  id: WalkWhenStrafingChance
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: WalkWhenStrafingChance
+  nameWithType: CombatFloatAttributes.WalkWhenStrafingChance
+  fullName: GTA.CombatFloatAttributes.WalkWhenStrafingChance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WalkWhenStrafingChance = 8
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.HeliSpeedModifier
+  commentId: F:GTA.CombatFloatAttributes.HeliSpeedModifier
+  id: HeliSpeedModifier
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: HeliSpeedModifier
+  nameWithType: CombatFloatAttributes.HeliSpeedModifier
+  fullName: GTA.CombatFloatAttributes.HeliSpeedModifier
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HeliSpeedModifier = 9
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.HeliSensesRange
+  commentId: F:GTA.CombatFloatAttributes.HeliSensesRange
+  id: HeliSensesRange
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: HeliSensesRange
+  nameWithType: CombatFloatAttributes.HeliSensesRange
+  fullName: GTA.CombatFloatAttributes.HeliSensesRange
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HeliSensesRange = 10
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.AttackWindowDistanceForCover
+  commentId: F:GTA.CombatFloatAttributes.AttackWindowDistanceForCover
+  id: AttackWindowDistanceForCover
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: AttackWindowDistanceForCover
+  nameWithType: CombatFloatAttributes.AttackWindowDistanceForCover
+  fullName: GTA.CombatFloatAttributes.AttackWindowDistanceForCover
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AttackWindowDistanceForCover = 11
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.TimeToInvalidateInjuredTarget
+  commentId: F:GTA.CombatFloatAttributes.TimeToInvalidateInjuredTarget
+  id: TimeToInvalidateInjuredTarget
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: TimeToInvalidateInjuredTarget
+  nameWithType: CombatFloatAttributes.TimeToInvalidateInjuredTarget
+  fullName: GTA.CombatFloatAttributes.TimeToInvalidateInjuredTarget
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TimeToInvalidateInjuredTarget = 12
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.MinimumDistanceToTarget
+  commentId: F:GTA.CombatFloatAttributes.MinimumDistanceToTarget
+  id: MinimumDistanceToTarget
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: MinimumDistanceToTarget
+  nameWithType: CombatFloatAttributes.MinimumDistanceToTarget
+  fullName: GTA.CombatFloatAttributes.MinimumDistanceToTarget
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MinimumDistanceToTarget = 13
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.BulletImpactDetectionRange
+  commentId: F:GTA.CombatFloatAttributes.BulletImpactDetectionRange
+  id: BulletImpactDetectionRange
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: BulletImpactDetectionRange
+  nameWithType: CombatFloatAttributes.BulletImpactDetectionRange
+  fullName: GTA.CombatFloatAttributes.BulletImpactDetectionRange
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: BulletImpactDetectionRange = 14
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.AimTurnThreshold
+  commentId: F:GTA.CombatFloatAttributes.AimTurnThreshold
+  id: AimTurnThreshold
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: AimTurnThreshold
+  nameWithType: CombatFloatAttributes.AimTurnThreshold
+  fullName: GTA.CombatFloatAttributes.AimTurnThreshold
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AimTurnThreshold = 15
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.OptimalCoverDistance
+  commentId: F:GTA.CombatFloatAttributes.OptimalCoverDistance
+  id: OptimalCoverDistance
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: OptimalCoverDistance
+  nameWithType: CombatFloatAttributes.OptimalCoverDistance
+  fullName: GTA.CombatFloatAttributes.OptimalCoverDistance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: OptimalCoverDistance = 16
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.AutomobileSpeedModifier
+  commentId: F:GTA.CombatFloatAttributes.AutomobileSpeedModifier
+  id: AutomobileSpeedModifier
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: AutomobileSpeedModifier
+  nameWithType: CombatFloatAttributes.AutomobileSpeedModifier
+  fullName: GTA.CombatFloatAttributes.AutomobileSpeedModifier
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AutomobileSpeedModifier = 17
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.SpeedToFleeInVehicle
+  commentId: F:GTA.CombatFloatAttributes.SpeedToFleeInVehicle
+  id: SpeedToFleeInVehicle
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: SpeedToFleeInVehicle
+  nameWithType: CombatFloatAttributes.SpeedToFleeInVehicle
+  fullName: GTA.CombatFloatAttributes.SpeedToFleeInVehicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SpeedToFleeInVehicle = 18
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.TriggerChargeTimeFar
+  commentId: F:GTA.CombatFloatAttributes.TriggerChargeTimeFar
+  id: TriggerChargeTimeFar
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: TriggerChargeTimeFar
+  nameWithType: CombatFloatAttributes.TriggerChargeTimeFar
+  fullName: GTA.CombatFloatAttributes.TriggerChargeTimeFar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TriggerChargeTimeFar = 19
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.TriggerChargeTimeNear
+  commentId: F:GTA.CombatFloatAttributes.TriggerChargeTimeNear
+  id: TriggerChargeTimeNear
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: TriggerChargeTimeNear
+  nameWithType: CombatFloatAttributes.TriggerChargeTimeNear
+  fullName: GTA.CombatFloatAttributes.TriggerChargeTimeNear
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TriggerChargeTimeNear = 20
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.MaxDistanceToHearEvents
+  commentId: F:GTA.CombatFloatAttributes.MaxDistanceToHearEvents
+  id: MaxDistanceToHearEvents
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: MaxDistanceToHearEvents
+  nameWithType: CombatFloatAttributes.MaxDistanceToHearEvents
+  fullName: GTA.CombatFloatAttributes.MaxDistanceToHearEvents
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MaxDistanceToHearEvents = 21
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.MaxDistanceToHearEventsUsingLOS
+  commentId: F:GTA.CombatFloatAttributes.MaxDistanceToHearEventsUsingLOS
+  id: MaxDistanceToHearEventsUsingLOS
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: MaxDistanceToHearEventsUsingLOS
+  nameWithType: CombatFloatAttributes.MaxDistanceToHearEventsUsingLOS
+  fullName: GTA.CombatFloatAttributes.MaxDistanceToHearEventsUsingLOS
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MaxDistanceToHearEventsUsingLOS = 22
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.HomingRocketBreakLockAngle
+  commentId: F:GTA.CombatFloatAttributes.HomingRocketBreakLockAngle
+  id: HomingRocketBreakLockAngle
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: HomingRocketBreakLockAngle
+  nameWithType: CombatFloatAttributes.HomingRocketBreakLockAngle
+  fullName: GTA.CombatFloatAttributes.HomingRocketBreakLockAngle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HomingRocketBreakLockAngle = 23
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.HomingRocketBreakLockAngleClose
+  commentId: F:GTA.CombatFloatAttributes.HomingRocketBreakLockAngleClose
+  id: HomingRocketBreakLockAngleClose
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: HomingRocketBreakLockAngleClose
+  nameWithType: CombatFloatAttributes.HomingRocketBreakLockAngleClose
+  fullName: GTA.CombatFloatAttributes.HomingRocketBreakLockAngleClose
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HomingRocketBreakLockAngleClose = 24
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.HomingRocketBreakLockCloseDistance
+  commentId: F:GTA.CombatFloatAttributes.HomingRocketBreakLockCloseDistance
+  id: HomingRocketBreakLockCloseDistance
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: HomingRocketBreakLockCloseDistance
+  nameWithType: CombatFloatAttributes.HomingRocketBreakLockCloseDistance
+  fullName: GTA.CombatFloatAttributes.HomingRocketBreakLockCloseDistance
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HomingRocketBreakLockCloseDistance = 25
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.HomingRocketTurnRateModifier
+  commentId: F:GTA.CombatFloatAttributes.HomingRocketTurnRateModifier
+  id: HomingRocketTurnRateModifier
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: HomingRocketTurnRateModifier
+  nameWithType: CombatFloatAttributes.HomingRocketTurnRateModifier
+  fullName: GTA.CombatFloatAttributes.HomingRocketTurnRateModifier
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: HomingRocketTurnRateModifier = 26
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.TimeBetweenAggressiveMovesDuringVehicleChase
+  commentId: F:GTA.CombatFloatAttributes.TimeBetweenAggressiveMovesDuringVehicleChase
+  id: TimeBetweenAggressiveMovesDuringVehicleChase
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: TimeBetweenAggressiveMovesDuringVehicleChase
+  nameWithType: CombatFloatAttributes.TimeBetweenAggressiveMovesDuringVehicleChase
+  fullName: GTA.CombatFloatAttributes.TimeBetweenAggressiveMovesDuringVehicleChase
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: TimeBetweenAggressiveMovesDuringVehicleChase = 27
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.MaxVehicleTurretFiringRange
+  commentId: F:GTA.CombatFloatAttributes.MaxVehicleTurretFiringRange
+  id: MaxVehicleTurretFiringRange
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: MaxVehicleTurretFiringRange
+  nameWithType: CombatFloatAttributes.MaxVehicleTurretFiringRange
+  fullName: GTA.CombatFloatAttributes.MaxVehicleTurretFiringRange
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: MaxVehicleTurretFiringRange = 28
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.WeaponDamageModifier
+  commentId: F:GTA.CombatFloatAttributes.WeaponDamageModifier
+  id: WeaponDamageModifier
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: WeaponDamageModifier
+  nameWithType: CombatFloatAttributes.WeaponDamageModifier
+  fullName: GTA.CombatFloatAttributes.WeaponDamageModifier
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: WeaponDamageModifier = 29
+    return:
+      type: GTA.CombatFloatAttributes
+- uid: GTA.CombatFloatAttributes.UnarmedDamageModifier
+  commentId: F:GTA.CombatFloatAttributes.UnarmedDamageModifier
+  id: UnarmedDamageModifier
+  parent: GTA.CombatFloatAttributes
+  langs:
+  - csharp
+  - vb
+  name: UnarmedDamageModifier
+  nameWithType: CombatFloatAttributes.UnarmedDamageModifier
+  fullName: GTA.CombatFloatAttributes.UnarmedDamageModifier
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: UnarmedDamageModifier = 30
+    return:
+      type: GTA.CombatFloatAttributes
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.CombatFloatAttributes
+  commentId: T:GTA.CombatFloatAttributes
+  parent: GTA
+  isExternal: true
+  href: GTA.CombatFloatAttributes.html
+  name: CombatFloatAttributes
+  nameWithType: CombatFloatAttributes
+  fullName: GTA.CombatFloatAttributes

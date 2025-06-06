@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ISpatial
+  commentId: T:GTA.ISpatial
+  id: ISpatial
+  parent: GTA
+  children:
+  - GTA.ISpatial.Position
+  - GTA.ISpatial.Rotation
+  langs:
+  - csharp
+  - vb
+  name: ISpatial
+  nameWithType: ISpatial
+  fullName: GTA.ISpatial
+  type: Interface
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public interface ISpatial
+    content.vb: Public Interface ISpatial
+- uid: GTA.ISpatial.Position
+  commentId: P:GTA.ISpatial.Position
+  id: Position
+  parent: GTA.ISpatial
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ISpatial.Position
+  fullName: GTA.ISpatial.Position
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Vector3 Position { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Property Position As Vector3
+  overload: GTA.ISpatial.Position*
+- uid: GTA.ISpatial.Rotation
+  commentId: P:GTA.ISpatial.Rotation
+  id: Rotation
+  parent: GTA.ISpatial
+  langs:
+  - csharp
+  - vb
+  name: Rotation
+  nameWithType: ISpatial.Rotation
+  fullName: GTA.ISpatial.Rotation
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Vector3 Rotation { get; set; }
+    parameters: []
+    return:
+      type: GTA.Math.Vector3
+    content.vb: Property Rotation As Vector3
+  overload: GTA.ISpatial.Rotation*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ISpatial.Position*
+  commentId: Overload:GTA.ISpatial.Position
+  isExternal: true
+  href: GTA.ISpatial.html#GTA_ISpatial_Position
+  name: Position
+  nameWithType: ISpatial.Position
+  fullName: GTA.ISpatial.Position
+- uid: GTA.Math.Vector3
+  commentId: T:GTA.Math.Vector3
+  parent: GTA.Math
+  isExternal: true
+  href: GTA.Math.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: GTA.Math.Vector3
+- uid: GTA.Math
+  commentId: N:GTA.Math
+  isExternal: true
+  href: GTA.html
+  name: GTA.Math
+  nameWithType: GTA.Math
+  fullName: GTA.Math
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Math
+    name: Math
+    isExternal: true
+    href: GTA.Math.html
+- uid: GTA.ISpatial.Rotation*
+  commentId: Overload:GTA.ISpatial.Rotation
+  isExternal: true
+  href: GTA.ISpatial.html#GTA_ISpatial_Rotation
+  name: Rotation
+  nameWithType: ISpatial.Rotation
+  fullName: GTA.ISpatial.Rotation

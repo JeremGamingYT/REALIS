@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PedMotionState
+  commentId: T:GTA.PedMotionState
+  id: PedMotionState
+  parent: GTA
+  children:
+  - GTA.PedMotionState.ActionModeIdle
+  - GTA.PedMotionState.ActionModeRun
+  - GTA.PedMotionState.ActionModeWalk
+  - GTA.PedMotionState.Aiming
+  - GTA.PedMotionState.AnimatedVelocity
+  - GTA.PedMotionState.CrouchIdle
+  - GTA.PedMotionState.CrouchRun
+  - GTA.PedMotionState.CrouchWalk
+  - GTA.PedMotionState.Dead
+  - GTA.PedMotionState.DivingIdle
+  - GTA.PedMotionState.DivingSwim
+  - GTA.PedMotionState.DoNothing
+  - GTA.PedMotionState.Idle
+  - GTA.PedMotionState.InVehicle
+  - GTA.PedMotionState.Jetpack
+  - GTA.PedMotionState.None
+  - GTA.PedMotionState.Parachuting
+  - GTA.PedMotionState.Run
+  - GTA.PedMotionState.Sprint
+  - GTA.PedMotionState.StealthIdle
+  - GTA.PedMotionState.StealthRun
+  - GTA.PedMotionState.StealthWalk
+  - GTA.PedMotionState.SwimmingTreadWater
+  - GTA.PedMotionState.Walk
+  langs:
+  - csharp
+  - vb
+  name: PedMotionState
+  nameWithType: PedMotionState
+  fullName: GTA.PedMotionState
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: 'public enum PedMotionState : uint'
+    content.vb: Public Enum PedMotionState As UInteger
+- uid: GTA.PedMotionState.None
+  commentId: F:GTA.PedMotionState.None
+  id: None
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: PedMotionState.None
+  fullName: GTA.PedMotionState.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = 4000413475
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Idle
+  commentId: F:GTA.PedMotionState.Idle
+  id: Idle
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Idle
+  nameWithType: PedMotionState.Idle
+  fullName: GTA.PedMotionState.Idle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Idle = 2423432979
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Walk
+  commentId: F:GTA.PedMotionState.Walk
+  id: Walk
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Walk
+  nameWithType: PedMotionState.Walk
+  fullName: GTA.PedMotionState.Walk
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Walk = 3626484699
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Run
+  commentId: F:GTA.PedMotionState.Run
+  id: Run
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Run
+  nameWithType: PedMotionState.Run
+  fullName: GTA.PedMotionState.Run
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Run = 4294436772
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Sprint
+  commentId: F:GTA.PedMotionState.Sprint
+  id: Sprint
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Sprint
+  nameWithType: PedMotionState.Sprint
+  fullName: GTA.PedMotionState.Sprint
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Sprint = 3179812827
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.CrouchIdle
+  commentId: F:GTA.PedMotionState.CrouchIdle
+  id: CrouchIdle
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: CrouchIdle
+  nameWithType: PedMotionState.CrouchIdle
+  fullName: GTA.PedMotionState.CrouchIdle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CrouchIdle = 1140525470
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.CrouchWalk
+  commentId: F:GTA.PedMotionState.CrouchWalk
+  id: CrouchWalk
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: CrouchWalk
+  nameWithType: PedMotionState.CrouchWalk
+  fullName: GTA.PedMotionState.CrouchWalk
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CrouchWalk = 147004056
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.CrouchRun
+  commentId: F:GTA.PedMotionState.CrouchRun
+  id: CrouchRun
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: CrouchRun
+  nameWithType: PedMotionState.CrouchRun
+  fullName: GTA.PedMotionState.CrouchRun
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: CrouchRun = 898879241
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.DoNothing
+  commentId: F:GTA.PedMotionState.DoNothing
+  id: DoNothing
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: DoNothing
+  nameWithType: PedMotionState.DoNothing
+  fullName: GTA.PedMotionState.DoNothing
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DoNothing = 247561816
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.AnimatedVelocity
+  commentId: F:GTA.PedMotionState.AnimatedVelocity
+  id: AnimatedVelocity
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: AnimatedVelocity
+  nameWithType: PedMotionState.AnimatedVelocity
+  fullName: GTA.PedMotionState.AnimatedVelocity
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: AnimatedVelocity = 1427811395
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.InVehicle
+  commentId: F:GTA.PedMotionState.InVehicle
+  id: InVehicle
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: InVehicle
+  nameWithType: PedMotionState.InVehicle
+  fullName: GTA.PedMotionState.InVehicle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: InVehicle = 2497303949
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Aiming
+  commentId: F:GTA.PedMotionState.Aiming
+  id: Aiming
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Aiming
+  nameWithType: PedMotionState.Aiming
+  fullName: GTA.PedMotionState.Aiming
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Aiming = 1063765679
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.DivingIdle
+  commentId: F:GTA.PedMotionState.DivingIdle
+  id: DivingIdle
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: DivingIdle
+  nameWithType: PedMotionState.DivingIdle
+  fullName: GTA.PedMotionState.DivingIdle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DivingIdle = 1212730861
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.DivingSwim
+  commentId: F:GTA.PedMotionState.DivingSwim
+  id: DivingSwim
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: DivingSwim
+  nameWithType: PedMotionState.DivingSwim
+  fullName: GTA.PedMotionState.DivingSwim
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: DivingSwim = 2439938700
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.SwimmingTreadWater
+  commentId: F:GTA.PedMotionState.SwimmingTreadWater
+  id: SwimmingTreadWater
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: SwimmingTreadWater
+  nameWithType: PedMotionState.SwimmingTreadWater
+  fullName: GTA.PedMotionState.SwimmingTreadWater
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: SwimmingTreadWater = 3518960071
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Dead
+  commentId: F:GTA.PedMotionState.Dead
+  id: Dead
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Dead
+  nameWithType: PedMotionState.Dead
+  fullName: GTA.PedMotionState.Dead
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Dead = 230360860
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.StealthIdle
+  commentId: F:GTA.PedMotionState.StealthIdle
+  id: StealthIdle
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: StealthIdle
+  nameWithType: PedMotionState.StealthIdle
+  fullName: GTA.PedMotionState.StealthIdle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealthIdle = 1110276645
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.StealthWalk
+  commentId: F:GTA.PedMotionState.StealthWalk
+  id: StealthWalk
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: StealthWalk
+  nameWithType: PedMotionState.StealthWalk
+  fullName: GTA.PedMotionState.StealthWalk
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealthWalk = 69908130
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.StealthRun
+  commentId: F:GTA.PedMotionState.StealthRun
+  id: StealthRun
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: StealthRun
+  nameWithType: PedMotionState.StealthRun
+  fullName: GTA.PedMotionState.StealthRun
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: StealthRun = 4211833313
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Parachuting
+  commentId: F:GTA.PedMotionState.Parachuting
+  id: Parachuting
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Parachuting
+  nameWithType: PedMotionState.Parachuting
+  fullName: GTA.PedMotionState.Parachuting
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Parachuting = 3133206795
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.ActionModeIdle
+  commentId: F:GTA.PedMotionState.ActionModeIdle
+  id: ActionModeIdle
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: ActionModeIdle
+  nameWithType: PedMotionState.ActionModeIdle
+  fullName: GTA.PedMotionState.ActionModeIdle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ActionModeIdle = 3661668572
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.ActionModeWalk
+  commentId: F:GTA.PedMotionState.ActionModeWalk
+  id: ActionModeWalk
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: ActionModeWalk
+  nameWithType: PedMotionState.ActionModeWalk
+  fullName: GTA.PedMotionState.ActionModeWalk
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ActionModeWalk = 3532676775
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.ActionModeRun
+  commentId: F:GTA.PedMotionState.ActionModeRun
+  id: ActionModeRun
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: ActionModeRun
+  nameWithType: PedMotionState.ActionModeRun
+  fullName: GTA.PedMotionState.ActionModeRun
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: ActionModeRun = 834330132
+    return:
+      type: GTA.PedMotionState
+- uid: GTA.PedMotionState.Jetpack
+  commentId: F:GTA.PedMotionState.Jetpack
+  id: Jetpack
+  parent: GTA.PedMotionState
+  langs:
+  - csharp
+  - vb
+  name: Jetpack
+  nameWithType: PedMotionState.Jetpack
+  fullName: GTA.PedMotionState.Jetpack
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Jetpack = 1398696542
+    return:
+      type: GTA.PedMotionState
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.PedMotionState
+  commentId: T:GTA.PedMotionState
+  parent: GTA
+  isExternal: true
+  href: GTA.PedMotionState.html
+  name: PedMotionState
+  nameWithType: PedMotionState
+  fullName: GTA.PedMotionState

@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.Notification
+  commentId: T:GTA.UI.Notification
+  id: Notification
+  parent: GTA.UI
+  children:
+  - GTA.UI.Notification.Hide(System.Int32)
+  - GTA.UI.Notification.PostAward(System.String,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,System.String)
+  - GTA.UI.Notification.PostMessageText(System.String,GTA.Graphics.TextureAsset,System.Boolean,GTA.UI.FeedTextIcon,System.String,System.String)
+  - GTA.UI.Notification.PostTicker(System.String,System.Boolean,System.Boolean)
+  - GTA.UI.Notification.PostTickerForced(System.String,System.Boolean,System.Boolean)
+  - GTA.UI.Notification.PostTickerWithTokens(System.String,System.Boolean,System.Boolean)
+  - GTA.UI.Notification.PostUnlock(System.String,System.String,GTA.UI.FeedUnlockIcon)
+  - GTA.UI.Notification.PostUnlockTitleUpdate(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean)
+  - GTA.UI.Notification.PostUnlockTitleUpdateWithColor(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean,GTA.UI.HudColor,System.Boolean)
+  - GTA.UI.Notification.PostVersusTitleUpdate(GTA.Graphics.TextureAsset,System.Int32,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,GTA.UI.HudColor)
+  - GTA.UI.Notification.Show(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Notification
+  nameWithType: Notification
+  fullName: GTA.UI.Notification
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static class Notification
+    content.vb: Public Module Notification
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: GTA.UI.Notification.PostTicker(System.String,System.Boolean,System.Boolean)
+  commentId: M:GTA.UI.Notification.PostTicker(System.String,System.Boolean,System.Boolean)
+  id: PostTicker(System.String,System.Boolean,System.Boolean)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostTicker(string, bool, bool)
+  nameWithType: Notification.PostTicker(string, bool, bool)
+  fullName: GTA.UI.Notification.PostTicker(string, bool, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostTicker(string message, bool isImportant, bool cacheMessage = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: isImportant
+      type: System.Boolean
+    - id: cacheMessage
+      type: System.Boolean
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostTicker(message As String, isImportant As Boolean, cacheMessage As Boolean = True) As FeedPost
+  overload: GTA.UI.Notification.PostTicker*
+  nameWithType.vb: Notification.PostTicker(String, Boolean, Boolean)
+  fullName.vb: GTA.UI.Notification.PostTicker(String, Boolean, Boolean)
+  name.vb: PostTicker(String, Boolean, Boolean)
+- uid: GTA.UI.Notification.PostTickerForced(System.String,System.Boolean,System.Boolean)
+  commentId: M:GTA.UI.Notification.PostTickerForced(System.String,System.Boolean,System.Boolean)
+  id: PostTickerForced(System.String,System.Boolean,System.Boolean)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostTickerForced(string, bool, bool)
+  nameWithType: Notification.PostTickerForced(string, bool, bool)
+  fullName: GTA.UI.Notification.PostTickerForced(string, bool, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostTickerForced(string message, bool isImportant, bool cacheMessage = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: isImportant
+      type: System.Boolean
+    - id: cacheMessage
+      type: System.Boolean
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostTickerForced(message As String, isImportant As Boolean, cacheMessage As Boolean = True) As FeedPost
+  overload: GTA.UI.Notification.PostTickerForced*
+  nameWithType.vb: Notification.PostTickerForced(String, Boolean, Boolean)
+  fullName.vb: GTA.UI.Notification.PostTickerForced(String, Boolean, Boolean)
+  name.vb: PostTickerForced(String, Boolean, Boolean)
+- uid: GTA.UI.Notification.PostTickerWithTokens(System.String,System.Boolean,System.Boolean)
+  commentId: M:GTA.UI.Notification.PostTickerWithTokens(System.String,System.Boolean,System.Boolean)
+  id: PostTickerWithTokens(System.String,System.Boolean,System.Boolean)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostTickerWithTokens(string, bool, bool)
+  nameWithType: Notification.PostTickerWithTokens(string, bool, bool)
+  fullName: GTA.UI.Notification.PostTickerWithTokens(string, bool, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostTickerWithTokens(string message, bool isImportant, bool cacheMessage = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: isImportant
+      type: System.Boolean
+    - id: cacheMessage
+      type: System.Boolean
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostTickerWithTokens(message As String, isImportant As Boolean, cacheMessage As Boolean = True) As FeedPost
+  overload: GTA.UI.Notification.PostTickerWithTokens*
+  nameWithType.vb: Notification.PostTickerWithTokens(String, Boolean, Boolean)
+  fullName.vb: GTA.UI.Notification.PostTickerWithTokens(String, Boolean, Boolean)
+  name.vb: PostTickerWithTokens(String, Boolean, Boolean)
+- uid: GTA.UI.Notification.PostMessageText(System.String,GTA.Graphics.TextureAsset,System.Boolean,GTA.UI.FeedTextIcon,System.String,System.String)
+  commentId: M:GTA.UI.Notification.PostMessageText(System.String,GTA.Graphics.TextureAsset,System.Boolean,GTA.UI.FeedTextIcon,System.String,System.String)
+  id: PostMessageText(System.String,GTA.Graphics.TextureAsset,System.Boolean,GTA.UI.FeedTextIcon,System.String,System.String)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostMessageText(string, TextureAsset, bool, FeedTextIcon, string, string)
+  nameWithType: Notification.PostMessageText(string, TextureAsset, bool, FeedTextIcon, string, string)
+  fullName: GTA.UI.Notification.PostMessageText(string, GTA.Graphics.TextureAsset, bool, GTA.UI.FeedTextIcon, string, string)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostMessageText(string message, TextureAsset texAsset, bool isImportant, FeedTextIcon icon, string characterName, string subtitle = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: texAsset
+      type: GTA.Graphics.TextureAsset
+    - id: isImportant
+      type: System.Boolean
+    - id: icon
+      type: GTA.UI.FeedTextIcon
+    - id: characterName
+      type: System.String
+    - id: subtitle
+      type: System.String
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostMessageText(message As String, texAsset As TextureAsset, isImportant As Boolean, icon As FeedTextIcon, characterName As String, subtitle As String = Nothing) As FeedPost
+  overload: GTA.UI.Notification.PostMessageText*
+  nameWithType.vb: Notification.PostMessageText(String, TextureAsset, Boolean, FeedTextIcon, String, String)
+  fullName.vb: GTA.UI.Notification.PostMessageText(String, GTA.Graphics.TextureAsset, Boolean, GTA.UI.FeedTextIcon, String, String)
+  name.vb: PostMessageText(String, TextureAsset, Boolean, FeedTextIcon, String, String)
+- uid: GTA.UI.Notification.PostUnlock(System.String,System.String,GTA.UI.FeedUnlockIcon)
+  commentId: M:GTA.UI.Notification.PostUnlock(System.String,System.String,GTA.UI.FeedUnlockIcon)
+  id: PostUnlock(System.String,System.String,GTA.UI.FeedUnlockIcon)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostUnlock(string, string, FeedUnlockIcon)
+  nameWithType: Notification.PostUnlock(string, string, FeedUnlockIcon)
+  fullName: GTA.UI.Notification.PostUnlock(string, string, GTA.UI.FeedUnlockIcon)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostUnlock(string message, string title, FeedUnlockIcon iconType)
+    parameters:
+    - id: message
+      type: System.String
+    - id: title
+      type: System.String
+    - id: iconType
+      type: GTA.UI.FeedUnlockIcon
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostUnlock(message As String, title As String, iconType As FeedUnlockIcon) As FeedPost
+  overload: GTA.UI.Notification.PostUnlock*
+  nameWithType.vb: Notification.PostUnlock(String, String, FeedUnlockIcon)
+  fullName.vb: GTA.UI.Notification.PostUnlock(String, String, GTA.UI.FeedUnlockIcon)
+  name.vb: PostUnlock(String, String, FeedUnlockIcon)
+- uid: GTA.UI.Notification.PostUnlockTitleUpdate(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean)
+  commentId: M:GTA.UI.Notification.PostUnlockTitleUpdate(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean)
+  id: PostUnlockTitleUpdate(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostUnlockTitleUpdate(string, string, FeedUnlockIcon, bool)
+  nameWithType: Notification.PostUnlockTitleUpdate(string, string, FeedUnlockIcon, bool)
+  fullName: GTA.UI.Notification.PostUnlockTitleUpdate(string, string, GTA.UI.FeedUnlockIcon, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostUnlockTitleUpdate(string message, string title, FeedUnlockIcon iconType, bool isImportant = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: title
+      type: System.String
+    - id: iconType
+      type: GTA.UI.FeedUnlockIcon
+    - id: isImportant
+      type: System.Boolean
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostUnlockTitleUpdate(message As String, title As String, iconType As FeedUnlockIcon, isImportant As Boolean = True) As FeedPost
+  overload: GTA.UI.Notification.PostUnlockTitleUpdate*
+  nameWithType.vb: Notification.PostUnlockTitleUpdate(String, String, FeedUnlockIcon, Boolean)
+  fullName.vb: GTA.UI.Notification.PostUnlockTitleUpdate(String, String, GTA.UI.FeedUnlockIcon, Boolean)
+  name.vb: PostUnlockTitleUpdate(String, String, FeedUnlockIcon, Boolean)
+- uid: GTA.UI.Notification.PostUnlockTitleUpdateWithColor(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean,GTA.UI.HudColor,System.Boolean)
+  commentId: M:GTA.UI.Notification.PostUnlockTitleUpdateWithColor(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean,GTA.UI.HudColor,System.Boolean)
+  id: PostUnlockTitleUpdateWithColor(System.String,System.String,GTA.UI.FeedUnlockIcon,System.Boolean,GTA.UI.HudColor,System.Boolean)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostUnlockTitleUpdateWithColor(string, string, FeedUnlockIcon, bool, HudColor, bool)
+  nameWithType: Notification.PostUnlockTitleUpdateWithColor(string, string, FeedUnlockIcon, bool, HudColor, bool)
+  fullName: GTA.UI.Notification.PostUnlockTitleUpdateWithColor(string, string, GTA.UI.FeedUnlockIcon, bool, GTA.UI.HudColor, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostUnlockTitleUpdateWithColor(string message, string title, FeedUnlockIcon iconType, bool isImportant = true, HudColor titleColor = HudColor.PureWhite, bool titleIsLiteral = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: title
+      type: System.String
+    - id: iconType
+      type: GTA.UI.FeedUnlockIcon
+    - id: isImportant
+      type: System.Boolean
+    - id: titleColor
+      type: GTA.UI.HudColor
+    - id: titleIsLiteral
+      type: System.Boolean
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostUnlockTitleUpdateWithColor(message As String, title As String, iconType As FeedUnlockIcon, isImportant As Boolean = True, titleColor As HudColor = HudColor.PureWhite, titleIsLiteral As Boolean = True) As FeedPost
+  overload: GTA.UI.Notification.PostUnlockTitleUpdateWithColor*
+  nameWithType.vb: Notification.PostUnlockTitleUpdateWithColor(String, String, FeedUnlockIcon, Boolean, HudColor, Boolean)
+  fullName.vb: GTA.UI.Notification.PostUnlockTitleUpdateWithColor(String, String, GTA.UI.FeedUnlockIcon, Boolean, GTA.UI.HudColor, Boolean)
+  name.vb: PostUnlockTitleUpdateWithColor(String, String, FeedUnlockIcon, Boolean, HudColor, Boolean)
+- uid: GTA.UI.Notification.PostVersusTitleUpdate(GTA.Graphics.TextureAsset,System.Int32,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,GTA.UI.HudColor)
+  commentId: M:GTA.UI.Notification.PostVersusTitleUpdate(GTA.Graphics.TextureAsset,System.Int32,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,GTA.UI.HudColor)
+  id: PostVersusTitleUpdate(GTA.Graphics.TextureAsset,System.Int32,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,GTA.UI.HudColor)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostVersusTitleUpdate(TextureAsset, int, TextureAsset, int, HudColor, HudColor)
+  nameWithType: Notification.PostVersusTitleUpdate(TextureAsset, int, TextureAsset, int, HudColor, HudColor)
+  fullName: GTA.UI.Notification.PostVersusTitleUpdate(GTA.Graphics.TextureAsset, int, GTA.Graphics.TextureAsset, int, GTA.UI.HudColor, GTA.UI.HudColor)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostVersusTitleUpdate(TextureAsset char1TexAsset, int val1, TextureAsset char2TexAsset, int val2, HudColor customColor1 = HudColor.Invalid, HudColor customColor2 = HudColor.Invalid)
+    parameters:
+    - id: char1TexAsset
+      type: GTA.Graphics.TextureAsset
+    - id: val1
+      type: System.Int32
+    - id: char2TexAsset
+      type: GTA.Graphics.TextureAsset
+    - id: val2
+      type: System.Int32
+    - id: customColor1
+      type: GTA.UI.HudColor
+    - id: customColor2
+      type: GTA.UI.HudColor
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostVersusTitleUpdate(char1TexAsset As TextureAsset, val1 As Integer, char2TexAsset As TextureAsset, val2 As Integer, customColor1 As HudColor = HudColor.Invalid, customColor2 As HudColor = HudColor.Invalid) As FeedPost
+  overload: GTA.UI.Notification.PostVersusTitleUpdate*
+  nameWithType.vb: Notification.PostVersusTitleUpdate(TextureAsset, Integer, TextureAsset, Integer, HudColor, HudColor)
+  fullName.vb: GTA.UI.Notification.PostVersusTitleUpdate(GTA.Graphics.TextureAsset, Integer, GTA.Graphics.TextureAsset, Integer, GTA.UI.HudColor, GTA.UI.HudColor)
+  name.vb: PostVersusTitleUpdate(TextureAsset, Integer, TextureAsset, Integer, HudColor, HudColor)
+- uid: GTA.UI.Notification.PostAward(System.String,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,System.String)
+  commentId: M:GTA.UI.Notification.PostAward(System.String,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,System.String)
+  id: PostAward(System.String,GTA.Graphics.TextureAsset,System.Int32,GTA.UI.HudColor,System.String)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: PostAward(string, TextureAsset, int, HudColor, string)
+  nameWithType: Notification.PostAward(string, TextureAsset, int, HudColor, string)
+  fullName: GTA.UI.Notification.PostAward(string, GTA.Graphics.TextureAsset, int, GTA.UI.HudColor, string)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static FeedPost PostAward(string message, TextureAsset texAsset, int xp, HudColor awardColor, string title = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: texAsset
+      type: GTA.Graphics.TextureAsset
+    - id: xp
+      type: System.Int32
+    - id: awardColor
+      type: GTA.UI.HudColor
+    - id: title
+      type: System.String
+    return:
+      type: GTA.FeedPost
+    content.vb: Public Shared Function PostAward(message As String, texAsset As TextureAsset, xp As Integer, awardColor As HudColor, title As String = Nothing) As FeedPost
+  overload: GTA.UI.Notification.PostAward*
+  nameWithType.vb: Notification.PostAward(String, TextureAsset, Integer, HudColor, String)
+  fullName.vb: GTA.UI.Notification.PostAward(String, GTA.Graphics.TextureAsset, Integer, GTA.UI.HudColor, String)
+  name.vb: PostAward(String, TextureAsset, Integer, HudColor, String)
+- uid: GTA.UI.Notification.Show(System.String,System.Boolean)
+  commentId: M:GTA.UI.Notification.Show(System.String,System.Boolean)
+  id: Show(System.String,System.Boolean)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: Show(string, bool)
+  nameWithType: Notification.Show(string, bool)
+  fullName: GTA.UI.Notification.Show(string, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: >-
+      [Obsolete("Use Notification.PostTicker instead.")]
+
+      public static int Show(string message, bool blinking = false)
+    parameters:
+    - id: message
+      type: System.String
+    - id: blinking
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete("Use Notification.PostTicker instead.")>
+
+      Public Shared Function Show(message As String, blinking As Boolean = False) As Integer
+  overload: GTA.UI.Notification.Show*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Notification.PostTicker instead.
+  nameWithType.vb: Notification.Show(String, Boolean)
+  fullName.vb: GTA.UI.Notification.Show(String, Boolean)
+  name.vb: Show(String, Boolean)
+- uid: GTA.UI.Notification.Hide(System.Int32)
+  commentId: M:GTA.UI.Notification.Hide(System.Int32)
+  id: Hide(System.Int32)
+  parent: GTA.UI.Notification
+  langs:
+  - csharp
+  - vb
+  name: Hide(int)
+  nameWithType: Notification.Hide(int)
+  fullName: GTA.UI.Notification.Hide(int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public static void Hide(int handle)
+    parameters:
+    - id: handle
+      type: System.Int32
+    content.vb: Public Shared Sub Hide(handle As Integer)
+  overload: GTA.UI.Notification.Hide*
+  nameWithType.vb: Notification.Hide(Integer)
+  fullName.vb: GTA.UI.Notification.Hide(Integer)
+  name.vb: Hide(Integer)
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.UI.Notification.PostTicker*
+  commentId: Overload:GTA.UI.Notification.PostTicker
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostTicker_System_String_System_Boolean_System_Boolean_
+  name: PostTicker
+  nameWithType: Notification.PostTicker
+  fullName: GTA.UI.Notification.PostTicker
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.FeedPost
+  commentId: T:GTA.FeedPost
+  parent: GTA
+  isExternal: true
+  href: GTA.FeedPost.html
+  name: FeedPost
+  nameWithType: FeedPost
+  fullName: GTA.FeedPost
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.UI.Notification.PostTickerForced*
+  commentId: Overload:GTA.UI.Notification.PostTickerForced
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostTickerForced_System_String_System_Boolean_System_Boolean_
+  name: PostTickerForced
+  nameWithType: Notification.PostTickerForced
+  fullName: GTA.UI.Notification.PostTickerForced
+- uid: GTA.UI.Notification.PostTickerWithTokens*
+  commentId: Overload:GTA.UI.Notification.PostTickerWithTokens
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostTickerWithTokens_System_String_System_Boolean_System_Boolean_
+  name: PostTickerWithTokens
+  nameWithType: Notification.PostTickerWithTokens
+  fullName: GTA.UI.Notification.PostTickerWithTokens
+- uid: GTA.UI.Notification.PostMessageText*
+  commentId: Overload:GTA.UI.Notification.PostMessageText
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostMessageText_System_String_GTA_Graphics_TextureAsset_System_Boolean_GTA_UI_FeedTextIcon_System_String_System_String_
+  name: PostMessageText
+  nameWithType: Notification.PostMessageText
+  fullName: GTA.UI.Notification.PostMessageText
+- uid: GTA.Graphics.TextureAsset
+  commentId: T:GTA.Graphics.TextureAsset
+  parent: GTA.Graphics
+  isExternal: true
+  href: GTA.Graphics.TextureAsset.html
+  name: TextureAsset
+  nameWithType: TextureAsset
+  fullName: GTA.Graphics.TextureAsset
+- uid: GTA.UI.FeedTextIcon
+  commentId: T:GTA.UI.FeedTextIcon
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.FeedTextIcon.html
+  name: FeedTextIcon
+  nameWithType: FeedTextIcon
+  fullName: GTA.UI.FeedTextIcon
+- uid: GTA.Graphics
+  commentId: N:GTA.Graphics
+  isExternal: true
+  href: GTA.html
+  name: GTA.Graphics
+  nameWithType: GTA.Graphics
+  fullName: GTA.Graphics
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Graphics
+    name: Graphics
+    isExternal: true
+    href: GTA.Graphics.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Graphics
+    name: Graphics
+    isExternal: true
+    href: GTA.Graphics.html
+- uid: GTA.UI.Notification.PostUnlock*
+  commentId: Overload:GTA.UI.Notification.PostUnlock
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostUnlock_System_String_System_String_GTA_UI_FeedUnlockIcon_
+  name: PostUnlock
+  nameWithType: Notification.PostUnlock
+  fullName: GTA.UI.Notification.PostUnlock
+- uid: GTA.UI.FeedUnlockIcon
+  commentId: T:GTA.UI.FeedUnlockIcon
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.FeedUnlockIcon.html
+  name: FeedUnlockIcon
+  nameWithType: FeedUnlockIcon
+  fullName: GTA.UI.FeedUnlockIcon
+- uid: GTA.UI.Notification.PostUnlockTitleUpdate*
+  commentId: Overload:GTA.UI.Notification.PostUnlockTitleUpdate
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostUnlockTitleUpdate_System_String_System_String_GTA_UI_FeedUnlockIcon_System_Boolean_
+  name: PostUnlockTitleUpdate
+  nameWithType: Notification.PostUnlockTitleUpdate
+  fullName: GTA.UI.Notification.PostUnlockTitleUpdate
+- uid: GTA.UI.Notification.PostUnlockTitleUpdateWithColor*
+  commentId: Overload:GTA.UI.Notification.PostUnlockTitleUpdateWithColor
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostUnlockTitleUpdateWithColor_System_String_System_String_GTA_UI_FeedUnlockIcon_System_Boolean_GTA_UI_HudColor_System_Boolean_
+  name: PostUnlockTitleUpdateWithColor
+  nameWithType: Notification.PostUnlockTitleUpdateWithColor
+  fullName: GTA.UI.Notification.PostUnlockTitleUpdateWithColor
+- uid: GTA.UI.HudColor
+  commentId: T:GTA.UI.HudColor
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.HudColor.html
+  name: HudColor
+  nameWithType: HudColor
+  fullName: GTA.UI.HudColor
+- uid: GTA.UI.Notification.PostVersusTitleUpdate*
+  commentId: Overload:GTA.UI.Notification.PostVersusTitleUpdate
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostVersusTitleUpdate_GTA_Graphics_TextureAsset_System_Int32_GTA_Graphics_TextureAsset_System_Int32_GTA_UI_HudColor_GTA_UI_HudColor_
+  name: PostVersusTitleUpdate
+  nameWithType: Notification.PostVersusTitleUpdate
+  fullName: GTA.UI.Notification.PostVersusTitleUpdate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: GTA.UI.Notification.PostAward*
+  commentId: Overload:GTA.UI.Notification.PostAward
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_PostAward_System_String_GTA_Graphics_TextureAsset_System_Int32_GTA_UI_HudColor_System_String_
+  name: PostAward
+  nameWithType: Notification.PostAward
+  fullName: GTA.UI.Notification.PostAward
+- uid: GTA.UI.Notification.Show*
+  commentId: Overload:GTA.UI.Notification.Show
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_Show_System_String_System_Boolean_
+  name: Show
+  nameWithType: Notification.Show
+  fullName: GTA.UI.Notification.Show
+- uid: GTA.UI.Notification.Hide*
+  commentId: Overload:GTA.UI.Notification.Hide
+  isExternal: true
+  href: GTA.UI.Notification.html#GTA_UI_Notification_Hide_System_Int32_
+  name: Hide
+  nameWithType: Notification.Hide
+  fullName: GTA.UI.Notification.Hide

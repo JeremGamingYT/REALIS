@@ -1,0 +1,850 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.PathNodeLink
+  commentId: T:GTA.PathNodeLink
+  id: PathNodeLink
+  parent: GTA
+  children:
+  - GTA.PathNodeLink.AreaId
+  - GTA.PathNodeLink.BackwardLaneCount
+  - GTA.PathNodeLink.Equals(System.Object)
+  - GTA.PathNodeLink.ForwardLaneCount
+  - GTA.PathNodeLink.GetForwardAndBackwardLaneCounts
+  - GTA.PathNodeLink.GetForwardAndBackwardLaneCounts(System.Int32@,System.Int32@)
+  - GTA.PathNodeLink.GetHashCode
+  - GTA.PathNodeLink.Index
+  - GTA.PathNodeLink.IsLoaded
+  - GTA.PathNodeLink.MemoryAddress
+  - GTA.PathNodeLink.TargetAreaId
+  - GTA.PathNodeLink.TargetNodeId
+  - GTA.PathNodeLink.TargetPathNode
+  - GTA.PathNodeLink.op_Equality(GTA.PathNodeLink,GTA.PathNodeLink)
+  - GTA.PathNodeLink.op_Inequality(GTA.PathNodeLink,GTA.PathNodeLink)
+  langs:
+  - csharp
+  - vb
+  name: PathNodeLink
+  nameWithType: PathNodeLink
+  fullName: GTA.PathNodeLink
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class PathNodeLink
+    content.vb: Public NotInheritable Class PathNodeLink
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts(System.Int32@,System.Int32@)
+  commentId: M:GTA.PathNodeLink.GetForwardAndBackwardLaneCounts(System.Int32@,System.Int32@)
+  id: GetForwardAndBackwardLaneCounts(System.Int32@,System.Int32@)
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: GetForwardAndBackwardLaneCounts(out int, out int)
+  nameWithType: PathNodeLink.GetForwardAndBackwardLaneCounts(out int, out int)
+  fullName: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts(out int, out int)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool GetForwardAndBackwardLaneCounts(out int forwardLaneCount, out int backwardLaneCount)
+    parameters:
+    - id: forwardLaneCount
+      type: System.Int32
+    - id: backwardLaneCount
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetForwardAndBackwardLaneCounts(forwardLaneCount As Integer, backwardLaneCount As Integer) As Boolean
+  overload: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts*
+  nameWithType.vb: PathNodeLink.GetForwardAndBackwardLaneCounts(Integer, Integer)
+  fullName.vb: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts(Integer, Integer)
+  name.vb: GetForwardAndBackwardLaneCounts(Integer, Integer)
+- uid: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts
+  commentId: M:GTA.PathNodeLink.GetForwardAndBackwardLaneCounts
+  id: GetForwardAndBackwardLaneCounts
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: GetForwardAndBackwardLaneCounts()
+  nameWithType: PathNodeLink.GetForwardAndBackwardLaneCounts()
+  fullName: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public (int forwardLaneCount, int backwardLaneCount) GetForwardAndBackwardLaneCounts()
+    return:
+      type: System.ValueTuple{System.Int32,System.Int32}
+    content.vb: Public Function GetForwardAndBackwardLaneCounts() As (forwardLaneCount As Integer, backwardLaneCount As Integer)
+  overload: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts*
+- uid: GTA.PathNodeLink.Equals(System.Object)
+  commentId: M:GTA.PathNodeLink.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: PathNodeLink.Equals(object)
+  fullName: GTA.PathNodeLink.Equals(object)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GTA.PathNodeLink.Equals*
+  nameWithType.vb: PathNodeLink.Equals(Object)
+  fullName.vb: GTA.PathNodeLink.Equals(Object)
+  name.vb: Equals(Object)
+- uid: GTA.PathNodeLink.op_Equality(GTA.PathNodeLink,GTA.PathNodeLink)
+  commentId: M:GTA.PathNodeLink.op_Equality(GTA.PathNodeLink,GTA.PathNodeLink)
+  id: op_Equality(GTA.PathNodeLink,GTA.PathNodeLink)
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: operator ==(PathNodeLink, PathNodeLink)
+  nameWithType: PathNodeLink.operator ==(PathNodeLink, PathNodeLink)
+  fullName: GTA.PathNodeLink.operator ==(GTA.PathNodeLink, GTA.PathNodeLink)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator ==(PathNodeLink left, PathNodeLink right)
+    parameters:
+    - id: left
+      type: GTA.PathNodeLink
+    - id: right
+      type: GTA.PathNodeLink
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As PathNodeLink, right As PathNodeLink) As Boolean
+  overload: GTA.PathNodeLink.op_Equality*
+  nameWithType.vb: PathNodeLink.=(PathNodeLink, PathNodeLink)
+  fullName.vb: GTA.PathNodeLink.=(GTA.PathNodeLink, GTA.PathNodeLink)
+  name.vb: =(PathNodeLink, PathNodeLink)
+- uid: GTA.PathNodeLink.op_Inequality(GTA.PathNodeLink,GTA.PathNodeLink)
+  commentId: M:GTA.PathNodeLink.op_Inequality(GTA.PathNodeLink,GTA.PathNodeLink)
+  id: op_Inequality(GTA.PathNodeLink,GTA.PathNodeLink)
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: operator !=(PathNodeLink, PathNodeLink)
+  nameWithType: PathNodeLink.operator !=(PathNodeLink, PathNodeLink)
+  fullName: GTA.PathNodeLink.operator !=(GTA.PathNodeLink, GTA.PathNodeLink)
+  type: Operator
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public static bool operator !=(PathNodeLink left, PathNodeLink right)
+    parameters:
+    - id: left
+      type: GTA.PathNodeLink
+    - id: right
+      type: GTA.PathNodeLink
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As PathNodeLink, right As PathNodeLink) As Boolean
+  overload: GTA.PathNodeLink.op_Inequality*
+  nameWithType.vb: PathNodeLink.<>(PathNodeLink, PathNodeLink)
+  fullName.vb: GTA.PathNodeLink.<>(GTA.PathNodeLink, GTA.PathNodeLink)
+  name.vb: <>(PathNodeLink, PathNodeLink)
+- uid: GTA.PathNodeLink.GetHashCode
+  commentId: M:GTA.PathNodeLink.GetHashCode
+  id: GetHashCode
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PathNodeLink.GetHashCode()
+  fullName: GTA.PathNodeLink.GetHashCode()
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: GTA.PathNodeLink.GetHashCode*
+- uid: GTA.PathNodeLink.AreaId
+  commentId: P:GTA.PathNodeLink.AreaId
+  id: AreaId
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: AreaId
+  nameWithType: PathNodeLink.AreaId
+  fullName: GTA.PathNodeLink.AreaId
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int AreaId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property AreaId As Integer
+  overload: GTA.PathNodeLink.AreaId*
+- uid: GTA.PathNodeLink.Index
+  commentId: P:GTA.PathNodeLink.Index
+  id: Index
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: PathNodeLink.Index
+  fullName: GTA.PathNodeLink.Index
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: GTA.PathNodeLink.Index*
+- uid: GTA.PathNodeLink.TargetAreaId
+  commentId: P:GTA.PathNodeLink.TargetAreaId
+  id: TargetAreaId
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: TargetAreaId
+  nameWithType: PathNodeLink.TargetAreaId
+  fullName: GTA.PathNodeLink.TargetAreaId
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int TargetAreaId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TargetAreaId As Integer
+  overload: GTA.PathNodeLink.TargetAreaId*
+- uid: GTA.PathNodeLink.TargetNodeId
+  commentId: P:GTA.PathNodeLink.TargetNodeId
+  id: TargetNodeId
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: TargetNodeId
+  nameWithType: PathNodeLink.TargetNodeId
+  fullName: GTA.PathNodeLink.TargetNodeId
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int TargetNodeId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TargetNodeId As Integer
+  overload: GTA.PathNodeLink.TargetNodeId*
+- uid: GTA.PathNodeLink.TargetPathNode
+  commentId: P:GTA.PathNodeLink.TargetPathNode
+  id: TargetPathNode
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: TargetPathNode
+  nameWithType: PathNodeLink.TargetPathNode
+  fullName: GTA.PathNodeLink.TargetPathNode
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public PathNode TargetPathNode { get; }
+    parameters: []
+    return:
+      type: GTA.PathNode
+    content.vb: Public ReadOnly Property TargetPathNode As PathNode
+  overload: GTA.PathNodeLink.TargetPathNode*
+- uid: GTA.PathNodeLink.MemoryAddress
+  commentId: P:GTA.PathNodeLink.MemoryAddress
+  id: MemoryAddress
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: MemoryAddress
+  nameWithType: PathNodeLink.MemoryAddress
+  fullName: GTA.PathNodeLink.MemoryAddress
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public IntPtr MemoryAddress { get; }
+    parameters: []
+    return:
+      type: System.IntPtr
+    content.vb: Public ReadOnly Property MemoryAddress As IntPtr
+  overload: GTA.PathNodeLink.MemoryAddress*
+- uid: GTA.PathNodeLink.IsLoaded
+  commentId: P:GTA.PathNodeLink.IsLoaded
+  id: IsLoaded
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: IsLoaded
+  nameWithType: PathNodeLink.IsLoaded
+  fullName: GTA.PathNodeLink.IsLoaded
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsLoaded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLoaded As Boolean
+  overload: GTA.PathNodeLink.IsLoaded*
+- uid: GTA.PathNodeLink.ForwardLaneCount
+  commentId: P:GTA.PathNodeLink.ForwardLaneCount
+  id: ForwardLaneCount
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: ForwardLaneCount
+  nameWithType: PathNodeLink.ForwardLaneCount
+  fullName: GTA.PathNodeLink.ForwardLaneCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int ForwardLaneCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ForwardLaneCount As Integer
+  overload: GTA.PathNodeLink.ForwardLaneCount*
+- uid: GTA.PathNodeLink.BackwardLaneCount
+  commentId: P:GTA.PathNodeLink.BackwardLaneCount
+  id: BackwardLaneCount
+  parent: GTA.PathNodeLink
+  langs:
+  - csharp
+  - vb
+  name: BackwardLaneCount
+  nameWithType: PathNodeLink.BackwardLaneCount
+  fullName: GTA.PathNodeLink.BackwardLaneCount
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public int BackwardLaneCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BackwardLaneCount As Integer
+  overload: GTA.PathNodeLink.BackwardLaneCount*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts*
+  commentId: Overload:GTA.PathNodeLink.GetForwardAndBackwardLaneCounts
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_GetForwardAndBackwardLaneCounts_System_Int32__System_Int32__
+  name: GetForwardAndBackwardLaneCounts
+  nameWithType: PathNodeLink.GetForwardAndBackwardLaneCounts
+  fullName: GTA.PathNodeLink.GetForwardAndBackwardLaneCounts
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.ValueTuple{System.Int32,System.Int32}
+  commentId: T:System.ValueTuple{System.Int32,System.Int32}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: (int forwardLaneCount, int backwardLaneCount)
+  nameWithType: (int forwardLaneCount, int backwardLaneCount)
+  fullName: (int forwardLaneCount, int backwardLaneCount)
+  nameWithType.vb: (forwardLaneCount As Integer, backwardLaneCount As Integer)
+  fullName.vb: (forwardLaneCount As Integer, backwardLaneCount As Integer)
+  name.vb: (forwardLaneCount As Integer, backwardLaneCount As Integer)
+  spec.csharp:
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.forwardLaneCount
+    name: forwardLaneCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.forwardlanecount
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.backwardLaneCount
+    name: backwardLaneCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.backwardlanecount
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Int32,System.Int32}.forwardLaneCount
+    name: forwardLaneCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.forwardlanecount
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32}.backwardLaneCount
+    name: backwardLaneCount
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.int32,system.int32-.backwardlanecount
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: GTA.PathNodeLink.Equals*
+  commentId: Overload:GTA.PathNodeLink.Equals
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_Equals_System_Object_
+  name: Equals
+  nameWithType: PathNodeLink.Equals
+  fullName: GTA.PathNodeLink.Equals
+- uid: GTA.PathNodeLink.op_Equality*
+  commentId: Overload:GTA.PathNodeLink.op_Equality
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_op_Equality_GTA_PathNodeLink_GTA_PathNodeLink_
+  name: operator ==
+  nameWithType: PathNodeLink.operator ==
+  fullName: GTA.PathNodeLink.operator ==
+  nameWithType.vb: PathNodeLink.=
+  fullName.vb: GTA.PathNodeLink.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.PathNodeLink.op_Equality*
+    name: ==
+    isExternal: true
+    href: GTA.PathNodeLink.html#GTA_PathNodeLink_op_Equality_GTA_PathNodeLink_GTA_PathNodeLink_
+- uid: GTA.PathNodeLink
+  commentId: T:GTA.PathNodeLink
+  parent: GTA
+  isExternal: true
+  href: GTA.PathNodeLink.html
+  name: PathNodeLink
+  nameWithType: PathNodeLink
+  fullName: GTA.PathNodeLink
+- uid: GTA.PathNodeLink.op_Inequality*
+  commentId: Overload:GTA.PathNodeLink.op_Inequality
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_op_Inequality_GTA_PathNodeLink_GTA_PathNodeLink_
+  name: operator !=
+  nameWithType: PathNodeLink.operator !=
+  fullName: GTA.PathNodeLink.operator !=
+  nameWithType.vb: PathNodeLink.<>
+  fullName.vb: GTA.PathNodeLink.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GTA.PathNodeLink.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: GTA.PathNodeLink.html#GTA_PathNodeLink_op_Inequality_GTA_PathNodeLink_GTA_PathNodeLink_
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: GTA.PathNodeLink.GetHashCode*
+  commentId: Overload:GTA.PathNodeLink.GetHashCode
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_GetHashCode
+  name: GetHashCode
+  nameWithType: PathNodeLink.GetHashCode
+  fullName: GTA.PathNodeLink.GetHashCode
+- uid: GTA.PathNodeLink.AreaId*
+  commentId: Overload:GTA.PathNodeLink.AreaId
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_AreaId
+  name: AreaId
+  nameWithType: PathNodeLink.AreaId
+  fullName: GTA.PathNodeLink.AreaId
+- uid: GTA.PathNodeLink.Index*
+  commentId: Overload:GTA.PathNodeLink.Index
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_Index
+  name: Index
+  nameWithType: PathNodeLink.Index
+  fullName: GTA.PathNodeLink.Index
+- uid: GTA.PathNodeLink.TargetAreaId*
+  commentId: Overload:GTA.PathNodeLink.TargetAreaId
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_TargetAreaId
+  name: TargetAreaId
+  nameWithType: PathNodeLink.TargetAreaId
+  fullName: GTA.PathNodeLink.TargetAreaId
+- uid: GTA.PathNodeLink.TargetNodeId*
+  commentId: Overload:GTA.PathNodeLink.TargetNodeId
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_TargetNodeId
+  name: TargetNodeId
+  nameWithType: PathNodeLink.TargetNodeId
+  fullName: GTA.PathNodeLink.TargetNodeId
+- uid: GTA.PathNodeLink.TargetPathNode*
+  commentId: Overload:GTA.PathNodeLink.TargetPathNode
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_TargetPathNode
+  name: TargetPathNode
+  nameWithType: PathNodeLink.TargetPathNode
+  fullName: GTA.PathNodeLink.TargetPathNode
+- uid: GTA.PathNode
+  commentId: T:GTA.PathNode
+  parent: GTA
+  isExternal: true
+  href: GTA.PathNode.html
+  name: PathNode
+  nameWithType: PathNode
+  fullName: GTA.PathNode
+- uid: GTA.PathNodeLink.MemoryAddress*
+  commentId: Overload:GTA.PathNodeLink.MemoryAddress
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_MemoryAddress
+  name: MemoryAddress
+  nameWithType: PathNodeLink.MemoryAddress
+  fullName: GTA.PathNodeLink.MemoryAddress
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: GTA.PathNodeLink.IsLoaded*
+  commentId: Overload:GTA.PathNodeLink.IsLoaded
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_IsLoaded
+  name: IsLoaded
+  nameWithType: PathNodeLink.IsLoaded
+  fullName: GTA.PathNodeLink.IsLoaded
+- uid: GTA.PathNodeLink.ForwardLaneCount*
+  commentId: Overload:GTA.PathNodeLink.ForwardLaneCount
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_ForwardLaneCount
+  name: ForwardLaneCount
+  nameWithType: PathNodeLink.ForwardLaneCount
+  fullName: GTA.PathNodeLink.ForwardLaneCount
+- uid: GTA.PathNodeLink.BackwardLaneCount*
+  commentId: Overload:GTA.PathNodeLink.BackwardLaneCount
+  isExternal: true
+  href: GTA.PathNodeLink.html#GTA_PathNodeLink_BackwardLaneCount
+  name: BackwardLaneCount
+  nameWithType: PathNodeLink.BackwardLaneCount
+  fullName: GTA.PathNodeLink.BackwardLaneCount

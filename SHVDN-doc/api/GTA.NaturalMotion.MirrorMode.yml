@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.MirrorMode
+  commentId: T:GTA.NaturalMotion.MirrorMode
+  id: MirrorMode
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.MirrorMode.Independant
+  - GTA.NaturalMotion.MirrorMode.Mirrored
+  - GTA.NaturalMotion.MirrorMode.Parallel
+  langs:
+  - csharp
+  - vb
+  name: MirrorMode
+  nameWithType: MirrorMode
+  fullName: GTA.NaturalMotion.MirrorMode
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum MirrorMode
+    content.vb: Public Enum MirrorMode
+- uid: GTA.NaturalMotion.MirrorMode.Independant
+  commentId: F:GTA.NaturalMotion.MirrorMode.Independant
+  id: Independant
+  parent: GTA.NaturalMotion.MirrorMode
+  langs:
+  - csharp
+  - vb
+  name: Independant
+  nameWithType: MirrorMode.Independant
+  fullName: GTA.NaturalMotion.MirrorMode.Independant
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Independant = 0
+    return:
+      type: GTA.NaturalMotion.MirrorMode
+- uid: GTA.NaturalMotion.MirrorMode.Mirrored
+  commentId: F:GTA.NaturalMotion.MirrorMode.Mirrored
+  id: Mirrored
+  parent: GTA.NaturalMotion.MirrorMode
+  langs:
+  - csharp
+  - vb
+  name: Mirrored
+  nameWithType: MirrorMode.Mirrored
+  fullName: GTA.NaturalMotion.MirrorMode.Mirrored
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Mirrored = 1
+    return:
+      type: GTA.NaturalMotion.MirrorMode
+- uid: GTA.NaturalMotion.MirrorMode.Parallel
+  commentId: F:GTA.NaturalMotion.MirrorMode.Parallel
+  id: Parallel
+  parent: GTA.NaturalMotion.MirrorMode
+  langs:
+  - csharp
+  - vb
+  name: Parallel
+  nameWithType: MirrorMode.Parallel
+  fullName: GTA.NaturalMotion.MirrorMode.Parallel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Parallel = 2
+    return:
+      type: GTA.NaturalMotion.MirrorMode
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.MirrorMode
+  commentId: T:GTA.NaturalMotion.MirrorMode
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.MirrorMode.html
+  name: MirrorMode
+  nameWithType: MirrorMode
+  fullName: GTA.NaturalMotion.MirrorMode

@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Chrono
+  commentId: N:GTA.Chrono
+  id: GTA.Chrono
+  children:
+  - GTA.Chrono.GameClock
+  - GTA.Chrono.GameClockDate
+  - GTA.Chrono.GameClockDateTime
+  - GTA.Chrono.GameClockDuration
+  - GTA.Chrono.GameClockTime
+  - GTA.Chrono.IDatelike`1
+  - GTA.Chrono.ITimelike`1
+  - GTA.Chrono.InvalidInternalMonthOfGameClockException
+  - GTA.Chrono.IsoDayOfWeek
+  - GTA.Chrono.YearFlags
+  langs:
+  - csharp
+  - vb
+  name: GTA.Chrono
+  nameWithType: GTA.Chrono
+  fullName: GTA.Chrono
+  type: Namespace
+  assemblies:
+  - ScriptHookVDotNet3
+references:
+- uid: GTA.Chrono.GameClock
+  commentId: T:GTA.Chrono.GameClock
+  isExternal: true
+  href: GTA.Chrono.GameClock.html
+  name: GameClock
+  nameWithType: GameClock
+  fullName: GTA.Chrono.GameClock
+- uid: GTA.Chrono.GameClockDate
+  commentId: T:GTA.Chrono.GameClockDate
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.GameClockDate.html
+  name: GameClockDate
+  nameWithType: GameClockDate
+  fullName: GTA.Chrono.GameClockDate
+- uid: GTA.Chrono.GameClockDateTime
+  commentId: T:GTA.Chrono.GameClockDateTime
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.GameClockDateTime.html
+  name: GameClockDateTime
+  nameWithType: GameClockDateTime
+  fullName: GTA.Chrono.GameClockDateTime
+- uid: GTA.Chrono.GameClockDuration
+  commentId: T:GTA.Chrono.GameClockDuration
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.GameClockDuration.html
+  name: GameClockDuration
+  nameWithType: GameClockDuration
+  fullName: GTA.Chrono.GameClockDuration
+- uid: GTA.Chrono.GameClockTime
+  commentId: T:GTA.Chrono.GameClockTime
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.GameClockTime.html
+  name: GameClockTime
+  nameWithType: GameClockTime
+  fullName: GTA.Chrono.GameClockTime
+- uid: GTA.Chrono.IDatelike`1
+  commentId: T:GTA.Chrono.IDatelike`1
+  isExternal: true
+  href: GTA.Chrono.IDatelike-1.html
+  name: IDatelike<T>
+  nameWithType: IDatelike<T>
+  fullName: GTA.Chrono.IDatelike<T>
+  nameWithType.vb: IDatelike(Of T)
+  fullName.vb: GTA.Chrono.IDatelike(Of T)
+  name.vb: IDatelike(Of T)
+  spec.csharp:
+  - uid: GTA.Chrono.IDatelike`1
+    name: IDatelike
+    isExternal: true
+    href: GTA.Chrono.IDatelike-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: GTA.Chrono.IDatelike`1
+    name: IDatelike
+    isExternal: true
+    href: GTA.Chrono.IDatelike-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: GTA.Chrono.InvalidInternalMonthOfGameClockException
+  commentId: T:GTA.Chrono.InvalidInternalMonthOfGameClockException
+  isExternal: true
+  href: GTA.Chrono.InvalidInternalMonthOfGameClockException.html
+  name: InvalidInternalMonthOfGameClockException
+  nameWithType: InvalidInternalMonthOfGameClockException
+  fullName: GTA.Chrono.InvalidInternalMonthOfGameClockException
+- uid: GTA.Chrono.IsoDayOfWeek
+  commentId: T:GTA.Chrono.IsoDayOfWeek
+  parent: GTA.Chrono
+  isExternal: true
+  href: GTA.Chrono.IsoDayOfWeek.html
+  name: IsoDayOfWeek
+  nameWithType: IsoDayOfWeek
+  fullName: GTA.Chrono.IsoDayOfWeek
+- uid: GTA.Chrono.ITimelike`1
+  commentId: T:GTA.Chrono.ITimelike`1
+  isExternal: true
+  href: GTA.Chrono.ITimelike-1.html
+  name: ITimelike<T>
+  nameWithType: ITimelike<T>
+  fullName: GTA.Chrono.ITimelike<T>
+  nameWithType.vb: ITimelike(Of T)
+  fullName.vb: GTA.Chrono.ITimelike(Of T)
+  name.vb: ITimelike(Of T)
+  spec.csharp:
+  - uid: GTA.Chrono.ITimelike`1
+    name: ITimelike
+    isExternal: true
+    href: GTA.Chrono.ITimelike-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: GTA.Chrono.ITimelike`1
+    name: ITimelike
+    isExternal: true
+    href: GTA.Chrono.ITimelike-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: GTA.Chrono.YearFlags
+  commentId: T:GTA.Chrono.YearFlags
+  isExternal: true
+  href: GTA.Chrono.YearFlags.html
+  name: YearFlags
+  nameWithType: YearFlags
+  fullName: GTA.Chrono.YearFlags
+- uid: GTA.Chrono
+  commentId: N:GTA.Chrono
+  isExternal: true
+  href: GTA.html
+  name: GTA.Chrono
+  nameWithType: GTA.Chrono
+  fullName: GTA.Chrono
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Chrono
+    name: Chrono
+    isExternal: true
+    href: GTA.Chrono.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Chrono
+    name: Chrono
+    isExternal: true
+    href: GTA.Chrono.html

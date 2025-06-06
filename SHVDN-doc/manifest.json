@@ -1,0 +1,5886 @@
+{
+  "source_base_path": "C:/Users/letil/Documents/CursorProjects/REALIS/SHVDN-doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AbortScriptMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AbortScriptMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AbortScriptMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AnimatedBuilding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AnimatedBuilding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AnimatedBuilding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AnimationBlendDelta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AnimationBlendDelta.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AnimationBlendDelta",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AnimationBlendDuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AnimationBlendDuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AnimationBlendDuration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AnimationFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AnimationFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AnimationFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AnimationIKControlFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AnimationIKControlFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AnimationIKControlFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AtHashValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AtHashValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AtHashValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AtLiteralHashValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AtLiteralHashValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AtLiteralHashValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Audio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Audio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.AudioFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.AudioFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.AudioFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BaseSubHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BaseSubHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BaseSubHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BikeHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BikeHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BikeHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Blip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Blip.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Blip",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BlipCategoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BlipCategoryType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BlipCategoryType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BlipColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BlipColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BlipColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BlipDisplayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BlipDisplayType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BlipDisplayType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BlipSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BlipSprite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BlipSprite",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BoatHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BoatHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BoatHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.BoatMissionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.BoatMissionFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.BoatMissionFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Bone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Bone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Bone",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Building.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Building.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Building",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Button.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Button",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CamAnimationFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CamAnimationFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CamAnimationFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CamFrameInterpolatorCurveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CamFrameInterpolatorCurveType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CamFrameInterpolatorCurveType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CamInVehicleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CamInVehicleState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CamInVehicleState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CamSplineSmoothingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CamSplineSmoothingMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CamSplineSmoothingMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CamViewMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CamViewMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CamViewMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CamViewModeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CamViewModeContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CamViewModeContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Camera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Camera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CameraHintHelperNameHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CameraHintHelperNameHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CameraHintHelperNameHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CameraShake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CameraShake.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CameraShake",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CarHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CarHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CarHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CargobobHook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CargobobHook.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CargobobHook",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Checkpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Checkpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Checkpoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CheckpointCustomIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CheckpointCustomIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CheckpointCustomIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CheckpointCustomIconStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CheckpointCustomIconStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CheckpointCustomIconStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CheckpointIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CheckpointIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CheckpointIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.GameClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.GameClock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.GameClock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.GameClockDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.GameClockDate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.GameClockDate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.GameClockDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.GameClockDateTime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.GameClockDateTime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.GameClockDuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.GameClockDuration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.GameClockDuration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.GameClockTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.GameClockTime.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.GameClockTime",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.IDatelike-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.IDatelike-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.IDatelike<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.ITimelike-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.ITimelike-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.ITimelike<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.InvalidInternalMonthOfGameClockException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.InvalidInternalMonthOfGameClockException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.InvalidInternalMonthOfGameClockException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.IsoDayOfWeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.IsoDayOfWeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.IsoDayOfWeek",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.YearFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.YearFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono.YearFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Chrono.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Chrono.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Chrono",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CinematicCameraDirector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CinematicCameraDirector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CinematicCameraDirector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ClearPropsFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ClearPropsFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ClearPropsFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ClipSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ClipSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ClipSet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CombatAbility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CombatAbility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CombatAbility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CombatAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CombatAttributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CombatAttributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CombatFloatAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CombatFloatAttributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CombatFloatAttributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CombatMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CombatMovement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CombatMovement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CombatRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CombatRange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CombatRange",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Control.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Control",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CrClipAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CrClipAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CrClipAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CrClipDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CrClipDictionary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CrClipDictionary",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.CrimeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.CrimeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.CrimeType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DecisionMaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DecisionMaker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DecisionMaker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DecisionMakerTypeHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DecisionMakerTypeHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DecisionMakerTypeHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DecoratorInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DecoratorInterface.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DecoratorInterface",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DecoratorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DecoratorType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DecoratorType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Direction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Direction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DispatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DispatchData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DispatchData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DrawBoxFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DrawBoxFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DrawBoxFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.DrivingStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.DrivingStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.DrivingStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EnterVehicleFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EnterVehicleFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EnterVehicleFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Entity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Entity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityAnimationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityAnimationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityAnimationType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityBone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityBone",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityBoneCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityBoneCollection.Enumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityBoneCollection.Enumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityBoneCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityBoneCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityBoneCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityDamageRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityDamageRecord.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityDamageRecord",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityDamageRecordCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityDamageRecordCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityDamageRecordCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityPopulationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityPopulationType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityPopulationType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EntityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EntityType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EntityType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EulerRotationOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EulerRotationOrder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EulerRotationOrder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.EventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.EventType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.EventType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ExplosionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ExplosionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ExplosionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ExtraWeaponComponentScriptResourceFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ExtraWeaponComponentScriptResourceFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ExtraWeaponComponentScriptResourceFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.FeedPost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.FeedPost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.FeedPost",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.FiringPattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.FiringPattern.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.FiringPattern",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.FleeAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.FleeAttributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.FleeAttributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.FlyingHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.FlyingHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.FlyingHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.FollowNavMeshFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.FollowNavMeshFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.FollowNavMeshFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ForceAnimAIUpdateState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ForceAnimAIUpdateState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ForceAnimAIUpdateState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ForceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ForceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ForceType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Formation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Formation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Formation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.FwSyncedScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.FwSyncedScene.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.FwSyncedScene",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Game.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Game",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.GameVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.GameVersion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.GameVersion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.GameVersionNotSupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.GameVersionNotSupportedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.GameVersionNotSupportedException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.GameplayCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.GameplayCamera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.GameplayCamera",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Gender.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Gender",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.GetClosestVehicleNodeFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.GetClosestVehicleNodeFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.GetClosestVehicleNodeFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.GetGroundHeightMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.GetGroundHeightMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.GetGroundHeightMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.GetSafePositionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.GetSafePositionFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.GetSafePositionFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Graphics.Scripted2DGfxSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Graphics.Scripted2DGfxSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Graphics.Scripted2DGfxSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Graphics.ScriptedGfxDrawOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Graphics.ScriptedGfxDrawOrder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Graphics.ScriptedGfxDrawOrder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Graphics.TextureAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Graphics.TextureAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Graphics.TextureAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Graphics.Txd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Graphics.Txd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Graphics.Txd",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Graphics.UIAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Graphics.UIAlignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Graphics.UIAlignment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Graphics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Graphics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.HandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.HandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.HandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.HandlingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.HandlingType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.HandlingType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.HeliMissionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.HeliMissionFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.HeliMissionFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Helmet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Helmet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Helmet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.HelmetPropFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.HelmetPropFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.HelmetPropFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IDeletable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IDeletable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IDeletable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IExistable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IExistable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IExistable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IJoaatHashValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IJoaatHashValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IJoaatHashValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IKPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IKPart.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IKPart",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IKTargetFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IKTargetFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IKTargetFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IPedVariation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IPedVariation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IPedVariation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IScriptStreamingResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IScriptStreamingResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IScriptStreamingResource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ISpatial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ISpatial.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ISpatial",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.InputMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.InputMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.InputMethod",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Interior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Interior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Interior",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.InteriorInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.InteriorInstance.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.InteriorInstance",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.InteriorProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.InteriorProxy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.InteriorProxy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.IntersectFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.IntersectFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.IntersectFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.InvertAxisFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.InvertAxisFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.InvertAxisFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.KnockOffVehicleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.KnockOffVehicleType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.KnockOffVehicleType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Language.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Language",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.LeaveVehicleFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.LeaveVehicleFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.LeaveVehicleFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.LicensePlateStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.LicensePlateStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.LicensePlateStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.LicensePlateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.LicensePlateType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.LicensePlateType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.LookAtFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.LookAtFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.LookAtFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.LookAtPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.LookAtPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.LookAtPriority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.MarkerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.MarkerType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.MarkerType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.MaterialHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.MaterialHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.MaterialHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.Matrix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math.Matrix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.Plane.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math.Plane",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.Quaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.Quaternion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math.Quaternion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.Vector2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math.Vector2",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.Vector3.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math.Vector3",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.Vector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.Vector4.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math.Vector4",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Math.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Math",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.MeasurementSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.MeasurementSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.MeasurementSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Model",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.MoveNetworkFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.MoveNetworkFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.MoveNetworkFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.Function.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native.Function",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.GlobalVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.GlobalVariable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native.GlobalVariable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.Hash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.Hash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native.Hash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.INativeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.INativeValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native.INativeValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.InputArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.InputArgument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native.InputArgument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.OutputArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.OutputArgument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native.OutputArgument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Native.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Native.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Native",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ActivePoseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ActivePoseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ActivePoseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.AdaptiveMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.AdaptiveMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.AdaptiveMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.AnimPoseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.AnimPoseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.AnimPoseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.AnimSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.AnimSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.AnimSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ApplyBulletImpulseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ApplyBulletImpulseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ApplyBulletImpulseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ApplyImpulseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ApplyImpulseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ApplyImpulseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ArmDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ArmDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ArmDirection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ArmsWindmillAdaptiveHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ArmsWindmillHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ArmsWindmillHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ArmsWindmillHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BalancerCollisionsReactionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BalancerCollisionsReactionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BalancerCollisionsReactionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BodyBalanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BodyBalanceHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BodyBalanceHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BodyFoetalHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BodyFoetalHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BodyFoetalHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BodyRelaxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BodyRelaxHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BodyRelaxHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BodyRollUpHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BodyRollUpHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BodyRollUpHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BodyWritheHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BodyWritheHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BodyWritheHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BraceForImpactHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BraceForImpactHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BraceForImpactHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.BuoyancyHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.BuoyancyHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.BuoyancyHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.CarriedHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.CarriedHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.CarriedHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.CatchFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.CatchFallHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.CatchFallHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureBalanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureBalanceHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureBalanceHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureBalanceResetHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureBalanceResetHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureBalanceResetHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureBulletsExtraHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureBulletsExtraHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureBulletsExtraHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureBulletsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureBulletsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureBulletsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureConstraintsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureConstraintsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureConstraintsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureLimitsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureLimitsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureLimitsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureSelfAvoidanceHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureShotInjuredArmHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureShotInjuredArmHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureShotInjuredArmHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureShotInjuredLegHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureShotInjuredLegHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureShotInjuredLegHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ConfigureSoftLimitHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ConfigureSoftLimitHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ConfigureSoftLimitHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.CustomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.CustomHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.CustomHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.DangleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.DangleHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.DangleHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.DefineAttachedObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.DefineAttachedObjectHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.DefineAttachedObjectHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ElectrocuteHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ElectrocuteHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ElectrocuteHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.Euphoria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.Euphoria.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.Euphoria",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.FallOverWallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.FallOverWallHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.FallOverWallHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.FallType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.FallType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.FallType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.FireWeaponHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.FireWeaponHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.FireWeaponHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ForceLeanInDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ForceLeanInDirectionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ForceLeanInDirectionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ForceLeanRandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ForceLeanRandomHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ForceLeanRandomHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ForceLeanToPositionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ForceLeanToPositionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ForceLeanToPositionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ForceLeanTowardsObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ForceLeanTowardsObjectHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ForceLeanTowardsObjectHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ForceToBodyPartHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ForceToBodyPartHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ForceToBodyPartHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.GrabHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.GrabHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.GrabHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.Hand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.Hand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.Hand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.HeadLookHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.HeadLookHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.HeadLookHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.HighFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.HighFallHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.HighFallHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.HipsLeanInDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.HipsLeanInDirectionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.HipsLeanInDirectionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.HipsLeanRandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.HipsLeanRandomHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.HipsLeanRandomHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.HipsLeanToPositionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.HipsLeanToPositionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.HipsLeanToPositionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.HipsLeanTowardsObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.HipsLeanTowardsObjectHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.HipsLeanTowardsObjectHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.IncomingTransformsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.IncomingTransformsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.IncomingTransformsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.InjuredOnGroundHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.InjuredOnGroundHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.InjuredOnGroundHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.LeanInDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.LeanInDirectionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.LeanInDirectionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.LeanRandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.LeanRandomHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.LeanRandomHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.LeanToPositionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.LeanToPositionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.LeanToPositionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.LeanTowardsObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.LeanTowardsObjectHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.LeanTowardsObjectHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.Message.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.Message",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.MirrorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.MirrorMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.MirrorMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.OnFireHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.OnFireHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.OnFireHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.PedalLegsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.PedalLegsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.PedalLegsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.PointArmHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.PointArmHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.PointArmHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.PointGunExtraHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.PointGunExtraHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.PointGunExtraHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.PointGunHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.PointGunHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.PointGunHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.RbTwistAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.RbTwistAxis.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.RbTwistAxis",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.RegisterWeaponHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.RegisterWeaponHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.RegisterWeaponHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.RollDownStairsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.RollDownStairsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.RollDownStairsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetCharacterCollisionsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetCharacterCollisionsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetCharacterCollisionsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetCharacterDampingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetCharacterDampingHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetCharacterDampingHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetCharacterHealthHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetCharacterHealthHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetCharacterHealthHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetCharacterStrengthHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetCharacterStrengthHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetCharacterStrengthHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetCharacterUnderwaterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetCharacterUnderwaterHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetCharacterUnderwaterHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetFallingReactionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetFallingReactionHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetFallingReactionHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetFrictionScaleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetFrictionScaleHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetFrictionScaleHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetMuscleStiffnessHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetMuscleStiffnessHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetMuscleStiffnessHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetStiffnessHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetStiffnessHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetStiffnessHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SetWeaponModeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SetWeaponModeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SetWeaponModeHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotConfigureArmsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotConfigureArmsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotConfigureArmsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotFallToKneesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotFallToKneesHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotFallToKneesHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotFromBehindHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotFromBehindHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotFromBehindHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotHeadLookHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotHeadLookHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotHeadLookHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotInGutsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotInGutsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotInGutsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotNewBulletHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotNewBulletHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotNewBulletHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotRelaxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotRelaxHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotRelaxHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotShockSpinHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotShockSpinHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotShockSpinHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.ShotSnapHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.ShotSnapHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.ShotSnapHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.SmartFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.SmartFallHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.SmartFallHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.StaggerFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.StaggerFallHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.StaggerFallHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.StayUprightHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.StayUprightHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.StayUprightHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.StopAllBehaviorsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.StopAllBehaviorsHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.StopAllBehaviorsHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.Synchroisation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.Synchroisation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.Synchroisation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.TeeterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.TeeterHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.TeeterHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.TorqueFilterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.TorqueFilterMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.TorqueFilterMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.TorqueMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.TorqueMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.TorqueMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.TorqueSpinMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.TorqueSpinMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.TorqueSpinMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.TurnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.TurnType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.TurnType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.UpperBodyFlinchHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.UpperBodyFlinchHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.UpperBodyFlinchHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.WeaponMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.WeaponMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.WeaponMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.YankedHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.YankedHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion.YankedHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NaturalMotion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NaturalMotion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NaturalMotion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NavMeshBlockingObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NavMeshBlockingObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NavMeshBlockingObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NavMeshBlockingObjectFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NavMeshBlockingObjectFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NavMeshBlockingObjectFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NavMeshRouteResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NavMeshRouteResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NavMeshRouteResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.NewLoadSceneFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.NewLoadSceneFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.NewLoadSceneFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ParachuteLandingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ParachuteLandingType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ParachuteLandingType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ParachuteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ParachuteState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ParachuteState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ParachuteTint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ParachuteTint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ParachuteTint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ParkType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ParkType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ParkType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ParticleEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ParticleEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ParticleEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ParticleEffectAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ParticleEffectAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ParticleEffectAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PathFind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PathFind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PathFind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PathNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PathNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PathNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PathNodeLink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PathNodeLink.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PathNodeLink",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Ped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Ped.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Ped",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedBone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedBone",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedBoneCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedBoneCollection.Enumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedBoneCollection.Enumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedBoneCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedBoneCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedBoneCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedComponentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedComponentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedComponentType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedConfigFlagToggles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedConfigFlagToggles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedConfigFlagToggles",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedConfigFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedConfigFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedConfigFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedGroup.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedGroup.Enumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedGroup.Enumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedHeadshot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedHeadshot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedHeadshot",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedLegIKMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedLegIKMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedLegIKMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedMotionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedMotionState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedMotionState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedMoveBlendRatio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedMoveBlendRatio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedMoveBlendRatio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedMoveNetworkTaskInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedMoveNetworkTaskInterface.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedMoveNetworkTaskInterface",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedProp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedProp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedPropAnchorPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedPropAnchorPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedPropAnchorPoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedPropType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedPropType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedPropType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedResetFlagToggles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedResetFlagToggles.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedResetFlagToggles",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedResetFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedResetFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedResetFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedTransportMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedTransportMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedTransportMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PedType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PedType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PhysicsDampingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PhysicsDampingType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PhysicsDampingType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Pickup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Pickup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Pickup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PickupObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PickupObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PickupObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PickupPlacementFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PickupPlacementFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PickupPlacementFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PickupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PickupType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PickupType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PlayerTargetingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PlayerTargetingMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PlayerTargetingMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.PoolObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.PoolObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.PoolObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Projectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Projectile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Projectile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ProjectileRocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ProjectileRocket.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ProjectileRocket",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ProjectileThrown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ProjectileThrown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ProjectileThrown",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Prop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Prop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Prop",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RadioStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RadioStation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RadioStation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RagdollBlockingFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RagdollBlockingFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RagdollBlockingFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RagdollComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RagdollComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RagdollComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RagdollFallType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RagdollFallType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RagdollFallType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RagdollType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RagdollType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RagdollType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RaycastResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RaycastResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RaycastResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Relationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Relationship.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Relationship",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RelationshipGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RelationshipGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RelationshipGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RelationshipGroupHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RelationshipGroupHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RelationshipGroupHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RequireScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RequireScript.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RequireScript",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Rope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Rope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Rope",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.RopeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.RopeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.RopeType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Scaleform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Scaleform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Scaleform",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScaleformArgumentTXD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScaleformArgumentTXD.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScaleformArgumentTXD",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Script.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Script",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptAttributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptAttributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptCameraDirector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptCameraDirector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptCameraDirector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptSettings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptSettings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptSound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptSound.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptSound",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptTaskNameHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptTaskNameHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptTaskNameHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptTaskStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptTaskStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptTaskStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptVehicleWheelIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptVehicleWheelIndex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptVehicleWheelIndex",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptedCameraNameHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptedCameraNameHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptedCameraNameHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ScriptedVehicleLightSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ScriptedVehicleLightSetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ScriptedVehicleLightSetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.SeaPlaneHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.SeaPlaneHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.SeaPlaneHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.SetPlayerControlFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.SetPlayerControlFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.SetPlayerControlFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ShapeTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ShapeTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ShapeTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ShapeTestHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ShapeTestHandle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ShapeTestHandle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ShapeTestOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ShapeTestOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ShapeTestOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ShapeTestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ShapeTestResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ShapeTestResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.ShapeTestStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.ShapeTestStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.ShapeTestStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.SpecialFlightHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.SpecialFlightHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.SpecialFlightHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.SpeechModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.SpeechModifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.SpeechModifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Streaming.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Streaming.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Streaming",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.StringHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.StringHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.StringHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Style.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Style",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.SubmarineHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.SubmarineHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.SubmarineHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.SyncedSceneFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.SyncedSceneFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.SyncedSceneFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TargetLossResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TargetLossResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TargetLossResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskCombatFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskCombatFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskCombatFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskGoToPointAnyMeansFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskGoToPointAnyMeansFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskGoToPointAnyMeansFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskInvoker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskInvoker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskMoVEScriptedInitialParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskMoVEScriptedInitialParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskMoVEScriptedInitialParameters",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskMoVEScriptedInitialParametersBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskMoVEScriptedInitialParametersBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskMoVEScriptedInitialParametersBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskSequence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskSequence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TaskThreatResponseFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TaskThreatResponseFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TaskThreatResponseFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.TrailerHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.TrailerHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.TrailerHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.Alignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.Alignment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.Alignment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.ContainerElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.ContainerElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.ContainerElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.CursorSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.CursorSprite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.CursorSprite",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.CustomSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.CustomSprite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.CustomSprite",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.FeedTextIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.FeedTextIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.FeedTextIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.FeedUnlockIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.FeedUnlockIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.FeedUnlockIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.Font.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.Font",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.Hud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.Hud.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.Hud",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.HudColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.HudColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.HudColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.HudComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.HudComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.HudComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.IElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.IElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.IElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.ISpriteElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.ISpriteElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.ISpriteElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.IWorldDrawableElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.IWorldDrawableElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.IWorldDrawableElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.LoadingPrompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.LoadingPrompt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.LoadingPrompt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.LoadingSpinnerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.LoadingSpinnerType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.LoadingSpinnerType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.Notification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.Notification",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.NotificationIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.NotificationIcon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.NotificationIcon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.Screen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.Screen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.Screen",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.ScreenEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.ScreenEffect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.ScreenEffect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.Sprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.Sprite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.Sprite",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.TextElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.TextElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI.TextElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.UI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Vehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Vehicle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Vehicle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleChaseBehaviorFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleChaseBehaviorFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleChaseBehaviorFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleClass.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleClass",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleColor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleDoor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleDoor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleDoor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleDoorCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleDoorCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleDoorCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleDoorIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleDoorIndex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleDoorIndex",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleDrivingFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleDrivingFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleDrivingFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleEscortType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleEscortType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleEscortType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleLandingGearState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleLandingGearState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleLandingGearState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleLockStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleLockStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleLockStatus",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleMissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleMissionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleMissionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleMod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleMod",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleModCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleModCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleModCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleModType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleModType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleModType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleNeonLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleNeonLight.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleNeonLight",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehiclePathNodePropertyFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehiclePathNodePropertyFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehiclePathNodePropertyFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleRoofState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleRoofState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleRoofState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleSeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleSeat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleSeat",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleToggleMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleToggleMod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleToggleMod",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleToggleModType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleToggleModType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleToggleModType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWeaponHandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWeaponHandlingData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWeaponHandlingData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWeaponHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWeaponHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWeaponHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWheel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWheel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWheel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWheelBoneId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWheelBoneId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWheelBoneId",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWheelCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWheelCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWheelCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWheelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWheelType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWheelType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWindowCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWindowCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWindowCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWindowIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWindowIndex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWindowIndex",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.VehicleWindowTint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.VehicleWindowTint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.VehicleWindowTint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Wanted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Wanted.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Wanted",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Water.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Water.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Water",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Weapon.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Weapon",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponAsset.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponAsset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponAttachmentPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponAttachmentPoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponAttachmentPoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponCollection.Enumerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponCollection.Enumerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponComponent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponComponent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponComponentCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponComponentCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponComponentCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponComponentHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponComponentHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponComponentHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponHash.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponHash",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponScriptResourceFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponScriptResourceFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponScriptResourceFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WeaponTint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WeaponTint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WeaponTint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.Weather.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.Weather.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.Weather",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.WindowTitle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.WindowTitle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.WindowTitle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.World.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.World.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA.World",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GTA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GTA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "GTA",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

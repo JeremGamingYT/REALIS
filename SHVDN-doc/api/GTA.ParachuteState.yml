@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.ParachuteState
+  commentId: T:GTA.ParachuteState
+  id: ParachuteState
+  parent: GTA
+  children:
+  - GTA.ParachuteState.Deploying
+  - GTA.ParachuteState.FreeFalling
+  - GTA.ParachuteState.Gliding
+  - GTA.ParachuteState.LandingOrFallingToDoom
+  - GTA.ParachuteState.None
+  langs:
+  - csharp
+  - vb
+  name: ParachuteState
+  nameWithType: ParachuteState
+  fullName: GTA.ParachuteState
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public enum ParachuteState
+    content.vb: Public Enum ParachuteState
+- uid: GTA.ParachuteState.None
+  commentId: F:GTA.ParachuteState.None
+  id: None
+  parent: GTA.ParachuteState
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ParachuteState.None
+  fullName: GTA.ParachuteState.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: None = -1
+    return:
+      type: GTA.ParachuteState
+- uid: GTA.ParachuteState.FreeFalling
+  commentId: F:GTA.ParachuteState.FreeFalling
+  id: FreeFalling
+  parent: GTA.ParachuteState
+  langs:
+  - csharp
+  - vb
+  name: FreeFalling
+  nameWithType: ParachuteState.FreeFalling
+  fullName: GTA.ParachuteState.FreeFalling
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: FreeFalling = 0
+    return:
+      type: GTA.ParachuteState
+- uid: GTA.ParachuteState.Deploying
+  commentId: F:GTA.ParachuteState.Deploying
+  id: Deploying
+  parent: GTA.ParachuteState
+  langs:
+  - csharp
+  - vb
+  name: Deploying
+  nameWithType: ParachuteState.Deploying
+  fullName: GTA.ParachuteState.Deploying
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Deploying = 1
+    return:
+      type: GTA.ParachuteState
+- uid: GTA.ParachuteState.Gliding
+  commentId: F:GTA.ParachuteState.Gliding
+  id: Gliding
+  parent: GTA.ParachuteState
+  langs:
+  - csharp
+  - vb
+  name: Gliding
+  nameWithType: ParachuteState.Gliding
+  fullName: GTA.ParachuteState.Gliding
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: Gliding = 2
+    return:
+      type: GTA.ParachuteState
+- uid: GTA.ParachuteState.LandingOrFallingToDoom
+  commentId: F:GTA.ParachuteState.LandingOrFallingToDoom
+  id: LandingOrFallingToDoom
+  parent: GTA.ParachuteState
+  langs:
+  - csharp
+  - vb
+  name: LandingOrFallingToDoom
+  nameWithType: ParachuteState.LandingOrFallingToDoom
+  fullName: GTA.ParachuteState.LandingOrFallingToDoom
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: LandingOrFallingToDoom = 3
+    return:
+      type: GTA.ParachuteState
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: GTA.ParachuteState
+  commentId: T:GTA.ParachuteState
+  parent: GTA
+  isExternal: true
+  href: GTA.ParachuteState.html
+  name: ParachuteState
+  nameWithType: ParachuteState
+  fullName: GTA.ParachuteState

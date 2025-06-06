@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.NaturalMotion.WeaponMode
+  commentId: T:GTA.NaturalMotion.WeaponMode
+  id: WeaponMode
+  parent: GTA.NaturalMotion
+  children:
+  - GTA.NaturalMotion.WeaponMode.Dual
+  - GTA.NaturalMotion.WeaponMode.None
+  - GTA.NaturalMotion.WeaponMode.Pistol
+  - GTA.NaturalMotion.WeaponMode.PistolLeft
+  - GTA.NaturalMotion.WeaponMode.PistolRight
+  - GTA.NaturalMotion.WeaponMode.Rifle
+  - GTA.NaturalMotion.WeaponMode.SideArm
+  langs:
+  - csharp
+  - vb
+  name: WeaponMode
+  nameWithType: WeaponMode
+  fullName: GTA.NaturalMotion.WeaponMode
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: public enum WeaponMode
+    content.vb: Public Enum WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.None
+  commentId: F:GTA.NaturalMotion.WeaponMode.None
+  id: None
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: WeaponMode.None
+  fullName: GTA.NaturalMotion.WeaponMode.None
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: None = -1
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.Pistol
+  commentId: F:GTA.NaturalMotion.WeaponMode.Pistol
+  id: Pistol
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: Pistol
+  nameWithType: WeaponMode.Pistol
+  fullName: GTA.NaturalMotion.WeaponMode.Pistol
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Pistol = 0
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.Dual
+  commentId: F:GTA.NaturalMotion.WeaponMode.Dual
+  id: Dual
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: Dual
+  nameWithType: WeaponMode.Dual
+  fullName: GTA.NaturalMotion.WeaponMode.Dual
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Dual = 1
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.Rifle
+  commentId: F:GTA.NaturalMotion.WeaponMode.Rifle
+  id: Rifle
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: Rifle
+  nameWithType: WeaponMode.Rifle
+  fullName: GTA.NaturalMotion.WeaponMode.Rifle
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: Rifle = 2
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.SideArm
+  commentId: F:GTA.NaturalMotion.WeaponMode.SideArm
+  id: SideArm
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: SideArm
+  nameWithType: WeaponMode.SideArm
+  fullName: GTA.NaturalMotion.WeaponMode.SideArm
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: SideArm = 3
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.PistolLeft
+  commentId: F:GTA.NaturalMotion.WeaponMode.PistolLeft
+  id: PistolLeft
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: PistolLeft
+  nameWithType: WeaponMode.PistolLeft
+  fullName: GTA.NaturalMotion.WeaponMode.PistolLeft
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: PistolLeft = 4
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+- uid: GTA.NaturalMotion.WeaponMode.PistolRight
+  commentId: F:GTA.NaturalMotion.WeaponMode.PistolRight
+  id: PistolRight
+  parent: GTA.NaturalMotion.WeaponMode
+  langs:
+  - csharp
+  - vb
+  name: PistolRight
+  nameWithType: WeaponMode.PistolRight
+  fullName: GTA.NaturalMotion.WeaponMode.PistolRight
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.NaturalMotion
+  syntax:
+    content: PistolRight = 5
+    return:
+      type: GTA.NaturalMotion.WeaponMode
+references:
+- uid: GTA.NaturalMotion
+  commentId: N:GTA.NaturalMotion
+  isExternal: true
+  href: GTA.html
+  name: GTA.NaturalMotion
+  nameWithType: GTA.NaturalMotion
+  fullName: GTA.NaturalMotion
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.NaturalMotion
+    name: NaturalMotion
+    isExternal: true
+    href: GTA.NaturalMotion.html
+- uid: GTA.NaturalMotion.WeaponMode
+  commentId: T:GTA.NaturalMotion.WeaponMode
+  parent: GTA.NaturalMotion
+  isExternal: true
+  href: GTA.NaturalMotion.WeaponMode.html
+  name: WeaponMode
+  nameWithType: WeaponMode
+  fullName: GTA.NaturalMotion.WeaponMode

@@ -1,0 +1,3229 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.UI.NotificationIcon
+  commentId: T:GTA.UI.NotificationIcon
+  id: NotificationIcon
+  parent: GTA.UI
+  children:
+  - GTA.UI.NotificationIcon.Abigail
+  - GTA.UI.NotificationIcon.AllPlayersConf
+  - GTA.UI.NotificationIcon.Amanda
+  - GTA.UI.NotificationIcon.Ammunation
+  - GTA.UI.NotificationIcon.Andreas
+  - GTA.UI.NotificationIcon.Antonia
+  - GTA.UI.NotificationIcon.Arthur
+  - GTA.UI.NotificationIcon.Ashley
+  - GTA.UI.NotificationIcon.BankBol
+  - GTA.UI.NotificationIcon.BankFleeca
+  - GTA.UI.NotificationIcon.BankMaze
+  - GTA.UI.NotificationIcon.Barry
+  - GTA.UI.NotificationIcon.Beverly
+  - GTA.UI.NotificationIcon.Bikesite
+  - GTA.UI.NotificationIcon.BlankEntry
+  - GTA.UI.NotificationIcon.Blimp
+  - GTA.UI.NotificationIcon.Blocked
+  - GTA.UI.NotificationIcon.Boatsite
+  - GTA.UI.NotificationIcon.BrokenDownGirl
+  - GTA.UI.NotificationIcon.Bugstars
+  - GTA.UI.NotificationIcon.Call911
+  - GTA.UI.NotificationIcon.Carsite
+  - GTA.UI.NotificationIcon.Carsite2
+  - GTA.UI.NotificationIcon.Castro
+  - GTA.UI.NotificationIcon.ChatCall
+  - GTA.UI.NotificationIcon.Chef
+  - GTA.UI.NotificationIcon.Cheng
+  - GTA.UI.NotificationIcon.Chengsr
+  - GTA.UI.NotificationIcon.Chop
+  - GTA.UI.NotificationIcon.CreatorPortraits
+  - GTA.UI.NotificationIcon.Cris
+  - GTA.UI.NotificationIcon.Dave
+  - GTA.UI.NotificationIcon.Default
+  - GTA.UI.NotificationIcon.Denise
+  - GTA.UI.NotificationIcon.DetonateBomb
+  - GTA.UI.NotificationIcon.DetonatePhone
+  - GTA.UI.NotificationIcon.Devin
+  - GTA.UI.NotificationIcon.DialASub
+  - GTA.UI.NotificationIcon.Dom
+  - GTA.UI.NotificationIcon.DomesticGirl
+  - GTA.UI.NotificationIcon.DrFriedlander
+  - GTA.UI.NotificationIcon.Dreyfuss
+  - GTA.UI.NotificationIcon.Epsilon
+  - GTA.UI.NotificationIcon.EstateAgent
+  - GTA.UI.NotificationIcon.Facebook
+  - GTA.UI.NotificationIcon.FilmNoir
+  - GTA.UI.NotificationIcon.Floyd
+  - GTA.UI.NotificationIcon.FrankTrevConf
+  - GTA.UI.NotificationIcon.Franklin
+  - GTA.UI.NotificationIcon.Gaymilitary
+  - GTA.UI.NotificationIcon.Hao
+  - GTA.UI.NotificationIcon.HitcherGirl
+  - GTA.UI.NotificationIcon.HumanDefault
+  - GTA.UI.NotificationIcon.Hunter
+  - GTA.UI.NotificationIcon.Jimmy
+  - GTA.UI.NotificationIcon.JimmyBoston
+  - GTA.UI.NotificationIcon.Joe
+  - GTA.UI.NotificationIcon.Josef
+  - GTA.UI.NotificationIcon.Josh
+  - GTA.UI.NotificationIcon.Lamar
+  - GTA.UI.NotificationIcon.Lazlow
+  - GTA.UI.NotificationIcon.LesFrankConf
+  - GTA.UI.NotificationIcon.LesMikeConf
+  - GTA.UI.NotificationIcon.Lester
+  - GTA.UI.NotificationIcon.LesterDeathwish
+  - GTA.UI.NotificationIcon.Lifeinvader
+  - GTA.UI.NotificationIcon.LsCustoms
+  - GTA.UI.NotificationIcon.LsTouristBoard
+  - GTA.UI.NotificationIcon.Manuel
+  - GTA.UI.NotificationIcon.Marnie
+  - GTA.UI.NotificationIcon.Martin
+  - GTA.UI.NotificationIcon.MaryAnn
+  - GTA.UI.NotificationIcon.Maude
+  - GTA.UI.NotificationIcon.Mechanic
+  - GTA.UI.NotificationIcon.Michael
+  - GTA.UI.NotificationIcon.MikeFrankConf
+  - GTA.UI.NotificationIcon.MikeTrevConf
+  - GTA.UI.NotificationIcon.Milsite
+  - GTA.UI.NotificationIcon.Minotaur
+  - GTA.UI.NotificationIcon.Molly
+  - GTA.UI.NotificationIcon.MpArmyContact
+  - GTA.UI.NotificationIcon.MpBikerBoss
+  - GTA.UI.NotificationIcon.MpBikerMechanic
+  - GTA.UI.NotificationIcon.MpBrucie
+  - GTA.UI.NotificationIcon.MpDetonatePhone
+  - GTA.UI.NotificationIcon.MpFIBContact
+  - GTA.UI.NotificationIcon.MpFamBoss
+  - GTA.UI.NotificationIcon.MpFmContact
+  - GTA.UI.NotificationIcon.MpGerald
+  - GTA.UI.NotificationIcon.MpJulio
+  - GTA.UI.NotificationIcon.MpMechanic
+  - GTA.UI.NotificationIcon.MpMerryweather
+  - GTA.UI.NotificationIcon.MpMexBoss
+  - GTA.UI.NotificationIcon.MpMexDocks
+  - GTA.UI.NotificationIcon.MpMexLt
+  - GTA.UI.NotificationIcon.MpMorsMutual
+  - GTA.UI.NotificationIcon.MpProfBoss
+  - GTA.UI.NotificationIcon.MpRayLavoy
+  - GTA.UI.NotificationIcon.MpRoberto
+  - GTA.UI.NotificationIcon.MpSnitch
+  - GTA.UI.NotificationIcon.MpStretch
+  - GTA.UI.NotificationIcon.MpStripclubPr
+  - GTA.UI.NotificationIcon.MrsThornhill
+  - GTA.UI.NotificationIcon.Multiplayer
+  - GTA.UI.NotificationIcon.Nigel
+  - GTA.UI.NotificationIcon.Omega
+  - GTA.UI.NotificationIcon.Oneil
+  - GTA.UI.NotificationIcon.Ortega
+  - GTA.UI.NotificationIcon.Oscar
+  - GTA.UI.NotificationIcon.Patricia
+  - GTA.UI.NotificationIcon.PegasusDelivery
+  - GTA.UI.NotificationIcon.Planesite
+  - GTA.UI.NotificationIcon.PropertyArmsTrafficking
+  - GTA.UI.NotificationIcon.PropertyBarAirport
+  - GTA.UI.NotificationIcon.PropertyBarBayview
+  - GTA.UI.NotificationIcon.PropertyBarCafeRojo
+  - GTA.UI.NotificationIcon.PropertyBarCockotoos
+  - GTA.UI.NotificationIcon.PropertyBarEclipse
+  - GTA.UI.NotificationIcon.PropertyBarFes
+  - GTA.UI.NotificationIcon.PropertyBarHenHouse
+  - GTA.UI.NotificationIcon.PropertyBarHiMen
+  - GTA.UI.NotificationIcon.PropertyBarHookies
+  - GTA.UI.NotificationIcon.PropertyBarIrish
+  - GTA.UI.NotificationIcon.PropertyBarLesBianco
+  - GTA.UI.NotificationIcon.PropertyBarMirrorPark
+  - GTA.UI.NotificationIcon.PropertyBarPitchers
+  - GTA.UI.NotificationIcon.PropertyBarSingletons
+  - GTA.UI.NotificationIcon.PropertyBarTequilala
+  - GTA.UI.NotificationIcon.PropertyBarUnbranded
+  - GTA.UI.NotificationIcon.PropertyCarModShop
+  - GTA.UI.NotificationIcon.PropertyCarScrapYard
+  - GTA.UI.NotificationIcon.PropertyCinemaDowntown
+  - GTA.UI.NotificationIcon.PropertyCinemaMorningwood
+  - GTA.UI.NotificationIcon.PropertyCinemaVinewood
+  - GTA.UI.NotificationIcon.PropertyGolfClub
+  - GTA.UI.NotificationIcon.PropertyPlaneScrapYard
+  - GTA.UI.NotificationIcon.PropertySonarCollections
+  - GTA.UI.NotificationIcon.PropertyTaxiLot
+  - GTA.UI.NotificationIcon.PropertyTowingImpound
+  - GTA.UI.NotificationIcon.PropertyWeedShop
+  - GTA.UI.NotificationIcon.Ron
+  - GTA.UI.NotificationIcon.Saeeda
+  - GTA.UI.NotificationIcon.Sasquatch
+  - GTA.UI.NotificationIcon.Simeon
+  - GTA.UI.NotificationIcon.SocialClub
+  - GTA.UI.NotificationIcon.Solomon
+  - GTA.UI.NotificationIcon.Steve
+  - GTA.UI.NotificationIcon.SteveMikeConf
+  - GTA.UI.NotificationIcon.SteveTrevConf
+  - GTA.UI.NotificationIcon.Stretch
+  - GTA.UI.NotificationIcon.StripperChastity
+  - GTA.UI.NotificationIcon.StripperCheetah
+  - GTA.UI.NotificationIcon.StripperFufu
+  - GTA.UI.NotificationIcon.StripperInfernus
+  - GTA.UI.NotificationIcon.StripperJuliet
+  - GTA.UI.NotificationIcon.StripperNikki
+  - GTA.UI.NotificationIcon.StripperPeach
+  - GTA.UI.NotificationIcon.StripperSapphire
+  - GTA.UI.NotificationIcon.Tanisha
+  - GTA.UI.NotificationIcon.Taxi
+  - GTA.UI.NotificationIcon.TaxiLiz
+  - GTA.UI.NotificationIcon.TennisCoach
+  - GTA.UI.NotificationIcon.TowTonya
+  - GTA.UI.NotificationIcon.Tracey
+  - GTA.UI.NotificationIcon.Trevor
+  - GTA.UI.NotificationIcon.Wade
+  - GTA.UI.NotificationIcon.YouTube
+  langs:
+  - csharp
+  - vb
+  name: NotificationIcon
+  nameWithType: NotificationIcon
+  fullName: GTA.UI.NotificationIcon
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: public enum NotificationIcon
+    content.vb: Public Enum NotificationIcon
+- uid: GTA.UI.NotificationIcon.Abigail
+  commentId: F:GTA.UI.NotificationIcon.Abigail
+  id: Abigail
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Abigail
+  nameWithType: NotificationIcon.Abigail
+  fullName: GTA.UI.NotificationIcon.Abigail
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Abigail = 0
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.AllPlayersConf
+  commentId: F:GTA.UI.NotificationIcon.AllPlayersConf
+  id: AllPlayersConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: AllPlayersConf
+  nameWithType: NotificationIcon.AllPlayersConf
+  fullName: GTA.UI.NotificationIcon.AllPlayersConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: AllPlayersConf = 1
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Amanda
+  commentId: F:GTA.UI.NotificationIcon.Amanda
+  id: Amanda
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Amanda
+  nameWithType: NotificationIcon.Amanda
+  fullName: GTA.UI.NotificationIcon.Amanda
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Amanda = 2
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Ammunation
+  commentId: F:GTA.UI.NotificationIcon.Ammunation
+  id: Ammunation
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Ammunation
+  nameWithType: NotificationIcon.Ammunation
+  fullName: GTA.UI.NotificationIcon.Ammunation
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Ammunation = 3
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Andreas
+  commentId: F:GTA.UI.NotificationIcon.Andreas
+  id: Andreas
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Andreas
+  nameWithType: NotificationIcon.Andreas
+  fullName: GTA.UI.NotificationIcon.Andreas
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Andreas = 4
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Antonia
+  commentId: F:GTA.UI.NotificationIcon.Antonia
+  id: Antonia
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Antonia
+  nameWithType: NotificationIcon.Antonia
+  fullName: GTA.UI.NotificationIcon.Antonia
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Antonia = 5
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Arthur
+  commentId: F:GTA.UI.NotificationIcon.Arthur
+  id: Arthur
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Arthur
+  nameWithType: NotificationIcon.Arthur
+  fullName: GTA.UI.NotificationIcon.Arthur
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Arthur = 6
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Ashley
+  commentId: F:GTA.UI.NotificationIcon.Ashley
+  id: Ashley
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Ashley
+  nameWithType: NotificationIcon.Ashley
+  fullName: GTA.UI.NotificationIcon.Ashley
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Ashley = 7
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.BankBol
+  commentId: F:GTA.UI.NotificationIcon.BankBol
+  id: BankBol
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: BankBol
+  nameWithType: NotificationIcon.BankBol
+  fullName: GTA.UI.NotificationIcon.BankBol
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BankBol = 8
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.BankFleeca
+  commentId: F:GTA.UI.NotificationIcon.BankFleeca
+  id: BankFleeca
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: BankFleeca
+  nameWithType: NotificationIcon.BankFleeca
+  fullName: GTA.UI.NotificationIcon.BankFleeca
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BankFleeca = 9
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.BankMaze
+  commentId: F:GTA.UI.NotificationIcon.BankMaze
+  id: BankMaze
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: BankMaze
+  nameWithType: NotificationIcon.BankMaze
+  fullName: GTA.UI.NotificationIcon.BankMaze
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BankMaze = 10
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Barry
+  commentId: F:GTA.UI.NotificationIcon.Barry
+  id: Barry
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Barry
+  nameWithType: NotificationIcon.Barry
+  fullName: GTA.UI.NotificationIcon.Barry
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Barry = 11
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Beverly
+  commentId: F:GTA.UI.NotificationIcon.Beverly
+  id: Beverly
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Beverly
+  nameWithType: NotificationIcon.Beverly
+  fullName: GTA.UI.NotificationIcon.Beverly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Beverly = 12
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Bikesite
+  commentId: F:GTA.UI.NotificationIcon.Bikesite
+  id: Bikesite
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Bikesite
+  nameWithType: NotificationIcon.Bikesite
+  fullName: GTA.UI.NotificationIcon.Bikesite
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Bikesite = 13
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.BlankEntry
+  commentId: F:GTA.UI.NotificationIcon.BlankEntry
+  id: BlankEntry
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: BlankEntry
+  nameWithType: NotificationIcon.BlankEntry
+  fullName: GTA.UI.NotificationIcon.BlankEntry
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BlankEntry = 14
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Blimp
+  commentId: F:GTA.UI.NotificationIcon.Blimp
+  id: Blimp
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Blimp
+  nameWithType: NotificationIcon.Blimp
+  fullName: GTA.UI.NotificationIcon.Blimp
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Blimp = 15
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Blocked
+  commentId: F:GTA.UI.NotificationIcon.Blocked
+  id: Blocked
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Blocked
+  nameWithType: NotificationIcon.Blocked
+  fullName: GTA.UI.NotificationIcon.Blocked
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Blocked = 16
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Boatsite
+  commentId: F:GTA.UI.NotificationIcon.Boatsite
+  id: Boatsite
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Boatsite
+  nameWithType: NotificationIcon.Boatsite
+  fullName: GTA.UI.NotificationIcon.Boatsite
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Boatsite = 17
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.BrokenDownGirl
+  commentId: F:GTA.UI.NotificationIcon.BrokenDownGirl
+  id: BrokenDownGirl
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: BrokenDownGirl
+  nameWithType: NotificationIcon.BrokenDownGirl
+  fullName: GTA.UI.NotificationIcon.BrokenDownGirl
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: BrokenDownGirl = 18
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Bugstars
+  commentId: F:GTA.UI.NotificationIcon.Bugstars
+  id: Bugstars
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Bugstars
+  nameWithType: NotificationIcon.Bugstars
+  fullName: GTA.UI.NotificationIcon.Bugstars
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Bugstars = 19
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Call911
+  commentId: F:GTA.UI.NotificationIcon.Call911
+  id: Call911
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Call911
+  nameWithType: NotificationIcon.Call911
+  fullName: GTA.UI.NotificationIcon.Call911
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Call911 = 20
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Carsite
+  commentId: F:GTA.UI.NotificationIcon.Carsite
+  id: Carsite
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Carsite
+  nameWithType: NotificationIcon.Carsite
+  fullName: GTA.UI.NotificationIcon.Carsite
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Carsite = 21
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Carsite2
+  commentId: F:GTA.UI.NotificationIcon.Carsite2
+  id: Carsite2
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Carsite2
+  nameWithType: NotificationIcon.Carsite2
+  fullName: GTA.UI.NotificationIcon.Carsite2
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Carsite2 = 22
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Castro
+  commentId: F:GTA.UI.NotificationIcon.Castro
+  id: Castro
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Castro
+  nameWithType: NotificationIcon.Castro
+  fullName: GTA.UI.NotificationIcon.Castro
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Castro = 23
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.ChatCall
+  commentId: F:GTA.UI.NotificationIcon.ChatCall
+  id: ChatCall
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: ChatCall
+  nameWithType: NotificationIcon.ChatCall
+  fullName: GTA.UI.NotificationIcon.ChatCall
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: ChatCall = 24
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Chef
+  commentId: F:GTA.UI.NotificationIcon.Chef
+  id: Chef
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Chef
+  nameWithType: NotificationIcon.Chef
+  fullName: GTA.UI.NotificationIcon.Chef
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Chef = 25
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Cheng
+  commentId: F:GTA.UI.NotificationIcon.Cheng
+  id: Cheng
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Cheng
+  nameWithType: NotificationIcon.Cheng
+  fullName: GTA.UI.NotificationIcon.Cheng
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Cheng = 26
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Chengsr
+  commentId: F:GTA.UI.NotificationIcon.Chengsr
+  id: Chengsr
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Chengsr
+  nameWithType: NotificationIcon.Chengsr
+  fullName: GTA.UI.NotificationIcon.Chengsr
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Chengsr = 27
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Chop
+  commentId: F:GTA.UI.NotificationIcon.Chop
+  id: Chop
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Chop
+  nameWithType: NotificationIcon.Chop
+  fullName: GTA.UI.NotificationIcon.Chop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Chop = 28
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Cris
+  commentId: F:GTA.UI.NotificationIcon.Cris
+  id: Cris
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Cris
+  nameWithType: NotificationIcon.Cris
+  fullName: GTA.UI.NotificationIcon.Cris
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Cris = 29
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Dave
+  commentId: F:GTA.UI.NotificationIcon.Dave
+  id: Dave
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Dave
+  nameWithType: NotificationIcon.Dave
+  fullName: GTA.UI.NotificationIcon.Dave
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Dave = 30
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Default
+  commentId: F:GTA.UI.NotificationIcon.Default
+  id: Default
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: NotificationIcon.Default
+  fullName: GTA.UI.NotificationIcon.Default
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Default = 31
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Denise
+  commentId: F:GTA.UI.NotificationIcon.Denise
+  id: Denise
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Denise
+  nameWithType: NotificationIcon.Denise
+  fullName: GTA.UI.NotificationIcon.Denise
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Denise = 32
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.DetonateBomb
+  commentId: F:GTA.UI.NotificationIcon.DetonateBomb
+  id: DetonateBomb
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: DetonateBomb
+  nameWithType: NotificationIcon.DetonateBomb
+  fullName: GTA.UI.NotificationIcon.DetonateBomb
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DetonateBomb = 33
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.DetonatePhone
+  commentId: F:GTA.UI.NotificationIcon.DetonatePhone
+  id: DetonatePhone
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: DetonatePhone
+  nameWithType: NotificationIcon.DetonatePhone
+  fullName: GTA.UI.NotificationIcon.DetonatePhone
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DetonatePhone = 34
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Devin
+  commentId: F:GTA.UI.NotificationIcon.Devin
+  id: Devin
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Devin
+  nameWithType: NotificationIcon.Devin
+  fullName: GTA.UI.NotificationIcon.Devin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Devin = 35
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.DialASub
+  commentId: F:GTA.UI.NotificationIcon.DialASub
+  id: DialASub
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: DialASub
+  nameWithType: NotificationIcon.DialASub
+  fullName: GTA.UI.NotificationIcon.DialASub
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DialASub = 36
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Dom
+  commentId: F:GTA.UI.NotificationIcon.Dom
+  id: Dom
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Dom
+  nameWithType: NotificationIcon.Dom
+  fullName: GTA.UI.NotificationIcon.Dom
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Dom = 37
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.DomesticGirl
+  commentId: F:GTA.UI.NotificationIcon.DomesticGirl
+  id: DomesticGirl
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: DomesticGirl
+  nameWithType: NotificationIcon.DomesticGirl
+  fullName: GTA.UI.NotificationIcon.DomesticGirl
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DomesticGirl = 38
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Dreyfuss
+  commentId: F:GTA.UI.NotificationIcon.Dreyfuss
+  id: Dreyfuss
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Dreyfuss
+  nameWithType: NotificationIcon.Dreyfuss
+  fullName: GTA.UI.NotificationIcon.Dreyfuss
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Dreyfuss = 39
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.DrFriedlander
+  commentId: F:GTA.UI.NotificationIcon.DrFriedlander
+  id: DrFriedlander
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: DrFriedlander
+  nameWithType: NotificationIcon.DrFriedlander
+  fullName: GTA.UI.NotificationIcon.DrFriedlander
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: DrFriedlander = 40
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Epsilon
+  commentId: F:GTA.UI.NotificationIcon.Epsilon
+  id: Epsilon
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Epsilon
+  nameWithType: NotificationIcon.Epsilon
+  fullName: GTA.UI.NotificationIcon.Epsilon
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Epsilon = 41
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.EstateAgent
+  commentId: F:GTA.UI.NotificationIcon.EstateAgent
+  id: EstateAgent
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: EstateAgent
+  nameWithType: NotificationIcon.EstateAgent
+  fullName: GTA.UI.NotificationIcon.EstateAgent
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: EstateAgent = 42
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Facebook
+  commentId: F:GTA.UI.NotificationIcon.Facebook
+  id: Facebook
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Facebook
+  nameWithType: NotificationIcon.Facebook
+  fullName: GTA.UI.NotificationIcon.Facebook
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Facebook = 43
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.FilmNoir
+  commentId: F:GTA.UI.NotificationIcon.FilmNoir
+  id: FilmNoir
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: FilmNoir
+  nameWithType: NotificationIcon.FilmNoir
+  fullName: GTA.UI.NotificationIcon.FilmNoir
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FilmNoir = 44
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Floyd
+  commentId: F:GTA.UI.NotificationIcon.Floyd
+  id: Floyd
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Floyd
+  nameWithType: NotificationIcon.Floyd
+  fullName: GTA.UI.NotificationIcon.Floyd
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Floyd = 45
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Franklin
+  commentId: F:GTA.UI.NotificationIcon.Franklin
+  id: Franklin
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Franklin
+  nameWithType: NotificationIcon.Franklin
+  fullName: GTA.UI.NotificationIcon.Franklin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Franklin = 46
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.FrankTrevConf
+  commentId: F:GTA.UI.NotificationIcon.FrankTrevConf
+  id: FrankTrevConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: FrankTrevConf
+  nameWithType: NotificationIcon.FrankTrevConf
+  fullName: GTA.UI.NotificationIcon.FrankTrevConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: FrankTrevConf = 47
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Gaymilitary
+  commentId: F:GTA.UI.NotificationIcon.Gaymilitary
+  id: Gaymilitary
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Gaymilitary
+  nameWithType: NotificationIcon.Gaymilitary
+  fullName: GTA.UI.NotificationIcon.Gaymilitary
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Gaymilitary = 48
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Hao
+  commentId: F:GTA.UI.NotificationIcon.Hao
+  id: Hao
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Hao
+  nameWithType: NotificationIcon.Hao
+  fullName: GTA.UI.NotificationIcon.Hao
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Hao = 49
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.HitcherGirl
+  commentId: F:GTA.UI.NotificationIcon.HitcherGirl
+  id: HitcherGirl
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: HitcherGirl
+  nameWithType: NotificationIcon.HitcherGirl
+  fullName: GTA.UI.NotificationIcon.HitcherGirl
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HitcherGirl = 50
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.HumanDefault
+  commentId: F:GTA.UI.NotificationIcon.HumanDefault
+  id: HumanDefault
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: HumanDefault
+  nameWithType: NotificationIcon.HumanDefault
+  fullName: GTA.UI.NotificationIcon.HumanDefault
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: HumanDefault = 51
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Hunter
+  commentId: F:GTA.UI.NotificationIcon.Hunter
+  id: Hunter
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Hunter
+  nameWithType: NotificationIcon.Hunter
+  fullName: GTA.UI.NotificationIcon.Hunter
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Hunter = 52
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Jimmy
+  commentId: F:GTA.UI.NotificationIcon.Jimmy
+  id: Jimmy
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Jimmy
+  nameWithType: NotificationIcon.Jimmy
+  fullName: GTA.UI.NotificationIcon.Jimmy
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Jimmy = 53
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.JimmyBoston
+  commentId: F:GTA.UI.NotificationIcon.JimmyBoston
+  id: JimmyBoston
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: JimmyBoston
+  nameWithType: NotificationIcon.JimmyBoston
+  fullName: GTA.UI.NotificationIcon.JimmyBoston
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: JimmyBoston = 54
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Joe
+  commentId: F:GTA.UI.NotificationIcon.Joe
+  id: Joe
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Joe
+  nameWithType: NotificationIcon.Joe
+  fullName: GTA.UI.NotificationIcon.Joe
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Joe = 55
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Josef
+  commentId: F:GTA.UI.NotificationIcon.Josef
+  id: Josef
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Josef
+  nameWithType: NotificationIcon.Josef
+  fullName: GTA.UI.NotificationIcon.Josef
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Josef = 56
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Josh
+  commentId: F:GTA.UI.NotificationIcon.Josh
+  id: Josh
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Josh
+  nameWithType: NotificationIcon.Josh
+  fullName: GTA.UI.NotificationIcon.Josh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Josh = 57
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Lamar
+  commentId: F:GTA.UI.NotificationIcon.Lamar
+  id: Lamar
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Lamar
+  nameWithType: NotificationIcon.Lamar
+  fullName: GTA.UI.NotificationIcon.Lamar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Lamar = 58
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Lazlow
+  commentId: F:GTA.UI.NotificationIcon.Lazlow
+  id: Lazlow
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Lazlow
+  nameWithType: NotificationIcon.Lazlow
+  fullName: GTA.UI.NotificationIcon.Lazlow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Lazlow = 59
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Lester
+  commentId: F:GTA.UI.NotificationIcon.Lester
+  id: Lester
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Lester
+  nameWithType: NotificationIcon.Lester
+  fullName: GTA.UI.NotificationIcon.Lester
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Lester = 60
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.LesterDeathwish
+  commentId: F:GTA.UI.NotificationIcon.LesterDeathwish
+  id: LesterDeathwish
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: LesterDeathwish
+  nameWithType: NotificationIcon.LesterDeathwish
+  fullName: GTA.UI.NotificationIcon.LesterDeathwish
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LesterDeathwish = 61
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.LesFrankConf
+  commentId: F:GTA.UI.NotificationIcon.LesFrankConf
+  id: LesFrankConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: LesFrankConf
+  nameWithType: NotificationIcon.LesFrankConf
+  fullName: GTA.UI.NotificationIcon.LesFrankConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LesFrankConf = 62
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.LesMikeConf
+  commentId: F:GTA.UI.NotificationIcon.LesMikeConf
+  id: LesMikeConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: LesMikeConf
+  nameWithType: NotificationIcon.LesMikeConf
+  fullName: GTA.UI.NotificationIcon.LesMikeConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LesMikeConf = 63
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Lifeinvader
+  commentId: F:GTA.UI.NotificationIcon.Lifeinvader
+  id: Lifeinvader
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Lifeinvader
+  nameWithType: NotificationIcon.Lifeinvader
+  fullName: GTA.UI.NotificationIcon.Lifeinvader
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Lifeinvader = 64
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.LsCustoms
+  commentId: F:GTA.UI.NotificationIcon.LsCustoms
+  id: LsCustoms
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: LsCustoms
+  nameWithType: NotificationIcon.LsCustoms
+  fullName: GTA.UI.NotificationIcon.LsCustoms
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LsCustoms = 65
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.LsTouristBoard
+  commentId: F:GTA.UI.NotificationIcon.LsTouristBoard
+  id: LsTouristBoard
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: LsTouristBoard
+  nameWithType: NotificationIcon.LsTouristBoard
+  fullName: GTA.UI.NotificationIcon.LsTouristBoard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: LsTouristBoard = 66
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Manuel
+  commentId: F:GTA.UI.NotificationIcon.Manuel
+  id: Manuel
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Manuel
+  nameWithType: NotificationIcon.Manuel
+  fullName: GTA.UI.NotificationIcon.Manuel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Manuel = 67
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Marnie
+  commentId: F:GTA.UI.NotificationIcon.Marnie
+  id: Marnie
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Marnie
+  nameWithType: NotificationIcon.Marnie
+  fullName: GTA.UI.NotificationIcon.Marnie
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Marnie = 68
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Martin
+  commentId: F:GTA.UI.NotificationIcon.Martin
+  id: Martin
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Martin
+  nameWithType: NotificationIcon.Martin
+  fullName: GTA.UI.NotificationIcon.Martin
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Martin = 69
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MaryAnn
+  commentId: F:GTA.UI.NotificationIcon.MaryAnn
+  id: MaryAnn
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MaryAnn
+  nameWithType: NotificationIcon.MaryAnn
+  fullName: GTA.UI.NotificationIcon.MaryAnn
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MaryAnn = 70
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Maude
+  commentId: F:GTA.UI.NotificationIcon.Maude
+  id: Maude
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Maude
+  nameWithType: NotificationIcon.Maude
+  fullName: GTA.UI.NotificationIcon.Maude
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Maude = 71
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Mechanic
+  commentId: F:GTA.UI.NotificationIcon.Mechanic
+  id: Mechanic
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Mechanic
+  nameWithType: NotificationIcon.Mechanic
+  fullName: GTA.UI.NotificationIcon.Mechanic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Mechanic = 72
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Michael
+  commentId: F:GTA.UI.NotificationIcon.Michael
+  id: Michael
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Michael
+  nameWithType: NotificationIcon.Michael
+  fullName: GTA.UI.NotificationIcon.Michael
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Michael = 73
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MikeFrankConf
+  commentId: F:GTA.UI.NotificationIcon.MikeFrankConf
+  id: MikeFrankConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MikeFrankConf
+  nameWithType: NotificationIcon.MikeFrankConf
+  fullName: GTA.UI.NotificationIcon.MikeFrankConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MikeFrankConf = 74
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MikeTrevConf
+  commentId: F:GTA.UI.NotificationIcon.MikeTrevConf
+  id: MikeTrevConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MikeTrevConf
+  nameWithType: NotificationIcon.MikeTrevConf
+  fullName: GTA.UI.NotificationIcon.MikeTrevConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MikeTrevConf = 75
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Milsite
+  commentId: F:GTA.UI.NotificationIcon.Milsite
+  id: Milsite
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Milsite
+  nameWithType: NotificationIcon.Milsite
+  fullName: GTA.UI.NotificationIcon.Milsite
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Milsite = 76
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Minotaur
+  commentId: F:GTA.UI.NotificationIcon.Minotaur
+  id: Minotaur
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Minotaur
+  nameWithType: NotificationIcon.Minotaur
+  fullName: GTA.UI.NotificationIcon.Minotaur
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Minotaur = 77
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Molly
+  commentId: F:GTA.UI.NotificationIcon.Molly
+  id: Molly
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Molly
+  nameWithType: NotificationIcon.Molly
+  fullName: GTA.UI.NotificationIcon.Molly
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Molly = 78
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpArmyContact
+  commentId: F:GTA.UI.NotificationIcon.MpArmyContact
+  id: MpArmyContact
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpArmyContact
+  nameWithType: NotificationIcon.MpArmyContact
+  fullName: GTA.UI.NotificationIcon.MpArmyContact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpArmyContact = 79
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpBikerBoss
+  commentId: F:GTA.UI.NotificationIcon.MpBikerBoss
+  id: MpBikerBoss
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpBikerBoss
+  nameWithType: NotificationIcon.MpBikerBoss
+  fullName: GTA.UI.NotificationIcon.MpBikerBoss
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpBikerBoss = 80
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpBikerMechanic
+  commentId: F:GTA.UI.NotificationIcon.MpBikerMechanic
+  id: MpBikerMechanic
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpBikerMechanic
+  nameWithType: NotificationIcon.MpBikerMechanic
+  fullName: GTA.UI.NotificationIcon.MpBikerMechanic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpBikerMechanic = 81
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpBrucie
+  commentId: F:GTA.UI.NotificationIcon.MpBrucie
+  id: MpBrucie
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpBrucie
+  nameWithType: NotificationIcon.MpBrucie
+  fullName: GTA.UI.NotificationIcon.MpBrucie
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpBrucie = 82
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpDetonatePhone
+  commentId: F:GTA.UI.NotificationIcon.MpDetonatePhone
+  id: MpDetonatePhone
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpDetonatePhone
+  nameWithType: NotificationIcon.MpDetonatePhone
+  fullName: GTA.UI.NotificationIcon.MpDetonatePhone
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpDetonatePhone = 83
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpFamBoss
+  commentId: F:GTA.UI.NotificationIcon.MpFamBoss
+  id: MpFamBoss
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpFamBoss
+  nameWithType: NotificationIcon.MpFamBoss
+  fullName: GTA.UI.NotificationIcon.MpFamBoss
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpFamBoss = 84
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpFIBContact
+  commentId: F:GTA.UI.NotificationIcon.MpFIBContact
+  id: MpFIBContact
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpFIBContact
+  nameWithType: NotificationIcon.MpFIBContact
+  fullName: GTA.UI.NotificationIcon.MpFIBContact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpFIBContact = 85
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpFmContact
+  commentId: F:GTA.UI.NotificationIcon.MpFmContact
+  id: MpFmContact
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpFmContact
+  nameWithType: NotificationIcon.MpFmContact
+  fullName: GTA.UI.NotificationIcon.MpFmContact
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpFmContact = 86
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpGerald
+  commentId: F:GTA.UI.NotificationIcon.MpGerald
+  id: MpGerald
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpGerald
+  nameWithType: NotificationIcon.MpGerald
+  fullName: GTA.UI.NotificationIcon.MpGerald
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpGerald = 87
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpJulio
+  commentId: F:GTA.UI.NotificationIcon.MpJulio
+  id: MpJulio
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpJulio
+  nameWithType: NotificationIcon.MpJulio
+  fullName: GTA.UI.NotificationIcon.MpJulio
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpJulio = 88
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpMechanic
+  commentId: F:GTA.UI.NotificationIcon.MpMechanic
+  id: MpMechanic
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpMechanic
+  nameWithType: NotificationIcon.MpMechanic
+  fullName: GTA.UI.NotificationIcon.MpMechanic
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpMechanic = 89
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpMerryweather
+  commentId: F:GTA.UI.NotificationIcon.MpMerryweather
+  id: MpMerryweather
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpMerryweather
+  nameWithType: NotificationIcon.MpMerryweather
+  fullName: GTA.UI.NotificationIcon.MpMerryweather
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpMerryweather = 90
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpMexBoss
+  commentId: F:GTA.UI.NotificationIcon.MpMexBoss
+  id: MpMexBoss
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpMexBoss
+  nameWithType: NotificationIcon.MpMexBoss
+  fullName: GTA.UI.NotificationIcon.MpMexBoss
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpMexBoss = 91
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpMexDocks
+  commentId: F:GTA.UI.NotificationIcon.MpMexDocks
+  id: MpMexDocks
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpMexDocks
+  nameWithType: NotificationIcon.MpMexDocks
+  fullName: GTA.UI.NotificationIcon.MpMexDocks
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpMexDocks = 92
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpMexLt
+  commentId: F:GTA.UI.NotificationIcon.MpMexLt
+  id: MpMexLt
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpMexLt
+  nameWithType: NotificationIcon.MpMexLt
+  fullName: GTA.UI.NotificationIcon.MpMexLt
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpMexLt = 93
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpMorsMutual
+  commentId: F:GTA.UI.NotificationIcon.MpMorsMutual
+  id: MpMorsMutual
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpMorsMutual
+  nameWithType: NotificationIcon.MpMorsMutual
+  fullName: GTA.UI.NotificationIcon.MpMorsMutual
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpMorsMutual = 94
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpProfBoss
+  commentId: F:GTA.UI.NotificationIcon.MpProfBoss
+  id: MpProfBoss
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpProfBoss
+  nameWithType: NotificationIcon.MpProfBoss
+  fullName: GTA.UI.NotificationIcon.MpProfBoss
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpProfBoss = 95
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpRayLavoy
+  commentId: F:GTA.UI.NotificationIcon.MpRayLavoy
+  id: MpRayLavoy
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpRayLavoy
+  nameWithType: NotificationIcon.MpRayLavoy
+  fullName: GTA.UI.NotificationIcon.MpRayLavoy
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpRayLavoy = 96
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpRoberto
+  commentId: F:GTA.UI.NotificationIcon.MpRoberto
+  id: MpRoberto
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpRoberto
+  nameWithType: NotificationIcon.MpRoberto
+  fullName: GTA.UI.NotificationIcon.MpRoberto
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpRoberto = 97
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpSnitch
+  commentId: F:GTA.UI.NotificationIcon.MpSnitch
+  id: MpSnitch
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpSnitch
+  nameWithType: NotificationIcon.MpSnitch
+  fullName: GTA.UI.NotificationIcon.MpSnitch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpSnitch = 98
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpStretch
+  commentId: F:GTA.UI.NotificationIcon.MpStretch
+  id: MpStretch
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpStretch
+  nameWithType: NotificationIcon.MpStretch
+  fullName: GTA.UI.NotificationIcon.MpStretch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpStretch = 99
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MpStripclubPr
+  commentId: F:GTA.UI.NotificationIcon.MpStripclubPr
+  id: MpStripclubPr
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MpStripclubPr
+  nameWithType: NotificationIcon.MpStripclubPr
+  fullName: GTA.UI.NotificationIcon.MpStripclubPr
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MpStripclubPr = 100
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.MrsThornhill
+  commentId: F:GTA.UI.NotificationIcon.MrsThornhill
+  id: MrsThornhill
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: MrsThornhill
+  nameWithType: NotificationIcon.MrsThornhill
+  fullName: GTA.UI.NotificationIcon.MrsThornhill
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: MrsThornhill = 101
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Multiplayer
+  commentId: F:GTA.UI.NotificationIcon.Multiplayer
+  id: Multiplayer
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Multiplayer
+  nameWithType: NotificationIcon.Multiplayer
+  fullName: GTA.UI.NotificationIcon.Multiplayer
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Multiplayer = 102
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Nigel
+  commentId: F:GTA.UI.NotificationIcon.Nigel
+  id: Nigel
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Nigel
+  nameWithType: NotificationIcon.Nigel
+  fullName: GTA.UI.NotificationIcon.Nigel
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Nigel = 103
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Omega
+  commentId: F:GTA.UI.NotificationIcon.Omega
+  id: Omega
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Omega
+  nameWithType: NotificationIcon.Omega
+  fullName: GTA.UI.NotificationIcon.Omega
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Omega = 104
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Oneil
+  commentId: F:GTA.UI.NotificationIcon.Oneil
+  id: Oneil
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Oneil
+  nameWithType: NotificationIcon.Oneil
+  fullName: GTA.UI.NotificationIcon.Oneil
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Oneil = 105
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Ortega
+  commentId: F:GTA.UI.NotificationIcon.Ortega
+  id: Ortega
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Ortega
+  nameWithType: NotificationIcon.Ortega
+  fullName: GTA.UI.NotificationIcon.Ortega
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Ortega = 106
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Oscar
+  commentId: F:GTA.UI.NotificationIcon.Oscar
+  id: Oscar
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Oscar
+  nameWithType: NotificationIcon.Oscar
+  fullName: GTA.UI.NotificationIcon.Oscar
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Oscar = 107
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Patricia
+  commentId: F:GTA.UI.NotificationIcon.Patricia
+  id: Patricia
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Patricia
+  nameWithType: NotificationIcon.Patricia
+  fullName: GTA.UI.NotificationIcon.Patricia
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Patricia = 108
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PegasusDelivery
+  commentId: F:GTA.UI.NotificationIcon.PegasusDelivery
+  id: PegasusDelivery
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PegasusDelivery
+  nameWithType: NotificationIcon.PegasusDelivery
+  fullName: GTA.UI.NotificationIcon.PegasusDelivery
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PegasusDelivery = 109
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Planesite
+  commentId: F:GTA.UI.NotificationIcon.Planesite
+  id: Planesite
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Planesite
+  nameWithType: NotificationIcon.Planesite
+  fullName: GTA.UI.NotificationIcon.Planesite
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Planesite = 110
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyArmsTrafficking
+  commentId: F:GTA.UI.NotificationIcon.PropertyArmsTrafficking
+  id: PropertyArmsTrafficking
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyArmsTrafficking
+  nameWithType: NotificationIcon.PropertyArmsTrafficking
+  fullName: GTA.UI.NotificationIcon.PropertyArmsTrafficking
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyArmsTrafficking = 111
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarAirport
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarAirport
+  id: PropertyBarAirport
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarAirport
+  nameWithType: NotificationIcon.PropertyBarAirport
+  fullName: GTA.UI.NotificationIcon.PropertyBarAirport
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarAirport = 112
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarBayview
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarBayview
+  id: PropertyBarBayview
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarBayview
+  nameWithType: NotificationIcon.PropertyBarBayview
+  fullName: GTA.UI.NotificationIcon.PropertyBarBayview
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarBayview = 113
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarCafeRojo
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarCafeRojo
+  id: PropertyBarCafeRojo
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarCafeRojo
+  nameWithType: NotificationIcon.PropertyBarCafeRojo
+  fullName: GTA.UI.NotificationIcon.PropertyBarCafeRojo
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarCafeRojo = 114
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarCockotoos
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarCockotoos
+  id: PropertyBarCockotoos
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarCockotoos
+  nameWithType: NotificationIcon.PropertyBarCockotoos
+  fullName: GTA.UI.NotificationIcon.PropertyBarCockotoos
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarCockotoos = 115
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarEclipse
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarEclipse
+  id: PropertyBarEclipse
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarEclipse
+  nameWithType: NotificationIcon.PropertyBarEclipse
+  fullName: GTA.UI.NotificationIcon.PropertyBarEclipse
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarEclipse = 116
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarFes
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarFes
+  id: PropertyBarFes
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarFes
+  nameWithType: NotificationIcon.PropertyBarFes
+  fullName: GTA.UI.NotificationIcon.PropertyBarFes
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarFes = 117
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarHenHouse
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarHenHouse
+  id: PropertyBarHenHouse
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarHenHouse
+  nameWithType: NotificationIcon.PropertyBarHenHouse
+  fullName: GTA.UI.NotificationIcon.PropertyBarHenHouse
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarHenHouse = 118
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarHiMen
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarHiMen
+  id: PropertyBarHiMen
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarHiMen
+  nameWithType: NotificationIcon.PropertyBarHiMen
+  fullName: GTA.UI.NotificationIcon.PropertyBarHiMen
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarHiMen = 119
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarHookies
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarHookies
+  id: PropertyBarHookies
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarHookies
+  nameWithType: NotificationIcon.PropertyBarHookies
+  fullName: GTA.UI.NotificationIcon.PropertyBarHookies
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarHookies = 120
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarIrish
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarIrish
+  id: PropertyBarIrish
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarIrish
+  nameWithType: NotificationIcon.PropertyBarIrish
+  fullName: GTA.UI.NotificationIcon.PropertyBarIrish
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarIrish = 121
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarLesBianco
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarLesBianco
+  id: PropertyBarLesBianco
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarLesBianco
+  nameWithType: NotificationIcon.PropertyBarLesBianco
+  fullName: GTA.UI.NotificationIcon.PropertyBarLesBianco
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarLesBianco = 122
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarMirrorPark
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarMirrorPark
+  id: PropertyBarMirrorPark
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarMirrorPark
+  nameWithType: NotificationIcon.PropertyBarMirrorPark
+  fullName: GTA.UI.NotificationIcon.PropertyBarMirrorPark
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarMirrorPark = 123
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarPitchers
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarPitchers
+  id: PropertyBarPitchers
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarPitchers
+  nameWithType: NotificationIcon.PropertyBarPitchers
+  fullName: GTA.UI.NotificationIcon.PropertyBarPitchers
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarPitchers = 124
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarSingletons
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarSingletons
+  id: PropertyBarSingletons
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarSingletons
+  nameWithType: NotificationIcon.PropertyBarSingletons
+  fullName: GTA.UI.NotificationIcon.PropertyBarSingletons
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarSingletons = 125
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarTequilala
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarTequilala
+  id: PropertyBarTequilala
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarTequilala
+  nameWithType: NotificationIcon.PropertyBarTequilala
+  fullName: GTA.UI.NotificationIcon.PropertyBarTequilala
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarTequilala = 126
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyBarUnbranded
+  commentId: F:GTA.UI.NotificationIcon.PropertyBarUnbranded
+  id: PropertyBarUnbranded
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyBarUnbranded
+  nameWithType: NotificationIcon.PropertyBarUnbranded
+  fullName: GTA.UI.NotificationIcon.PropertyBarUnbranded
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyBarUnbranded = 127
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyCarModShop
+  commentId: F:GTA.UI.NotificationIcon.PropertyCarModShop
+  id: PropertyCarModShop
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyCarModShop
+  nameWithType: NotificationIcon.PropertyCarModShop
+  fullName: GTA.UI.NotificationIcon.PropertyCarModShop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyCarModShop = 128
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyCarScrapYard
+  commentId: F:GTA.UI.NotificationIcon.PropertyCarScrapYard
+  id: PropertyCarScrapYard
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyCarScrapYard
+  nameWithType: NotificationIcon.PropertyCarScrapYard
+  fullName: GTA.UI.NotificationIcon.PropertyCarScrapYard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyCarScrapYard = 129
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyCinemaDowntown
+  commentId: F:GTA.UI.NotificationIcon.PropertyCinemaDowntown
+  id: PropertyCinemaDowntown
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyCinemaDowntown
+  nameWithType: NotificationIcon.PropertyCinemaDowntown
+  fullName: GTA.UI.NotificationIcon.PropertyCinemaDowntown
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyCinemaDowntown = 130
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyCinemaMorningwood
+  commentId: F:GTA.UI.NotificationIcon.PropertyCinemaMorningwood
+  id: PropertyCinemaMorningwood
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyCinemaMorningwood
+  nameWithType: NotificationIcon.PropertyCinemaMorningwood
+  fullName: GTA.UI.NotificationIcon.PropertyCinemaMorningwood
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyCinemaMorningwood = 131
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyCinemaVinewood
+  commentId: F:GTA.UI.NotificationIcon.PropertyCinemaVinewood
+  id: PropertyCinemaVinewood
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyCinemaVinewood
+  nameWithType: NotificationIcon.PropertyCinemaVinewood
+  fullName: GTA.UI.NotificationIcon.PropertyCinemaVinewood
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyCinemaVinewood = 132
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyGolfClub
+  commentId: F:GTA.UI.NotificationIcon.PropertyGolfClub
+  id: PropertyGolfClub
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyGolfClub
+  nameWithType: NotificationIcon.PropertyGolfClub
+  fullName: GTA.UI.NotificationIcon.PropertyGolfClub
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyGolfClub = 133
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyPlaneScrapYard
+  commentId: F:GTA.UI.NotificationIcon.PropertyPlaneScrapYard
+  id: PropertyPlaneScrapYard
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyPlaneScrapYard
+  nameWithType: NotificationIcon.PropertyPlaneScrapYard
+  fullName: GTA.UI.NotificationIcon.PropertyPlaneScrapYard
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyPlaneScrapYard = 134
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertySonarCollections
+  commentId: F:GTA.UI.NotificationIcon.PropertySonarCollections
+  id: PropertySonarCollections
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertySonarCollections
+  nameWithType: NotificationIcon.PropertySonarCollections
+  fullName: GTA.UI.NotificationIcon.PropertySonarCollections
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertySonarCollections = 135
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyTaxiLot
+  commentId: F:GTA.UI.NotificationIcon.PropertyTaxiLot
+  id: PropertyTaxiLot
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyTaxiLot
+  nameWithType: NotificationIcon.PropertyTaxiLot
+  fullName: GTA.UI.NotificationIcon.PropertyTaxiLot
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyTaxiLot = 136
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyTowingImpound
+  commentId: F:GTA.UI.NotificationIcon.PropertyTowingImpound
+  id: PropertyTowingImpound
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyTowingImpound
+  nameWithType: NotificationIcon.PropertyTowingImpound
+  fullName: GTA.UI.NotificationIcon.PropertyTowingImpound
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyTowingImpound = 137
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.PropertyWeedShop
+  commentId: F:GTA.UI.NotificationIcon.PropertyWeedShop
+  id: PropertyWeedShop
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: PropertyWeedShop
+  nameWithType: NotificationIcon.PropertyWeedShop
+  fullName: GTA.UI.NotificationIcon.PropertyWeedShop
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: PropertyWeedShop = 138
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Ron
+  commentId: F:GTA.UI.NotificationIcon.Ron
+  id: Ron
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Ron
+  nameWithType: NotificationIcon.Ron
+  fullName: GTA.UI.NotificationIcon.Ron
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Ron = 139
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Saeeda
+  commentId: F:GTA.UI.NotificationIcon.Saeeda
+  id: Saeeda
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Saeeda
+  nameWithType: NotificationIcon.Saeeda
+  fullName: GTA.UI.NotificationIcon.Saeeda
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Saeeda = 140
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Sasquatch
+  commentId: F:GTA.UI.NotificationIcon.Sasquatch
+  id: Sasquatch
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Sasquatch
+  nameWithType: NotificationIcon.Sasquatch
+  fullName: GTA.UI.NotificationIcon.Sasquatch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Sasquatch = 141
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Simeon
+  commentId: F:GTA.UI.NotificationIcon.Simeon
+  id: Simeon
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Simeon
+  nameWithType: NotificationIcon.Simeon
+  fullName: GTA.UI.NotificationIcon.Simeon
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Simeon = 142
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.SocialClub
+  commentId: F:GTA.UI.NotificationIcon.SocialClub
+  id: SocialClub
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: SocialClub
+  nameWithType: NotificationIcon.SocialClub
+  fullName: GTA.UI.NotificationIcon.SocialClub
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SocialClub = 143
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Solomon
+  commentId: F:GTA.UI.NotificationIcon.Solomon
+  id: Solomon
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Solomon
+  nameWithType: NotificationIcon.Solomon
+  fullName: GTA.UI.NotificationIcon.Solomon
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Solomon = 144
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Steve
+  commentId: F:GTA.UI.NotificationIcon.Steve
+  id: Steve
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Steve
+  nameWithType: NotificationIcon.Steve
+  fullName: GTA.UI.NotificationIcon.Steve
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Steve = 145
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.SteveMikeConf
+  commentId: F:GTA.UI.NotificationIcon.SteveMikeConf
+  id: SteveMikeConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: SteveMikeConf
+  nameWithType: NotificationIcon.SteveMikeConf
+  fullName: GTA.UI.NotificationIcon.SteveMikeConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SteveMikeConf = 146
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.SteveTrevConf
+  commentId: F:GTA.UI.NotificationIcon.SteveTrevConf
+  id: SteveTrevConf
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: SteveTrevConf
+  nameWithType: NotificationIcon.SteveTrevConf
+  fullName: GTA.UI.NotificationIcon.SteveTrevConf
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: SteveTrevConf = 147
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Stretch
+  commentId: F:GTA.UI.NotificationIcon.Stretch
+  id: Stretch
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Stretch
+  nameWithType: NotificationIcon.Stretch
+  fullName: GTA.UI.NotificationIcon.Stretch
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Stretch = 148
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperChastity
+  commentId: F:GTA.UI.NotificationIcon.StripperChastity
+  id: StripperChastity
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperChastity
+  nameWithType: NotificationIcon.StripperChastity
+  fullName: GTA.UI.NotificationIcon.StripperChastity
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperChastity = 149
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperCheetah
+  commentId: F:GTA.UI.NotificationIcon.StripperCheetah
+  id: StripperCheetah
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperCheetah
+  nameWithType: NotificationIcon.StripperCheetah
+  fullName: GTA.UI.NotificationIcon.StripperCheetah
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperCheetah = 150
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperFufu
+  commentId: F:GTA.UI.NotificationIcon.StripperFufu
+  id: StripperFufu
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperFufu
+  nameWithType: NotificationIcon.StripperFufu
+  fullName: GTA.UI.NotificationIcon.StripperFufu
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperFufu = 151
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperInfernus
+  commentId: F:GTA.UI.NotificationIcon.StripperInfernus
+  id: StripperInfernus
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperInfernus
+  nameWithType: NotificationIcon.StripperInfernus
+  fullName: GTA.UI.NotificationIcon.StripperInfernus
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperInfernus = 152
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperJuliet
+  commentId: F:GTA.UI.NotificationIcon.StripperJuliet
+  id: StripperJuliet
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperJuliet
+  nameWithType: NotificationIcon.StripperJuliet
+  fullName: GTA.UI.NotificationIcon.StripperJuliet
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperJuliet = 153
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperNikki
+  commentId: F:GTA.UI.NotificationIcon.StripperNikki
+  id: StripperNikki
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperNikki
+  nameWithType: NotificationIcon.StripperNikki
+  fullName: GTA.UI.NotificationIcon.StripperNikki
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperNikki = 154
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperPeach
+  commentId: F:GTA.UI.NotificationIcon.StripperPeach
+  id: StripperPeach
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperPeach
+  nameWithType: NotificationIcon.StripperPeach
+  fullName: GTA.UI.NotificationIcon.StripperPeach
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperPeach = 155
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.StripperSapphire
+  commentId: F:GTA.UI.NotificationIcon.StripperSapphire
+  id: StripperSapphire
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: StripperSapphire
+  nameWithType: NotificationIcon.StripperSapphire
+  fullName: GTA.UI.NotificationIcon.StripperSapphire
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: StripperSapphire = 156
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Tanisha
+  commentId: F:GTA.UI.NotificationIcon.Tanisha
+  id: Tanisha
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Tanisha
+  nameWithType: NotificationIcon.Tanisha
+  fullName: GTA.UI.NotificationIcon.Tanisha
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Tanisha = 157
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Taxi
+  commentId: F:GTA.UI.NotificationIcon.Taxi
+  id: Taxi
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Taxi
+  nameWithType: NotificationIcon.Taxi
+  fullName: GTA.UI.NotificationIcon.Taxi
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Taxi = 158
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.TaxiLiz
+  commentId: F:GTA.UI.NotificationIcon.TaxiLiz
+  id: TaxiLiz
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: TaxiLiz
+  nameWithType: NotificationIcon.TaxiLiz
+  fullName: GTA.UI.NotificationIcon.TaxiLiz
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TaxiLiz = 159
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.TennisCoach
+  commentId: F:GTA.UI.NotificationIcon.TennisCoach
+  id: TennisCoach
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: TennisCoach
+  nameWithType: NotificationIcon.TennisCoach
+  fullName: GTA.UI.NotificationIcon.TennisCoach
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TennisCoach = 160
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.TowTonya
+  commentId: F:GTA.UI.NotificationIcon.TowTonya
+  id: TowTonya
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: TowTonya
+  nameWithType: NotificationIcon.TowTonya
+  fullName: GTA.UI.NotificationIcon.TowTonya
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: TowTonya = 161
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Tracey
+  commentId: F:GTA.UI.NotificationIcon.Tracey
+  id: Tracey
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Tracey
+  nameWithType: NotificationIcon.Tracey
+  fullName: GTA.UI.NotificationIcon.Tracey
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Tracey = 162
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Trevor
+  commentId: F:GTA.UI.NotificationIcon.Trevor
+  id: Trevor
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Trevor
+  nameWithType: NotificationIcon.Trevor
+  fullName: GTA.UI.NotificationIcon.Trevor
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Trevor = 163
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.Wade
+  commentId: F:GTA.UI.NotificationIcon.Wade
+  id: Wade
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: Wade
+  nameWithType: NotificationIcon.Wade
+  fullName: GTA.UI.NotificationIcon.Wade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: Wade = 164
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.YouTube
+  commentId: F:GTA.UI.NotificationIcon.YouTube
+  id: YouTube
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: YouTube
+  nameWithType: NotificationIcon.YouTube
+  fullName: GTA.UI.NotificationIcon.YouTube
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: YouTube = 165
+    return:
+      type: GTA.UI.NotificationIcon
+- uid: GTA.UI.NotificationIcon.CreatorPortraits
+  commentId: F:GTA.UI.NotificationIcon.CreatorPortraits
+  id: CreatorPortraits
+  parent: GTA.UI.NotificationIcon
+  langs:
+  - csharp
+  - vb
+  name: CreatorPortraits
+  nameWithType: NotificationIcon.CreatorPortraits
+  fullName: GTA.UI.NotificationIcon.CreatorPortraits
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.UI
+  syntax:
+    content: CreatorPortraits = 166
+    return:
+      type: GTA.UI.NotificationIcon
+references:
+- uid: GTA.UI
+  commentId: N:GTA.UI
+  isExternal: true
+  href: GTA.html
+  name: GTA.UI
+  nameWithType: GTA.UI
+  fullName: GTA.UI
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.UI
+    name: UI
+    isExternal: true
+    href: GTA.UI.html
+- uid: GTA.UI.NotificationIcon
+  commentId: T:GTA.UI.NotificationIcon
+  parent: GTA.UI
+  isExternal: true
+  href: GTA.UI.NotificationIcon.html
+  name: NotificationIcon
+  nameWithType: NotificationIcon
+  fullName: GTA.UI.NotificationIcon

@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.VehicleDoor
+  commentId: T:GTA.VehicleDoor
+  id: VehicleDoor
+  parent: GTA
+  children:
+  - GTA.VehicleDoor.AngleRatio
+  - GTA.VehicleDoor.Break(System.Boolean)
+  - GTA.VehicleDoor.CanBeBroken
+  - GTA.VehicleDoor.Close(System.Boolean)
+  - GTA.VehicleDoor.Index
+  - GTA.VehicleDoor.IsBroken
+  - GTA.VehicleDoor.IsFullyOpen
+  - GTA.VehicleDoor.IsOpen
+  - GTA.VehicleDoor.Open(System.Boolean,System.Boolean)
+  - GTA.VehicleDoor.Vehicle
+  langs:
+  - csharp
+  - vb
+  name: VehicleDoor
+  nameWithType: VehicleDoor
+  fullName: GTA.VehicleDoor
+  type: Class
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public sealed class VehicleDoor
+    content.vb: Public NotInheritable Class VehicleDoor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+- uid: GTA.VehicleDoor.Open(System.Boolean,System.Boolean)
+  commentId: M:GTA.VehicleDoor.Open(System.Boolean,System.Boolean)
+  id: Open(System.Boolean,System.Boolean)
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: Open(bool, bool)
+  nameWithType: VehicleDoor.Open(bool, bool)
+  fullName: GTA.VehicleDoor.Open(bool, bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Open(bool loose = false, bool instantly = false)
+    parameters:
+    - id: loose
+      type: System.Boolean
+    - id: instantly
+      type: System.Boolean
+    content.vb: Public Sub Open(loose As Boolean = False, instantly As Boolean = False)
+  overload: GTA.VehicleDoor.Open*
+  nameWithType.vb: VehicleDoor.Open(Boolean, Boolean)
+  fullName.vb: GTA.VehicleDoor.Open(Boolean, Boolean)
+  name.vb: Open(Boolean, Boolean)
+- uid: GTA.VehicleDoor.Close(System.Boolean)
+  commentId: M:GTA.VehicleDoor.Close(System.Boolean)
+  id: Close(System.Boolean)
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: Close(bool)
+  nameWithType: VehicleDoor.Close(bool)
+  fullName: GTA.VehicleDoor.Close(bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Close(bool instantly = false)
+    parameters:
+    - id: instantly
+      type: System.Boolean
+    content.vb: Public Sub Close(instantly As Boolean = False)
+  overload: GTA.VehicleDoor.Close*
+  nameWithType.vb: VehicleDoor.Close(Boolean)
+  fullName.vb: GTA.VehicleDoor.Close(Boolean)
+  name.vb: Close(Boolean)
+- uid: GTA.VehicleDoor.Break(System.Boolean)
+  commentId: M:GTA.VehicleDoor.Break(System.Boolean)
+  id: Break(System.Boolean)
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: Break(bool)
+  nameWithType: VehicleDoor.Break(bool)
+  fullName: GTA.VehicleDoor.Break(bool)
+  type: Method
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public void Break(bool stayInTheWorld = true)
+    parameters:
+    - id: stayInTheWorld
+      type: System.Boolean
+    content.vb: Public Sub Break(stayInTheWorld As Boolean = True)
+  overload: GTA.VehicleDoor.Break*
+  nameWithType.vb: VehicleDoor.Break(Boolean)
+  fullName.vb: GTA.VehicleDoor.Break(Boolean)
+  name.vb: Break(Boolean)
+- uid: GTA.VehicleDoor.Vehicle
+  commentId: P:GTA.VehicleDoor.Vehicle
+  id: Vehicle
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: Vehicle
+  nameWithType: VehicleDoor.Vehicle
+  fullName: GTA.VehicleDoor.Vehicle
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public Vehicle Vehicle { get; }
+    parameters: []
+    return:
+      type: GTA.Vehicle
+    content.vb: Public ReadOnly Property Vehicle As Vehicle
+  overload: GTA.VehicleDoor.Vehicle*
+- uid: GTA.VehicleDoor.Index
+  commentId: P:GTA.VehicleDoor.Index
+  id: Index
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: VehicleDoor.Index
+  fullName: GTA.VehicleDoor.Index
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public VehicleDoorIndex Index { get; }
+    parameters: []
+    return:
+      type: GTA.VehicleDoorIndex
+    content.vb: Public ReadOnly Property Index As VehicleDoorIndex
+  overload: GTA.VehicleDoor.Index*
+- uid: GTA.VehicleDoor.IsOpen
+  commentId: P:GTA.VehicleDoor.IsOpen
+  id: IsOpen
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: IsOpen
+  nameWithType: VehicleDoor.IsOpen
+  fullName: GTA.VehicleDoor.IsOpen
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsOpen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOpen As Boolean
+  overload: GTA.VehicleDoor.IsOpen*
+- uid: GTA.VehicleDoor.IsFullyOpen
+  commentId: P:GTA.VehicleDoor.IsFullyOpen
+  id: IsFullyOpen
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: IsFullyOpen
+  nameWithType: VehicleDoor.IsFullyOpen
+  fullName: GTA.VehicleDoor.IsFullyOpen
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsFullyOpen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFullyOpen As Boolean
+  overload: GTA.VehicleDoor.IsFullyOpen*
+- uid: GTA.VehicleDoor.IsBroken
+  commentId: P:GTA.VehicleDoor.IsBroken
+  id: IsBroken
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: IsBroken
+  nameWithType: VehicleDoor.IsBroken
+  fullName: GTA.VehicleDoor.IsBroken
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool IsBroken { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsBroken As Boolean
+  overload: GTA.VehicleDoor.IsBroken*
+- uid: GTA.VehicleDoor.CanBeBroken
+  commentId: P:GTA.VehicleDoor.CanBeBroken
+  id: CanBeBroken
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: CanBeBroken
+  nameWithType: VehicleDoor.CanBeBroken
+  fullName: GTA.VehicleDoor.CanBeBroken
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public bool CanBeBroken { set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public WriteOnly Property CanBeBroken As Boolean
+  overload: GTA.VehicleDoor.CanBeBroken*
+- uid: GTA.VehicleDoor.AngleRatio
+  commentId: P:GTA.VehicleDoor.AngleRatio
+  id: AngleRatio
+  parent: GTA.VehicleDoor
+  langs:
+  - csharp
+  - vb
+  name: AngleRatio
+  nameWithType: VehicleDoor.AngleRatio
+  fullName: GTA.VehicleDoor.AngleRatio
+  type: Property
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA
+  syntax:
+    content: public float AngleRatio { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property AngleRatio As Single
+  overload: GTA.VehicleDoor.AngleRatio*
+references:
+- uid: GTA
+  commentId: N:GTA
+  isExternal: true
+  href: GTA.html
+  name: GTA
+  nameWithType: GTA
+  fullName: GTA
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GTA.VehicleDoor.Open*
+  commentId: Overload:GTA.VehicleDoor.Open
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_Open_System_Boolean_System_Boolean_
+  name: Open
+  nameWithType: VehicleDoor.Open
+  fullName: GTA.VehicleDoor.Open
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: GTA.VehicleDoor.Close*
+  commentId: Overload:GTA.VehicleDoor.Close
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_Close_System_Boolean_
+  name: Close
+  nameWithType: VehicleDoor.Close
+  fullName: GTA.VehicleDoor.Close
+- uid: GTA.VehicleDoor.Break*
+  commentId: Overload:GTA.VehicleDoor.Break
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_Break_System_Boolean_
+  name: Break
+  nameWithType: VehicleDoor.Break
+  fullName: GTA.VehicleDoor.Break
+- uid: GTA.VehicleDoor.Vehicle*
+  commentId: Overload:GTA.VehicleDoor.Vehicle
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_Vehicle
+  name: Vehicle
+  nameWithType: VehicleDoor.Vehicle
+  fullName: GTA.VehicleDoor.Vehicle
+- uid: GTA.Vehicle
+  commentId: T:GTA.Vehicle
+  parent: GTA
+  isExternal: true
+  href: GTA.Vehicle.html
+  name: Vehicle
+  nameWithType: Vehicle
+  fullName: GTA.Vehicle
+- uid: GTA.VehicleDoor.Index*
+  commentId: Overload:GTA.VehicleDoor.Index
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_Index
+  name: Index
+  nameWithType: VehicleDoor.Index
+  fullName: GTA.VehicleDoor.Index
+- uid: GTA.VehicleDoorIndex
+  commentId: T:GTA.VehicleDoorIndex
+  parent: GTA
+  isExternal: true
+  href: GTA.VehicleDoorIndex.html
+  name: VehicleDoorIndex
+  nameWithType: VehicleDoorIndex
+  fullName: GTA.VehicleDoorIndex
+- uid: GTA.VehicleDoor.IsOpen*
+  commentId: Overload:GTA.VehicleDoor.IsOpen
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_IsOpen
+  name: IsOpen
+  nameWithType: VehicleDoor.IsOpen
+  fullName: GTA.VehicleDoor.IsOpen
+- uid: GTA.VehicleDoor.IsFullyOpen*
+  commentId: Overload:GTA.VehicleDoor.IsFullyOpen
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_IsFullyOpen
+  name: IsFullyOpen
+  nameWithType: VehicleDoor.IsFullyOpen
+  fullName: GTA.VehicleDoor.IsFullyOpen
+- uid: GTA.VehicleDoor.IsBroken*
+  commentId: Overload:GTA.VehicleDoor.IsBroken
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_IsBroken
+  name: IsBroken
+  nameWithType: VehicleDoor.IsBroken
+  fullName: GTA.VehicleDoor.IsBroken
+- uid: GTA.VehicleDoor.CanBeBroken*
+  commentId: Overload:GTA.VehicleDoor.CanBeBroken
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_CanBeBroken
+  name: CanBeBroken
+  nameWithType: VehicleDoor.CanBeBroken
+  fullName: GTA.VehicleDoor.CanBeBroken
+- uid: GTA.VehicleDoor.AngleRatio*
+  commentId: Overload:GTA.VehicleDoor.AngleRatio
+  isExternal: true
+  href: GTA.VehicleDoor.html#GTA_VehicleDoor_AngleRatio
+  name: AngleRatio
+  nameWithType: VehicleDoor.AngleRatio
+  fullName: GTA.VehicleDoor.AngleRatio
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

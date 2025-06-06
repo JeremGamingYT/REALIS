@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: GTA.Graphics.ScriptedGfxDrawOrder
+  commentId: T:GTA.Graphics.ScriptedGfxDrawOrder
+  id: ScriptedGfxDrawOrder
+  parent: GTA.Graphics
+  children:
+  - GTA.Graphics.ScriptedGfxDrawOrder.AfterFade
+  - GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityHigh
+  - GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityLow
+  - GTA.Graphics.ScriptedGfxDrawOrder.AfterHud
+  - GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityHigh
+  - GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityLow
+  - GTA.Graphics.ScriptedGfxDrawOrder.BeforeHud
+  - GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityHigh
+  - GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityLow
+  langs:
+  - csharp
+  - vb
+  name: ScriptedGfxDrawOrder
+  nameWithType: ScriptedGfxDrawOrder
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder
+  type: Enum
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: public enum ScriptedGfxDrawOrder
+    content.vb: Public Enum ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityLow
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityLow
+  id: BeforeHudPriorityLow
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: BeforeHudPriorityLow
+  nameWithType: ScriptedGfxDrawOrder.BeforeHudPriorityLow
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityLow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: BeforeHudPriorityLow = 0
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.BeforeHud
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.BeforeHud
+  id: BeforeHud
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: BeforeHud
+  nameWithType: ScriptedGfxDrawOrder.BeforeHud
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.BeforeHud
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: BeforeHud = 1
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityHigh
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityHigh
+  id: BeforeHudPriorityHigh
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: BeforeHudPriorityHigh
+  nameWithType: ScriptedGfxDrawOrder.BeforeHudPriorityHigh
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.BeforeHudPriorityHigh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: BeforeHudPriorityHigh = 2
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityLow
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityLow
+  id: AfterHudPriorityLow
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: AfterHudPriorityLow
+  nameWithType: ScriptedGfxDrawOrder.AfterHudPriorityLow
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityLow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: AfterHudPriorityLow = 3
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.AfterHud
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.AfterHud
+  id: AfterHud
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: AfterHud
+  nameWithType: ScriptedGfxDrawOrder.AfterHud
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.AfterHud
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: AfterHud = 4
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityHigh
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityHigh
+  id: AfterHudPriorityHigh
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: AfterHudPriorityHigh
+  nameWithType: ScriptedGfxDrawOrder.AfterHudPriorityHigh
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.AfterHudPriorityHigh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: AfterHudPriorityHigh = 5
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityLow
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityLow
+  id: AfterFadePriorityLow
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: AfterFadePriorityLow
+  nameWithType: ScriptedGfxDrawOrder.AfterFadePriorityLow
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityLow
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: AfterFadePriorityLow = 6
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.AfterFade
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.AfterFade
+  id: AfterFade
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: AfterFade
+  nameWithType: ScriptedGfxDrawOrder.AfterFade
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.AfterFade
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: AfterFade = 7
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+- uid: GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityHigh
+  commentId: F:GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityHigh
+  id: AfterFadePriorityHigh
+  parent: GTA.Graphics.ScriptedGfxDrawOrder
+  langs:
+  - csharp
+  - vb
+  name: AfterFadePriorityHigh
+  nameWithType: ScriptedGfxDrawOrder.AfterFadePriorityHigh
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder.AfterFadePriorityHigh
+  type: Field
+  assemblies:
+  - ScriptHookVDotNet3
+  namespace: GTA.Graphics
+  syntax:
+    content: AfterFadePriorityHigh = 8
+    return:
+      type: GTA.Graphics.ScriptedGfxDrawOrder
+references:
+- uid: GTA.Graphics
+  commentId: N:GTA.Graphics
+  isExternal: true
+  href: GTA.html
+  name: GTA.Graphics
+  nameWithType: GTA.Graphics
+  fullName: GTA.Graphics
+  spec.csharp:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Graphics
+    name: Graphics
+    isExternal: true
+    href: GTA.Graphics.html
+  spec.vb:
+  - uid: GTA
+    name: GTA
+    isExternal: true
+    href: GTA.html
+  - name: .
+  - uid: GTA.Graphics
+    name: Graphics
+    isExternal: true
+    href: GTA.Graphics.html
+- uid: GTA.Graphics.ScriptedGfxDrawOrder
+  commentId: T:GTA.Graphics.ScriptedGfxDrawOrder
+  parent: GTA.Graphics
+  isExternal: true
+  href: GTA.Graphics.ScriptedGfxDrawOrder.html
+  name: ScriptedGfxDrawOrder
+  nameWithType: ScriptedGfxDrawOrder
+  fullName: GTA.Graphics.ScriptedGfxDrawOrder
