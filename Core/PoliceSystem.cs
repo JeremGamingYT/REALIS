@@ -136,7 +136,9 @@ namespace REALIS.Core
                 Game.DisableControlThisFrame(Control.Jump);
             }
 
-            if (!Function.Call<bool>(Hash.IS_PED_RUNNING_ARREST_TASK, _arrestingOfficer))
+            // attendre que le joueur soit menotté avant de poursuivre l'escorte
+            if (!Function.Call<bool>(Hash.IS_PED_RUNNING_ARREST_TASK, _arrestingOfficer) &&
+                Function.Call<bool>(Hash.IS_PED_CUFFED, player))
             {
                 if (_policeVehicle == null || !_policeVehicle.Exists())
                 {
