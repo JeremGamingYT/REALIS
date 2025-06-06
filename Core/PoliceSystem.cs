@@ -52,7 +52,8 @@ namespace REALIS.Core
                 }
                 else
                 {
-                    ResetState();
+                    if (!_isEscorting && !_isTransporting)
+                        ResetState();
                 }
 
                 if (_isEscorting)
@@ -119,6 +120,7 @@ namespace REALIS.Core
             PoliceEvents.OnPlayerArrested(officer);
             _isEscorting = true;
             Game.Player.SetControlState(false);
+            Game.Player.Wanted.SetPoliceIgnorePlayer(true);
             Notification.PostTicker(PoliceConfig.ARREST_WARNING, true);
         }
 
@@ -149,7 +151,10 @@ namespace REALIS.Core
                 if (_policeVehicle != null)
                 {
                     player.Task.EnterVehicle(_policeVehicle, VehicleSeat.RightRear);
+                    _arrestingOfficer.Task.ClearAll();
                     _arrestingOfficer.Task.EnterVehicle(_policeVehicle, VehicleSeat.Driver);
+                    Game.Player.Wanted.SetWantedLevel(0, false);
+                    Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
                     _isEscorting = false;
                     _isTransporting = true;
                     PoliceEvents.OnPlayerEscorted(_arrestingOfficer, _policeVehicle);
@@ -242,6 +247,7 @@ namespace REALIS.Core
             try
             {
                 Game.Player.SetControlState(true);
+                Game.Player.Wanted.SetPoliceIgnorePlayer(false);
                 if (_arrestingOfficer != null && _spawnedPeds.Contains(_arrestingOfficer))
                 {
                     if (_arrestingOfficer.Exists())
