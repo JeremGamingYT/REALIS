@@ -40,6 +40,8 @@ namespace REALIS.Core
         {
             try
             {
+                if (PoliceConfig.DisableBustedScreen)
+                    Function.Call(Hash.SET_FADE_OUT_AFTER_ARREST, false);
                 _tickCounter++;
                 if (_tickCounter % PoliceConfig.UpdateInterval != 0) return;
 
@@ -125,6 +127,11 @@ namespace REALIS.Core
             _arrestingOfficer = officer;
             _arrestingOfficer.Task.ClearAll();
             Function.Call(Hash.TASK_ARREST_PED, officer.Handle, player.Handle);
+            if (PoliceConfig.DisableBustedScreen)
+            {
+                // Empêche l'affichage de l'écran "Busted" géré par le jeu
+                Function.Call(Hash.SET_FADE_OUT_AFTER_ARREST, false);
+            }
             Game.Player.Wanted.SetWantedLevel(0, false);
             Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
             PoliceEvents.OnPlayerArrested(officer);
@@ -145,6 +152,13 @@ namespace REALIS.Core
             {
                 // Prevent jumping while arrested
                 Game.DisableControlThisFrame(Control.Jump);
+            }
+
+            // Annule la séquence d'arrestation standard pour éviter l'écran "Busted"
+            if (PoliceConfig.DisableBustedScreen && Function.Call<bool>(Hash.IS_PED_CUFFED, player))
+            {
+                Function.Call(Hash.CLEAR_PED_TASKS_IMMEDIATELY, player.Handle);
+                Function.Call(Hash.SET_ENABLE_HANDCUFFS, player.Handle, true);
             }
 
             // attendre que le joueur soit menotté avant de poursuivre l'escorte
@@ -218,7 +232,6 @@ namespace REALIS.Core
         private Vehicle GetOrCreatePoliceVehicle(Vector3 around)
         {
             var vehicles = World.GetNearbyVehicles(around, PoliceConfig.POLICE_DETECTION_RANGE);
-            var vehicles = World.GetNearbyVehicles(around, 40f);
             Vehicle? closest = null;
             float dist = float.MaxValue;
             foreach (var veh in vehicles)
@@ -234,10 +247,8 @@ namespace REALIS.Core
             }
 
             if (!PoliceConfig.AutoCreatePoliceVehicles)
-                return null!;
+                return closest ?? null!;
             if (closest != null) return closest;
-
-            if (!PoliceConfig.AutoCreatePoliceVehicles) return null!;
 
             Model model = new Model(PoliceConfig.POLICE_VEHICLE_MODELS[0]);
             DateTime startTime = DateTime.Now;
