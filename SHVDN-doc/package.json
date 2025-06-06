@@ -1,7 +1,0 @@
-{
-    "name": "shvdn-doc",
-    "private": true,
-    "scripts": {
-      "vercel-build": "docfx build"
-    }
-}  
