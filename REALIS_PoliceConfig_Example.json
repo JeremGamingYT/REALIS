@@ -1,0 +1,50 @@
+{
+  "arrest_delay_seconds": 5,
+  "stop_threshold": 2.0,
+  "enable_custom_police": true,
+  "enable_police_aggression_control": true,
+  "enable_auto_arrest": true,
+  "enable_police_transport": true,
+  "police_vehicle_search_radius": 100.0,
+  "weapon_threat_distance": 10.0,
+  "custom_police_stations": [
+    {
+      "X": 425.1,
+      "Y": -979.5,
+      "Z": 30.7
+    },
+    {
+      "X": 1855.1,
+      "Y": 3678.9,
+      "Z": 34.2
+    },
+    {
+      "X": -449.1,
+      "Y": 6008.5,
+      "Z": 31.7
+    },
+    {
+      "X": -561.3,
+      "Y": -131.9,
+      "Z": 38.4
+    },
+    {
+      "X": 827.0,
+      "Y": -1290.0,
+      "Z": 28.2
+    },
+    {
+      "X": -1096.6,
+      "Y": -845.8,
+      "Z": 19.0
+    }
+  ],
+  "warning_messages": {
+    "initial_warning": "~r~Arrêtez-vous ou vous serez arrêté! {0} secondes...",
+    "countdown_warning": "~r~Arrestation dans {0} secondes...",
+    "arrest_message": "~g~Vous êtes en état d'arrestation!",
+    "transport_message": "~b~Transport vers le poste de police...",
+    "release_message": "~g~Vous avez été relâché du poste de police.",
+    "arrest_cancelled": "~r~L'arrestation a été annulée."
+  }
+} 

@@ -1,169 +1,185 @@
 using System;
+using Newtonsoft.Json;
+using System.IO;
+using GTA.Math;
 
 namespace REALIS.Config
 {
     /// <summary>
-    /// Configuration du système de police réaliste
+    /// Configuration du système de police personnalisé
     /// </summary>
-    public static class PoliceConfig
+    public class PoliceConfig
     {
-        /// <summary>
-        /// Temps en millisecondes avant qu'un policier tente une arrestation si le joueur est immobile
-        /// </summary>
-        public static int ArrestDelayMs { get; set; } = 2000; // 2 secondes
-        
-        /// <summary>
-        /// Temps en millisecondes de fuite avant qu'un policier utilise un taser
-        /// </summary>
-        public static int TaserDelayMs { get; set; } = 8000; // 8 secondes
-        
-        /// <summary>
-        /// Distance maximale pour détecter les policiers autour du joueur
-        /// </summary>
-        public static float PoliceDetectionRange { get; set; } = 50f;
-        
-        /// <summary>
-        /// Distance minimale pour considérer le joueur comme "proche" pour une arrestation
-        /// </summary>
-        public static float ArrestRange { get; set; } = 8f;
-        
-        /// <summary>
-        /// Distance à partir de laquelle le joueur est considéré en fuite
-        /// </summary>
-        public static float FleeRange { get; set; } = 15f;
-        
-        /// <summary>
-        /// Vitesse minimale du joueur pour être considéré comme "immobile"
-        /// </summary>
-        public static float StationarySpeed { get; set; } = 0.5f;
-        
-        /// <summary>
-        /// Durée de l'effet taser en millisecondes
-        /// </summary>
-        public static int TaserEffectDuration { get; set; } = 4000; // 4 secondes
-        
-        /// <summary>
-        /// Vitesse de conduite lors du transport vers le poste (en mph)
-        /// </summary>
-        public static float TransportSpeed { get; set; } = 30f;
-        
-        /// <summary>
-        /// Active ou désactive les commandes verbales des policiers
-        /// </summary>
-        public static bool EnableVerbalCommands { get; set; } = true;
-        
-        /// <summary>
-        /// Active ou désactive les effets sonores du taser
-        /// </summary>
-        public static bool EnableTaserSounds { get; set; } = true;
-        
-        /// <summary>
-        /// Active ou désactive la création automatique de véhicules de police
-        /// </summary>
-        public static bool AutoCreatePoliceVehicles { get; set; } = true;
-        
-        /// <summary>
-        /// Intervalle de mise à jour du système en millisecondes
-        /// </summary>
-        public static int UpdateInterval { get; set; } = 100;
-        
-        /// <summary>
-        /// Active ou désactive le système de police réaliste
-        /// </summary>
-        public static bool SystemEnabled { get; set; } = true;
-        
-        /// <summary>
-        /// Active ou désactive le mode debug (affichage d'informations supplémentaires)
-        /// </summary>
-        public static bool DebugMode { get; set; } = false;
-        
-        /// <summary>
-        /// Charge la configuration par défaut
-        /// </summary>
-        public static void LoadDefaults()
+        private static PoliceConfig? _instance;
+        private static readonly object _lock = new object();
+        private const string CONFIG_FILE = "scripts/REALIS_PoliceConfig.json";
+
+        public static PoliceConfig Instance
         {
-            ArrestDelayMs = 2000;
-            TaserDelayMs = 8000;
-            PoliceDetectionRange = 50f;
-            ArrestRange = 8f;
-            FleeRange = 15f;
-            StationarySpeed = 0.5f;
-            TaserEffectDuration = 4000;
-            TransportSpeed = 30f;
-            EnableVerbalCommands = true;
-            EnableTaserSounds = true;
-            AutoCreatePoliceVehicles = true;
-            UpdateInterval = 100;
-            SystemEnabled = true;
-            DebugMode = false;
-        }
-        
-        /// <summary>
-        /// Valide la configuration et corrige les valeurs incorrectes
-        /// </summary>
-        public static void ValidateConfig()
-        {
-            if (ArrestDelayMs < 500) ArrestDelayMs = 500;
-            if (TaserDelayMs < 1000) TaserDelayMs = 1000;
-            if (PoliceDetectionRange < 10f) PoliceDetectionRange = 10f;
-            if (ArrestRange < 2f) ArrestRange = 2f;
-            if (FleeRange < 5f) FleeRange = 5f;
-            if (StationarySpeed < 0.1f) StationarySpeed = 0.1f;
-            if (TaserEffectDuration < 1000) TaserEffectDuration = 1000;
-            if (TransportSpeed < 5f) TransportSpeed = 5f;
-            if (UpdateInterval < 50) UpdateInterval = 50;
+            get
+            {
+                if (_instance == null)
+                {
+                    lock (_lock)
+                    {
+                        if (_instance == null)
+                        {
+                            _instance = LoadConfig();
+                        }
+                    }
+                }
+                return _instance;
+            }
         }
 
-        // Distances de détection
-        public const float POLICE_DETECTION_RANGE = 100f;
-        public const float ARREST_RANGE = 5f;
-        public const float AIM_DETECTION_RANGE = 30f;
-        public const float AIM_ANGLE_THRESHOLD = 15f;
+        /// <summary>
+        /// Temps d'arrêt requis avant arrestation (en secondes)
+        /// </summary>
+        [JsonProperty("arrest_delay_seconds")]
+        public int ArrestDelaySeconds { get; set; } = 5;
 
-        // Limites d'officiers
-        public const int MAX_CHASE_OFFICERS = 5;
-        public const int MIN_CHASE_OFFICERS = 2;
+        /// <summary>
+        /// Seuil de vitesse pour considérer que le joueur s'est arrêté
+        /// </summary>
+        [JsonProperty("stop_threshold")]
+        public float StopThreshold { get; set; } = 2f;
 
-        // Temps d'attente (en secondes)
-        public const int HANDCUFF_DURATION = 3;
-        public const int ESCORT_TIMEOUT = 15;
-        public const int TRANSPORT_TIMEOUT = 60;
+        /// <summary>
+        /// Activer le système de police personnalisé
+        /// </summary>
+        [JsonProperty("enable_custom_police")]
+        public bool EnableCustomPolice { get; set; } = true;
 
-        // Vitesses
-        public const float PATROL_SPEED = 20f;
-        public const float CHASE_SPEED = 25f;
+        /// <summary>
+        /// Activer la modification de l'agressivité de la police
+        /// </summary>
+        [JsonProperty("enable_police_aggression_control")]
+        public bool EnablePoliceAggressionControl { get; set; } = true;
 
-        // Précision des tirs
-        public const int NON_LETHAL_ACCURACY = 75;
-        public const int LETHAL_ACCURACY = 85;
-        public const int DEFAULT_ACCURACY = 50;
+        /// <summary>
+        /// Activer l'arrestation automatique
+        /// </summary>
+        [JsonProperty("enable_auto_arrest")]
+        public bool EnableAutoArrest { get; set; } = true;
 
-        // Messages système
-        public const string ARREST_WARNING = "~b~Officier:~w~ Ne bougez pas! Vous êtes en état d'arrestation!";
-        public const string HANDCUFF_MESSAGE = "~b~Officier:~w~ Mettez vos mains derrière le dos!";
-        public const string TRANSPORT_MESSAGE = "~b~Officier:~w~ Direction le poste de police...";
-        public const string RELEASE_MESSAGE = "~g~Vous avez été relâché avec un avertissement.";
-        public const string COMBAT_WARNING = "~r~Police:~w~ Suspect armé! Ouvrez le feu!";
-        public const string CHASE_WARNING = "~y~Police:~w~ Arrêtez-vous! Nous voulons juste vous parler!";
+        /// <summary>
+        /// Activer le transport au poste de police
+        /// </summary>
+        [JsonProperty("enable_police_transport")]
+        public bool EnablePoliceTransport { get; set; } = true;
 
-        // Modèles de véhicules de police
-        public static readonly string[] POLICE_VEHICLE_MODELS = 
+        /// <summary>
+        /// Distance maximale pour chercher une voiture de police
+        /// </summary>
+        [JsonProperty("police_vehicle_search_radius")]
+        public float PoliceVehicleSearchRadius { get; set; } = 100f;
+
+        /// <summary>
+        /// Distance minimale pour considérer une menace armée
+        /// </summary>
+        [JsonProperty("weapon_threat_distance")]
+        public float WeaponThreatDistance { get; set; } = 10f;
+
+        /// <summary>
+        /// Positions des postes de police personnalisés
+        /// </summary>
+        [JsonProperty("custom_police_stations")]
+        public Vector3[] CustomPoliceStations { get; set; } = new Vector3[]
         {
-            "POLICE",
-            "POLICE2", 
-            "POLICE3",
-            "POLICE4",
-            "SHERIFF",
-            "SHERIFF2"
+            new Vector3(425.1f, -979.5f, 30.7f),     // Mission Row Police Station
+            new Vector3(1855.1f, 3678.9f, 34.2f),    // Sandy Shores Sheriff
+            new Vector3(-449.1f, 6008.5f, 31.7f),    // Paleto Bay Sheriff
+            new Vector3(-561.3f, -131.9f, 38.4f),    // Rockford Hills Police
+            new Vector3(827.0f, -1290.0f, 28.2f),    // La Mesa Police
+            new Vector3(-1096.6f, -845.8f, 19.0f)    // Vespucci Police
         };
 
-        // Modèles de policiers
-        public static readonly string[] POLICE_PED_MODELS = 
+        /// <summary>
+        /// Messages d'avertissement personnalisés
+        /// </summary>
+        [JsonProperty("warning_messages")]
+        public WarningMessages Messages { get; set; } = new WarningMessages();
+
+        private static PoliceConfig LoadConfig()
         {
-            "s_m_y_cop_01",
-            "s_f_y_cop_01",
-            "s_m_y_sheriff_01",
-            "s_f_y_sheriff_01"
-        };
+            try
+            {
+                if (File.Exists(CONFIG_FILE))
+                {
+                    var json = File.ReadAllText(CONFIG_FILE);
+                    var config = JsonConvert.DeserializeObject<PoliceConfig>(json);
+                    return config ?? new PoliceConfig();
+                }
+                else
+                {
+                    // Créer le fichier de configuration par défaut
+                    var defaultConfig = new PoliceConfig();
+                    defaultConfig.SaveConfig();
+                    return defaultConfig;
+                }
+            }
+            catch (Exception ex)
+            {
+                Core.Logger.Error($"Error loading police config: {ex.Message}");
+                return new PoliceConfig();
+            }
+        }
+
+        /// <summary>
+        /// Sauvegarde la configuration
+        /// </summary>
+        public void SaveConfig()
+        {
+            try
+            {
+                var directory = Path.GetDirectoryName(CONFIG_FILE);
+                if (!string.IsNullOrEmpty(directory) && !Directory.Exists(directory))
+                {
+                    Directory.CreateDirectory(directory);
+                }
+
+                var json = JsonConvert.SerializeObject(this, Formatting.Indented);
+                File.WriteAllText(CONFIG_FILE, json);
+            }
+            catch (Exception ex)
+            {
+                Core.Logger.Error($"Error saving police config: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// Recharge la configuration depuis le fichier
+        /// </summary>
+        public static void ReloadConfig()
+        {
+            lock (_lock)
+            {
+                _instance = LoadConfig();
+            }
+        }
+    }
+
+    /// <summary>
+    /// Messages d'avertissement personnalisables
+    /// </summary>
+    public class WarningMessages
+    {
+        [JsonProperty("initial_warning")]
+        public string InitialWarning { get; set; } = "~r~Arrêtez-vous ou vous serez arrêté! {0} secondes...";
+
+        [JsonProperty("countdown_warning")]
+        public string CountdownWarning { get; set; } = "~r~Arrestation dans {0} secondes...";
+
+        [JsonProperty("arrest_message")]
+        public string ArrestMessage { get; set; } = "~g~Vous êtes en état d'arrestation!";
+
+        [JsonProperty("transport_message")]
+        public string TransportMessage { get; set; } = "~b~Transport vers le poste de police...";
+
+        [JsonProperty("release_message")]
+        public string ReleaseMessage { get; set; } = "~g~Vous avez été relâché du poste de police.";
+
+        [JsonProperty("arrest_cancelled")]
+        public string ArrestCancelled { get; set; } = "~r~L'arrestation a été annulée.";
     }
 } 

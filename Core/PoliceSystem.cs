@@ -1,322 +1,419 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using GTA;
-using GTA.Native;
 using GTA.Math;
-using GTA.UI;
+using GTA.Native;
+using REALIS.Common;
 using REALIS.Config;
-using REALIS.Events;
 
 namespace REALIS.Core
 {
     /// <summary>
-    /// Simple police system handling non lethal chases and arrests when player has one star.
+    /// Système de police personnalisé avec gestion des arrestations et comportements spéciaux
     /// </summary>
     public class PoliceSystem : Script
     {
-        private Ped? _arrestingOfficer;
-        private Vehicle? _policeVehicle;
-        private int _tickCounter;
-        private int _stationaryMs;
-        private bool _isEscorting;
-        private bool _isTransporting;
-        private readonly List<Ped> _spawnedPeds = new();
-        private readonly List<Vehicle> _spawnedVehicles = new();
-
-        private readonly Vector3[] _stations =
-        {
-            new Vector3(425.1f, -979.1f, 30.7f),   // Mission Row
-            new Vector3(1855.8f, 3683.3f, 34.2f), // Sandy Shores
-            new Vector3(-449.8f, 6012.9f, 31.7f)  // Paleto Bay
-        };
+        private DateTime _lastStoppedTime = DateTime.MinValue;
+        private bool _isPlayerStopped = false;
+        private Vector3 _lastPlayerPosition = Vector3.Zero;
+        private bool _isBeingArrested = false;
+        private Vehicle? _arrestVehicle = null;
+        private Ped? _arrestOfficer = null;
+        private PoliceConfig _config;
 
         public PoliceSystem()
         {
+            _config = PoliceConfig.Instance;
             Tick += OnTick;
-            Aborted += OnAborted;
+            Logger.Info("Police System initialized");
         }
 
         private void OnTick(object sender, EventArgs e)
         {
             try
             {
-                _tickCounter++;
-                if (_tickCounter % PoliceConfig.UpdateInterval != 0) return;
+                if (Game.IsCutsceneActive || Game.IsPaused || !_config.EnableCustomPolice)
+                    return;
 
-                Ped player = Game.Player.Character;
-                if (!player.Exists()) return;
+                var player = Game.Player.Character;
+                if (player == null || !player.Exists() || player.IsDead)
+                    return;
 
-                if (Game.Player.Wanted.WantedLevel == 1)
+                // 1. Gérer le comportement des policiers (ne pas tirer sauf si menacés)
+                if (_config.EnablePoliceAggressionControl)
+                    ModifyPoliceAggressiveness();
+
+                // 2. Gérer l'arrestation automatique si le joueur s'arrête
+                if (_config.EnableAutoArrest)
+                    HandlePlayerStopArrest(player);
+
+                // 3. Gérer le transport vers le poste de police
+                if (_config.EnablePoliceTransport)
+                    HandlePoliceTransport();
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Police System error: {ex.Message}");
+            }
+        }
+
+        /// <summary>
+        /// Modifie l'agressivité de la police pour qu'elle ne tire que si menacée
+        /// </summary>
+        private void ModifyPoliceAggressiveness()
+        {
+            var player = Game.Player.Character;
+            var wantedLevel = Game.Player.Wanted.WantedLevel;
+
+            if (wantedLevel > 0)
+            {
+                var nearbyCops = World.GetNearbyPeds(player.Position, 50f)
+                    .Where(p => p.IsAlive && IsCop(p))
+                    .ToArray();
+
+                foreach (var cop in nearbyCops)
                 {
-                    if (!_isEscorting && !_isTransporting)
-                        HandleChase(player);
+                    if (cop.IsInCombat && !IsPlayerThreateningCop(player, cop))
+                    {
+                        // Arrêter le combat si le joueur ne menace pas
+                        cop.Task.ClearAll();
+                        cop.Task.GuardCurrentPosition();
+                    }
+                    
+                    // Configurer le policier pour être moins agressif
+                    Function.Call(Hash.SET_PED_COMBAT_RANGE, cop, 1); // Combat à courte portée seulement
+                }
+            }
+        }
+
+        /// <summary>
+        /// Vérifie si un PED est un policier
+        /// </summary>
+        private bool IsCop(Ped ped)
+        {
+            var pedModel = ped.Model.Hash;
+            return pedModel == unchecked((int)PedHash.Cop01SFY) || 
+                   pedModel == unchecked((int)PedHash.Cop01SMY) || 
+                   pedModel == unchecked((int)PedHash.Sheriff01SFY) || 
+                   pedModel == unchecked((int)PedHash.Sheriff01SMY) ||
+                   Function.Call<bool>(Hash.IS_PED_IN_GROUP, ped);
+        }
+
+        /// <summary>
+        /// Vérifie si le joueur menace un policier
+        /// </summary>
+        private bool IsPlayerThreateningCop(Ped player, Ped cop)
+        {
+            // Vérifier si le joueur vise le policier
+            if (player.IsAiming && Function.Call<bool>(Hash.IS_PLAYER_FREE_AIMING_AT_ENTITY, Game.Player, cop))
+            {
+                return true;
+            }
+
+            // Vérifier si le joueur a une arme et est proche
+            var currentWeapon = player.Weapons.Current;
+            if (currentWeapon != null && 
+                currentWeapon.Hash != WeaponHash.Unarmed &&
+                Vector3.Distance(player.Position, cop.Position) < _config.WeaponThreatDistance)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Gère l'arrestation du joueur s'il s'arrête pendant X secondes (seulement à pied)
+        /// </summary>
+        private void HandlePlayerStopArrest(Ped player)
+        {
+            if (_isBeingArrested || Game.Player.Wanted.WantedLevel == 0)
+                return;
+
+            // L'arrestation automatique ne fonctionne que si le joueur est à pied
+            if (player.IsInVehicle())
+                return;
+
+            var currentPosition = player.Position;
+            var playerSpeed = player.Velocity.Length();
+
+            // Vérifier si le joueur s'est arrêté
+            if (playerSpeed < _config.StopThreshold)
+            {
+                if (!_isPlayerStopped)
+                {
+                    _isPlayerStopped = true;
+                    _lastStoppedTime = DateTime.Now;
+                    _lastPlayerPosition = currentPosition;
+                    
+                    var message = string.Format(_config.Messages.InitialWarning, _config.ArrestDelaySeconds);
+                    Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+                    Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, message);
+                    Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, 2000);
                 }
                 else
                 {
-                    if (!_isEscorting && !_isTransporting)
-                        ResetState();
+                    // Vérifier le temps d'arrêt
+                    var stoppedDuration = DateTime.Now - _lastStoppedTime;
+                    var remainingTime = _config.ArrestDelaySeconds - (int)stoppedDuration.TotalSeconds;
+                    
+                    if (remainingTime > 0)
+                    {
+                        var message = string.Format(_config.Messages.CountdownWarning, remainingTime);
+                        Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+                        Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, message);
+                        Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, 100);
+                    }
+                    else if (stoppedDuration.TotalSeconds >= _config.ArrestDelaySeconds)
+                    {
+                        InitiateArrest(player);
+                    }
                 }
-
-                if (_isEscorting)
-                    UpdateEscort(player);
-                else if (_isTransporting)
-                    UpdateTransport(player);
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"PoliceSystem tick error: {ex.Message}");
-            }
-        }
-
-        private void HandleChase(Ped player)
-        {
-            var nearby = World.GetNearbyPeds(player.Position, PoliceConfig.POLICE_DETECTION_RANGE);
-            Ped? closest = null;
-            float closestDist = float.MaxValue;
-            foreach (var ped in nearby)
-            {
-                if (ped == null || !ped.Exists() || ped.IsDead) continue;
-                if (!IsPolicePed(ped)) continue;
-
-                float dist = ped.Position.DistanceTo(player.Position);
-                if (dist < closestDist)
-                {
-                    closest = ped;
-                    closestDist = dist;
-                }
-
-                if (IsPlayerAimingAt(player, ped))
-                {
-                    PoliceEvents.OnPlayerAimingAtOfficer(ped);
-                    ped.Task.ShootAt(player);
-                    Notification.PostTicker(PoliceConfig.COMBAT_WARNING, true);
-                    return;
-                }
-            }
-
-            if (closest == null) return;
-
-            if (player.Velocity.Length() < PoliceConfig.StationarySpeed)
-                _stationaryMs += PoliceConfig.UpdateInterval;
-            else
-                _stationaryMs = 0;
-
-            if (closest.Position.DistanceTo(player.Position) > PoliceConfig.ARREST_RANGE ||
-                _stationaryMs < PoliceConfig.ArrestDelayMs)
-            {
-                closest.Task.RunTo(player.Position);
-                PoliceEvents.OnPlayerChaseStarted(closest);
             }
             else
             {
-                _stationaryMs = 0;
-                StartArrest(closest, player);
+                _isPlayerStopped = false;
             }
         }
 
-        private bool IsPlayerAimingAt(Ped player, Ped target)
+        /// <summary>
+        /// Lance la procédure d'arrestation
+        /// </summary>
+        private void InitiateArrest(Ped player)
         {
-            if (!player.IsAiming) return false;
-            return Function.Call<bool>(Hash.IS_PLAYER_FREE_AIMING_AT_ENTITY, Game.Player, target);
-        }
-
-        private void StartArrest(Ped officer, Ped player)
-        {
-            _arrestingOfficer = officer;
-            _arrestingOfficer.Task.ClearAll();
-            Function.Call(Hash.TASK_ARREST_PED, officer.Handle, player.Handle);
+            _isBeingArrested = true;
+            
+            // Suppression complète du niveau de recherche et des poursuites
             Game.Player.Wanted.SetWantedLevel(0, false);
             Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
-            PoliceEvents.OnPlayerArrested(officer);
-            _isEscorting = true;
             Game.Player.Wanted.SetPoliceIgnorePlayer(true);
-            Notification.PostTicker(PoliceConfig.ARREST_WARNING, true);
+            Game.Player.Wanted.SetEveryoneIgnorePlayer(true);
+            
+            // Nettoyer la zone des policiers agressifs
+            World.ClearAreaOfCops(player.Position, 100f);
+
+            // Trouver la voiture de police la plus proche
+            var nearbyVehicles = World.GetNearbyVehicles(player.Position, _config.PoliceVehicleSearchRadius);
+            var policeVehicle = nearbyVehicles
+                .Where(v => IsPoliceVehicle(v) && v.IsAlive)
+                .OrderBy(v => Vector3.Distance(v.Position, player.Position))
+                .FirstOrDefault();
+
+            if (policeVehicle == null)
+            {
+                // Créer une voiture de police si aucune n'est trouvée
+                policeVehicle = CreatePoliceVehicle(player.Position);
+            }
+
+            if (policeVehicle != null)
+            {
+                _arrestVehicle = policeVehicle;
+                TeleportPlayerToPoliceVehicle(player, policeVehicle);
+                CreateArrestOfficer(policeVehicle);
+            }
+
+            // Afficher le message d'arrestation
+            Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+            Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, _config.Messages.ArrestMessage);
+            Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, 3000);
         }
 
-        private void UpdateEscort(Ped player)
+        /// <summary>
+        /// Vérifie si un véhicule est une voiture de police
+        /// </summary>
+        private bool IsPoliceVehicle(Vehicle vehicle)
         {
-            if (_arrestingOfficer == null || !_arrestingOfficer.Exists())
+            var vehicleClass = Function.Call<int>(Hash.GET_VEHICLE_CLASS, vehicle);
+            return vehicleClass == 18; // Emergency vehicles
+        }
+
+        /// <summary>
+        /// Crée une voiture de police près du joueur
+        /// </summary>
+        private Vehicle? CreatePoliceVehicle(Vector3 playerPosition)
+        {
+            var spawnPosition = playerPosition + Vector3.RandomXY() * 20f;
+            var vehicle = World.CreateVehicle(VehicleHash.Police, spawnPosition);
+            
+            if (vehicle != null)
             {
-                ResetState();
+                vehicle.PlaceOnGround();
+                Function.Call(Hash.SET_VEHICLE_ENGINE_ON, vehicle, true, true, false);
+            }
+            
+            return vehicle;
+        }
+
+        /// <summary>
+        /// Téléporte le joueur à l'arrière de la voiture de police
+        /// </summary>
+        private void TeleportPlayerToPoliceVehicle(Ped player, Vehicle policeVehicle)
+        {
+            // Téléporter le joueur à l'arrière du véhicule
+            Function.Call(Hash.SET_PED_INTO_VEHICLE, player, policeVehicle, 1); // Siège arrière gauche
+            
+            // Bloquer les commandes du joueur temporairement
+            Function.Call(Hash.SET_PLAYER_CONTROL, Game.Player, false, 0);
+            
+            // Rendre le contrôle après 2 secondes (via un timer)
+            Script.Wait(2000);
+            Function.Call(Hash.SET_PLAYER_CONTROL, Game.Player, true, 0);
+        }
+
+        /// <summary>
+        /// Crée un officier de police pour conduire
+        /// </summary>
+        private void CreateArrestOfficer(Vehicle policeVehicle)
+        {
+            var officer = World.CreatePed(PedHash.Cop01SMY, policeVehicle.Position);
+            if (officer != null)
+            {
+                _arrestOfficer = officer;
+                Function.Call(Hash.SET_PED_INTO_VEHICLE, officer, policeVehicle, -1); // Siège conducteur
+                
+                // Configurer l'officier pour qu'il ne soit pas agressif
+                Function.Call(Hash.SET_PED_AS_COP, officer, false); // Pas de comportement de flic agressif
+                officer.IsInvincible = true; // Rendre l'officier invincible pendant le transport
+                officer.BlockPermanentEvents = true; // Empêcher les réactions automatiques
+                
+                // S'assurer qu'il n'attaque pas le joueur
+                Function.Call(Hash.SET_PED_RELATIONSHIP_GROUP_HASH, officer, Function.Call<uint>(Hash.GET_HASH_KEY, "CIVMALE"));
+                Function.Call(Hash.SET_RELATIONSHIP_BETWEEN_GROUPS, 1, Function.Call<uint>(Hash.GET_HASH_KEY, "CIVMALE"), Function.Call<uint>(Hash.GET_HASH_KEY, "PLAYER"));
+                
+                // Commencer le transport vers le poste de police
+                StartTransportToStation();
+            }
+        }
+
+        /// <summary>
+        /// Démarre le transport vers le poste de police
+        /// </summary>
+        private void StartTransportToStation()
+        {
+            if (_arrestOfficer == null || _arrestVehicle == null)
                 return;
-            }
 
-            if (Game.IsControlJustReleased(Control.Jump))
-            {
-                // Prevent jumping while arrested
-                Game.DisableControlThisFrame(Control.Jump);
-            }
+            // Trouver le poste de police le plus proche
+            var playerPosition = Game.Player.Character.Position;
+            var nearestStation = _config.CustomPoliceStations
+                .OrderBy(station => Vector3.Distance(station, playerPosition))
+                .First();
 
-            // attendre que le joueur soit menotté avant de poursuivre l'escorte
-            if (!Function.Call<bool>(Hash.IS_PED_RUNNING_ARREST_TASK, _arrestingOfficer) &&
-                Function.Call<bool>(Hash.IS_PED_CUFFED, player))
-            {
-                if (_policeVehicle == null || !_policeVehicle.Exists())
-                {
-                    _policeVehicle = GetOrCreatePoliceVehicle(player.Position);
-                    if (_policeVehicle != null) _spawnedVehicles.Add(_policeVehicle);
-                }
-
-                if (_policeVehicle != null)
-                {
-                    Game.Player.SetControlState(false);
-                    player.Task.EnterVehicle(_policeVehicle, VehicleSeat.RightRear);
-                    _arrestingOfficer.Task.ClearAll();
-                    _arrestingOfficer.Task.EnterVehicle(_policeVehicle, VehicleSeat.Driver);
-                    Game.Player.Wanted.SetWantedLevel(0, false);
-                    Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
-                    _isEscorting = false;
-                    _isTransporting = true;
-                    PoliceEvents.OnPlayerEscorted(_arrestingOfficer, _policeVehicle);
-                    Notification.PostTicker(PoliceConfig.HANDCUFF_MESSAGE, true);
-                }
-            }
+            // Utiliser une mission de véhicule plus appropriée pour l'escorte
+            _arrestOfficer.Task.GoToPointAnyMeansExtraParamsWithCruiseSpeed(
+                nearestStation, 
+                PedMoveBlendRatio.Walk, 
+                _arrestVehicle, 
+                false, 
+                VehicleDrivingFlags.DrivingModeStopForVehicles, 
+                -1, 
+                0, 
+                20, 
+                TaskGoToPointAnyMeansFlags.Default, 
+                15f, 
+                4f
+            );
+            
+            // Afficher le message de transport
+            Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+            Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, _config.Messages.TransportMessage);
+            Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, 5000);
         }
 
-        private void UpdateTransport(Ped player)
+        /// <summary>
+        /// Gère le transport du joueur
+        /// </summary>
+        private void HandlePoliceTransport()
         {
-            if (_policeVehicle == null || !_policeVehicle.Exists() || _arrestingOfficer == null || !_arrestingOfficer.Exists())
-            {
-                ResetState();
+            if (!_isBeingArrested || _arrestVehicle == null || _arrestOfficer == null)
                 return;
+
+            var player = Game.Player.Character;
+            
+            // Vérifier si on est arrivé au poste
+            var nearestStation = _config.CustomPoliceStations
+                .OrderBy(station => Vector3.Distance(station, player.Position))
+                .First();
+
+            if (Vector3.Distance(player.Position, nearestStation) < 20f)
+            {
+                CompleteArrest();
             }
 
-            if (!_arrestingOfficer.IsInVehicle(_policeVehicle)) return;
-
-            Vector3 destination = GetNearestStation(_policeVehicle.Position);
-            _arrestingOfficer.Task.DriveTo(_policeVehicle, destination, 5f,
-                VehicleDrivingFlags.DrivingModeAvoidVehicles, PoliceConfig.TransportSpeed);
-
-            if (_policeVehicle.Position.DistanceTo(destination) < 6f)
+            // Vérifier si le véhicule ou l'officier sont détruits
+            if (_arrestVehicle.IsDead || _arrestOfficer.IsDead)
             {
-                player.Task.LeaveVehicle(_policeVehicle, LeaveVehicleFlags.None);
-                Game.Player.SetControlState(true);
-                Game.Player.Wanted.SetWantedLevel(0, false);
-                Game.Player.Wanted.ApplyWantedLevelChangeNow(false);
-                PoliceEvents.OnPlayerTransported(_policeVehicle);
-                Notification.PostTicker(PoliceConfig.RELEASE_MESSAGE, true);
-                ResetState();
+                CancelArrest();
             }
         }
 
-        private Vector3 GetNearestStation(Vector3 from)
+        /// <summary>
+        /// Complète la procédure d'arrestation
+        /// </summary>
+        private void CompleteArrest()
         {
-            Vector3 best = _stations[0];
-            float dist = from.DistanceTo(best);
-            foreach (var station in _stations)
-            {
-                float d = from.DistanceTo(station);
-                if (d < dist)
-                {
-                    dist = d;
-                    best = station;
-                }
-            }
-            return best;
+            var player = Game.Player.Character;
+            
+            // Sortir le joueur du véhicule
+            player.Task.LeaveVehicle();
+            
+            // Téléporter à l'entrée du poste
+            var nearestStation = _config.CustomPoliceStations
+                .OrderBy(station => Vector3.Distance(station, player.Position))
+                .First();
+            
+            player.Position = nearestStation;
+            
+            // Rétablir le comportement normal de la police
+            Game.Player.Wanted.SetPoliceIgnorePlayer(false);
+            Game.Player.Wanted.SetEveryoneIgnorePlayer(false);
+            
+            // Afficher le message de libération
+            Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+            Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, _config.Messages.ReleaseMessage);
+            Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, 5000);
+            
+            ResetArrestState();
         }
 
-        private Vehicle GetOrCreatePoliceVehicle(Vector3 around)
+        /// <summary>
+        /// Annule l'arrestation
+        /// </summary>
+        private void CancelArrest()
         {
-            var vehicles = World.GetNearbyVehicles(around, PoliceConfig.POLICE_DETECTION_RANGE);
-            var vehicles = World.GetNearbyVehicles(around, 40f);
-            Vehicle? closest = null;
-            float dist = float.MaxValue;
-            foreach (var veh in vehicles)
-            {
-                if (veh == null || !veh.Exists()) continue;
-                if (!IsPoliceVehicle(veh)) continue;
-                float d = veh.Position.DistanceTo(around);
-                if (d < dist)
-                {
-                    dist = d;
-                    closest = veh;
-                }
-            }
-
-            if (!PoliceConfig.AutoCreatePoliceVehicles)
-                return null!;
-            if (closest != null) return closest;
-
-            if (!PoliceConfig.AutoCreatePoliceVehicles) return null!;
-
-            Model model = new Model(PoliceConfig.POLICE_VEHICLE_MODELS[0]);
-            DateTime startTime = DateTime.Now;
-            while (!model.IsLoaded && (DateTime.Now - startTime).TotalMilliseconds < 2000)
-            {
-                model.Request();
-                Script.Yield();
-            }
-
-            if (!model.IsLoaded) return null!;
-            var v = World.CreateVehicle(model, around.Around(5f));
-            model.MarkAsNoLongerNeeded();
-            return v;
+            Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+            Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, _config.Messages.ArrestCancelled);
+            Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, 3000);
+            
+            ResetArrestState();
         }
 
-        private bool IsPoliceVehicle(Vehicle veh)
+        /// <summary>
+        /// Remet à zéro l'état d'arrestation
+        /// </summary>
+        private void ResetArrestState()
         {
-            foreach (var name in PoliceConfig.POLICE_VEHICLE_MODELS)
+            _isBeingArrested = false;
+            _isPlayerStopped = false;
+            _arrestVehicle = null;
+            
+            // Nettoyer l'officier d'arrestation
+            if (_arrestOfficer != null)
             {
-                if (veh.Model.Hash == Function.Call<int>(Hash.GET_HASH_KEY, name))
-                    return true;
+                _arrestOfficer.IsInvincible = false;
+                _arrestOfficer.BlockPermanentEvents = false;
+                _arrestOfficer = null;
             }
-            return false;
+            
+            // S'assurer que le comportement de la police est rétabli
+            Game.Player.Wanted.SetPoliceIgnorePlayer(false);
+            Game.Player.Wanted.SetEveryoneIgnorePlayer(false);
         }
 
-        private bool IsPolicePed(Ped ped)
+        public void OnAborted()
         {
-            foreach (var name in PoliceConfig.POLICE_PED_MODELS)
-            {
-                if (ped.Model.Hash == Function.Call<int>(Hash.GET_HASH_KEY, name))
-                    return true;
-            }
-            return false;
-        }
-
-        private void ResetState()
-        {
-            try
-            {
-                Game.Player.SetControlState(true);
-                Game.Player.Wanted.SetPoliceIgnorePlayer(false);
-                if (_arrestingOfficer != null && _spawnedPeds.Contains(_arrestingOfficer))
-                {
-                    if (_arrestingOfficer.Exists())
-                        _arrestingOfficer.Delete();
-                    _spawnedPeds.Remove(_arrestingOfficer);
-                }
-
-                if (_policeVehicle != null && _spawnedVehicles.Contains(_policeVehicle))
-                {
-                    if (_policeVehicle.Exists())
-                        _policeVehicle.Delete();
-                    _spawnedVehicles.Remove(_policeVehicle);
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"Reset state error: {ex.Message}");
-            }
-            finally
-            {
-                _arrestingOfficer = null;
-                _policeVehicle = null;
-                _isEscorting = false;
-                _isTransporting = false;
-                _stationaryMs = 0;
-            }
-        }
-
-        private void OnAborted(object sender, EventArgs e)
-        {
-            try
-            {
-                ResetState();
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"PoliceSystem cleanup error: {ex.Message}");
-            }
+            ResetArrestState();
         }
     }
-}
+} 
