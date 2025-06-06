@@ -76,6 +76,11 @@ namespace REALIS.Config
         /// Active ou désactive le mode debug (affichage d'informations supplémentaires)
         /// </summary>
         public static bool DebugMode { get; set; } = false;
+
+        /// <summary>
+        /// Désactive l'affichage de l'écran "Busted" lors d'une arrestation
+        /// </summary>
+        public static bool DisableBustedScreen { get; set; } = true;
         
         /// <summary>
         /// Charge la configuration par défaut
@@ -96,6 +101,7 @@ namespace REALIS.Config
             UpdateInterval = 100;
             SystemEnabled = true;
             DebugMode = false;
+            DisableBustedScreen = true;
         }
         
         /// <summary>
