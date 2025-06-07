@@ -81,17 +81,17 @@ namespace REALIS.Config
         public float WeaponThreatDistance { get; set; } = 10f;
 
         /// <summary>
-        /// Positions des postes de police personnalisés
+        /// Positions des postes de police personnalisés (intérieures)
         /// </summary>
         [JsonProperty("custom_police_stations")]
         public Vector3[] CustomPoliceStations { get; set; } = new Vector3[]
         {
-            new Vector3(425.1f, -979.5f, 30.7f),     // Mission Row Police Station
-            new Vector3(1855.1f, 3678.9f, 34.2f),    // Sandy Shores Sheriff
-            new Vector3(-449.1f, 6008.5f, 31.7f),    // Paleto Bay Sheriff
-            new Vector3(-561.3f, -131.9f, 38.4f),    // Rockford Hills Police
-            new Vector3(827.0f, -1290.0f, 28.2f),    // La Mesa Police
-            new Vector3(-1096.6f, -845.8f, 19.0f)    // Vespucci Police
+            new Vector3(441.7f, -975.3f, 30.69f),    // Mission Row Police Station (intérieur)
+            new Vector3(1853.2f, 3686.9f, 34.26f),   // Sandy Shores Sheriff (intérieur)
+            new Vector3(-448.6f, 6012.8f, 31.71f),   // Paleto Bay Sheriff (intérieur)
+            new Vector3(-561.8f, -133.0f, 38.43f),   // Rockford Hills Police (extérieur sécurisé)
+            new Vector3(826.2f, -1289.7f, 28.24f),   // La Mesa Police (extérieur sécurisé)
+            new Vector3(-1096.2f, -845.0f, 19.01f)   // Vespucci Police (extérieur sécurisé)
         };
 
         /// <summary>
