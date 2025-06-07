@@ -27,6 +27,9 @@
       <Private>false</Private>
     </Reference>
 
+    <!-- LemonUI pour des menus améliorés -->
+    <PackageReference Include="LemonUI.SHVDN3" Version="2.2.0" />
+
     <!-- Pack de références si tu n'as pas le Dev Pack -->
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48"
                       Version="1.0.3" PrivateAssets="all" />

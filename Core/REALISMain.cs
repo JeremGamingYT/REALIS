@@ -11,7 +11,6 @@ namespace REALIS.Core
     /// </summary>
     public class REALISMain : Script
     {
-        private RealVisualMenu? _visualMenu;
         private bool _isInitialized = false;
         private DateTime _lastConfigCheck = DateTime.MinValue;
         private const double CONFIG_CHECK_INTERVAL_SECONDS = 5.0;
@@ -59,7 +58,6 @@ namespace REALIS.Core
             if (ConfigurationManager.IsFirstRun)
             {
                 Logger.Info("First run detected - showing setup menu.");
-                ShowFirstRunSetup();
             }
             else
             {
@@ -79,12 +77,6 @@ namespace REALIS.Core
                     _lastConfigCheck = DateTime.Now;
                 }
                 
-                // Traiter les inputs du clavier si pas dans le menu de setup
-                if (_visualMenu == null)
-                {
-                    ProcessKeyboardInputs();
-                }
-                
                 // Mettre à jour les systèmes actifs
                 UpdateActiveSystems();
             }
@@ -100,12 +92,6 @@ namespace REALIS.Core
             
             try
             {
-                // Touche de debug pour forcer le menu de setup
-                if (Game.IsKeyPressed(Keys.F8))
-                {
-                    ShowFirstRunSetup();
-                    return;
-                }
                 
                 // Vérifier les touches une par une
                 var config = ConfigurationManager.KeybindConfig;
@@ -146,25 +132,6 @@ namespace REALIS.Core
             
             // Nettoyer les ressources
             CleanupSystems();
-        }
-        
-        /// <summary>
-        /// Affiche le menu de première utilisation
-        /// </summary>
-        private void ShowFirstRunSetup()
-        {
-            try
-            {
-                _visualMenu = new RealVisualMenu();
-                
-                Notification.PostTicker("~y~REALIS: Welcome! Press INSERT for visual setup menu.", false, true);
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"Failed to show first run setup: {ex.Message}");
-                // En cas d'erreur, initialiser avec les paramètres par défaut
-                InitializeSystems();
-            }
         }
         
         /// <summary>
@@ -510,12 +477,6 @@ namespace REALIS.Core
                 {
                     ConfigurationManager.MarkFirstRunCompleted();
                     ConfigurationManager.SaveKeybindConfiguration();
-                }
-                
-                // Désactiver le menu de setup
-                if (_visualMenu != null)
-                {
-                    _visualMenu = null;
                 }
                 
                 // Initialiser les systèmes si pas déjà fait
