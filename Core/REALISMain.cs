@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using GTA;
 using GTA.UI;
 using REALIS.Common;
+using REALIS.Transportation;
+using REALIS.TrafficAI;
 
 namespace REALIS.Core
 {
@@ -17,10 +19,15 @@ namespace REALIS.Core
         
         // Systèmes du mod
         private PoliceSystem? _policeSystem;
-        private TrafficAI? _trafficAI;
+        private AdvancedDrivingAI? _advancedDrivingAI;  // RÉACTIVÉ POUR TEST ISOLÉ
         private GasStationManager? _gasStationManager;
         private FoodStoreManager? _foodStoreManager;
         private VehicleDealershipManager? _vehicleDealershipManager;
+        private BusDriverManager? _busDriverManager;
+        private TaxiDriverManager? _taxiDriverManager;
+        private FirefighterManager? _firefighterManager;
+        private AmbulanceManager? _ambulanceManager;
+        private PhoneMenuManagerSimple? _phoneMenuManager;
         
         public REALISMain()
         {
@@ -174,6 +181,29 @@ namespace REALIS.Core
                     InitializeVehicleDealershipSystem();
                 }
                 
+                if (ConfigurationManager.UserConfig.ModSettings.BusDriverSystemEnabled)
+                {
+                    InitializeBusDriverSystem();
+                }
+                
+                if (ConfigurationManager.UserConfig.ModSettings.TaxiDriverSystemEnabled)
+                {
+                    InitializeTaxiDriverSystem();
+                }
+                
+                if (ConfigurationManager.UserConfig.ModSettings.FirefighterSystemEnabled)
+                {
+                    InitializeFirefighterSystem();
+                }
+                
+                if (ConfigurationManager.UserConfig.ModSettings.AmbulanceSystemEnabled)
+                {
+                    InitializeAmbulanceSystem();
+                }
+                
+                // Toujours initialiser le gestionnaire de téléphone
+                InitializePhoneMenuSystem();
+                
                 _isInitialized = true;
                 
                 // Notification de succès
@@ -209,12 +239,13 @@ namespace REALIS.Core
         {
             try
             {
-                _trafficAI = new TrafficAI();
-                Logger.Info("Traffic AI system initialized.");
+                // TEST ISOLÉ - Seul AdvancedDrivingAI réactivé
+                _advancedDrivingAI = new AdvancedDrivingAI();
+                Logger.Info("AdvancedDrivingAI seul réactivé pour test isolé.");
             }
             catch (Exception ex)
             {
-                Logger.Error($"Failed to initialize traffic AI: {ex.Message}");
+                Logger.Error($"Failed to initialize AdvancedDrivingAI: {ex.Message}");
             }
         }
         
@@ -254,6 +285,71 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Failed to initialize vehicle dealership system: {ex.Message}");
+            }
+        }
+        
+        private void InitializeBusDriverSystem()
+        {
+            try
+            {
+                _busDriverManager = new BusDriverManager();
+                Logger.Info("Bus driver system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize bus driver system: {ex.Message}");
+            }
+        }
+        
+        private void InitializeTaxiDriverSystem()
+        {
+            try
+            {
+                _taxiDriverManager = new TaxiDriverManager();
+                Logger.Info("Taxi driver system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize taxi driver system: {ex.Message}");
+            }
+        }
+        
+        private void InitializeFirefighterSystem()
+        {
+            try
+            {
+                _firefighterManager = new FirefighterManager();
+                Logger.Info("Firefighter system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize firefighter system: {ex.Message}");
+            }
+        }
+        
+        private void InitializeAmbulanceSystem()
+        {
+            try
+            {
+                _ambulanceManager = new AmbulanceManager();
+                Logger.Info("Ambulance system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize ambulance system: {ex.Message}");
+            }
+        }
+        
+        private void InitializePhoneMenuSystem()
+        {
+            try
+            {
+                _phoneMenuManager = new PhoneMenuManagerSimple();
+                Logger.Info("Phone menu system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize phone menu system: {ex.Message}");
             }
         }
         
@@ -424,6 +520,36 @@ namespace REALIS.Core
                 {
                     _vehicleDealershipManager.SetEnabled(false);
                     _vehicleDealershipManager = null;
+                }
+                
+                // Nettoyer le système de chauffeur de bus si actif
+                if (_busDriverManager != null)
+                {
+                    _busDriverManager = null;
+                }
+                
+                // Nettoyer le système de chauffeur de taxi si actif
+                if (_taxiDriverManager != null)
+                {
+                    _taxiDriverManager = null;
+                }
+                
+                // Nettoyer le système de pompier si actif
+                if (_firefighterManager != null)
+                {
+                    _firefighterManager = null;
+                }
+                
+                // Nettoyer le système d'ambulancier si actif
+                if (_ambulanceManager != null)
+                {
+                    _ambulanceManager = null;
+                }
+                
+                // Nettoyer le gestionnaire de téléphone si actif
+                if (_phoneMenuManager != null)
+                {
+                    _phoneMenuManager = null;
                 }
                 
                 Logger.Info("REALIS systems cleanup completed.");

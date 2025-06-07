@@ -11,11 +11,12 @@ using REALIS.Config;
 namespace REALIS.TrafficAI
 {
     /// <summary>
+    /// DÉSACTIVÉ TEMPORAIREMENT - Conflit avec AdvancedDrivingAI
     /// Gestionnaire avancé de comportements pour les PNJ bloqués dans la circulation.
     /// Système intelligent avec détection multi-directionnelle, limitation des ressources,
     /// et algorithmes de contournement adaptatifs.
     /// </summary>
-    public class TrafficIntelligenceManager : Script
+    public class TrafficIntelligenceManager_DISABLED : Script
     {
         private readonly Dictionary<int, BlockedVehicleInfo> _tracked = new();
         private readonly HashSet<int> _processingVehicles = new(); // Prévient les doubles traitements
@@ -38,10 +39,12 @@ namespace REALIS.TrafficAI
         private int _processedThisTick = 0;
         private DateTime _lastCleanup = DateTime.Now;
 
-        public TrafficIntelligenceManager()
+        public TrafficIntelligenceManager_DISABLED()
         {
-            Tick += OnTick;
-            Interval = 1500; // Un peu plus rapide pour plus de réactivité
+            // DÉSACTIVÉ - Conflit avec AdvancedDrivingAI
+            // Tick += OnTick;
+            // Interval = 1500;
+            Logger.Info("TrafficIntelligenceManager DISABLED to avoid conflicts with AdvancedDrivingAI");
         }
 
         private void OnTick(object sender, EventArgs e)

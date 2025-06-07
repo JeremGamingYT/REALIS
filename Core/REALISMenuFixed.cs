@@ -85,6 +85,16 @@ namespace REALIS.Core
             };
             mainMenu.Add(policeItem);
 
+            // Item application de livraison
+            var foodAppItem = new NativeItem("📱 QuickEats App", "Ouvrir l'application de livraison de nourriture");
+            foodAppItem.Activated += (sender, args) =>
+            {
+                mainMenu.Visible = false;
+                // Ici, nous pourrions déclencher l'ouverture de l'app QuickEats
+                GTA.UI.Screen.ShowSubtitle("~b~Appuyez sur F8 pour ouvrir QuickEats~w~ (ou intégration directe si disponible)");
+            };
+            mainMenu.Add(foodAppItem);
+
             // Séparateur
             mainMenu.Add(new NativeSeparatorItem("Actions Rapides"));
 

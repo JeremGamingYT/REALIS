@@ -9,21 +9,24 @@ using REALIS.Common;
 namespace REALIS.Core
 {
     /// <summary>
+    /// DÉSACTIVÉ TEMPORAIREMENT - Conflit avec AdvancedDrivingAI
     /// Gestionnaire principal du système TrafficAI utilisant les nouvelles architectures.
     /// Coordonne les différents gestionnaires de trafic pour une expérience optimale.
     /// </summary>
-    public class TrafficAI : Script
+    public class TrafficAI_DISABLED : Script
     {
-        private CentralizedTrafficManager? _centralizedManager;
-        private TrafficIntelligenceManager? _intelligenceManager;
+        // DÉSACTIVÉ - Conflits avec AdvancedDrivingAI
+        // private CentralizedTrafficManager? _centralizedManager;
+        // private TrafficIntelligenceManager? _intelligenceManager;
         private bool _isInitialized = false;
         private DateTime _lastStatusUpdate = DateTime.MinValue;
 
-        public TrafficAI()
+        public TrafficAI_DISABLED()
         {
-            Tick += OnTick;
-            Aborted += OnAborted;
-            Logger.Info("Modern TrafficAI system starting...");
+            // DÉSACTIVÉ - Conflit avec AdvancedDrivingAI
+            // Tick += OnTick;
+            // Aborted += OnAborted;
+            Logger.Info("TrafficAI system DISABLED to avoid conflicts with AdvancedDrivingAI");
         }
 
         private void OnTick(object sender, EventArgs e)
@@ -56,11 +59,11 @@ namespace REALIS.Core
         {
             try
             {
-                // Initialise le gestionnaire centralisé
-                _centralizedManager = new CentralizedTrafficManager();
-
-                // Initialise le gestionnaire d'intelligence
-                _intelligenceManager = new TrafficIntelligenceManager();
+                // DÉSACTIVÉ - Conflits avec AdvancedDrivingAI
+                // _centralizedManager = new CentralizedTrafficManager();
+                // _intelligenceManager = new TrafficIntelligenceManager();
+                
+                Logger.Info("TrafficAI managers disabled to avoid conflicts with AdvancedDrivingAI");
 
                 // S'abonne aux événements de trafic
                 TrafficEvents.VehicleBypass += OnVehicleBypass;
@@ -132,9 +135,9 @@ namespace REALIS.Core
                 // Désabonnement des événements
                 TrafficEvents.VehicleBypass -= OnVehicleBypass;
 
-                // Nettoyage des gestionnaires
-                _centralizedManager?.Dispose();
-                _intelligenceManager?.Dispose();
+                // DÉSACTIVÉ - Nettoyage des gestionnaires
+                // _centralizedManager?.Dispose();
+                // _intelligenceManager?.Dispose();
 
                 // Nettoyage final du système
                 VehicleQueryService.Cleanup();
@@ -158,11 +161,11 @@ namespace REALIS.Core
                 
                 _isInitialized = false;
                 
-                _centralizedManager?.Dispose();
-                _intelligenceManager?.Dispose();
-                
-                _centralizedManager = null;
-                _intelligenceManager = null;
+                // DÉSACTIVÉ - Nettoyage des gestionnaires
+                // _centralizedManager?.Dispose();
+                // _intelligenceManager?.Dispose();
+                // _centralizedManager = null;
+                // _intelligenceManager = null;
                 
                 Logger.Info("TrafficAI system restart completed");
             }

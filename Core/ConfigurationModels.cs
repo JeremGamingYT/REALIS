@@ -59,6 +59,18 @@ namespace REALIS.Core
         [JsonProperty("vehicleDealershipEnabled")]
         public bool VehicleDealershipEnabled { get; set; } = true;
         
+        [JsonProperty("busDriverSystemEnabled")]
+        public bool BusDriverSystemEnabled { get; set; } = true;
+        
+        [JsonProperty("taxiDriverSystemEnabled")]
+        public bool TaxiDriverSystemEnabled { get; set; } = true;
+        
+        [JsonProperty("firefighterSystemEnabled")]
+        public bool FirefighterSystemEnabled { get; set; } = true;
+        
+        [JsonProperty("ambulanceSystemEnabled")]
+        public bool AmbulanceSystemEnabled { get; set; } = true;
+        
         [JsonProperty("realisticTrafficDensity")]
         public float RealisticTrafficDensity { get; set; } = 1.0f;
         
@@ -109,6 +121,9 @@ namespace REALIS.Core
                         { "gas_stations", "Gas Stations" },
                         { "food_stores", "Food Stores" },
                         { "vehicle_dealerships", "Vehicle Dealerships" },
+                        { "bus_driver_system", "Bus Driver System" },
+                        { "firefighter_system", "Firefighter System" },
+                        { "ambulance_system", "Ambulance System" },
                         { "save_and_continue", "Save & Continue" },
                         { "skip_setup", "Skip Setup" },
                         { "setup_complete", "Setup Complete!" },
@@ -138,6 +153,9 @@ namespace REALIS.Core
                         { "gas_stations", "Stations-service" },
                         { "food_stores", "Magasins d'alimentation" },
                         { "vehicle_dealerships", "Concessionnaires automobiles" },
+                        { "bus_driver_system", "Système de Chauffeur de Bus" },
+                        { "firefighter_system", "Système de Pompier" },
+                        { "ambulance_system", "Système d'Ambulancier" },
                         { "save_and_continue", "Sauvegarder et continuer" },
                         { "skip_setup", "Ignorer la configuration" },
                         { "setup_complete", "Configuration terminée !" },

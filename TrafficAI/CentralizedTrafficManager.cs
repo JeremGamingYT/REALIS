@@ -10,10 +10,11 @@ using REALIS.Core;
 namespace REALIS.TrafficAI
 {
     /// <summary>
+    /// DÉSACTIVÉ TEMPORAIREMENT - Conflit avec AdvancedDrivingAI
     /// Version centralisée et robuste du gestionnaire de trafic.
     /// Utilise le système d'événements central pour éviter les conflits.
     /// </summary>
-    public class CentralizedTrafficManager : Script, IEventHandler
+    public class CentralizedTrafficManager_DISABLED : Script, IEventHandler
     {
         private readonly string MANAGER_ID = "CentralizedTrafficManager";
         private const int LOCK_PRIORITY = 10;
@@ -34,10 +35,12 @@ namespace REALIS.TrafficAI
         private int _processedThisTick = 0;
         private bool _isRegistered = false;
 
-        public CentralizedTrafficManager()
+        public CentralizedTrafficManager_DISABLED()
         {
-            Tick += OnTick;
-            Interval = 8000;
+            // DÉSACTIVÉ - Conflit avec AdvancedDrivingAI
+            // Tick += OnTick;
+            // Interval = 8000;
+            Logger.Info("CentralizedTrafficManager DISABLED to avoid conflicts with AdvancedDrivingAI");
         }
 
         private void OnTick(object sender, EventArgs e)

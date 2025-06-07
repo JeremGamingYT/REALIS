@@ -12,7 +12,6 @@ namespace REALIS.TrafficAI
     /// </summary>
     public class TrafficAITest : Script
     {
-        private Core.TrafficAI? _trafficAI;
         private DateTime _lastStatsDisplay = DateTime.MinValue;
         private bool _testModeActive = false;
 
@@ -100,14 +99,24 @@ namespace REALIS.TrafficAI
         {
             try
             {
-                if (_trafficAI == null)
+                // Note: AdvancedDrivingAI n'a pas de méthode GetSystemStats()
+                // Affichage d'informations basiques à la place
+                var player = Game.Player.Character;
+                if (player?.CurrentVehicle != null)
                 {
-                    _trafficAI = new Core.TrafficAI();
+                    var nearbyVehicles = VehicleQueryService.GetNearbyVehicles(player.Position, 35f);
+                    string stats = $"AdvancedDrivingAI Status:\n" +
+                                 $"- Nearby Vehicles: {nearbyVehicles.Length}\n" +
+                                 $"- Player Speed: {player.CurrentVehicle.Speed:F1} km/h\n" +
+                                 $"- System: Active";
+                    
+                    Screen.ShowSubtitle(stats, 5000);
+                    Logger.Info($"AdvancedDrivingAI Stats displayed: {stats}");
                 }
-                
-                string stats = _trafficAI.GetSystemStats();
-                Screen.ShowSubtitle(stats, 5000);
-                Logger.Info($"TrafficAI Stats displayed: {stats}");
+                else
+                {
+                    Screen.ShowSubtitle("Player not in vehicle", 3000);
+                }
             }
             catch (Exception ex)
             {
@@ -141,21 +150,15 @@ namespace REALIS.TrafficAI
         {
             try
             {
-                if (_trafficAI != null)
-                {
-                    _trafficAI.RestartSystem();
-                    Notification.PostTicker("TrafficAI System Restarted", true);
-                    Logger.Info("TrafficAI system restarted via test script");
-                }
-                else
-                {
-                    Notification.PostTicker("TrafficAI not initialized", true);
-                }
+                // Note: AdvancedDrivingAI n'a pas de méthode RestartSystem()
+                // Affichage d'un message informatif à la place
+                Notification.PostTicker("AdvancedDrivingAI system is self-managing", true);
+                Logger.Info("AdvancedDrivingAI restart requested - system is self-managing");
             }
             catch (Exception ex)
             {
-                Logger.Error($"Error restarting TrafficAI: {ex.Message}");
-                Notification.PostTicker($"Restart Error: {ex.Message}", true);
+                Logger.Error($"Error with AdvancedDrivingAI: {ex.Message}");
+                Notification.PostTicker($"Error: {ex.Message}", true);
             }
         }
 
