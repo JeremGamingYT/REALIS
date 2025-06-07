@@ -1,0 +1,58 @@
+{
+  "openMenu": {
+    "key": "F9",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Open Configuration Menu",
+    "enabled": true
+  },
+  "togglePoliceSystem": {
+    "key": "F10",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Toggle Police System On/Off",
+    "enabled": true
+  },
+  "toggleTrafficAI": {
+    "key": "F11",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Toggle Traffic AI System",
+    "enabled": true
+  },
+  "emergencyServices": {
+    "key": "F12",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Call Emergency Services",
+    "enabled": true
+  },
+  "quickSave": {
+    "key": "F5",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Quick Save Configuration",
+    "enabled": true
+  },
+  "debugToggle": {
+    "key": "F8",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Toggle Debug Mode",
+    "enabled": true
+  },
+  "interactionKey": {
+    "key": "E",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Interaction Key",
+    "enabled": true
+  },
+  "modifierKey": {
+    "key": "LControlKey",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Modifier Key for Combinations",
+    "enabled": true
+  }
+} 

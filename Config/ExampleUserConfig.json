@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "isFirstRunCompleted": true,
+  "firstRunCompletedDate": "2024-01-15T10:30:00Z",
+  "language": "fr",
+  "enableNotifications": true,
+  "enableAudioFeedback": true,
+  "debugMode": false,
+  "autoSaveInterval": 30,
+  "modSettings": {
+    "policeSystemEnabled": true,
+    "trafficAIEnabled": true,
+    "gasStationSystemEnabled": true,
+    "foodStoreSystemEnabled": true,
+    "realisticTrafficDensity": 1.0,
+    "policeResponseLevel": 3,
+    "economicDifficulty": 2
+  }
+} 
