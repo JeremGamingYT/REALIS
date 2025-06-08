@@ -22,9 +22,7 @@ namespace REALIS.Transportation
         #region Fields
         
         private ObjectPool _menuPool;
-        private NativeMenu _clientMenu = null!;
-        private NativeItem _acceptClientItem = null!;
-        private NativeItem _declineClientItem = null!;
+        private NativeMenu _taxiMenu = null!;
         private NativeItem _endShiftItem = null!;
         
         private Vehicle? _currentTaxi;
@@ -32,25 +30,21 @@ namespace REALIS.Transportation
         private bool _isOnShift;
         private Ped? _currentClient;
         private bool _hasActiveRide;
-        private Vector3 _clientDestination;
-        private string _destinationName = "";
-        private int _rideFare = 0;
-        private List<Ped> _waitingClients = new();
+
         private Vector3 _jobLocation = new Vector3(907.47f, -177.23f, 74.22f); // Downtown Cab Co.
         private Blip? _jobBlip;
         private Blip? _taxiBlip;
-        private Blip? _destinationBlip;
-        private List<Blip> _clientBlips = new();
         
-        // HUD Elements
-        private bool _showingClientRequest;
-        private DateTime _clientRequestTime;
-        private string _clientPickupLocation = "";
-        
-        // Économie
-        private int _totalEarnings;
+        // Économie - tracking des vrais gains du jeu
+        private int _initialMoney;
+        private int _sessionEarnings;
         private int _ridesCompleted;
         private float _totalDistance;
+        private int _lastMoneyCheck;
+        
+        // Fin de service
+        private bool _isEndingService = false;
+        private int _endServiceTimer = 0;
         
         // Locations populaires pour les courses
         private List<TaxiDestination> _popularDestinations = new();
@@ -75,19 +69,13 @@ namespace REALIS.Transportation
         
         private void InitializeMenu()
         {
-            _clientMenu = new NativeMenu("Gestion Taxi", "Gérer les clients");
-            _menuPool.Add(_clientMenu);
+            _taxiMenu = new NativeMenu("Gestion Taxi", "Menu du service taxi");
+            _menuPool.Add(_taxiMenu);
             
-            _acceptClientItem = new NativeItem("Accepter le client", "Accepter ce client dans le taxi");
-            _declineClientItem = new NativeItem("Refuser le client", "Refuser ce client");
             _endShiftItem = new NativeItem("Terminer le service", "Finir votre service de taxi");
             
-            _clientMenu.Add(_acceptClientItem);
-            _clientMenu.Add(_declineClientItem);
-            _clientMenu.Add(_endShiftItem);
+            _taxiMenu.Add(_endShiftItem);
             
-            _acceptClientItem.Activated += OnAcceptClient;
-            _declineClientItem.Activated += OnDeclineClient;
             _endShiftItem.Activated += OnEndShift;
         }
         
@@ -142,23 +130,39 @@ namespace REALIS.Transportation
                 {
                     CheckJobLocation(player);
                 }
-                else if (_isDriving && _currentTaxi != null && _currentTaxi.Exists())
+                else if (_isOnShift && _currentTaxi != null && _currentTaxi.Exists())
                 {
-                    HandleTaxiDriving();
-                    CheckForRandomClients();
-                    ManageCurrentRide();
-                    DisplayTaxiHUD();
+                    if (_isEndingService)
+                    {
+                        HandleEndService();
+                    }
+                    else
+                    {
+                        // Vérifier si le joueur est monté dans le taxi
+                        if (!_isDriving && player.IsInVehicle(_currentTaxi) && player.SeatIndex == VehicleSeat.Driver)
+                        {
+                            _isDriving = true;
+                            Notification.PostTicker("~g~Vous êtes maintenant en service ! Le jeu gère les interactions taxi.", false, true);
+                        }
+                        
+                        if (_isDriving)
+                        {
+                            HandleTaxiDriving();
+                            ManageCurrentRide();
+                            TrackEarnings();
+                            DisplayTaxiHUD();
+                        }
+                        else
+                        {
+                            // Montrer instruction pour monter dans le taxi
+                            Screen.ShowSubtitle("~y~Montez dans le taxi pour commencer le service", 100);
+                        }
+                    }
                 }
                 else if (_isOnShift && (_currentTaxi == null || !_currentTaxi.Exists()))
                 {
                     // Le taxi a disparu, terminer le service
                     EndShift();
-                }
-                
-                // Gérer les demandes de clients
-                if (_showingClientRequest)
-                {
-                    HandleClientRequest();
                 }
             }
             catch (Exception ex)
@@ -189,6 +193,9 @@ namespace REALIS.Transportation
         {
             try
             {
+                Logger.Info("Starting taxi job...");
+                
+                // Effet de fade - transition immersive
                 Screen.FadeOut(1000);
                 Script.Wait(1000);
                 
@@ -196,57 +203,302 @@ namespace REALIS.Transportation
                 Vector3 spawnPosition = new Vector3(903.47f, -191.23f, 73.22f);
                 float spawnHeading = 58.0f;
                 
-                // Créer le taxi
-                var taxiModel = new Model(VehicleHash.Taxi);
+                // Utiliser un modèle de taxi plus fiable
+                var taxiModel = new Model("taxi");
+                if (!taxiModel.IsValid)
+                {
+                    Logger.Error("Taxi model is not valid, trying alternative...");
+                    taxiModel = new Model(VehicleHash.Blista); // Véhicule de fallback
+                }
+                
                 taxiModel.Request(5000);
                 
                 if (taxiModel.IsLoaded)
                 {
                     _currentTaxi = World.CreateVehicle(taxiModel, spawnPosition, spawnHeading);
-                    if (_currentTaxi != null)
+                    
+                    if (_currentTaxi != null && _currentTaxi.Exists())
                     {
                         _currentTaxi.IsPersistent = true;
-                        _currentTaxi.IsEngineRunning = true;
-                        _currentTaxi.IsTaxiLightOn = true; // Allumer le signe taxi
+                        _currentTaxi.PlaceOnGround();
                         
-                        // Téléporter le joueur dans le taxi
-                        Game.Player.Character.Task.WarpIntoVehicle(_currentTaxi, VehicleSeat.Driver);
+                        // Personnaliser le taxi
+                        _currentTaxi.Mods.LicensePlate = "TAXI";
                         
-                        _isDriving = true;
-                        _isOnShift = true;
-                        _hasActiveRide = false;
-                        
-                        // Créer le blip du taxi
+                        // Créer un blip pour le taxi
                         _taxiBlip = _currentTaxi.AddBlip();
-                        _taxiBlip.Sprite = BlipSprite.Store;
-                        _taxiBlip.Color = BlipColor.Green;
+                        _taxiBlip.Sprite = BlipSprite.PersonalVehicleCar;
+                        _taxiBlip.Color = BlipColor.Yellow;
                         _taxiBlip.Name = "Taxi - En service";
+                        _taxiBlip.IsShortRange = true;
                         
-                        Notification.PostTicker("~g~Service de taxi commencé ! Cherchez des clients.", false, true);
-                        Logger.Info("Taxi job started");
+                        _isOnShift = true;
                         
-                        // Spawner un premier client près du lieu de travail
-                        SpawnNearbyClient();
+                        // Initialiser le tracking des gains
+                        _initialMoney = Game.Player.Money;
+                        _lastMoneyCheck = Game.Player.Money;
+                        _sessionEarnings = 0;
+                        _ridesCompleted = 0;
+                        _totalDistance = 0;
+                        
+                        Logger.Info($"Taxi spawned successfully at {spawnPosition}");
+                        
+                        // Fade in
+                        Screen.FadeIn(1000);
+                        
+                        Notification.PostTicker("~g~Taxi créé ! Montez dedans pour commencer le service.", false, true);
                     }
+                    else
+                    {
+                        Logger.Error("Failed to create taxi");
+                        Screen.FadeIn(1000);
+                        Notification.PostTicker("~r~Erreur lors de la création du taxi", false, true);
+                    }
+                }
+                else
+                {
+                    Logger.Error("Failed to load taxi model");
+                    Screen.FadeIn(1000);
+                    Notification.PostTicker("~r~Erreur lors du chargement du modèle de taxi", false, true);
                 }
                 
                 taxiModel.MarkAsNoLongerNeeded();
-                Screen.FadeIn(1000);
             }
             catch (Exception ex)
             {
                 Logger.Error($"Error starting taxi job: {ex.Message}");
                 Screen.FadeIn(1000);
+                Notification.PostTicker("~r~Erreur lors du démarrage du service", false, true);
             }
         }
         
-        private void EndShift()
+        private void StartEndService()
+        {
+            if (_isEndingService) return;
+            
+            _isEndingService = true;
+            _endServiceTimer = 0;
+            
+            // Démarrer la conduite automatique IMMÉDIATEMENT vers le parking
+            if (_currentTaxi != null && _currentTaxi.Exists())
+            {
+                Ped player = Game.Player.Character;
+                Vector3 taxiParkingSpot = new Vector3(903.47f, -191.23f, 73.22f);
+                
+                // S'assurer que le joueur est dans le véhicule
+                if (!player.IsInVehicle(_currentTaxi))
+                {
+                    player.SetIntoVehicle(_currentTaxi, VehicleSeat.Driver);
+                }
+                
+                // Arrêter toute tâche existante pour éviter les conflits
+                player.Task.ClearAll();
+                
+                // Attendre une frame puis lancer la conduite automatique
+                Script.Wait(100);
+                
+                // Utiliser la méthode native TASK_VEHICLE_DRIVE_TO_COORD directement pour plus de contrôle
+                Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD, player.Handle, _currentTaxi.Handle,
+                    taxiParkingSpot.X, taxiParkingSpot.Y, taxiParkingSpot.Z,
+                    20.0f, // speed
+                    0, // style (0 = normal, respecte les routes)
+                    _currentTaxi.Model.Hash, // vehicleModel
+                    (int)(VehicleDrivingFlags.StopForVehicles | VehicleDrivingFlags.StopAtTrafficLights | VehicleDrivingFlags.SwerveAroundAllVehicles),
+                    3.0f, // targetRadius
+                    0.0f); // straightLineDist - 0 pour forcer l'utilisation des routes
+                
+                Notification.PostTicker("~g~Conduite automatique activée ! Retour au parking...", false, true);
+                
+                Logger.Info("Starting IMMEDIATE automatic driving to parking spot");
+            }
+        }
+        
+        private void HandleEndService()
+        {
+            _endServiceTimer += (int)(Game.LastFrameTime * 1000); // Convertir en millisecondes
+            
+            Ped player = Game.Player.Character;
+            Vector3 taxiParkingSpot = new Vector3(903.47f, -191.23f, 73.22f);
+            float distanceToParkingSpot = player.Position.DistanceTo(taxiParkingSpot);
+            
+            // Phase 1 (0-5 secondes) : Conduite automatique visible vers le parking
+            if (_endServiceTimer < 5000)
+            {
+                // Vérifier CONSTAMMENT que la conduite automatique est active
+                if (player.IsInVehicle(_currentTaxi))
+                {
+                    // Vérifier si la tâche est active toutes les 500ms
+                    if (_endServiceTimer % 500 < Game.LastFrameTime * 1000)
+                    {
+                                                 if (_currentTaxi != null && _currentTaxi.Exists())
+                         {
+                             if (!Function.Call<bool>(Hash.IS_PED_IN_VEHICLE, player.Handle, _currentTaxi.Handle, false))
+                             {
+                                 // Le joueur n'est plus dans le véhicule, le remettre
+                                 player.SetIntoVehicle(_currentTaxi, VehicleSeat.Driver);
+                             }
+                             
+                             if (!Function.Call<bool>(Hash.GET_IS_TASK_ACTIVE, player.Handle, 16)) // TASK_VEHICLE_DRIVE_TO_COORD
+                             {
+                                 Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD, player.Handle, _currentTaxi.Handle,
+                                     taxiParkingSpot.X, taxiParkingSpot.Y, taxiParkingSpot.Z,
+                                     25.0f, // speed - légèrement plus élevée pour la phase 1
+                                     0, // style (0 = normal, respecte les routes)
+                                     _currentTaxi.Model.Hash, // vehicleModel
+                                     (int)(VehicleDrivingFlags.StopForVehicles | VehicleDrivingFlags.StopAtTrafficLights | VehicleDrivingFlags.SwerveAroundAllVehicles),
+                                     3.0f, // targetRadius
+                                     0.0f); // straightLineDist - 0 pour forcer l'utilisation des routes
+                                 Logger.Info("Relaunching automatic driving task to parking spot");
+                             }
+                         }
+                    }
+                }
+                
+                // Afficher un message de progression chaque seconde
+                if ((_endServiceTimer / 1000) != ((_endServiceTimer - (int)(Game.LastFrameTime * 1000)) / 1000))
+                {
+                    int secondsLeft = 5 - (_endServiceTimer / 1000);
+                    Screen.ShowSubtitle($"~g~🚕 Retour au dépôt en cours... {secondsLeft}s restantes", 1100);
+                }
+            }
+            // Phase 2 (5 secondes) : Commencer le fade out
+            else if (_endServiceTimer >= 5000 && _endServiceTimer < 5100)
+            {
+                Function.Call(Hash.DO_SCREEN_FADE_OUT, 2000); // 2 secondes de fade out
+                Screen.ShowSubtitle("~y~Arrivée au dépôt...", 3000);
+                Logger.Info("Starting fade out - approaching depot");
+            }
+            // Phase 3 (7 secondes) : TÉLÉPORTATION PRÈS DU CENTRE DE TAXI
+            else if (_endServiceTimer >= 7000 && _endServiceTimer < 7100)
+            {
+                // S'assurer que l'écran est complètement noir
+                if (Function.Call<bool>(Hash.IS_SCREEN_FADED_OUT))
+                {
+                    // TÉLÉPORTATION INVISIBLE près du centre de taxi
+                    if (_currentTaxi != null && _currentTaxi.Exists() && player.IsInVehicle(_currentTaxi))
+                    {
+                        // Arrêter toute tâche de conduite
+                        player.Task.ClearAll();
+                        
+                        // Téléporter près du centre de taxi (pas directement au parking)
+                        Vector3 nearTaxiCenter = new Vector3(934.57f, -165.86f, 74.05f); // Position spécifique
+                        _currentTaxi.Position = nearTaxiCenter;
+                        _currentTaxi.Heading = 148.05f; // Heading spécifique
+                        _currentTaxi.PlaceOnGround();
+                        _currentTaxi.Speed = 0.0f;
+                        
+                        // Remettre le moteur en marche pour la conduite automatique
+                        Function.Call(Hash.SET_VEHICLE_ENGINE_ON, _currentTaxi.Handle, true, true, true);
+                        
+                        Logger.Info("Vehicle teleported invisibly near taxi center during fadeout");
+                    }
+                }
+            }
+            // Phase 4 (8 secondes) : Fade in + conduite automatique vers le parking
+            else if (_endServiceTimer >= 8000 && _endServiceTimer < 8100)
+            {
+                Function.Call(Hash.DO_SCREEN_FADE_IN, 2000); // 2 secondes de fade in
+                Logger.Info("Starting fade in - preparing automatic drive to parking");
+            }
+            // Phase 5 (10 secondes) : Démarrer la conduite automatique vers le parking
+            else if (_endServiceTimer >= 10000 && _endServiceTimer < 10100)
+            {
+                // S'assurer que l'écran est visible et lancer la conduite automatique
+                if (!Function.Call<bool>(Hash.IS_SCREEN_FADED_OUT) && !Function.Call<bool>(Hash.IS_SCREEN_FADING_OUT))
+                {
+                    if (_currentTaxi != null && _currentTaxi.Exists() && player.IsInVehicle(_currentTaxi))
+                    {
+                        // Lancer la conduite automatique vers le parking avec navigation routière
+                        Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD, player.Handle, _currentTaxi.Handle,
+                            taxiParkingSpot.X, taxiParkingSpot.Y, taxiParkingSpot.Z,
+                            20.0f, // speed
+                            0, // style (0 = normal, respecte les routes)
+                            _currentTaxi.Model.Hash, // vehicleModel
+                            (int)(VehicleDrivingFlags.StopForVehicles | VehicleDrivingFlags.StopAtTrafficLights | VehicleDrivingFlags.SwerveAroundAllVehicles),
+                            3.0f, // targetRadius
+                            0.0f); // straightLineDist - 0 pour forcer l'utilisation des routes
+                        
+                        Logger.Info("Starting automatic drive to parking spot after fade in");
+                    }
+                }
+            }
+            // Phase 6 (12+ secondes) : Surveiller l'approche du parking et sortir du véhicule
+            else if (_endServiceTimer >= 12000 && player.IsInVehicle(_currentTaxi))
+            {
+                // Surveiller la distance au parking
+                if (distanceToParkingSpot <= 5.0f)
+                {
+                    // Arrêter le véhicule au parking
+                    if (_currentTaxi != null && _currentTaxi.Exists())
+                    {
+                        _currentTaxi.Speed = 0.0f;
+                        Function.Call(Hash.SET_VEHICLE_HANDBRAKE, _currentTaxi.Handle, true);
+                        
+                        // Faire sortir le personnage
+                        player.Task.LeaveVehicle(_currentTaxi, true);
+                        Logger.Info("Player leaving vehicle at parking spot");
+                        
+                        // Passer à la phase suivante
+                        _endServiceTimer = 18000;
+                    }
+                }
+                else
+                {
+                    // Afficher le statut de conduite automatique
+                    Screen.ShowSubtitle($"~g~Stationnement automatique... ({distanceToParkingSpot:F0}m)", 1100);
+                    
+                    // Relancer la tâche si nécessaire
+                    if (_endServiceTimer % 2000 < Game.LastFrameTime * 1000)
+                    {
+                        if (_currentTaxi != null && _currentTaxi.Exists() && !Function.Call<bool>(Hash.GET_IS_TASK_ACTIVE, player.Handle, 16)) // TASK_VEHICLE_DRIVE_TO_COORD
+                        {
+                            Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD, player.Handle, _currentTaxi.Handle,
+                                taxiParkingSpot.X, taxiParkingSpot.Y, taxiParkingSpot.Z,
+                                20.0f, // speed
+                                0, // style (0 = normal, respecte les routes)
+                                _currentTaxi.Model.Hash, // vehicleModel
+                                (int)(VehicleDrivingFlags.StopForVehicles | VehicleDrivingFlags.StopAtTrafficLights | VehicleDrivingFlags.SwerveAroundAllVehicles),
+                                3.0f, // targetRadius
+                                0.0f); // straightLineDist - 0 pour forcer l'utilisation des routes
+                            Logger.Info("Re-launching automatic parking task");
+                        }
+                    }
+                }
+            }
+            // Phase 7 (18+ secondes) : Marcher vers le point de démarrage
+            else if (_endServiceTimer >= 18000 && !player.IsInVehicle())
+            {
+                float distanceToJobLocation = player.Position.DistanceTo(_jobLocation);
+                
+                if (distanceToJobLocation > 2.0f)
+                {
+                    // Faire marcher le personnage vers le point de démarrage
+                    if (!Function.Call<bool>(Hash.GET_IS_TASK_ACTIVE, player.Handle, 27)) // TASK_FOLLOW_NAV_MESH_TO_COORD
+                    {
+                        player.Task.FollowNavMeshTo(_jobLocation);
+                        Logger.Info("Player walking to job start location");
+                    }
+                    
+                    Screen.ShowSubtitle("~b~Retour au poste de travail...", 1100);
+                }
+                else
+                {
+                    // Arrivé au point de démarrage - terminer la séquence
+                    player.Task.ClearAll();
+                    CompleteEndService();
+                    Logger.Info("Cinematic end service sequence completed");
+                }
+            }
+        }
+        
+        private void CompleteEndService()
         {
             try
             {
                 _isDriving = false;
                 _isOnShift = false;
                 _hasActiveRide = false;
+                _isEndingService = false;
                 
                 // Nettoyer le client actuel
                 if (_currentClient != null && _currentClient.Exists())
@@ -256,24 +508,8 @@ namespace REALIS.Transportation
                 }
                 _currentClient = null;
                 
-                // Nettoyer les clients en attente
-                foreach (var client in _waitingClients)
-                {
-                    if (client != null && client.Exists())
-                    {
-                        client.MarkAsNoLongerNeeded();
-                    }
-                }
-                _waitingClients.Clear();
-                
                 // Nettoyer les blips
                 _taxiBlip?.Delete();
-                _destinationBlip?.Delete();
-                foreach (var blip in _clientBlips)
-                {
-                    blip?.Delete();
-                }
-                _clientBlips.Clear();
                 
                 // Supprimer le taxi
                 if (_currentTaxi != null && _currentTaxi.Exists())
@@ -282,14 +518,13 @@ namespace REALIS.Transportation
                 }
                 
                 _currentTaxi = null;
-                _showingClientRequest = false;
                 
-                // Afficher les statistiques
+                // Afficher les statistiques finales
                 var avgDistance = _ridesCompleted > 0 ? _totalDistance / _ridesCompleted : 0;
-                var message = $"Service terminé ! Gains: ${_totalEarnings} | Courses: {_ridesCompleted} | Distance moy.: {avgDistance:F1}m";
+                var message = $"Service terminé ! Gains de la session: ${_sessionEarnings} | Courses: {_ridesCompleted} | Distance moy.: {avgDistance:F1}m";
                 Notification.PostTicker($"~g~{message}", false, true);
                 
-                Logger.Info($"Taxi shift ended. Earnings: {_totalEarnings}, Rides: {_ridesCompleted}");
+                Logger.Info($"Taxi shift ended. Session earnings: {_sessionEarnings}, Rides: {_ridesCompleted}");
             }
             catch (Exception ex)
             {
@@ -297,181 +532,49 @@ namespace REALIS.Transportation
             }
         }
         
+        private void EndShift()
+        {
+            CompleteEndService();
+        }
+        
         #endregion
         
-        #region Client Management
-        
-        private void CheckForRandomClients()
-        {
-            if (_hasActiveRide || _showingClientRequest) return;
-            
-            // Chance de spawner un client toutes les 30 secondes environ
-            if (new Random().Next(0, 1800) < 1) // ~0.055% chance par tick
-            {
-                SpawnNearbyClient();
-            }
-        }
-        
-        private void SpawnNearbyClient()
-        {
-            try
-            {
-                if (_currentTaxi == null || !_currentTaxi.Exists()) return;
-                
-                // Nettoyer les anciens clients en attente
-                foreach (var oldClient in _waitingClients)
-                {
-                    if (oldClient != null && oldClient.Exists())
-                    {
-                        oldClient.MarkAsNoLongerNeeded();
-                    }
-                }
-                _waitingClients.Clear();
-                
-                // Nettoyer les anciens blips
-                foreach (var blip in _clientBlips)
-                {
-                    blip?.Delete();
-                }
-                _clientBlips.Clear();
-                
-                // Trouver une position près du taxi
-                Vector3 playerPosition = _currentTaxi.Position;
-                Vector3 spawnPosition = GetRandomPositionNearby(playerPosition, 50f, 150f);
-                
-                // Modèles de clients variés
-                var clientModels = new PedHash[]
-                {
-                    PedHash.Business01AMY, PedHash.Business02AMY, PedHash.Business03AMY,
-                    PedHash.Hipster01AMY, PedHash.Hipster02AMY, PedHash.Hipster03AMY,
-                    PedHash.Golfer01AMY, PedHash.GenCasPat01AMY, PedHash.Beach01AMY,
-                    PedHash.StrPunk01GMY, PedHash.StrPunk02GMY, PedHash.Beachvesp01AMY
-                };
-                
-                var randomModel = clientModels[new Random().Next(clientModels.Length)];
-                var clientModel = new Model(randomModel);
-                
-                if (clientModel.Request(2000))
-                {
-                    var client = World.CreatePed(clientModel, spawnPosition);
-                    if (client != null)
-                    {
-                        client.IsPersistent = true;
-                        client.BlockPermanentEvents = true;
-                        
-                        // Faire attendre le client
-                        client.Task.StartScenarioInPlace("WORLD_HUMAN_HAIL_TAXI", 0, true);
-                        
-                        // Créer un blip temporaire pour le client
-                        var clientBlip = client.AddBlip();
-                        clientBlip.Sprite = BlipSprite.Standard;
-                        clientBlip.Color = BlipColor.Green;
-                        clientBlip.Name = "Client Taxi";
-                        clientBlip.Scale = 0.8f;
-                        _clientBlips.Add(clientBlip);
-                        
-                        _waitingClients.Add(client);
-                        
-                        // Générer la demande de course
-                        GenerateRideRequest();
-                        
-                        _showingClientRequest = true;
-                        _clientRequestTime = DateTime.Now;
-                        _clientPickupLocation = GetNearestLocationName(spawnPosition);
-                        
-                        // Ouvrir le menu automatiquement
-                        _clientMenu.Visible = true;
-                        
-                        Screen.ShowSubtitle($"~g~Nouveau client ! Lieu: {_clientPickupLocation}", 4000);
-                        
-                        // Notification sonore
-                        Function.Call(Hash.PLAY_SOUND_FRONTEND, -1, "Menu_Accept", "Phone_SoundSet_Default", 0);
-                    }
-                }
-                
-                clientModel.MarkAsNoLongerNeeded();
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"Error spawning client: {ex.Message}");
-            }
-        }
-        
-        private Vector3 GetRandomPositionNearby(Vector3 center, float minDistance, float maxDistance)
-        {
-            var random = new Random();
-            var angle = random.NextDouble() * 2 * Math.PI;
-            var distance = minDistance + random.NextDouble() * (maxDistance - minDistance);
-            
-            var x = center.X + (float)(Math.Cos(angle) * distance);
-            var y = center.Y + (float)(Math.Sin(angle) * distance);
-            
-            // Trouver une position valide sur le sol
-            var groundZ = 0f;
-            Function.Call(Hash.GET_GROUND_Z_FOR_3D_COORD, x, y, center.Z + 10f, groundZ, 0);
-            return new Vector3(x, y, groundZ + 1.0f);
-        }
-        
-        private void GenerateRideRequest()
-        {
-            var destination = _popularDestinations[new Random().Next(_popularDestinations.Count)];
-            _clientDestination = destination.Position;
-            _destinationName = destination.Name;
-            
-            // Calculer le tarif basé sur la distance
-            float distance = _currentTaxi != null ? _currentTaxi.Position.DistanceTo(_clientDestination) : 1000f;
-            _rideFare = CalculateFare(distance);
-        }
-        
-        private int CalculateFare(float distance)
-        {
-            // Tarif de base + prix par distance
-            int baseFare = 15; // $15 de base
-            int distanceFare = (int)(distance / 100f * 5); // $5 par 100m
-            return Math.Max(baseFare + distanceFare, 20); // Minimum $20
-        }
-        
-        private string GetNearestLocationName(Vector3 position)
-        {
-            var nearestDestination = _popularDestinations
-                .OrderBy(d => d.Position.DistanceTo(position))
-                .FirstOrDefault();
-            
-            return nearestDestination?.Name ?? "Lieu inconnu";
-        }
-        
-        private void HandleClientRequest()
-        {
-            if ((DateTime.Now - _clientRequestTime).TotalSeconds > 20)
-            {
-                // Timeout - le client part
-                foreach (var client in _waitingClients)
-                {
-                    if (client != null && client.Exists())
-                    {
-                        client.Task.Wander();
-                        client.MarkAsNoLongerNeeded();
-                    }
-                }
-                foreach (var blip in _clientBlips)
-                {
-                    blip?.Delete();
-                }
-                _showingClientRequest = false;
-                _waitingClients.Clear();
-                _clientBlips.Clear();
-                Screen.ShowSubtitle("~r~Le client est parti...", 3000);
-            }
-        }
+        #region Ride Management
         
         private void ManageCurrentRide()
         {
             if (!_hasActiveRide || _currentClient == null || !_currentClient.Exists()) return;
             
-            // Vérifier si on est arrivé à destination
-            if (_currentTaxi != null && _currentTaxi.Position.DistanceTo(_clientDestination) < 15.0f)
+            // La gestion des destinations est maintenant faite par le jeu de base
+            // Pas besoin de vérifier manuellement l'arrivée
+        }
+        
+        private void TrackEarnings()
+        {
+            try
             {
-                CompleteRide();
+                int currentMoney = Game.Player.Money;
+                
+                // Détecter les gains (augmentation de l'argent)
+                if (currentMoney > _lastMoneyCheck)
+                {
+                    int gain = currentMoney - _lastMoneyCheck;
+                    _sessionEarnings += gain;
+                    
+                    // Supposer qu'un gain signifie qu'une course est terminée
+                    if (gain > 0)
+                    {
+                        _ridesCompleted++;
+                        _totalDistance += 100f; // Estimation de distance par défaut
+                        Logger.Info($"Taxi ride completed. Gain: ${gain}, Total session: ${_sessionEarnings}");
+                    }
+                }
+                
+                _lastMoneyCheck = currentMoney;
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Error tracking earnings: {ex.Message}");
             }
         }
         
@@ -481,37 +584,21 @@ namespace REALIS.Transportation
             {
                 if (_currentClient != null && _currentClient.Exists())
                 {
-                    // Calculer la distance réelle parcourue
-                    float actualDistance = _currentTaxi?.Position.DistanceTo(_clientDestination) ?? 0f;
-                    
                     // Faire descendre le client
                     _currentClient.Task.LeaveVehicle();
                     _currentClient.Task.Wander();
                     _currentClient.MarkAsNoLongerNeeded();
                     
-                    // Mettre à jour les statistiques
-                    _totalEarnings += _rideFare;
-                    _ridesCompleted++;
-                    _totalDistance += actualDistance;
-                    
-                    // Payer le joueur
-                    Game.Player.Money += _rideFare;
-                    
                     // Nettoyer
-                    _destinationBlip?.Delete();
-                    _destinationBlip = null;
                     _currentClient = null;
                     _hasActiveRide = false;
                     
-                    // Activer le signe taxi
-                    if (_currentTaxi != null && _currentTaxi.Exists())
+                    // Réactiver le service
+                    if (_currentTaxi != null && _currentTaxi.Exists() && _taxiBlip != null)
                     {
-                        _currentTaxi.IsTaxiLightOn = true;
                         _taxiBlip.Color = BlipColor.Green;
                         _taxiBlip.Name = "Taxi - En service";
                     }
-                    
-                    Screen.ShowSubtitle($"~g~Course terminée ! Gain: ${_rideFare} | Total: ${_totalEarnings}", 4000);
                     
                     // Son de notification
                     Function.Call(Hash.PLAY_SOUND_FRONTEND, -1, "LOCAL_PLYR_CASH_COUNTER_COMPLETE", "DLC_HEISTS_GENERAL_FRONTEND_SOUNDS", 0);
@@ -521,91 +608,6 @@ namespace REALIS.Transportation
             {
                 Logger.Error($"Error completing ride: {ex.Message}");
             }
-        }
-        
-        #endregion
-        
-        #region Menu Events
-        
-        private void OnAcceptClient(object sender, EventArgs e)
-        {
-            if (_waitingClients.Count > 0 && _currentTaxi != null)
-            {
-                var client = _waitingClients.FirstOrDefault();
-                if (client != null && client.Exists())
-                {
-                    // Téléporter le client dans le taxi
-                    client.Task.ClearAllImmediately();
-                    client.SetIntoVehicle(_currentTaxi, VehicleSeat.Passenger);
-                    _currentClient = client;
-                    _hasActiveRide = true;
-                    
-                    // Créer le blip de destination
-                    _destinationBlip = World.CreateBlip(_clientDestination);
-                    _destinationBlip.Sprite = BlipSprite.Standard;
-                    _destinationBlip.Color = BlipColor.Yellow;
-                    _destinationBlip.Name = $"Destination: {_destinationName}";
-                    Function.Call(Hash.SET_BLIP_ROUTE, _destinationBlip.Handle, true);
-                    
-                    // Désactiver le signe taxi
-                    _currentTaxi.IsTaxiLightOn = false;
-                    _taxiBlip.Color = BlipColor.Red;
-                    _taxiBlip.Name = "Taxi - Occupé";
-                    
-                    Screen.ShowSubtitle($"~g~Client embarqué ! Destination: {_destinationName} - Tarif: ${_rideFare}", 4000);
-                }
-                
-                // Nettoyer les autres clients en attente
-                foreach (var otherClient in _waitingClients.Where(c => c != client))
-                {
-                    if (otherClient != null && otherClient.Exists())
-                    {
-                        otherClient.MarkAsNoLongerNeeded();
-                    }
-                }
-                
-                // Nettoyer tous les blips
-                foreach (var blip in _clientBlips)
-                {
-                    blip?.Delete();
-                }
-                _clientBlips.Clear();
-                
-                _waitingClients.Clear();
-                _showingClientRequest = false;
-            }
-            
-            _clientMenu.Visible = false;
-        }
-        
-        private void OnDeclineClient(object sender, EventArgs e)
-        {
-            foreach (var client in _waitingClients)
-            {
-                if (client != null && client.Exists())
-                {
-                    client.Task.Wander();
-                    client.MarkAsNoLongerNeeded();
-                }
-            }
-            
-            foreach (var blip in _clientBlips)
-            {
-                blip?.Delete();
-            }
-            
-            _showingClientRequest = false;
-            _waitingClients.Clear();
-            _clientBlips.Clear();
-            _clientMenu.Visible = false;
-            
-            Screen.ShowSubtitle("~y~Client refusé", 2000);
-        }
-        
-        private void OnEndShift(object sender, EventArgs e)
-        {
-            _clientMenu.Visible = false;
-            EndShift();
         }
         
         #endregion
@@ -627,50 +629,18 @@ namespace REALIS.Transportation
         {
             try
             {
-                if (_isOnShift && _isDriving)
+                if (_isOnShift && _isDriving && !_isEndingService)
                 {
                     switch (e.KeyCode)
                     {
-                        case Keys.N:
-                            if (_showingClientRequest)
-                            {
-                                _clientMenu.Visible = !_clientMenu.Visible;
-                            }
-                            break;
-                            
-                        case Keys.H:
-                            // Klaxon du taxi
-                            if (_currentTaxi != null && _currentTaxi.Exists())
-                            {
-                                _currentTaxi.SoundHorn(1000);
-                            }
+                        case Keys.M:
+                            // Ouvrir/fermer le menu taxi
+                            _taxiMenu.Visible = !_taxiMenu.Visible;
                             break;
                             
                         case Keys.End:
                             // Terminer le service rapidement
-                            EndShift();
-                            break;
-                            
-                        case Keys.T:
-                            // Toggle taxi light
-                            if (_currentTaxi != null && _currentTaxi.Exists() && !_hasActiveRide)
-                            {
-                                _currentTaxi.IsTaxiLightOn = !_currentTaxi.IsTaxiLightOn;
-                                var status = _currentTaxi.IsTaxiLightOn ? "ACTIVÉ" : "DÉSACTIVÉ";
-                                Screen.ShowSubtitle($"~y~Signe taxi {status}", 2000);
-                            }
-                            break;
-                            
-                        case Keys.C:
-                            // Forcer l'arrivée ou spawner un client
-                            if (_hasActiveRide)
-                            {
-                                CompleteRide();
-                            }
-                            else
-                            {
-                                SpawnNearbyClient();
-                            }
+                            StartEndService();
                             break;
                     }
                 }
@@ -683,35 +653,29 @@ namespace REALIS.Transportation
         
         #endregion
         
+        #region Menu Events
+        
+        private void OnEndShift(object sender, EventArgs e)
+        {
+            _taxiMenu.Visible = false;
+            StartEndService();
+        }
+        
+        #endregion
+        
         #region HUD Display
         
         private void DisplayTaxiHUD()
         {
             if (_currentTaxi == null) return;
             
-            // Informations de base
-            var statusInfo = _hasActiveRide ? $"EN COURSE vers {_destinationName}" : "LIBRE";
-            var clientInfo = _currentClient != null ? "Client à bord" : "Aucun client";
-            var earningsInfo = $"Gains: ${_totalEarnings}";
+            // Affichage avec vrais gains de session
+            var statusInfo = _hasActiveRide ? "EN COURSE" : "LIBRE";
+            var earningsInfo = $"Gains: ${_sessionEarnings}";
             var ridesInfo = $"Courses: {_ridesCompleted}";
-            var taxiLightInfo = _currentTaxi.IsTaxiLightOn ? "Signe: ON" : "Signe: OFF";
             
-            // Demande de client
-            if (_showingClientRequest)
-            {
-                var requestText = $"~g~DEMANDE CLIENT~w~ - Lieu: {_clientPickupLocation} - Destination: {_destinationName} - Prix: ${_rideFare} | N: Menu";
-                Screen.ShowSubtitle(requestText, 100);
-            }
-            else if (_hasActiveRide)
-            {
-                var rideText = $"{statusInfo} | {clientInfo} | Tarif: ${_rideFare} | {earningsInfo} | C: Terminer course";
-                Screen.ShowSubtitle(rideText, 100);
-            }
-            else
-            {
-                var freeText = $"{statusInfo} | {earningsInfo} | {ridesInfo} | {taxiLightInfo} | H: Klaxon | T: Signe | C: Client | End: Fin";
-                Screen.ShowSubtitle(freeText, 100);
-            }
+            var hudText = $"TAXI {statusInfo} | {earningsInfo} | {ridesInfo} | M: Menu | End: Fin";
+            Screen.ShowSubtitle(hudText, 100);
         }
         
         #endregion

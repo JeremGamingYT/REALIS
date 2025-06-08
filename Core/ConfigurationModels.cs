@@ -71,6 +71,9 @@ namespace REALIS.Core
         [JsonProperty("ambulanceSystemEnabled")]
         public bool AmbulanceSystemEnabled { get; set; } = true;
         
+        [JsonProperty("policeJobSystemEnabled")]
+        public bool PoliceJobSystemEnabled { get; set; } = true;
+        
         [JsonProperty("realisticTrafficDensity")]
         public float RealisticTrafficDensity { get; set; } = 1.0f;
         

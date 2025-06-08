@@ -19,6 +19,7 @@ namespace REALIS.Core
         
         // Systèmes du mod
         private PoliceSystem? _policeSystem;
+        private PoliceJobSystem? _policeJobSystem;
         private AdvancedDrivingAI? _advancedDrivingAI;  // RÉACTIVÉ POUR TEST ISOLÉ
         private GasStationManager? _gasStationManager;
         private FoodStoreManager? _foodStoreManager;
@@ -201,6 +202,11 @@ namespace REALIS.Core
                     InitializeAmbulanceSystem();
                 }
                 
+                if (ConfigurationManager.UserConfig.ModSettings.PoliceJobSystemEnabled)
+                {
+                    InitializePoliceJobSystem();
+                }
+                
                 // Toujours initialiser le gestionnaire de téléphone
                 InitializePhoneMenuSystem();
                 
@@ -337,6 +343,19 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Failed to initialize ambulance system: {ex.Message}");
+            }
+        }
+        
+        private void InitializePoliceJobSystem()
+        {
+            try
+            {
+                _policeJobSystem = new PoliceJobSystem();
+                Logger.Info("Police job system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize police job system: {ex.Message}");
             }
         }
         
@@ -544,6 +563,12 @@ namespace REALIS.Core
                 if (_ambulanceManager != null)
                 {
                     _ambulanceManager = null;
+                }
+                
+                // Nettoyer le système de job de policier si actif
+                if (_policeJobSystem != null)
+                {
+                    _policeJobSystem = null;
                 }
                 
                 // Nettoyer le gestionnaire de téléphone si actif
