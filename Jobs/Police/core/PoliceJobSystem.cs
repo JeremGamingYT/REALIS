@@ -103,6 +103,9 @@ namespace REALIS.Core
         private string _selectedOutfit = "Standard Uniform";
         
         // Gestion des wanted levels - supprimé car non utilisé
+        
+        // Système de dispatch intégré
+        private PoliceDispatchSystem? _dispatchSystem;
 
         public PoliceJobSystem()
         {
@@ -112,8 +115,16 @@ namespace REALIS.Core
             
             InitializeSystem();
             CreateMenus();
+            InitializeDispatchSystem();
             
             Logger.Info("Police Job System initialized.");
+        }
+        
+        private void InitializeDispatchSystem()
+        {
+            _dispatchSystem = new PoliceDispatchSystem();
+            _dispatchSystem.SetPoliceJobSystem(this);
+            Logger.Info("Police Dispatch System integrated.");
         }
 
         private void InitializeSystem()
@@ -265,15 +276,30 @@ namespace REALIS.Core
                 
                 if (distance <= INTERACTION_DISTANCE)
                 {
-                    // Afficher l'instruction d'interaction
-                    Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
-                    Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, "Press ~INPUT_CONTEXT~ to enter the Police Station");
-                    Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, -1);
-                    
-                    // Vérifier si E est pressé
-                    if (Game.IsKeyPressed(Keys.E))
+                    // Afficher l'instruction d'interaction différente selon l'état
+                    if (_isOnDuty)
                     {
-                        StartPoliceInteraction();
+                        Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+                        Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, "Press ~INPUT_CONTEXT~ to go OFF DUTY");
+                        Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, -1);
+                        
+                        // Vérifier si E est pressé pour se mettre off duty
+                        if (Game.IsKeyPressed(Keys.E))
+                        {
+                            GoOffDuty();
+                        }
+                    }
+                    else
+                    {
+                        Function.Call(Hash.BEGIN_TEXT_COMMAND_DISPLAY_HELP, "STRING");
+                        Function.Call(Hash.ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME, "Press ~INPUT_CONTEXT~ to enter the Police Station");
+                        Function.Call(Hash.END_TEXT_COMMAND_DISPLAY_HELP, 0, false, true, -1);
+                        
+                        // Vérifier si E est pressé pour entrer au poste
+                        if (Game.IsKeyPressed(Keys.E))
+                        {
+                            StartCharacterCustomization();
+                        }
                     }
                 }
             }
@@ -871,7 +897,22 @@ namespace REALIS.Core
         
         private void StartCharacterCustomization()
         {
+            if (_isFading) return;
+            
             _isInCharacterCustomization = true;
+            _isFading = true;
+            
+            // Animation fade out
+            Function.Call(Hash.DO_SCREEN_FADE_OUT, (int)FADE_DURATION);
+            
+            // Attendre le fade out puis téléporter
+            Wait(2000);
+            
+            // Téléporter le joueur aux coordonnées de personnalisation
+            var player = Game.Player.Character;
+            player.Position = _characterPosition;
+            player.Heading = _characterHeading;
+            player.IsVisible = false; // Masquer le joueur pendant la personnalisation
             
             // Créer la caméra pour voir le personnage aux coordonnées spécifiées
             CreateCharacterCamera();
@@ -879,24 +920,45 @@ namespace REALIS.Core
             // Créer le personnage de prévisualisation
             CreateCharacterPreview();
             
+            // Fade in
+            Function.Call(Hash.DO_SCREEN_FADE_IN, (int)FADE_DURATION);
+            
+            Wait(2000);
+            
+            _isFading = false;
+            
             // Ouvrir le menu de sélection de personnage
             _characterMenu.Visible = true;
         }
         
+
         private void CreateCharacterCamera()
         {
-            // Position de la caméra devant le personnage
-            var cameraPos = _characterPosition + new Vector3(-2.0f, 1.5f, 0.5f);
+            // Calculer la position de la caméra en face du personnage selon son orientation
+            // Heading 88.58° = personnage regarde vers l'est, caméra positionnée avec 90° d'offset
+            var headingRadians = (_characterHeading + 90.0f) * (Math.PI / 180.0f); // Ajouter 90° pour une meilleure vue
+            var distance = 3.0f; // Distance de la caméra
+            
+            var offsetX = (float)(Math.Cos(headingRadians) * distance);
+            var offsetY = (float)(Math.Sin(headingRadians) * distance);
+            var offsetZ = 0.5f; // Légèrement au-dessus
+            
+            var cameraPos = _characterPosition + new Vector3(offsetX, offsetY, offsetZ);
             
             // Créer la caméra
             _characterCamera = new Camera(Function.Call<int>(Hash.CREATE_CAM, "DEFAULT_SCRIPTED_CAMERA", true));
             _characterCamera.Position = cameraPos;
             _characterCamera.FieldOfView = 50.0f;
-            _characterCamera.PointAt(_characterPosition + new Vector3(0.0f, 0.0f, 0.7f));
+            
+            // Pointer vers la tête du personnage
+            var lookAtPos = _characterPosition + new Vector3(0.0f, 0.0f, 0.7f);
+            _characterCamera.PointAt(lookAtPos);
             
             // Activer la caméra
             Function.Call(Hash.SET_CAM_ACTIVE, _characterCamera, true);
             Function.Call(Hash.RENDER_SCRIPT_CAMS, true, false, 0, true, false);
+            
+            Logger.Info($"Character camera positioned at: {cameraPos}, looking at: {lookAtPos}");
         }
         
         private void CreateCharacterPreview()
@@ -1016,9 +1078,34 @@ namespace REALIS.Core
         {
             _isOnDuty = true;
             
+            // Activer le système de dispatch avec diagnostics
+            if (_dispatchSystem != null)
+            {
+                _dispatchSystem.SetOnDutyStatus(true);
+                Logger.Info("Police Dispatch System activated successfully.");
+                
+                // Message de debug immédiat
+                if (ConfigurationManager.UserConfig.DebugMode)
+                {
+                    Notification.PostTicker("~g~[DEBUG]~w~ Police Dispatch activé avec succès!", false, true);
+                }
+            }
+            else
+            {
+                Logger.Error("Police Dispatch System is NULL! Cannot activate dispatch.");
+                
+                if (ConfigurationManager.UserConfig.DebugMode)
+                {
+                    Notification.PostTicker("~r~[ERREUR]~w~ Système dispatch NULL!", false, true);
+                }
+            }
+            
             // Désactiver le wanted system
             Game.Player.Wanted.SetEveryoneIgnorePlayer(true);
             Game.Player.Wanted.SetPoliceIgnorePlayer(true);
+            
+            Notification.PostTicker("~g~You are now ON DUTY!", false, true);
+            Logger.Info("Player is now on duty.");
         }
 
         private void CancelVehicleSelection()
@@ -1077,6 +1164,12 @@ namespace REALIS.Core
             
             _isOnDuty = false;
             
+            // Désactiver le système de dispatch
+            if (_dispatchSystem != null)
+            {
+                _dispatchSystem.SetOnDutyStatus(false);
+            }
+            
             // Restaurer le système wanted seulement si on n'est pas dans le poste de police
             if (!_isInPoliceStation)
             {
@@ -1088,6 +1181,66 @@ namespace REALIS.Core
             Notification.PostTicker("~r~You are now OFF DUTY!", false, true);
             
             Logger.Info("Player is now off duty.");
+        }
+
+        private void GoOffDuty()
+        {
+            if (!_isOnDuty || _isFading) return;
+            
+            _isFading = true;
+            
+            // Animation fade out
+            Function.Call(Hash.DO_SCREEN_FADE_OUT, (int)FADE_DURATION);
+            
+            Wait(2000);
+            
+            // Supprimer le véhicule de police s'il existe
+            if (_selectedVehicle != null && _selectedVehicle.Exists())
+            {
+                _selectedVehicle.Delete();
+                _selectedVehicle = null;
+            }
+            
+            // Restaurer le personnage original (Franklin par défaut)
+            var player = Game.Player.Character;
+            var originalModel = PedHash.Franklin; // Ou récupérer le modèle original
+            
+            // Changer le modèle du personnage
+            var model = new Model(originalModel);
+            model.Request(5000);
+            
+            if (model.IsLoaded)
+            {
+                Function.Call(Hash.SET_PLAYER_MODEL, Game.Player, model.Hash);
+                
+                // Attendre que le modèle soit chargé
+                Wait(500);
+                
+                // Repositionner le joueur à la sortie du poste de police
+                player = Game.Player.Character; // Récupérer la nouvelle référence après changement de modèle
+                player.Position = _policeStationEntrance + new Vector3(2.0f, 0.0f, 0.0f); // Légèrement à côté de l'entrée
+                player.Heading = 270.0f; // Face à l'ouest (sortie du poste)
+                
+                // S'assurer que le joueur est visible
+                player.IsVisible = true;
+                
+                model.MarkAsNoLongerNeeded();
+            }
+            
+            // Finir le duty
+            EndDuty();
+            
+            // Fade in
+            Function.Call(Hash.DO_SCREEN_FADE_IN, (int)FADE_DURATION);
+            
+            Wait(2000);
+            
+            _isFading = false;
+            
+            // Notification
+            Notification.PostTicker("~g~You have returned to civilian life!", false, true);
+            
+            Logger.Info("Player went off duty with cinematic transition.");
         }
 
         private void EnablePoliceStationSafety()
@@ -1123,6 +1276,21 @@ namespace REALIS.Core
 
         private void OnKeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
+            // Diagnostic du dispatch (mode debug uniquement) - Touche I
+            if (e.KeyCode == Keys.I && ConfigurationManager.UserConfig.DebugMode)
+            {
+                if (_dispatchSystem != null)
+                {
+                    _dispatchSystem.DiagnoseDispatchStatus();
+                    Notification.PostTicker($"~y~[DEBUG POLICE]~w~\nEn duty: {_isOnDuty}\nDispatch system: Actif", false, true);
+                }
+                else
+                {
+                    Notification.PostTicker("~r~[DEBUG POLICE]~w~\nDispatch system: NULL!", false, true);
+                }
+                return;
+            }
+            
             // Gestion des touches pour les menus
             if (e.KeyCode == Keys.Escape)
             {
@@ -1152,8 +1320,8 @@ namespace REALIS.Core
                 }
             }
             
-            // Touche pour terminer le duty (F6)
-            if (e.KeyCode == Keys.F6 && _isOnDuty)
+            // Touche pour terminer le duty (F7) - N est utilisé pour le dispatch
+            if (e.KeyCode == Keys.F7 && _isOnDuty)
             {
                 EndDuty();
             }

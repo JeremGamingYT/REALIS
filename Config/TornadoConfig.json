@@ -1,0 +1,37 @@
+{
+  "KeyBinds": {
+    "KeybindsEnabled": true,
+    "ToggleScript": "F10"
+  },
+  "Vortex": {
+    "MovementEnabled": true,
+    "MoveSpeedScale": 1.0,
+    "MaxEntitySpeed": 45.0,
+    "MaxEntityDistance": 57.0,
+    "HorizontalForceScale": 2.0,
+    "VerticalForceScale": 1.6,
+    "VortexRadius": 9.4,
+    "RotationSpeed": 2.4,
+    "ReverseRotation": false
+  },
+  "VortexAdvanced": {
+    "MaxParticleLayers": 47,
+    "ParticlesPerLayer": 9,
+    "LayerSeperationAmount": 22.0,
+    "MultiVortexEnabled": false,
+    "CloudTopEnabled": true,
+    "CloudTopDebrisEnabled": true,
+    "ParticleMod": true,
+    "SurfaceDetectionEnabled": true,
+    "UseInternalPool": true,
+    "ParticleName": "ent_amb_smoke_foundry",
+    "ParticleAsset": "core"
+  },
+  "Other": {
+    "Notifications": true,
+    "SpawnInStorm": true,
+    "EnableConsole": true,
+    "EnableSound": true,
+    "EnableSiren": false
+  }
+} 

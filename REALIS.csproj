@@ -36,7 +36,23 @@
     
     <!-- JSON.NET pour la sérialisation des données criminelles -->
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    
+    <!-- NAudio pour les effets sonores des tornades -->
+    <PackageReference Include="NAudio" Version="1.8.4" />
 
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Exclure le dossier TornadoScript-ProjectExample de la compilation -->
+    <Compile Remove="TornadoScript-ProjectExample\**" />
+    <EmbeddedResource Remove="TornadoScript-ProjectExample\**" />
+    <None Remove="TornadoScript-ProjectExample\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Config\InteriorsConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -27,9 +27,6 @@ namespace REALIS.Core
             _config = PoliceConfig.Instance;
             Tick += OnTick;
             
-            // Activer tous les intérieurs nécessaires
-            EnableAllInteriors();
-            
             Logger.Info("Police System initialized with interiors enabled");
         }
 
@@ -664,27 +661,6 @@ namespace REALIS.Core
             // S'assurer que le comportement de la police est rétabli
             Game.Player.Wanted.SetPoliceIgnorePlayer(false);
             Game.Player.Wanted.SetEveryoneIgnorePlayer(false);
-        }
-
-        /// <summary>
-        /// Active tous les intérieurs nécessaires (IPLs) pour le bon fonctionnement du système
-        /// </summary>
-        private void EnableAllInteriors()
-        {
-            try
-            {
-                // IPLs des postes de police
-                EnablePoliceStationInteriors();
-                
-                // IPLs des intérieurs importants
-                EnableImportantInteriors();
-                
-                Logger.Info("All interiors enabled successfully");
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"Error enabling interiors: {ex.Message}");
-            }
         }
 
         /// <summary>

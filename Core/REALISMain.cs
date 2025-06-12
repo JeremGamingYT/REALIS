@@ -5,6 +5,7 @@ using GTA.UI;
 using REALIS.Common;
 using REALIS.Transportation;
 using REALIS.TrafficAI;
+using REALIS.Events.BankRob.Manager;
 
 namespace REALIS.Core
 {
@@ -26,9 +27,12 @@ namespace REALIS.Core
         private VehicleDealershipManager? _vehicleDealershipManager;
         private BusDriverManager? _busDriverManager;
         private TaxiDriverManager? _taxiDriverManager;
+        private DeliveryDriverManager? _deliveryDriverManager;
         private FirefighterManager? _firefighterManager;
         private AmbulanceManager? _ambulanceManager;
         private PhoneMenuManagerSimple? _phoneMenuManager;
+        private UFOSystem? _ufoSystem;
+        private BankRobManager? _bankRobManager;
         
         public REALISMain()
         {
@@ -85,6 +89,9 @@ namespace REALIS.Core
                     _lastConfigCheck = DateTime.Now;
                 }
                 
+                // Traiter les entrées clavier
+                ProcessKeyboardInputs();
+                
                 // Mettre à jour les systèmes actifs
                 UpdateActiveSystems();
             }
@@ -116,6 +123,8 @@ namespace REALIS.Core
                     HandleGlobalKeybinds(config.QuickSave.Key);
                 else if (Game.IsKeyPressed(config.DebugToggle.Key))
                     HandleGlobalKeybinds(config.DebugToggle.Key);
+                else if (Game.IsKeyPressed(config.TornadoSpawnKey.Key))
+                    HandleGlobalKeybinds(config.TornadoSpawnKey.Key);
             }
             catch (Exception ex)
             {
@@ -192,6 +201,11 @@ namespace REALIS.Core
                     InitializeTaxiDriverSystem();
                 }
                 
+                if (ConfigurationManager.UserConfig.ModSettings.DeliveryDriverSystemEnabled)
+                {
+                    InitializeDeliveryDriverSystem();
+                }
+                
                 if (ConfigurationManager.UserConfig.ModSettings.FirefighterSystemEnabled)
                 {
                     InitializeFirefighterSystem();
@@ -209,6 +223,11 @@ namespace REALIS.Core
                 
                 // Toujours initialiser le gestionnaire de téléphone
                 InitializePhoneMenuSystem();
+                
+                InitializeUFOSystem();
+                
+                // Initialize Pacific Standard Bank NPCs
+                InitializeBankRobSystem();
                 
                 _isInitialized = true;
                 
@@ -320,6 +339,19 @@ namespace REALIS.Core
             }
         }
         
+        private void InitializeDeliveryDriverSystem()
+        {
+            try
+            {
+                _deliveryDriverManager = new DeliveryDriverManager();
+                Logger.Info("Delivery driver system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize delivery driver system: {ex.Message}");
+            }
+        }
+        
         private void InitializeFirefighterSystem()
         {
             try
@@ -369,6 +401,32 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Failed to initialize phone menu system: {ex.Message}");
+            }
+        }
+        
+        private void InitializeUFOSystem()
+        {
+            try
+            {
+                _ufoSystem = new UFOSystem();
+                Logger.Info("UFO system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize UFO system: {ex.Message}");
+            }
+        }
+        
+        private void InitializeBankRobSystem()
+        {
+            try
+            {
+                _bankRobManager = new BankRobManager();
+                Logger.Info("Bank robbery system initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize bank robbery system: {ex.Message}");
             }
         }
         
@@ -422,6 +480,14 @@ namespace REALIS.Core
             else if (key == config.DebugToggle.Key)
             {
                 ToggleDebugMode();
+            }
+            
+            // Tornado Spawn
+            else if (key == config.TornadoSpawnKey.Key)
+            {
+                // La fonction est déjà gérée directement par le TornadoSystem
+                // grâce à l'événement KeyDown
+                Logger.Info("Tornado spawn key pressed");
             }
         }
         
@@ -521,7 +587,7 @@ namespace REALIS.Core
         private void UpdateActiveSystems()
         {
             // Les systèmes individuels gèrent leur propre logique de mise à jour
-            // Cette méthode peut être utilisée pour la coordination globale
+            // Le BankRobManager hérite de Script et se met à jour automatiquement
         }
         
         /// <summary>
@@ -529,6 +595,7 @@ namespace REALIS.Core
         /// </summary>
         private void CleanupSystems()
         {
+            Logger.Info("REALIS systems cleanup completed.");
             try
             {
                 // Nettoyer le système de contrôle des véhicules
@@ -551,6 +618,12 @@ namespace REALIS.Core
                 if (_taxiDriverManager != null)
                 {
                     _taxiDriverManager = null;
+                }
+                
+                // Nettoyer le système de livreur si actif
+                if (_deliveryDriverManager != null)
+                {
+                    _deliveryDriverManager = null;
                 }
                 
                 // Nettoyer le système de pompier si actif
@@ -577,6 +650,18 @@ namespace REALIS.Core
                     _phoneMenuManager = null;
                 }
                 
+                // Nettoyer le système d'OVNI si actif
+                if (_ufoSystem != null)
+                {
+                    _ufoSystem = null;
+                }
+                
+                // Nettoyer le système de braquage de banque si actif
+                if (_bankRobManager != null)
+                {
+                    _bankRobManager = null;
+                }
+                
                 Logger.Info("REALIS systems cleanup completed.");
             }
             catch (Exception ex)
@@ -588,6 +673,7 @@ namespace REALIS.Core
         // Gestionnaire d'événements pour les touches d'urgence
         private void OnKeyDown(object sender, KeyEventArgs e)
         {
+            
             // Touche d'urgence pour restaurer le temps normal
             if (e.KeyCode == Keys.F3 && e.Control)
             {

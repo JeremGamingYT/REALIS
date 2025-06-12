@@ -1,0 +1,249 @@
+[
+  {
+    "Name": "LifeInvader Office",
+    "Ipls": ["facelobby", "facelobby_lod"],
+    "X": -1047.9,
+    "Y": -233.0,
+    "Z": 39.0
+  },
+  {
+    "Name": "Tequi-la-la",
+    "Ipls": ["v_rockclub", "v_rockclub_lod"],
+    "RemoveIpls": ["v_rockclub_fake", "v_rockclub_fake_lod"],
+    "X": -565.17,
+    "Y": 276.63,
+    "Z": 83.29
+  },
+  {
+    "Name": "Lazlow's Stadium",
+    "RemoveIpls": ["sp1_10_fake_interior", "sp1_10_fake_interior_lod"],
+    "Ipls": ["sp1_10_real_interior", "sp1_10_real_interior_lod", "sp1_10_real_interior_phys"],
+    "X": -248.6731,
+    "Y": -2010.603,
+    "Z": 30.146
+  },
+  {
+    "Name": "Cluckin Bell Factory",
+    "Ipls": [
+      "CS1_02_cf_onmission1",
+      "CS1_02_cf_onmission2",
+      "CS1_02_cf_onmission3",
+      "CS1_02_cf_onmission4"
+    ],
+    "RemoveIpls": [
+      "CS1_02_cf_offmission1",
+      "CS1_02_cf_offmission2",
+      "CS1_02_cf_offmission3",
+      "CS1_02_cf_offmission4"
+    ],
+    "X": -83.54787,
+    "Y": 6237.335,
+    "Z": 50.73108
+  },
+  {
+    "Name": "Jewel Store",
+    "Ipls": ["post_hiest_unload"],
+    "X": -630.07,
+    "Y": -236.332,
+    "Z": 38.05704
+  },
+  {
+    "Name": "Paleto Bay Bank",
+    "Ipls": [],
+    "X": 145.34,
+    "Y": -1045.24,
+    "Z": 29.37
+  },
+  {
+    "Name": "Union Depository",
+    "Ipls": ["FINBANK"],
+    "X": 2.6968,
+    "Y": -667.0166,
+    "Z": 16.13061
+  },
+  {
+    "Name": "Pillbox Hospital",
+    "Ipls": ["RC12B_Default", "RC12B_Fixed"],
+    "X": 307.1680,
+    "Y": -590.807,
+    "Z": 43.280
+  },
+  {
+    "Name": "FIB Lobby",
+    "Ipls": ["FIBlobby"],
+    "RemoveIpls": ["FIBlobbyfake"],
+    "X": 110.4,
+    "Y": -744.2,
+    "Z": 45.7496
+  },
+  {
+    "Name": "O'Neil Farmhouse",
+    "Ipls": ["farm", "farmint", "farm_lod", "farm_props", "des_farmhouse", "des_farmhs_endimap", "des_farmhs_end_occl"],
+    "RemoveIpls": ["farm_burnt", "farm_burnt_props"],
+    "X": 2469.03,
+    "Y": 4955.278,
+    "Z": 45.11892
+  },
+  {
+    "Name": "Morgue",
+    "Ipls": ["coronertrash", "Coroner_Int_On"],
+    "X": 275.446,
+    "Y": -1361.11,
+    "Z": 24.5378
+  },
+  {
+    "Name": "Mission Row Police Station",
+    "RemoveIpls": ["sp1_10_fake_interior", "sp1_10_fake_interior_phys"],
+    "Ipls": [
+      "sp1_10_real_interior",
+      "sp1_10_real_interior_phys",
+      "cs1_02_cf_onmission",
+      "cs1_02_cf_offmission",
+      "police_station_interior"
+    ],
+    "X": 441.06,
+    "Y": -979.51,
+    "Z": 24.85
+  },
+  {
+    "Name": "Rockford Hills Police Station",
+    "Ipls": ["rockford_hills_police"],
+    "X": -365.46,
+    "Y": -133.75,
+    "Z": 38.02
+  },
+  {
+    "Name": "Sandy Shores Sheriff Station",
+    "Ipls": [
+      "cs3_05_water_grp1",
+      "cs3_05_water_grp1_lod",
+      "cs3_05_water_grp2",
+      "cs3_05_water_grp2_lod"
+    ],
+    "X": 1853.2,
+    "Y": 3686.9,
+    "Z": 34.26
+  },
+  {
+    "Name": "Paleto Bay Sheriff Station",
+    "Ipls": [
+      "cs3_03_ug_office",
+      "cs3_03_ug_office_lod"
+    ],
+    "X": -448.6,
+    "Y": 6012.8,
+    "Z": 31.71
+  },
+  {
+    "Name": "FIB Floor 49",
+    "Ipls": [],
+    "X": 134.635,
+    "Y": -765.831,
+    "Z": 242.152,
+    "Teleport": {
+      "Entrance": { "X": 110.4, "Y": -744.2, "Z": 45.75 },
+      "EntranceHeading": 340.0,
+      "Interior": { "X": 134.635, "Y": -765.831, "Z": 242.152 },
+      "InteriorHeading": 180.0
+    }
+  },
+  {
+    "Name": "Bahamas Mamas West",
+    "Ipls": ["hei_sm_16_interior_v_bahama_milo_"],
+    "X": -1388.0,
+    "Y": -618.4,
+    "Z": 31.0
+  },
+  {
+    "Name": "Simeon's Dealership",
+    "Ipls": ["shr_int"],
+    "RemoveIpls": ["fakeint", "shutter_closed"],
+    "X": -54.30,
+    "Y": -1109.3767,
+    "Z": 26.4358
+  },
+  {
+    "Name": "Lester's Factory",
+    "Ipls": ["id2_14_during_door", "id2_14_during1"],
+    "X": 716.84,
+    "Y": -962.05,
+    "Z": 31.59
+  },
+  {
+    "Name": "Heist Yacht",
+    "Ipls": [
+      "hei_yacht_heist",
+      "hei_yacht_heist_lod",
+      "hei_yacht_heist_slod",
+      "hei_yacht_heist_enginrm",
+      "hei_yacht_heist_enginrm_lod",
+      "hei_yacht_heist_Lounge",
+      "hei_yacht_heist_Lounge_lod",
+      "hei_yacht_heist_Bridge",
+      "hei_yacht_heist_Bridge_lod",
+      "hei_yacht_heist_Bar",
+      "hei_yacht_heist_bar_lod",
+      "hei_yacht_heist_Bedrm",
+      "hei_yacht_heist_bedrm_lod",
+      "hei_yacht_heist_DistantLights",
+      "hei_yacht_heist_LODLights"
+    ],
+    "RemoveIpls": ["smboat", "smboat_lod"],
+    "X": -2027.946,
+    "Y": -1036.695,
+    "Z": 6.707587
+  },
+  {
+    "Name": "Aircraft Carrier",
+    "Ipls": [
+      "hei_carrier",
+      "hei_carrier_DistantLights",
+      "hei_Carrier_int1",
+      "hei_Carrier_int2",
+      "hei_Carrier_int3",
+      "hei_Carrier_int4",
+      "hei_Carrier_int5",
+      "hei_Carrier_int6",
+      "hei_carrier_LODLights"
+    ],
+    "X": 3084.73,
+    "Y": -4770.709,
+    "Z": 15.26167
+  },
+  {
+    "Name": "Torture Room",
+    "Ipls": ["v_torture","v_torture_milo_"],
+    "X": 136.5146,
+    "Y": -2203.149,
+    "Z": 7.30914,
+    "Teleport": {
+      "Entrance"        : { "X": 135.86, "Y": -2203.90, "Z": 4.30 },
+      "EntranceHeading" :  92.0,
+      "Interior"        : { "X": 146.95, "Y": -2201.50, "Z": 4.70 },
+      "InteriorHeading" : 270.0
+    }
+  },
+  {
+    "Name": "Madrazo's Ranch",
+    "Ipls": [],
+    "X": 1399.9958,
+    "Y": 1147.2348,
+    "Z": 115.3213
+  },
+  {
+    "Name": "Therapist's Office",
+    "Ipls": [],
+    "RemoveIpls": [
+      "bh1_16_refurb",
+      "bh1_16_refurb_lod",
+      "bh1_16_refurb_lodlights",
+      "bh1_16_doors_shut",
+      "jewel2fake",
+      "jewel2fake_lod",
+      "jewel2fake_lodlights"
+    ],
+    "X": -1908.024,
+    "Y": -573.4244,
+    "Z": 19.09722
+  }
+] 

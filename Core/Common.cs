@@ -82,7 +82,8 @@ namespace REALIS.Common
         VehicleStuck,
         PlayerBlockingTraffic,
         TrafficJam,
-        AmbientInteraction
+        AmbientInteraction,
+        WeatherEvent
     }
 
     /// <summary>
@@ -129,6 +130,36 @@ namespace REALIS.Common
             Interaction = interaction;
             Position = position;
         }
+    }
+
+    /// <summary>
+    /// Événement pour les phénomènes météorologiques.
+    /// </summary>
+    public class WeatherEvent : GameEvent
+    {
+        public WeatherEventType WeatherType { get; }
+        public float Intensity { get; }
+        public float Duration { get; }
+
+        public WeatherEvent(WeatherEventType weatherType, Vector3 position, float intensity, float duration)
+        {
+            EventType = REALISEventType.WeatherEvent;
+            WeatherType = weatherType;
+            Position = position;
+            Intensity = intensity;
+            Duration = duration;
+        }
+    }
+
+    /// <summary>
+    /// Types d'événements météorologiques.
+    /// </summary>
+    public enum WeatherEventType
+    {
+        Tornado,
+        Thunderstorm,
+        BlizzardStorm,
+        SandStorm
     }
 
     /// <summary>

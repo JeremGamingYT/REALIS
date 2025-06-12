@@ -74,6 +74,9 @@ namespace REALIS.Core
         [JsonProperty("policeJobSystemEnabled")]
         public bool PoliceJobSystemEnabled { get; set; } = true;
         
+        [JsonProperty("deliveryDriverSystemEnabled")]
+        public bool DeliveryDriverSystemEnabled { get; set; } = true;
+        
         [JsonProperty("realisticTrafficDensity")]
         public float RealisticTrafficDensity { get; set; } = 1.0f;
         
@@ -82,6 +85,15 @@ namespace REALIS.Core
         
         [JsonProperty("economicDifficulty")]
         public int EconomicDifficulty { get; set; } = 2; // 1-3 scale
+        
+        [JsonProperty("weatherSystemEnabled")]
+        public bool WeatherSystemEnabled { get; set; } = true;
+        
+        [JsonProperty("tornadoesEnabled")]
+        public bool TornadoesEnabled { get; set; } = true;
+        
+        [JsonProperty("tornadoFrequency")]
+        public int TornadoFrequency { get; set; } = 2; // 1-5 scale, 1 = rare, 5 = common
     }
     
     /// <summary>
@@ -125,6 +137,7 @@ namespace REALIS.Core
                         { "food_stores", "Food Stores" },
                         { "vehicle_dealerships", "Vehicle Dealerships" },
                         { "bus_driver_system", "Bus Driver System" },
+                        { "delivery_driver_system", "Delivery Driver System" },
                         { "firefighter_system", "Firefighter System" },
                         { "ambulance_system", "Ambulance System" },
                         { "save_and_continue", "Save & Continue" },
@@ -157,6 +170,7 @@ namespace REALIS.Core
                         { "food_stores", "Magasins d'alimentation" },
                         { "vehicle_dealerships", "Concessionnaires automobiles" },
                         { "bus_driver_system", "Système de Chauffeur de Bus" },
+                        { "delivery_driver_system", "Système de Livreur" },
                         { "firefighter_system", "Système de Pompier" },
                         { "ambulance_system", "Système d'Ambulancier" },
                         { "save_and_continue", "Sauvegarder et continuer" },
@@ -200,7 +214,7 @@ namespace REALIS.Core
         public KeyBindInfo OpenMenu { get; set; } = new KeyBindInfo(Keys.F9);
         
         [JsonProperty("togglePoliceSystem")]
-        public KeyBindInfo TogglePoliceSystem { get; set; } = new KeyBindInfo(Keys.F10);
+        public KeyBindInfo TogglePoliceSystem { get; set; } = new KeyBindInfo(Keys.F7);
         
         [JsonProperty("toggleTrafficAI")]
         public KeyBindInfo ToggleTrafficAI { get; set; } = new KeyBindInfo(Keys.F11);
@@ -219,6 +233,12 @@ namespace REALIS.Core
         
         [JsonProperty("modifierKey")]
         public KeyBindInfo ModifierKey { get; set; } = new KeyBindInfo(Keys.LControlKey);
+        
+        [JsonProperty("policeDispatchKey")]
+        public KeyBindInfo PoliceDispatchKey { get; set; } = new KeyBindInfo(Keys.B);
+        
+        [JsonProperty("tornadoSpawnKey")]
+        public KeyBindInfo TornadoSpawnKey { get; set; } = new KeyBindInfo(Keys.F10);
     }
     
     /// <summary>

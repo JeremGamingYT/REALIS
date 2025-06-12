@@ -54,5 +54,12 @@
     "modifierKey": "None",
     "description": "Modifier Key for Combinations",
     "enabled": true
+  },
+  "policeDispatchKey": {
+    "key": "B",
+    "requiresModifier": false,
+    "modifierKey": "None",
+    "description": "Open Police Dispatch Radio",
+    "enabled": true
   }
 } 
