@@ -373,6 +373,18 @@ namespace REALIS.Transportation
                 
                 Ped player = Game.Player.Character;
                 
+                // NOUVEAU : Désactiver le système si le joueur a des étoiles de recherche !
+                if (Game.Player.Wanted.WantedLevel > 0)
+                {
+                    if (_isOnShift)
+                    {
+                        // Nettoyer les tâches du joueur et désactiver temporairement
+                        Function.Call(Hash.CLEAR_PED_TASKS, player.Handle);
+                        Notification.PostTicker("~r~Service ambulance suspendu pendant la poursuite !", false, true);
+                    }
+                    return; // Ne rien faire d'autre
+                }
+                
                 if (!_isOnShift)
                 {
                     CheckJobLocation(player);

@@ -2,6 +2,7 @@ using System;
 using Newtonsoft.Json;
 using System.IO;
 using GTA.Math;
+using REALIS.Core;
 
 namespace REALIS.Config
 {
@@ -100,6 +101,28 @@ namespace REALIS.Config
         [JsonProperty("warning_messages")]
         public WarningMessages Messages { get; set; } = new WarningMessages();
 
+        // Ajout de la configuration pour la poursuite en véhicule
+        [JsonProperty("enable_vehicle_pursuit")]
+        public bool EnableVehiclePursuit { get; set; } = true;
+
+        [JsonProperty("pursuit_vehicle_search_radius")]
+        public float PursuitVehicleSearchRadius { get; set; } = 200f;
+
+        [JsonProperty("pit_time_threshold_seconds")]
+        public int PitTimeThresholdSeconds { get; set; } = 20;
+
+        [JsonProperty("pit_cooldown_seconds")]
+        public int PitCooldownSeconds { get; set; } = 30;
+
+        [JsonProperty("roadblock_interval_seconds")]
+        public int RoadblockIntervalSeconds { get; set; } = 60;
+
+        [JsonProperty("roadblock_spawn_distance")]
+        public float RoadblockSpawnDistance { get; set; } = 100f;
+
+        [JsonProperty("shoot_wanted_level")]
+        public int ShootWantedLevel { get; set; } = 3;
+
         private static PoliceConfig LoadConfig()
         {
             try
@@ -120,7 +143,7 @@ namespace REALIS.Config
             }
             catch (Exception ex)
             {
-                Core.Logger.Error($"Error loading police config: {ex.Message}");
+                Logger.Error($"Error loading police config: {ex.Message}");
                 return new PoliceConfig();
             }
         }
@@ -138,12 +161,13 @@ namespace REALIS.Config
                     Directory.CreateDirectory(directory);
                 }
 
-                var json = JsonConvert.SerializeObject(this, Formatting.Indented);
+                var json = JsonConvert.SerializeObject(this, Formatting.Indented,
+                    new JsonSerializerSettings { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
                 File.WriteAllText(CONFIG_FILE, json);
             }
             catch (Exception ex)
             {
-                Core.Logger.Error($"Error saving police config: {ex.Message}");
+                Logger.Error($"Error saving police config: {ex.Message}");
             }
         }
 

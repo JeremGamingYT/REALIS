@@ -39,6 +39,18 @@ namespace REALIS.Core
         {
             player = Game.Player.Character;
             
+            // NOUVEAU : Désactiver le système si le joueur a des étoiles de recherche !
+            if (Game.Player.Wanted.WantedLevel > 0)
+            {
+                // Désactiver tous les modes automatiques
+                if (isAutoPilotActive || isNavigatingToWaypoint)
+                {
+                    DeactivateAllModes();
+                    GTA.UI.Notification.Show("~r~Teslax désactivé pendant la poursuite !");
+                }
+                return; // Ne rien faire d'autre
+            }
+            
             // Vérifier si le joueur est dans un véhicule
             if (player.IsInVehicle())
             {
@@ -167,11 +179,8 @@ namespace REALIS.Core
             }
             else
             {
-                // Désactiver l'autopilot
-                if (player != null)
-                {
-                    Function.Call(Hash.CLEAR_PED_TASKS, player);
-                }
+                // Désactiver l'autopilot - NE PAS utiliser CLEAR_PED_TASKS !
+                // Cela peut sortir le joueur du véhicule
                 Notification.PostTicker("~r~Autopilot désactivé!", true);
             }
         }
@@ -207,11 +216,8 @@ namespace REALIS.Core
             }
             else
             {
-                // Arrêter la navigation
-                if (player != null)
-                {
-                    Function.Call(Hash.CLEAR_PED_TASKS, player);
-                }
+                // Arrêter la navigation - NE PAS utiliser CLEAR_PED_TASKS !
+                // Cela peut sortir le joueur du véhicule
                 Notification.PostTicker("~r~Navigation vers waypoint désactivée!", true);
             }
         }
@@ -254,7 +260,7 @@ namespace REALIS.Core
             {
                 // Le waypoint a été supprimé
                 isNavigatingToWaypoint = false;
-                Function.Call(Hash.CLEAR_PED_TASKS, player);
+                // NE PAS utiliser CLEAR_PED_TASKS !
                 Notification.PostTicker("~r~Waypoint supprimé, navigation arrêtée!", true);
                 return;
             }
@@ -264,7 +270,7 @@ namespace REALIS.Core
             if (distance < 15f) // Arrivé au waypoint
             {
                 isNavigatingToWaypoint = false;
-                Function.Call(Hash.CLEAR_PED_TASKS, player);
+                // NE PAS utiliser CLEAR_PED_TASKS !
                 Notification.PostTicker("~g~Waypoint atteint!", true);
             }
             else
@@ -288,10 +294,8 @@ namespace REALIS.Core
             isNavigatingToWaypoint = false;
             isWaitingForObstacle = false;
             
-            if (player != null)
-            {
-                Function.Call(Hash.CLEAR_PED_TASKS, player);
-            }
+            // NE PAS utiliser CLEAR_PED_TASKS car cela peut sortir le joueur du véhicule !
+            // Au lieu de cela, on laisse juste les variables booléennes désactiver les modes
         }
 
         // Système d'IA Tesla fluide et réaliste

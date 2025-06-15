@@ -43,13 +43,15 @@
   {
     "Name": "Jewel Store",
     "Ipls": ["post_hiest_unload"],
+    "RemoveIpls": ["jewel2fake", "jewel2fake_lod", "jewel2fake_lodlights"],
     "X": -630.07,
     "Y": -236.332,
     "Z": 38.05704
   },
   {
     "Name": "Paleto Bay Bank",
-    "Ipls": [],
+    "Ipls": ["FLEECA_BANK","FLEECA_BANK_LODL"],
+    "RemoveIpls": ["FLEECA_BANK_FAKE","FLEECA_BANK_LODL_FAKE"],
     "X": 145.34,
     "Y": -1045.24,
     "Z": 29.37
@@ -57,13 +59,15 @@
   {
     "Name": "Union Depository",
     "Ipls": ["FINBANK"],
+    "RemoveIpls": ["FINBANK_FAKE","FINBANK_LODL_FAKE"],
     "X": 2.6968,
     "Y": -667.0166,
     "Z": 16.13061
   },
   {
     "Name": "Pillbox Hospital",
-    "Ipls": ["RC12B_Default", "RC12B_Fixed"],
+    "Ipls": ["RC12B_Default","RC12B_Fixed"],
+    "RemoveIpls": ["RC12B_Default_Fake","RC12B_Fixed_Fake"],
     "X": 307.1680,
     "Y": -590.807,
     "Z": 43.280
@@ -78,8 +82,8 @@
   },
   {
     "Name": "O'Neil Farmhouse",
-    "Ipls": ["farm", "farmint", "farm_lod", "farm_props", "des_farmhouse", "des_farmhs_endimap", "des_farmhs_end_occl"],
-    "RemoveIpls": ["farm_burnt", "farm_burnt_props"],
+    "Ipls": ["farm", "farmint", "farm_lod", "farm_props"],
+    "RemoveIpls": ["farm_burnt", "farm_burnt_props", "farm_burnt_lod"],
     "X": 2469.03,
     "Y": 4955.278,
     "Z": 45.11892
@@ -96,10 +100,7 @@
     "RemoveIpls": ["sp1_10_fake_interior", "sp1_10_fake_interior_phys"],
     "Ipls": [
       "sp1_10_real_interior",
-      "sp1_10_real_interior_phys",
-      "cs1_02_cf_onmission",
-      "cs1_02_cf_offmission",
-      "police_station_interior"
+      "sp1_10_real_interior_phys"
     ],
     "X": 441.06,
     "Y": -979.51,
@@ -116,10 +117,9 @@
     "Name": "Sandy Shores Sheriff Station",
     "Ipls": [
       "cs3_05_water_grp1",
-      "cs3_05_water_grp1_lod",
-      "cs3_05_water_grp2",
-      "cs3_05_water_grp2_lod"
+      "cs3_05_water_grp1_lod"
     ],
+    "RemoveIpls": ["cs3_05_water_grp1_fake","cs3_05_water_grp1_lod_fake"],
     "X": 1853.2,
     "Y": 3686.9,
     "Z": 34.26
@@ -130,13 +130,14 @@
       "cs3_03_ug_office",
       "cs3_03_ug_office_lod"
     ],
+    "RemoveIpls": ["cs3_03_ug_office_fake","cs3_03_ug_office_lod_fake"],
     "X": -448.6,
     "Y": 6012.8,
     "Z": 31.71
   },
   {
     "Name": "FIB Floor 49",
-    "Ipls": [],
+    "Ipls": ["FIB_47_BURNT_GRND", "FIB_47_BURNT_GRND_LOD"],
     "X": 134.635,
     "Y": -765.831,
     "Z": 242.152,
@@ -211,39 +212,38 @@
     "Z": 15.26167
   },
   {
-    "Name": "Torture Room",
-    "Ipls": ["v_torture","v_torture_milo_"],
-    "X": 136.5146,
-    "Y": -2203.149,
-    "Z": 7.30914,
-    "Teleport": {
-      "Entrance"        : { "X": 135.86, "Y": -2203.90, "Z": 4.30 },
-      "EntranceHeading" :  92.0,
-      "Interior"        : { "X": 146.95, "Y": -2201.50, "Z": 4.70 },
-      "InteriorHeading" : 270.0
-    }
-  },
-  {
-    "Name": "Madrazo's Ranch",
-    "Ipls": [],
-    "X": 1399.9958,
-    "Y": 1147.2348,
-    "Z": 115.3213
-  },
-  {
     "Name": "Therapist's Office",
-    "Ipls": [],
-    "RemoveIpls": [
-      "bh1_16_refurb",
-      "bh1_16_refurb_lod",
-      "bh1_16_refurb_lodlights",
-      "bh1_16_doors_shut",
-      "jewel2fake",
-      "jewel2fake_lod",
-      "jewel2fake_lodlights"
-    ],
+    "Ipls": ["bh1_16_refurb","bh1_16_refurb_lod","bh1_16_refurb_lodlights"],
+    "RemoveIpls": ["bh1_16_doors_shut"],
     "X": -1908.024,
     "Y": -573.4244,
     "Z": 19.09722
+  },
+  {
+    "Name": "Comedy Club",
+    "Ipls": ["v_comedy"],
+    "X": -430.0,
+    "Y": 261.3,
+    "Z": 83.0
+  },
+  {
+    "Name": "Humane Labs",
+    "Ipls": ["prologue_grv_cov", "prologue_grv_cov_lod"],
+    "X": 3525.495,
+    "Y": 3705.301,
+    "Z": 36.69
+  },
+  {
+    "Name": "Auto Shop Garage",
+    "Ipls": ["tuner_garage", "tuner_garage_lod"],
+    "X": -339.0,
+    "Y": -156.0,
+    "Z": 44.0,
+    "Teleport": {
+      "Entrance": { "X": -337.0, "Y": -136.0, "Z": 39.0 },
+      "EntranceHeading": 340.0,
+      "Interior": { "X": -339.0, "Y": -156.0, "Z": 44.0 },
+      "InteriorHeading": 180.0
+    }
   }
-] 
+]

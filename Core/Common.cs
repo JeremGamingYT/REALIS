@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using GTA;
 using GTA.Math;
+using REALIS.Core;
 
 namespace REALIS.Common
 {
@@ -55,8 +56,7 @@ namespace REALIS.Common
                         }
                         catch (Exception ex)
                         {
-                            // Log l'erreur mais continue
-                            Core.Logger.Error($"Event handler error: {ex.Message}");
+                            Logger.Error($"Event handler error: {ex.Message}");
                         }
                     }
                 }

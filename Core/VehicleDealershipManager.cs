@@ -71,6 +71,9 @@ namespace REALIS.Core
             new VehicleSpawnData(new Vector3(-1074.15f, -1245.36f, 4.97f), 301.50f)
         };
 
+        // Indique si les véhicules ont déjà été spawnés
+        private bool _hasSpawnedVehicles = false;
+
         public VehicleDealershipManager()
         {
             Tick += OnTick;
@@ -80,7 +83,6 @@ namespace REALIS.Core
             InitializeVehicleSpecs();
             CreateLemonUIMenus();
             CreateDealershipBlips();
-            SpawnDealershipVehicles();
             
             Logger.Info("Vehicle Dealership Manager initialized.");
         }
@@ -88,7 +90,13 @@ namespace REALIS.Core
         private void OnTick(object sender, EventArgs e)
         {
             if (!_isEnabled) return;
-            
+            // Spawn des véhicules une seule fois dans le loop principal
+            if (!_hasSpawnedVehicles)
+            {
+                SpawnDealershipVehicles();
+                _hasSpawnedVehicles = true;
+            }
+
             // Traitement des menus LemonUI
             _menuPool.Process();
             

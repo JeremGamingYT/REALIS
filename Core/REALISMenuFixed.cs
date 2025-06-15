@@ -183,6 +183,19 @@ namespace REALIS.Core
             spawnPolice.Activated += SpawnPolicePatrol;
             policeMenu.Add(spawnPolice);
 
+            // Séparateur PIT
+            policeMenu.Add(new NativeSeparatorItem("Système PIT"));
+
+            // Toggle debug PIT
+            var pitDebug = new NativeItem("🔧 Debug PIT", "Active/désactive le mode debug PIT");
+            pitDebug.Activated += TogglePitDebug;
+            policeMenu.Add(pitDebug);
+
+            // Informations PIT
+            var pitInfo = new NativeItem("ℹ️ Info PIT", "Affiche les informations du système PIT");
+            pitInfo.Activated += ShowPitInfo;
+            policeMenu.Add(pitInfo);
+
             AddBackButton(policeMenu, mainMenu);
         }
 
@@ -275,6 +288,29 @@ namespace REALIS.Core
             {
                 GTA.UI.Screen.ShowSubtitle($"~r~Erreur sauvegarde: {ex.Message}");
             }
+        }
+
+        private void TogglePitDebug(object sender, EventArgs e)
+        {
+            // Utilisation d'une approche simplifiée
+            GTA.UI.Notification.Show("~b~Debug PIT activé ! Utilisez F7 pour basculer.");
+            GTA.UI.Screen.ShowSubtitle("~y~Appuyez sur F7 pour activer/désactiver le debug PIT", 3000);
+        }
+
+        private void ShowPitInfo(object sender, EventArgs e)
+        {
+            var infoText = "~b~SYSTÈME PIT~w~\n\n" +
+                          "~y~Conditions:~w~\n" +
+                          "• Vitesse: 20-120 km/h\n" +
+                          "• Poursuite: +20 secondes\n" +
+                          "• Cooldown: 30 secondes\n\n" +
+                          "~y~Fonctionnement:~w~\n" +
+                          "• Positionnement automatique\n" +
+                          "• Calcul de probabilité\n" +
+                          "• Effets visuels/sonores\n\n" +
+                          "~g~Activez le debug pour plus d'infos !";
+            
+            GTA.UI.Screen.ShowSubtitle(infoText, 8000);
         }
 
         private void OnTick(object sender, EventArgs e)

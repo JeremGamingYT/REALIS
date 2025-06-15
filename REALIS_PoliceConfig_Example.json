@@ -7,6 +7,13 @@
   "enable_police_transport": true,
   "police_vehicle_search_radius": 100.0,
   "weapon_threat_distance": 10.0,
+  "enable_vehicle_pursuit": true,
+  "pursuit_vehicle_search_radius": 200.0,
+  "pit_time_threshold_seconds": 20,
+  "pit_cooldown_seconds": 30,
+  "roadblock_interval_seconds": 60,
+  "roadblock_spawn_distance": 100.0,
+  "shoot_wanted_level": 3,
   "custom_police_stations": [
     {
       "X": 441.06,

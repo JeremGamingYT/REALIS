@@ -5,7 +5,6 @@ using GTA.UI;
 using REALIS.Common;
 using REALIS.Transportation;
 using REALIS.TrafficAI;
-using REALIS.Events.BankRob.Manager;
 
 namespace REALIS.Core
 {
@@ -22,6 +21,7 @@ namespace REALIS.Core
         private PoliceSystem? _policeSystem;
         private PoliceJobSystem? _policeJobSystem;
         private AdvancedDrivingAI? _advancedDrivingAI;  // RÉACTIVÉ POUR TEST ISOLÉ
+        private RealisticTrafficEnhancements? _realisticTraffic;
         private GasStationManager? _gasStationManager;
         private FoodStoreManager? _foodStoreManager;
         private VehicleDealershipManager? _vehicleDealershipManager;
@@ -32,10 +32,21 @@ namespace REALIS.Core
         private AmbulanceManager? _ambulanceManager;
         private PhoneMenuManagerSimple? _phoneMenuManager;
         private UFOSystem? _ufoSystem;
-        private BankRobManager? _bankRobManager;
         
         public REALISMain()
         {
+            // Activer la protection anti-crash globale le plus tôt possible
+            CrashHandler.Initialize();
+            
+            // Vérifier la compatibilité de la version du jeu avant toute initialisation
+            if (GameCompatibility.IsUnsupported())
+            {
+                Logger.Info("Unsupported GTA V version detected – REALIS will stay disabled.");
+                GameCompatibility.NotifyModDisabled();
+                return; // Stop constructor here – n'initialise rien de plus
+            }
+            
+            // Abonnement aux événements uniquement si la version est supportée
             Tick += OnTick;
             Aborted += OnAborted;
             KeyDown += OnKeyDown;
@@ -174,6 +185,7 @@ namespace REALIS.Core
                 if (ConfigurationManager.UserConfig.ModSettings.TrafficAIEnabled)
                 {
                     InitializeTrafficAI();
+                    InitializeRealisticTraffic();
                 }
                 
                 if (ConfigurationManager.UserConfig.ModSettings.GasStationSystemEnabled)
@@ -226,9 +238,6 @@ namespace REALIS.Core
                 
                 InitializeUFOSystem();
                 
-                // Initialize Pacific Standard Bank NPCs
-                InitializeBankRobSystem();
-                
                 _isInitialized = true;
                 
                 // Notification de succès
@@ -271,6 +280,19 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Failed to initialize AdvancedDrivingAI: {ex.Message}");
+            }
+        }
+        
+        private void InitializeRealisticTraffic()
+        {
+            try
+            {
+                _realisticTraffic = new RealisticTrafficEnhancements();
+                Logger.Info("Realistic Traffic Enhancements initialized.");
+            }
+            catch (Exception ex)
+            {
+                Logger.Error($"Failed to initialize Realistic Traffic: {ex.Message}");
             }
         }
         
@@ -414,19 +436,6 @@ namespace REALIS.Core
             catch (Exception ex)
             {
                 Logger.Error($"Failed to initialize UFO system: {ex.Message}");
-            }
-        }
-        
-        private void InitializeBankRobSystem()
-        {
-            try
-            {
-                _bankRobManager = new BankRobManager();
-                Logger.Info("Bank robbery system initialized.");
-            }
-            catch (Exception ex)
-            {
-                Logger.Error($"Failed to initialize bank robbery system: {ex.Message}");
             }
         }
         
@@ -654,12 +663,6 @@ namespace REALIS.Core
                 if (_ufoSystem != null)
                 {
                     _ufoSystem = null;
-                }
-                
-                // Nettoyer le système de braquage de banque si actif
-                if (_bankRobManager != null)
-                {
-                    _bankRobManager = null;
                 }
                 
                 Logger.Info("REALIS systems cleanup completed.");

@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- Suppress warnings for unused exception variables, obsolete APIs, and nullability in legacy files -->
+    <NoWarn>CS0168;CS0618;CS8618</NoWarn>
     <TargetFramework>net48</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <!-- Choisis l'un OU l'autre des blocs ci-dessous -->
