@@ -18,6 +18,22 @@ namespace REALIS.Police.Radio
         private ObjectPool _pool;
         private NativeMenu _menu;
 
+        // Gestion des unités de renfort actives
+        private class BackupUnit
+        {
+            public Vehicle Veh;
+            public Ped Driver;
+            public Ped Officer;
+            public bool Chasing;
+            // Indique si l'unité est en route vers le joueur (pas de poursuite suspect).
+            public bool DrivingToPlayer;
+
+            public bool IsValid => Veh != null && Veh.Exists() && Driver != null && Driver.Exists();
+        }
+
+        private readonly System.Collections.Generic.List<BackupUnit> _activeBackups = new System.Collections.Generic.List<BackupUnit>();
+        private readonly System.Collections.Generic.List<(Ped, Ped, Ped)> _pendingChaseTargets = new System.Collections.Generic.List<(Ped, Ped, Ped)>();
+
         public void Initialize()
         {
             _pool = new ObjectPool();
@@ -46,6 +62,9 @@ namespace REALIS.Police.Radio
 
             // Process UI
             _pool.Process();
+
+            // Met à jour le comportement des unités de renfort
+            UpdateBackups();
         }
 
         public void Dispose()
@@ -108,35 +127,38 @@ namespace REALIS.Police.Radio
             {
                 if (!cop.Exists()) continue;
                 cop.Weapons.Give(heavy ? WeaponHash.CarbineRifle : WeaponHash.Pistol, 200, true, true);
-                cop.RelationshipGroup = player.RelationshipGroup;
-
-                // Pas de blip pour garder l'interface épurée
+                // Laisse le groupe relationnel par défaut (COP) pour conserver l'IA policière
+                cop.AlwaysKeepTask = true; // évite que le moteur annule la tâche de conduite
             }
 
             // Conduite du véhicule vers la position du joueur / suspect
             Ped target = REALIS.Police.Callouts.StolenVehicleCallout.CurrentSuspect;
             Vector3 dest = target?.Position ?? player.Position;
 
-            // Nouvelle logique : si une cible est disponible, on poursuit le suspect en véhicule ;
-            // sinon on roule simplement jusqu'à la position du joueur.
+            // Démarre par une croisière vers la destination pour éviter l'immobilisme initial
+            driver.Task.CruiseWithVehicle(veh, 30f, DrivingStyle.Normal);
+
             if (target != null && target.Exists())
             {
-                // Utilise la native TASK_VEHICLE_CHASE pour démarrer une poursuite automatique
-                Function.Call(Hash.TASK_VEHICLE_CHASE, driver.Handle, target.Handle);
-
-                // Officier passager participe à la poursuite et aux tirs
-                Function.Call(Hash.TASK_VEHICLE_CHASE, officer.Handle, target.Handle);
-            }
-            else
-            {
-                // Pas de suspect identifié : le conducteur rejoint la position du joueur.
-                driver.Task.DriveTo(veh, dest, 10f, 35f, DrivingStyle.Rushed);
+                // Quelques millisecondes plus tard (UpdateBackups), on lancera une vraie poursuite
+                // pour l'instant on note qu'on souhaite poursuivre
+                _pendingChaseTargets.Add((driver, officer, target));
             }
 
             // Maintient les tâches actives.
             officer.AlwaysKeepTask = true;
 
             GTA.UI.Notification.Show("~b~Renforts en route");
+
+            // Enregistre l'unité pour suivi
+            _activeBackups.Add(new BackupUnit
+            {
+                Veh = veh,
+                Driver = driver,
+                Officer = officer,
+                Chasing = target != null && target.Exists(),
+                DrivingToPlayer = false
+            });
         }
 
         private void CheckPlate()
@@ -181,6 +203,87 @@ namespace REALIS.Police.Radio
             GTA.UI.Notification.Show(_available
                 ? "~g~Statut: Disponible"
                 : "~o~Statut: Occupé");
+        }
+
+        private void UpdateBackups()
+        {
+            var player = Game.Player.Character;
+
+            Ped suspect = REALIS.Police.Callouts.StolenVehicleCallout.CurrentSuspect;
+            bool suspectValid = suspect != null && suspect.Exists() && !suspect.IsDead && !suspect.IsCuffed;
+
+            for (int i = _activeBackups.Count - 1; i >= 0; i--)
+            {
+                var unit = _activeBackups[i];
+
+                if (!unit.IsValid)
+                {
+                    _activeBackups.RemoveAt(i);
+                    continue;
+                }
+
+                // Rafraîchit la sirène si elle s'est éteinte
+                if (!Function.Call<bool>(Hash.IS_VEHICLE_SIREN_ON, unit.Veh))
+                {
+                    Function.Call(Hash.SET_VEHICLE_SIREN, unit.Veh, true);
+                }
+
+                if (suspectValid)
+                {
+                    // S'assurer qu'ils poursuivent toujours
+                    if (!unit.Chasing)
+                    {
+                        Function.Call(Hash.TASK_VEHICLE_CHASE, unit.Driver.Handle, suspect.Handle);
+                        Function.Call(Hash.TASK_VEHICLE_CHASE, unit.Officer.Handle, suspect.Handle);
+                        unit.Chasing = true;
+                        unit.DrivingToPlayer = false;
+                    }
+                }
+                else
+                {
+                    // Suspect neutralisé : rejoindre le joueur et se mettre en attente
+                    if (unit.Chasing)
+                    {
+                        unit.Driver.Task.ClearAllImmediately();
+                        unit.Officer.Task.ClearAllImmediately();
+                        unit.Chasing = false;
+                    }
+
+                    float dist = unit.Veh.Position.DistanceTo(player.Position);
+
+                    // Si l'unité est encore loin, on lance (une seule fois) la conduite vers le joueur.
+                    if (dist > 8f)
+                    {
+                        if (!unit.DrivingToPlayer)
+                        {
+                            unit.Driver.Task.DriveTo(unit.Veh, player.Position, 5f, 30f, DrivingStyle.Normal);
+                            unit.DrivingToPlayer = true;
+                        }
+                    }
+                    else if (unit.Driver.IsInVehicle(unit.Veh))
+                    {
+                        // Arrivé près du joueur : les agents descendent.
+                        unit.Driver.Task.LeaveVehicle(unit.Veh, true);
+                        unit.Officer.Task.LeaveVehicle(unit.Veh, true);
+                        unit.DrivingToPlayer = false;
+                    }
+                }
+            }
+
+            // Applique les poursuites en attente (une fois que tout est chargé)
+            if (_pendingChaseTargets.Count > 0)
+            {
+                for (int p = _pendingChaseTargets.Count - 1; p >= 0; p--)
+                {
+                    var (drv, off, tgt) = _pendingChaseTargets[p];
+                    if (drv.Exists() && off.Exists() && tgt.Exists())
+                    {
+                        Function.Call(Hash.TASK_VEHICLE_CHASE, drv.Handle, tgt.Handle);
+                        Function.Call(Hash.TASK_VEHICLE_CHASE, off.Handle, tgt.Handle);
+                    }
+                    _pendingChaseTargets.RemoveAt(p);
+                }
+            }
         }
     }
 } 
