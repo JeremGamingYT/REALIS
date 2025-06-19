@@ -14,6 +14,30 @@
   "roadblock_interval_seconds": 60,
   "roadblock_spawn_distance": 100.0,
   "shoot_wanted_level": 3,
+  
+  "// === NOUVEAUX PARAMÈTRES ÉTOILE ROUGE ===": "",
+  "enable_red_star_system": true,
+  "red_star_wanted_level": 6,
+  "max_wanted_level": 6,
+  "fbi_spawn_interval_seconds": 15,
+  "max_fbi_agents_simultaneous": 8,
+  "fbi_spawn_distance": 200.0,
+  "fbi_agent_health": 300,
+  "fbi_agent_armor": 200,
+  "fbi_agent_accuracy": 85,
+  
+  "// === SYSTÈME DE NON-LÉTALITÉ ===": "",
+  "enable_non_lethal_system": true,
+  "track_law_enforcement_kills": true,
+  "reset_kill_tracking_on_restart": true,
+  "non_lethal_max_wanted_level": 5,
+  "stun_gun_ammo": 50,
+  "non_lethal_accuracy": 30,
+  
+  "// === MESSAGES ET NOTIFICATIONS ===": "",
+  "enable_red_star_notifications": true,
+  "enable_kill_tracking_notifications": true,
+  
   "custom_police_stations": [
     {
       "X": 441.06,
@@ -46,12 +70,66 @@
       "Z": 19.01
     }
   ],
+  
   "warning_messages": {
     "initial_warning": "~r~Arrêtez-vous ou vous serez arrêté! {0} secondes...",
     "countdown_warning": "~r~Arrestation dans {0} secondes...",
     "arrest_message": "~g~Vous êtes en état d'arrestation!",
     "transport_message": "~b~Transport vers le poste de police...",
     "release_message": "~g~Vous avez été relâché du poste de police.",
-    "arrest_cancelled": "~r~L'arrestation a été annulée."
-  }
+    "arrest_cancelled": "~r~L'arrestation a été annulée.",
+    
+    "// === NOUVEAUX MESSAGES POUR L'ÉTOILE ROUGE ===": "",
+    "red_star_activated": "~r~★ ÉTOILE ROUGE ACTIVÉE ★",
+    "red_star_warning": "~r~Les agents fédéraux sont déployés avec autorisation de tuer!",
+    "red_star_deactivated": "~g~Étoile rouge désactivée",
+    "fbi_agent_deployed": "~r~Agent FBI déployé!",
+    
+    "// === MESSAGES POUR LE SYSTÈME DE NON-LÉTALITÉ ===": "",
+    "law_enforcement_killed_warning": "~r~ATTENTION: Vous avez tué un agent des forces de l'ordre!",
+    "lethal_force_authorized": "~r~Les forces de l'ordre sont maintenant autorisées à utiliser la force létale!",
+    "non_lethal_mode": "~y~Mode non-létal activé - Les forces de l'ordre utilisent des armes non-létales",
+    "lethal_mode": "~r~Mode létal activé - Les forces de l'ordre utilisent des armes létales"
+  },
+  
+  "// === PARAMÈTRES AVANCÉS FBI ===": "",
+  "fbi_vehicle_models": [
+    "FBI",
+    "FBI2", 
+    "RIOT",
+    "RIOT2"
+  ],
+  
+  "fbi_agent_models": [
+    "s_m_m_fibsec_01",
+    "s_m_y_swat_01", 
+    "s_m_m_armoured_01",
+    "s_m_m_armoured_02"
+  ],
+  
+  "fbi_weapons": [
+    {
+      "weapon": "WEAPON_ASSAULTRIFLE",
+      "ammo": 500,
+      "is_primary": true
+    },
+    {
+      "weapon": "WEAPON_COMBATPISTOL", 
+      "ammo": 200,
+      "is_primary": false
+    }
+  ],
+  
+  "// === PARAMÈTRES D'ESCALADE DES ÉTOILES ===": "",
+  "pursuit_escalation_time_seconds": 90,
+  "max_pursuit_escalation_time_seconds": 300,
+  "auto_escalation_enabled": true,
+  "red_star_auto_trigger": false,
+  
+  "// === PARAMÈTRES VISUELS ===": "",
+  "red_star_blip_scale": 1.5,
+  "search_area_radius": 100.0,
+  "search_mode_delay_seconds": 3.0,
+  "vision_range": 80.0,
+  "vision_angle_degrees": 120.0
 } 

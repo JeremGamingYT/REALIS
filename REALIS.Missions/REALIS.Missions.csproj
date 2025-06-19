@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>REALIS.Missions</AssemblyName>
+    <RootNamespace>REALIS.Missions</RootNamespace>
+    <OutputPath>..\bin\</OutputPath>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>..\ScriptHookVDotNet V3\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\REALIS.Common\REALIS.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- LemonUI pour menus SHVDN3 -->
+    <PackageReference Include="LemonUI.SHVDN3" Version="2.2.0" />
+  </ItemGroup>
+</Project> 

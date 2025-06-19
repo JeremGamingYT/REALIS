@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>REALIS.Services</AssemblyName>
+    <RootNamespace>REALIS.Services</RootNamespace>
+    <OutputPath>..\bin\</OutputPath>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>..\ScriptHookVDotNet V3\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LemonUI.SHVDN3" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\REALIS.Common\REALIS.Common.csproj" />
+  </ItemGroup>
+</Project> 

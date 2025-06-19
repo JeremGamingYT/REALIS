@@ -1,0 +1,138 @@
+{
+  "DrugDeliveryMission": {
+    "Settings": {
+      "TotalDeliveries": 3,
+      "MaxDamageThreshold": 0.3,
+      "PaymentPerDelivery": 500,
+      "CompletionBonus": 1000,
+      "VehicleModel": "Speedo",
+      "MissionTimeout_Minutes": 30
+    },
+    "DeliveryPoints": [
+      {
+        "Name": "Grove Street",
+        "Position": {
+          "X": 372.64,
+          "Y": -1834.89,
+          "Z": 28.73
+        },
+        "Description": "Quartier résidentiel - Discrétion requise"
+      },
+      {
+        "Name": "Vespucci Beach",
+        "Position": {
+          "X": -1519.31,
+          "Y": -377.25,
+          "Z": 34.21
+        },
+        "Description": "Zone touristique - Attention aux témoins"
+      },
+      {
+        "Name": "Sandy Shores",
+        "Position": {
+          "X": 1961.21,
+          "Y": 3740.5,
+          "Z": 32.34
+        },
+        "Description": "Zone rurale - Route longue"
+      },
+      {
+        "Name": "Terminal",
+        "Position": {
+          "X": -1037.73,
+          "Y": -2738.12,
+          "Z": 20.17
+        },
+        "Description": "Zone industrielle - Police active"
+      },
+      {
+        "Name": "Pillbox Hill",
+        "Position": {
+          "X": 24.44,
+          "Y": -1346.19,
+          "Z": 29.50
+        },
+        "Description": "Centre-ville - Circulation dense"
+      }
+    ],
+    "ContactSettings": {
+      "Position": {
+        "X": -1037.73,
+        "Y": -2738.12,
+        "Z": 20.17
+      },
+      "PedModel": "Business01AMY",
+      "BlipSprite": "MarijuanaDelivery",
+      "BlipColor": "Green",
+      "InteractionDistance": 3.0
+    },
+    "UI": {
+      "ShowProgressBar": true,
+      "ShowVehicleHealth": true,
+      "ShowCashCounter": true,
+      "ProgressBarPosition": {
+        "X": 0.1,
+        "Y": 0.1
+      },
+      "Colors": {
+        "ProgressBar": {
+          "Background": [0, 0, 0, 180],
+          "Fill": [0, 255, 0, 200],
+          "Border": [255, 255, 255, 255]
+        },
+        "Text": {
+          "Normal": [255, 255, 255, 255],
+          "Success": [0, 255, 0, 255],
+          "Warning": [255, 255, 0, 255],
+          "Error": [255, 0, 0, 255]
+        }
+      }
+    },
+    "Effects": {
+      "EnableCinematicEffects": true,
+      "EnableScreenFlashes": true,
+      "EnableCameraShake": true,
+      "EnableParticleEffects": true,
+      "FadeTimings": {
+        "FadeOut": 1000,
+        "Wait": 2000,
+        "FadeIn": 1000
+      }
+    },
+    "Difficulty": {
+      "PoliceAwareness": 0.3,
+      "TrafficDensity": 1.0,
+      "WeatherEvents": false,
+      "TimeLimit": false
+    },
+    "Audio": {
+      "MissionStartSound": "CHALLENGE_UNLOCKED",
+      "DeliveryCompleteSound": "PURCHASE",
+      "MissionCompleteSound": "MISSION_PASS_NOTIFY",
+      "MissionFailSound": "MISSION_FAIL_NOTIFY",
+      "SoundSets": {
+        "Awards": "HUD_AWARDS",
+        "LiquorStore": "HUD_LIQUOR_STORE_SOUNDSET"
+      }
+    },
+    "Localization": {
+      "Language": "FR",
+      "Texts": {
+        "MissionStart": "Mission de livraison",
+        "MissionStartDesc": "Récupérez le véhicule et livrez la marchandise.",
+        "GetToVehicle": "Montez dans le véhicule de livraison",
+        "DeliverPackage": "Livrez la marchandise",
+        "DeliveryComplete": "Livraison effectuée!",
+        "MissionComplete": "Mission Terminée!",
+        "MissionFailed": "Mission Échouée",
+        "VehicleToodamaged": "Le véhicule est trop endommagé pour continuer la livraison",
+        "VehicleDestroyed": "Le véhicule de livraison a été détruit",
+        "InteractPrompt": "Appuyez sur E pour livrer la marchandise",
+        "ContactPrompt": "Appuyez sur E pour parler au contact",
+        "VehicleHealth": "État du véhicule",
+        "CashEarned": "Gains",
+        "DeliveryProgress": "Livraisons"
+      }
+    }
+  }
+} 

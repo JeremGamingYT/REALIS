@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>REALIS.Common</AssemblyName>
+    <RootNamespace>REALIS.Common</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>..\ScriptHookVDotNet V3\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project> 

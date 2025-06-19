@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>REALIS.Loader</AssemblyName>
+    <RootNamespace>REALIS.Loader</RootNamespace>
+    <OutputPath>..\bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>..\ScriptHookVDotNet V3\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\REALIS.Common\REALIS.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\REALIS.Job\REALIS.Job.csproj" />
+  </ItemGroup>
+</Project> 

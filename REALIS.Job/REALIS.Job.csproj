@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>REALIS.Job</AssemblyName>
+    <RootNamespace>REALIS.Job</RootNamespace>
+    <OutputPath>..\bin\</OutputPath>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>..\ScriptHookVDotNet V3\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\REALIS.Common\REALIS.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- LemonUI for in-game UI elements -->
+    <PackageReference Include="LemonUI.SHVDN3" Version="2.2.0" />
+  </ItemGroup>
+</Project> 

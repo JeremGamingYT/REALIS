@@ -1,0 +1,92 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# GTA V – Cursor Rules for ScriptHookVDotNet 3 Modding
+
+## 1. Standard SHVDN 3 + LemonUI Boilerplate
+
+### Overview
+
+1. Cible **.NET Framework 4.8** (`net48`).
+2. Référence uniquement **ScriptHookVDotNet 3.x** et **LemonUI.SHVDN3**.
+3. Toute classe principale dérive de `Script` et branche les événements `Tick`, `KeyDown`, `KeyUp`.
+4. **Jamais** de blocage : pas de `Thread.Sleep`, pas de boucles infinies avec `Wait(0)`.
+5. Une seule instance d’`ObjectPool` traitée **une fois par frame** via `_pool.Process()`.
+
+### 🚨 Critical Instructions for AI Language Models 🚨
+
+**Ne génère jamais** les schémas suivants, ils gèlent ou plantent le jeu :
+
+```csharp
+// ❌ INTERDIT
+Thread.Sleep(…);
+while (true) { Wait(0); }
+Script.Wait(…) dans le constructeur
+Function.Call(0x12345678, …); // hash brut
+GTA.UI.ShowSubtitle("…");      // UI obsolète
+using ScriptHookVDotNet;        // version 2
+```
+
+**Toujours** partir de ce patron :
+
+```csharp
+// ✅ BOILERPLATE DE RÉFÉRENCE
+using GTA;
+using GTA.Native;
+using GTA.Math;
+using LemonUI;
+using LemonUI.Menus;
+using System.Windows.Forms;
+using System.Threading.Tasks;
+
+public class TODO_ModName : Script
+{
+    private readonly ObjectPool _pool = new ObjectPool();
+    private readonly NativeMenu _mainMenu = new NativeMenu("TODO", "MAIN MENU");
+
+    public TODO_ModName()
+    {
+        Tick    += OnTick;
+        KeyDown += OnKeyDown;
+        _pool.Add(_mainMenu);
+    }
+
+    private void OnTick(object sender, System.EventArgs e)
+    {
+        _pool.Process();
+    }
+
+    private void OnKeyDown(object sender, KeyEventArgs e)
+    {
+        if (e.KeyCode == Keys.F3)
+            _mainMenu.Visible = !_mainMenu.Visible;
+    }
+}
+```
+
+### Absolute Requirements
+
+1. `net48`, SHVDN 3.x, LemonUI.SHVDN3 uniquement.
+2. Utiliser l’énum `Keys` (pas de codes clavier bruts).
+3. Aucune attente bloquante.
+4. Appel unique de `_pool.Process()` par frame.
+5. Les calculs lourds se font avec `Task.Run` + `await`.
+6. L’IA doit **toujours** se référer à la documentation fournie par l’utilisateur avant de générer du code ; **la source de référence pour l’API est [https://shvdn-doc.vercel.app/api/](https://shvdn-doc.vercel.app/api/) et doit être consultée en priorité plutôt que d’effectuer des recherches externes.**
+
+### AI Model Verification Steps
+
+* La classe dérive-t‑elle de `Script` ?
+* Seuls les namespaces SHVDN 3 sont‑ils importés ?
+* Paisible : aucun `Thread.Sleep`, aucune boucle infinie, aucun hash brut ?
+* `_pool.Process()` est‑il appelé une seule fois ?
+
+### Consequences of Incorrect Implementation
+
+Boucles infinies, SHVDN v2 ou hashes bruts ⇒ freeze, crash ou chargement impossible.
+
+### AI Model Response Template
+
+
+> Commence toujours par le boilerplate ci‑dessus, n’utilise jamais les approches obsolètes, vérifie la checklist avant de répondre.
