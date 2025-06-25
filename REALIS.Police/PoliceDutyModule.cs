@@ -5,6 +5,7 @@ using GTA;
 using GTA.Native;
 using REALIS.Common;
 using GTA.Math;
+using REALIS.Core; // Added for Logger
 
 namespace REALIS.Job
 {
@@ -120,7 +121,7 @@ namespace REALIS.Job
             catch (Exception ex)
             {
                 // Ne pas faire crasher le jeu
-                System.Diagnostics.Debug.WriteLine($"PoliceDutyModule error: {ex.Message}");
+                Logger.Error($"PoliceDutyModule error in Update: {ex.Message} {ex.StackTrace}");
             }
         }
 
