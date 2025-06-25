@@ -4,7 +4,6 @@ using System.Linq;
 using GTA;
 using GTA.Math;
 using GTA.Native;
-using REALIS.Core; // Added for Logger
 
 namespace REALIS.Police.Callouts
 {
@@ -46,7 +45,7 @@ namespace REALIS.Police.Callouts
         {
             try
             {
-                Logger.Info("BankRobberyCallout: OnStart initiated.");
+                GTA.UI.Notification.Show("~r~BankRobberyCallout: OnStart initiated.");
                 _bankLocation = StartPosition;
                 _negotiationActive = true;
                 _lastNegotiation = DateTime.Now;
@@ -71,11 +70,11 @@ namespace REALIS.Police.Callouts
                 
                 GTA.UI.Notification.Show("~r~BRAQUAGE EN COURS!~w~~n~Négociation disponible avec la touche ~g~T~w~");
                 GTA.UI.Notification.Show("~b~Dispatch:~w~ SWAT disponible. Utilisez ~g~B~w~ pour déployer l'assaut.");
-                Logger.Info("BankRobberyCallout: OnStart completed successfully.");
+                GTA.UI.Notification.Show("~r~BankRobberyCallout: OnStart completed successfully.");
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout OnStart error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout OnStart error: {ex.Message} {ex.StackTrace}");
                 End();
             }
         }
@@ -164,7 +163,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout SpawnRobbersAndHostages error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout SpawnRobbersAndHostages error: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -202,7 +201,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout SetupPerimeter error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout SetupPerimeter error: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -237,7 +236,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout OnUpdate error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout OnUpdate error: {ex.Message} {ex.StackTrace}");
                 End();
             }
         }
@@ -285,7 +284,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout HandleNegotiation error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout HandleNegotiation error: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -317,7 +316,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout StartSurrender error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout StartSurrender error: {ex.Message} {ex.StackTrace}");
                 UpdateObjectiveStatus("SECURE_SURRENDER", CalloutObjectiveStatus.Failed, false);
                 End(); // Ensure callout ends even if surrender logic fails
             }
@@ -384,7 +383,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout StartAssault error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout StartAssault error: {ex.Message} {ex.StackTrace}");
                 _assaultPhase = false; // Reset phase if it failed to start properly
             }
         }
@@ -418,7 +417,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout HandleAssault error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout HandleAssault error: {ex.Message} {ex.StackTrace}");
                 UpdateObjectiveStatus("NEUTRALIZE_ROBBERS", CalloutObjectiveStatus.Failed, false);
                 End(); // End callout if assault handling errors out
             }
@@ -475,7 +474,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout CheckProgressConditions error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout CheckProgressConditions error: {ex.Message} {ex.StackTrace}");
                 End();
             }
         }
@@ -491,7 +490,7 @@ namespace REALIS.Police.Callouts
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout DisplayInstructions error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout DisplayInstructions error: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -499,7 +498,7 @@ namespace REALIS.Police.Callouts
         {
             try
             {
-                Logger.Info($"BankRobberyCallout: OnEnd initiated. IsActive: {IsActive}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout: OnEnd initiated. IsActive: {IsActive}");
 
                 foreach (var blip in _blips.Where(b => b.Exists())) blip.Delete();
                 _blips.Clear();
@@ -521,17 +520,17 @@ namespace REALIS.Police.Callouts
                 foreach (var vehicle in _perimeterVehicles.Where(v => v.Exists())) { vehicle.MarkAsNoLongerNeeded(); vehicle.Delete(); }
                 _perimeterVehicles.Clear();
 
-                Logger.Info("BankRobberyCallout OnEnd: Entities cleaned up.");
+                GTA.UI.Notification.Show("~r~BankRobberyCallout OnEnd: Entities cleaned up.");
             }
             catch (Exception ex)
             {
-                Logger.Error($"BankRobberyCallout OnEnd error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~BankRobberyCallout OnEnd error: {ex.Message} {ex.StackTrace}");
             }
             finally
             {
                  // Ensure base.End() is not called here as it's handled by CalloutManager
                  // IsActive should be set to false by CalloutManager after this returns or if End() is called directly
-                Logger.Info("BankRobberyCallout: OnEnd finished.");
+                GTA.UI.Notification.Show("~r~BankRobberyCallout: OnEnd finished.");
             }
         }
     }

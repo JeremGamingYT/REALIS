@@ -7,7 +7,7 @@ using REALIS.Common;
 using REALIS.Police.Callouts;
 using LemonUI.Menus;
 using LemonUI;
-using REALIS.Core; // Added for Logger
+using REALIS.Common; // Added for Logger
 
 namespace REALIS.Police
 {
@@ -54,7 +54,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in Initialize: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in Initialize: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -129,7 +129,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in Update: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in Update: {ex.Message} {ex.StackTrace}");
                 // Attempt to recover state if possible, e.g., clear pending/active callouts
                 if (_pendingCallout != null) _pendingCallout = null;
                 if (_activeCallout != null) { _activeCallout.End(); _activeCallout = null; }
@@ -145,7 +145,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in Dispose: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in Dispose: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -159,7 +159,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in ScheduleNext: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in ScheduleNext: {ex.Message} {ex.StackTrace}");
                 // Default to a safe interval if error
                 _nextCalloutTime = DateTime.Now.AddMinutes(5);
             }
@@ -174,7 +174,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in ShowCalloutNotification: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in ShowCalloutNotification: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -197,7 +197,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in ForceEndActive: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in ForceEndActive: {ex.Message} {ex.StackTrace}");
                 _activeCallout = null; // Ensure it's cleared
                 ScheduleNext();
             }
@@ -221,7 +221,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in OfferImmediateCallout: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in OfferImmediateCallout: {ex.Message} {ex.StackTrace}");
                 _pendingCallout = null; // Ensure it's cleared
                 ScheduleNext();
             }
@@ -267,7 +267,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in StartSpecificCallout: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in StartSpecificCallout: {ex.Message} {ex.StackTrace}");
                 _activeCallout = null; // Ensure it's cleared if start failed
                 ScheduleNext();
             }
@@ -286,7 +286,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in ShowResponseMenu: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in ShowResponseMenu: {ex.Message} {ex.StackTrace}");
                  if (_responseMenu != null) { _responseMenu.Visible = false; _uiPool.Remove(_responseMenu); _responseMenu = null; }
                  _pendingCallout = null; // Cancel pending callout as menu failed
                  ScheduleNext();
@@ -320,7 +320,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"CalloutManager error in OnResponseActivated: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~CalloutManager error in OnResponseActivated: {ex.Message} {ex.StackTrace}");
                 if (_responseMenu != null) { _responseMenu.Visible = false; _uiPool.Remove(_responseMenu); _responseMenu = null; }
                 _pendingCallout = null;
                 if (_activeCallout != null) { _activeCallout.End(); _activeCallout = null; } // Clean active if it was set

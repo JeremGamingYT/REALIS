@@ -5,7 +5,6 @@ using GTA.Math;
 using REALIS.Common;
 using LemonUI;
 using LemonUI.Menus;
-using REALIS.Core; // Added for Logger
 
 namespace REALIS.Police
 {
@@ -51,7 +50,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in Initialize: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in Initialize: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -101,7 +100,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in Update: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in Update: {ex.Message} {ex.StackTrace}");
                 // Basic recovery: dismiss partner if state is unstable
                 if (partner != null && partner.Exists())
                 {
@@ -126,7 +125,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in Dispose: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in Dispose: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -155,7 +154,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in FindNearbyOfficer: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in FindNearbyOfficer: {ex.Message} {ex.StackTrace}");
                 nearbyOfficer = null;
             }
         }
@@ -189,7 +188,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in HandlePartnerInteraction: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in HandlePartnerInteraction: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -245,7 +244,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OpenPartnerMenu: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OpenPartnerMenu: {ex.Message} {ex.StackTrace}");
                 if (partnerMenu != null) partnerMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
             }
@@ -311,7 +310,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OnPartnerMenuItemActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OnPartnerMenuItemActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
                 if (partnerMenu != null) partnerMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
             }
@@ -325,7 +324,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                 Logger.Error($"PartnerModule error in OnPartnerMenuClosed: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OnPartnerMenuClosed: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -344,7 +343,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OrderHoldAndEngage: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OrderHoldAndEngage: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -362,7 +361,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OrderCoveringFire: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OrderCoveringFire: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -391,7 +390,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OrderArrestSuspect: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OrderArrestSuspect: {ex.Message} {ex.StackTrace}");
             }
         }
         private Ped _targetSuspectForArrest = null; // Field to store arrest target
@@ -410,7 +409,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule GetEntityPlayerIsAimingAt error: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule GetEntityPlayerIsAimingAt error: {ex.Message} {ex.StackTrace}");
                 return null;
             }
         }
@@ -444,7 +443,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in RecruitPartner: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in RecruitPartner: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du recrutement du partenaire.");
                 if (officer != null && officer.Exists() && PoliceSharedData.IsManagedPartner(officer))
                 {
@@ -477,7 +476,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in DismissPartner: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in DismissPartner: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du renvoi du partenaire.");
                 // Attempt to clean up state even on error
                 if (partner != null) PoliceSharedData.RemoveManagedPartner(partner);
@@ -501,7 +500,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in RequestAssistance: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in RequestAssistance: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de la demande d'assistance.");
             }
         }
@@ -520,7 +519,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OrderStay: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OrderStay: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur: impossible d'ordonner de rester.");
             }
         }
@@ -540,7 +539,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in OrderFollow: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in OrderFollow: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur: impossible d'ordonner de suivre.");
             }
         }
@@ -564,7 +563,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in GetReport: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in GetReport: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur: impossible d'obtenir un rapport.");
             }
         }
@@ -634,7 +633,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in UpdatePartnerBehaviour: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in UpdatePartnerBehaviour: {ex.Message} {ex.StackTrace}");
                 if (partner != null && partner.Exists())
                 {
                     try { partner.Task.ClearAll(); } catch { }
@@ -863,7 +862,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in HandleCoveringFireOrder: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in HandleCoveringFireOrder: {ex.Message} {ex.StackTrace}");
                 currentOrder = PartnerOrder.Follow; // Revert to default on error
             }
         }
@@ -937,7 +936,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in HandleArrestSuspectOrder: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in HandleArrestSuspectOrder: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de la tentative d'arrestation par le partenaire.");
                 currentOrder = PartnerOrder.Follow; // Revert to default on error
                 _targetSuspectForArrest = null;
@@ -963,7 +962,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                 Logger.Error($"PartnerModule error in IsCop: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in IsCop: {ex.Message} {ex.StackTrace}");
                  return false; // Safer to assume not a cop if check fails
             }
         }
@@ -988,7 +987,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in FixPoliceRelations: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in FixPoliceRelations: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -1003,7 +1002,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in SetFriendlyToPlayer for ped {ped?.Handle}: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in SetFriendlyToPlayer for ped {ped?.Handle}: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -1059,7 +1058,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                 Logger.Error($"PartnerModule error in MonitorPartnerSafety: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in MonitorPartnerSafety: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -1102,7 +1101,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PartnerModule error in RescuePartner: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in RescuePartner: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du repositionnement du partenaire");
             }
         }
@@ -1119,7 +1118,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                 Logger.Error($"PartnerModule error in ClearPartnerTasks for ped {ped?.Handle}: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PartnerModule error in ClearPartnerTasks for ped {ped?.Handle}: {ex.Message} {ex.StackTrace}");
             }
         }
     }

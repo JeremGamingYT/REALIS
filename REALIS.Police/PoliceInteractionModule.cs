@@ -8,7 +8,6 @@ using REALIS.Common;
 using LemonUI;
 using LemonUI.Menus;
 using System.Windows.Forms;
-using REALIS.Core; // Added for Logger
 
 namespace REALIS.Police
 {
@@ -101,7 +100,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in Update: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in Update: {ex.Message} {ex.StackTrace}");
                 // Basic recovery: end any ongoing interaction to prevent stuck state
                 if (isInteracting) EndInteraction();
                 if (mainInteractionMenu != null && mainInteractionMenu.Visible) mainInteractionMenu.Visible = false;
@@ -125,7 +124,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in Dispose: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in Dispose: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -170,7 +169,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in FindInteractionTarget: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in FindInteractionTarget: {ex.Message} {ex.StackTrace}");
                 targetPed = null;
                 targetVehicle = null;
             }
@@ -199,7 +198,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in HandleInteractions: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in HandleInteractions: {ex.Message} {ex.StackTrace}");
             }
         }
 
@@ -320,7 +319,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OpenInteractionMenu: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OpenInteractionMenu: {ex.Message} {ex.StackTrace}");
                 if (mainInteractionMenu != null) mainInteractionMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
                 EndInteraction(); // Try to unfreeze ped
@@ -388,7 +387,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OnMainInteractionActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OnMainInteractionActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
                 if (mainInteractionMenu != null) mainInteractionMenu.Visible = false; // Attempt to close menu
                 PoliceSharedData.ForceCloseMenu();
                 EndInteraction(); // Try to unfreeze ped
@@ -404,7 +403,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OnMainInteractionClosed: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OnMainInteractionClosed: {ex.Message} {ex.StackTrace}");
                 EndInteraction(); // Ensure ped is unfrozen if possible
             }
         }
@@ -436,7 +435,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in StartInteraction: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in StartInteraction: {ex.Message} {ex.StackTrace}");
                 isInteracting = false; // Reset state
                 interactingPed = null;
             }
@@ -460,7 +459,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                 Logger.Error($"PoliceInteractionModule error in EndInteraction (ped cleanup): {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in EndInteraction (ped cleanup): {ex.Message} {ex.StackTrace}");
             }
             finally // Ensure state is reset even if ped operations fail
             {
@@ -492,7 +491,7 @@ namespace REALIS.Police
                 }
                 catch (Exception exNative) // Catching exception from native call specifically
                 {
-                    Logger.Error($"PoliceInteractionModule error in MaintainInteractionState (native task check): {exNative.Message} {exNative.StackTrace}");
+                    GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in MaintainInteractionState (native task check): {exNative.Message} {exNative.StackTrace}");
                     // En cas d'erreur, remettre le PNJ en place
                     if(interactingPed != null && interactingPed.Exists()){
                         interactingPed.Task.ClearAll();
@@ -503,7 +502,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in MaintainInteractionState (outer): {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in MaintainInteractionState (outer): {ex.Message} {ex.StackTrace}");
                  // Attempt to recover by ending interaction if ped state is unstable
                 EndInteraction();
             }
@@ -540,7 +539,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in CheckInteractionEnd: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in CheckInteractionEnd: {ex.Message} {ex.StackTrace}");
                 EndInteraction(); // Attempt to recover
             }
         }
@@ -580,7 +579,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in CheckIdentification: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in CheckIdentification: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du contrôle d'identité.");
             }
         }
@@ -615,7 +614,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in PerformBreathalyzer: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in PerformBreathalyzer: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du test d'alcoolémie.");
             }
         }
@@ -644,7 +643,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in PerformDrugTest: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in PerformDrugTest: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du test de drogues.");
             }
         }
@@ -685,7 +684,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OpenTrafficTicketMenu: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OpenTrafficTicketMenu: {ex.Message} {ex.StackTrace}");
                 if (trafficTicketMenu != null) trafficTicketMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
                 // Re-open main menu if it was visible
@@ -724,7 +723,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OnTrafficTicketActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OnTrafficTicketActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
                 if (trafficTicketMenu != null) trafficTicketMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
                  if (mainInteractionMenu != null && PoliceSharedData.TryOpenMenu(mainInteractionMenu, "PoliceInteractionModule")) mainInteractionMenu.Visible = true;
@@ -743,7 +742,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OnTrafficTicketClosed: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OnTrafficTicketClosed: {ex.Message} {ex.StackTrace}");
                 // Ensure main menu is attempted to be shown or interaction ends
                 if (mainInteractionMenu == null || !mainInteractionMenu.Visible) EndInteraction();
             }
@@ -785,7 +784,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in SearchVehicle: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in SearchVehicle: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de la fouille du véhicule.");
             }
         }
@@ -821,7 +820,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in SearchPerson: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in SearchPerson: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de la fouille corporelle.");
             }
         }
@@ -860,7 +859,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in CheckLicensePlate: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in CheckLicensePlate: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de la vérification de plaque.");
             }
         }
@@ -901,7 +900,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OpenInterrogationMenu: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OpenInterrogationMenu: {ex.Message} {ex.StackTrace}");
                 if(interrogationMenu != null) interrogationMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
                 if (mainInteractionMenu != null && PoliceSharedData.TryOpenMenu(mainInteractionMenu, "PoliceInteractionModule")) mainInteractionMenu.Visible = true;
@@ -947,7 +946,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OnInterrogationActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OnInterrogationActivated for item '{e.Item?.Title}': {ex.Message} {ex.StackTrace}");
                 if(interrogationMenu != null) interrogationMenu.Visible = false;
                 PoliceSharedData.ForceCloseMenu();
                 if (mainInteractionMenu != null && PoliceSharedData.TryOpenMenu(mainInteractionMenu, "PoliceInteractionModule")) mainInteractionMenu.Visible = true;
@@ -966,7 +965,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in OnInterrogationClosed: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in OnInterrogationClosed: {ex.Message} {ex.StackTrace}");
                 if (mainInteractionMenu == null || !mainInteractionMenu.Visible) EndInteraction();
             }
         }
@@ -989,7 +988,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in AskAboutComplices: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in AskAboutComplices: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de l'interrogatoire.");
             }
         }
@@ -1010,7 +1009,7 @@ namespace REALIS.Police
             }
             catch (Exception ex)
             {
-                Logger.Error($"PoliceInteractionModule error in ReadRights: {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in ReadRights: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors de la lecture des droits.");
             }
         }
@@ -1018,11 +1017,9 @@ namespace REALIS.Police
         private bool IsCop(Ped ped)
         {
             // Vérifier plusieurs critères pour identifier un policier
-            if (ped.Model.Hash == PedHash.Cop01SMY || // Removed .GetHashCode()
-                ped.Model.Hash == PedHash.Cop01SFY ||
-                ped.Model.Hash == PedHash.Sheriff01SMY ||
-                ped.Model.Hash == PedHash.Sheriff01SFY)
+            if (ped.Model.Hash.GetHashCode() == PedHash.Cop01SMY.GetHashCode() || ped.Model.Hash.GetHashCode() == PedHash.Cop01SFY.GetHashCode() || ped.Model.Hash.GetHashCode() == PedHash.Sheriff01SMY.GetHashCode() || ped.Model.Hash.GetHashCode() == PedHash.Sheriff01SFY.GetHashCode()) {
                 return true;
+            }
 
             // Vérifier le groupe relationnel
             try
@@ -1032,7 +1029,7 @@ namespace REALIS.Police
             }
             catch (Exception ex) // Catch specific exception from native call if needed, or general
             {
-                Logger.Error($"PoliceInteractionModule error in IsCop (RelationshipGroup check): {ex.Message} {ex.StackTrace}");
+                GTA.UI.Notification.Show($"~r~PoliceInteractionModule error in IsCop (RelationshipGroup check): {ex.Message} {ex.StackTrace}");
                 return false; // Safer to assume not a cop if check fails
             }
         }
