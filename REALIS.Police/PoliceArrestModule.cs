@@ -36,12 +36,12 @@ namespace REALIS.Job
         private readonly TimeSpan _pressCooldown = TimeSpan.FromMilliseconds(300);
 
         // Optimized police vehicle search
-        private static readonly Model[] PoliceVehicleModels = {
-            new Model(VehicleHash.Police), new Model(VehicleHash.Police2), new Model(VehicleHash.Police3), new Model(VehicleHash.Police4),
-            new Model(VehicleHash.Policeb), new Model(VehicleHash.Policet), new Model(VehicleHash.Sheriff), new Model(VehicleHash.Sheriff2),
-            new Model(VehicleHash.Pranger), // Park Ranger
-            new Model(VehicleHash.FIB), new Model(VehicleHash.FBI2) // Unmarked variants often used by police mods
-        };
+            private static readonly Model[] PoliceVehicleModels = {
+                new Model(VehicleHash.Police), new Model(VehicleHash.Police2), new Model(VehicleHash.Police3), new Model(VehicleHash.Police4),
+                new Model(VehicleHash.Policeb), new Model(VehicleHash.PoliceT), new Model(VehicleHash.Sheriff), new Model(VehicleHash.Sheriff2),
+                new Model(VehicleHash.Pranger), // Park Ranger
+                new Model(VehicleHash.FBI), new Model(VehicleHash.FBI2) // Unmarked variants often used by police mods
+            };
         private DateTime _nextVehicleSearchAllowed = DateTime.MinValue;
         private readonly TimeSpan _vehicleSearchCooldown = TimeSpan.FromSeconds(1); // Cooldown for FindNearestPoliceVehicle if T is spammed
 
@@ -484,7 +484,7 @@ namespace REALIS.Job
             }
         }
 
-        private void StopEscort(Ped ped)
+        private static void StopEscort(Ped ped)
         {
             try
             {
