@@ -6,7 +6,7 @@ namespace REALIS.Core
     /// <summary>
     /// Simple logger that writes messages to a local file.
     /// </summary>
-    internal static class Logger
+    public static class Logger
     {
         private static readonly string LogPath = "REALISS.log";
 
@@ -42,6 +42,11 @@ namespace REALIS.Core
         public static void Error(string message)
         {
             Info($"ERROR: {message}");
+        }
+
+        public static void Warn(string message)
+        {
+            Info($"WARN: {message}");
         }
     }
 }

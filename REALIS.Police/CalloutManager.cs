@@ -7,7 +7,6 @@ using REALIS.Common;
 using REALIS.Police.Callouts;
 using LemonUI.Menus;
 using LemonUI;
-using REALIS.Common; // Added for Logger
 
 namespace REALIS.Police
 {

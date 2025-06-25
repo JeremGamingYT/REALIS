@@ -404,7 +404,7 @@ namespace REALIS.Police
 
                 Vector3 camPos = GameplayCamera.Position;
                 Vector3 dir = GameplayCamera.Direction;
-                RaycastResult res = World.Raycast(camPos, camPos + dir * range, IntersectFlags.PedsSimple, player);
+                RaycastResult res = World.Raycast(camPos, camPos + dir * range, IntersectFlags.Peds, player);
                 return res.DidHit ? res.HitEntity : null;
             }
             catch (Exception ex)
@@ -596,11 +596,16 @@ namespace REALIS.Police
                 {
                     engageInCombat = true;
                     // Try to get player's targeted entity
-                    targetEnemy = Game.Player.GetTargetedEntity();
+                    targetEnemy = GetEntityPlayerIsAimingAt();
                 }
-                if (partner.IsInCombat && partner.GetTargetedEntity() != null) {
-                    engageInCombat = true;
-                    if(targetEnemy == null) targetEnemy = partner.GetTargetedEntity();
+                if (partner.IsInCombat)
+                {
+                    var aimed = GetEntityPedIsAimingAt(partner);
+                    if (aimed != null)
+                    {
+                        engageInCombat = true;
+                        if (targetEnemy == null) targetEnemy = aimed;
+                    }
                 }
 
 
@@ -660,7 +665,7 @@ namespace REALIS.Police
                         VehicleSeat targetSeat = FindOpenSeat(veh);
                         if (targetSeat != VehicleSeat.None)
                         {
-                            partner.Task.EnterVehicle(veh, targetSeat, -1, 2.0f, 1);
+                            partner.Task.EnterVehicle(veh, targetSeat, -1, 2.0f, EnterVehicleFlags.None);
                             // Consider removing Script.Wait(100) and SetIntoVehicle for robustness, rely on task.
                         }
                     }
@@ -683,7 +688,7 @@ namespace REALIS.Police
             {
                  if (!partner.IsInVehicle() || (partner.CurrentVehicle != null && partner.CurrentVehicle.Speed < 1f)) {
                     if (targetEnemy != null && targetEnemy.Exists() && targetEnemy is Ped) {
-                        partner.Task.CombatPed((Ped)targetEnemy);
+                        partner.Task.FightAgainst((Ped)targetEnemy);
                     } else {
                         Function.Call(Hash.TASK_COMBAT_HATED_TARGETS_AROUND_PED, partner.Handle, 50f, 0);
                     }
@@ -729,7 +734,7 @@ namespace REALIS.Police
             {
                  if (!partner.IsInVehicle() || (partner.CurrentVehicle != null && partner.CurrentVehicle.Speed < 1f)) {
                     if (targetEnemy != null && targetEnemy.Exists() && targetEnemy is Ped) {
-                        partner.Task.CombatPed((Ped)targetEnemy);
+                        partner.Task.FightAgainst((Ped)targetEnemy);
                     } else {
                         Function.Call(Hash.TASK_COMBAT_HATED_TARGETS_AROUND_PED, partner.Handle, 50f, 0);
                     }
@@ -752,10 +757,11 @@ namespace REALIS.Police
             {
                 if (!partner.IsInVehicle() || (partner.CurrentVehicle != null && partner.CurrentVehicle.Speed < 1f)) {
                     if (targetEnemy != null && targetEnemy.Exists() && targetEnemy is Ped) {
-                        partner.Task.CombatPed((Ped)targetEnemy);
+                        partner.Task.FightAgainst((Ped)targetEnemy);
                     } else {
                         // TASK_GUARD_CURRENT_POSITION makes them static, TASK_COMBAT_HATED_TARGETS_IN_AREA might be better
-                        Function.Call(Hash.TASK_COMBAT_HATED_TARGETS_IN_AREA, partner.Handle, partner.Position, 50f, 0);
+                        Vector3 pos = partner.Position;
+                        Function.Call(Hash.TASK_COMBAT_HATED_TARGETS_IN_AREA, partner.Handle, pos.X, pos.Y, pos.Z, 50f, 0);
                     }
                 }
             }
@@ -784,7 +790,7 @@ namespace REALIS.Police
                 bool foundCover = false;
 
                 // Try to find cover near the partner or player
-                if (partner.IsInCover())
+                if (partner.IsInCover)
                 {
                     coverPosition = partner.Position;
                     foundCover = true;
@@ -808,7 +814,7 @@ namespace REALIS.Police
 
                 if (engageInCombat)
                 {
-                    if (foundCover && partner.Position.DistanceTo(coverPosition) > 2f && !partner.IsInCover())
+                    if (foundCover && partner.Position.DistanceTo(coverPosition) > 2f && !partner.IsInCover)
                     {
                         // Go to cover then engage
                         partner.Task.GoTo(coverPosition);
@@ -818,22 +824,23 @@ namespace REALIS.Police
                     }
 
                     // Prioritize player's attacker if player is being shot at
-                    if (player.IsBeingShotAt)
+                    if (player.IsInCombat)
                     {
                         // This is hard to get the actual shooter without more complex logic (e.g. raycasting from player)
                         // For now, use general combat logic or player's target if available.
                         if (targetEnemy != null && targetEnemy.Exists() && targetEnemy is Ped)
                         {
-                            partner.Task.CombatPed((Ped)targetEnemy, player); // Combat ped, optionally with player as owner (for assist)
+                            partner.Task.FightAgainst((Ped)targetEnemy); // Combat ped
                         }
                         else
                         {
-                             Function.Call(Hash.TASK_COMBAT_HATED_TARGETS_IN_AREA, partner.Handle, player.Position, 70f, 0);
+                            Vector3 pPos = player.Position;
+                            Function.Call(Hash.TASK_COMBAT_HATED_TARGETS_IN_AREA, partner.Handle, pPos.X, pPos.Y, pPos.Z, 70f, 0);
                         }
                     }
                     else if (targetEnemy != null && targetEnemy.Exists() && targetEnemy is Ped)
                     {
-                        partner.Task.CombatPed((Ped)targetEnemy);
+                        partner.Task.FightAgainst((Ped)targetEnemy);
                     }
                     else
                     {
@@ -842,7 +849,7 @@ namespace REALIS.Police
                 }
                 else // Not actively in combat by player/partner direct engagement
                 {
-                    if (foundCover && partner.Position.DistanceTo(coverPosition) > 1.5f && !partner.IsInCover())
+                    if (foundCover && partner.Position.DistanceTo(coverPosition) > 1.5f && !partner.IsInCover)
                     {
                          partner.Task.GoTo(coverPosition);
                     } else if (foundCover) {
@@ -885,7 +892,7 @@ namespace REALIS.Police
                 if (_targetSuspectForArrest.IsInCombatAgainst(partner) || _targetSuspectForArrest.IsInCombatAgainst(player) || Function.Call<bool>(Hash.IS_PED_FLEEING, _targetSuspectForArrest.Handle))
                 {
                     GTA.UI.Notification.Show($"~b~Partenaire: \"La cible {_targetSuspectForArrest.Handle} est hostile/fuit! Engagement!\"");
-                    partner.Task.CombatPed(_targetSuspectForArrest);
+                    partner.Task.FightAgainst(_targetSuspectForArrest);
                     // Consider reverting order after combat starts, or let combat logic in Follow/HoldEngage take over if more appropriate
                     // For now, let combat task run. The order will change if player gives a new one or this one times out/succeeds.
                     // To make it more robust, we might need a sub-state like "EngagingArrestTarget"
@@ -894,12 +901,12 @@ namespace REALIS.Police
 
                 if (distanceToSuspect > 15f && partner.TaskSequenceProgress == -1) // If too far and not already tasked
                 {
-                     partner.Task.GoTo(_targetSuspectForArrest.Position, false, 5.0f); // Go closer, but not right on top initially
+                     partner.Task.GoTo(_targetSuspectForArrest.Position, -1);
                      return;
                 }
                 else if (distanceToSuspect > 3f && partner.TaskSequenceProgress == -1) // Getting closer
                 {
-                     partner.Task.GoTo(_targetSuspectForArrest.Position, false, 1.0f); // Approach carefully
+                     partner.Task.GoTo(_targetSuspectForArrest.Position, -1); // Approach carefully
                      return;
                 }
                 else if (distanceToSuspect <= 3f) // Close enough
@@ -930,7 +937,7 @@ namespace REALIS.Police
                 }
                  // If none of the above, and partner is idle, try to re-evaluate (e.g. GoTo)
                 if(partner.IsIdle && distanceToSuspect > 1.5f) {
-                    partner.Task.GoTo(_targetSuspectForArrest.Position, false, 1.0f);
+                    partner.Task.GoTo(_targetSuspectForArrest.Position, -1);
                 }
 
             }
@@ -950,10 +957,10 @@ namespace REALIS.Police
             try
             {
                 // Vérifier plusieurs critères pour identifier un policier
-                if (ped.Model.Hash == PedHash.Cop01SMY || // Removed .GetHashCode()
-                    ped.Model.Hash == PedHash.Cop01SFY ||
-                    ped.Model.Hash == PedHash.Sheriff01SMY ||
-                    ped.Model.Hash == PedHash.Sheriff01SFY)
+                if ((PedHash)ped.Model.Hash == PedHash.Cop01SMY ||
+                    (PedHash)ped.Model.Hash == PedHash.Cop01SFY ||
+                    (PedHash)ped.Model.Hash == PedHash.Sheriff01SMY ||
+                    (PedHash)ped.Model.Hash == PedHash.Sheriff01SFY)
                     return true;
 
                 // Vérifier le groupe relationnel
@@ -1086,7 +1093,7 @@ namespace REALIS.Police
                 }
 
                 partner.Position = rescuePos;
-                partner.PlaceOnGround(); // Ensure they are properly on the ground
+                Function.Call(Hash.SET_PED_COORDS_KEEP_VEHICLE, partner.Handle, rescuePos.X, rescuePos.Y, rescuePos.Z);
 
                 // Réappliquer les protections
                 partner.CanRagdoll = false;
@@ -1103,6 +1110,37 @@ namespace REALIS.Police
             {
                 GTA.UI.Notification.Show($"~r~PartnerModule error in RescuePartner: {ex.Message} {ex.StackTrace}");
                 GTA.UI.Notification.Show("~r~Erreur lors du repositionnement du partenaire");
+            }
+        }
+
+        private static Entity GetEntityPlayerIsAimingAt()
+        {
+            try
+            {
+                Vector3 camPos = GameplayCamera.Position;
+                Vector3 dir = GameplayCamera.Direction;
+                RaycastResult res = World.Raycast(camPos, camPos + dir * 100f, IntersectFlags.Peds, Game.Player.Character);
+                return res.DidHit ? res.HitEntity : null;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        private static Entity GetEntityPedIsAimingAt(Ped ped)
+        {
+            if (ped == null || !ped.Exists()) return null;
+            try
+            {
+                Vector3 camPos = ped.Bones[Bone.SkelHead].Position;
+                Vector3 dir = ped.ForwardVector;
+                RaycastResult res = World.Raycast(camPos, camPos + dir * 100f, IntersectFlags.Peds, ped);
+                return res.DidHit ? res.HitEntity : null;
+            }
+            catch
+            {
+                return null;
             }
         }
 

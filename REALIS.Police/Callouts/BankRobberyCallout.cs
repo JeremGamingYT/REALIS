@@ -86,7 +86,7 @@ namespace REALIS.Police.Callouts
                 Random rng = new Random();
                 int numberOfRobbers = rng.Next(2, 5); // Randomly 2, 3, or 4 robbers
 
-                var robberModels = new PedHash[] { PedHash.Lost01GMY, PedHash.Lost02GMY, PedHash.Lost03GMY, PedHash.BallaEast01G }; // Added one more model variety
+                var robberModels = new PedHash[] { PedHash.Lost01GMY, PedHash.Lost02GMY, PedHash.Lost03GMY, PedHash.BallaEast01GMY }; // Added one more model variety
 
                 for (int i = 0; i < numberOfRobbers; i++)
                 {
@@ -371,7 +371,7 @@ namespace REALIS.Police.Callouts
                     {
                         Function.Call(Hash.TASK_COMBAT_PED, swat.Handle, targetRobber.Handle, 0, 16);
                     } else {
-                        swat.Task.GoTo(_bankLocation, false);
+                        swat.Task.GoTo(_bankLocation);
                     }
                 }
 
