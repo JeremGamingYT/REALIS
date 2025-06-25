@@ -18,8 +18,7 @@ namespace REALIS.Job
         // Utilise le Control.Context (touche 'E' par défaut sur PC)
 
         private bool _onDuty;
-        private DateTime _lastPrompt = DateTime.MinValue;
-        private readonly TimeSpan _promptCooldown = TimeSpan.FromSeconds(1.5);
+        private bool _showingPrompt;
         private Vehicle _serviceVehicle;
         private int _originalArmor;
         private int _originalMaxWanted;
@@ -48,15 +47,12 @@ namespace REALIS.Job
 
                 if (dist <= InteractionRange)
                 {
-                    // Afficher la prompt uniquement si le cooldown est passé
-                    if (DateTime.Now - _lastPrompt > _promptCooldown)
-                    {
-                        _lastPrompt = DateTime.Now;
-                        string msg = _onDuty
-                            ? "~INPUT_CONTEXT~ Quitter le service" // INPUT_CONTEXT = touche E / Enter véhicule
-                            : "~INPUT_CONTEXT~ Prendre son service";
-                        GTA.UI.Screen.ShowHelpTextThisFrame(msg);
-                    }
+                    // Afficher la prompt à chaque frame quand le joueur est dans la zone
+                    _showingPrompt = true;
+                    string msg = _onDuty
+                        ? "~INPUT_CONTEXT~ Quitter le service" // INPUT_CONTEXT = touche E / Enter véhicule
+                        : "~INPUT_CONTEXT~ Prendre son service";
+                    GTA.UI.Screen.ShowHelpTextThisFrame(msg);
 
                     // Détection de la touche d'action
                     if (Game.IsControlJustPressed(GTA.Control.Context))
@@ -65,17 +61,21 @@ namespace REALIS.Job
                         else StartDuty(player);
                     }
                 }
+                else
+                {
+                    _showingPrompt = false;
+                }
 
                 // Si en service, s'assurer qu'aucune étoile n'est attribuée
                 if (_onDuty)
                 {
-                    // Si un système extérieur (ex: callout) a défini un WantedLevel non nul, ne l'écrasons pas
-                    if (Game.Player.WantedLevel == 0)
-                        ; // rien à faire
-                    else if (Game.Player.WantedLevel > 0 && Game.Player.WantedLevel <= 1)
-                        ; // On autorise 1 étoile factice pour le visuel.
-                    else if (Game.Player.WantedLevel > 1)
-                        Game.Player.WantedLevel = 1; // limite à 1 max pendant le service
+                    // Aucune étoile ne doit être attribuée lorsque le joueur est en service.
+                    if (Game.Player.WantedLevel > 0)
+                    {
+                        Function.Call(Hash.CLEAR_PLAYER_WANTED_LEVEL, Game.Player);
+                        Game.Player.WantedLevel = 0;
+                        Function.Call(Hash.SET_PLAYER_WANTED_LEVEL_NOW, Game.Player, false);
+                    }
 
                     // Gestion du blip du véhicule de service
                     if (_serviceVehicle != null && _serviceVehicle.Exists())
@@ -149,7 +149,15 @@ namespace REALIS.Job
 
             // Désactiver la recherche par la police
             Game.Player.IgnoredByPolice = true;
-            Game.Player.DispatchsCops = false;
+            Game.Player.DispatchsCops = true;
+
+            // S'assurer que les autres policiers ne considèrent pas le joueur comme hostile
+            int playerGroup = Game.Player.Character.RelationshipGroup.Hash;
+            // "COP" est le groupe relationnel par défaut des forces de l'ordre dans GTA V
+            int copGroup = Function.Call<int>(Hash.GET_HASH_KEY, "COP");
+            // 1 = Respect / Companion  (voir natives)
+            Function.Call(Hash.SET_RELATIONSHIP_BETWEEN_GROUPS, 1, playerGroup, copGroup);
+            Function.Call(Hash.SET_RELATIONSHIP_BETWEEN_GROUPS, 1, copGroup, playerGroup);
 
             // Appliquer l'uniforme
             PoliceLoadout.ApplyUniform(player);
@@ -187,7 +195,13 @@ namespace REALIS.Job
 
             // On s'assure que la police ignore toujours le joueur durant ce cooldown
             Game.Player.IgnoredByPolice = true;
-            Game.Player.DispatchsCops = false;
+            Game.Player.DispatchsCops = true;
+
+            // Rétablir les relations par défaut (3 = Neutral)
+            int playerGroup = Game.Player.Character.RelationshipGroup.Hash;
+            int copGroup = Function.Call<int>(Hash.GET_HASH_KEY, "COP");
+            Function.Call(Hash.SET_RELATIONSHIP_BETWEEN_GROUPS, 3, playerGroup, copGroup);
+            Function.Call(Hash.SET_RELATIONSHIP_BETWEEN_GROUPS, 3, copGroup, playerGroup);
 
             // Supprimer l'équipement policier
             player.Weapons.Remove(WeaponHash.Pistol);

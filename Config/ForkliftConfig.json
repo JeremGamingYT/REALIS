@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "description": "Configuration pour le contrôle des chariots élévateurs",
+  "enabled": true,
+  "controls": {
+    "raiseFork": {
+      "key": "Up",
+      "description": "Lever les fourches (Flèche Haut)",
+      "enabled": true
+    },
+    "lowerFork": {
+      "key": "Down", 
+      "description": "Baisser les fourches (Flèche Bas)",
+      "enabled": true
+    },
+    "tiltForward": {
+      "key": "Right",
+      "description": "Incliner le mât vers l'avant (Flèche Droite)",
+      "enabled": true
+    },
+    "tiltBackward": {
+      "key": "Left",
+      "description": "Incliner le mât vers l'arrière (Flèche Gauche)", 
+      "enabled": true
+    },
+    "extendFork": {
+      "key": "Q",
+      "description": "Étendre les fourches",
+      "enabled": true
+    },
+    "retractFork": {
+      "key": "E",
+      "description": "Rétracter les fourches",
+      "enabled": true
+    },
+    "toggleHelp": {
+      "key": "H",
+      "description": "Afficher/masquer l'aide",
+      "enabled": true
+    },
+    "fastMode": {
+      "key": "Shift",
+      "description": "Mode rapide (maintenir + autre touche)",
+      "enabled": true
+    }
+  },
+  "mechanics": {
+    "forkSpeed": 0.015,
+    "tiltSpeed": 0.02,
+    "extensionSpeed": 0.01,
+    "maxForkHeight": 1.0,
+    "minForkHeight": 0.0,
+    "maxForkTilt": 1.0,
+    "minForkTilt": -1.0,
+    "maxForkExtension": 1.0,
+    "minForkExtension": 0.0
+  },
+  "audio": {
+    "enableHydraulicSounds": true,
+    "soundVolume": 0.8,
+    "primarySoundBank": "DLC_CHRISTMAS2017_VEHICLE_SOUNDS",
+    "fallbackSoundBank": "HUD_MINI_GAME_SOUNDSET",
+    "primarySound": "HYDRAULIC_MOVE",
+    "fallbackSound": "TIMER_STOP"
+  },
+  "ui": {
+    "showHelp": true,
+    "helpToggleCooldown": 500,
+    "showStatusHUD": true,
+    "hudPosition": {
+      "x": 0.02,
+      "y": 0.8
+    },
+    "hudTextScale": 0.35,
+    "hudColor": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+  "vehicles": {
+    "supportedModels": [
+      "FORKLIFT",
+      "DOCKTUG", 
+      "CADDY",
+      "CADDY2",
+      "CADDY3",
+      "SCISSOR",
+      "HANDLER",
+      "AIRTUG",
+      "RIPLEY"
+    ],
+    "autoDetection": true
+  },
+  "performance": {
+    "updateFrequency": 16,
+    "enableDebugging": false,
+    "logControlInputs": false
+  },
+  "safety": {
+    "preventExcessiveSpeed": true,
+    "speedLimitWithRaisedForks": 15.0,
+    "autoLowerOnExit": false,
+    "warningMessages": true
+  }
+} 

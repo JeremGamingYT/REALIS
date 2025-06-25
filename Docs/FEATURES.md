@@ -38,6 +38,15 @@ Ce document résume toutes les fonctionnalités du mod REALIS, un système de si
 - **Blips dynamiques** : Suivi en temps réel de toutes les locomotives
 - **Navigation** : Parcours sur l'ensemble du réseau ferroviaire
 
+### Contrôle des Chariots Élévateurs
+- **Véhicules supportés** : Forklift, Docktug, Caddy (toutes variantes)
+- **Fonctions hydrauliques** : Lever/baisser les fourches, inclinaison du mât
+- **Contrôles accessibles** : Flèches directionnelles + Q/E (compatible tous claviers)
+- **Mode rapide** : Shift + touches pour mouvements accélérés
+- **Interface en temps réel** : Affichage des pourcentages et aide contextuelle (H)
+- **Sons réalistes** : Effets sonores hydrauliques lors des mouvements
+- **Limites sécurisées** : Mouvements progressifs et réalistes pour éviter les bugs
+
 ## 🏪 Commerce et Services
 
 ### Stations-service

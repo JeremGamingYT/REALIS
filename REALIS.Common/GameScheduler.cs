@@ -4,8 +4,8 @@ using System.Collections.Generic;
 namespace REALIS.Common
 {
     /// <summary>
-    /// Permet de planifier lexécution différée dune action sans bloquer le thread ScriptHookVDotNet.
-    /// Chaque Tick, ModuleManager appellera <see cref="Tick"/> afin dexécuter celles dont léchéance est atteinte.
+    /// Permet de planifier lexécution différée dune action sans bloquer le thread ScriptHookVDotNet.
+    /// Chaque Tick, ModuleManager appellera <see cref="Tick"/> afin dexécuter celles dont léchéance est atteinte.
     /// </summary>
     public static class GameScheduler
     {
@@ -19,7 +19,7 @@ namespace REALIS.Common
         private static readonly object _lockObj = new object();
 
         /// <summary>
-        /// Planifie laction <paramref name="action"/> pour quelle sexécute après <paramref name="delayMs"/> millisecondes.
+        /// Planifie laction <paramref name="action"/> pour quelle sexécute après <paramref name="delayMs"/> millisecondes.
         /// </summary>
         public static void Schedule(Action action, int delayMs)
         {
@@ -60,6 +60,31 @@ namespace REALIS.Common
                     System.Diagnostics.Debug.WriteLine($"GameScheduler action exception: {ex.Message}");
                 }
             }
+        }
+    }
+
+    /// <summary>
+    /// Représente une plage horaire pour les activités du jeu
+    /// </summary>
+    public class TimeRange
+    {
+        public static readonly TimeRange AnyTime = new TimeRange(0, 24);
+        
+        public int StartHour { get; set; }
+        public int EndHour { get; set; }
+
+        public TimeRange(int startHour, int endHour)
+        {
+            StartHour = startHour;
+            EndHour = endHour;
+        }
+
+        public bool IsActive(int currentHour)
+        {
+            if (StartHour <= EndHour)
+                return currentHour >= StartHour && currentHour <= EndHour;
+            else
+                return currentHour >= StartHour || currentHour <= EndHour;
         }
     }
 } 

@@ -5,6 +5,8 @@ using GTA;
 using GTA.Native;
 using REALIS.Common;
 using REALIS.Police.Callouts;
+using LemonUI.Menus;
+using LemonUI;
 
 namespace REALIS.Police
 {
@@ -21,18 +23,41 @@ namespace REALIS.Police
         private CalloutBase _activeCallout;
         private readonly Random _rng = new Random();
         private DateTime _nextCalloutTime;
+        private ObjectPool _uiPool;
+        private NativeMenu _responseMenu;
 
         public void Initialize()
         {
             Instance = this;
             // Enregistre les callouts disponibles
             _calloutPool.Add(new StolenVehicleCallout());
+            
+            // Callout de test
+            _calloutPool.Add(new TestCallout());
+            
+            // Nouveaux callouts épiques !
+            _calloutPool.Add(new StreetRacingCallout());
+            _calloutPool.Add(new HostageSituationCallout());
+            _calloutPool.Add(new CartelWarCallout());
+            _calloutPool.Add(new DisasterResponseCallout());
+            
+            // Callouts activés
+            _calloutPool.Add(new BankRobberyCallout());
+            _calloutPool.Add(new TerroristAttackCallout());
+            
             ScheduleNext();
+
+            _uiPool = new ObjectPool();
         }
 
         public void Update()
         {
             if (!DutyState.PoliceOnDuty) return;
+
+            _uiPool.Process();
+
+            // Si l'officier est marqué comme occupé, ne rien proposer
+            if (!REALIS.Police.Radio.BackupRadioModule.Available) return;
 
             // Si un callout est actif, le mettre à jour
             if (_activeCallout != null)
@@ -42,7 +67,7 @@ namespace REALIS.Police
                 {
                     _activeCallout = null;
                     // Désactive le visuel de recherche
-                    WantedVisualModule.Instance?.Disable();
+                    WantedVisualSystem.Instance?.Clear();
                     ScheduleNext();
                 }
                 return;
@@ -52,17 +77,11 @@ namespace REALIS.Police
             if (_pendingCallout != null)
             {
                 // Affiche le texte d'aide chaque frame
-                GTA.UI.Screen.ShowHelpTextThisFrame("~INPUT_CONTEXT~ Accepter le callout");
+                GTA.UI.Screen.ShowHelpTextThisFrame("~y~Y~w~ : répondre au callout");
 
-                if (Game.IsControlJustPressed(GTA.Control.Context))
+                if (Game.IsKeyPressed(System.Windows.Forms.Keys.Y) && _responseMenu == null)
                 {
-                    // Accepté
-                    _activeCallout = _pendingCallout;
-                    _activeCallout.Start();
-                    // Active le visuel de recherche
-                    WantedVisualModule.Instance?.Enable();
-                    _pendingCallout = null;
-                    return;
+                    ShowResponseMenu();
                 }
 
                 // Annuler automatiquement à expiration
@@ -70,6 +89,12 @@ namespace REALIS.Police
                 {
                     GTA.UI.Notification.Show("~r~Callout refusé");
                     _pendingCallout = null;
+                    if (_responseMenu != null)
+                    {
+                        _responseMenu.Visible = false;
+                        _uiPool.Remove(_responseMenu);
+                        _responseMenu = null;
+                    }
                     ScheduleNext();
                 }
 
@@ -100,8 +125,8 @@ namespace REALIS.Police
 
         private void ScheduleNext()
         {
-            // Entre 2 et 5 minutes
-            int minutes = _rng.Next(2, 6);
+            // Entre 1 et 4 minutes (plus fréquent pour plus d'action!)
+            int minutes = _rng.Next(1, 5);
             _nextCalloutTime = DateTime.Now.AddMinutes(minutes);
         }
 
@@ -122,7 +147,7 @@ namespace REALIS.Police
             {
                 _activeCallout.End();
                 _activeCallout = null;
-                WantedVisualModule.Instance?.Disable();
+                WantedVisualSystem.Instance?.Clear();
                 ScheduleNext();
             }
         }
@@ -140,6 +165,77 @@ namespace REALIS.Police
             _pendingCallout = candidates[_rng.Next(candidates.Count)];
             _offerDeadline = DateTime.Now.AddSeconds(30);
             ShowCalloutNotification(_pendingCallout);
+        }
+
+        /// <summary>
+        /// Démarre immédiatement un callout spécifique par son nom de classe.
+        /// </summary>
+        public void StartSpecificCallout(string calloutTypeName)
+        {
+            if (_activeCallout != null)
+            {
+                GTA.UI.Notification.Show("~r~Un callout est déjà en cours!");
+                return;
+            }
+
+            if (_pendingCallout != null)
+            {
+                GTA.UI.Notification.Show("~r~Un callout est déjà en attente!");
+                return;
+            }
+
+            var specificCallout = _calloutPool.FirstOrDefault(c => c.GetType().Name == calloutTypeName);
+            if (specificCallout == null)
+            {
+                GTA.UI.Notification.Show($"~r~Callout '{calloutTypeName}' non trouvé!");
+                return;
+            }
+
+            if (!specificCallout.CanSpawn())
+            {
+                GTA.UI.Notification.Show($"~r~{specificCallout.Name} n'est pas disponible actuellement!");
+                return;
+            }
+
+            // Démarrer immédiatement le callout
+            _activeCallout = specificCallout;
+            _activeCallout.Start();
+            WantedVisualSystem.Instance?.SetLevel(1);
+            GTA.UI.Notification.Show($"~g~{specificCallout.Name} démarré!");
+        }
+
+        private void ShowResponseMenu()
+        {
+            _responseMenu = new NativeMenu("Appel reçu", _pendingCallout?.Name ?? "Callout");
+            _responseMenu.Add(new NativeItem("Accepter"));
+            _responseMenu.Add(new NativeItem("Refuser"));
+            _responseMenu.ItemActivated += OnResponseActivated;
+            _uiPool.Add(_responseMenu);
+            _responseMenu.Visible = true;
+        }
+
+        private void OnResponseActivated(object sender, ItemActivatedArgs e)
+        {
+            int idx = _responseMenu.Items.IndexOf(e.Item);
+            _responseMenu.Visible = false;
+            _uiPool.Remove(_responseMenu);
+            _responseMenu = null;
+
+            if (idx == 0)
+            {
+                // Accepter
+                _activeCallout = _pendingCallout;
+                _activeCallout.Start();
+                WantedVisualSystem.Instance?.SetLevel(1);
+            }
+            else
+            {
+                // Refuser
+                GTA.UI.Notification.Show("~r~Callout refusé");
+                ScheduleNext();
+            }
+
+            _pendingCallout = null;
         }
     }
 } 
