@@ -263,7 +263,7 @@ namespace REALIS.Events
                 {
                     if (!driver.Exists()) { _busyDrivers.Remove(driver); return; }
 
-                    driver.Task.GoTo(bin.Position);
+                    driver.Task.FollowNavMeshTo(bin.Position);
 
                     // Vérifier périodiquement l'arrivée
                     void CheckArrival()

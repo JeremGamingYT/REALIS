@@ -531,7 +531,7 @@ namespace REALIS.Events
                     // Faire partir l'unité - les véhicules n'ont pas de Task, seuls les conducteurs en ont
                     if (unit.Driver != null && unit.Driver.Exists())
                     {
-                        unit.Driver.Task.WanderAround();
+                        unit.Driver.Task.Wander();
                     }
                 }
             }

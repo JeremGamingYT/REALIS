@@ -136,7 +136,7 @@ namespace REALIS.Events
             if (DateTime.Now - _lastEventCheck < _eventCheckInterval) return;
 
             var currentWeather = World.Weather;
-            var currentHour = World.CurrentTimeOfDay.Hours;
+            var currentHour = GTA.Chrono.GameClock.Hour;
 
             foreach (var eventType in _eventConfigs.Keys)
             {
@@ -177,7 +177,7 @@ namespace REALIS.Events
 
             // Notification au joueur
             var eventName = GetEventName(eventType);
-            GTA.UI.Notification.Show($"~o~Événement: {eventName} en cours dans la zone!");
+            GTA.UI.Notification.PostTicker($"~o~Événement: {eventName} en cours dans la zone!", false, false);
         }
 
         private void CreateEventScene(RandomEvent randomEvent)
@@ -229,8 +229,8 @@ namespace REALIS.Events
             
             if (fighter1 != null && fighter1.Exists() && fighter2 != null && fighter2.Exists())
             {
-                fighter1.Task.FightAgainst(fighter2);
-                fighter2.Task.FightAgainst(fighter1);
+                fighter1.Task.Combat(fighter2);
+                fighter2.Task.Combat(fighter1);
                 randomEvent.InvolvedPeds.AddRange(new[] { fighter1, fighter2 });
                 
                 // Créer spectateurs
@@ -499,7 +499,7 @@ namespace REALIS.Events
             Function.Call(Hash.PLAY_SOUND_FROM_COORD, -1, "Thunder", 
                 lightningPos.X, lightningPos.Y, lightningPos.Z, "WEATHER_SOUNDSET", false, 0, false);
                 
-            GTA.UI.Notification.Show("~p~Éclair violent dans la zone!");
+            GTA.UI.Notification.PostTicker("~p~Éclair violent dans la zone!", false, false);
         }
 
         private void CreateFloodEvent()
@@ -523,7 +523,7 @@ namespace REALIS.Events
                 }
             }
             
-            GTA.UI.Notification.Show("~b~Inondation signalée dans la zone!");
+            GTA.UI.Notification.PostTicker("~b~Inondation signalée dans la zone!", false, false);
         }
 
         private void UpdateActiveEvents()

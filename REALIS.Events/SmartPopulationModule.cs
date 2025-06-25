@@ -162,7 +162,7 @@ namespace REALIS.Events
 
         private void AdjustPopulationDensity()
         {
-            var currentHour = World.CurrentTimeOfDay.Hours;
+            var currentHour = GTA.Chrono.GameClock.Hour;
             var weather = Function.Call<int>(Hash.GET_PREV_WEATHER_TYPE_HASH_NAME);
             
             // Densité selon l'heure
@@ -181,7 +181,7 @@ namespace REALIS.Events
         {
             if (DateTime.Now - _lastPopulationUpdate < _populationUpdateInterval) return;
 
-            var currentHour = World.CurrentTimeOfDay.Hours;
+            var currentHour = GTA.Chrono.GameClock.Hour;
             
             foreach (var zone in _populationZones)
             {
@@ -361,7 +361,7 @@ namespace REALIS.Events
             {
                 case ActivityType.Walking:
                     var walkTarget = smartPed.Zone.Center + Vector3.RandomXY() * smartPed.Zone.Radius * 0.8f;
-                    ped.Task.GoTo(walkTarget);
+                    ped.Task.FollowNavMeshTo(walkTarget);
                     break;
                     
                 case ActivityType.Talking:
@@ -473,7 +473,7 @@ namespace REALIS.Events
 
             foreach (var ped in participants)
             {
-                ped.Task.GoTo(center + Vector3.RandomXY() * 3f);
+                ped.Task.FollowNavMeshTo(center + Vector3.RandomXY() * 3f);
                 ped.Task.LookAt(center);
             }
         }
@@ -492,7 +492,7 @@ namespace REALIS.Events
             foreach (var spectator in audience)
             {
                 var watchPos = performer.Position + Vector3.RandomXY() * _rng.Next(5, 12);
-                spectator.Task.GoTo(watchPos);
+                spectator.Task.FollowNavMeshTo(watchPos);
                 spectator.Task.LookAt(performer);
             }
         }
@@ -504,11 +504,11 @@ namespace REALIS.Events
             
             if (target != null)
             {
-                initiator.Task.FightAgainst(target);
-                target.Task.FightAgainst(initiator);
+                initiator.Task.Combat(target);
+                target.Task.Combat(initiator);
                 
                 // Notification
-                GTA.UI.Notification.Show("~r~Dispute en cours dans la zone!");
+                GTA.UI.Notification.PostTicker("~r~Dispute en cours dans la zone!", false, false);
             }
         }
 
@@ -543,7 +543,7 @@ namespace REALIS.Events
             if (weather == (int)Weather.Raining && smartPed.Zone.WeatherSensitive)
             {
                 // Chercher un abri
-                ped.Task.GoTo(GetNearestShelter(ped.Position));
+                ped.Task.FollowNavMeshTo(GetNearestShelter(ped.Position));
             }
         }
 
@@ -653,7 +653,7 @@ namespace REALIS.Events
 
         private ActivityType GetNextActivity(SmartPed smartPed)
         {
-            var currentHour = World.CurrentTimeOfDay.Hours;
+            var currentHour = GTA.Chrono.GameClock.Hour;
             var schedule = smartPed.Schedule.FirstOrDefault(s => 
                 currentHour >= s.StartHour && currentHour <= s.EndHour);
                 
