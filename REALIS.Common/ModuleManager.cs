@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 using System.Linq;
 using System.Reflection;
 
@@ -30,6 +30,7 @@ namespace REALIS.Common
 
                 // Debug simple pour éviter les problèmes de namespace
                 System.Diagnostics.Debug.WriteLine($"Trouvé {assemblies.Count} assemblies REALIS");
+                REALIS.Core.Logger.Info($"[ModuleManager] Trouvé {assemblies.Count} assemblies REALIS");
 
                 var moduleTypes = assemblies
                     .SelectMany(a => {
@@ -49,6 +50,7 @@ namespace REALIS.Common
                     .ToList();
 
                 System.Diagnostics.Debug.WriteLine($"Trouvé {moduleTypes.Count} modules IModule");
+                REALIS.Core.Logger.Info($"[ModuleManager] Trouvé {moduleTypes.Count} modules IModule");
 
                 foreach (var type in moduleTypes)
                 {
@@ -74,6 +76,7 @@ namespace REALIS.Common
                 }
 
                 System.Diagnostics.Debug.WriteLine($"ModuleManager initialisé avec {_modules.Count} modules");
+                REALIS.Core.Logger.Info($"[ModuleManager] Initialisé avec {_modules.Count} modules : {string.Join(", ", _modules.Select(m => m.GetType().Name))}");
             }
             catch (Exception ex)
             {

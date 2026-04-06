@@ -5,25 +5,17 @@
     <NoWarn>CS0168;CS0618;CS8618</NoWarn>
     <TargetFramework>net48</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <!-- Choisis l'un OU l'autre des blocs ci-dessous -->
     
-    <!-- Variante A : modernise -->
+    <!-- Configuration moderne -->
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     
-    <!-- Variante B : old-school (décommente si tu préfères) -->
-    <!-- <Nullable>disable</Nullable> -->
     <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
     
-    <!-- Référence vers SHVDN3 -->
-    <Reference Include="ScriptHookVDotNet3">
-      <HintPath>C:\Program Files\Epic Games\GTAV\ScriptHookVDotNet3.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-
+    <!-- Référence vers SHVDN3 (locale uniquement) -->
     <Reference Include="ScriptHookVDotNet3">
       <HintPath>ScriptHookVDotNet V3\ScriptHookVDotNet3.dll</HintPath>
       <Private>false</Private>

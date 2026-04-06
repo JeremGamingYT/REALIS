@@ -21,22 +21,24 @@ namespace REALIS.Police.Callouts
         private bool _suspectComplies;
         private bool _waitingExit;
 
-        public StolenVehicleCallout() : base("Véhicule volé", "Un véhicule vient d'être signalé comme volé.",
-            World.GetNextPositionOnStreet(Game.Player.Character.Position + Game.Player.Character.ForwardVector * 100f))
+        public StolenVehicleCallout() : base("Véhicule volé", "Un véhicule vient d'être signalé comme volé.", Vector3.Zero)
         {
         }
 
         protected override void OnStart()
         {
+            // Calculer la position de spawn au moment du démarrage
+            var spawnPosition = World.GetNextPositionOnStreet(Game.Player.Character.Position + Game.Player.Character.ForwardVector * 100f);
+
             // Crée le véhicule et le suspect
             Model vehModel = new Model(VehicleHash.Premier);
             vehModel.Request(1000);
             if (!vehModel.IsInCdImage || !vehModel.IsValid) return;
 
-            _suspectVehicle = World.CreateVehicle(vehModel, StartPosition);
+            _suspectVehicle = World.CreateVehicle(vehModel, spawnPosition);
             if (_suspectVehicle == null) return;
 
-            _suspect = World.CreateRandomPed(StartPosition);
+            _suspect = World.CreateRandomPed(spawnPosition);
             if (_suspect == null) return;
 
             _suspect.SetIntoVehicle(_suspectVehicle, VehicleSeat.Driver);

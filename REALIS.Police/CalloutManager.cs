@@ -18,6 +18,7 @@ namespace REALIS.Police
         public static CalloutManager Instance { get; private set; }
 
         private readonly List<CalloutBase> _calloutPool = new List<CalloutBase>();
+        private readonly List<Type> _calloutTypes = new List<Type>();
         private CalloutBase _pendingCallout;
         private DateTime _offerDeadline;
         private CalloutBase _activeCallout;
@@ -25,28 +26,17 @@ namespace REALIS.Police
         private DateTime _nextCalloutTime;
         private ObjectPool _uiPool;
         private NativeMenu _responseMenu;
+        private bool _calloutTypesInitialized = false;
 
         public void Initialize()
         {
             try
             {
                 Instance = this;
-                // Enregistre les callouts disponibles
-                _calloutPool.Add(new StolenVehicleCallout());
-
-                // Callout de test
-                _calloutPool.Add(new TestCallout());
-
-                // Nouveaux callouts épiques !
-                _calloutPool.Add(new StreetRacingCallout());
-                _calloutPool.Add(new HostageSituationCallout());
-                _calloutPool.Add(new CartelWarCallout());
-                _calloutPool.Add(new DisasterResponseCallout());
-
-                // Callouts activés
-                _calloutPool.Add(new BankRobberyCallout());
-                _calloutPool.Add(new TerroristAttackCallout());
-
+                
+                // Enregistre les types de callouts (sans les instancier)
+                InitializeCalloutTypes();
+                
                 ScheduleNext();
 
                 _uiPool = new ObjectPool();
@@ -54,6 +44,30 @@ namespace REALIS.Police
             catch (Exception ex)
             {
                 GTA.UI.Notification.Show($"~r~CalloutManager error in Initialize: {ex.Message} {ex.StackTrace}");
+            }
+        }
+
+        private void InitializeCalloutTypes()
+        {
+            if (_calloutTypesInitialized) return;
+            
+            try
+            {
+                // Enregistre les types de callouts disponibles (sans les instancier)
+                _calloutTypes.Add(typeof(StolenVehicleCallout));
+                _calloutTypes.Add(typeof(TestCallout));
+                _calloutTypes.Add(typeof(StreetRacingCallout));
+                _calloutTypes.Add(typeof(HostageSituationCallout));
+                _calloutTypes.Add(typeof(CartelWarCallout));
+                _calloutTypes.Add(typeof(DisasterResponseCallout));
+                _calloutTypes.Add(typeof(BankRobberyCallout));
+                _calloutTypes.Add(typeof(TerroristAttackCallout));
+                
+                _calloutTypesInitialized = true;
+            }
+            catch (Exception ex)
+            {
+                GTA.UI.Notification.Show($"~r~CalloutManager error in InitializeCalloutTypes: {ex.Message}");
             }
         }
 
@@ -113,17 +127,14 @@ namespace REALIS.Police
                 // Si c'est trop tôt pour le prochain callout, quitter.
                 if (DateTime.Now < _nextCalloutTime) return;
 
-                // Choisir un callout aléatoire qui peut spawn.
-                var candidates = _calloutPool.Where(c => c.CanSpawn()).ToList();
-                if (candidates.Count == 0)
+                // Essaie de créer un callout aléatoire qui peut spawn
+                if (!TryCreateRandomCallout())
                 {
                     ScheduleNext();
                     return;
                 }
 
-                _pendingCallout = candidates[_rng.Next(candidates.Count)];
                 _offerDeadline = DateTime.Now.AddSeconds(30);
-
                 ShowCalloutNotification(_pendingCallout);
             }
             catch (Exception ex)
@@ -133,6 +144,66 @@ namespace REALIS.Police
                 if (_pendingCallout != null) _pendingCallout = null;
                 if (_activeCallout != null) { _activeCallout.End(); _activeCallout = null; }
                 ScheduleNext(); // Schedule next to avoid getting stuck
+            }
+        }
+
+        private bool TryCreateRandomCallout()
+        {
+            try
+            {
+                // Vérifier si le joueur est disponible
+                if (!IsPlayerAvailable())
+                {
+                    return false;
+                }
+
+                // Mélanger les types de callouts pour la randomisation
+                var shuffledTypes = _calloutTypes.OrderBy(x => _rng.Next()).ToList();
+
+                foreach (var calloutType in shuffledTypes)
+                {
+                    try
+                    {
+                        // Créer une instance temporaire pour tester CanSpawn
+                        var calloutInstance = (CalloutBase)Activator.CreateInstance(calloutType);
+                        
+                        if (calloutInstance.CanSpawn())
+                        {
+                            _pendingCallout = calloutInstance;
+                            return true;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        GTA.UI.Notification.Show($"~r~Erreur création callout {calloutType.Name}: {ex.Message}");
+                        continue; // Essaie le type suivant
+                    }
+                }
+
+                return false; // Aucun callout disponible
+            }
+            catch (Exception ex)
+            {
+                GTA.UI.Notification.Show($"~r~CalloutManager error in TryCreateRandomCallout: {ex.Message}");
+                return false;
+            }
+        }
+
+        private static bool IsPlayerAvailable()
+        {
+            try
+            {
+                // Vérifications de sécurité pour s'assurer que le joueur est chargé
+                if (Game.Player == null) return false;
+                if (Game.Player.Character == null) return false;
+                if (!Game.Player.Character.Exists()) return false;
+                if (!Game.Player.IsPlaying) return false;
+                
+                return true;
+            }
+            catch
+            {
+                return false; // Si une exception est levée, le joueur n'est pas disponible
             }
         }
 
@@ -211,12 +282,11 @@ namespace REALIS.Police
             {
                 if (_activeCallout != null || _pendingCallout != null) return;
 
-                var candidates = _calloutPool.Where(c => c.CanSpawn()).ToList();
-                if (candidates.Count == 0) return;
-
-                _pendingCallout = candidates[_rng.Next(candidates.Count)];
-                _offerDeadline = DateTime.Now.AddSeconds(30);
-                ShowCalloutNotification(_pendingCallout);
+                if (TryCreateRandomCallout())
+                {
+                    _offerDeadline = DateTime.Now.AddSeconds(30);
+                    ShowCalloutNotification(_pendingCallout);
+                }
             }
             catch (Exception ex)
             {
@@ -245,24 +315,38 @@ namespace REALIS.Police
                     return;
                 }
 
-                var specificCallout = _calloutPool.FirstOrDefault(c => c.GetType().Name == calloutTypeName);
-                if (specificCallout == null)
+                if (!IsPlayerAvailable())
+                {
+                    GTA.UI.Notification.Show("~r~Joueur non disponible pour le moment!");
+                    return;
+                }
+
+                var calloutType = _calloutTypes.FirstOrDefault(t => t.Name == calloutTypeName);
+                if (calloutType == null)
                 {
                     GTA.UI.Notification.Show($"~r~Callout '{calloutTypeName}' non trouvé!");
                     return;
                 }
 
-                if (!specificCallout.CanSpawn())
+                try
                 {
-                    GTA.UI.Notification.Show($"~r~{specificCallout.Name} n'est pas disponible actuellement!");
-                    return;
-                }
+                    var specificCallout = (CalloutBase)Activator.CreateInstance(calloutType);
+                    if (!specificCallout.CanSpawn())
+                    {
+                        GTA.UI.Notification.Show($"~r~{specificCallout.Name} n'est pas disponible actuellement!");
+                        return;
+                    }
 
-                // Démarrer immédiatement le callout
-                _activeCallout = specificCallout;
-                _activeCallout.Start();
-                WantedVisualSystem.Instance?.SetLevel(1);
-                GTA.UI.Notification.Show($"~g~{specificCallout.Name} démarré!");
+                    // Démarrer immédiatement le callout
+                    _activeCallout = specificCallout;
+                    _activeCallout.Start();
+                    WantedVisualSystem.Instance?.SetLevel(1);
+                    GTA.UI.Notification.Show($"~g~{specificCallout.Name} démarré!");
+                }
+                catch (Exception ex)
+                {
+                    GTA.UI.Notification.Show($"~r~Erreur création callout {calloutTypeName}: {ex.Message}");
+                }
             }
             catch (Exception ex)
             {
